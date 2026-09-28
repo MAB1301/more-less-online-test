@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="theme-color" content="#090d19">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="MORE/LESS">
+<link rel="manifest" href="./manifest.webmanifest">
+<title>MORE / LESS</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:#080b14;color:#f8f9ff;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+body{min-height:100vh;min-height:100dvh;background:radial-gradient(circle at 50% -10%,#423488 0,#172044 30%,#080b14 65%);overscroll-behavior:none}
+button,input{font:inherit}.app{max-width:1050px;margin:auto;padding:max(14px,env(safe-area-inset-top)) 14px max(18px,env(safe-area-inset-bottom))}
+.panel{background:#111827ee;border:1px solid #303b58;border-radius:28px;padding:20px;box-shadow:0 28px 80px #0009}.hide{display:none!important}
+h1{font-size:clamp(52px,11vw,94px);line-height:.9;letter-spacing:-.07em;margin:16px 0}h1 span{color:#9b82ff}.muted{color:#aeb8ce}.small{font-size:12px}.center{text-align:center}
+.modes,.themes,.cards,.answers,.choices,.jokers{display:grid;gap:11px}.modes{grid-template-columns:repeat(2,1fr)}.themes{grid-template-columns:repeat(3,1fr)}
+.btn,.mode,.theme,.joker,.choice{appearance:none;border:1px solid #38445f;background:#192235;color:#fff;border-radius:18px;padding:14px;font-weight:900;min-height:58px;touch-action:manipulation}
+.btn:active,.mode:active,.theme:active,.joker:active,.choice:active{transform:scale(.985)}.primary{border:0;background:linear-gradient(135deg,#7255ff,#a36fff)}
+.mode{min-height:105px;text-align:left}.mode b{font-size:22px;display:block}.mode span{display:block;color:#b6bfd2;font-size:12px;margin-top:4px}.theme{min-height:96px;text-align:center}.theme i{font-style:normal;font-size:34px;display:block}.theme.sel{outline:3px solid #987dff;background:#292447}
+.top{display:flex;align-items:center;justify-content:space-between;gap:8px}.pill{display:inline-block;border:1px solid #465472;background:#222c42;border-radius:999px;padding:9px 15px;font-weight:900}
+.cards{grid-template-columns:1fr 1fr}.card{min-height:285px;cursor:pointer;user-select:none;touch-action:manipulation;background:linear-gradient(#222c43,#121927);border:1px solid #35425f;border-radius:26px;padding:15px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.visual{font-size:82px;min-height:120px;display:flex;align-items:center}.value{font-size:27px;font-weight:1000}.unknown{font-size:40px}.jokers{grid-template-columns:repeat(5,1fr);margin-top:12px}.joker{font-size:10px;padding:8px 4px}.joker b{display:block;font-size:24px}.joker.used{opacity:.3}.answers,.choices{grid-template-columns:1fr 1fr;margin-top:11px}
+.notice{margin-top:11px;padding:11px;border:1px solid #6658a0;background:#28233e;border-radius:14px;text-align:center;font-weight:850}.result{min-height:42px;text-align:center;font-size:25px;font-weight:1000;margin:8px}.good{color:#2add91}.bad{color:#ff6679}.card.pick{outline:4px solid #9b82ff;transform:translateY(-2px)}.card.correct{outline:4px solid #2add91}.card.wrong{outline:4px solid #ff6679}
+.giant{font-size:84px}.score{font-weight:950}.timer{font-size:28px;font-weight:1000;color:#ffd15c}.input{width:100%;padding:12px;margin:5px 0;border-radius:13px;border:1px solid #35405a;background:#0d1220;color:#fff}
+.online{border:1px dashed #5a6687;background:#141a28;border-radius:18px;padding:16px;margin-top:14px}.tag{font-size:11px;padding:5px 8px;border-radius:999px;background:#242e45}.settings{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.metricBox{border:1px solid #33405c;border-radius:16px;padding:10px;margin:8px 0;background:#0d1423}.metricBox summary{font-weight:950;cursor:pointer}.metricChecks{display:grid;grid-template-columns:repeat(2,1fr);gap:7px;margin-top:9px}.metricChecks label{background:#182238;border-radius:11px;padding:9px;font-size:12px}.pick3{grid-template-columns:repeat(3,1fr)}.source{font-size:11px;color:#9eabc3;text-align:center;margin-top:8px}.source a{color:#b9a8ff}.hi{font-size:12px;color:#ffd15c}.presetbar{display:flex;flex-wrap:wrap;gap:7px;margin:10px 0}.presetbar .btn{min-height:42px;padding:8px 10px;font-size:12px}@media(max-width:680px){.settings,.metricChecks,.pick3{grid-template-columns:1fr}}
+@media(max-width:680px){.modes{grid-template-columns:1fr}.themes{grid-template-columns:repeat(2,1fr)}.jokers{grid-template-columns:repeat(3,1fr)}.card{min-height:245px}.visual{font-size:66px;min-height:95px}.panel{padding:14px}}
+</style>
+</head>
+<body><main class="app">
+<section id="home"><div class="panel center"><div class="muted">VISUAL PARTY TRIVIA · FINAL</div><h1>MORE <span>/</span> LESS</h1><p class="muted">Mehr oder weniger? Wissen, bluffen, Joker zünden.</p>
+<div class="modes">
+<button class="mode primary" onclick="setup('solo')"><b>👤 Solo</b><span>5 Runden · 25 Fragen</span></button>
+<button class="mode" onclick="setup('duel')"><b>⚔️ 1 vs 1</b><span>Lokales Duell · Themenwahl</span></button>
+<button class="mode" onclick="setup('party')"><b>🎉 Party</b><span>3–6 Spieler · Gerät weitergeben</span></button>
+<button class="mode" onclick="setup('survival')"><b>❤️ Survival</b><span>3 Leben · endlos · 5er-Bonus</span></button>
+<button class="mode" onclick="setup('blitz')"><b>⚡ Blitz</b><span>90 Sekunden · +1 / −1</span></button>
+<button class="mode" onclick="setup('king')"><b>👑 King</b><span>Champion gegen Herausforderer</span></button>
+<button class="mode" onclick="setup('chaos')"><b>🎲 Chaos</b><span>Zufallsregel pro Runde</span></button>
+<button class="mode" onclick="onlineInfo()"><b>🌐 Online-Lobby</b><span>Mehrere Geräte · Backend nötig</span></button>
+</div>
+<div id="onlineInfo" class="online hide"><b>🌐 Online-Lobby</b><p class="muted small">Online ist als synchrones Mehrheits-Voting-Konzept vorbereitet: alle erhalten dieselben 3 Kategorien und dieselben Fragen. Für echte Raumcodes, QR-Beitritt, Votes und Antwort-Synchronisierung muss in config.js ein Realtime-Backend (z. B. Supabase/Firebase) konfiguriert werden. Ohne Backend bleibt Online bewusst deaktiviert; alle lokalen Modi funktionieren vollständig.</p></div>
+</div></section>
+
+<section id="setup" class="hide"><div class="panel"><div class="top"><div><div class="muted small">MATCH SETUP</div><h2 id="modeTitle"></h2></div><button class="btn" onclick="show('home')">←</button></div>
+<div class="settings"><label>Runden<select id="roundsSel" class="input"><option>3</option><option selected>5</option><option>7</option></select></label><label>Fragen/Runde<select id="qSel" class="input"><option>3</option><option selected>5</option><option>7</option><option>10</option></select></label></div><div class="presetbar"><button class="btn" onclick="preset('all')">🎉 ALLES</button><button class="btn" onclick="preset('geo')">🌍 GEO</button><button class="btn" onclick="preset('sport')">🏆 SPORT & GAMING</button><button class="btn" onclick="preset('curious')">🤪 KURIOS</button><button class="btn" onclick="toggleAll(true)">ALLE AN</button><button class="btn" onclick="toggleAll(false)">ALLE AUS</button></div><p class="muted">Wähle mindestens 5 Oberkategorien. Öffne eine Kategorie, um Unterkategorien festzulegen.</p><div id="themes"></div><div id="players" style="margin:14px 0"></div><div id="err" class="bad"></div>
+<button class="btn primary" style="width:100%;margin-top:12px" onclick="start()">SPIEL STARTEN</button></div></section>
+
+<section id="themePick" class="hide"><div class="panel center"><div class="muted small">NÄCHSTE RUNDE</div><div class="giant">🎛️</div><h2 id="chooserText"></h2><p class="muted">Drei Kategorien stehen zur Wahl. Die Unterkategorie wird aus deinem Lobby-Pool zufällig gezogen.</p><div id="pickThemes" class="themes pick3"></div></div></section>
+
+<section id="reveal" class="hide"><div class="panel center"><div id="roundLabel" class="muted"></div><div id="roundIcon" class="giant"></div><h2 id="roundTheme"></h2><p class="muted">Vergleich dieser Runde</p><div id="roundMetric" class="pill"></div><div id="modifier" class="notice hide"></div><br><br><button class="btn primary" style="width:100%" onclick="newQuestion()">LOS GEHT'S →</button></div></section>
+
+<section id="game" class="hide"><div class="top"><div id="score" class="score"></div><div id="prog" class="muted"></div></div><div class="panel" style="margin-top:10px">
+<div class="center"><div id="cat" class="muted small"></div><h2 id="prompt"></h2><div id="timer" class="timer"></div></div>
+<div class="cards"><div class="card" id="cardA" onclick="cardAnswer('a')"><div id="visA" class="visual"></div><h2 id="nameA"></h2><div id="valA" class="value"></div></div><div class="card" id="cardB" onclick="cardAnswer('b')"><div id="visB" class="visual"></div><h2 id="nameB"></h2><div id="valB" class="value unknown">???</div></div></div>
+<div id="notice" class="notice hide"></div><div id="jokers" class="jokers"></div><div id="choices" class="choices hide"></div><div id="result" class="result"></div><div id="source" class="source"></div>
+<div id="answers" class="notice">👆 Tippe auf die Karte, von der du glaubst, dass sie MEHR hat.</div>
+<button id="next" class="btn primary hide" style="width:100%;margin-top:10px" onclick="nextQuestion()">WEITER →</button></div></section>
+
+<section id="end" class="hide"><div class="panel center"><div class="muted">SPIEL BEENDET</div><div class="giant">🏆</div><h2 id="final"></h2><p id="summary" class="muted"></p><button class="btn primary" style="width:100%" onclick="show('home')">NOCHMAL SPIELEN</button></div></section>
+</main>
+<script>
+const DB={
+'🐾 Tiere':[
+{n:'Geschwindigkeit',q:'Ist das rechte Tier schneller oder langsamer?',u:'km/h',a:[['Gepard',100,'🐆'],['Löwe',80,'🦁'],['Strauß',70,'🐦'],['Elefant',40,'🐘'],['Krokodil',29,'🐊'],['Gorilla',40,'🦍'],['Hauskatze',48,'🐈'],['Giraffe',60,'🦒']]},
+{n:'Gewicht',q:'Ist das rechte Tier schwerer oder leichter?',u:'kg ca.',a:[['Blauwal',150000,'🐋'],['Elefant',6000,'🐘'],['Flusspferd',3200,'🦛'],['Giraffe',1200,'🦒'],['Löwe',190,'🦁'],['Gorilla',160,'🦍'],['Wolf',45,'🐺']]},
+{n:'Körperlänge',q:'Ist das rechte Tier länger oder kürzer?',u:'m ca.',a:[['Blauwal',30,'🐋'],['Salzwasserkrokodil',6,'🐊'],['Giraffe',5.5,'🦒'],['Komodowaran',3,'🦎'],['Eisbär',2.5,'🐻‍❄️'],['Löwe',2.1,'🦁']]},
+{n:'Lebenserwartung',q:'Lebt das rechte Tier typischerweise länger oder kürzer?',u:'Jahre ca.',a:[['Grönlandhai',250,'🦈'],['Elefant',65,'🐘'],['Gorilla',40,'🦍'],['Löwe',14,'🦁'],['Wolf',13,'🐺'],['Gepard',12,'🐆']]}],
+'🏙️ Gebäude':[
+{n:'Stockwerke',q:'Hat das rechte Gebäude mehr oder weniger Stockwerke?',u:'Etagen',a:[['Burj Khalifa',163,'🏙️'],['One WTC',104,'🏢'],['Empire State Building',102,'🏢'],['Taipei 101',101,'🏙️'],['The Shard',72,'🏢'],['Commerzbank Tower',56,'🏢']]},
+{n:'Höhe',q:'Ist das rechte Bauwerk höher oder niedriger?',u:'m',a:[['Burj Khalifa',828,'🏙️'],['One WTC',541,'🏢'],['Empire State Building',381,'🏢'],['Eiffelturm',330,'🗼'],['Kölner Dom',157,'⛪'],['Elizabeth Tower',96,'🕰️'],['Freiheitsstatue inkl. Sockel',93,'🗽']]}],
+'🌍 Länder':[
+{n:'Fläche',q:'Hat das rechte Land mehr oder weniger Fläche?',u:'km²',a:[['Kanada',9984670,'🇨🇦'],['USA',9833517,'🇺🇸'],['Brasilien',8515767,'🇧🇷'],['Australien',7692024,'🇦🇺'],['Indien',3287263,'🇮🇳'],['Argentinien',2780400,'🇦🇷'],['Frankreich',551695,'🇫🇷'],['Deutschland',357588,'🇩🇪'],['Italien',301340,'🇮🇹'],['Vereinigtes Königreich',243610,'🇬🇧']]},
+{n:'Bevölkerung',q:'Hat das rechte Land mehr oder weniger Einwohner?',u:'Mio. ca.',a:[['Indien',1428,'🇮🇳'],['China',1410,'🇨🇳'],['USA',340,'🇺🇸'],['Indonesien',278,'🇮🇩'],['Brasilien',216,'🇧🇷'],['Japan',124,'🇯🇵'],['Deutschland',84,'🇩🇪'],['Frankreich',68,'🇫🇷'],['Australien',27,'🇦🇺'],['Norwegen',5.5,'🇳🇴']]},
+{n:'Bevölkerungsdichte',q:'Ist das rechte Land dichter oder dünner besiedelt?',u:'Einw./km² ca.',a:[['Singapur',8000,'🇸🇬'],['Bangladesch',1300,'🇧🇩'],['Niederlande',530,'🇳🇱'],['Indien',480,'🇮🇳'],['Deutschland',235,'🇩🇪'],['Frankreich',120,'🇫🇷'],['USA',37,'🇺🇸'],['Australien',3.5,'🇦🇺'],['Mongolei',2.2,'🇲🇳']]},
+{n:'Küstenlinie',q:'Hat das rechte Land eine längere oder kürzere Küstenlinie?',u:'km ca.',a:[['Kanada',202080,'🇨🇦'],['Indonesien',54720,'🇮🇩'],['Russland',37650,'🇷🇺'],['Philippinen',36290,'🇵🇭'],['Japan',29750,'🇯🇵'],['Norwegen',25150,'🇳🇴'],['USA',19920,'🇺🇸'],['Australien',25760,'🇦🇺'],['Italien',7600,'🇮🇹'],['Deutschland',2400,'🇩🇪']]},
+{n:'Höchster Punkt',q:'Liegt der höchste Punkt des rechten Landes höher oder niedriger?',u:'m',a:[['Nepal',8849,'🇳🇵'],['Pakistan',8611,'🇵🇰'],['Indien',8586,'🇮🇳'],['Argentinien',6961,'🇦🇷'],['USA',6190,'🇺🇸'],['Tansania',5895,'🇹🇿'],['Frankreich',4806,'🇫🇷'],['Japan',3776,'🇯🇵'],['Deutschland',2962,'🇩🇪'],['Australien',2228,'🇦🇺']]},
+{n:'Nachbarländer',q:'Hat das rechte Land mehr oder weniger Landnachbarn?',u:'Nachbarn',a:[['China',14,'🇨🇳'],['Russland',14,'🇷🇺'],['Brasilien',10,'🇧🇷'],['Deutschland',9,'🇩🇪'],['Frankreich (Europa)',8,'🇫🇷'],['Österreich',8,'🇦🇹'],['Indien',6,'🇮🇳'],['Spanien',5,'🇪🇸'],['USA',2,'🇺🇸'],['Portugal',1,'🇵🇹']]},
+{n:'Lebenserwartung',q:'Ist die Lebenserwartung im rechten Land höher oder niedriger?',u:'Jahre ca.',a:[['Japan',84.5,'🇯🇵'],['Schweiz',84.0,'🇨🇭'],['Spanien',83.8,'🇪🇸'],['Australien',83.2,'🇦🇺'],['Frankreich',82.5,'🇫🇷'],['Deutschland',81.0,'🇩🇪'],['China',78.0,'🇨🇳'],['Brasilien',75.5,'🇧🇷'],['Indien',67.5,'🇮🇳'],['Nigeria',54.5,'🇳🇬']]},
+{n:'Durchschnittsalter',q:'Ist die Bevölkerung des rechten Landes im Schnitt älter oder jünger?',u:'Jahre ca.',a:[['Japan',49,'🇯🇵'],['Italien',48,'🇮🇹'],['Deutschland',45,'🇩🇪'],['Spanien',45,'🇪🇸'],['USA',39,'🇺🇸'],['China',39.5,'🇨🇳'],['Brasilien',34,'🇧🇷'],['Indien',29,'🇮🇳'],['Nigeria',18,'🇳🇬'],['Niger',15,'🇳🇪']]},
+{n:'Ø Körpergröße Männer',q:'Sind Männer im rechten Land durchschnittlich größer oder kleiner?',u:'cm ca.',a:[['Niederlande',184,'🇳🇱'],['Dänemark',182,'🇩🇰'],['Deutschland',180,'🇩🇪'],['Australien',179,'🇦🇺'],['USA',177,'🇺🇸'],['Japan',172,'🇯🇵'],['China',175,'🇨🇳'],['Indien',166,'🇮🇳'],['Indonesien',166.3,'🇮🇩']]},
+{n:'Ø Jahrestemperatur',q:'Ist das rechte Land im Jahresmittel wärmer oder kälter?',u:'°C ca.',a:[['Burkina Faso',28.3,'🇧🇫'],['Mali',28.0,'🇲🇱'],['Singapur',27.7,'🇸🇬'],['Brasilien',25.4,'🇧🇷'],['Australien',21.7,'🇦🇺'],['Spanien',15.0,'🇪🇸'],['Deutschland',9.5,'🇩🇪'],['Kanada',-4.0,'🇨🇦'],['Russland',-5.1,'🇷🇺']]}
+],
+'🏔️ Berge':[{n:'Höhe',q:'Ist der rechte Berg höher oder niedriger?',u:'m',a:[['Mount Everest',8849,'🏔️'],['K2',8611,'⛰️'],['Kilimandscharo',5895,'🌋'],['Mont Blanc',4806,'🏔️'],['Matterhorn',4478,'⛰️'],['Zugspitze',2962,'⛰️'],['Brocken',1141,'⛰️']]}],
+'🌊 Flüsse':[{n:'Länge',q:'Ist der rechte Fluss länger oder kürzer?',u:'km ca.',a:[['Nil',6650,'🌊'],['Amazonas',6400,'🌊'],['Jangtse',6300,'🌊'],['Mississippi–Missouri',6275,'🌊'],['Donau',2850,'🌊'],['Rhein',1233,'🌊'],['Elbe',1094,'🌊']]}],
+'🪐 Weltraum':[{n:'Durchmesser',q:'Ist der rechte Planet größer oder kleiner?',u:'km Ø',a:[['Jupiter',139820,'🟠'],['Saturn',116460,'🪐'],['Uranus',50724,'🔵'],['Neptun',49244,'🔵'],['Erde',12742,'🌍'],['Venus',12104,'🟡'],['Mars',6779,'🔴'],['Merkur',4879,'⚪']]},
+{n:'Umlaufzeit',q:'Braucht der rechte Planet länger oder kürzer für einen Sonnenumlauf?',u:'Erdtage ca.',a:[['Neptun',60190,'🔵'],['Uranus',30687,'🔵'],['Saturn',10759,'🪐'],['Jupiter',4333,'🟠'],['Mars',687,'🔴'],['Erde',365.25,'🌍'],['Venus',225,'🟡'],['Merkur',88,'⚪']]},
+{n:'Oberflächengravitation',q:'Ist die Gravitation rechts stärker oder schwächer?',u:'m/s² ca.',a:[['Jupiter',24.8,'🟠'],['Neptun',11.2,'🔵'],['Saturn',10.4,'🪐'],['Erde',9.81,'🌍'],['Uranus',8.7,'🔵'],['Venus',8.87,'🟡'],['Mars',3.71,'🔴'],['Merkur',3.7,'⚪']]}],
+'🎬 Filme':[{n:'Laufzeit',q:'Läuft der rechte Film länger oder kürzer?',u:'min',a:[['Titanic',194,'🚢'],['Oppenheimer',180,'⚛️'],['Interstellar',169,'🚀'],['Avatar',162,'🌌'],['Barbie',114,'🎀'],['Toy Story',81,'🤠'],['Der König der Löwen (1994)',88,'🦁']]},
+{n:'Einspielergebnis weltweit',q:'Hat der rechte Film weltweit mehr oder weniger eingespielt?',u:'Mrd. USD ca.',a:[['Avatar',2.92,'🌌'],['Avengers: Endgame',2.80,'🦸'],['Titanic',2.26,'🚢'],['Barbie',1.45,'🎀'],['Oppenheimer',0.98,'⚛️'],['Interstellar',0.73,'🚀']]}],
+'🎮 Gaming':[{n:'Verkäufe',q:'Hat sich das rechte Spiel häufiger oder seltener verkauft?',u:'Mio. ca.',a:[['Minecraft',300,'⛏️'],['GTA V',200,'🚗'],['Wii Sports',83,'🎳'],['Red Dead Redemption 2',74,'🤠'],['Mario Kart 8 Deluxe',62,'🏎️'],['Skyrim',60,'🐉']]},
+{n:'Erscheinungsjahr',q:'Welches Spiel erschien später?',u:'Jahr',a:[['Elden Ring',2022,'⚔️'],['Among Us',2018,'🚀'],['Fortnite',2017,'🚌'],['GTA V',2013,'🚗'],['Minecraft',2011,'⛏️'],['Skyrim',2011,'🐉']]}],
+'⚽ Fußball':[{n:'Stadionkapazität',q:'Fasst das rechte Stadion mehr oder weniger Zuschauer?',u:'Plätze',a:[['Camp Nou (historisch)',99354,'🏟️'],['Wembley',90000,'🏟️'],['Signal Iduna Park',81365,'⚽'],['Allianz Arena',75000,'🏟️'],['Olympiastadion Berlin',74475,'🏟️'],['Anfield',61276,'🏟️']]}],
+'🏎️ Autos':[{n:'Höchstgeschwindigkeit',q:'Ist das rechte Auto schneller oder langsamer?',u:'km/h ca.',a:[['Bugatti Chiron SS 300+',490,'🏎️'],['McLaren F1',386,'🏎️'],['Porsche 911 Turbo S',330,'🚘'],['Ferrari F40',324,'🚗'],['VW Golf GTI',250,'🚙'],['Mazda MX-5',219,'🚗']]},
+{n:'Leistung',q:'Hat das rechte Auto mehr oder weniger Leistung?',u:'PS ca.',a:[['Bugatti Chiron SS 300+',1600,'🏎️'],['Ferrari SF90',1000,'🏎️'],['Porsche 911 Turbo S',650,'🚘'],['BMW M3 Competition',510,'🚗'],['VW Golf GTI',265,'🚙'],['Mazda MX-5',184,'🚗']]},
+{n:'0–100 km/h',q:'Braucht das rechte Auto mehr oder weniger Zeit auf 100 km/h?',u:'s ca.',a:[['Mazda MX-5',6.5,'🚗'],['VW Golf GTI',5.9,'🚙'],['BMW M3 Competition',3.9,'🚗'],['Porsche 911 Turbo S',2.7,'🚘'],['Ferrari SF90',2.5,'🏎️'],['Bugatti Chiron SS 300+',2.4,'🏎️']]}],
+'✈️ Flugzeuge':[{n:'Spannweite',q:'Welches Flugzeug hat die größere Spannweite?',u:'m ca.',a:[['Stratolaunch Roc',117,'✈️'],['Antonow An-225',88.4,'✈️'],['Airbus A380',79.8,'🛫'],['Boeing 747-8',68.4,'✈️'],['Concorde',25.6,'✈️'],['Cessna 172',11,'🛩️']]},{n:'Länge',q:'Welches Flugzeug ist länger?',u:'m ca.',a:[['Antonow An-225',84,'✈️'],['Boeing 747-8',76.3,'✈️'],['Airbus A380',72.7,'🛫'],['Concorde',61.7,'✈️'],['ATR 72',27.2,'🛩️'],['Cessna 172',8.3,'🛩️']]},{n:'Geschwindigkeit',q:'Ist das rechte Flugzeug schneller oder langsamer?',u:'km/h ca.',a:[['Concorde',2180,'✈️'],['Boeing 747',920,'✈️'],['Airbus A380',900,'🛫'],['ATR 72',510,'🛩️'],['Cessna 172',226,'🛩️']]}],
+'🍔 Essen':[{n:'Kalorien',q:'Hat das rechte Lebensmittel mehr oder weniger Kalorien?',u:'kcal/100g ca.',a:[['Olivenöl',884,'🫒'],['Schokolade',535,'🍫'],['Pommes',312,'🍟'],['Avocado',160,'🥑'],['Banane',89,'🍌'],['Apfel',52,'🍎'],['Gurke',15,'🥒']]},
+{n:'Protein',q:'Hat das rechte Lebensmittel mehr oder weniger Protein?',u:'g/100g ca.',a:[['Parmesan',35.8,'🧀'],['Erdnüsse',25.8,'🥜'],['Hähnchenbrust',23.1,'🍗'],['Ei',12.6,'🥚'],['Haferflocken',13.5,'🥣'],['Avocado',2,'🥑'],['Apfel',0.3,'🍎']]}],
+'🏝️ Inseln':[
+{n:'Fläche',q:'Welche Insel hat mehr Fläche?',u:'km² ca.',a:[['Grönland',2166086,'🏝️'],['Neuguinea',785753,'🏝️'],['Borneo',748168,'🏝️'],['Madagaskar',587041,'🏝️'],['Baffininsel',507451,'🏝️'],['Sumatra',473481,'🏝️'],['Honshu',227960,'🏝️'],['Großbritannien',209331,'🏝️']]},
+{n:'Höchster Punkt',q:'Welche Insel erreicht einen höheren Punkt?',u:'m',a:[['Neuguinea',4884,'🏔️'],['Borneo',4095,'🏔️'],['Taiwan',3952,'🏔️'],['Honshu',3776,'🗻'],['Sumatra',3805,'🏔️'],['Sizilien',3357,'🌋'],['Korsika',2706,'🏔️'],['Großbritannien',1345,'🏔️']]}],
+'🌋 Vulkane':[
+{n:'Höhe',q:'Welcher Vulkan ist höher?',u:'m',a:[['Ojos del Salado',6893,'🌋'],['Llullaillaco',6739,'🌋'],['Kilimandscharo',5895,'🌋'],['Elbrus',5642,'🌋'],['Pico de Orizaba',5636,'🌋'],['Popocatépetl',5426,'🌋'],['Ätna',3357,'🌋'],['Vesuv',1281,'🌋']]},
+{n:'Letzte große historische Eruption',q:'Welcher Vulkan hatte die spätere große historische Eruption?',u:'Jahr',a:[['Mount St. Helens',1980,'🌋'],['Pinatubo',1991,'🌋'],['Krakatau',1883,'🌋'],['Tambora',1815,'🌋'],['Vesuv',79,'🌋'],['Novarupta',1912,'🌋']]}],
+'🚢 Schiffe':[
+{n:'Länge',q:'Welches Schiff ist länger?',u:'m ca.',a:[['Seawise Giant',458.5,'🚢'],['Prelude FLNG',488,'🚢'],['Icon of the Seas',365,'🛳️'],['Queen Mary 2',345,'🛳️'],['Titanic',269.1,'🚢'],['USS Gerald R. Ford',337,'⚓'],['Ever Given',400,'🚢']]},
+{n:'Baujahr / Indienststellung',q:'Welches Schiff ist neuer?',u:'Jahr',a:[['Icon of the Seas',2024,'🛳️'],['Ever Given',2018,'🚢'],['Queen Mary 2',2004,'🛳️'],['USS Gerald R. Ford',2017,'⚓'],['Titanic',1912,'🚢'],['Seawise Giant',1979,'🚢']]}],
+'🧠 Körper':[
+{n:'Organmasse',q:'Welches Organ ist schwerer?',u:'g ca.',a:[['Leber',1500,'🫀'],['Gehirn',1400,'🧠'],['Lunge gesamt',1000,'🫁'],['Herz',300,'❤️'],['Niere',150,'🫘'],['Milz',150,'🩸']]},
+{n:'Länge',q:'Welcher Körperteil ist länger?',u:'m ca.',a:[['Dünndarm',6,'🧬'],['Dickdarm',1.5,'🧬'],['Speiseröhre',0.25,'🧬'],['Luftröhre',0.12,'🫁']]}],
+'🎤 Musik':[
+{n:'Songlänge',q:'Welcher Song ist länger?',u:'min ca.',a:[['Hotel California',6.50,'🎸'],['Bohemian Rhapsody',5.55,'🎤'],['Billie Jean',4.90,'🕺'],['Shape of You',3.89,'🎵'],['Blinding Lights',3.33,'🎶'],['bad guy',3.23,'🎧']]},
+{n:'Veröffentlichungsjahr',q:'Welcher Song erschien später?',u:'Jahr',a:[['Blinding Lights',2019,'🎶'],['bad guy',2019,'🎧'],['Shape of You',2017,'🎵'],['Billie Jean',1982,'🕺'],['Hotel California',1976,'🎸'],['Bohemian Rhapsody',1975,'🎤']]}],
+'📺 Serien':[
+{n:'Episoden',q:'Welche Serie hat mehr reguläre Episoden?',u:'Episoden ca.',a:[['Die Simpsons',790,'🍩'],['Grey’s Anatomy',450,'🏥'],['NCIS',480,'🕵️'],['Friends',236,'☕'],['The Office (US)',201,'📎'],['Breaking Bad',62,'🧪'],['Game of Thrones',73,'🐉']]},
+{n:'Startjahr',q:'Welche Serie startete später?',u:'Jahr',a:[['Game of Thrones',2011,'🐉'],['Breaking Bad',2008,'🧪'],['The Office (US)',2005,'📎'],['Grey’s Anatomy',2005,'🏥'],['NCIS',2003,'🕵️'],['Friends',1994,'☕'],['Die Simpsons',1989,'🍩']]}],
+'📱 Technik':[{n:'Gewicht',q:'Ist das rechte Gerät schwerer oder leichter?',u:'g ca.',a:[['MacBook Air 13',1240,'💻'],['iPad Pro 13',579,'📱'],['iPhone 15 Pro Max',221,'📱'],['Apple Watch Ultra 2',62,'⌚'],['AirPods Pro inkl. Case',61,'🎧']]},
+{n:'Displaygröße',q:'Hat das rechte Gerät ein größeres oder kleineres Display?',u:'Zoll',a:[['MacBook Air 13',13.6,'💻'],['iPad Pro 13',13,'📱'],['iPhone 15 Pro Max',6.7,'📱'],['Apple Watch Ultra 2',1.92,'⌚']]},
+{n:'Startpreis Deutschland',q:'War das rechte Gerät zum Start teurer oder günstiger?',u:'€ ca.',a:[['MacBook Air 13',1299,'💻'],['iPad Pro 13',1549,'📱'],['iPhone 15 Pro Max',1449,'📱'],['Apple Watch Ultra 2',899,'⌚'],['AirPods Pro',279,'🎧']]}]
+};
+const modes={solo:'👤 Solo',duel:'⚔️ 1 vs 1',party:'🎉 Party',survival:'❤️ Survival',blitz:'⚡ Blitz',king:'👑 King',chaos:'🎲 Chaos'};
+const screens=['home','setup','themePick','reveal','game','end'];
+let lastMetricByTheme={};
+let gameRounds=5,questionsPerRound=5,allowedMetrics={};
+let mode='solo',pool=[],round=0,qnum=0,theme='',metric=null,cur=null,players=[],turn=0,locked=false,activeJ=null,passedFrom=null,lives=3,streak=0,deadline=0,timerId=null,modifier='',usedPairs=new Set(),usedThemes=[],roundStartScores=[],king=0,challenger=1,forcedTheme=null,skipResolve=false;
+
+function show(id){screens.forEach(x=>document.getElementById(x).classList.toggle('hide',x!==id))}
+function onlineInfo(){document.getElementById('onlineInfo').classList.toggle('hide')}
+function setup(m){
+ mode=m;document.getElementById('modeTitle').textContent=modes[m];document.getElementById('err').textContent='';
+ let t=document.getElementById('themes');t.innerHTML='';
+ Object.keys(DB).forEach(k=>{let d=document.createElement('details');d.className='metricBox';d.dataset.k=k;let sum=document.createElement('summary');sum.innerHTML='<input type="checkbox" class="catCheck" checked onclick="event.stopPropagation()"> '+k;d.appendChild(sum);let box=document.createElement('div');box.className='metricChecks';DB[k].forEach((met,i)=>{let lab=document.createElement('label');lab.innerHTML='<input class="metCheck" type="checkbox" checked data-cat="'+k+'" data-i="'+i+'"> '+met.n;box.appendChild(lab)});d.appendChild(box);t.appendChild(d)});
+ let p=document.getElementById('players');p.innerHTML='';let count=m==='duel'?2:m==='party'?4:m==='king'?4:1;
+ if(m==='party'||m==='king'){let sel=document.createElement('select');sel.id='playerCount';sel.className='input';[3,4,5,6].forEach(n=>sel.innerHTML+='<option '+(n===4?'selected':'')+'>'+n+'</option>');sel.onchange=()=>makePlayerInputs(+sel.value);p.appendChild(sel)}
+ if(count>1)makePlayerInputs(count);show('setup')
+}
+function makePlayerInputs(n){let p=document.getElementById('players');[...p.querySelectorAll('.pname')].forEach(x=>x.remove());for(let i=0;i<n;i++){let inp=document.createElement('input');inp.className='input pname';inp.value='Spieler '+(i+1);inp.id='pn'+i;p.appendChild(inp)}}
+function toggleAll(on){document.querySelectorAll('.catCheck,.metCheck').forEach(x=>x.checked=on)}
+function preset(type){toggleAll(false);let cats=type==='geo'?['🌍 Länder','🏔️ Berge','🌊 Flüsse','🏝️ Inseln','🌋 Vulkane']:type==='sport'?['🎮 Gaming','⚽ Fußball','🏎️ Autos']:Object.keys(DB);document.querySelectorAll('.metricBox').forEach(d=>{if(cats.includes(d.dataset.k)){d.querySelector('.catCheck').checked=true;d.querySelectorAll('.metCheck').forEach(x=>x.checked=true)}});if(type==='curious'){document.querySelectorAll('.metricBox').forEach(d=>{d.querySelector('.catCheck').checked=true;[...d.querySelectorAll('.metCheck')].forEach((x,i)=>x.checked=i>0)})}}
+
+function start(){
+ pool=[];allowedMetrics={};document.querySelectorAll('.metricBox').forEach(d=>{if(!d.querySelector('.catCheck').checked)return;let ids=[...d.querySelectorAll('.metCheck')].filter(x=>x.checked).map(x=>+x.dataset.i);if(ids.length){pool.push(d.dataset.k);allowedMetrics[d.dataset.k]=ids}});if(pool.length<5){document.getElementById('err').textContent='Bitte mindestens 5 Oberkategorien mit mindestens einer Unterkategorie auswählen.';return}
+ gameRounds=+document.getElementById('roundsSel').value;questionsPerRound=+document.getElementById('qSel').value;
+ let n=mode==='duel'?2:(mode==='party'||mode==='king'?+(document.getElementById('playerCount')?.value||4):1);players=Array.from({length:n},(_,i)=>({name:n===1?'Du':(document.getElementById('pn'+i)?.value.trim()||'Spieler '+(i+1)),score:0,j:[1,1,1,1,1],skip:false}));
+ round=0;qnum=0;turn=0;lives=3;streak=0;usedPairs.clear();usedThemes=[];king=0;challenger=1;deadline=mode==='blitz'?Date.now()+90000:0;
+ chooseTheme(mode==='duel'?Math.floor(Math.random()*2):0)
+}
+
+function chooseTheme(chooser){
+ let available=pool.filter(x=>!usedThemes.includes(x));if(available.length<3){usedThemes=[];available=[...pool]}
+ let opts=[...available].sort(()=>Math.random()-.5).slice(0,3);document.getElementById('chooserText').textContent=(players.length>1?players[chooser].name+' wählt':'Wähle eine Kategorie');let box=document.getElementById('pickThemes');box.innerHTML='';opts.forEach(k=>{let b=document.createElement('button');b.className='theme';b.innerHTML='<i>'+k.split(' ')[0]+'</i>'+k.split(' ').slice(1).join(' ');b.onclick=()=>{forcedTheme=k;startRound()};box.appendChild(b)});show('themePick')
+}
+
+function startRound(){
+ let available=pool.filter(x=>!usedThemes.includes(x));if(!available.length){usedThemes=[];available=[...pool]}
+ theme=forcedTheme||pick(available);forcedTheme=null;usedThemes.push(theme);
+ let metrics=(allowedMetrics[theme]||DB[theme].map((_,i)=>i)).map(i=>DB[theme][i]), choices=metrics.filter(x=>x.n!==lastMetricByTheme[theme]);
+ metric=pick(choices.length?choices:metrics);lastMetricByTheme[theme]=metric.n;
+ modifier=mode==='chaos'?pick(['🔥 Punkte ×2','💀 Falsch = −1','🚫 Keine Joker','⏱️ 5 Sekunden','🔀 MORE/LESS vertauscht']):'';
+ roundStartScores=players.map(p=>p.score);
+ document.getElementById('roundLabel').textContent=(mode==='survival'||mode==='blitz')?'ENDLOS-MODUS':'RUNDE '+(round+1)+' VON '+gameRounds;
+ document.getElementById('roundIcon').textContent=theme.split(' ')[0];document.getElementById('roundTheme').textContent=theme.split(' ').slice(1).join(' ');document.getElementById('roundMetric').textContent=metric.n;
+ let m=document.getElementById('modifier');m.textContent=modifier;m.classList.toggle('hide',!modifier);show('reveal')
+}
+function uniquePair(){
+ let candidates=[];for(let i=0;i<metric.a.length;i++)for(let j=0;j<metric.a.length;j++)if(i!==j&&metric.a[i][1]!==metric.a[j][1]){let key=theme+'|'+metric.n+'|'+metric.a[i][0]+'|'+metric.a[j][0];if(!usedPairs.has(key))candidates.push([metric.a[i],metric.a[j],key])}
+ if(!candidates.length){usedPairs.clear();return uniquePair()}let x=pick(candidates);usedPairs.add(x[2]);return {a:x[0],b:x[1]}
+}
+function newQuestion(){
+ if(mode==='blitz'&&Date.now()>=deadline)return finish();
+ if(players[turn]?.skip){players[turn].skip=false;advanceTurn();qnum++;if(mode!=='survival'&&mode!=='blitz'&&qnum>=questionsPerRound){qnum=0;round++;if(round>=gameRounds)return finish();return afterRound()}return newQuestion()}
+ locked=false;activeJ=null;passedFrom=null;skipResolve=false;['cardA','cardB'].forEach(id=>document.getElementById(id).classList.remove('pick','correct','wrong'));document.getElementById('notice').classList.add('hide');document.getElementById('choices').classList.add('hide');document.getElementById('choices').innerHTML='';document.getElementById('result').textContent='';document.getElementById('source').innerHTML='';document.getElementById('answers').classList.remove('hide');document.getElementById('next').classList.add('hide');document.getElementById('timer').textContent='';
+ cur=uniquePair();let a=cur.a,b=cur.b;
+ [['visA',a[2]],['visB',b[2]],['nameA',a[0]],['nameB',b[0]],['valA',fmt(a[1])+' '+metric.u],['valB','???'],['prompt',metric.q],['cat',theme+' · '+metric.n]].forEach(([id,v])=>document.getElementById(id).textContent=v);
+ render();show('game');if(mode==='blitz')startTimer();if(modifier==='⏱️ 5 Sekunden')startFive()
+}
+function fmt(v){return Number(v).toLocaleString('de-DE',{maximumFractionDigits:2})}function pick(a){return a[Math.floor(Math.random()*a.length)]}
+function render(){
+ let s=players.map((p,i)=>((i===turn)?'▶ ':'')+p.name+' '+p.score).join(' · ');if(mode==='survival')s+=' · '+'❤️'.repeat(lives)+' · 🔥'+streak;
+ if(mode==='king')s='👑 '+players[king].name+' vs '+players[challenger].name+' · '+players.map(p=>p.name+' '+p.score).join(' · ');
+ document.getElementById('score').textContent=s;document.getElementById('prog').textContent=(mode==='survival'||mode==='blitz')?'F '+(qnum+1):'R'+(round+1)+'/'+gameRounds+' · F'+(qnum+1)+'/'+questionsPerRound;
+ let box=document.getElementById('jokers');box.innerHTML='';let defs=[['🎯','4 WERTE'],['👁️','ANTWORT'],['💣','ABGEBEN'],['🔥','2X'],['🧊','AUSSETZEN']];
+ defs.forEach((d,i)=>{if(players.length===1&&(i===2||i===4))return;let b=document.createElement('button');b.className='joker '+(!players[turn].j[i]?'used':'');b.innerHTML='<b>'+d[0]+'</b>'+d[1];b.disabled=!players[turn].j[i]||locked||modifier==='🚫 Keine Joker'||passedFrom!==null;b.onclick=()=>joker(i);box.appendChild(b)})
+}
+function note(t){let n=document.getElementById('notice');n.textContent=t;n.classList.remove('hide')}
+function joker(i){
+ if(activeJ!==null||!players[turn].j[i]||passedFrom!==null)return;players[turn].j[i]=0;activeJ=i;
+ if(i===0){let vals=[cur.b[1]],spread=Math.max(Math.abs(cur.b[1])*.2,2),tries=0;while(vals.length<4&&tries++<100){let v=Math.max(0,Math.round((cur.b[1]+(Math.random()*2-1)*spread*2)*100)/100);if(!vals.includes(v))vals.push(v)}vals.sort(()=>Math.random()-.5);let c=document.getElementById('choices');c.innerHTML='';vals.forEach(v=>{let b=document.createElement('button');b.className='choice';b.textContent=fmt(v)+' '+metric.u;b.onclick=()=>resolve(v===cur.b[1]);c.appendChild(b)});c.classList.remove('hide');document.getElementById('answers').classList.add('hide');note('🎯 Wähle den exakten Wert.')}
+ if(i===1){note('👁️ Exakte Antwort: '+fmt(cur.b[1])+' '+metric.u);setTimeout(()=>resolve(true),350)}
+ if(i===2){let origin=turn,targets=players.map((_,x)=>x).filter(x=>x!==turn);targetPicker('💣 An wen abgeben?',targets,x=>{passedFrom=origin;turn=x;activeJ=null;note('💣 '+players[x].name+' übernimmt: richtig +1, falsch −1. Keine Joker.');render()})}
+ if(i===3)note('🔥 2X aktiv: richtig +2, falsch 0.');
+ if(i===4){let targets=players.map((_,x)=>x);targetPicker('🧊 Wer setzt aus?',targets,x=>signPicker(x))}
+ render()
+}
+function signPicker(x){let c=document.getElementById('choices');c.innerHTML='<div style="grid-column:1/-1;text-align:center;font-weight:900">🧊 '+players[x].name+': PLUS oder MINUS?</div>';[['➕ +1',1],['➖ −1',-1]].forEach(([t,v])=>{let b=document.createElement('button');b.className='choice';b.textContent=t;b.onclick=()=>{players[x].score+=v;players[x].skip=true;c.classList.add('hide');note('🧊 '+players[x].name+' setzt die nächste eigene Frage aus und erhält '+(v>0?'+1':'−1')+'.');render()};c.appendChild(b)});c.classList.remove('hide')}
+function targetPicker(label,targets,cb){let c=document.getElementById('choices');c.innerHTML='<div style="grid-column:1/-1;text-align:center;font-weight:900">'+label+'</div>';targets.forEach(x=>{let b=document.createElement('button');b.className='choice';b.textContent=players[x].name;b.onclick=()=>{c.classList.add('hide');cb(x)};c.appendChild(b)});c.classList.remove('hide')}
+function cardAnswer(side){if(locked||activeJ===0)return;let chosen=side==='a'?cur.a:cur.b,other=side==='a'?cur.b:cur.a;let ok=chosen[1]>other[1];if(modifier==='🔀 MORE/LESS vertauscht')ok=!ok;document.getElementById(side==='a'?'cardA':'cardB').classList.add('pick');resolve(ok);let correctSide=cur.a[1]>cur.b[1]?'cardA':'cardB';document.getElementById(correctSide).classList.add('correct');if(!ok)document.getElementById(side==='a'?'cardA':'cardB').classList.add('wrong')}
+
+function answer(x,auto=false){if(locked)return;let right=cur.b[1]>cur.a[1]?'more':'less';if(modifier==='🔀 MORE/LESS vertauscht'&&!auto)right=right==='more'?'less':'more';resolve(x===right)}
+function resolve(ok){
+ if(locked)return;locked=true;clearInterval(window.fiveTimer);document.getElementById('valB').textContent=fmt(cur.b[1])+' '+metric.u;document.getElementById('valA').textContent=fmt(cur.a[1])+' '+metric.u;document.getElementById('source').innerHTML=sourceFor(theme);
+ let pts=activeJ===3?2:1;if(modifier==='🔥 Punkte ×2')pts*=2;
+ if(passedFrom!==null)players[turn].score+=ok?1:-1;else if(mode==='blitz')players[turn].score+=ok?1:-1;else if(ok)players[turn].score+=pts;else if(modifier==='💀 Falsch = −1')players[turn].score-=1;
+ if(mode==='survival'){if(ok){streak++;if(streak%5===0){lives++;note('❤️ 5 richtige! Ein Leben zurück.')}}else{lives--;streak=0}}
+ let delta=passedFrom!==null?(ok?'+1':'−1'):mode==='blitz'?(ok?'+1':'−1'):(ok?'+'+pts:(modifier==='💀 Falsch = −1'?'−1':''));
+ let r=document.getElementById('result');r.textContent=(ok?'✅ RICHTIG! ':'❌ FALSCH! ')+delta;r.className='result '+(ok?'good':'bad');
+ document.getElementById('answers').classList.add('hide');document.getElementById('choices').classList.add('hide');document.getElementById('next').classList.remove('hide');render();
+ if(mode==='survival'&&lives<=0)setTimeout(finish,650)
+}
+function advanceTurn(){
+ if(players.length===1)return;
+ if(mode==='king'){turn=turn===king?challenger:king;return}
+ turn=(turn+1)%players.length
+}
+function nextQuestion(){
+ if(mode==='blitz'){qnum++;return newQuestion()}
+ let origin=passedFrom;passedFrom=null;qnum++;
+ if(origin!==null){turn=origin;advanceTurn()}else advanceTurn();
+ if(mode==='survival'){if(qnum%questionsPerRound===0){round++;startRound()}else newQuestion();return}
+ if(qnum<questionsPerRound){newQuestion();return}
+ qnum=0;round++;if(round>=gameRounds)return finish();afterRound()
+}
+function afterRound(){
+ if(mode==='duel'){let d=players.map((p,i)=>p.score-roundStartScores[i]);let chooser=d[0]===d[1]?Math.floor(Math.random()*2):(d[0]<d[1]?0:1);return chooseTheme(chooser)}
+ if(mode==='king'){let kd=players[king].score-roundStartScores[king],cd=players[challenger].score-roundStartScores[challenger];if(cd>kd)king=challenger;let next=(challenger+1)%players.length;if(next===king)next=(next+1)%players.length;challenger=next;turn=king;return chooseTheme(king)}
+ return chooseTheme(mode==='duel'?chooserForNext():0)
+}
+function chooserForNext(){if(players.length<2)return 0;let d=players.map((p,i)=>p.score-roundStartScores[i]);let min=Math.min(...d),c=d.map((x,i)=>x===min?i:-1).filter(i=>i>=0);return pick(c)}
+function startTimer(){clearInterval(timerId);timerId=setInterval(()=>{let left=Math.max(0,Math.ceil((deadline-Date.now())/1000));document.getElementById('timer').textContent='⚡ '+left+'s';if(left<=0){clearInterval(timerId);finish()}},250)}
+function startFive(){let left=5;document.getElementById('timer').textContent='⏱️ '+left+'s';let tick=setInterval(()=>{if(locked){clearInterval(tick);return}left--;document.getElementById('timer').textContent='⏱️ '+left+'s';if(left<=0){clearInterval(tick);window.fiveTimer=null;resolve(false)}},1000);window.fiveTimer=tick}
+function finish(){
+ clearInterval(timerId);clearInterval(window.fiveTimer);let sorted=[...players].sort((a,b)=>b.score-a.score),top=sorted[0],ties=sorted.filter(p=>p.score===top.score);
+ document.getElementById('final').textContent=mode==='survival'?'Survival-Score: '+players[0].score:players.length===1?players[0].score+' Punkte':ties.length>1?'🤝 Unentschieden · '+top.score+' Punkte':'🏆 '+top.name+' · '+top.score+' Punkte';
+ let hs='';if(mode==='solo'||mode==='survival'){let key='moreless_'+mode+'_high',old=+(localStorage.getItem(key)||0);if(players[0].score>old){localStorage.setItem(key,players[0].score);old=players[0].score}hs=' · Highscore: '+old}document.getElementById('summary').textContent=players.map(p=>p.name+': '+p.score).join(' · ')+hs;show('end')
+}
+function sourceFor(cat){let m={'🪐 Weltraum':['NASA Planetary Fact Sheet','https://nssdc.gsfc.nasa.gov/planetary/factsheet/'],'🌍 Länder':['World Bank / CIA World Factbook','https://data.worldbank.org/'],'🍔 Essen':['USDA FoodData Central','https://fdc.nal.usda.gov/'],'🏔️ Berge':['Encyclopaedia Britannica / reference data','https://www.britannica.com/'],'🌊 Flüsse':['Encyclopaedia Britannica / reference data','https://www.britannica.com/'],'🏝️ Inseln':['Encyclopaedia Britannica / reference data','https://www.britannica.com/'],'🌋 Vulkane':['Smithsonian Global Volcanism Program','https://volcano.si.edu/'],'✈️ Flugzeuge':['Manufacturer/reference specifications','https://www.airbus.com/'],'🚢 Schiffe':['Operator/reference specifications','https://www.royalcaribbean.com/']};let x=m[cat]||['Referenzdaten – siehe README','./README.md'];return 'Quelle/Referenz: <a target="_blank" rel="noopener" href="'+x[1]+'">'+x[0]+'</a>'}
+if('serviceWorker' in navigator){addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}))}
+</script></body></html>
