@@ -1,0 +1,17 @@
+name: Validate Online Test
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify app
+        run: |
+          test -f index.html
+          grep -q "ml_create_room" index.html
+          grep -q "ml_online_ml_submit" index.html
