@@ -18,8 +18,8 @@ const source=name=>{
 };
 const start=html.indexOf('const SOLO_Q=['),end=html.indexOf('];let SOLO=',start);
 assert(start>=0&&end>start);
-const context=vm.createContext({S:{cat:'Länder'},Math});
-vm.runInContext(html.slice(start,end+2)+'\nlet ONLINE_Q_ORDER=[],ONLINE_Q_CAT="";\n'+source('onlineQuestion'),context);
+const context=vm.createContext({S:{cat:'Länder',questionData:{}},Math});
+vm.runInContext(html.slice(start,end+2)+'\nlet ONLINE_Q_ORDER=[],ONLINE_Q_CAT="";\n'+source('onlineComparisonKey')+'\n'+source('onlineAvailable')+'\n'+source('onlineQuestion'),context);
 const cats=vm.runInContext('[...new Set(SOLO_Q.map(q=>q.cat))]',context);
 for(const cat of cats){
   vm.runInContext(`S.cat=${JSON.stringify(cat)}`,context);
@@ -34,6 +34,15 @@ for(let n=6;n<=10;n++){
   const row=vm.runInContext(`onlineQuestion(${n})`,context);
   assert(vm.runInContext('SOLO_Q.filter(q=>q.cat===S.cat)',context).some(q=>q.l===row[0]&&q.r===row[1]));
 }
+vm.runInContext('ONLINE_Q_CAT="";ONLINE_Q_ORDER=[];S.questionData={}',context);
+const asked=[];
+for(let n=1;n<=5;n++){
+  const row=vm.runInContext(`onlineQuestion(${n})`,context);
+  asked.push(row[0]+'|'+row[1]+'|'+row[5]);
+  context.S.questionData[n]={question_no:n,category:'Tierwelt',left_name:row[0],right_name:row[1],unit:row[5]};
+}
+assert.equal(new Set(asked).size,5,'online category block has five distinct comparisons');
+assert.equal(vm.runInContext('onlineAvailable("Tierwelt").length',context),0,'a depleted category cannot be drawn again');
 
 const calls=[];
 const elements=new Map(),el=id=>{
