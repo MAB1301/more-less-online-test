@@ -3,7 +3,7 @@ import vm from 'node:vm';
 const html=fs.readFileSync('index.html','utf8');
 const offline=fs.readFileSync('offline/index.html','utf8');
 const fail=m=>{console.error('FAIL:',m);process.exitCode=1}, ok=m=>console.log('OK:',m);
-if(html===offline.replace('src="../content/approved.js"','src="content/approved.js"'))ok('online/offline HTML identical except content path');else fail('online/offline HTML differ beyond content path');
+if(html===offline.replaceAll('src="../assets/vendor/qrcode.min.js"','src="assets/vendor/qrcode.min.js"').replace('src="../content/approved.js"','src="content/approved.js"'))ok('online/offline HTML identical except content path');else fail('online/offline HTML differ beyond content path');
 const visualMap=html.match(/const VISUAL_IMG=\{([\s\S]*?)\};/);
 if(!visualMap)fail('visual asset map missing');
 else{
@@ -52,3 +52,4 @@ if(syntax.status===0)ok('inline JavaScript syntax valid');else fail('inline Java
 if(process.exitCode)process.exit(process.exitCode);
 await import('./online-answer-feedback-check.mjs');
 await import('./guest-online-check.mjs');
+await import('./qr-join-check.mjs');
