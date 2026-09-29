@@ -151,6 +151,6 @@ window.addEventListener('online',reconnect);
 document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')reconnect()});
 window.addEventListener('pageshow',()=>{if(S.room)reconnect()});
 window.addEventListener('error',e=>msg('JS: '+e.message,true));
-applyJoinLink();restoreSession();
+window.addEventListener('DOMContentLoaded',()=>{try{applyJoinLink()}catch(e){console.error(e)}try{restoreSession()}catch(e){console.error(e)}});
 function modeJoinNow(){LOBBY_GAME='moreless';LOBBY_MODE=el('chosenMode')?.textContent||'CLASSIC';const v=el('modeCode').value.trim().toUpperCase();openHomeLobby();if(v)el('code').value=v;setTimeout(()=>el('name').focus(),50)}
 </script></body></html>
