@@ -19,6 +19,11 @@ const calls=[...new Set(onclick.flatMap(h=>[...h.matchAll(/(?:^|[; ])([A-Za-z_$]
 const defined=n=>new RegExp('function\\s+'+n+'\\s*\\(|(?:const|let|var)\\s+'+n+'\\s*=').test(html)||['setTimeout','clearInterval'].includes(n);
 const missing=calls.filter(n=>!defined(n));
 missing.length?fail('onclick calls missing functions: '+missing.join(', ')):ok(onclick.length+' click handlers resolve to '+calls.length+' functions');
+const worldButtons=[...html.matchAll(/class="worldCard" onclick="openWorldMenu\('([^']+)'\)"/g)].map(m=>m[1]);
+const expectedWorlds=['moreless','estimate','facts','quiz'];
+JSON.stringify(worldButtons)===JSON.stringify(expectedWorlds)&&!/\.worldCard[\s\S]{0,250}\.onclick\s*=|btn\.onclick\s*=/.test(html)
+  ?ok('four home cards keep their own mode handlers')
+  :fail('home card handler overridden or mode mapping wrong');
 const contentStart=html.indexOf('const KNOWLEDGE_POOL='),contentEnd=html.indexOf('let JEOP=',contentStart);
 if(contentStart<0||contentEnd<0)fail('Jeopardy catalogue missing');
 else{
