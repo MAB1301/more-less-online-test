@@ -2,7 +2,7 @@ import fs from 'node:fs';
 const html=fs.readFileSync('index.html','utf8');
 const offline=fs.readFileSync('offline/index.html','utf8');
 const fail=m=>{console.error('FAIL:',m);process.exitCode=1}, ok=m=>console.log('OK:',m);
-if(html===offline)ok('online/offline HTML identical');else fail('online/offline HTML differ');
+if(html===offline.replace('src="../content/approved.js"','src="content/approved.js"'))ok('online/offline HTML identical except content path');else fail('online/offline HTML differ beyond content path');
 const visualMap=html.match(/const VISUAL_IMG=\{([\s\S]*?)\};/);
 if(!visualMap)fail('visual asset map missing');
 else{
