@@ -50,3 +50,5 @@ const {spawnSync}=await import('node:child_process');
 const syntax=spawnSync(process.execPath,['--check','-'],{input:script,encoding:'utf8'});
 if(syntax.status===0)ok('inline JavaScript syntax valid');else fail('inline JavaScript syntax error: '+syntax.stderr);
 if(process.exitCode)process.exit(process.exitCode);
+await import('./online-answer-feedback-check.mjs');
+await import('./guest-online-check.mjs');
