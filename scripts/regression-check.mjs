@@ -24,6 +24,9 @@ const expectedWorlds=['moreless','estimate','facts','quiz'];
 JSON.stringify(worldButtons)===JSON.stringify(expectedWorlds)&&!/\.worldCard[\s\S]{0,250}\.onclick\s*=|btn\.onclick\s*=/.test(html)
   ?ok('four home cards keep their own mode handlers')
   :fail('home card handler overridden or mode mapping wrong');
+html.includes('#worldMenu #morelessModes.hide{display:none!important}')
+  ?ok('More/Less modes stay hidden in the other game menus')
+  :fail('More/Less mode cards can appear in another game menu');
 const contentStart=html.indexOf('const KNOWLEDGE_POOL='),contentEnd=html.indexOf('let JEOP=',contentStart);
 if(contentStart<0||contentEnd<0)fail('Jeopardy catalogue missing');
 else{
