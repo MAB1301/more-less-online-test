@@ -232,8 +232,10 @@ html body #game .visualCard:first-child .objectVisual.hasPhoto:before{box-shadow
 </style><style>
 /* Adaptive layout: viewport/input based, not fragile user-agent sniffing */
 html[data-ui="phone"] .deckTable{width:calc(100vw - 20px)!important}
+html[data-ui="phone"] .catOverlay .deckTable{width:100%!important;max-width:100%!important}
 html[data-ui="phone"] #sharedCatGrid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:9px!important}
 html[data-ui="phone"] #sharedCatGrid .premiumDeck{min-height:150px!important;max-height:185px!important}
+html[data-ui="phone"] .catOverlay .cardRibbon{white-space:normal!important;text-overflow:clip!important;overflow-wrap:anywhere;line-height:1.15!important;padding:3px 4px!important;max-height:38px!important}
 html[data-ui="phone"] .cards{gap:10px!important}
 html[data-ui="phone"] .cards .card{min-width:0!important}
 html[data-ui="tablet"] .deckTable{width:min(900px,calc(100vw - 36px))!important}
