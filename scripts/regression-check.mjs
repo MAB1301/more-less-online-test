@@ -53,3 +53,4 @@ if(process.exitCode)process.exit(process.exitCode);
 await import('./online-answer-feedback-check.mjs');
 await import('./guest-online-check.mjs');
 await import('./qr-join-check.mjs');
+await import('./end-screen-check.mjs');
