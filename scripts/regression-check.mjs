@@ -3,6 +3,13 @@ const html=fs.readFileSync('index.html','utf8');
 const offline=fs.readFileSync('offline/index.html','utf8');
 const fail=m=>{console.error('FAIL:',m);process.exitCode=1}, ok=m=>console.log('OK:',m);
 if(html===offline)ok('online/offline HTML identical');else fail('online/offline HTML differ');
+const visualMap=html.match(/const VISUAL_IMG=\{([\s\S]*?)\};/);
+if(!visualMap)fail('visual asset map missing');
+else{
+  const files=[...visualMap[1].matchAll(/:'([^']+\.webp)'/g)].map(m=>m[1]);
+  const missing=files.filter(name=>!fs.existsSync('assets/visuals/'+name));
+  missing.length?fail('missing local visuals: '+missing.join(', ')):ok(files.length+' local visual mappings resolve');
+}
 const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
 const dup=[...new Set(ids.filter((x,i)=>ids.indexOf(x)!==i))];
 dup.length?fail('duplicate IDs: '+dup.join(', ')):ok(ids.length+' unique DOM IDs');
