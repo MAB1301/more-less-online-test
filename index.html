@@ -474,7 +474,11 @@ const VISUAL_IMG={
 'Burj Khalifa':'https://commons.wikimedia.org/wiki/Special:FilePath/Burj%20Khalifa.jpg?width=900',
 'Kölner Dom':'https://commons.wikimedia.org/wiki/Special:FilePath/Cologne%20Cathedral.jpg?width=900',
 'Blauwal':'https://commons.wikimedia.org/wiki/Special:FilePath/Blue%20Whale%20001%20body%20bw.jpg?width=900',
-'Gepard':'https://commons.wikimedia.org/wiki/Special:FilePath/Cheetah4.jpg?width=900'
+'Gepard':'https://commons.wikimedia.org/wiki/Special:FilePath/Cheetah4.jpg?width=900',
+'Afrikanischer Elefant':'https://commons.wikimedia.org/wiki/Special:FilePath/African%20Bush%20Elephant.jpg?width=900',
+'Giraffe':'https://commons.wikimedia.org/wiki/Special:FilePath/Giraffe%20standing.jpg?width=900',
+'Wanderfalke':'https://commons.wikimedia.org/wiki/Special:FilePath/Falco%20peregrinus%20-%2001.jpg?width=900',
+'Strauß':'https://commons.wikimedia.org/wiki/Special:FilePath/Struthio%20camelus%20-%20Etosha%202014.jpg?width=900'
 };
 function visualKind(n){n=(n||'').toLowerCase();if(/eiffel|empire|burj|tower|dom|münster/.test(n))return'building';if(/jupiter|saturn|uranus|neptun|venus|mars|erde|mond|sonne/.test(n))return'planet';if(/wal|elefant|giraffe|falke|gepard/.test(n))return'animal';if(/deutschland|frankreich|indien|argentinien|japan|italien|kanada|polen|spanien/.test(n))return'country';if(/berlin|hamburg|new york|london|paris|barcelona/.test(n))return'city';if(/nil|rhein|pazifik|atlantik|ozean|grönland|island/.test(n))return'nature';if(/fußball|basketball|marathon|triathlon|weltrekord/.test(n))return'sport';return'science'}
 function visualFallback(n){const k=visualKind(n),label=(n||'').replace(/ Bevölkerung 2024| Stockwerke|-Tag|-Jahr/g,'');if(k==='building')return '<div class="skylineShape"><i></i><i></i><i></i><i></i><i></i></div>';if(k==='planet')return '<div class="planetShape"></div>';if(k==='animal')return '<div class="animalShape">'+label.slice(0,1)+'</div>';if(k==='country'||k==='city'||k==='nature')return '<div class="mapShape">'+label.slice(0,2).toUpperCase()+'</div>';if(k==='sport')return '<div class="sportShape"></div>';return '<div class="scienceShape">∑</div>'}
