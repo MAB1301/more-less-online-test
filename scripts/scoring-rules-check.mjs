@@ -4,7 +4,7 @@ import vm from 'node:vm';
 
 const html=fs.readFileSync('index.html','utf8');
 function source(name){
-  const start=html.indexOf('function '+name+'(');
+  const start=html.search(new RegExp('(?:async )?function '+name+'\\('));
   assert(start>=0,name);
   let depth=0,quote='',escaped=false;
   for(let i=html.indexOf('{',start);i<html.length;i++){
@@ -31,13 +31,13 @@ el('estimateValue').value='95';
 vm.runInContext('submitEstimate(true)',context);
 assert.equal(context.EST.score,0,'timeout never grants points in King mode');
 el('jeopAnswerInput').value='Auto';
-vm.runInContext('submitJeopAnswer()',context);
+await vm.runInContext('submitJeopAnswer()',context);
 assert.equal(judged,false,'Auto must not count as Au');
 assert.equal(el('jeopAnswer').textContent.includes('Auto'),true);
-context.S.room='test-room';judged=null;
-vm.runInContext('submitJeopAnswer()',context);
+context.S.room='test-room';judged=null;let sent=null;context.jeopRpc=async(name,data)=>{sent={name,data};return null};
+await vm.runInContext('submitJeopAnswer()',context);
 assert.equal(judged,null,'guest answer waits for host verdict');
-assert.equal(el('jeopAnswer').textContent.includes('Richtige Antwort'),false,'guest cannot reveal solution before verdict');
+assert.equal(sent.name,'jeopardy_submit_answer','guest transmits typed answer');assert.equal(sent.data.p_answer,'Auto');
 const storage=new Map(),facts=vm.createContext({localStorage:{getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v)},factShuffle:xs=>xs});
 vm.runInContext(source('factRound'),facts);
 facts.pool=Array.from({length:28},(_,i)=>({s:'Aussage '+i,a:i<14}));

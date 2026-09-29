@@ -4,7 +4,7 @@ import vm from 'node:vm';
 
 const html=fs.readFileSync('index.html','utf8');
 function source(name){
-  const start=html.indexOf('function '+name+'(');
+  const start=html.search(new RegExp('(?:async )?function '+name+'\\('));
   assert(start>=0,`${name} exists`);
   let depth=0,quoted=null,escaped=false;
   for(let i=html.indexOf('{',start);i<html.length;i++){
@@ -38,12 +38,12 @@ vm.runInContext("JEOP.completed=false;endJeopardy()",context);
 assert.equal(el('localEndSummary').textContent.includes('120'),true);
 assert.equal(el('localEndRows').children.length,1);
 context.S.room='online-room';
-vm.runInContext("JEOP.completed=false;endJeopardy();endToLobby()",context);
+vm.runInContext("JEOP.completed=false;endJeopardy(true);endToLobby()",context);
 assert.equal(context.lobbyVisits,1);
 context.EST={score:240,history:[{label:'Schätzfrage',detail:'10 km',points:80}]};
 vm.runInContext('finishEstimate()',context);
 assert.equal(el('localEndSummary').textContent,'240 Punkte · 1 Fragen');
 assert.equal(el('localEndRows').children.length,1);
-for(const needle of ["showLocalEnd('facts'", "showLocalEnd('moreless'", "showLocalEnd('estimate'", "showLocalEnd('quiz'", "id=\"estimateFinish\"", "if((s.used_cells||[]).length>=JEOP.data.length*5)endJeopardy()", '.localEnd.hide{display:none}'])assert(html.includes(needle),needle);
+for(const needle of ["showLocalEnd('facts'", "showLocalEnd('moreless'", "showLocalEnd('estimate'", "showLocalEnd('quiz'", "id=\"estimateFinish\"", "if((s.used_cells||[]).length>=JEOP.data.length*5)endJeopardy(true)", '.localEnd.hide{display:none}'])assert(html.includes(needle),needle);
 for(const needle of ['id="soloExit"','id="soloRestart"','#game .reviewBack.hide{display:none!important}',"!VISUAL_CARD_COVER.has(key)?'visualContain':''"])assert(html.includes(needle),needle);
 console.log('OK: every mode reaches an end screen; results and lobby controls render');
