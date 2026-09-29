@@ -400,27 +400,36 @@ function previewHomeChoice(btn){document.querySelectorAll('.homeScreen .neonPick
 {l:'Lichtgeschwindigkeit',r:'1 Million m/s',lv:299792458,rv:1000000,u:'m/s',cat:'Wissenschaft'},{l:'Cäsium-Frequenz SI-Sekunde',r:'Lichtgeschwindigkeit',lv:9192631770,rv:299792458,u:'Zahlenwert',cat:'Wissenschaft'},{l:'Avogadro-Konstante',r:'Lichtgeschwindigkeit',lv:6.02214076e23,rv:299792458,u:'Zahlenwert',cat:'Wissenschaft'},
 {l:'Burj Khalifa',r:'Eiffelturm',lv:828,rv:330,u:'m Höhe',cat:'Bauwerke'},{l:'Burj Khalifa Stockwerke',r:'Standard-Klavier Tasten',lv:163,rv:88,u:'Anzahl',cat:'Allgemeinwissen'},{l:'Minuten pro Woche',r:'Stunden pro Jahr (365 Tage)',lv:10080,rv:8760,u:'Anzahl',cat:'Allgemeinwissen'},{l:'Strauß',r:'Gepard',lv:70,rv:110,u:'km/h Spitze ungefähr',cat:'Rekorde & Extreme'},{l:'Saturn bestätigte Monde',r:'Jupiter bestätigte Monde',lv:274,rv:95,u:'Anzahl',cat:'Raumfahrt'},{l:'UNESCO-Kulturstätten',r:'UNESCO-Naturstätten',lv:991,rv:240,u:'Anzahl Welterbestätten',cat:'Weltkultur'}];let SOLO={on:false,i:0,score:0,locked:false,mode:'CLASSIC',lives:3,streak:0};
 function playSolo(){const mode=el('chosenMode').textContent||'CLASSIC';if(!['CLASSIC','BLITZ','SURVIVAL','KING','CHAOS','PARTY'].includes(mode)){msg('Dieser Singleplayer-Modus ist noch nicht spielbar.');return}SOLO={on:true,i:0,score:0,locked:false,cat:null,questions:[],total:0,round:0,mode:mode,lives:mode==='SURVIVAL'?3:0,streak:0};el('homeScreen').classList.add('hide');const w=el('worldMenu');if(w)w.classList.add('hide');const m=el('modeStage');if(m)m.classList.add('hide');el('lobby').classList.add('preLobbyHidden');el('lobbyOverlay').classList.add('hide');el('gameNav').classList.add('hide');el('game').classList.remove('preLobbyHidden');el('scoreHud').classList.remove('hide');el('scoreNum').textContent='0';el('jokerShelf').style.display='none';el('next').classList.add('hide');spinSoloCategory()}
+const SOLO_SUBCATS={
+'Länder':['Fläche','Bevölkerung','Länder-Mix'],'Städte':['Stadtfläche','Metropolen'],'Natur':['Flüsse','Ozeane','Inseln'],'Sport':['Rekorde','Distanzen','Spielfelder'],'Bauwerke':['Höhen','Wolkenkratzer','Monumente'],'Tierwelt':['Gewicht','Größe','Geschwindigkeit'],'Weltraum':['Planetengröße','Rotation & Umlauf'],'Wissenschaft':['Physik','Temperatur','Konstanten'],'Allgemeinwissen':['Zahlen & Mengen','Zeit'],'Rekorde & Extreme':['Tierrekorde'],'Raumfahrt':['Monde'],'Weltkultur':['UNESCO']
+};
+function soloSubcat(q){
+ const u=(q.u||'').toLowerCase(),n=(q.l+' '+q.r).toLowerCase(),c=q.cat;
+ if(c==='Länder')return /bevölkerung/.test(n)?'Bevölkerung':'Fläche';
+ if(c==='Städte')return 'Stadtfläche';if(c==='Natur')return /pazifik|atlantik|ozean/.test(n)?'Ozeane':/grönland|island/.test(n)?'Inseln':'Flüsse';
+ if(c==='Sport')return /weltrekord/.test(n)?'Rekorde':/feld/.test(n)?'Spielfelder':'Distanzen';
+ if(c==='Bauwerke')return /burj|tower|empire/.test(n)?'Wolkenkratzer':'Monumente';
+ if(c==='Tierwelt')return /kg/.test(u)?'Gewicht':/km\/h/.test(u)?'Geschwindigkeit':'Größe';
+ if(c==='Weltraum')return /tag|jahr/.test(n)?'Rotation & Umlauf':'Planetengröße';
+ if(c==='Wissenschaft')return /°c/.test(u)?'Temperatur':/cäsium|avogadro/.test(n)?'Konstanten':'Physik';
+ if(c==='Allgemeinwissen')return /minuten|sekunden|stunden/.test(n)?'Zeit':'Zahlen & Mengen';
+ return (SOLO_SUBCATS[c]||[])[0]||c;
+}
+function soloDrawOptions(){
+ const cats=[...new Set(SOLO_Q.map(q=>q.cat).filter(Boolean))],opts=[];
+ cats.forEach(cat=>{opts.push({label:cat,type:'Oberkategorie',cat});const subs=[...new Set(SOLO_Q.filter(q=>q.cat===cat).map(soloSubcat))];subs.forEach(sub=>opts.push({label:sub,type:cat,cat,sub}))});
+ opts.push({label:'Alles gemischt',type:'Wildcard',cat:'*'},{label:'Zufallsduell',type:'Wildcard',cat:'*'});
+ return opts;
+}
 function spinSoloCategory(){
- const available=[...new Set(SOLO_Q.map(x=>x.cat).filter(Boolean))];
- if(!available.length){renderSolo();return}
- let choices=available.filter(x=>x!==SOLO.cat);if(choices.length<4)choices=available;
- choices=[...choices].sort(()=>Math.random()-.5).slice(0,Math.min(4,choices.length));
- let draw=document.getElementById('soloCardDraw');
- if(!draw){draw=document.createElement('div');draw.id='soloCardDraw';draw.className='soloCardDraw';document.body.appendChild(draw)}
- draw.innerHTML='<div class="drawPanel"><div class="drawKicker">RUNDE '+(SOLO.round+1)+' VON 4</div><h2>Wähle eine Karte</h2><p>Deine Kategorie für die nächsten 5 Fragen</p><div class="drawCards">'+choices.map((name,i)=>'<button class="mysteryCard" type="button" data-cat="'+name.replace(/"/g,'&quot;')+'" onclick="revealSoloCard(this)"><span class="cardBack"><b>MORE</b><i>/ LESS</i><small>'+(i+1)+'</small></span><span class="cardFace"><small>KATEGORIE</small><strong>'+name+'</strong><em>5 FRAGEN</em></span></button>').join('')+'</div></div>';
- draw.classList.add('on');
+ let options=soloDrawOptions().filter(o=>!(o.cat===SOLO.cat&&!o.sub));options=[...options].sort(()=>Math.random()-.5).slice(0,Math.min(4,options.length));
+ let draw=document.getElementById('soloCardDraw');if(!draw){draw=document.createElement('div');draw.id='soloCardDraw';draw.className='soloCardDraw';document.body.appendChild(draw)}
+ draw.innerHTML='<div class="drawPanel"><div class="drawKicker">RUNDE '+(SOLO.round+1)+' VON 4</div><h2>Wähle eine Karte</h2><p>Jede Auswahl ist neu gemischt – Oberkategorie, Unterkategorie oder Wildcard</p><div class="drawCards">'+options.map((o,i)=>'<button class="mysteryCard" type="button" data-cat="'+o.cat.replace(/"/g,'&quot;')+'" data-sub="'+(o.sub||'').replace(/"/g,'&quot;')+'" onclick="revealSoloCard(this)"><span class="cardBack"><b>MORE</b><i>/ LESS</i><small>'+(i+1)+'</small></span><span class="cardFace"><small>'+o.type+'</small><strong>'+o.label+'</strong><em>5 FRAGEN</em></span></button>').join('')+'</div></div>';draw.classList.add('on');
 }
-function revealSoloCard(btn){
- if(btn.closest('.drawCards').classList.contains('locked'))return;
- btn.closest('.drawCards').classList.add('locked');btn.classList.add('revealed');
- const name=btn.dataset.cat;
- setTimeout(()=>{document.getElementById('soloCardDraw')?.classList.remove('on');startSoloCategory(name)},950);
-}
-function startSoloCategory(name){
- SOLO.cat=name;let pool=SOLO_Q.filter(x=>x.cat===name);if(!pool.length)pool=SOLO_Q;
- const count=5;
- const shuffled=[...pool].sort(()=>Math.random()-.5);SOLO.questions=Array.from({length:count},(_,i)=>shuffled[i%shuffled.length]);
- SOLO.i=0;el('catOverlay').classList.remove('on');renderSolo();
+function revealSoloCard(btn){if(btn.closest('.drawCards').classList.contains('locked'))return;btn.closest('.drawCards').classList.add('locked');btn.classList.add('revealed');const cat=btn.dataset.cat,sub=btn.dataset.sub;setTimeout(()=>{document.getElementById('soloCardDraw')?.classList.remove('on');startSoloCategory(cat,sub)},950)}
+function startSoloCategory(cat,sub=''){
+ SOLO.cat=cat==='*'?'Mix':cat;let pool=cat==='*'?[...SOLO_Q]:SOLO_Q.filter(q=>q.cat===cat);if(sub)pool=pool.filter(q=>soloSubcat(q)===sub);if(!pool.length)pool=[...SOLO_Q];
+ const shuffled=[...pool].sort(()=>Math.random()-.5);SOLO.questions=Array.from({length:5},(_,i)=>shuffled[i%shuffled.length]);SOLO.i=0;SOLO.drawLabel=sub||SOLO.cat;el('catOverlay').classList.remove('on');renderSolo();
 }
 function showSoloCategories(){el('catOverlay').classList.add('on');el('catOverlay').querySelector('h1').textContent=SOLO.round?'Neue Kategorie wählen':'Wähle deine Kategorie';el('catOverlay').querySelector('.catWrap>.muted').textContent='SINGLEPLAYER · '+SOLO.mode+' · '+(SOLO.round+1)+'. RUNDE';el('catStatus').textContent='Einmal tippen zum Auswählen'}
 const VISUAL_IMG={
@@ -457,7 +466,7 @@ function moreLessPrompt(left,right,unit,metric=''){
  if(/zahlenwert/.test(s))return 'Ist der Zahlenwert von '+right+' größer oder kleiner als der von '+left+'?';
  return 'Ist der Wert von '+right+' größer oder kleiner als der von '+left+'?';
 }
-function renderSolo(){const x=SOLO.questions[SOLO.i];if(!x){spinSoloCategory();return}SOLO.locked=false;let extra=SOLO.mode==='SURVIVAL'?' · ❤️ '+SOLO.lives:SOLO.mode==='KING'?' · 👑 Serie '+SOLO.streak:SOLO.mode==='BLITZ'?' · ⚡ Schnellmodus':'';el('prog').textContent=SOLO.mode+' · SINGLEPLAYER · Frage '+(SOLO.total+1)+'/20 · '+SOLO.cat+' · '+SOLO.score+' Punkte'+extra;el('prompt').textContent=moreLessPrompt(x.l,x.r,x.u);el('an').textContent=x.l;el('av').textContent=x.lv.toLocaleString('de-DE')+' '+x.u;el('bn').textContent=x.r;el('bv').textContent='???';setObjectVisual('aVisual',x.l);setObjectVisual('bVisual',x.r);el('reveal').textContent='';el('a').classList.remove('soloCorrect','soloWrong');el('b').classList.remove('soloCorrect','soloWrong');el('a').onclick=()=>soloPick('a');el('a').ondblclick=null;el('b').onclick=()=>soloPick('b');el('b').ondblclick=null}
+function renderSolo(){const x=SOLO.questions[SOLO.i];if(!x){spinSoloCategory();return}SOLO.locked=false;let extra=SOLO.mode==='SURVIVAL'?' · ❤️ '+SOLO.lives:SOLO.mode==='KING'?' · 👑 Serie '+SOLO.streak:SOLO.mode==='BLITZ'?' · ⚡ Schnellmodus':'';el('prog').textContent=SOLO.mode+' · SINGLEPLAYER · Frage '+(SOLO.total+1)+'/20 · '+(SOLO.drawLabel||SOLO.cat)+' · '+SOLO.score+' Punkte'+extra;el('prompt').textContent=moreLessPrompt(x.l,x.r,x.u);el('an').textContent=x.l;el('av').textContent=x.lv.toLocaleString('de-DE')+' '+x.u;el('bn').textContent=x.r;el('bv').textContent='???';setObjectVisual('aVisual',x.l);setObjectVisual('bVisual',x.r);el('reveal').textContent='';el('a').classList.remove('soloCorrect','soloWrong');el('b').classList.remove('soloCorrect','soloWrong');el('a').onclick=()=>soloPick('a');el('a').ondblclick=null;el('b').onclick=()=>soloPick('b');el('b').ondblclick=null}
 function flyPoint(n,from){const r=from.getBoundingClientRect(),d=document.createElement('div');d.className='pointFly';d.textContent='+'+n;d.style.left=(r.left+r.width/2)+'px';d.style.top=(r.top+r.height/2)+'px';document.body.appendChild(d);setTimeout(()=>{el('scoreNum').textContent=SOLO.score},650);setTimeout(()=>d.remove(),950)}
 function soloPick(side){if(!SOLO.on||SOLO.locked)return;SOLO.locked=true;const x=SOLO.questions[SOLO.i],correct=x.rv>x.lv?'b':'a',ok=side===correct;let gained=ok?1:0;if(SOLO.mode==='KING'&&ok){SOLO.streak++;gained=Math.min(5,SOLO.streak)}else if(SOLO.mode==='KING')SOLO.streak=0;if(SOLO.mode==='CHAOS'&&ok)gained=1+Math.floor(Math.random()*3);if(S.joker==='double'&&ok)gained*=2;if(SOLO.mode==='SURVIVAL'&&!ok)SOLO.lives--;if(ok)SOLO.score+=gained;const chosen=el(side),right=el(correct);chosen.classList.add(ok?'soloCorrect':'soloWrong');if(!ok)right.classList.add('soloCorrect');el('bv').textContent=x.rv.toLocaleString('de-DE')+' '+x.u;let tail=SOLO.mode==='SURVIVAL'?' · ❤️ '+SOLO.lives+' Leben':SOLO.mode==='KING'?' · 👑 Serie '+SOLO.streak:SOLO.mode==='CHAOS'&&ok?' · 🎲 Chaos +'+gained:'';el('reveal').innerHTML=(ok?'✅ <b>Richtig!</b> <span class="soloPoint">+'+gained+' PUNKT'+(gained===1?'':'E')+'</span>':'❌ <b>Falsch!</b>')+' · '+x.r+': '+x.rv.toLocaleString('de-DE')+' '+x.u+tail;if(gained)flyPoint(gained,chosen);const delay=SOLO.mode==='BLITZ'?650:SOLO.mode==='PARTY'?1200:1800;setTimeout(()=>{if(SOLO.mode==='SURVIVAL'&&SOLO.lives<=0){SOLO.on=false;el('reveal').innerHTML='💀 <b>Game Over</b> · '+SOLO.score+' Punkte';el('prog').textContent='SURVIVAL · ENDE · '+SOLO.score+' Punkte';return}SOLO.i++;SOLO.total++;if(SOLO.total>=20){SOLO.on=false;el('reveal').innerHTML='🏁 <b>20 Fragen geschafft!</b> · '+SOLO.score+' Punkte';el('prog').textContent=SOLO.mode+' · ENDE · '+SOLO.score+' Punkte · 20/20 Fragen';return}if(SOLO.i>=SOLO.questions.length){SOLO.round++;SOLO.i=0;spinSoloCategory()}else renderSolo()},delay)}
 function openHomeLobby(){const h=el('homeScreen');if(h){h.classList.add('hide');h.style.display='none'}const w=el('worldMenu');if(w)w.classList.add('hide');const m=el('modeStage');if(m)m.classList.add('hide');const l=el('lobby');if(l)l.classList.remove('preLobbyHidden')}let LOBBY_GAME='moreless',LOBBY_MODE='CLASSIC';
