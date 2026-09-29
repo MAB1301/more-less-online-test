@@ -1,19 +1,20 @@
-name: Validate Online Test
+name: Validate Game
 on:
   push:
-    branches: [Main, dev/public-modes-questionpool]
+    branches: [Main, stronger-regression-tests]
+  pull_request:
+    branches: [Main]
   workflow_dispatch:
 permissions:
   contents: read
 jobs:
-  validate:
+  regression:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Verify app
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Static game regression checks
         run: |
-          test -f index.html
-          grep -q "ml_create_room" index.html
-          grep -q "ml_online_ml_submit" index.html
-          grep -q "onlineQuestion" index.html
-          cmp -s index.html offline/index.html
+          node scripts/regression-check.mjs
