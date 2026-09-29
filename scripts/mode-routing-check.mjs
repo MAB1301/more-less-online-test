@@ -102,3 +102,31 @@ assert.equal(estimate.el('factGame').classList.contains('hide'),true);
 assert.equal(estimate.el('factIntro').classList.contains('hide'),false);
 
 console.log('OK: game modes stay separate on launch and repeated lobby sync');
+
+// An online Jeopardy board must be identical on both devices even when their
+// local question history differs. Random-category choices travel in the start signal.
+function onlineBoard(history, choices){
+  const JEOP_CATS=Array.from({length:8},(_,i)=>['Kategorie '+i,Array.from({length:8},(_,j)=>['Frage '+i+'-'+j,'Antwort '+j])]);
+  const context=vm.createContext({S:{room:'same-room'},JEOP_CATS,JEOP:{mode:'random',randomCats:choices,step:100,data:[]},
+    jeopHistory:()=>history,saveJeopHistory:()=>{throw Error('Online board must not persist local history')},
+    jeopDifficulty:(_,i)=>i%5+1,jeopQuestionKey:(cat,q)=>cat+'|'+q[0]});
+  vm.runInContext('let JEOP_RANDOM=null;'+['jeopRoomRandom','jeopShuffle','jeopPick','jeopQuestionForLevel','buildJeopData'].map(source).join('\n'),context);
+  vm.runInContext('buildJeopData()',context);
+  return JSON.stringify(context.JEOP.data);
+}
+assert.equal(onlineBoard(['Kategorie 0|Frage 0-0'],[0,1,2,3,4,5]),onlineBoard([], [0,1,2,3,4,5]),'host and guest share the same Jeopardy board');
+console.log('OK: online Jeopardy host and guest share one deterministic board');
+
+const lobbyCalls=[];
+const lobby=vm.createContext({S:{room:null,code:null,host:false,myName:''},LOBBY_GAME:'quiz',LOBBY_MODE:'random',JEOP:{mode:'random',randomCats:[1,2,3,4,5,6]},
+  el:id=>({value:id==='name'?'Anna':'ABCD1234'}),anon:async()=>{},row:x=>x,
+  rpc:async(fn,payload)=>{lobbyCalls.push([fn,payload]);return fn==='ml_create_room'?{room_id:'room-1',room_code:'ABCD1234'}:{room_id:'room-1'}},ready:()=>{},msg:()=>{}});
+vm.runInContext(source('createRoom')+'\n'+source('joinRoom')+'\n'+source('startQ'),lobby);
+await vm.runInContext('createRoom()',lobby);
+assert.equal(lobby.S.room,'room-1');assert.equal(lobby.S.host,true);
+assert.equal(lobbyCalls[0][1].p_config.game,'quiz');
+await vm.runInContext('joinRoom()',lobby);
+assert.equal(lobby.S.host,false);assert.equal(lobbyCalls[1][1].p_code,'ABCD1234');
+await vm.runInContext('startQ(901)',lobby);
+assert.equal(lobbyCalls[2][1].p_category,'random:1,2,3,4,5,6');
+console.log('OK: create/join lobby and selected random board signal');

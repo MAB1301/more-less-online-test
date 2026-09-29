@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 525" role="img" aria-label="Schematische Basketballfeld-Grafik">
+  <defs><pattern id="wood" width="35" height="55" patternUnits="userSpaceOnUse"><rect width="35" height="55" fill="#b8793c"/><path d="M34 0V55M0 54H35" stroke="#c48b50" stroke-width="2"/></pattern></defs>
+  <rect width="700" height="525" fill="url(#wood)"/>
+  <g fill="none" stroke="#f7eee0" stroke-width="5">
+    <rect x="34" y="34" width="632" height="457"/>
+    <path d="M350 34V491"/><circle cx="350" cy="262.5" r="67"/>
+    <path d="M34 145H126V380H34M666 145H574V380H666"/>
+    <path d="M126 205a57 57 0 0 1 0 115M574 205a57 57 0 0 0 0 115"/>
+    <path d="M34 74a188 188 0 0 1 0 377M666 74a188 188 0 0 0 0 377"/>
+  </g>
+  <g fill="none" stroke="#ef623b" stroke-width="5"><circle cx="75" cy="262.5" r="9"/><circle cx="625" cy="262.5" r="9"/></g>
+</svg>
