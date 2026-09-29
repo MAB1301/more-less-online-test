@@ -18,7 +18,7 @@ const source=name=>{
   throw new Error(`Unclosed ${name}`);
 };
 
-function fixture(metric,host=false){
+function fixture(metric,host=false,category='standard'){
   const elements=new Map(),calls=[];
   const el=id=>{
     if(!elements.has(id)){
@@ -28,8 +28,8 @@ function fixture(metric,host=false){
     return elements.get(id);
   };
   const S={room:'room',uid:'user',myName:'Player',host,enteredGame:false,newGameLobby:false,q:0,liveQ:0,questionData:{},questionHistory:{},revealHistory:{},reviewMode:false};
-  const context=vm.createContext({S,el,LOBBY_GAME:metric==='JEOPARDY_START'?'quiz':metric==='ESTIMATE_START'?'estimate':'moreless',JEOP:{mode:'standard'},EST:{mode:'classic'},
-    req:async path=>path.includes('online_ml_questions')?[{question_no:901,metric,category:'standard',prompt:'start'}]:[],
+  const context=vm.createContext({S,el,LOBBY_GAME:metric==='JEOPARDY_START'?'quiz':metric==='ESTIMATE_START'?'estimate':'moreless',JEOP:{mode:'standard'},EST:{mode:'classic'},ESTIMATE_Q:[{q:'Test',a:5,u:'m'}],
+    req:async path=>path.includes('online_ml_questions')?[{question_no:901,metric,category,prompt:'start'}]:[],
     startJeopardy:()=>calls.push('jeopardy'),startEstimateSolo:()=>calls.push('estimate'),showQ:()=>calls.push('moreless'),
     startTransition:()=>{},endTransition:()=>{},showReveal:()=>{},msg:()=>{},
     document:{getElementById:el,querySelectorAll:()=>[]},clearInterval:()=>{},buildJeopData:()=>{},renderJeopBoard:()=>{},renderEstimate:()=>{},jeopInitOnline:()=>{},
@@ -47,6 +47,10 @@ for(const [signal,mode] of [['JEOPARDY_START','jeopardy'],['ESTIMATE_START','est
   await vm.runInContext('sync()',host.context);
   assert.deepEqual(host.calls,[],`${signal}: host already started its own mode`);
 }
+const estimateGuest=fixture('ESTIMATE_START',false,'risk:15');
+await vm.runInContext('sync()',estimateGuest.context);
+assert.equal(estimateGuest.context.EST.mode,'risk');
+assert.equal(estimateGuest.context.EST.roundLength,15);
 
 const f=fixture('JEOPARDY_START');
 vm.runInContext('let GAME_WORLD="moreless",SOLO={on:true},JEOP_STATE=0;',f.context);
@@ -157,7 +161,7 @@ assert.equal(onlineBoard(['Kategorie 0|Frage 0-0'],[0,1,2,3,4,5]),onlineBoard([]
 console.log('OK: online Jeopardy host and guest share one deterministic board');
 
 const lobbyCalls=[];
-const lobby=vm.createContext({S:{room:null,code:null,host:false,myName:''},LOBBY_GAME:'quiz',LOBBY_MODE:'random',JEOP:{mode:'random',randomCats:[1,2,3,4,5,6]},
+const lobby=vm.createContext({S:{room:null,code:null,host:false,myName:''},LOBBY_GAME:'quiz',LOBBY_MODE:'random',JEOP:{mode:'random',randomCats:[1,2,3,4,5,6]},EST:{mode:'risk',roundLength:15},
   el:id=>({value:id==='name'?'Anna':'ABCD1234'}),anon:async()=>{},row:x=>x,
   rpc:async(fn,payload)=>{lobbyCalls.push([fn,payload]);return fn==='ml_create_room'?{room_id:'room-1',room_code:'ABCD1234'}:{room_id:'room-1'}},ready:()=>{},msg:()=>{}});
 vm.runInContext(source('createRoom')+'\n'+source('joinRoom')+'\n'+source('startQ'),lobby);
@@ -168,4 +172,6 @@ await vm.runInContext('joinRoom()',lobby);
 assert.equal(lobby.S.host,false);assert.equal(lobbyCalls[1][1].p_code,'ABCD1234');
 await vm.runInContext('startQ(901)',lobby);
 assert.equal(lobbyCalls[2][1].p_category,'random:1,2,3,4,5,6');
+await vm.runInContext('startQ(902)',lobby);
+assert.equal(lobbyCalls[3][1].p_category,'risk:15','estimate mode and round length travel to the guest');
 console.log('OK: create/join lobby and selected random board signal');
