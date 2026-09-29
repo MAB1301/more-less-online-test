@@ -87,7 +87,7 @@ assert.equal(estimate.el('game').classList.contains('preLobbyHidden'),true);
 assert.equal(estimate.el('estimateGame').classList.contains('hide'),false);
 
 estimate.context.renderFact=()=>{};
-vm.runInContext('let FACT_Q=[{s:"Test",a:true}],FACT={},FACT_DIFFICULTY="easy";function factShuffle(items){return items}',estimate.context);
+vm.runInContext('let FACT_Q=[{s:"Test",a:true}],FACT={},FACT_DIFFICULTY="easy";function factRound(items){return items}function factShuffle(items){return items}',estimate.context);
 vm.runInContext(source('openWorldMenu')+'\n'+source('startFactCheck')+'\n'+source('closeFactCheck'),estimate.context);
 for(const [world,panel] of [['moreless','morelessModes'],['estimate','playType'],['quiz','jeopardyIntro'],['facts','factIntro']]){
   vm.runInContext(`openWorldMenu('${world}')`,estimate.context);
@@ -122,10 +122,13 @@ const factContext=vm.createContext({
   el:factEl,closeForeignGames:()=>{},setQuestionVisual:()=>{},Math
 });
 vm.runInContext(factData+'\n'+html.slice(html.indexOf('const FACT_LEVEL_NAMES='),html.indexOf('function closeFactCheck()')),factContext);
+assert.equal(vm.runInContext('FACT_CURATED.length',factContext),42,'42 sourced new statements');
+assert.equal(vm.runInContext('FACT_CURATED.every(q=>q.source.startsWith("https://")&&q.e&&typeof q.a==="boolean")',factContext),true,'each statement has a source, explanation, and answer');
 for(const level of ['easy','medium','hard']){
   vm.runInContext('FACT_DIFFICULTY='+JSON.stringify(level)+';startFactCheck()',factContext);
   assert.equal(vm.runInContext('FACT.q.length',factContext),10,`${level} provides ten questions`);
   assert.equal(vm.runInContext('FACT.q.every(q=>(q.difficulty||"easy")===FACT_DIFFICULTY)',factContext),true,`${level} is isolated`);
+  assert.equal(vm.runInContext('FACT.q.filter(q=>q.a).length',factContext),5,`${level} has five facts`);
   assert.equal(factEl('factProgress').textContent.startsWith({easy:'LEICHT',medium:'MITTEL',hard:'SCHWER'}[level]),true);
   const correct=vm.runInContext('FACT.q[0].a',factContext);
   factContext.choice=correct;
@@ -134,6 +137,8 @@ for(const level of ['easy','medium','hard']){
   vm.runInContext('nextFact()',factContext);
   assert.equal(factButtons.every(b=>!b.classes.has('correct')&&!b.disabled),true,'next question unlocks choices');
 }
+vm.runInContext('FACT={q:[FACT_CURATED[0]],i:0,score:0,locked:false};answerFact(true)',factContext);
+assert.equal(factEl('factReveal').children[2].href,vm.runInContext('FACT_CURATED[0].source',factContext),'source is linked after reveal');
 
 console.log('OK: game modes stay separate on launch and repeated lobby sync');
 
