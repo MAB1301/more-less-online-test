@@ -61,8 +61,11 @@ assert.equal(flow.S.cat,'Tierwelt');
 assert.deepEqual(calls,['category',5,6],'new category begins with question 6');
 
 const solo=vm.createContext({SOLO:{cat:null,i:0,round:0},el,renderSolo:()=>{},soloSubcat:q=>q.sub||'Fläche'});
-vm.runInContext(html.slice(start,end+2)+'\n'+source('startSoloCategory'),solo);
+vm.runInContext(html.slice(start,end+2)+'\n'+source('soloQuestionKey')+'\n'+source('startSoloCategory'),solo);
 vm.runInContext('startSoloCategory("Rekorde & Extreme")',solo);
 assert.equal(vm.runInContext('SOLO.questions.length',solo),5);
 assert.equal(vm.runInContext('SOLO.questions.every(q=>q.cat==="Rekorde & Extreme")',solo),true);
+assert.equal(vm.runInContext('new Set(SOLO.questions.map(soloQuestionKey)).size',solo),5,'card has five distinct questions');
+const counts=vm.runInContext('Object.entries(Object.groupBy(SOLO_Q,q=>q.cat)).map(([cat,qs])=>[cat,new Set(qs.map(soloQuestionKey)).size])',solo);
+for(const [cat,n] of counts)assert(n>=5,`${cat} has at least five distinct questions`);
 console.log('OK: each five-question block stays in its selected category');
