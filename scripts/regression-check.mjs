@@ -54,3 +54,5 @@ await import('./online-answer-feedback-check.mjs');
 await import('./guest-online-check.mjs');
 await import('./qr-join-check.mjs');
 await import('./end-screen-check.mjs');
+await import('./scoring-rules-check.mjs');
+await import('./jeopardy-guest-check.mjs');
