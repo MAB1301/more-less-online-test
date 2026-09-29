@@ -87,7 +87,7 @@ assert.equal(estimate.el('game').classList.contains('preLobbyHidden'),true);
 assert.equal(estimate.el('estimateGame').classList.contains('hide'),false);
 
 estimate.context.renderFact=()=>{};
-vm.runInContext('let FACT_Q=[{s:"Test",a:true}],FACT={};',estimate.context);
+vm.runInContext('let FACT_Q=[{s:"Test",a:true}],FACT={},FACT_DIFFICULTY="easy";function factShuffle(items){return items}',estimate.context);
 vm.runInContext(source('openWorldMenu')+'\n'+source('startFactCheck')+'\n'+source('closeFactCheck'),estimate.context);
 for(const [world,panel] of [['moreless','morelessModes'],['estimate','playType'],['quiz','jeopardyIntro'],['facts','factIntro']]){
   vm.runInContext(`openWorldMenu('${world}')`,estimate.context);
@@ -100,6 +100,40 @@ vm.runInContext('startFactCheck();closeFactCheck()',estimate.context);
 assert.equal(estimate.el('estimateGame').classList.contains('hide'),true);
 assert.equal(estimate.el('factGame').classList.contains('hide'),true);
 assert.equal(estimate.el('factIntro').classList.contains('hide'),false);
+
+// Facts must use the chosen difficulty and clear the previous answer's state.
+const factData=html.slice(html.indexOf('const FACT_EXTRA=['),html.indexOf('(function mergeReviewedContent(){'));
+const factButtons=[0,1].map(()=>({disabled:false,classes:new Set(),classList:{
+  add(){},remove(...names){names.forEach(n=>this.owner.classes.delete(n))},
+  toggle(name,on){if(on)this.owner.classes.add(name);else this.owner.classes.delete(name)}
+}}));
+factButtons.forEach(b=>b.classList.owner=b);
+const factEls=new Map();
+const factEl=id=>{
+  if(!factEls.has(id)){
+    const classes=new Set();
+    factEls.set(id,{classes,classList:{add:n=>classes.add(n),remove:n=>classes.delete(n)},textContent:'',replaceChildren(...children){this.children=children},append(...children){this.children.push(...children)}});
+  }
+  return factEls.get(id);
+};
+const factContext=vm.createContext({
+  document:{getElementById:factEl,querySelector:()=>({classList:factEl('choices').classList,querySelectorAll:()=>factButtons}),
+    querySelectorAll:()=>factButtons,createElement:()=>({textContent:''})},
+  el:factEl,closeForeignGames:()=>{},setQuestionVisual:()=>{},Math
+});
+vm.runInContext(factData+'\n'+html.slice(html.indexOf('const FACT_LEVEL_NAMES='),html.indexOf('function closeFactCheck()')),factContext);
+for(const level of ['easy','medium','hard']){
+  vm.runInContext('FACT_DIFFICULTY='+JSON.stringify(level)+';startFactCheck()',factContext);
+  assert.equal(vm.runInContext('FACT.q.length',factContext),10,`${level} provides ten questions`);
+  assert.equal(vm.runInContext('FACT.q.every(q=>(q.difficulty||"easy")===FACT_DIFFICULTY)',factContext),true,`${level} is isolated`);
+  assert.equal(factEl('factProgress').textContent.startsWith({easy:'LEICHT',medium:'MITTEL',hard:'SCHWER'}[level]),true);
+  const correct=vm.runInContext('FACT.q[0].a',factContext);
+  factContext.choice=correct;
+  vm.runInContext('answerFact(choice)',factContext);
+  assert.equal(factButtons[correct?0:1].classes.has('correct'),true,'correct answer is shown');
+  vm.runInContext('nextFact()',factContext);
+  assert.equal(factButtons.every(b=>!b.classes.has('correct')&&!b.disabled),true,'next question unlocks choices');
+}
 
 console.log('OK: game modes stay separate on launch and repeated lobby sync');
 
