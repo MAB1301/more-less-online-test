@@ -399,12 +399,12 @@ function previewHomeChoice(btn){document.querySelectorAll('.homeScreen .neonPick
 {l:'Deutschland Bevölkerung 2024',r:'Frankreich Bevölkerung 2024',lv:84119100,rv:68374591,u:'Menschen, CIA-Schätzung',cat:'Länder'},{l:'Italien Bevölkerung 2024',r:'Spanien Bevölkerung 2024',lv:60964931,rv:47280433,u:'Menschen, CIA-Schätzung',cat:'Länder'},{l:'Kanada Bevölkerung 2024',r:'Polen Bevölkerung 2024',lv:38794813,rv:38746310,u:'Menschen, CIA-Schätzung',cat:'Länder'},
 {l:'Lichtgeschwindigkeit',r:'1 Million m/s',lv:299792458,rv:1000000,u:'m/s',cat:'Wissenschaft'},{l:'Cäsium-Frequenz SI-Sekunde',r:'Lichtgeschwindigkeit',lv:9192631770,rv:299792458,u:'Zahlenwert',cat:'Wissenschaft'},{l:'Avogadro-Konstante',r:'Lichtgeschwindigkeit',lv:6.02214076e23,rv:299792458,u:'Zahlenwert',cat:'Wissenschaft'},
 {l:'Burj Khalifa',r:'Eiffelturm',lv:828,rv:330,u:'m Höhe',cat:'Bauwerke'},{l:'Burj Khalifa Stockwerke',r:'Standard-Klavier Tasten',lv:163,rv:88,u:'Anzahl',cat:'Allgemeinwissen'},{l:'Minuten pro Woche',r:'Stunden pro Jahr (365 Tage)',lv:10080,rv:8760,u:'Anzahl',cat:'Allgemeinwissen'},{l:'Strauß',r:'Gepard',lv:70,rv:110,u:'km/h Spitze ungefähr',cat:'Rekorde & Extreme'},{l:'Saturn bestätigte Monde',r:'Jupiter bestätigte Monde',lv:274,rv:95,u:'Anzahl',cat:'Raumfahrt'},{l:'UNESCO-Kulturstätten',r:'UNESCO-Naturstätten',lv:991,rv:240,u:'Anzahl Welterbestätten',cat:'Weltkultur'},
-{l:'Deutschland',r:'Frankreich',lv:83577140,rv:66650804,u:'Einwohner 2025',cat:'Länder',sub:'Einwohnerzahl'},
-{l:'Japan',r:'Mexiko',lv:123103479,rv:131946900,u:'Einwohner 2025',cat:'Länder',sub:'Einwohnerzahl'},
-{l:'Brasilien',r:'Deutschland',lv:212812405,rv:83577140,u:'Einwohner 2025',cat:'Länder',sub:'Einwohnerzahl'},
-{l:'Kanada',r:'Polen',lv:40126723,rv:38140910,u:'Einwohner 2025',cat:'Länder',sub:'Einwohnerzahl'},
+{l:'Deutschland',r:'Frankreich',lv:83491249,rv:68720337,u:'Einwohner 2025',cat:'Länder',sub:'Einwohnerzahl'},
+{l:'Japan',r:'Mexiko',lv:123366734,rv:131946900,u:'Einwohner 2025',cat:'Länder',sub:'Einwohnerzahl'},
+{l:'Brasilien',r:'Deutschland',lv:212812405,rv:83491249,u:'Einwohner 2025',cat:'Länder',sub:'Einwohnerzahl'},
+{l:'Kanada',r:'Polen',lv:40126723,rv:36435861,u:'Einwohner 2025',cat:'Länder',sub:'Einwohnerzahl'},
 {l:'Australien',r:'Spanien',lv:26974026,rv:47889958,u:'Einwohner 2025',cat:'Länder',sub:'Einwohnerzahl'},
-{l:'Deutschland',r:'Frankreich',lv:233.7,rv:120.7,u:'Einwohner je km² ungefähr (2025)',cat:'Länder',sub:'Bevölkerungsdichte'},
+{l:'Deutschland',r:'Frankreich',lv:233.5,rv:124.6,u:'Einwohner je km² ungefähr (2025)',cat:'Länder',sub:'Bevölkerungsdichte'},
 {l:'Japan',r:'Australien',lv:325.7,rv:3.5,u:'Einwohner je km² ungefähr (2025)',cat:'Länder',sub:'Bevölkerungsdichte'},
 {l:'Kanada',r:'Indien',lv:4.0,rv:492.4,u:'Einwohner je km² ungefähr (2025)',cat:'Länder',sub:'Bevölkerungsdichte'}];let SOLO={on:false,i:0,score:0,locked:false,mode:'CLASSIC',lives:3,streak:0};
 function playSolo(){const mode=el('chosenMode').textContent||'CLASSIC';if(!['CLASSIC','BLITZ','SURVIVAL','KING','CHAOS','PARTY'].includes(mode)){msg('Dieser Singleplayer-Modus ist noch nicht spielbar.');return}SOLO={on:true,i:0,score:0,locked:false,cat:null,questions:[],total:0,round:0,mode:mode,lives:mode==='SURVIVAL'?3:0,streak:0};el('homeScreen').classList.add('hide');const w=el('worldMenu');if(w)w.classList.add('hide');const m=el('modeStage');if(m)m.classList.add('hide');el('lobby').classList.add('preLobbyHidden');el('lobbyOverlay').classList.add('hide');el('gameNav').classList.add('hide');el('game').classList.remove('preLobbyHidden');el('scoreHud').classList.remove('hide');el('scoreNum').textContent='0';el('jokerShelf').style.display='none';el('next').classList.add('hide');spinSoloCategory()}
@@ -439,7 +439,7 @@ function spinSoloCategory(){
 function revealSoloCard(btn){if(btn.closest('.drawCards').classList.contains('locked'))return;btn.closest('.drawCards').classList.add('locked');btn.classList.add('revealed');const cat=btn.dataset.cat,sub=btn.dataset.sub;setTimeout(()=>{document.getElementById('soloCardDraw')?.classList.remove('on');startSoloCategory(cat,sub)},950)}
 function startSoloCategory(cat,sub=''){
  SOLO.cat=cat==='*'?'Mix':cat;let pool=cat==='*'?[...SOLO_Q]:SOLO_Q.filter(q=>q.cat===cat);if(sub)pool=pool.filter(q=>soloSubcat(q)===sub);if(!pool.length)pool=[...SOLO_Q];
- const shuffled=[...pool].sort(()=>Math.random()-.5);SOLO.questions=Array.from({length:5},(_,i)=>shuffled[i%shuffled.length]);SOLO.i=0;SOLO.drawLabel=sub||SOLO.cat;el('catOverlay').classList.remove('on');renderSolo();
+ const shuffled=[...pool].sort(()=>Math.random()-.5);SOLO.questions=Array.from({length:5},(_,i)=>shuffled[i]||[...SOLO_Q].filter(q=>!shuffled.includes(q)).sort(()=>Math.random()-.5)[i-shuffled.length]);SOLO.i=0;SOLO.drawLabel=sub||SOLO.cat;el('catOverlay').classList.remove('on');renderSolo();
 }
 function showSoloCategories(){el('catOverlay').classList.add('on');el('catOverlay').querySelector('h1').textContent=SOLO.round?'Neue Kategorie wählen':'Wähle deine Kategorie';el('catOverlay').querySelector('.catWrap>.muted').textContent='SINGLEPLAYER · '+SOLO.mode+' · '+(SOLO.round+1)+'. RUNDE';el('catStatus').textContent='Einmal tippen zum Auswählen'}
 const COUNTRY_CODE={
@@ -615,16 +615,18 @@ addEventListener('resize',applyAdaptiveLayout,{passive:true});
 addEventListener('orientationchange',()=>setTimeout(applyAdaptiveLayout,80),{passive:true});
 </script><div id="factGame" class="factGame hide"><button class="jeopEndBtn" onclick="closeFactCheck()">← Menü</button><div class="factInner"><div class="factBadge">FAKT ODER FAKE</div><div id="factProgress" class="muted"></div><div id="factStatement" class="factStatement"></div><div id="factVisual"></div><div class="factChoices"><button onclick="answerFact(true)">RICHTIG</button><button onclick="answerFact(false)">FALSCH</button></div><div id="factReveal" class="factReveal hide"></div><button id="factNext" class="p hide" onclick="nextFact()">Nächster Fakt →</button></div></div><script>
 const FACT_Q=[
-{s:'Der Pazifik ist größer als der Atlantik.',a:true,e:'Der Pazifik ist der größte Ozean der Erde.'},
-{s:'Australien hat mehr Einwohner als Spanien.',a:false,e:'Spanien hat deutlich mehr Einwohner als Australien.'},
-{s:'Der Burj Khalifa ist höher als 800 Meter.',a:true,e:'Der Burj Khalifa ist 828 Meter hoch.'},
-{s:'Ein Schachbrett hat 64 Felder.',a:true,e:'Es besteht aus 8 × 8 Feldern.'},
-{s:'Der Mars ist größer als die Erde.',a:false,e:'Der Äquatordurchmesser der Erde ist fast doppelt so groß.'},
-{s:'Ein Marathon ist länger als 40 Kilometer.',a:true,e:'Die offizielle Marathondistanz beträgt 42,195 km.'},
-{s:'Jupiter ist kleiner als Saturn.',a:false,e:'Jupiter hat den größeren Äquatordurchmesser.'},
-{s:'Ein klassisches Klavier hat 88 Tasten.',a:true,e:'88 Tasten sind der moderne Standard.'},
-{s:'Der Eiffelturm ist höher als das Empire State Building.',a:false,e:'Der Eiffelturm ist rund 330 m hoch; das Empire State Building 381 m bis zum Dach.'},
-{s:'Die Lichtgeschwindigkeit beträgt ungefähr 300.000 km pro Sekunde.',a:true,e:'Im Vakuum sind es exakt 299.792.458 m/s.'}
+{s:'Der Pazifik ist größer als der Atlantik.',a:true,e:'Der Pazifik ist der größte Ozean der Erde.',cat:'Natur'},
+{s:'Australien hat mehr Einwohner als Spanien.',a:false,e:'Spanien hat deutlich mehr Einwohner als Australien.',cat:'Länder'},
+{s:'Der Burj Khalifa ist höher als 800 Meter.',a:true,e:'Der Burj Khalifa ist 828 Meter hoch.',cat:'Bauwerke'},
+{s:'Ein Schachbrett hat 64 Felder.',a:true,e:'Es besteht aus 8 × 8 Feldern.',cat:'Allgemeinwissen'},
+{s:'Der Mars ist größer als die Erde.',a:false,e:'Der Äquatordurchmesser der Erde ist fast doppelt so groß.',cat:'Weltraum'},
+{s:'Ein Marathon ist länger als 40 Kilometer.',a:true,e:'Die offizielle Marathondistanz beträgt 42,195 km.',cat:'Sport'},
+{s:'Jupiter ist kleiner als Saturn.',a:false,e:'Jupiter hat den größeren Äquatordurchmesser.',cat:'Weltraum'},
+{s:'Ein klassisches Klavier hat 88 Tasten.',a:true,e:'88 Tasten sind der moderne Standard.',cat:'Allgemeinwissen'},
+{s:'Der Eiffelturm ist höher als das Empire State Building.',a:false,e:'Der Eiffelturm ist rund 330 m hoch; das Empire State Building 381 m bis zum Dach.',cat:'Bauwerke'},
+{s:'Die Lichtgeschwindigkeit beträgt ungefähr 300.000 km pro Sekunde.',a:true,e:'Im Vakuum sind es exakt 299.792.458 m/s.',cat:'Wissenschaft'},
+{s:'Deutschland hatte 2025 mehr Einwohner als Frankreich.',a:true,e:'World Bank 2025: Deutschland rund 83,49 Mio., Frankreich rund 68,72 Mio.',cat:'Länder'},
+{s:'Japan hatte 2025 mehr Einwohner als Deutschland.',a:true,e:'World Bank 2025: Japan rund 123,37 Mio., Deutschland rund 83,49 Mio.',cat:'Länder'}
 ];
 let FACT={q:[],i:0,score:0,locked:false};
 function startFactCheck(){document.getElementById('homeScreen').style.display='none';FACT={q:[...FACT_Q].sort(()=>Math.random()-.5),i:0,score:0,locked:false};document.getElementById('factGame').classList.remove('hide');renderFact()}
