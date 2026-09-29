@@ -479,7 +479,28 @@ const VISUAL_IMG={
 'Giraffe':'https://commons.wikimedia.org/wiki/Special:FilePath/Giraffe%20standing.jpg?width=900',
 'Wanderfalke':'https://commons.wikimedia.org/wiki/Special:FilePath/Falco%20peregrinus%20-%2001.jpg?width=900',
 'Strauß':'https://commons.wikimedia.org/wiki/Special:FilePath/Struthio%20camelus%20-%20Etosha%202014.jpg?width=900'
-};
+,
+'Nil':'https://commons.wikimedia.org/wiki/Special:FilePath/Nile%20River%20and%20delta%20from%20orbit.jpg?width=900',
+'Rhein':'https://commons.wikimedia.org/wiki/Special:FilePath/Rhine%20river.jpg?width=900',
+'Pazifik':'https://commons.wikimedia.org/wiki/Special:FilePath/Pacific%20Ocean%20-%20en.png?width=900',
+'Atlantik':'https://commons.wikimedia.org/wiki/Special:FilePath/Atlantic%20Ocean%20-%20en.png?width=900',
+'Grönland':'https://commons.wikimedia.org/wiki/Special:FilePath/Greenland%20satellite%20image.jpg?width=900',
+'Island':'https://commons.wikimedia.org/wiki/Special:FilePath/Iceland%20satellite.jpg?width=900',
+'Shanghai Tower':'https://commons.wikimedia.org/wiki/Special:FilePath/Shanghai%20Tower%202015.jpg?width=900',
+'Empire State Building':'https://commons.wikimedia.org/wiki/Special:FilePath/Empire%20State%20Building%20by%20David%20Shankbone.jpg?width=900',
+'Ulmer Münster':'https://commons.wikimedia.org/wiki/Special:FilePath/Ulmer%20Muenster.jpg?width=900',
+'Fußballfeld Länge':'https://commons.wikimedia.org/wiki/Special:FilePath/Football_pitch_metric.svg?width=900',
+'Basketballfeld Länge':'https://commons.wikimedia.org/wiki/Special:FilePath/Basketball%20court%20dimensions.svg?width=900',
+'Marathondistanz':'https://commons.wikimedia.org/wiki/Special:FilePath/Marathon%20runners.jpg?width=900',
+'Olympischer Triathlon':'https://commons.wikimedia.org/wiki/Special:FilePath/Triathlon%20swimming.jpg?width=900',
+'Tasten Klavier':'https://commons.wikimedia.org/wiki/Special:FilePath/Piano%20keyboard.jpg?width=900',
+'Standard-Klavier Tasten':'https://commons.wikimedia.org/wiki/Special:FilePath/Piano%20keyboard.jpg?width=900',
+'Felder Schachbrett':'https://commons.wikimedia.org/wiki/Special:FilePath/Chessboard480.svg?width=900',
+'Karten Skatblatt':'https://commons.wikimedia.org/wiki/Special:FilePath/Skat%20cards.jpg?width=900',
+'Karten Pokerblatt':'https://commons.wikimedia.org/wiki/Special:FilePath/Playing%20cards%20deck.jpg?width=900',
+'Indischer Ozean':'https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20Ocean%20-%20en.png?width=900',
+'100-m-Weltrekord Männer':'https://commons.wikimedia.org/wiki/Special:FilePath/Athletics%20track.jpg?width=900',
+'100-m-Weltrekord Frauen':'https://commons.wikimedia.org/wiki/Special:FilePath/Athletics%20track.jpg?width=900'};
 function visualKind(n){n=(n||'').toLowerCase();if(/eiffel|empire|burj|tower|dom|münster/.test(n))return'building';if(/jupiter|saturn|uranus|neptun|venus|mars|erde|mond|sonne/.test(n))return'planet';if(/wal|elefant|giraffe|falke|gepard/.test(n))return'animal';if(/deutschland|frankreich|indien|argentinien|japan|italien|kanada|polen|spanien/.test(n))return'country';if(/berlin|hamburg|new york|london|paris|barcelona/.test(n))return'city';if(/nil|rhein|pazifik|atlantik|ozean|grönland|island/.test(n))return'nature';if(/fußball|basketball|marathon|triathlon|weltrekord/.test(n))return'sport';return'science'}
 function visualFallback(n){const k=visualKind(n),label=(n||'').replace(/ Bevölkerung 2024| Stockwerke|-Tag|-Jahr/g,'');if(k==='building')return '<div class="skylineShape"><i></i><i></i><i></i><i></i><i></i></div>';if(k==='planet')return '<div class="planetShape"></div>';if(k==='animal')return '<div class="animalShape">'+label.slice(0,1)+'</div>';if(k==='country'||k==='city'||k==='nature')return '<div class="mapShape">'+label.slice(0,2).toUpperCase()+'</div>';if(k==='sport')return '<div class="sportShape"></div>';return '<div class="scienceShape">∑</div>'}
 function setObjectVisual(id,n){const box=el(id);if(!box)return;box.className='objectVisual '+visualKind(n);box.innerHTML='';const url=VISUAL_IMG[n];if(url){const im=new Image();im.alt=n;im.onload=()=>{box.innerHTML='';box.appendChild(im);box.classList.add('hasPhoto')};im.onerror=()=>{box.innerHTML=visualFallback(n)};im.src=url}else box.innerHTML=visualFallback(n)}
