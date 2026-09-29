@@ -1,7 +1,7 @@
 name: Validate Online Test
 on:
   push:
-    branches: [main]
+    branches: [Main, dev/public-modes-questionpool]
   workflow_dispatch:
 permissions:
   contents: read
@@ -15,3 +15,5 @@ jobs:
           test -f index.html
           grep -q "ml_create_room" index.html
           grep -q "ml_online_ml_submit" index.html
+          grep -q "onlineQuestion" index.html
+          cmp -s index.html offline/index.html
