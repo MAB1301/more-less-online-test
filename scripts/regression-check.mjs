@@ -22,9 +22,8 @@ const required=[
 ];
 for(const [name,needle] of required)html.includes(needle)?ok(name):fail(name+' missing');
 const script=[...html.matchAll(/<script[^>]*>([\s\S]*?)<\/script>/gi)].map(m=>m[1]).join('\n');
-fs.writeFileSync('/tmp/game-inline.js',script);
 ok('extracted '+script.length+' bytes inline JavaScript');
 const {spawnSync}=await import('node:child_process');
-const syntax=spawnSync(process.execPath,['--check','/tmp/game-inline.js'],{encoding:'utf8'});
+const syntax=spawnSync(process.execPath,['--check','-'],{input:script,encoding:'utf8'});
 if(syntax.status===0)ok('inline JavaScript syntax valid');else fail('inline JavaScript syntax error: '+syntax.stderr);
 if(process.exitCode)process.exit(process.exitCode);
