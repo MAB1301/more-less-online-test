@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import vm from 'node:vm';
 const html=fs.readFileSync('index.html','utf8');
 const offline=fs.readFileSync('offline/index.html','utf8');
 const fail=m=>{console.error('FAIL:',m);process.exitCode=1}, ok=m=>console.log('OK:',m);
@@ -6,7 +7,7 @@ if(html===offline.replace('src="../content/approved.js"','src="content/approved.
 const visualMap=html.match(/const VISUAL_IMG=\{([\s\S]*?)\};/);
 if(!visualMap)fail('visual asset map missing');
 else{
-  const files=[...visualMap[1].matchAll(/:'([^']+\.webp)'/g)].map(m=>m[1]);
+  const files=[...visualMap[1].matchAll(/:'([^']+\.(?:webp|svg))'/g)].map(m=>m[1]);
   const missing=files.filter(name=>!fs.existsSync('assets/visuals/'+name));
   missing.length?fail('missing local visuals: '+missing.join(', ')):ok(files.length+' local visual mappings resolve');
 }
@@ -18,6 +19,13 @@ const calls=[...new Set(onclick.flatMap(h=>[...h.matchAll(/(?:^|[; ])([A-Za-z_$]
 const defined=n=>new RegExp('function\\s+'+n+'\\s*\\(|(?:const|let|var)\\s+'+n+'\\s*=').test(html)||['setTimeout','clearInterval'].includes(n);
 const missing=calls.filter(n=>!defined(n));
 missing.length?fail('onclick calls missing functions: '+missing.join(', ')):ok(onclick.length+' click handlers resolve to '+calls.length+' functions');
+const contentStart=html.indexOf('const KNOWLEDGE_POOL='),contentEnd=html.indexOf('let JEOP=',contentStart);
+if(contentStart<0||contentEnd<0)fail('Jeopardy catalogue missing');
+else{
+  const categories=vm.runInNewContext(html.slice(contentStart,contentEnd)+'\nJEOP_CATS.map(([name,questions])=>({name,count:questions.length}))');
+  const incomplete=categories.filter(x=>x.count<5);
+  incomplete.length?fail('Jeopardy category has empty board cells: '+incomplete.map(x=>x.name+'('+x.count+')').join(', ')):ok(categories.length+' Jeopardy categories have at least five clues');
+}
 const required=[
 ['MORE/LESS render','function renderSolo('],['MORE/LESS answer','function soloPick('],['MORE/LESS category','function pickCat('],
 ['Estimate start','function startEstimateSolo('],['Estimate render','function renderEstimate('],['Estimate submit','function submitEstimate('],['Estimate next','function nextEstimate('],
