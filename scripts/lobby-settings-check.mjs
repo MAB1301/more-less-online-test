@@ -25,3 +25,5 @@ ctx.event={preventDefault:()=>{}};await vm.runInContext('saveLobbySettings(event
 el('settingTime').value='2';await vm.runInContext('saveLobbySettings(event)',ctx);assert.equal(calls,1,'invalid duration never submitted');
 ctx.S.roomConfig.game_mode='BLITZ';vm.runInContext('renderLobbySettings()',ctx);assert.equal(el('settingTime').min,5);assert.equal(el('settingTime').max,15);
 console.log('OK: host settings save, dirty edits survive polling, actual question count, validation and Blitz limits');
+
+assert(!html.includes('id="saveLobbySettings"'),'form control must not shadow submit handler');
