@@ -37,7 +37,7 @@ let reject=false;
 const S={q:1,room:'test',uid:'me',answeredQ:0,myChoice:null,joker:null,usedJokers:[],
   answerHistory:{},playerNames:{},scoredQ:1,host:false,finishDismissed:false,finishShownQ:0,finishTimer:null};
 const context=vm.createContext({
-  S,el:node,document:{querySelector:()=>null},
+  S,el:node,clearGameTimer:()=>{},document:{querySelector:()=>null},
   rpc:async()=>{if(reject)throw Error('Netzfehler')},
   sync:async()=>{},scheduleAutoNext:()=>{},showFinish:()=>{},
   setTimeout:()=>{},Math
@@ -59,6 +59,8 @@ assert.equal(node('b').classes.has('correctPick'),true,'correct answer turns gre
 assert.equal(node('b').stamp['.answerStampText'].textContent,'+1 PUNKT');
 assert.equal(node('a').classes.has('wrongPick'),false,'previous question state is cleared');
 
+vm.runInContext("showReveal({answers:[{user_id:'me',choice:'b',correct:true,points:1.5}],right_value:5,unit:'m',correct_name:'B'})",context);
+assert.equal(node('b').stamp['.answerStampText'].textContent,'+1,5 PUNKTE','server bonus appears on answer card');
 S.q=3;S.answeredQ=0;reject=true;
 await vm.runInContext("answer('a')",context);
 assert.equal(node('a').classes.has('lockedPick'),false,'failed save unlocks the card');

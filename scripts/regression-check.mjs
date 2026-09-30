@@ -56,3 +56,5 @@ await import('./qr-join-check.mjs');
 await import('./end-screen-check.mjs');
 await import('./scoring-rules-check.mjs');
 await import('./jeopardy-guest-check.mjs');
+
+await import('./blitz-timer-check.mjs');

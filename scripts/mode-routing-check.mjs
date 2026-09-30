@@ -28,7 +28,7 @@ function fixture(metric,host=false,category='standard'){
     return elements.get(id);
   };
   const S={room:'room',uid:'user',myName:'Player',host,enteredGame:false,newGameLobby:false,q:0,liveQ:0,questionData:{},questionHistory:{},revealHistory:{},reviewMode:false};
-  const context=vm.createContext({S,el,LOBBY_GAME:metric==='JEOPARDY_START'?'quiz':metric==='ESTIMATE_START'?'estimate':'moreless',JEOP:{mode:'standard'},EST:{mode:'classic'},ESTIMATE_Q:[{q:'Test',a:5,u:'m'}],
+  const context=vm.createContext({clearGameTimer:()=>{},S,el,LOBBY_GAME:metric==='JEOPARDY_START'?'quiz':metric==='ESTIMATE_START'?'estimate':'moreless',JEOP:{mode:'standard'},EST:{mode:'classic'},ESTIMATE_Q:[{q:'Test',a:5,u:'m'}],
     req:async path=>path.includes('online_ml_questions')?[{question_no:901,metric,category,prompt:'start'}]:[],
     startJeopardy:()=>calls.push('jeopardy'),startEstimateSolo:()=>calls.push('estimate'),showQ:()=>calls.push('moreless'),
     startTransition:()=>{},endTransition:()=>{},showReveal:()=>{},msg:()=>{},
@@ -161,7 +161,7 @@ assert.equal(onlineBoard(['Kategorie 0|Frage 0-0'],[0,1,2,3,4,5]),onlineBoard([]
 console.log('OK: online Jeopardy host and guest share one deterministic board');
 
 const lobbyCalls=[];
-const lobby=vm.createContext({S:{room:null,code:null,host:false,myName:''},LOBBY_GAME:'quiz',LOBBY_MODE:'random',JEOP:{mode:'random',randomCats:[1,2,3,4,5,6]},EST:{mode:'risk',roundLength:15},
+const lobby=vm.createContext({blitzSeconds:()=>8,S:{room:null,code:null,host:false,myName:''},LOBBY_GAME:'quiz',LOBBY_MODE:'random',JEOP:{mode:'random',randomCats:[1,2,3,4,5,6]},EST:{mode:'risk',roundLength:15},
   el:id=>({value:id==='name'?'Anna':'ABCD1234'}),anon:async()=>{},row:x=>x,
   rpc:async(fn,payload)=>{lobbyCalls.push([fn,payload]);return fn==='ml_create_room'?{room_id:'room-1',room_code:'ABCD1234'}:{room_id:'room-1'}},ready:()=>{},msg:()=>{}});
 vm.runInContext(source('createRoom')+'\n'+source('joinRoom')+'\n'+source('startQ'),lobby);
