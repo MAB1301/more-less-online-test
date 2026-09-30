@@ -39,6 +39,7 @@ function device(uid,host){
     reviewMode:false,newGameLobby:false,transitionQ:0,usedJokers:[],joker:null,questionData:{},
     questionHistory:{},revealHistory:{},answerHistory:{},playerNames:{},scoredQ:1,finishDismissed:false};
   const req=async path=>{
+    if(path.includes('/rooms?'))return [{config:{game:'moreless',game_mode:'CLASSIC'}}];
     if(path.includes('/players?'))return players;
     if(path.includes('/online_team_members?'))return [];
     if(path.includes('/online_ml_questions?'))return room.questions;
@@ -55,7 +56,7 @@ function device(uid,host){
         answers:Object.entries(room.answers[p_question_no]).map(([user_id,choice])=>({user_id,choice,correct:choice==='a'}))};
     }
   };
-  const context=vm.createContext({S,el,req,rpc,LOBBY_GAME:'moreless',
+  const context=vm.createContext({S,el,req,rpc,LOBBY_GAME:'moreless',LOBBY_MODE:'CLASSIC',clearGameTimer:()=>{},startOnlineTimer:()=>{},
     document:{querySelectorAll:()=>[],querySelector:()=>null,createElement:()=>({style:{},remove:()=>{}}),body:{appendChild:()=>{}}},
     setGlobalBack:()=>{},startTransition:()=>{},endTransition:()=>{},setObjectVisual:()=>{},
     scheduleAutoNext:()=>{},showFinish:()=>{},setTimeout:()=>{},clearInterval:()=>{},

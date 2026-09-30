@@ -24,3 +24,9 @@ node scripts/regression-check.mjs
 Der Builder erzeugt `content/approved.js` und pro freigegebenem Motiv zwei lokale WebP-Bilder unter `assets/visuals/ugc/` (4:3 Karte und 16:9 Frage). Die Spielseiten laden dasselbe Paket und funktionieren damit auch ohne Netz. Entwürfe kommen nicht ins Spiel. MORE / LESS vergleicht ausschließlich Fakten mit derselben Kategorie, Messwertkennung und Einheit. Schätzfragen übernehmen den eingegebenen Fragetext; Jeopardy sowie Fakt oder Fake verlangen zusätzlich ausdrücklich formulierte Frage und Antwort. Bildnachweise werden in `assets/visuals/credits.html` ergänzt. Generierte Dateien müssen zusammen mit dem Code veröffentlicht werden.
 
 Das Studio speichert noch nicht in Supabase und veröffentlicht nicht selbst. Die bestehende Supabase-Verbindung bedient Spielräume; eine gesicherte Uploadoberfläche erfordert eine eigene Administratoranmeldung, Storage-Richtlinien und Freigabe-Tabellen. Externe KI-Bildsuche und automatische Überprüfung von Art, Fakten oder Bildrechten sind nicht Teil dieses ersten Imports.
+
+## MORE / LESS Blitz
+
+Vor dem Start sind 5–15 Sekunden pro Frage wählbar (Standard: 8). Solo beendet Zeitablauf die Frage mit 0 Punkten. Online verwendet der Countdown die Serverfrist; die bestehende RPC `ml_online_ml_timeout` schließt unbeantwortete Fragen ab. Richtige Antworten in der ersten Zeithälfte erhalten serverseitig 1,5 Punkte, danach 1 Punkt. Die Anzeige addiert `players.score` und `players.blitz_bonus`.
+
+`node scripts/blitz-timer-check.mjs` prüft Countdown, Zeitgrenzen und späte Klicks. `scripts/blitz-server-check.sql` prüft die vorhandenen Supabase-Funktionen mit vollständig zurückgerollten Testdaten: Bonus, reguläre Punkte, Timeout, wiederholte Finalisierung und Mitgliedschaft. Der SQL-Test benötigt eine Administratorverbindung. Für bestehende Lobbys gilt weiterhin deren gespeicherte Konfiguration; die Zeitauswahl wird beim Erstellen einer neuen Lobby übernommen.
