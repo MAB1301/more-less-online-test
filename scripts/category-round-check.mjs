@@ -19,7 +19,7 @@ const source=name=>{
 const start=html.indexOf('const SOLO_Q=['),end=html.indexOf('];let SOLO=',start);
 assert(start>=0&&end>start);
 const context=vm.createContext({S:{cat:'Länder',questionData:{}},Math});
-vm.runInContext(html.slice(start,end+2)+'\nlet ONLINE_Q_ORDER=[],ONLINE_Q_CAT="";\n'+source('onlineComparisonKey')+'\n'+source('onlineAvailable')+'\n'+source('onlineQuestion'),context);
+vm.runInContext(html.slice(start,end+2)+'\nlet ONLINE_Q_ORDER=[],ONLINE_Q_CAT="";\n'+source('onlineTotalQuestions')+'\n'+source('onlineComparisonKey')+'\n'+source('onlineAvailable')+'\n'+source('onlineQuestion'),context);
 const cats=vm.runInContext('[...new Set(SOLO_Q.map(q=>q.cat))]',context);
 for(const cat of cats){
   vm.runInContext(`S.cat=${JSON.stringify(cat)}`,context);
@@ -51,7 +51,7 @@ const elements=new Map(),el=id=>{
 };
 const flow=vm.createContext({S:{host:true,q:5,autoNextQ:0,cat:'Natur'},el,calls,
   setInterval:fn=>{flow.tick=fn;return 1},clearInterval:()=>{},showCategories:()=>calls.push('category'),startQ:n=>calls.push(n)});
-vm.runInContext(source('scheduleAutoNext'),flow);
+vm.runInContext(source('onlineTotalQuestions')+'\n'+source('scheduleAutoNext'),flow);
 vm.runInContext('scheduleAutoNext()',flow);
 for(let i=0;i<3;i++)flow.tick();
 assert.deepEqual(calls,['category'],'question 5 opens the next category draw');
