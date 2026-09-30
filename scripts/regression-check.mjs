@@ -1,9 +1,10 @@
 import fs from 'node:fs';
 import vm from 'node:vm';
 const html=fs.readFileSync('index.html','utf8');
+const daily=fs.readFileSync('assets/daily.js','utf8');
 const offline=fs.readFileSync('offline/index.html','utf8');
 const fail=m=>{console.error('FAIL:',m);process.exitCode=1}, ok=m=>console.log('OK:',m);
-if(html===offline.replaceAll('src="../assets/vendor/qrcode.min.js"','src="assets/vendor/qrcode.min.js"').replace('src="../content/approved.js"','src="content/approved.js"'))ok('online/offline HTML identical except content path');else fail('online/offline HTML differ beyond content path');
+if(html===offline.replace('src="../assets/daily.js"','src="assets/daily.js"').replaceAll('src="../assets/vendor/qrcode.min.js"','src="assets/vendor/qrcode.min.js"').replace('src="../content/approved.js"','src="content/approved.js"'))ok('online/offline HTML identical except content path');else fail('online/offline HTML differ beyond content path');
 const visualMap=html.match(/const VISUAL_IMG=\{([\s\S]*?)\};/);
 if(!visualMap)fail('visual asset map missing');
 else{
@@ -16,7 +17,7 @@ const dup=[...new Set(ids.filter((x,i)=>ids.indexOf(x)!==i))];
 dup.length?fail('duplicate IDs: '+dup.join(', ')):ok(ids.length+' unique DOM IDs');
 const onclick=[...html.matchAll(/onclick="([^"]+)"/g)].map(m=>m[1]);
 const calls=[...new Set(onclick.flatMap(h=>[...h.matchAll(/(?:^|[; ])([A-Za-z_$][\w$]*)\s*\(/g)].map(m=>m[1])))];
-const defined=n=>new RegExp('function\\s+'+n+'\\s*\\(|(?:const|let|var)\\s+'+n+'\\s*=').test(html)||['setTimeout','clearInterval'].includes(n);
+const defined=n=>new RegExp('function\\s+'+n+'\\s*\\(|(?:const|let|var)\\s+'+n+'\\s*=').test(html+daily)||['setTimeout','clearInterval'].includes(n);
 const missing=calls.filter(n=>!defined(n));
 missing.length?fail('onclick calls missing functions: '+missing.join(', ')):ok(onclick.length+' click handlers resolve to '+calls.length+' functions');
 const worldButtons=[...html.matchAll(/class="worldCard" onclick="openWorldMenu\('([^']+)'\)"/g)].map(m=>m[1]);
@@ -60,3 +61,5 @@ await import('./jeopardy-guest-check.mjs');
 await import('./blitz-timer-check.mjs');
 
 await import('./lobby-settings-check.mjs');
+
+await import('./daily-check.mjs');
