@@ -58,3 +58,5 @@ await import('./scoring-rules-check.mjs');
 await import('./jeopardy-guest-check.mjs');
 
 await import('./blitz-timer-check.mjs');
+
+await import('./lobby-settings-check.mjs');

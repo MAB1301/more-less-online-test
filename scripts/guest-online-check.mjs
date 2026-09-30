@@ -61,7 +61,7 @@ function device(uid,host){
     setGlobalBack:()=>{},startTransition:()=>{},endTransition:()=>{},setObjectVisual:()=>{},
     scheduleAutoNext:()=>{},showFinish:()=>{},setTimeout:()=>{},clearInterval:()=>{},
     msg:message=>{throw Error(message)}});
-  vm.runInContext(['setOnlineAnswerState','showQ','showReveal','sync','answer'].map(source).join('\n'),context);
+  vm.runInContext(['onlineTotalQuestions','setOnlineAnswerState','showQ','showReveal','sync','answer'].map(source).join('\n'),context);
   return {context,S,el,run:code=>vm.runInContext(code,context)};
 }
 const host=device('host',true),guest=device('guest',false);
