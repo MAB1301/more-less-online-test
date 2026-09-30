@@ -28,7 +28,7 @@ function fixture(metric,host=false,category='standard'){
     return elements.get(id);
   };
   const S={room:'room',uid:'user',myName:'Player',host,enteredGame:false,newGameLobby:false,q:0,liveQ:0,questionData:{},questionHistory:{},revealHistory:{},reviewMode:false};
-  const context=vm.createContext({clearGameTimer:()=>{},S,el,LOBBY_GAME:metric==='JEOPARDY_START'?'quiz':metric==='ESTIMATE_START'?'estimate':'moreless',JEOP:{mode:'standard'},EST:{mode:'classic'},ESTIMATE_Q:[{q:'Test',a:5,u:'m'}],
+  const context=vm.createContext({updateLobbySummary:()=>{},clearGameTimer:()=>{},S,el,LOBBY_GAME:metric==='JEOPARDY_START'?'quiz':metric==='ESTIMATE_START'?'estimate':'moreless',JEOP:{mode:'standard'},EST:{mode:'classic'},ESTIMATE_Q:[{q:'Test',a:5,u:'m'}],
     req:async path=>path.includes('online_ml_questions')?[{question_no:901,metric,category,prompt:'start'}]:[],
     startJeopardy:()=>calls.push('jeopardy'),startEstimateSolo:()=>calls.push('estimate'),showQ:()=>calls.push('moreless'),
     startTransition:()=>{},endTransition:()=>{},showReveal:()=>{},msg:()=>{},
