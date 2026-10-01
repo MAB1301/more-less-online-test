@@ -15,3 +15,13 @@ const start=html.indexOf('function visualFallback('),end=html.indexOf('\nfunctio
 assert(vm.runInContext("visualFallback('Frühe Erde')",art).includes('art-primordial'));assert(!vm.runInContext("visualFallback('Text')",art).includes('scienceShape'));
 assert(fs.existsSync('assets/visuals/generated/question-atlas.png'));assert(!html.includes('<span class="accountDockLabel" id="accountDockName">Account angemeldet'));
 console.log('OK: guest profile text safety, supported photo types, isolated state, focus return and generated illustration fallback');
+let reads=0,decoded=null,drawn=null;
+ctx.FileReader=class{readAsDataURL(){reads++;this.result='data:image/png;base64,test';this.onload()}};
+ctx.Image=class{constructor(){this.naturalWidth=2048;this.naturalHeight=1024}set src(value){decoded=this;this.onload()}};
+ctx.document.createElement=type=>type==='canvas'?{getContext:()=>({drawImage:(...args)=>drawn=args}),toDataURL:()=> 'data:image/webp;base64,compressed'}:node();
+ctx.input={value:'',files:[{type:'image/png',size:2*1024*1024}]};
+vm.runInContext('readGuestPhoto(input)',ctx);assert.equal(reads,1,'exact 2 MB accepted');assert.equal(drawn[3],512);assert.equal(drawn[4],256,'avatar scales proportionally');
+el('accountGuestName').value='Anna';vm.runInContext('saveGuestSettings(event)',ctx);assert.equal(JSON.parse(store.get('ml_guest_profile_v1')).photo,'data:image/webp;base64,compressed');
+ctx.input.files[0].size++;vm.runInContext('readGuestPhoto(input)',ctx);assert.equal(reads,1,'over 2 MB rejected');
+ctx.input.files=[{type:'image/svg+xml',size:100}];vm.runInContext('readGuestPhoto(input)',ctx);assert.equal(reads,1,'unsupported type rejected');
+console.log('OK: 2 MB boundary, proportional avatar preparation, saving and over-limit/type rejection');
