@@ -21,8 +21,9 @@ function gameRules(game,mode,rule=null){
  const labels={moreless:'MORE / LESS',estimate:'SCHÄTZDUELL',facts:'FAKT ODER FAKE',quiz:'JEOPARDY'};
  rules.brand=labels[game]||'GAME / NIGHT';
  const seconds=game==='estimate'?8:online?Number(S.roomConfig?.timer_enabled?S.roomConfig.timer_seconds:S.roomConfig?.blitz_seconds)||8:typeof blitzSeconds==='function'?blitzSeconds():8;
- const questions=game==='estimate'?(Number(online?S.roomConfig?.questions_per_round:EST.roundLength)||10)+' Fragen':game==='facts'?'10 Aussagen':game==='quiz'?'6 Kategorien':online?(typeof onlineTotalQuestions==='function'?onlineTotalQuestions():20)+' Fragen':GAME_UX.rounds+' Runden';
+ const questions=game==='estimate'?(Number(online?S.roomConfig?.questions_per_round:EST.roundLength)||10)+' Fragen':game==='facts'?'10 Aussagen':game==='quiz'?'6 Kategorien':online?(typeof onlineTotalQuestions==='function'?onlineTotalQuestions():20)+' Fragen':GAME_UX.rounds+(GAME_UX.rounds===1?' Runde':' Runden');
  const modeInfo={classic:game==='estimate'?'Bis zu 100 Punkte':'+1 pro Treffer',party:online?'5 Joker pro Match':'+1 pro Treffer',blitz:seconds+' Sekunden pro Frage',survival:'3 Leben',king:game==='estimate'?'Multiplikator bis ×5':'Serie bis +5',risk:'500 Startpunkte',chaos:'Neue Regel je Runde'};
+ if(game==='moreless'&&m==='party'&&!online)rules.lines=[rules.lines[0],'Jede richtige Antwort gibt einen Punkt.','Joker stehen in einer Online-Lobby zur Verfügung.'];
  rules.meta=[questions,modeInfo[m]||(game==='facts'?'+1 pro Treffer':'30 Fragenfelder')];
  if(game==='moreless'&&!online&&!rule){rules.meta.splice(1,0,'5 Fragen je Kategorie');if(m==='classic')rules.lines=['Kategorie ziehen','Höheren Wert wählen','Punkte sammeln'];}
  if(game==='moreless'&&m==='blitz')rules.lines=[rules.lines[0],'Du hast '+seconds+' Sekunden pro Frage. Zu spät zählt als falsch.',online?'Richtig: +1 Punkt. In der ersten Zeithälfte zusätzlich +0,5.':'Jede richtige Antwort gibt einen Punkt.'];
@@ -42,7 +43,7 @@ function configureRuleSettings(rules,editable=false){
 function updateRuleSettings(){
  const settings=GAME_UX.settings;if(!settings||S.room)return;
  GAME_UX.rounds=Math.max(1,Math.min(4,Number(el('gameRuleRounds').value)||4));
- if(settings.mode==='blitz'){const seconds=Math.max(5,Math.min(15,Number(el('gameRuleSeconds').value)||8));el('gameRuleSeconds').value=seconds;el('blitzSeconds').value=seconds;}
+ if(settings.mode==='blitz'){const seconds=Math.max(5,Math.min(15,Number(el('gameRuleSeconds').value)||8));el('gameRuleSeconds').value=seconds;el('blitzSeconds').value=seconds;if(typeof refreshTimePicker==='function')refreshTimePicker('blitzSeconds');}
  const rules=gameRules(settings.game,settings.mode);fillRuleMeta('gameRuleMeta',rules.meta);
  const list=el('gameRuleList');list.replaceChildren();for(const text of rules.lines){const li=document.createElement('li');li.textContent=text;list.appendChild(li)}
 }
@@ -54,7 +55,7 @@ function fillRulePreview(rules,context){
  const d=el('gameRulePreview');GAME_UX.returnFocus=document.activeElement;
  el('gameRuleContext').textContent=(rules.brand||'GAME / NIGHT')+' · '+context;el('gameRuleTitle').textContent=rules.title;
  el('gameRulePrefix').textContent=context==='SPIELREGELN'?'So spielst du':rules.rule?'Deine Chaos-Regel':'Bereit für';
- fillRuleMeta('gameRuleMeta',rules.meta||[]);configureRuleSettings(rules,false);el('gameRuleCountdown').classList.add('hide');
+ el('gameRuleQuestion').classList.toggle('hide',context==='SPIELREGELN');fillRuleMeta('gameRuleMeta',rules.meta||[]);configureRuleSettings(rules,false);el('gameRuleCountdown').classList.add('hide');
  const list=el('gameRuleList');list.replaceChildren();for(const text of rules.lines){const li=document.createElement('li');li.textContent=text;list.appendChild(li)}
  if(!d.open)d.showModal();
 }
