@@ -16,3 +16,9 @@ vm.runInContext('let GAME_TIMER=null;'+html.split('\n').filter(l=>l.startsWith('
 clock=1000;round('blitz');ctx.startSoloTimer();assert.equal(ctx.SOLO.deadline,9000);clock=9000;[...intervals.values()][0]();assert.equal(ctx.SOLO.history.length,1);assert.equal(ctx.SOLO.history[0].ok,false);assert.equal(ctx.SOLO.score,0);assert.equal(intervals.size,0);
 assert(!html.includes("r:'1 Million m/s'"));
 console.log('OK: nine unique rules, risk losses, series/final/rescue scoring, reverse answers, blind reveal, one perfect bonus, sprint uniqueness/deadline and four-round finish');
+
+// A chosen one-round match must finish for normal modes and Chaos alike.
+ctx.SOLO={on:true,mode:'CLASSIC',round:0,roundLimit:1,i:0,total:0,score:0,history:[],questions:[ctx.SOLO_Q[0]],locked:false};
+ctx.soloPick('a');const before=ctx.ends;timeouts.at(-1)();assert.equal(ctx.SOLO.on,false);assert.equal(ctx.ends,before+1);
+round('risk');ctx.SOLO.roundLimit=1;ctx.finishChaosRound();const beforeChaos=ctx.ends;timeouts.at(-1)();assert.equal(ctx.SOLO.on,false);assert.equal(ctx.ends,beforeChaos+1);
+console.log('OK: selected round limit ends both Classic and Chaos without another card draw');

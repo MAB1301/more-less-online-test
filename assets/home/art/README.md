@@ -11,3 +11,10 @@ The site uses the original PNG files without cropping or altering them. CSS sele
 - `levels-atlas.png`: One 3:1 texture atlas of three equal square cells. Midnight-navy background, cohesive sculptural realism and cinematic light. Left: green seedling in soil with green light. Middle: realistic anatomical brain sculpture with lavender-purple light. Right: amber-red sculptural flame. No text, logos, labels or watermarks; no emoji styling.
 
 Native grid sizes: modes 3 × 3; Jeopardy 4 × 2; levels 3 × 1. The menu stylesheet defines cell positions. The PNG dimensions may differ from requested dimensions, but the actual atlas aspect ratios are used directly.
+
+## Rule-preview artwork (G + D)
+
+`rule-background.webp` and `rule-cards.webp` were generated with built-in Imagegen from the user-approved G + D mockup. They are decorative scene artwork. All headings, rules, settings, countdowns and buttons are real accessible HTML. The generated source images were encoded as WebP at quality 85 to keep the two assets below 400 KB combined.
+
+- Background prompt: Recreate only the reference's outer MORE/LESS card background. Dark navy engraved card backs scattered diagonally, violet light left and cyan right, MORE and LESS lettering on two cards. Keep the center dark for a separate HTML modal. Remove the center panel, UI, category imagery and corner labels.
+- Card prompt: Recreate only the left illustration. Upright stack of collectible navy cards with ornate gold lines, a globe on the front and MORE / LESS lettering. Purple glow left, cyan rim light right, reflective dark stone ground, portrait framing. No surrounding interface or controls.

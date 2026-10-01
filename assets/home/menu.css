@@ -311,3 +311,35 @@ body .countryFlag .countryFlagImage{position:static!important;width:100%!importa
 @media(max-height:500px) and (orientation:landscape){html body #game{margin-top:68px!important}html body #game .cards>button.card.visualCard>.objectVisual{flex-basis:90px!important;height:90px!important;min-height:90px!important}html body #game .cards>button.card.visualCard{min-height:168px!important}html body .estimateInner{padding-top:68px}html body #estimateVisual.modeQuestionVisual{height:80px!important}.rulePreviewPanel{padding:16px 22px}.rulePreviewPanel li+li{margin-top:6px}.rulePreviewActions{margin-top:16px}}
 
 @media(max-width:620px){html body #game .categoryProgressHeading{min-width:0;flex:1}html body #game .categoryProgressTitle{overflow-wrap:anywhere}}
+
+/* Shared G + D rule preview: category-independent card backdrop and golden match panel. */
+#gameRulePreview,#chaosRoundIntro{box-sizing:border-box;width:min(1000px,calc(100% - 40px));max-width:1000px;max-height:calc(100dvh - 40px);padding:0;border:1.5px solid #e8ce80;border-radius:22px;color:#f6f4ef;background:#0b1220;text-align:left;overflow:auto;box-shadow:0 20px 90px #0009,0 0 28px #b89c3a18}
+#gameRulePreview::backdrop,#chaosRoundIntro::backdrop{background:linear-gradient(#05091838,#05091855),url('art/rule-background.webp') center/cover no-repeat;backdrop-filter:none}
+#gameRulePreview .rulePreviewPanel,#chaosRoundIntro .rulePreviewPanel{display:grid;grid-template-columns:40% 60%;padding:0;min-height:520px}
+.rulePreviewArt{background:url('art/rule-cards.webp') center/cover no-repeat;min-width:0;border-radius:20px 0 0 20px}
+.rulePreviewContent{box-sizing:border-box;min-width:0;padding:38px 34px;background:radial-gradient(ellipse at top right,#2b275930,transparent 65%),linear-gradient(145deg,#141d2b,#0b1220)}
+.rulePreviewContent>small{display:block;color:#e4d5af;font:600 11px/1.65 system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase}
+#gameRulePreview .rulePreviewContent h2,#chaosRoundIntro .rulePreviewContent h2{margin:18px 0 24px;font:600 clamp(28px,3vw,43px)/1.14 Georgia,serif;letter-spacing:-.025em;color:#faf8ef;text-wrap:balance}
+#gameRuleTitle,#chaosIntroTitle{color:#be98ff;background:linear-gradient(110deg,#d49bff,#9baaff 60%,#69dbe8);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.rulePreviewEyebrow{display:block;color:#aeb6c8;font:700 11px/1.5 system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;margin-bottom:12px}
+#gameRulePreview ol{padding:0;margin:0;counter-reset:rule;list-style:none;display:grid;gap:10px;color:#e3e5ec;font:400 15px/1.55 system-ui,sans-serif}
+#gameRulePreview ol li{counter-increment:rule;position:relative;min-height:48px;box-sizing:border-box;padding:13px 14px 13px 58px;border:1px solid #8a95ad32;border-radius:14px;background:linear-gradient(110deg,#fff07,#fff02)}
+#gameRulePreview ol li+li{margin:0}
+#gameRulePreview ol li::before{content:counter(rule);position:absolute;left:12px;top:12px;display:grid;place-items:center;width:30px;height:30px;border:1px solid #a78ad6;border-radius:50%;color:#f1e6ff;font:600 18px Georgia,serif;box-shadow:inset 0 0 9px #956be830}
+.rulePreviewMeta{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px;padding:12px;border:1px solid #dac38b30;border-radius:12px;background:#fff03;color:#e5d9bc;font:500 13px/1.45 system-ui,sans-serif}
+.rulePreviewMeta span+span::before{content:'·';display:inline-block;margin-right:8px;color:#a99465}
+#gameRulePreview .rulePreviewActions,#chaosRoundIntro .rulePreviewActions{display:grid;grid-template-columns:1fr;gap:6px;margin:22px 0 0}
+#gameRulePreview .rulePreviewActions .p,#chaosRoundIntro .rulePreviewActions .p{display:block;width:100%;box-sizing:border-box;min-height:52px;margin:0;border:1px solid #efd38e;border-radius:15px;background:linear-gradient(125deg,#a934ef,#6a1ab9 65%,#a835df);box-shadow:inset 0 2px 4px #ffffff40,0 0 22px #962de740;color:#fff9ec;font:600 19px/1.4 Georgia,serif;transition:filter .15s}
+#gameRulePreview .rulePreviewActions .p:hover,#chaosRoundIntro .rulePreviewActions .p:hover{filter:brightness(1.14)}
+#gameRulePreview .rulePreviewActions .p:disabled{opacity:1;cursor:default;background:linear-gradient(125deg,#533781,#342352);color:#e6dbff}
+#gameRulePreview .rulePreviewActions button:not(.p),#chaosRoundIntro .rulePreviewActions button:not(.p){display:block;width:100%;min-height:44px;margin:0;padding:8px;border:0;background:transparent;color:#aeb4c5;box-shadow:none;font:400 14px/1.5 system-ui,sans-serif}
+#gameRulePreview button:focus-visible,#chaosRoundIntro button:focus-visible,#gameRuleSettings :focus-visible{outline:2px solid #7ee6f3;outline-offset:3px}
+#chaosIntroText{font:400 17px/1.65 system-ui,sans-serif;color:#e2e5ee;margin:0}
+#chaosIntroBonus{font:400 13px/1.5 system-ui,sans-serif;color:#b8c0d3;margin:16px 0 0}
+.rulePreviewCountdown{display:block;width:100%;height:9px;appearance:none;border:1px solid #7675a066;border-radius:99px;background:#161e34;overflow:hidden;margin:22px 0 -6px;accent-color:#ab73ff}
+.rulePreviewCountdown::-webkit-progress-bar{background:#161e34}.rulePreviewCountdown::-webkit-progress-value{background:linear-gradient(90deg,#b253f2,#52dfed);border-radius:99px}.rulePreviewCountdown::-moz-progress-bar{background:linear-gradient(90deg,#b253f2,#52dfed);border-radius:99px}
+.rulePreviewSettings{display:flex;flex-wrap:wrap;gap:12px;margin-top:14px}.rulePreviewSettings label{display:grid;gap:6px;flex:1;min-width:135px;color:#c5cbda;font:500 12px/1.5 system-ui,sans-serif}
+.rulePreviewSettings select,.rulePreviewSettings input{box-sizing:border-box;width:100%;min-height:44px;padding:9px 12px;color:#f6f2e7;background:#171e30;border:1px solid #baa27080;border-radius:10px;font:500 15px system-ui,sans-serif;color-scheme:dark}
+#gameRulePreview .hide,#chaosRoundIntro .hide{display:none!important}
+@media(max-width:650px){#gameRulePreview,#chaosRoundIntro{width:calc(100% - 24px);max-height:calc(100dvh - 24px);border-radius:18px}#gameRulePreview .rulePreviewPanel,#chaosRoundIntro .rulePreviewPanel{display:block;min-height:0}.rulePreviewArt{height:140px;background-position:center 46%;border-radius:16px 16px 0 0}.rulePreviewContent{padding:22px 20px 14px}#gameRulePreview .rulePreviewContent h2,#chaosRoundIntro .rulePreviewContent h2{font-size:32px;margin:13px 0 18px}#gameRulePreview ol{font-size:14px;gap:8px}#gameRulePreview ol li{padding:11px 12px 11px 52px}#gameRulePreview ol li::before{left:10px;top:10px;width:28px;height:28px}.rulePreviewMeta{margin-top:14px;font-size:12px}.rulePreviewContent>small{font-size:10px}.rulePreviewSettings label{min-width:115px}}
+@media(max-height:600px) and (min-width:651px){#gameRulePreview .rulePreviewPanel,#chaosRoundIntro .rulePreviewPanel{min-height:0;grid-template-columns:32% 68%}.rulePreviewContent{padding:22px 28px}#gameRulePreview .rulePreviewContent h2,#chaosRoundIntro .rulePreviewContent h2{font-size:30px;margin:10px 0 16px}#gameRulePreview ol{font-size:14px}.rulePreviewMeta{margin-top:12px}.rulePreviewActions{margin-top:14px!important}}
