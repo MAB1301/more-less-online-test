@@ -199,3 +199,11 @@ button.appBack:focus-visible,#worldMenu button.appBack:focus-visible{outline:3px
 #inviteStatus{line-height:1.5;color:#bad8ff;min-height:18px}#lobbyHostNote{padding:12px 14px;border:1px solid #344967;border-radius:12px;background:#14223c;color:#d9e5ff;font-size:13px;line-height:1.5}
 @media(max-width:620px){#worldMenu .cardArt{width:85px;height:85px}#worldMenu .gameMode{min-height:190px;padding-top:34px}#worldMenu .gameMode.active{padding-top:33px}#worldMenu #jeopardyIntro .jeopArt{width:106px;height:106px}#worldMenu #jeopardyIntro .gameMode{min-height:222px}#worldMenu .factLevel{min-height:130px;grid-template-columns:76px 1fr;padding-top:32px}#worldMenu .factLevel .levelArt{width:76px;height:76px;margin:0;grid-row:1/3}#worldMenu .factLevel small{grid-column:2}#worldMenu .factLevel b{font-size:22px}#worldMenu .modeChoices{grid-template-columns:1fr}#worldMenu .friendsAccess>summary{min-height:65px}#worldMenu .selectionLabel{font-size:8px}#worldMenu .friendsOptions .joinModeInline{grid-template-columns:1fr}#worldMenu .friendsOptions .joinModeLabel{grid-column:auto}}
 @media(prefers-reduced-motion:reduce){#worldMenu .friendsChevron{transition:none}}
+
+/* Selected mode explains itself inside its card; reserve space so cards do not jump. */
+#worldMenu #morelessModes .gameMode{min-height:248px;justify-content:flex-start;padding-top:38px}
+#worldMenu #morelessModes .gameMode.active{padding-top:37px}
+#worldMenu #morelessModes .cardArt{width:100px;height:100px;margin:0 auto 12px;flex-shrink:0}
+#worldMenu #morelessModes .modeDescription{display:block;min-height:4.35em;font-size:12px;line-height:1.45;font-weight:500}
+#worldMenu #morelessModes .gameMode.active .modeDescription{color:#e4def7}
+@media(max-width:620px){#worldMenu #morelessModes .gameMode{min-height:242px;padding-left:14px;padding-right:14px}#worldMenu #morelessModes .gameMode.active{padding-left:13px;padding-right:13px}#worldMenu #morelessModes .cardArt{width:85px;height:85px}#worldMenu #morelessModes .modeDescription{min-height:8.7em}}

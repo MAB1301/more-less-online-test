@@ -37,7 +37,8 @@ const el=id=>{
 };
 const modes=['Classic','Party','Blitz','Survival','King','Chaos'].map(name=>{
  const node=el('mode-'+name);node.attrs={};node.setAttribute=(key,value)=>node.attrs[key]=value;
- node.querySelector=()=>({textContent:name});return node;
+ node.dataset={modeShort:name+' short',modeDescription:name+' explanation'};node.title={textContent:name};node.description={textContent:name+' short'};
+ node.querySelector=selector=>selector==='b'?node.title:node.description;return node;
 });
 const context=vm.createContext({el,document:{querySelectorAll:()=>modes},LOBBY_MODE:'CLASSIC'});
 vm.runInContext(source('enterMoreLessMode'),context);
@@ -45,6 +46,12 @@ vm.runInContext("enterMoreLessMode(null,'Blitz')",context);
 assert.equal(el('chosenMode').textContent,'BLITZ');
 assert.equal(el('morelessStartLabel').textContent,'Blitz starten');
 assert.equal(modes[2].attrs['aria-pressed'],'true');
+assert.equal(modes[2].description.textContent,'Blitz explanation');
+vm.runInContext("enterMoreLessMode(null,'Party')",context);
+assert.equal(modes[2].description.textContent,'Blitz short','previous card returns to short description');
+assert.equal(modes[1].description.textContent,'Party explanation');
+vm.runInContext("enterMoreLessMode(null,'Blitz')",context);
+assert(!html.includes('id="morelessSummary"'),'no separate summary box');
 assert.equal(modes.filter(b=>b.classList.contains('active')).length,1,'restored mode has one selected card');
 assert.equal(el('blitzSetup').classList.contains('hide'),false);
 

@@ -5,3 +5,31 @@
 .dailyCalendar{margin:0 0 18px;border:1px solid #8c58d575;border-radius:18px;background:#141329;padding:0 16px}.dailyCalendar summary{cursor:pointer;list-style:none;padding:13px 0;display:flex;justify-content:space-between;align-items:center;font-weight:700;color:#dbcef4}.dailyCalendar summary::after{content:'＋';font-size:20px}.dailyCalendar[open] summary::after{content:'−'}.dailyCalendarBody{max-width:440px;margin:0 auto;padding-bottom:16px}.dailyCalendarNav{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:0 0 12px}.dailyCalendarNav button{min-width:42px;min-height:40px}.dailyCalendarNav b{text-transform:capitalize}.dailyCalendarGrid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px;text-align:center}.dailyCalendarGrid>span{font-size:12px;padding:6px 0;color:#a9a0c3}.dailyCalendarGrid button{padding:6px;min-height:38px;border-radius:9px;background:#24213c;border-color:transparent;font-size:14px}.dailyCalendarGrid button[aria-pressed=true]{background:#8146dd;border-color:#d4baff;color:#fff;box-shadow:0 0 13px #8146dd77}.dailyCalendarGrid button.dailyToday{border-color:#4fd7ca}.dailyCalendarGrid button:disabled{opacity:.3;cursor:default}.dailyCalendarJump{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-top:12px}.dailyCalendarJump button{min-height:40px}.dailyCalendarJump small{color:#b1a7cf}.dailyArchiveNote{font-size:12px;color:#e3bafb;margin:0}
 @media(max-width:700px){#dailyOverlay .modal{padding:18px}.dailyHead{align-items:flex-start}.dailyHeadTools{gap:6px}.dailyDateButton{font-size:12px}.dailyNeonCards{grid-template-columns:1fr}.dailyNeonCard{display:grid;grid-template-columns:76px 1fr 1fr;gap:4px 12px;padding:16px;text-align:left;border-radius:18px}.dailyAvailability{grid-column:2/4;justify-self:start;font-size:11px}.dailyNeonArt{grid-column:1;grid-row:1/5;width:76px;height:100px;margin:auto}.dailyNeonCard h3{grid-column:2/4;margin:4px 0;font-size:22px}.dailyNeonCard p{grid-column:2/4;font-size:12px;min-height:0;margin:0 0 5px}.dailyNeonCard button{font-size:12px;padding:8px;min-height:40px;margin:0}.dailyMenuFooter{flex-wrap:wrap}.dailyMenuFooter button{width:100%}.dailyGameNavigation .dailyTabs{gap:5px}.dailyGameNavigation .dailyTabs button{font-size:11px;padding:8px 10px;min-height:40px}#dailyPlayDetails{grid-template-columns:1fr}#dailyPlayDetails .tiny{grid-row:auto}#dailyStart{min-width:0}.dailyHead h2{font-size:30px}.dailyHead p{font-size:12px}.dailyDateButton span{font-size:10px}}
 @media(prefers-reduced-motion:reduce){#dailyOverlay *{scroll-behavior:auto!important;transition:none!important;transform:none!important}}
+
+/* Compact daily rankings with podium colours based on rank, including tied ranks. */
+#dailyOverlay.dailyShowingScores .modal{width:min(900px,94vw);padding:22px}
+.dailyShowingScores .dailyHead{margin-bottom:12px}.dailyShowingScores .dailyHead h2{font-size:30px;text-shadow:none}.dailyShowingScores .dailyHead p,.dailyShowingScores #dailyRules,.dailyShowingScores .dailyNavigationBack{display:none}
+.dailyShowingScores .dailyCalendar:not([open]){display:none}
+.dailyShowingScores .dailyGameNavigation{margin-top:8px;gap:8px}
+.dailyShowingScores .dailyGameNavigation .dailyTabs{margin-left:auto}
+.dailyShowingScores #dailyScoresToggle{background:transparent;border-color:#3b4564;padding:9px 13px;min-height:44px;font-size:14px}
+.dailyShowingScores .dailyGrid{margin-top:16px;gap:0}
+#dailyLeaderboardPanel{padding:18px;border-radius:16px;background:#10162b;border-color:#354060}
+#dailyLeaderboardPanel .dailyBoardHead{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px}
+#dailyLeaderboardPanel h3{font-size:19px;line-height:1.3;margin:0 0 4px}
+#dailyRefresh{padding:8px 12px;min-height:44px;min-width:44px;font-size:20px;border-radius:11px}
+#dailyBoardMine{font-size:14px;line-height:1.5;margin:0 0 12px;padding:10px 12px;border:1px solid #9976ec88;border-radius:10px;background:#30234b;color:#f1e8ff}
+#dailyBoardCount{font-size:12px;margin:0 0 6px}#dailyRankNote{font-size:11px;margin:0 0 12px;color:#aab3cd}
+#dailyBoard .dailyBoardRow{grid-template-columns:32px minmax(0,1fr) auto;gap:10px;min-height:48px;box-sizing:border-box;margin-bottom:6px;padding:8px 12px;border:1px solid #2e3954;border-radius:10px;background:#151d33;color:#e9edff;font-size:14px}
+#dailyBoard .dailyBoardRow b{font-weight:650;line-height:1.4}
+#dailyBoard .dailyBoardRow strong{font-size:13px;font-variant-numeric:tabular-nums;white-space:nowrap}
+#dailyBoard .dailyRank{display:grid;place-items:center;width:28px;height:28px;font-size:13px;font-weight:850;border-radius:8px;background:#ffffff0c;color:inherit;font-variant-numeric:tabular-nums}
+#dailyBoard .dailyGold{background:linear-gradient(100deg,#5a451f,#33291c);border-color:#a8893e;color:#ffe5a2}
+#dailyBoard .dailySilver{background:linear-gradient(100deg,#394253,#232d40);border-color:#8390a7;color:#edf2fc}
+#dailyBoard .dailyBronze{background:linear-gradient(100deg,#563a2b,#32261f);border-color:#a87350;color:#f9cfb1}
+#dailyBoard .dailyMineRow{outline:2px solid #b497ff;outline-offset:-2px}
+.dailyBoardEmpty{margin:20px 0 14px;text-align:center;font-size:14px;line-height:1.5;color:#c1c9e1}
+#dailyBoard .dailyEmptyStart{display:block;margin:0 auto 10px;min-height:44px;padding:10px 18px;font-size:14px}
+#dailyPager{margin-top:12px;font-size:12px}#dailyPager.hide{display:none}#dailyPager button{font-size:12px;padding:9px 12px;min-height:44px}
+.dailyShowingScores #dailyStatus:empty{display:none}
+@media(max-width:600px){#dailyOverlay.dailyShowingScores .modal{padding:16px}.dailyShowingScores .dailyHead h2{font-size:25px}.dailyShowingScores .dailyGameNavigation{align-items:stretch;flex-direction:column}.dailyShowingScores #dailyScoresToggle{align-self:flex-start}.dailyShowingScores .dailyGameNavigation .dailyTabs{display:flex;margin:0;width:100%}.dailyShowingScores .dailyTabs button{flex:1}#dailyLeaderboardPanel{padding:14px}#dailyLeaderboardPanel h3{font-size:17px}#dailyBoard .dailyBoardRow{padding:8px;gap:7px;font-size:13px}#dailyBoard .dailyBoardRow strong{font-size:11px}}

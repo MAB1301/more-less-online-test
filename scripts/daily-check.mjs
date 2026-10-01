@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
 const nodes=new Map();
-const node=()=>({children:[],value:'',textContent:'',disabled:false,classList:{add(){},remove(){},toggle(){},contains(){return false}},replaceChildren(){this.children=[]},append(...children){this.children.push(...children)},setAttribute(key,value){this[key]=value},focus(){},scrollIntoView(){}});
+const node=()=>{const classes=new Set();const item={children:[],value:'',textContent:'',disabled:false,replaceChildren(){this.children=[]},append(...children){this.children.push(...children)},setAttribute(key,value){this[key]=value},focus(){},scrollIntoView(){}};Object.defineProperty(item,'className',{get:()=>[...classes].join(' '),set:value=>{classes.clear();value.split(' ').filter(Boolean).forEach(c=>classes.add(c))}});item.classList={add:(...names)=>names.forEach(n=>classes.add(n)),remove:(...names)=>names.forEach(n=>classes.delete(n)),toggle(name,on){on=on??!classes.has(name);if(on)classes.add(name);else classes.delete(name);return on},contains:name=>classes.has(name)};return item};
 const el=id=>{if(!nodes.has(id))nodes.set(id,node());return nodes.get(id)};
 const storage=new Map(),calls=[],attempts={};let game='moreless',day='2026-09-30',expired=false;
 const question=no=>({no,left_name:'A',right_name:'B',left_value:10,unit:'m',category:'Test',prompt:'Daily question'});
@@ -22,6 +22,8 @@ const ctx=vm.createContext({setTimeout:callback=>{finishCallback=callback;return
 }});
 vm.runInContext(fs.readFileSync('assets/daily.js','utf8'),ctx);
 await vm.runInContext('openDaily()',ctx);
+assert(el('dailyPager').classList.contains('hide'),'empty board has no pagination');
+assert.equal(el('dailyBoard').children[1].textContent,'Daily starten');
 assert(storage.has('ml_daily_auth_v1'),'daily identity persists across page reloads');
 await vm.runInContext("selectDailyGame('moreless')",ctx);el('dailyName').value='<script>test</script>';
 await vm.runInContext('startDaily()',ctx);
@@ -64,3 +66,18 @@ assert.equal(vm.runInContext('DAILY.menu',ctx),true);
 assert.equal(el('dailyCalendarMonth').textContent,'August 2026');
 assert(calls.filter(c=>c.body.p_action==='answer').every(c=>c.body.p_day),'every answer explicitly targets its calendar date');
 console.log('OK: archive day selection, independent attempts, calendar navigation, future disabled, completed result restored');
+
+// Tied ranks share the podium colour; current-player outline preserves the rank colour.
+vm.runInContext("DAILY.data.leaderboard=[{rank:1,name:'A',score:5},{rank:1,name:'B',score:5,mine:true},{rank:2,name:'C',score:4},{rank:3,name:'D',score:3},{rank:4,name:'E',score:2}];DAILY.data.total=5;renderDailyHome();showDailyScores(true)",ctx);
+const rows=el('dailyBoard').children;
+assert(rows[0].classList.contains('dailyGold')&&rows[1].classList.contains('dailyGold'));
+assert(rows[1].classList.contains('dailyMineRow'));
+assert(rows[2].classList.contains('dailySilver'));assert(rows[3].classList.contains('dailyBronze'));
+assert(!rows[4].classList.contains('dailyBronze'));
+assert(el('dailyOverlay').classList.contains('dailyShowingScores'));
+vm.runInContext('DAILY.data.total=51;renderDailyHome()',ctx);assert(!el('dailyPager').classList.contains('hide'));
+vm.runInContext('showDailyScores(false)',ctx);assert(!el('dailyOverlay').classList.contains('dailyShowingScores'));
+const markup=fs.readFileSync('index.html','utf8');
+assert.equal((markup.match(/id="dailyScoresToggle"/g)||[]).length,1);
+assert.equal((markup.match(/selectDailyGame\('[a-z]+',DAILY.scores\)/g)||[]).length,3,'game tabs preserve rankings view');
+console.log('OK: tied gold ranks, silver/bronze, current-player highlight, empty CTA, conditional pagination and ranking navigation');
