@@ -1,0 +1,17 @@
+import fs from 'node:fs';import vm from 'node:vm';import assert from 'node:assert/strict';
+const nodes=new Map(),store=new Map([['ml_daily_auth_v1','keep-daily'],['moreless_online_session_v1','keep-room']]);
+const node=()=>({value:'',textContent:'',disabled:false,children:[],classList:{add(){},remove(){}},replaceChildren(){this.children=[]},append(n){this.children.push(n)},focus(){this.focused=true},showModal(){this.open=true},close(){this.open=false}});
+const el=id=>{if(!nodes.has(id))nodes.set(id,node());return nodes.get(id)};
+const ctx=vm.createContext({window:{},document:{getElementById:el,createElement:node},localStorage:{getItem:k=>store.get(k)||null,setItem:(k,v)=>store.set(k,v)}});
+vm.runInContext(fs.readFileSync('assets/account/menu.js','utf8'),ctx);
+vm.runInContext('openAccountMenu();showAccountSettings()',ctx);assert(el('accountMenu').open);
+el('accountGuestName').value='<script>A</script>';ctx.event={preventDefault(){}};vm.runInContext('saveGuestSettings(event)',ctx);
+assert.equal(el('accountDockName').textContent,'<script>A</script>');assert.equal(el('accountAvatar').children.length,0,'name is text, never HTML');
+assert.equal(store.get('ml_daily_auth_v1'),'keep-daily');assert.equal(store.get('moreless_online_session_v1'),'keep-room');
+store.set('ml_guest_profile_v1',JSON.stringify({name:'Anna',photo:'data:image/svg+xml;base64,bad'}));vm.runInContext('renderGuestProfile()',ctx);assert.equal(el('accountAvatar').textContent,'A');assert.equal(el('accountAvatar').children.length,0,'active image types rejected');
+vm.runInContext('closeAccountMenu()',ctx);assert(!el('accountMenu').open&&el('accountButton').focused);
+const html=fs.readFileSync('index.html','utf8');
+const start=html.indexOf('function visualFallback('),end=html.indexOf('\nfunction setObjectVisual',start);const art=vm.createContext({visualKind:()=> 'science'});vm.runInContext(html.slice(start,end),art);
+assert(vm.runInContext("visualFallback('Frühe Erde')",art).includes('art-primordial'));assert(!vm.runInContext("visualFallback('Text')",art).includes('scienceShape'));
+assert(fs.existsSync('assets/visuals/generated/question-atlas.png'));assert(!html.includes('<span class="accountDockLabel" id="accountDockName">Account angemeldet'));
+console.log('OK: guest profile text safety, supported photo types, isolated state, focus return and generated illustration fallback');
