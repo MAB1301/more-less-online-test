@@ -277,3 +277,9 @@ body .scoreHud{top:72px;font-size:15px;font-weight:700;padding:8px 12px;border-r
 html.reduceMotion *,html.reduceMotion *::before,html.reduceMotion *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}html.reduceMotion .pointFly,html.reduceMotion .scoreFly{display:none!important}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.pointFly,.scoreFly{display:none!important}}
 @media(max-width:620px){body .scoreHud{top:66px;right:10px;font-size:13px}#jeopGame .jeopTeam{padding:10px;font-size:13px}#jeopGame .jeopScore{font-size:20px}}
+
+/* Actual country flags take priority over generic country artwork. */
+body .countryFlag{display:flex;align-items:center;justify-content:center;padding:22px;background:linear-gradient(135deg,#16233a,#0b1324);overflow:hidden}
+body .countryFlag .countryFlagImage{position:static!important;width:100%!important;height:100%!important;max-height:230px;object-fit:contain!important;transform:none!important;filter:drop-shadow(0 8px 12px #0006);border-radius:0}
+.countryFlagUnavailable{font-size:14px;color:#c4cede;text-align:center;padding:24px}
+@media(max-width:620px){body .countryFlag{padding:14px}}
