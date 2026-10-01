@@ -24,3 +24,7 @@ The live game still uses its existing guest flow. `assets/account/session.mjs` i
 Do not deploy service-role keys to the browser. Account sessions are bearer credentials; only the existing publishable key is used. Never copy tokens into invitation URLs or logs.
 
 Rollback of the home redesign is independent of this foundation: reverting its PR restores the previous menu without database changes.
+
+## Spielpräferenzen
+
+Soundeffekte, Lautstärke und reduzierte Animationen werden derzeit separat unter `ml_game_preferences_v1` auf dem Gerät gespeichert. Der permanente Account muss diese Präferenzen nach Anmeldung laden und Änderungen synchronisieren; Gastpräferenzen beim ersten Upgrade übernehmen. Profilbild und Spielidentität bleiben davon getrennt.
