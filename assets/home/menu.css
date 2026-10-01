@@ -259,3 +259,21 @@ body .scoreHud{top:76px}
 #homeScreen .homeHeader{padding-top:44px}#worldMenu .homeHeader{padding-top:36px}
 @media(max-width:620px){.accountDockLabel{display:none}#accountDock{right:10px}#accountButton{padding:5px}#worldMenu .homeBadge{right:76px}#homeScreen .homeHeader{padding-top:45px}}
 #worldMenu .homeBadge{top:76px}.visualIllustrationLabel{z-index:3}.visualIllustration{grid-area:1/1}.objectVisual .visualIllustration{z-index:1}
+
+/* Compact, consistent match status; persistent sound access. */
+#accountDock{display:flex;align-items:center;gap:8px}
+#muteButton{width:44px;height:44px;padding:10px;background:#111b30;border:1px solid #394561;border-radius:14px}
+#muteButton svg{width:22px;height:22px;display:block}
+#muteButton .soundMuted,#muteButton[data-muted="true"] .soundWaves{display:none}
+#muteButton[data-muted="true"] .soundMuted{display:block}
+#muteButton[data-muted="true"]{color:#a8b3cc}
+.gamePreferences{margin:16px 0;padding:16px 0;border-top:1px solid #34415b;display:grid;gap:12px}
+.gamePreferences h3{margin:0;font-size:16px}.gamePreferences label{font-size:14px;display:flex;align-items:center;justify-content:space-between;gap:12px}.gamePreferences .preferenceToggle{justify-content:flex-start}.gamePreferences input[type="checkbox"]{width:20px;height:20px;accent-color:#9b62f6}.gamePreferences input[type="range"]{padding:0;width:100%;accent-color:#9b62f6}.gamePreferences small{color:#aeb8cc;font-size:12px}
+body .scoreHud{top:72px;font-size:15px;font-weight:700;padding:8px 12px;border-radius:10px;box-shadow:none;border-color:#35405a;background:#111b30}
+#prog,#gameTimer,#estimateProgress,#factProgress,#jeopMeta{font-size:14px!important;line-height:1.6!important;letter-spacing:0!important;font-weight:600!important;color:#c1cbe0!important}
+#prog,#estimateProgress,#factProgress{padding:10px 14px;margin:16px 0;border:1px solid #2e3c56;border-radius:12px;background:#111b30}
+#gameTimer:not(.hide){display:inline-block;padding:6px 12px;margin-bottom:10px;border-radius:8px;background:#18243a;font-variant-numeric:tabular-nums}
+#jeopGame .jeopTeams{gap:12px;margin:20px 0}#jeopGame .jeopTeam{padding:12px 18px;border-radius:14px;box-shadow:none;display:flex;align-items:center;justify-content:space-between;gap:16px}#jeopGame .jeopScore{font-size:24px;line-height:1.2;text-shadow:none;margin:0;font-variant-numeric:tabular-nums}
+html.reduceMotion *,html.reduceMotion *::before,html.reduceMotion *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}html.reduceMotion .pointFly,html.reduceMotion .scoreFly{display:none!important}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.pointFly,.scoreFly{display:none!important}}
+@media(max-width:620px){body .scoreHud{top:66px;right:10px;font-size:13px}#jeopGame .jeopTeam{padding:10px;font-size:13px}#jeopGame .jeopScore{font-size:20px}}
