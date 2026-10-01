@@ -1,8 +1,8 @@
 import fs from 'node:fs';import vm from 'node:vm';import assert from 'node:assert/strict';
 const html=fs.readFileSync('index.html','utf8'),ctx={window:{}};vm.runInNewContext(fs.readFileSync('content/approved.js','utf8'),ctx);const pack=ctx.window.GAME_CONTENT_PACK;
-const groups=Object.groupBy(pack.moreless,q=>q.cat);assert.equal(groups['Fußballer'].length,10);assert.equal(groups.Autos.length,6);
+const groups=Object.groupBy(pack.moreless,q=>q.cat);assert.equal(groups['Fußballer'].length,13);assert.equal(groups.Autos.length,9);
 const pairKeys=new Set();for(const q of pack.moreless){assert.notEqual(q.lv,q.rv);assert(q.sources.length===2&&q.sources.every(url=>url.startsWith('https://')));const key=[q.cat,q.u,...[q.l,q.r].sort()].join('|');assert(!pairKeys.has(key));pairKeys.add(key);assert(pack.images[q.l]&&pack.images[q.r]);}
-for(const image of Object.values(pack.images)){assert(fs.existsSync('assets/visuals/'+image.card));assert(image.generated)}
+for(const image of Object.values(pack.images)){assert(fs.existsSync('assets/visuals/'+image.card));assert(image.source.startsWith("https://")&&image.license);assert.equal(typeof image.generated,"boolean")}
 assert.notEqual(pack.images.Orca.card,pack.images.Delfin.card);assert.notEqual(pack.images['Kylian Mbappé'].card,pack.images['Erling Haaland'].card);
 const funcs=['countryName','questionSubject'].map(n=>html.split('\n').find(l=>l.startsWith('function '+n+'('))).join('\n');const start=html.indexOf('function moreLessPrompt('),end=html.indexOf('\nfunction ',start+1);
 const test=vm.createContext({COUNTRY_CODE:{Italien:'it',Spanien:'es'},VISUAL_IMG:Object.fromEntries(Object.keys(pack.images).map(n=>[n,pack.images[n].card]))});vm.runInContext(funcs+'\n'+html.slice(start,end),test);
@@ -14,3 +14,11 @@ console.log('OK: distinct subjects, sourced FC26/car measures, unequal values, n
 assert.equal(vm.runInContext("questionSubject('Wie groß ist der Erddurchmesser am Äquator?')",test),'Erde');
 assert.equal(vm.runInContext("questionSubject('Wie viele Tasten hat ein Standard-Klavier?')",test),'Tasten Klavier');
 assert.equal(vm.runInContext("questionSubject('Wie viele Felder hat ein Schachbrett?')",test),'Felder Schachbrett');
+
+
+assert.equal(pack.moreless.length,58);assert.equal(pack.estimate.length,39);
+for(const q of pack.estimate){assert(pack.images[q.subject]);assert(q.source.startsWith('https://'));assert(q.verified==='2026-10-01');assert(!/Tragzeit/.test(q.q));}
+for(const cat of ['Länder','Städte','Natur','Sport','Bauwerke','Tierwelt','Weltraum','Wissenschaft','Allgemeinwissen','Rekorde & Extreme','Raumfahrt','Weltkultur'])assert.equal(groups[cat].length,3);
+for(const unit of ['Jahr · Geburtsjahr','Jahr · Gründungsjahr','Jahr · Startjahr','Jahr · Erstes UNESCO-Welterbe-Einschreibungsjahr','Jahr · Jahr der offiziellen Eröffnung'])assert.match(test.moreLessPrompt('A','B',unit),/später/);
+assert.match(test.moreLessPrompt('A','B','Monate ungefähr · Tragzeit als grober Richtwert'),/grober Richtwert/);
+console.log('OK: 42 research comparisons, 39 sourced estimates, every subject illustrated, year semantics correct');

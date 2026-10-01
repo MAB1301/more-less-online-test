@@ -76,7 +76,7 @@ def build(catalogue, output, images_dir=OUT):
             key = (cat, metric, unit, fact.get("comparison_unit", unit))
             groups.setdefault(key, []).append((name, value, source, fact.get("verified")))
             if fact.get("estimate_question"):
-                pack["estimate"].append({"q": fact["estimate_question"], "a": value, "u": unit, "subject": name, "cat": cat})
+                pack["estimate"].append({"q": fact["estimate_question"], "a": value, "u": unit, "subject": name, "cat": cat, "source": source, "verified": fact.get("verified"), "notes": fact.get("notes", "")})
             if fact.get("fact_statement"):
                 if not isinstance(fact.get("fact_answer"), bool) or not fact.get("fact_explanation"):
                     raise ValueError(f"Fact or Fake answer/explanation missing: {ident}")
@@ -108,3 +108,4 @@ if __name__ == "__main__":
     parser.add_argument("--output", type=Path, default=ROOT / "content/approved.js")
     args = parser.parse_args()
     build(args.catalogue.resolve(), args.output.resolve())
+

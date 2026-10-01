@@ -82,3 +82,4 @@ if __name__ == "__main__":
     if args.output:
         args.output.write_text(json.dumps(pack, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"OK: {len(pack['moreless'])} comparisons, {len(pack['estimate'])} estimates; all 14 categories; review-only")
+

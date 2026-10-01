@@ -1,3 +1,5 @@
+> Integration update: the approved playable catalogue now includes all 42 comparisons and 39 estimates from this research. The three approximate gestation estimates remain draft-only. The files below preserve the original research drafts; they are not loaded by the client. Production content is built from `content/catalogue.json` into `content/approved.js`.
+
 # Recherchepaket vom 1. Oktober 2026
 
 42 recherchierte Zahlenwerte bilden 42 neue Vergleichspaare und 42 Schätzfragen in allen 14 vorhandenen Hauptkategorien. Bestehende Werte (zum Beispiel 52 Karten und der 400-m-Rekord) werden teilweise als Vergleichspartner wiederverwendet. Die 84 Fragen basieren deshalb auf 42 Fakten, nicht auf 84 unabhängigen neuen Fakten.
@@ -63,3 +65,4 @@ Vor Freigabe: Motive und Rechte ergänzen, spezielle Prompts und Schätztoleranz
 ## Vorschlag für wiederkehrende Recherche
 
 Pro Lauf maximal 10 neue Fakten in zwei bis drei der kleinsten Kategorien, mit Quellen, Datum, Einheiten, Dublettenprüfung und Bildplanung. Entwürfe in einem eigenen fortlaufenden Inhaltsbranch sammeln. Keine Design-Dateien überschreiben und keine Live-Spielzustände verändern. Bei widersprüchlichen Quellen den Eintrag als ungeklärt zurückhalten. Ein wiederkehrender Auftrag wurde in diesem Recherchelauf nicht eingerichtet.
+
