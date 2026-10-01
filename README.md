@@ -43,3 +43,14 @@ Schätzduell shares a shuffled set of 10/15/20 questions across the lobby. Guess
 For an existing installation with the baseline online engine, apply `supabase/online-estimate.sql` before `supabase/online-modes.sql` (the reset function clears both games). Both were applied to the connected project. Run `node scripts/regression-check.mjs` and `node scripts/mode-routing-check.mjs`. The rollback-only server suites are `scripts/blitz-server-check.sql`, `scripts/online-modes-server-check.sql`, `scripts/online-chaos-server-check.sql`, and `scripts/online-estimate-server-check.sql`.
 
 Security review: new state/answer tables live in the private schema, with RLS enabled and client table privileges revoked. Public RPCs reject nonmembers, and host operations separately verify ownership. Anonymous API role execution is revoked. The [Supabase SECURITY DEFINER advisory](https://supabase.com/docs/guides/database/database-linter?lint=0029_authenticated_security_definer_function_executable) is intentional for authenticated, membership-checked game RPCs; [private-table policy notices](https://supabase.com/docs/guides/database/database-linter?lint=0008_rls_enabled_no_policy) describe the deliberate deny-by-default policy.
+
+
+### Game clarity update
+
+New lobbies enable `rule_previews`: More/Less shows a five-second rules preview before the first question, and Chaos before each new five-question round. Schätzduell shows one before the match. The server stores `starts_at`, blocks early answers/jokers, and places timed deadlines after the preview. Existing clients/lobbies without the flag retain their previous timing. Singleplayer games show a short explanation before starting, with a cancel action and focus return. The Rules button lets players reread the current rule; timed games clearly say that their countdown continues.
+
+A member-only waiting snapshot returns participant names, connectivity and submission flags; it contains no choices, guesses or solutions. Both More/Less and Schätzduell show answered/total and pending names. Snapshots are matched by question ID and hidden during previews, after reveal and on a question mismatch.
+
+Phone layouts use shorter imagery and smaller spacing while retaining at least 44px control targets. Card labels wrap and expand rather than being clipped; landscape uses shorter images. No new main-menu section was added.
+
+Apply `supabase/game-clarity.sql` after the online mechanics scripts. `scripts/game-clarity-server-check.sql` verifies waiting privacy, preview locks and full post-preview answer time with rolled-back fixtures. `scripts/game-clarity-client-check.mjs` is included in the regression suite and checks rules, focus return, timer release, locked answers and waiting-state cleanup.

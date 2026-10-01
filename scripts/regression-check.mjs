@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import vm from 'node:vm';
 const html=fs.readFileSync('index.html','utf8');
-const daily=fs.readFileSync('assets/daily.js','utf8')+fs.readFileSync('assets/account/menu.js','utf8')+fs.readFileSync('assets/account/preferences.js','utf8')+fs.readFileSync('assets/account/controller.mjs','utf8');
+const daily=fs.readFileSync('assets/home/game-ux.js','utf8')+fs.readFileSync('assets/daily.js','utf8')+fs.readFileSync('assets/account/menu.js','utf8')+fs.readFileSync('assets/account/preferences.js','utf8')+fs.readFileSync('assets/account/controller.mjs','utf8');
 const offline=fs.readFileSync('offline/index.html','utf8');
 const fail=m=>{console.error('FAIL:',m);process.exitCode=1}, ok=m=>console.log('OK:',m);
 if(html===offline.replaceAll('src="../assets/','src="assets/').replaceAll('href="../assets/','href="assets/').replaceAll('src="../content/','src="content/'))ok('online/offline HTML identical except content path');else fail('online/offline HTML differ beyond content path');
@@ -86,3 +86,5 @@ await import("./category-progress-check.mjs");
 await import("./chaos-rules-check.mjs");
 
 const onlineEstimate=spawnSync(process.execPath,["scripts/online-estimate-client-check.mjs"],{encoding:"utf8"});process.stdout.write(onlineEstimate.stdout);process.stderr.write(onlineEstimate.stderr);if(onlineEstimate.status!==0)fail("online estimate client checks");
+
+const gameClarity=spawnSync(process.execPath,["scripts/game-clarity-client-check.mjs"],{encoding:"utf8"});process.stdout.write(gameClarity.stdout);process.stderr.write(gameClarity.stderr);if(gameClarity.status!==0)fail("game clarity checks");
