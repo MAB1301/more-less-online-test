@@ -3,6 +3,7 @@
 import argparse
 import base64
 import io
+import itertools
 import json
 import re
 from pathlib import Path
@@ -52,16 +53,28 @@ def build(catalogue, output, images_dir=OUT):
         if len(focus) != 2 or any(not isinstance(v, (int, float)) or not 0 <= v <= 1 for v in focus):
             raise ValueError(f"Invalid focal point: {ident}")
         images_dir.mkdir(parents=True, exist_ok=True)
-        for kind, size in (("card", (720, 540)), ("detail", (960, 540))):
-            crop(image, images_dir / f"{ident}-{kind}.webp", size, focus)
-        pack["images"][name] = {"card": f"ugc/{ident}-card.webp", "detail": f"ugc/{ident}-detail.webp", "source": record["image_source"], "license": record["image_license"]}
+        variants = record.get("variants")
+        if variants:
+            for kind in ("card", "detail"):
+                asset = variants.get(kind, "")
+                if not asset or ".." in Path(asset).parts or not (ROOT / "assets/visuals" / asset).is_file():
+                    raise ValueError(f"Invalid prepared image: {ident}")
+            pack["images"][name] = {**variants, "source": record["image_source"], "license": record["image_license"], "generated": record.get("generated", False)}
+        else:
+            for kind, size in (("card", (720, 540)), ("detail", (960, 540))):
+                crop(image, images_dir / f"{ident}-{kind}.webp", size, focus)
+            pack["images"][name] = {"card": f"ugc/{ident}-card.webp", "detail": f"ugc/{ident}-detail.webp", "source": record["image_source"], "license": record["image_license"]}
+        for alias in record.get("aliases", []):
+            if alias in names or not isinstance(alias, str) or not alias.strip():
+                raise ValueError(f"Invalid duplicate alias: {alias}")
+            names.add(alias); pack["images"][alias] = pack["images"][name]
         for fact in record.get("facts", []):
             metric, unit, value, source = (fact[k] for k in ("metric", "unit", "value", "source"))
             if not isinstance(value, (int, float)) or isinstance(value, bool) or not source.startswith("https://") or not metric or not unit:
                 raise ValueError(f"Invalid fact: {ident}")
             cat = fact.get("category", "Tierwelt")
             key = (cat, metric, unit, fact.get("comparison_unit", unit))
-            groups.setdefault(key, []).append((name, value))
+            groups.setdefault(key, []).append((name, value, source, fact.get("verified")))
             if fact.get("estimate_question"):
                 pack["estimate"].append({"q": fact["estimate_question"], "a": value, "u": unit, "subject": name, "cat": cat})
             if fact.get("fact_statement"):
@@ -79,10 +92,11 @@ def build(catalogue, output, images_dir=OUT):
         # One pair per entry; never compare different measures or units.
         if len(entries) < 2:
             continue
-        for i, (left, lv) in enumerate(entries):
-            right, rv = entries[(i + 1) % len(entries)]
+        for a, b in itertools.combinations(entries, 2):
+            left, lv, ls, ld = a
+            right, rv, rs, rd = b
             if lv != rv:
-                pack["moreless"].append({"l": left, "r": right, "lv": lv, "rv": rv, "u": comparison_unit, "cat": cat, "metric": metric})
+                pack["moreless"].append({"l": left, "r": right, "lv": lv, "rv": rv, "u": comparison_unit, "cat": cat, "metric": metric, "sub": metric, "source": ls, "sources": [ls, rs], "verified": ld if ld == rd else None})
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text("window.GAME_CONTENT_PACK=" + json.dumps(pack, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
     print(f"{len(pack['images'])} images, {len(pack['moreless'])} comparisons, {len(pack['estimate'])} estimates, {len(pack['facts'])} facts, {len(pack['jeopardy'])} Jeopardy clues")

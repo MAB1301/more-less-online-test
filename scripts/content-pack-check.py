@@ -29,7 +29,7 @@ with tempfile.TemporaryDirectory() as temp:
     output = root / "approved.js"
     builder.build(catalogue, output, root / "images")
     pack = json.loads(output.read_text().removeprefix("window.GAME_CONTENT_PACK=").rstrip(";\n"))
-    assert len(pack["images"]) == 2 and len(pack["moreless"]) == 2 and len(pack["estimate"]) == 2
+    assert len(pack["images"]) == 2 and len(pack["moreless"]) == 1 and len(pack["estimate"]) == 2
     assert pack["facts"][0]["difficulty"] == "hard" and pack["facts"][0]["source"] == "https://example.org/fact"
     assert Image.open(root / "images/tier-a-card.webp").size == (720, 540)
     assert Image.open(root / "images/tier-a-detail.webp").size == (960, 540)

@@ -1,10 +1,10 @@
--- DRAFT: not applied to any database. Review and run in staging after selecting account.
+-- Accounts, friends and private per-account settings. Marc / More less.
 -- Does not change existing game-room tables or their policies.
 begin;
 create table public.ml_profiles (
  user_id uuid primary key references auth.users(id) on delete cascade,
  handle text not null unique check (handle ~ '^[a-z0-9_]{3,24}$'),
- display_name text not null check (char_length(trim(display_name)) between 1 and 40),
+ display_name text not null check (char_length(trim(display_name)) between 1 and 24),
  created_at timestamptz not null default now()
 );
 create table public.ml_friendships (
@@ -21,7 +21,7 @@ create index ml_friendships_recipient on public.ml_friendships(recipient_id,stat
 alter table public.ml_profiles enable row level security;
 alter table public.ml_friendships enable row level security;
 revoke all on public.ml_profiles,public.ml_friendships from anon,authenticated;
-grant select,insert,delete on public.ml_profiles to authenticated;
+grant select,insert on public.ml_profiles to authenticated;
 grant update(handle,display_name) on public.ml_profiles to authenticated;
 grant select,insert,delete on public.ml_friendships to authenticated;
 grant update(status) on public.ml_friendships to authenticated;
@@ -46,4 +46,21 @@ create policy friendships_accept on public.ml_friendships for update to authenti
  with check (recipient_id=(select auth.uid()) and status='accepted' and coalesce((select auth.jwt()->>'is_anonymous'),'true')='false');
 create policy friendships_remove on public.ml_friendships for delete to authenticated
  using ((select auth.uid()) in (sender_id,recipient_id) and coalesce((select auth.jwt()->>'is_anonymous'),'true')='false');
+create table public.ml_account_settings (
+ user_id uuid primary key references auth.users(id) on delete cascade,
+ muted boolean not null default false,
+ volume integer not null default 35 check (volume between 0 and 100),
+ reduced_motion boolean not null default false,
+ avatar_data text not null default '' check (octet_length(avatar_data)<=500000 and (avatar_data='' or avatar_data ~ '^data:image/(png|jpeg|webp);base64,[A-Za-z0-9+/=]+$'))
+);
+alter table public.ml_account_settings enable row level security;
+revoke all on public.ml_account_settings from anon,authenticated;
+grant select,insert,update on public.ml_account_settings to authenticated;
+create policy settings_read_self on public.ml_account_settings for select to authenticated
+ using (user_id=(select auth.uid()) and coalesce((select auth.jwt()->>'is_anonymous'),'true')='false');
+create policy settings_insert_self on public.ml_account_settings for insert to authenticated
+ with check (user_id=(select auth.uid()) and coalesce((select auth.jwt()->>'is_anonymous'),'true')='false');
+create policy settings_update_self on public.ml_account_settings for update to authenticated
+ using (user_id=(select auth.uid()) and coalesce((select auth.jwt()->>'is_anonymous'),'true')='false')
+ with check (user_id=(select auth.uid()) and coalesce((select auth.jwt()->>'is_anonymous'),'true')='false');
 commit;

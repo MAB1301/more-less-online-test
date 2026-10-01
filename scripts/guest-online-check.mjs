@@ -59,7 +59,7 @@ function device(uid,host){
   const context=vm.createContext({updateLobbySummary:()=>{},S,el,req,rpc,LOBBY_GAME:'moreless',LOBBY_MODE:'CLASSIC',clearGameTimer:()=>{},startOnlineTimer:()=>{},
     document:{querySelectorAll:()=>[],querySelector:()=>null,createElement:()=>({style:{},remove:()=>{}}),body:{appendChild:()=>{}}},
     setGlobalBack:()=>{},startTransition:()=>{},endTransition:()=>{},setObjectVisual:()=>{},
-    scheduleAutoNext:()=>{},showFinish:()=>{},setTimeout:()=>{},clearInterval:()=>{},
+    moreLessPrompt:(left,right)=>left+' oder '+right,scheduleAutoNext:()=>{},showFinish:()=>{},setTimeout:()=>{},clearInterval:()=>{},
     msg:message=>{throw Error(message)}});
   vm.runInContext(['onlineTotalQuestions','setOnlineAnswerState','showQ','showReveal','sync','answer'].map(source).join('\n'),context);
   return {context,S,el,run:code=>vm.runInContext(code,context)};
@@ -68,7 +68,7 @@ const host=device('host',true),guest=device('guest',false);
 await guest.run('sync()');
 await host.run('sync()');
 assert.equal(guest.S.q,1,'guest receives host question');
-assert.equal(guest.el('prompt').textContent,'Welches ist höher?');
+assert.equal(guest.el('prompt').textContent,'A oder B');
 await guest.run("answer('b')");
 assert.equal(guest.el('b').classes.has('lockedPick'),true,'guest answer stays locked before reveal');
 await host.run("answer('a')");

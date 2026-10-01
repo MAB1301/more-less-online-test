@@ -1,1 +1,368 @@
-[]
+[
+  {
+    "id": "orca",
+    "name": "Orca",
+    "image": "../assets/visuals/generated/subjects/orca.webp",
+    "variants": {
+      "card": "generated/subjects/orca.webp",
+      "detail": "generated/subjects/orca.webp",
+      "generated": true
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/generated/subjects/README.md",
+    "image_license": "AI-generated illustration",
+    "status": "approved",
+    "facts": [],
+    "aliases": [
+      "Orcas"
+    ]
+  },
+  {
+    "id": "quallen",
+    "name": "Quallen",
+    "image": "../assets/visuals/generated/subjects/quallen.webp",
+    "variants": {
+      "card": "generated/subjects/quallen.webp",
+      "detail": "generated/subjects/quallen.webp",
+      "generated": true
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/generated/subjects/README.md",
+    "image_license": "AI-generated illustration",
+    "status": "approved",
+    "facts": [],
+    "aliases": [
+      "Qualle"
+    ]
+  },
+  {
+    "id": "flamingo",
+    "name": "Flamingo",
+    "image": "../assets/visuals/generated/subjects/flamingo.webp",
+    "variants": {
+      "card": "generated/subjects/flamingo.webp",
+      "detail": "generated/subjects/flamingo.webp",
+      "generated": true
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/generated/subjects/README.md",
+    "image_license": "AI-generated illustration",
+    "status": "approved",
+    "facts": [],
+    "aliases": [
+      "Flamingos",
+      "Flamingoküken"
+    ]
+  },
+  {
+    "id": "korallen",
+    "name": "Korallen",
+    "image": "../assets/visuals/generated/subjects/korallen.webp",
+    "variants": {
+      "card": "generated/subjects/korallen.webp",
+      "detail": "generated/subjects/korallen.webp",
+      "generated": true
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/generated/subjects/README.md",
+    "image_license": "AI-generated illustration",
+    "status": "approved",
+    "facts": [],
+    "aliases": [
+      "Koralle"
+    ]
+  },
+  {
+    "id": "delfin",
+    "name": "Delfin",
+    "image": "../assets/visuals/generated/subjects/delfin.webp",
+    "variants": {
+      "card": "generated/subjects/delfin.webp",
+      "detail": "generated/subjects/delfin.webp",
+      "generated": true
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/generated/subjects/README.md",
+    "image_license": "AI-generated illustration",
+    "status": "approved",
+    "facts": [],
+    "aliases": [
+      "Delfine"
+    ]
+  },
+  {
+    "id": "panda",
+    "name": "Riesenpanda",
+    "image": "../assets/visuals/generated/subjects/panda.webp",
+    "variants": {
+      "card": "generated/subjects/panda.webp",
+      "detail": "generated/subjects/panda.webp",
+      "generated": true
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/generated/subjects/README.md",
+    "image_license": "AI-generated illustration",
+    "status": "approved",
+    "facts": [],
+    "aliases": [
+      "Riesenpandas"
+    ]
+  },
+  {
+    "id": "nacktmull",
+    "name": "Nacktmull",
+    "image": "../assets/visuals/generated/subjects/nacktmull.webp",
+    "variants": {
+      "card": "generated/subjects/nacktmull.webp",
+      "detail": "generated/subjects/nacktmull.webp",
+      "generated": true
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/generated/subjects/README.md",
+    "image_license": "AI-generated illustration",
+    "status": "approved",
+    "facts": [],
+    "aliases": [
+      "Nacktmullen",
+      "Nacktmulle"
+    ]
+  },
+  {
+    "id": "porsche-gt3",
+    "name": "Porsche 911 GT3 (PDK, 2025)",
+    "image": "../assets/visuals/generated/subjects/porsche-gt3.webp",
+    "variants": {
+      "card": "generated/subjects/porsche-gt3.webp",
+      "detail": "generated/subjects/porsche-gt3.webp",
+      "generated": true
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/generated/subjects/README.md",
+    "image_license": "AI-generated illustration",
+    "status": "approved",
+    "facts": [
+      {
+        "metric": "Motorleistung",
+        "unit": "PS",
+        "comparison_unit": "PS · Systemleistung laut Hersteller",
+        "value": 510,
+        "source": "https://newsroom.porsche.com/en/2024/products/porsche-the-new-911-gt3-double-premiere-37595.html",
+        "category": "Autos",
+        "verified": "2026-10-01"
+      },
+      {
+        "metric": "Beschleunigungszeit",
+        "unit": "Sekunden",
+        "comparison_unit": "Sekunden · 0–100 km/h laut Hersteller",
+        "value": 3.4,
+        "source": "https://newsroom.porsche.com/en/2024/products/porsche-the-new-911-gt3-double-premiere-37595.html",
+        "category": "Autos",
+        "verified": "2026-10-01"
+      }
+    ]
+  },
+  {
+    "id": "ferrari-296",
+    "name": "Ferrari 296 GTB",
+    "image": "../assets/visuals/generated/subjects/ferrari-296.webp",
+    "variants": {
+      "card": "generated/subjects/ferrari-296.webp",
+      "detail": "generated/subjects/ferrari-296.webp",
+      "generated": true
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/generated/subjects/README.md",
+    "image_license": "AI-generated illustration",
+    "status": "approved",
+    "facts": [
+      {
+        "metric": "Motorleistung",
+        "unit": "PS",
+        "comparison_unit": "PS · Systemleistung laut Hersteller",
+        "value": 830,
+        "source": "https://www.ferrari.com/en-EN/auto/296-gtb",
+        "category": "Autos",
+        "verified": "2026-10-01"
+      },
+      {
+        "metric": "Beschleunigungszeit",
+        "unit": "Sekunden",
+        "comparison_unit": "Sekunden · 0–100 km/h laut Hersteller",
+        "value": 2.9,
+        "source": "https://www.ferrari.com/en-EN/auto/296-gtb",
+        "category": "Autos",
+        "verified": "2026-10-01"
+      }
+    ]
+  },
+  {
+    "id": "ferrari-sf90",
+    "name": "Ferrari SF90 Stradale",
+    "image": "../assets/visuals/generated/subjects/ferrari-sf90.webp",
+    "variants": {
+      "card": "generated/subjects/ferrari-sf90.webp",
+      "detail": "generated/subjects/ferrari-sf90.webp",
+      "generated": true
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/generated/subjects/README.md",
+    "image_license": "AI-generated illustration",
+    "status": "approved",
+    "facts": [
+      {
+        "metric": "Motorleistung",
+        "unit": "PS",
+        "comparison_unit": "PS · Systemleistung laut Hersteller",
+        "value": 1000,
+        "source": "https://www.ferrari.com/en-EN/auto/sf90-stradale",
+        "category": "Autos",
+        "verified": "2026-10-01"
+      },
+      {
+        "metric": "Beschleunigungszeit",
+        "unit": "Sekunden",
+        "comparison_unit": "Sekunden · 0–100 km/h laut Hersteller",
+        "value": 2.5,
+        "source": "https://www.ferrari.com/en-EN/auto/sf90-stradale",
+        "category": "Autos",
+        "verified": "2026-10-01"
+      }
+    ]
+  },
+  {
+    "id": "mbappe",
+    "name": "Kylian Mbappé",
+    "image": "../assets/visuals/generated/subjects/mbappe.webp",
+    "variants": {
+      "card": "generated/subjects/mbappe.webp",
+      "detail": "generated/subjects/mbappe.webp",
+      "generated": true
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/generated/subjects/README.md",
+    "image_license": "AI-generated illustration",
+    "status": "approved",
+    "facts": [
+      {
+        "metric": "Tempo",
+        "unit": "Wertung",
+        "comparison_unit": "Tempo-Wertung · EA SPORTS FC 26 · Basiskarte",
+        "value": 97,
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kylian-mbappe/231747",
+        "category": "Fußballer",
+        "verified": "2026-10-01"
+      },
+      {
+        "metric": "Gesamtwertung",
+        "unit": "Wertung",
+        "comparison_unit": "Gesamtwertung · EA SPORTS FC 26 · Basiskarte",
+        "value": 91,
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kylian-mbappe/231747",
+        "category": "Fußballer",
+        "verified": "2026-10-01"
+      }
+    ]
+  },
+  {
+    "id": "salah",
+    "name": "Mohamed Salah",
+    "image": "../assets/visuals/generated/subjects/salah.webp",
+    "variants": {
+      "card": "generated/subjects/salah.webp",
+      "detail": "generated/subjects/salah.webp",
+      "generated": true
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/generated/subjects/README.md",
+    "image_license": "AI-generated illustration",
+    "status": "approved",
+    "facts": [
+      {
+        "metric": "Tempo",
+        "unit": "Wertung",
+        "comparison_unit": "Tempo-Wertung · EA SPORTS FC 26 · Basiskarte",
+        "value": 89,
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mohamed-salah/209331",
+        "category": "Fußballer",
+        "verified": "2026-10-01"
+      },
+      {
+        "metric": "Gesamtwertung",
+        "unit": "Wertung",
+        "comparison_unit": "Gesamtwertung · EA SPORTS FC 26 · Basiskarte",
+        "value": 91,
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mohamed-salah/209331",
+        "category": "Fußballer",
+        "verified": "2026-10-01"
+      }
+    ]
+  },
+  {
+    "id": "haaland",
+    "name": "Erling Haaland",
+    "image": "../assets/visuals/generated/subjects/haaland.webp",
+    "variants": {
+      "card": "generated/subjects/haaland.webp",
+      "detail": "generated/subjects/haaland.webp",
+      "generated": true
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/generated/subjects/README.md",
+    "image_license": "AI-generated illustration",
+    "status": "approved",
+    "facts": [
+      {
+        "metric": "Gesamtwertung",
+        "unit": "Wertung",
+        "comparison_unit": "Gesamtwertung · EA SPORTS FC 26 · Basiskarte",
+        "value": 90,
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/erling-haaland/239085",
+        "category": "Fußballer",
+        "verified": "2026-10-01"
+      },
+      {
+        "metric": "Tempo",
+        "unit": "Wertung",
+        "comparison_unit": "Tempo-Wertung · EA SPORTS FC 26 · Basiskarte",
+        "value": 86,
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/erling-haaland/239085",
+        "category": "Fußballer",
+        "verified": "2026-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bellingham",
+    "name": "Jude Bellingham",
+    "image": "../assets/visuals/generated/subjects/bellingham.webp",
+    "variants": {
+      "card": "generated/subjects/bellingham.webp",
+      "detail": "generated/subjects/bellingham.webp",
+      "generated": true
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/generated/subjects/README.md",
+    "image_license": "AI-generated illustration",
+    "status": "approved",
+    "facts": [
+      {
+        "metric": "Gesamtwertung",
+        "unit": "Wertung",
+        "comparison_unit": "Gesamtwertung · EA SPORTS FC 26 · Basiskarte",
+        "value": 90,
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jude-bellingham/252371",
+        "category": "Fußballer",
+        "verified": "2026-10-01"
+      },
+      {
+        "metric": "Tempo",
+        "unit": "Wertung",
+        "comparison_unit": "Tempo-Wertung · EA SPORTS FC 26 · Basiskarte",
+        "value": 80,
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jude-bellingham/252371",
+        "category": "Fußballer",
+        "verified": "2026-10-01"
+      }
+    ]
+  }
+]

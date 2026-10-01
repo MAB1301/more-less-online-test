@@ -14,8 +14,10 @@
   if(node('reducedMotion'))node('reducedMotion').checked=prefs.reducedMotion;
   if(master)master.gain.setValueAtTime(prefs.muted?0:prefs.volume,context.currentTime);
  }
- function persist(){render();try{localStorage.setItem(key,JSON.stringify(prefs));if(node('preferencesStatus'))node('preferencesStatus').textContent='Auf diesem Gerät gespeichert.'}catch{if(node('preferencesStatus'))node('preferencesStatus').textContent='Einstellung aktiv, konnte aber nicht gespeichert werden.'}}
+ function persist(){render();window.saveAccountPreferences?.();try{localStorage.setItem(key,JSON.stringify(prefs));if(node('preferencesStatus'))node('preferencesStatus').textContent='Auf diesem Gerät gespeichert.'}catch{if(node('preferencesStatus'))node('preferencesStatus').textContent='Einstellung aktiv, konnte aber nicht gespeichert werden.'}}
  function initializeAudio(){try{const Audio=window.AudioContext||window.webkitAudioContext;if(!Audio)return false;if(!context){context=new Audio();master=context.createGain();master.connect(context.destination);render()}if(context.state==='suspended')context.resume().catch(()=>{});return true}catch{return false}}
+ window.getGamePreferences=()=>({...prefs});
+ window.applyGamePreferences=value=>{prefs.muted=value.muted===true;prefs.volume=Number.isFinite(value.volume)?Math.max(0,Math.min(1,value.volume)):.35;prefs.reducedMotion=value.reducedMotion===true;render();try{localStorage.setItem(key,JSON.stringify(prefs))}catch{}};
  window.toggleGameMute=function toggleGameMute(){prefs.muted=!prefs.muted;persist();if(!prefs.muted)initializeAudio()};
  window.updateGamePreferences=function updateGamePreferences(){prefs.muted=!node('soundEnabled').checked;prefs.volume=Math.max(0,Math.min(100,Number(node('soundVolume').value)||0))/100;prefs.reducedMotion=node('reducedMotion').checked;persist()};
  window.playGameSound=(kind)=>{

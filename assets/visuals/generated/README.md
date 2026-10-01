@@ -12,4 +12,4 @@ Use case: stylized-concept. Asset type: a SINGLE square 3 by 3 texture atlas for
 
 ## Account status
 
-The always-visible account menu currently edits device-local guest appearance (name/photo). It never changes Auth sessions, multiplayer identity or completed Daily names. Registration and login remain disabled until the Supabase connection is selected and the shared-identity migration is implemented and tested.
+The account menu supports email/password sign-in and registration, private profile settings and a friends list. See `docs/accounts-friends-plan.md` for verified flows and remaining email-delivery checks.
