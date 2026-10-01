@@ -13,7 +13,7 @@ function device(uid,host){const nodes=new Map();function el(id){if(!nodes.has(id
   if(fn==='ml_estimate_next'){nextCalls++;state.question_id='q2';state.index=1;state.phase='open';state.result=null;delete guesses.host;delete guesses.guest;return}
   throw Error(fn);
  };
- const context=vm.createContext({S,EST,el,rpc,estimateCategory:()=> 'Bauwerke',sharedTheme:()=> 'buildings',sharedArt:()=> '',setQuestionVisual(){},document:{createElement:()=>({textContent:''})},clearInterval(){},setInterval(){return 1},Date,Number,Math,showLocalEnd:(g,summary,rows)=>{context.finished=rows}});
+ const context=vm.createContext({S,EST,el,rpc,estimateCategory:()=> 'Bauwerke',sharedTheme:()=> 'buildings',sharedArt:()=> '',categoryPhotoArt:()=> '',setQuestionVisual(){},document:{createElement:()=>({textContent:''})},clearInterval(){},setInterval(){return 1},Date,Number,Math,showLocalEnd:(g,summary,rows)=>{context.finished=rows}});
  vm.runInContext(['syncEstimateOnline','renderEstimateOnline','submitEstimateOnline','nextEstimateOnline','finishEstimateOnline'].map(source).join('\n'),context);
  return {S,EST,el,context,run:code=>vm.runInContext(code,context)};
 }
