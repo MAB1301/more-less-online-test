@@ -24,7 +24,9 @@ assert.equal((home.match(/class="homeTileCopy"/g)||[]).length,4,'every game has 
 assert(home.includes('Tages-Challenges'));
 assert(!home.includes('homeDailyLink'));
 assert(!home.includes('homeAccessibleText'),'labels are visible, not only inside the picture');
-assert.equal((html.match(/<details class="friendsAccess"/g)||[]).length,3);
+assert.equal((html.match(/class="friendsAccess friendsMenuTrigger"/g)||[]).length,3);
+assert(!html.includes('<details class="friendsAccess"'));
+assert(html.includes('<dialog id="friendsMenu"'));
 
 const nodes=new Map();
 const el=id=>{
@@ -76,3 +78,29 @@ assert(!el('inviteLinkFallback').classList.contains('hide'));
 assert(el('inviteLinkValue').focused&&el('inviteLinkValue').selected,'clipboard failure exposes a selectable invitation');
 assert.equal(el('inviteLinkValue').value,writes[0]);
 console.log('OK: home stays simple, restored mode remains selected, start labels follow selection, invitation copying and manual fallback');
+
+// The dialog launches the real room path directly, without an extra setup screen.
+const popup=el('friendsMenu');popup.open=false;popup.showModal=()=>popup.open=true;popup.close=()=>popup.open=false;
+context.S={myName:'Saved name'};context.FRIENDS_MENU_BUSY=false;context.FRIENDS_MENU_GAME='moreless';context.FRIENDS_MENU_RETURN=null;context.EST={mode:'risk'};context.JEOP={mode:'football'};
+let creates=0,joins=0,completeCreate;
+context.createRoom=()=>{creates++;return new Promise(resolve=>completeCreate=resolve)};
+context.joinRoom=async()=>{joins++;return true};
+for(const name of ['openFriendsMenu','closeFriendsMenu','friendsBackdrop','submitFriendsLobby'])vm.runInContext(source(name),context);
+el('chosenMode').textContent='BLITZ';
+vm.runInContext("openFriendsMenu('moreless',el('trigger'))",context);
+assert(popup.open);assert.equal(el('friendsPlayerName').value,'Saved name');
+el('friendsPlayerName').value='';await vm.runInContext('submitFriendsLobby(false)',context);assert.equal(creates,0,'blank name cannot create room');
+el('friendsPlayerName').value='Alice';const pending=vm.runInContext('submitFriendsLobby(false)',context);
+await vm.runInContext('submitFriendsLobby(false)',context);assert.equal(creates,1,'double click creates only one room');
+vm.runInContext('closeFriendsMenu()',context);assert(popup.open,'busy dialog stays open');
+assert.equal(context.LOBBY_MODE,'BLITZ');completeCreate(true);await pending;assert(!popup.open);
+for(const game of ['estimate','quiz']){
+ context.selectedGame=game;vm.runInContext("openFriendsMenu(selectedGame,el('trigger'))",context);
+ el('friendsRoomCode').value=' ab12cd ';await vm.runInContext('submitFriendsLobby(true)',context);
+ assert.equal(el('code').value,'AB12CD');assert.equal(context.LOBBY_GAME,game);assert.equal(context.LOBBY_MODE,game==='estimate'?'risk':'football');assert(!popup.open);
+}
+assert.equal(joins,2);
+context.joinRoom=async()=>{throw Error('Raum nicht gefunden')};vm.runInContext("openFriendsMenu('moreless',el('trigger'))",context);el('friendsRoomCode').value='INVALID';await vm.runInContext('submitFriendsLobby(true)',context);
+assert(popup.open);assert.equal(el('friendsStatus').textContent,'Raum nicht gefunden');assert.equal(el('friendsJoin').disabled,false,'retry controls unlock after error');
+vm.runInContext('closeFriendsMenu()',context);assert(el('trigger').focused);
+console.log('OK: popup name validation, direct create/join, duplicate-click lock, selected mode, errors, close and focus return');
