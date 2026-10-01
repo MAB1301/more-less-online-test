@@ -73,3 +73,5 @@ await import('./jeopardy-board-check.mjs');
 await import('./art-profile-check.mjs');
 
 await import('./preferences-check.mjs');
+
+await import("./country-flags-check.mjs");
