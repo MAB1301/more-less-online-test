@@ -80,3 +80,5 @@ await import('./reviewed-content-check.mjs');
 await import('./account-controller-check.mjs');
 
 await import("./selection-check.mjs");
+
+await import("./category-progress-check.mjs");

@@ -10,7 +10,7 @@ const el=id=>{
   if(!elements.has(id))elements.set(id,{value:8,textContent:'',disabled:false,classList:{add:()=>{},remove:()=>{}}});
   return elements.get(id);
 };
-const context=vm.createContext({el,Date:{now:()=>now,parse:Date.parse},Math,Number,String,
+const context=vm.createContext({renderSoloProgress(){},renderOnlineProgress(){},el,Date:{now:()=>now,parse:Date.parse},Math,Number,String,
   SOLO:{on:true,mode:'BLITZ',locked:false},
   S:{q:1,roomConfig:{game_mode:'BLITZ'},serverOffset:2000},
   setInterval:f=>{tick=f;return 1},clearInterval:()=>{tick=null},

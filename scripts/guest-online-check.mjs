@@ -56,7 +56,7 @@ function device(uid,host){
         answers:Object.entries(room.answers[p_question_no]).map(([user_id,choice])=>({user_id,choice,correct:choice==='a'}))};
     }
   };
-  const context=vm.createContext({updateLobbySummary:()=>{},S,el,req,rpc,LOBBY_GAME:'moreless',LOBBY_MODE:'CLASSIC',clearGameTimer:()=>{},startOnlineTimer:()=>{},
+  const context=vm.createContext({renderSoloProgress(){},renderOnlineProgress(){},updateLobbySummary:()=>{},S,el,req,rpc,LOBBY_GAME:'moreless',LOBBY_MODE:'CLASSIC',clearGameTimer:()=>{},startOnlineTimer:()=>{},
     document:{querySelectorAll:()=>[],querySelector:()=>null,createElement:()=>({style:{},remove:()=>{}}),body:{appendChild:()=>{}}},
     setGlobalBack:()=>{},startTransition:()=>{},endTransition:()=>{},setObjectVisual:()=>{},
     moreLessPrompt:(left,right)=>left+' oder '+right,scheduleAutoNext:()=>{},showFinish:()=>{},setTimeout:()=>{},clearInterval:()=>{},
