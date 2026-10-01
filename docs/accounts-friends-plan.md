@@ -1,30 +1,23 @@
-# Account foundation — prepared, not active
+# Accounts and friends
 
-The live game still uses its existing guest flow. `assets/account/session.mjs` is deliberately not loaded by the page. `supabase/accounts-friends-draft.sql` has not been executed or database-tested.
+Active on the existing Marc connection, project `rnwsbgzdrttqtivrwnxo`. `supabase/accounts-live.sql` was applied as `accounts_profiles_friends_settings`.
 
-## Prepared
+## Available
 
-- Separate persistent account session from disposable room state. Returning to home must not log out the account.
-- Guest identity, email/password login, new registration with email confirmation, and guest upgrade without a new user ID.
-- Refresh tokens, one shared concurrent refresh, and one retry on expired authorization. Refresh cannot silently switch identity.
-- Public usernames and display names, pending friend requests, recipient acceptance and participant removal. No emails in public profiles.
-- RLS and restricted column grants: guests cannot access profiles/friendships, only participants read requests, only recipients accept. Existing room policies remain unchanged.
+- Email/password login, registration with email confirmation, logout, recovery callback and password reset form. No service-role key in the browser.
+- Persistent sessions, coordinated token refresh, profile handle/display name, private avatar and audio/motion preferences.
+- Exact-handle friend search, pending requests, recipient acceptance and participant removal. Names are public only to confirmed account holders; private settings are owner-only.
+- Permanent accounts share their identity with lobby requests and Daily calls. Existing guest Daily credentials stay separate and are restored after logout. Account switches are blocked during active lobbies and unfinished Dailys.
+- Guest results are not silently merged into newly registered accounts. This limitation is shown during signup.
 
-## Remaining activation work
+## Verified
 
-1. Select the Supabase connection (Marc or Hs). Current game project: rnwsbgzdrttqtivrwnxo.
-2. Review Auth settings: email confirmation, redirect allowlist for the live site, anonymous identity linking/manual linking and email delivery. Follow https://supabase.com/docs/guides/auth/auth-anonymous.
-3. Apply the draft in staging and test with guest, sender, recipient and unrelated account. Test forged IDs/status, duplicate reversed requests, delete, profile edits and expired tokens. This SQL is a draft, not a recorded migration.
-4. Add one compact account entry in the header. Guest play remains available without registration. Show login/register in a dialog; put friends inside the account panel, not as extra game choices.
-5. Wire one shared identity into lobby and Daily clients. Both currently keep different anonymous auth sessions; changing them without a migration strategy could lose access to past attempts/rooms.
-6. Confirm an upgraded guest's identity after email verification and refresh; do not unlock account controls only because the update-email call succeeded.
-7. Add room invitations after membership authorization is verified. Only accepted friends may be invited; expiration and recipient checks are required. Opening an invitation must use the existing authorized join RPC. Room codes and links remain a fallback.
-8. Test confirmation redirects, login/logout, password recovery, guest upgrade, returning home, reconnect and friend flows on two devices before enabling the client.
+The SQL fixture check rolls back guest/sender/recipient/unrelated-user tests and forged ownership changes. The actual Auth/REST test used a temporary confirmed test user, checked password login, profile read/edit, settings upsert, token refresh and friends read, signed it out and removed it. No test emails were sent. The frontend tests cover controller login/logout, password clearing, preserved guest Daily credentials and active-match guards.
 
-Do not deploy service-role keys to the browser. Account sessions are bearer credentials; only the existing publishable key is used. Never copy tokens into invitation URLs or logs.
+## External registration checks
 
-Rollback of the home redesign is independent of this foundation: reverting its PR restores the previous menu without database changes.
+Email authentication and confirmation are enabled. SMTP delivery to real user addresses and the redirect allowlist have not been verified with a real signup. Configure the live site URL/allowlist at https://supabase.com/dashboard/project/rnwsbgzdrttqtivrwnxo/auth/url-configuration and SMTP at https://supabase.com/dashboard/project/rnwsbgzdrttqtivrwnxo/auth/smtp if delivery is restricted. The UI surfaces email-delivery errors and instructs users to return to the game after confirming. Password recovery requires its email link to redirect to the live game.
 
-## Spielpräferenzen
+## Later
 
-Soundeffekte, Lautstärke und reduzierte Animationen werden derzeit separat unter `ml_game_preferences_v1` auf dem Gerät gespeichert. Der permanente Account muss diese Präferenzen nach Anmeldung laden und Änderungen synchronisieren; Gastpräferenzen beim ersten Upgrade übernehmen. Profilbild und Spielidentität bleiben davon getrennt.
+Guest-to-account result migration and direct in-app lobby invitations remain separate features. Friends can currently share the existing lobby link or room code. Existing game security-advisor findings were not widened by the account tables.

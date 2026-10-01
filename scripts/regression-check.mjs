@@ -1,10 +1,10 @@
 import fs from 'node:fs';
 import vm from 'node:vm';
 const html=fs.readFileSync('index.html','utf8');
-const daily=fs.readFileSync('assets/daily.js','utf8')+fs.readFileSync('assets/account/menu.js','utf8')+fs.readFileSync('assets/account/preferences.js','utf8');
+const daily=fs.readFileSync('assets/daily.js','utf8')+fs.readFileSync('assets/account/menu.js','utf8')+fs.readFileSync('assets/account/preferences.js','utf8')+fs.readFileSync('assets/account/controller.mjs','utf8');
 const offline=fs.readFileSync('offline/index.html','utf8');
 const fail=m=>{console.error('FAIL:',m);process.exitCode=1}, ok=m=>console.log('OK:',m);
-if(html===offline.replaceAll('src="../assets/home/','src="assets/home/').replaceAll('src="../assets/account/','src="assets/account/').replace('href="../assets/home/','href="assets/home/').replace('href="../assets/daily.css','href="assets/daily.css').replaceAll('src="../assets/daily/','src="assets/daily/').replace('src="../assets/daily.js','src="assets/daily.js').replaceAll('src="../assets/vendor/qrcode.min.js"','src="assets/vendor/qrcode.min.js"').replace('src="../content/approved.js"','src="content/approved.js"'))ok('online/offline HTML identical except content path');else fail('online/offline HTML differ beyond content path');
+if(html===offline.replaceAll('src="../assets/visuals/','src="assets/visuals/').replaceAll('src="../assets/home/','src="assets/home/').replaceAll('src="../assets/account/','src="assets/account/').replace('href="../assets/home/','href="assets/home/').replace('href="../assets/daily.css','href="assets/daily.css').replaceAll('src="../assets/daily/','src="assets/daily/').replace('src="../assets/daily.js','src="assets/daily.js').replaceAll('src="../assets/vendor/qrcode.min.js"','src="assets/vendor/qrcode.min.js"').replace('src="../content/approved.js','src="content/approved.js'))ok('online/offline HTML identical except content path');else fail('online/offline HTML differ beyond content path');
 const visualMap=html.match(/const VISUAL_IMG=\{([\s\S]*?)\};/);
 if(!visualMap)fail('visual asset map missing');
 else{
@@ -75,3 +75,8 @@ await import('./art-profile-check.mjs');
 await import('./preferences-check.mjs');
 
 await import("./country-flags-check.mjs");
+
+await import('./reviewed-content-check.mjs');
+await import('./account-controller-check.mjs');
+
+await import("./selection-check.mjs");
