@@ -14,7 +14,7 @@ function device(uid,host){const nodes=new Map();function el(id){if(!nodes.has(id
   throw Error(fn);
  };
  const context=vm.createContext({S,EST,el,rpc,estimateCategory:()=> 'Bauwerke',sharedTheme:()=> 'buildings',sharedArt:()=> '',categoryPhotoArt:()=> '',setQuestionVisual(){},document:{createElement:()=>({textContent:''})},clearInterval(){},setInterval(){return 1},Date,Number,Math,showLocalEnd:(g,summary,rows)=>{context.finished=rows}});
- vm.runInContext(['syncEstimateOnline','renderEstimateOnline','submitEstimateOnline','nextEstimateOnline','finishEstimateOnline'].map(source).join('\n'),context);
+ vm.runInContext(['parseGameNumber','estimateInputConfig','configureEstimateInput','parseEstimateInput','syncEstimateOnline','renderEstimateOnline','submitEstimateOnline','nextEstimateOnline','finishEstimateOnline'].map(source).join('\n'),context);
  return {S,EST,el,context,run:code=>vm.runInContext(code,context)};
 }
 const host=device('host',true),guest=device('guest',false);
@@ -33,3 +33,7 @@ reject=true;guest.el('estimateValue').value='20';await guest.run('submitEstimate
 state.last=true;state.phase='revealed';state.result={truth:100,answers:[{user_id:'guest',name:'Gast',guess:20,points:20,score:70,accuracy:.2,correct:false}]};await guest.run('syncEstimateOnline()');assert.equal(guest.el('estimateFinish').classList.contains('hide'),false);
 guest.run('finishEstimateOnline()');assert.equal(guest.EST.onlineFinished,true);assert.equal(guest.context.finished[0].label,'Anna','shared standings are sorted');
 console.log('OK: two estimate clients share question/reveal/standings, preserve inputs, lock once, restrict advancement, retry failures and show final standings');
+
+guest.EST.onlineFinished=false;state.last=false;state.question_id='q3';state.phase='open';state.question={q:'Wie viele Menschen leben dort?',u:'Menschen'};state.result=null;delete guesses.guest;reject=false;
+await guest.run('syncEstimateOnline()');assert.equal(guest.EST.inputScale,1000000);guest.el('estimateValue').value='47,2';await guest.run('submitEstimateOnline()');assert.equal(guesses.guest.guess,47200000,'online RPC receives full base value, not millions count');
+console.log('OK: online population input converts millions before sending and reset follows question change');
