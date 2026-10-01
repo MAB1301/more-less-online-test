@@ -15,7 +15,7 @@ function topicFromQuestion(question,category=''){
  return SHARED_CATS.includes(category)?category:'Allgemeinwissen';
 }
 function questionTopicArt(question,category=''){
- const topic=topicFromQuestion(question,category);if(topic==='Wissenschaft')return visualFallback('Wissenschaft');
+ const topic=topicFromQuestion(question,category);if(topic==='Allgemeinwissen')return '';if(/everest|berg/i.test(question))return visualFallback('Berglandschaft');if(topic==='Wissenschaft')return visualFallback('Wissenschaft');
  const photo=topic==='Fußball'?'sport-field.webp':topic==='Tennis'?'tennis-court.webp':categoryPhoto(topic);
  return '<img class="topicQuestionPhoto" src="'+VISUAL_BASE+photo+'" alt="Themenbild: '+topic+'"><span class="visualIllustrationLabel">'+(['Fußball','Tennis'].includes(topic)?'Generiertes Themenbild':'Themenbild')+' · '+topic+'</span>';
 }

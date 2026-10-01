@@ -10,3 +10,7 @@ assert.equal(vm.runInContext("questionSubject('Orcas gehören zur Familie der De
 assert.equal(vm.runInContext("moreLessPrompt('Italien (UNESCO-Welterbe)','Spanien (UNESCO-Welterbe)','Anzahl Welterbestätten')",test),'Wer hat mehr UNESCO-Welterbestätten: Italien oder Spanien?');
 assert.match(vm.runInContext("moreLessPrompt('A','B','Tempo-Wertung · EA SPORTS FC 26 · Basiskarte')",test),/Tempo-Wertung/);assert.match(vm.runInContext("moreLessPrompt('A','B','Sekunden · 0–100 km\/h laut Hersteller')",test),/mehr Sekunden/);
 console.log('OK: distinct subjects, sourced FC26/car measures, unequal values, no mirrored duplicates, correct prompts');
+
+assert.equal(vm.runInContext("questionSubject('Wie groß ist der Erddurchmesser am Äquator?')",test),'Erde');
+assert.equal(vm.runInContext("questionSubject('Wie viele Tasten hat ein Standard-Klavier?')",test),'Tasten Klavier');
+assert.equal(vm.runInContext("questionSubject('Wie viele Felder hat ein Schachbrett?')",test),'Felder Schachbrett');
