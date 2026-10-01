@@ -23,12 +23,12 @@ function fixture(metric,host=false,category='standard'){
   const el=id=>{
     if(!elements.has(id)){
       const classes=new Set();
-      elements.set(id,{classList:{add:(...names)=>names.forEach(x=>classes.add(x)),remove:(...names)=>names.forEach(x=>classes.delete(x)),contains:x=>classes.has(x),toggle:(x,force)=>{if(force===true||force===undefined&&!classes.has(x))classes.add(x);else classes.delete(x)}},style:{},value:'',textContent:'',classes});
+      elements.set(id,{dataset:{},classList:{add:(...names)=>names.forEach(x=>classes.add(x)),remove:(...names)=>names.forEach(x=>classes.delete(x)),contains:x=>classes.has(x),toggle:(x,force)=>{if(force===true||force===undefined&&!classes.has(x))classes.add(x);else classes.delete(x)}},style:{},value:'',textContent:'',classes});
     }
     return elements.get(id);
   };
   const S={room:'room',uid:'user',myName:'Player',host,enteredGame:false,newGameLobby:false,q:0,liveQ:0,questionData:{},questionHistory:{},revealHistory:{},reviewMode:false};
-  const context=vm.createContext({updateLobbySummary:()=>{},clearGameTimer:()=>{},S,el,LOBBY_GAME:metric==='JEOPARDY_START'?'quiz':metric==='ESTIMATE_START'?'estimate':'moreless',JEOP:{mode:'standard'},EST:{mode:'classic'},ESTIMATE_Q:[{q:'Test',a:5,u:'m'}],
+  const context=vm.createContext({updateLobbySummary:()=>{},clearGameTimer:()=>{},S,el,LOBBY_MODE:'CLASSIC',LOBBY_GAME:metric==='JEOPARDY_START'?'quiz':metric==='ESTIMATE_START'?'estimate':'moreless',JEOP:{mode:'standard'},EST:{mode:'classic'},ESTIMATE_Q:[{q:'Test',a:5,u:'m'}],
     req:async path=>path.includes('online_ml_questions')?[{question_no:901,metric,category,prompt:'start'}]:[],
     startJeopardy:()=>calls.push('jeopardy'),startEstimateSolo:()=>calls.push('estimate'),showQ:()=>calls.push('moreless'),
     startTransition:()=>{},endTransition:()=>{},showReveal:()=>{},msg:()=>{},
