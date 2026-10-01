@@ -36,4 +36,9 @@ with tempfile.TemporaryDirectory() as temp:
     catalogue.write_text(json.dumps([record("tier-a", 10), record("tier-b", 20, unit="cm")]))
     builder.build(catalogue, output, root / "images")
     assert '"moreless":[]' in output.read_text(), "Different units must never be compared"
-print("OK: approval, semantic unit gate, and both crop formats")
+    left,right=record("tier-a",10),record("tier-b",20)
+    left["facts"][0]["exclude_with"]=["tier-b"]
+    catalogue.write_text(json.dumps([left,right]));builder.build(catalogue,output,root/"images")
+    assert '\"moreless\":[]' in output.read_text(), "Existing semantic comparisons must remain excluded"
+print("OK: approval, semantic unit gate, comparison exclusions and both crop formats")
+
