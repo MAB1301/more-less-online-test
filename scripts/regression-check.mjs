@@ -67,3 +67,5 @@ await import('./daily-check.mjs');
 await import('./menu-access-check.mjs');
 
 await import('./account-foundation-check.mjs');
+
+await import('./jeopardy-board-check.mjs');

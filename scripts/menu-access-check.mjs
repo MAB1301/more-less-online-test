@@ -104,3 +104,18 @@ context.joinRoom=async()=>{throw Error('Raum nicht gefunden')};vm.runInContext("
 assert(popup.open);assert.equal(el('friendsStatus').textContent,'Raum nicht gefunden');assert.equal(el('friendsJoin').disabled,false,'retry controls unlock after error');
 vm.runInContext('closeFriendsMenu()',context);assert(el('trigger').focused);
 console.log('OK: popup name validation, direct create/join, duplicate-click lock, selected mode, errors, close and focus return');
+
+context.JEOP_CATS=Array.from({length:8},(_,i)=>['Category '+i,[]]);
+context.document.createElement=()=>({children:[],append(...nodes){this.children.push(...nodes)}});
+const catBox=el('friendsQuizCats');catBox.children=[];catBox.replaceChildren=()=>catBox.children=[];catBox.append=node=>catBox.children.push(node);
+for(const name of ['toggleJeopLobbyBoard','renderJeopLobbyCats'])vm.runInContext(source(name),context);
+vm.runInContext("openFriendsMenu('quiz',el('trigger'))",context);
+el('friendsCustomBoard').checked=true;vm.runInContext('toggleJeopLobbyBoard()',context);
+assert.equal(catBox.children.length,8);assert(catBox.children[6].children[0].disabled,'unselected categories disable at six');
+catBox.children[0].children[0].checked=false;catBox.children[0].children[0].onchange();assert.equal(context.FRIENDS_JEOP_CATS.length,5);
+await vm.runInContext('submitFriendsLobby(false)',context);assert(popup.open);assert(el('friendsStatus').textContent.includes('genau 6'));
+context.FRIENDS_JEOP_CATS=[1,2,3,4,5,6];let captured=null;
+context.createRoom=async()=>{captured={mode:context.JEOP.mode,cats:[...context.JEOP.boardCats]};return false};
+const oldMode=context.JEOP.mode;await vm.runInContext('submitFriendsLobby(false)',context);assert.equal(context.JEOP.mode,oldMode,'failed custom create restores previous board');assert.deepEqual(captured.cats,[1,2,3,4,5,6]);assert.equal(captured.mode,'random');
+context.createRoom=async()=>true;await vm.runInContext('submitFriendsLobby(false)',context);assert(!popup.open);assert.deepEqual(Array.from(context.JEOP.boardCats),[1,2,3,4,5,6]);
+console.log('OK: custom lobby requires six categories, selection limits, persisted choice and restoration after failed create');
