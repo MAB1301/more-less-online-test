@@ -239,3 +239,23 @@ button.appBack:focus-visible,#worldMenu button.appBack:focus-visible{outline:3px
 #friendsMenu #friendsQuizCats label{display:flex;align-items:center;gap:7px;margin:0;padding:5px 0;font-size:12px;font-weight:500;line-height:1.4}
 #friendsMenu #friendsQuizCats label:has(input:disabled){opacity:.55}
 @media(max-width:620px){#worldMenu #jeopardyIntro .gameMode{min-height:208px}#worldMenu #jeopardyIntro .jeopArt{width:90px;height:90px}}
+
+/* Original generated topic artwork replaces abstract and emoji-like fallbacks. */
+.objectVisual,.modeQuestionVisual{position:relative}
+.visualIllustration{display:block;width:100%;height:100%;min-height:140px;background-image:url('../visuals/generated/question-atlas.png');background-size:300% 300%;background-repeat:no-repeat;border-radius:inherit;background-position:50% 100%}
+.visualIllustration.art-building{background-position:0 0}.visualIllustration.art-planet{background-position:50% 0}.visualIllustration.art-animal{background-position:100% 0}.visualIllustration.art-country{background-position:0 50%}.visualIllustration.art-city{background-position:50% 50%}.visualIllustration.art-nature{background-position:100% 50%}.visualIllustration.art-sport{background-position:0 100%}.visualIllustration.art-science{background-position:50% 100%}.visualIllustration.art-primordial{background-position:100% 100%}
+.visualIllustrationLabel{position:absolute;bottom:8px;left:8px;border-radius:6px;padding:3px 6px;background:#071023cf;color:#c5d4ed;font-size:9px;font-weight:500;line-height:1.3}
+#accountDock{position:fixed;top:max(12px,env(safe-area-inset-top));right:14px;z-index:2500}
+#accountButton{display:flex;align-items:center;gap:9px;min-height:44px;padding:5px 10px 5px 5px;background:#121b32ed;border:1px solid #6575a1;border-radius:30px;box-shadow:0 5px 18px #0004;font-size:13px}
+.profileAvatar{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;overflow:hidden;background:linear-gradient(135deg,#8958d9,#375caa);color:#fff;font-size:15px;font-weight:850;flex-shrink:0}.profileAvatar img{width:100%;height:100%;object-fit:cover}
+.accountDockLabel{max-width:110px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#accountMenu{box-sizing:border-box;position:fixed;inset:68px 14px auto auto;margin:0;width:min(360px,calc(100vw - 28px));max-height:calc(100dvh - 90px);overflow:auto;border:1px solid #6a7ba1;border-radius:18px;padding:0;background:#121b32;color:#eef2ff;box-shadow:0 15px 60px #0008}
+#accountMenu::backdrop{background:#030a1680}.accountMenuPanel{padding:20px}.accountMenuPanel header{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}.accountMenuPanel h2{font-size:21px;margin:0 0 7px}.accountMenuPanel header p{font-size:12px;color:#b3c3df;margin:0}.accountMenuPanel header button{min-width:44px;min-height:44px;padding:7px;font-size:20px}
+.accountProfile{display:flex;gap:12px;align-items:center;padding:20px 0}.accountProfile .profileAvatar{width:50px;height:50px;font-size:22px}.accountProfile b{display:block;font-size:16px;overflow-wrap:anywhere}.accountProfile small{display:block;margin-top:4px;font-size:11px;color:#adbcdb}.accountSettingsLink{width:100%;text-align:left;font-size:14px;min-height:44px}
+#accountSettings{margin-top:18px;padding-top:14px;border-top:1px solid #334261}#accountSettings.hide{display:none}#accountSettings label{display:block;font-size:13px;font-weight:750;margin:10px 0 7px}#accountSettings input{box-sizing:border-box;width:100%;font-size:13px}#accountSettings small{display:block;font-size:11px;color:#b5c2dd;margin:6px 0 10px}#accountSettings button{font-size:12px;min-height:44px;margin:5px 4px 0 0}
+.accountAuthSoon{padding-top:18px;margin-top:18px;border-top:1px solid #334261}.accountAuthSoon b{font-size:14px}.accountAuthSoon p,#accountMenuStatus{font-size:12px;color:#b9c7e2;line-height:1.5}.accountAuthSoon div{display:flex;gap:8px}.accountAuthSoon button{flex:1;font-size:12px;min-height:44px}.accountAuthSoon button:disabled{opacity:.55;cursor:default}#accountMenuStatus:empty{display:none}
+#accountButton:focus-visible,#accountMenu :focus-visible{outline:3px solid #fff;outline-offset:3px}
+body .scoreHud{top:76px}
+#homeScreen .homeHeader{padding-top:44px}#worldMenu .homeHeader{padding-top:36px}
+@media(max-width:620px){.accountDockLabel{display:none}#accountDock{right:10px}#accountButton{padding:5px}#worldMenu .homeBadge{right:76px}#homeScreen .homeHeader{padding-top:45px}}
+#worldMenu .homeBadge{top:76px}.visualIllustrationLabel{z-index:3}.visualIllustration{grid-area:1/1}.objectVisual .visualIllustration{z-index:1}
