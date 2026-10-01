@@ -63,3 +63,5 @@ await import('./blitz-timer-check.mjs');
 await import('./lobby-settings-check.mjs');
 
 await import('./daily-check.mjs');
+
+await import('./menu-access-check.mjs');

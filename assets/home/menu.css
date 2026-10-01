@@ -141,3 +141,46 @@
 button.appBack,#worldMenu button.appBack{box-sizing:border-box;min-height:44px;padding:10px 16px;border:1px solid #34496d;border-radius:12px;background:#15223a;color:#dce6ff;font-size:14px;font-weight:750;line-height:1.2;box-shadow:none;letter-spacing:0;text-decoration:none;white-space:nowrap}
 button.appBack:hover,#worldMenu button.appBack:hover{background:#203454;border-color:#7595c7;color:#fff}
 button.appBack:focus-visible,#worldMenu button.appBack:focus-visible{outline:3px solid #fff;outline-offset:3px}
+
+/* Raster illustrations keep all copy in HTML and load only in the game menus. */
+#worldMenu .cardArt{display:block;flex:none;background-image:url('art/modes-atlas.png');background-size:300% 300%;background-repeat:no-repeat;width:96px;height:96px;min-width:0;border:0;padding:0;border-radius:14px;filter:none;font-size:0!important;line-height:0;box-shadow:none;transform:none}
+#worldMenu .art-classic{background-position:0 0}#worldMenu .art-party{background-position:50% 0}#worldMenu .art-blitz{background-position:100% 0}
+#worldMenu .art-survival{background-position:0 50%}#worldMenu .art-king{background-position:50% 50%}#worldMenu .art-chaos{background-position:100% 50%}
+#worldMenu .art-target{background-position:0 100%}#worldMenu .art-risk{background-position:50% 100%}#worldMenu .art-seed{background-position:100% 100%}
+#worldMenu .summaryIcon.cardArt{width:48px;height:48px;border-radius:8px;margin:0;padding:0}
+#worldMenu #playType .gameModeIcon.cardArt{width:92px;height:92px;margin:14px auto 12px}
+#worldMenu .gameMode{min-height:196px;padding-top:32px;justify-content:flex-start}
+#worldMenu .gameMode.active{padding-top:31px}
+#worldMenu .gameMode .cardArt{margin:6px auto 12px}
+#worldMenu .selectionLabel{display:none;position:absolute;top:11px;left:12px;font-size:9px;line-height:1.2;font-weight:850;letter-spacing:.04em;text-transform:uppercase;color:var(--accent);border:1px solid rgba(var(--accent-rgb),.35);background:#071329cc;padding:4px 6px;border-radius:5px}
+#worldMenu .gameMode.active>.selectionLabel,#worldMenu .factLevel.selected>.selectionLabel{display:block}
+#worldMenu #jeopardyIntro .jeopArt{background-image:url('art/jeopardy-atlas.png');background-size:400% 200%;width:120px;height:120px;border-radius:12px;margin:16px auto 12px}
+#worldMenu .jeop-standard{background-position:0 0}#worldMenu .jeop-big{background-position:33.333333% 0}#worldMenu .jeop-football{background-position:66.666667% 0}#worldMenu .jeop-random{background-position:100% 0}
+#worldMenu .jeop-nerd{background-position:0 100%}#worldMenu .jeop-sport{background-position:33.333333% 100%}#worldMenu .jeop-geo{background-position:66.666667% 100%}#worldMenu .jeop-party{background-position:100% 100%}
+#worldMenu #jeopardyIntro .gameMode{min-height:230px;padding:20px 12px 14px}
+#worldMenu .factLevel .levelArt{background-image:url('art/levels-atlas.png');background-size:300% 100%;width:120px;height:120px;margin:12px auto 0}
+#worldMenu .level-easy{background-position:0 0}#worldMenu .level-medium{background-position:50% 0}#worldMenu .level-hard{background-position:100% 0}
+#worldMenu .factLevel{min-height:238px}
+#worldMenu .modeChoices{grid-template-columns:1fr 1fr;align-items:start}
+#worldMenu .friendsAccess{min-width:0;border:1px solid #354b70;border-radius:13px;background:linear-gradient(135deg,#15243e,#0d1930);color:#d7e3ff}
+#worldMenu .friendsAccess>summary{box-sizing:border-box;display:flex;align-items:center;gap:12px;min-height:76px;padding:14px 18px;cursor:pointer;list-style:none;text-align:left}
+#worldMenu .friendsAccess>summary::-webkit-details-marker{display:none}
+#worldMenu .friendsAccess summary b{display:block;font-size:15px;margin-bottom:4px}
+#worldMenu .friendsAccess summary small{display:block;font-size:11px;color:#aabbdc;line-height:1.4}
+#worldMenu .friendsGlyph{font-size:26px;color:#c7d4f7}
+#worldMenu .friendsChevron{margin-left:auto;font-size:20px;transition:transform .15s}
+#worldMenu .friendsAccess[open] .friendsChevron{transform:rotate(180deg)}
+#worldMenu .friendsAccess[open]{border-color:#7798c9}
+#worldMenu .friendsOptions{display:grid;gap:8px;padding:0 12px 12px;min-width:0}
+#worldMenu .friendsOptions>.modeChoice{min-height:65px;width:100%;padding:12px;border-color:#334968;box-shadow:none}
+#worldMenu .friendsAccess summary:focus-visible{outline:3px solid white;outline-offset:3px;border-radius:12px}
+#worldMenu .estimateSidebar .friendsAccess>summary{min-height:62px;padding:12px;gap:9px}
+#worldMenu .estimateSidebar .friendsAccess summary b{font-size:13px}
+#worldMenu .estimateSidebar .friendsAccess summary small{font-size:10px}
+#worldMenu .estimateSidebar .friendsOptions>.modeChoice{justify-content:flex-start;min-height:44px}
+#worldMenu .estimateSidebar .friendsOptions>.joinModeChoice{display:flex!important;min-height:65px}
+.inviteLinkButton{width:100%;min-height:46px;margin-top:8px;background:#334ed0;border:1px solid #7386ff;border-radius:12px;color:#fff;font-weight:800}
+.inviteFallback{display:grid;gap:8px;font-size:12px;color:#b8c9e7;margin-top:12px}.inviteFallback.hide{display:none}.inviteFallback input{box-sizing:border-box;width:100%;font-size:12px;min-height:44px;background:#0b1730;color:#e4edff}
+#inviteStatus{line-height:1.5;color:#bad8ff;min-height:18px}#lobbyHostNote{padding:12px 14px;border:1px solid #344967;border-radius:12px;background:#14223c;color:#d9e5ff;font-size:13px;line-height:1.5}
+@media(max-width:620px){#worldMenu .cardArt{width:85px;height:85px}#worldMenu .gameMode{min-height:190px;padding-top:34px}#worldMenu .gameMode.active{padding-top:33px}#worldMenu #jeopardyIntro .jeopArt{width:106px;height:106px}#worldMenu #jeopardyIntro .gameMode{min-height:222px}#worldMenu .factLevel{min-height:130px;grid-template-columns:76px 1fr;padding-top:32px}#worldMenu .factLevel .levelArt{width:76px;height:76px;margin:0;grid-row:1/3}#worldMenu .factLevel small{grid-column:2}#worldMenu .factLevel b{font-size:22px}#worldMenu .modeChoices{grid-template-columns:1fr}#worldMenu .friendsAccess>summary{min-height:65px}#worldMenu .selectionLabel{font-size:8px}#worldMenu .friendsOptions .joinModeInline{grid-template-columns:1fr}#worldMenu .friendsOptions .joinModeLabel{grid-column:auto}}
+@media(prefers-reduced-motion:reduce){#worldMenu .friendsChevron{transition:none}}
