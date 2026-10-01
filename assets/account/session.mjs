@@ -25,6 +25,10 @@ export function createAccountSession({url,key,storage,fetchImpl=fetch,now=Date.n
  }
  return {
   current,refresh,authorized,
+  async invitations(){const auth=await current();return authorized('/rest/v1/ml_game_invitations?select=*&or=(sender_id.eq.'+auth.uid+',recipient_id.eq.'+auth.uid+')&status=eq.pending&expires_at=gt.'+encodeURIComponent(new Date(now()).toISOString())+'&order=created_at.desc&limit=50',undefined,'GET')},
+  async sendInvitation(recipient,room){return authorized('/rest/v1/rpc/ml_send_game_invitation',{p_recipient:recipient,p_room:room})},
+  async acceptInvitation(id,name){return (await authorized('/rest/v1/rpc/ml_accept_game_invitation',{p_invitation:id,p_name:name}))?.[0]},
+  async dismissInvitation(id,status){return authorized('/rest/v1/ml_game_invitations?id=eq.'+encodeURIComponent(id),{status},'PATCH')},
   async user(){return authorized('/auth/v1/user',undefined,'GET')},
   async importCallback(token,refreshToken,expires=3600){const user=await call('/auth/v1/user',undefined,token,'GET');return save({access_token:token,refresh_token:refreshToken,expires_in:expires,user})},
   forget(){storage.removeItem(store);session=null},
