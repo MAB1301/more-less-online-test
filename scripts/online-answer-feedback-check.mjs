@@ -36,7 +36,7 @@ function node(id){
 let reject=false;
 const S={q:1,room:'test',uid:'me',answeredQ:0,myChoice:null,joker:null,usedJokers:[],
   answerHistory:{},playerNames:{},scoredQ:1,host:false,finishDismissed:false,finishShownQ:0,finishTimer:null};
-const context=vm.createContext({
+const context=vm.createContext({renderSoloProgress(){},renderOnlineProgress(){},
   S,el:node,clearGameTimer:()=>{},document:{querySelector:()=>null},
   rpc:async()=>{if(reject)throw Error('Netzfehler')},
   sync:async()=>{},scheduleAutoNext:()=>{},showFinish:()=>{},

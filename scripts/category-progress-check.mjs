@@ -1,0 +1,10 @@
+import fs from 'node:fs';import vm from 'node:vm';import assert from 'node:assert/strict';
+const html=fs.readFileSync('index.html','utf8');
+const node=()=>({children:[],textContent:'',className:'',attrs:{},classList:{add(){}},append(...items){this.children.push(...items)},replaceChildren(){this.children=[]},setAttribute(k,v){this.attrs[k]=v}});
+const prog=node(),ctx=vm.createContext({el:()=>prog,document:{createElement:node},SOLO:{cat:'Geografie',drawSub:'Städte',i:1,questions:Array(5),roundResults:[true]},S:{answerHistory:{6:false,7:true}},onlineTotalQuestions:()=>20});
+vm.runInContext(html.slice(html.indexOf('function renderCategoryProgress('),html.indexOf('function renderSolo(){')),ctx);
+vm.runInContext('renderSoloProgress()',ctx);assert.equal(prog.children[0].children[0].textContent,'Geografie');assert.equal(prog.children[0].children[1].textContent,'Städte');assert.equal(prog.children[1].children.length,5);assert.match(prog.children[1].children[0].className,/correct/);assert.match(prog.children[1].children[1].className,/current/);
+ctx.SOLO.cat='Sport';ctx.SOLO.drawSub='Fußball';ctx.SOLO.i=0;ctx.SOLO.roundResults=[];vm.runInContext('renderSoloProgress()',ctx);assert.equal(prog.children[0].children[0].textContent,'Sport');assert.equal(prog.children[0].children[1].textContent,'Fußball');assert(prog.children[1].children.every(d=>!/(correct|wrong)/.test(d.className)));
+vm.runInContext("renderOnlineProgress({question_no:8,category:'Geografie',subcategory:'Städte'})",ctx);assert.match(prog.children[1].children[0].className,/wrong/);assert.match(prog.children[1].children[1].className,/correct/);assert.match(prog.children[1].children[2].className,/current/);
+assert(html.includes('.mysteryCard.revealed .cardBack{display:none}'));assert(!html.includes('.cardFace{transform:rotateY(180deg)'));assert(html.includes('SOLO.roundResults=[]'));assert(html.includes('SOLO.roundResults[SOLO.i]=ok;renderSoloProgress()'));
+console.log('OK: category/subcategory, five answer states, reset on new card, online block progress and hidden reverse face');
