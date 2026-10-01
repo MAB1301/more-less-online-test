@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import vm from 'node:vm';
 import assert from 'node:assert/strict';
 const nodes=new Map();let focused=0;
-function el(id){if(!nodes.has(id)){const classes=new Set();nodes.set(id,{textContent:'',innerHTML:'',value:'',children:[],buttons:[{},{}],classList:{add:x=>classes.add(x),remove:(...xs)=>xs.forEach(x=>classes.delete(x)),toggle:(x,on)=>on?classes.add(x):classes.delete(x),contains:x=>classes.has(x)},replaceChildren(){this.children=[]},appendChild(x){this.children.push(x)},querySelectorAll(){return this.buttons},showModal(){this.open=true},close(){this.open=false},focus(){focused++}})}return nodes.get(id)}
+function el(id){if(!nodes.has(id)){const classes=new Set();nodes.set(id,{dataset:{},textContent:'',innerHTML:'',value:'',children:[],buttons:[{},{}],classList:{add:x=>classes.add(x),remove:(...xs)=>xs.forEach(x=>classes.delete(x)),toggle:(x,on)=>on?classes.add(x):classes.delete(x),contains:x=>classes.has(x)},replaceChildren(){this.children=[]},appendChild(x){this.children.push(x)},querySelectorAll(){return this.buttons},showModal(){this.open=true},close(){this.open=false},focus(){focused++}})}return nodes.get(id)}
 const S={room:null,score:7},SOLO={on:false,mode:'classic'},EST={mode:'risk',score:500};
 const before=JSON.stringify({S,SOLO,EST});
 const ctx=vm.createContext({el,S,SOLO,EST,Math,document:{activeElement:el('trigger'),createElement:()=>({textContent:''})},VISUAL_BASE:'../assets/visuals/'});

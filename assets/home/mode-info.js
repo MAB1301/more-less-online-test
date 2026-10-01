@@ -28,7 +28,7 @@ function openModeInfo(game,mode){
  }
  el('modeInfoResult').textContent='Nur ein Beispiel – dein Spielstand bleibt unverändert.';el('modeInfoResult').classList.remove('correct','wrong');
  el('modeInfoNote').textContent=game==='moreless'&&mode==='chaos'?'Hier siehst du das Grundprinzip. Im Chaos-Modus bestimmt die gezogene Regel, welcher Wert zählt und wie viele Punkte du bekommst.':game==='moreless'&&mode==='blitz'?'Im Match gilt deine eingestellte Zeit. Dieses Beispiel hat keinen Countdown.':game==='estimate'?'Das Beispiel zeigt die normale Punkteberechnung. Risk, Survival und King wenden zusätzlich ihre Modusregeln an.':'';
- el('modeInfoDialog').showModal();
+ el('modeInfoDialog').dataset.game=game;el('modeInfoDialog').showModal();
 }
 function closeModeInfo(){el('modeInfoDialog').close();MODE_INFO.focus?.focus?.();MODE_INFO.game=null;MODE_INFO.answered=false}
 function answerModeExample(choice){

@@ -52,7 +52,7 @@ function decorateChaosPreview(rule){
  const rules=gameRules('moreless','chaos',rule.id);fillRuleMeta('chaosIntroMeta',rules.meta);
 }
 function fillRulePreview(rules,context){
- const d=el('gameRulePreview');GAME_UX.returnFocus=document.activeElement;
+ const d=el('gameRulePreview');d.dataset.game=rules.game||'moreless';el('gameCategoryOptions')?.classList.toggle('hide',rules.game!=='moreless'||!!S.room);GAME_UX.returnFocus=document.activeElement;
  el('gameRuleContext').textContent=(rules.brand||'GAME / NIGHT')+' · '+context;el('gameRuleTitle').textContent=rules.title;
  el('gameRulePrefix').textContent=context==='SPIELREGELN'?'So spielst du':rules.rule?'Deine Chaos-Regel':'Bereit für';
  el('gameRuleQuestion').classList.toggle('hide',context==='SPIELREGELN');fillRuleMeta('gameRuleMeta',rules.meta||[]);configureRuleSettings(rules,false);el('gameRuleCountdown').classList.add('hide');
