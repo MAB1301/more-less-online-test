@@ -1,0 +1,24 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+const nodes=new Map();let focused=0;
+function el(id){if(!nodes.has(id)){const classes=new Set();nodes.set(id,{textContent:'',innerHTML:'',value:'',children:[],buttons:[{},{}],classList:{add:x=>classes.add(x),remove:(...xs)=>xs.forEach(x=>classes.delete(x)),toggle:(x,on)=>on?classes.add(x):classes.delete(x),contains:x=>classes.has(x)},replaceChildren(){this.children=[]},appendChild(x){this.children.push(x)},querySelectorAll(){return this.buttons},showModal(){this.open=true},close(){this.open=false},focus(){focused++}})}return nodes.get(id)}
+const S={room:null,score:7},SOLO={on:false,mode:'classic'},EST={mode:'risk',score:500};
+const before=JSON.stringify({S,SOLO,EST});
+const ctx=vm.createContext({el,S,SOLO,EST,Math,document:{activeElement:el('trigger'),createElement:()=>({textContent:''})},VISUAL_BASE:'../assets/visuals/'});
+const ux=fs.readFileSync('assets/home/game-ux.js','utf8');
+vm.runInContext(ux.slice(ux.indexOf('function gameRuleCopy'),ux.indexOf('function gameRules')),ctx);
+vm.runInContext(fs.readFileSync('assets/home/mode-info.js','utf8'),ctx);
+const run=s=>vm.runInContext(s,ctx);
+run("openModeInfo('moreless','classic')");assert(el('modeInfoDialog').open);assert.match(el('modeInfoDemo').innerHTML,/\.\.\/assets\/visuals\/berlin/);
+run("answerModeExample('paris')");assert(el('modeInfoResult').classList.contains('wrong'));assert.equal(el('modeInfoHiddenValue').textContent,'105 km²');
+const wrong=el('modeInfoResult').textContent;run("answerModeExample('berlin')");assert.equal(el('modeInfoResult').textContent,wrong,'one comparison answer only');assert(el('modeInfoDemo').buttons.every(b=>b.disabled));
+run('closeModeInfo()');assert(!el('modeInfoDialog').open);assert.equal(focused,1);
+run("openModeInfo('moreless','classic');answerModeExample('berlin')");assert(el('modeInfoResult').classList.contains('correct'),'reopening resets answer lock');
+run("closeModeInfo();openModeInfo('moreless','party')");assert.match(el('modeInfoRules').children[1].textContent,/Online-Lobby/);
+run("closeModeInfo();openModeInfo('estimate','risk')");el('modeInfoEstimate').value='';run("answerModeExample('estimate')");assert.match(el('modeInfoResult').textContent,/gültige Zahl/);
+el('modeInfoEstimate').value='6792';run("answerModeExample('estimate')");assert.match(el('modeInfoResult').textContent,/100 Beispielpunkte/);
+run("closeModeInfo();openModeInfo('facts','easy');answerModeExample('fake')");assert(el('modeInfoResult').classList.contains('wrong'));run("answerModeExample('fact')");assert(el('modeInfoResult').classList.contains('correct'));
+run("closeModeInfo();openModeInfo('quiz','random');answerModeExample('board')");assert.match(el('modeInfoRules').children[0].textContent,/verschiedene Kategorien/);assert.match(el('modeInfoResult').textContent,/Paris/);
+run('closeModeInfo()');assert.equal(JSON.stringify({S,SOLO,EST}),before,'all help interactions leave real match and mode selection untouched');
+console.log('OK: interactive help preserves match state, restores focus, reveals comparison once, validates estimates and explains all four games');
