@@ -1,0 +1,54 @@
+begin;
+do $test$
+declare u uuid:=gen_random_uuid();v uuid:=gen_random_uuid();rid uuid;res jsonb;qid uuid;n integer;h jsonb;mode text;
+begin
+ insert into auth.users(id,aud,role) values(u,'authenticated','authenticated'),(v,'authenticated','authenticated');
+ perform set_config('request.jwt.claim.sub',u::text,true);
+ select room_id into rid from public.ml_create_room('Mode Test','{"game":"moreless","game_mode":"KING","rounds":2,"questions_per_round":5,"timer_enabled":false}'::jsonb);
+ insert into public.players(room_id,user_id,display_name,seat) values(rid,v,'Gast',2);
+ for n in 1..3 loop
+  perform public.ml_online_ml_start(rid,n,'Test','Höhe','Test','m','A','',100,'B','',50,8);
+  select question_id into qid from public.online_ml_questions where room_id=rid and question_no=n;
+  perform public.ml_online_answer_v2(rid,n,'a',qid);
+  perform set_config('request.jwt.claim.sub',v::text,true);perform public.ml_online_answer_v2(rid,n,'b',qid);
+  perform set_config('request.jwt.claim.sub',u::text,true);
+ end loop;
+ if (select score from public.players where room_id=rid and user_id=u)<>6 then raise exception 'king streak missing';end if;
+ perform public.ml_online_reset(rid);
+ if exists(select 1 from public.players where room_id=rid and score<>0) then raise exception 'reset score';end if;
+ update public.rooms set config=config||'{"game_mode":"SURVIVAL"}'::jsonb where id=rid;
+ for n in 1..3 loop
+  perform public.ml_online_ml_start(rid,n,'Test','Höhe','Test','m','A','',100,'B','',50,8);
+  perform public.ml_online_ml_submit(rid,n,'b');perform set_config('request.jwt.claim.sub',v::text,true);perform public.ml_online_ml_submit(rid,n,'a');perform set_config('request.jwt.claim.sub',u::text,true);
+ end loop;
+ if (select lives from ml_private.online_mode_players where room_id=rid and user_id=u)<>0 then raise exception 'survival lives';end if;
+ perform public.ml_online_ml_start(rid,4,'Test','Höhe','Test','m','A','',100,'B','',50,8);
+ if not exists(select 1 from ml_private.online_ml_answers where room_id=rid and question_no=4 and user_id=u and choice='eliminated') then raise exception 'eliminated not skipped';end if;
+ perform set_config('request.jwt.claim.sub',v::text,true);perform public.ml_online_ml_submit(rid,4,'a');perform set_config('request.jwt.claim.sub',u::text,true);
+ perform public.ml_online_reset(rid);
+ update public.rooms set config=config||'{"game_mode":"CHAOS","chaos_rules":["blind","reverse","risk","rescue","double","final","streak","blitz"]}'::jsonb where id=rid;
+ perform public.ml_online_ml_start(rid,1,'Test','Höhe','Test','m','A','',100,'B','',50,8);
+ if (select left_value from public.online_ml_questions where room_id=rid and question_no=1) is not null then raise exception 'blind leaks value';end if;
+ select question_id into qid from public.online_ml_questions where room_id=rid and question_no=1;
+ h:=public.ml_online_joker(rid,1,'four');if jsonb_array_length(h->'values')<>4 or not h->'values'@>'[50]'::jsonb then raise exception 'four hint';end if;
+ if public.ml_online_joker(rid,1,'four')<>h then raise exception 'hint not idempotent';end if;
+ begin perform public.ml_online_joker(rid,1,'double');raise exception 'second joker accepted';exception when others then if sqlerrm<>'one joker per question' then raise;end if;end;
+ perform public.ml_online_answer_v2(rid,1,'a',qid);perform set_config('request.jwt.claim.sub',v::text,true);h:=public.ml_online_joker(rid,1,'answer');perform public.ml_online_answer_v2(rid,1,h->>'correct_side',qid);perform set_config('request.jwt.claim.sub',u::text,true);
+ select results into res from public.online_ml_reveals where room_id=rid and question_no=1;if (res->>'left_value')::numeric<>100 then raise exception 'blind reveal missing';end if;
+ perform public.ml_online_reset(rid);update public.rooms set config=config||'{"game_mode":"CLASSIC"}'::jsonb where id=rid;
+ perform public.ml_online_ml_start(rid,1,'Test','Höhe','Test','m','A','',100,'B','',50,8);
+ begin perform public.ml_online_answer_v2(rid,1,'a',qid);raise exception 'old match answer accepted';exception when others then if sqlerrm<>'question expired or replaced' then raise;end if;end;
+ select question_id into qid from public.online_ml_questions where room_id=rid and question_no=1;
+ h:=public.ml_online_joker(rid,1,'double');perform public.ml_online_answer_v2(rid,1,'a',qid);perform set_config('request.jwt.claim.sub',v::text,true);h:=public.ml_online_joker(rid,1,'pass');perform public.ml_online_answer_v2(rid,1,'b',qid);
+ if (select score from public.players where room_id=rid and user_id=u)<>2 or (select score from public.players where room_id=rid and user_id=v)<>0 then raise exception 'double/pass scoring';end if;
+ perform set_config('request.jwt.claim.sub',u::text,true);perform public.ml_online_ml_start(rid,2,'Test','Höhe','Test','m','A','',100,'B','',50,8);
+ h:=public.ml_online_joker(rid,2,'skip',v);perform public.ml_online_ml_submit(rid,2,'a');perform set_config('request.jwt.claim.sub',v::text,true);perform public.ml_online_ml_submit(rid,2,'a');perform set_config('request.jwt.claim.sub',u::text,true);
+ perform public.ml_online_ml_start(rid,3,'Test','Höhe','Test','m','A','',100,'B','',50,8);
+ perform public.ml_online_ml_submit(rid,3,'a');
+ if not exists(select 1 from public.online_ml_reveals where room_id=rid and question_no=3) then raise exception 'skip stalls reveal';end if;
+ perform public.ml_join_room((select code from public.rooms where id=rid),'Reconnected');
+ perform set_config('request.jwt.claim.sub',gen_random_uuid()::text,true);
+ begin perform public.ml_online_mode_state(rid);raise exception 'outsider accepted';exception when others then if sqlerrm<>'not room member' then raise;end if;end;
+end $test$;
+rollback;
+select 'PASS: King, Survival, blind privacy, joker hints/answer/double/pass/skip, reset, old nonce, reconnect, membership. Fixtures rolled back.' as verification;

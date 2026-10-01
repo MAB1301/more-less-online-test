@@ -4,7 +4,7 @@ const html=fs.readFileSync('index.html','utf8');
 const daily=fs.readFileSync('assets/daily.js','utf8')+fs.readFileSync('assets/account/menu.js','utf8')+fs.readFileSync('assets/account/preferences.js','utf8')+fs.readFileSync('assets/account/controller.mjs','utf8');
 const offline=fs.readFileSync('offline/index.html','utf8');
 const fail=m=>{console.error('FAIL:',m);process.exitCode=1}, ok=m=>console.log('OK:',m);
-if(html===offline.replaceAll('src="../assets/visuals/','src="assets/visuals/').replaceAll('src="../assets/home/','src="assets/home/').replaceAll('src="../assets/account/','src="assets/account/').replace('href="../assets/home/','href="assets/home/').replace('href="../assets/daily.css','href="assets/daily.css').replaceAll('src="../assets/daily/','src="assets/daily/').replace('src="../assets/daily.js','src="assets/daily.js').replaceAll('src="../assets/vendor/qrcode.min.js"','src="assets/vendor/qrcode.min.js"').replace('src="../content/approved.js','src="content/approved.js'))ok('online/offline HTML identical except content path');else fail('online/offline HTML differ beyond content path');
+if(html===offline.replaceAll('src="../assets/','src="assets/').replaceAll('href="../assets/','href="assets/').replaceAll('src="../content/','src="content/'))ok('online/offline HTML identical except content path');else fail('online/offline HTML differ beyond content path');
 const visualMap=html.match(/const VISUAL_IMG=\{([\s\S]*?)\};/);
 if(!visualMap)fail('visual asset map missing');
 else{
@@ -84,3 +84,5 @@ await import("./selection-check.mjs");
 await import("./category-progress-check.mjs");
 
 await import("./chaos-rules-check.mjs");
+
+const onlineEstimate=spawnSync(process.execPath,["scripts/online-estimate-client-check.mjs"],{encoding:"utf8"});process.stdout.write(onlineEstimate.stdout);process.stderr.write(onlineEstimate.stderr);if(onlineEstimate.status!==0)fail("online estimate client checks");
