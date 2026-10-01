@@ -13,8 +13,8 @@ for(const mode of ['standard','big','football','geo','sport','party','nerd']){
  ctx.JEOP.mode=mode;vm.runInContext('buildJeopData()',ctx);uniqueBoard();const names=ctx.JEOP.data.map(c=>c[0]);
  if(['standard','big','football','geo','sport','party'].includes(mode)){vm.runInContext('buildJeopData()',ctx);assert.deepEqual(ctx.JEOP.data.map(c=>c[0]),names,'preset categories stay fixed')}
 }
-ctx.S={room:'shared-room',roomConfig:{jeop_categories:[1,3,5,7,9,11]}};ctx.JEOP.mode='random';vm.runInContext('buildJeopData()',ctx);uniqueBoard();const host=JSON.stringify(ctx.JEOP.data);
-ctx.JEOP.boardCats=null;vm.runInContext('buildJeopData()',ctx);assert.equal(JSON.stringify(ctx.JEOP.data),host,'room config preserves custom board on reconnect');
+ctx.S={room:'shared-room',roomConfig:{game:'quiz',game_mode:'random',jeop_categories:[1,3,5,7,9,11]}};ctx.JEOP.mode='random';vm.runInContext('buildJeopData()',ctx);uniqueBoard();const host=JSON.stringify(ctx.JEOP.data);
+ctx.JEOP.boardCats=null;ctx.JEOP.mode='standard';vm.runInContext('buildJeopData()',ctx);assert.equal(JSON.stringify(ctx.JEOP.data),host,'room config preserves custom board on reconnect');
 const sameLevel=Array.from({length:5},(_,i)=>['Question '+i,'Answer',1]);ctx.pool=sameLevel;ctx.picked=new Set();ctx.used=new Set(sameLevel.map(q=>'Test|'+q[0]));
 for(let level=1;level<=5;level++){ctx.level=level;const q=vm.runInContext("jeopQuestionForLevel('Test',pool,level,used,picked)",ctx);assert(q);ctx.picked.add(q[0].toLowerCase())}
 assert.equal(ctx.picked.size,5,'history exhaustion still chooses five different questions');
