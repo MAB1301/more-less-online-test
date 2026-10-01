@@ -18,3 +18,14 @@ const waiting={active:true,question_id:'q2',players:[{user_id:'a',name:'Anna',an
 vm.runInContext("renderWaiting('waiting',waiting,'q2',true)",ctx);assert.equal(el('waiting[data-wait-count]').textContent,'1 von 3 Antworten gespeichert');assert.equal(el('waiting[data-wait-names]').textContent,'Noch offen: Du, <img src=x> (Verbindung unterbrochen)');assert.equal(el('waitingprogress').value,1);
 vm.runInContext("renderWaiting('waiting',waiting,'old',true)",ctx);assert(el('waiting').classList.contains('hide'),'stale question snapshot stays hidden');vm.runInContext("renderWaiting('waiting',waiting,'q2',false)",ctx);assert(el('waiting').classList.contains('hide'),'no wait panel after reveal');
 console.log('OK: rules before solo start, timed reverse preview, exact unlock, saved-answer locks, no repeated preview, focus return, safe waiting names and stale/revealed status cleanup');
+
+// Preview settings must affect both the live timer control and match metadata.
+S.room=null;ctx.blitzSeconds=()=>Number(el('blitzSeconds').value)||8;el('blitzSeconds').value=8;
+vm.runInContext("needsRulePreview('moreless','blitz',()=>{})",ctx);
+el('gameRuleRounds').value=2;el('gameRuleSeconds').value=12;vm.runInContext('updateRuleSettings()',ctx);
+assert.equal(vm.runInContext('selectedSoloRounds()',ctx),2);assert.equal(el('blitzSeconds').value,12);
+assert(el('gameRuleMeta').children.some(x=>x.textContent==='2 Runden'));assert(el('gameRuleMeta').children.some(x=>/12 Sekunden/.test(x.textContent)));
+assert(el('gameRuleList').children.some(x=>/12 Sekunden/.test(x.textContent)));
+el('gameRuleSeconds').value=999;vm.runInContext('updateRuleSettings()',ctx);assert.equal(el('blitzSeconds').value,15);
+S.room='room';el('gameRuleRounds').value=1;vm.runInContext('updateRuleSettings()',ctx);assert.equal(vm.runInContext('selectedSoloRounds()',ctx),2,'guest cannot change online match settings');
+console.log('OK: editable rounds and Blitz seconds, metadata refresh, input limits and online settings protection');
