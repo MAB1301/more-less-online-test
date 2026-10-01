@@ -1,0 +1,37 @@
+begin;
+do $test$
+declare u uuid:=gen_random_uuid();v uuid:=gen_random_uuid();rid uuid;st jsonb;q public.online_ml_questions;pool jsonb;qid uuid;
+begin
+ insert into auth.users(id,aud,role) values(u,'authenticated','authenticated'),(v,'authenticated','authenticated');perform set_config('request.jwt.claim.sub',u::text,true);
+ select room_id into rid from public.ml_create_room('Preview Host','{"game":"moreless","game_mode":"BLITZ","rounds":2,"questions_per_round":5,"timer_enabled":true,"blitz_seconds":8,"rule_previews":true}'::jsonb);
+ insert into public.players(room_id,user_id,display_name,seat) values(rid,v,'Gast',2);
+ perform public.ml_online_ml_start(rid,1,'Länder','Fläche','Test','km²','A','',100,'B','',50,8);
+ select * into q from public.online_ml_questions where room_id=rid and question_no=1;
+ if extract(epoch from q.deadline-q.starts_at)<>8 or q.starts_at<clock_timestamp()+interval '3 seconds' then raise exception 'preview eats answer time';end if;
+ st:=public.ml_match_waiting(rid);if (st->>'active')::boolean then raise exception 'waiting shown before start';end if;
+ begin perform public.ml_online_answer_v2(rid,1,'a',q.question_id);raise exception 'answered during preview';exception when others then if sqlerrm<>'rule preview still running' then raise;end if;end;
+ begin perform public.ml_online_joker(rid,1,'answer');raise exception 'hint during preview';exception when others then if sqlerrm<>'rule preview still running' then raise;end if;end;
+ if not (public.ml_online_ml_timeout(rid,1)->>'waiting')::boolean then raise exception 'revealed during preview';end if;
+ update public.online_ml_questions set starts_at=clock_timestamp()-interval '1 second' where room_id=rid;
+ perform public.ml_online_answer_v2(rid,1,'a',q.question_id);st:=public.ml_match_waiting(rid);
+ if not (st->>'active')::boolean or (select count(*) from jsonb_array_elements(st->'players') p where (p->>'answered')::boolean)<>1 then raise exception 'ML waiting count';end if;
+ if exists(select 1 from jsonb_array_elements(st->'players') p where p ? 'choice' or p ? 'correct' or p ? 'guess') then raise exception 'waiting leaks answers';end if;
+ perform set_config('request.jwt.claim.sub',v::text,true);perform public.ml_online_answer_v2(rid,1,'b',q.question_id);st:=public.ml_match_waiting(rid);if (st->>'active')::boolean then raise exception 'waiting after reveal';end if;
+ perform set_config('request.jwt.claim.sub',u::text,true);perform public.ml_online_reset(rid);
+ update public.rooms set config=config||'{"game":"estimate","game_mode":"blitz"}'::jsonb where id=rid;
+ select jsonb_agg(jsonb_build_object('q','Question '||n,'a',100,'u','m')) into pool from generate_series(1,10)n;
+ perform public.ml_estimate_start(rid,'blitz',pool);st:=public.ml_estimate_state(rid);qid:=(st->>'question_id')::uuid;
+ if extract(epoch from (st->>'deadline')::timestamptz-(st->>'starts_at')::timestamptz)<>8 then raise exception 'estimate timer includes preview';end if;
+ begin perform public.ml_estimate_submit(rid,qid,100,null);raise exception 'estimate answered in preview';exception when others then if sqlerrm<>'rule preview still running' then raise;end if;end;
+ update ml_private.estimate_matches set starts_at=clock_timestamp()-interval '1 second' where room_id=rid;
+ perform public.ml_estimate_submit(rid,qid,100,null);st:=public.ml_match_waiting(rid);
+ if (select count(*) from jsonb_array_elements(st->'players') p where (p->>'answered')::boolean)<>1 then raise exception 'estimate waiting count';end if;
+ perform set_config('request.jwt.claim.sub',v::text,true);st:=public.ml_match_waiting(rid);
+ if not exists(select 1 from jsonb_array_elements(st->'players') p where p->>'user_id'=u::text and (p->>'answered')::boolean) then raise exception 'guest waiting view';end if;
+ perform public.ml_estimate_submit(rid,qid,150,null);st:=public.ml_match_waiting(rid);if (st->>'active')::boolean then raise exception 'estimate waiting after reveal';end if;
+ perform set_config('request.jwt.claim.sub',gen_random_uuid()::text,true);
+ begin perform public.ml_match_waiting(rid);raise exception 'outsider waiting read';exception when others then if sqlerrm<>'not room member' then raise;end if;end;
+ if has_function_privilege('anon','public.ml_match_waiting(uuid)','EXECUTE') then raise exception 'anon can execute';end if;
+end $test$;
+rollback;
+select 'PASS: rule preview before answers/jokers, full eight-second timer after preview, shared waiting counts without guesses, reveal cleanup and membership protection. Fixtures rolled back.' as verification;
