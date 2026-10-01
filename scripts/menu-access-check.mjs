@@ -19,6 +19,11 @@ function source(name){
 const home=html.slice(html.indexOf('<div id="homeScreen"'),html.indexOf('<div id="worldMenu"'));
 assert.equal((home.match(/class="worldCard"/g)||[]).length,4);
 assert(!home.includes('friendsAccess'),'online disclosures do not add choices to the home menu');
+assert.equal((home.match(/onclick="openDaily\(\)"/g)||[]).length,1,'one entry opens daily challenges');
+assert.equal((home.match(/class="homeTileCopy"/g)||[]).length,4,'every game has native visible labels');
+assert(home.includes('Tages-Challenges'));
+assert(!home.includes('homeDailyLink'));
+assert(!home.includes('homeAccessibleText'),'labels are visible, not only inside the picture');
 assert.equal((html.match(/<details class="friendsAccess"/g)||[]).length,3);
 
 const nodes=new Map();
