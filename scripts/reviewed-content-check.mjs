@@ -16,12 +16,12 @@ assert.equal(vm.runInContext("questionSubject('Wie viele Tasten hat ein Standard
 assert.equal(vm.runInContext("questionSubject('Wie viele Felder hat ein Schachbrett?')",test),'Felder Schachbrett');
 
 
-assert.equal(pack.moreless.length,266);assert.equal(pack.estimate.length,84);
-for(const q of pack.estimate){assert(pack.images[q.subject]);assert(q.source.startsWith('https://'));assert(q.verified==='2026-10-01');assert(!/Tragzeit/.test(q.q));}
-for(const [cat,count] of Object.entries({'Länder':3,'Städte':3,'Natur':14,'Sport':14,'Bauwerke':3,'Tierwelt':3,'Weltraum':67,'Wissenschaft':105,'Allgemeinwissen':3,'Rekorde & Extreme':3,'Raumfahrt':15,'Weltkultur':6}))assert.equal(groups[cat].length,count);
+assert.equal(pack.moreless.length,556);assert.equal(pack.estimate.length,128);
+for(const q of pack.estimate){assert(pack.images[q.subject]);assert(q.source.startsWith('https://'));assert(['2026-10-01','2026-10-03'].includes(q.verified));assert(!/Tragzeit/.test(q.q));}
+for(const [cat,count] of Object.entries({'Länder':3,'Städte':3,'Natur':54,'Sport':14,'Bauwerke':3,'Tierwelt':3,'Weltraum':151,'Wissenschaft':210,'Allgemeinwissen':3,'Rekorde & Extreme':3,'Raumfahrt':55,'Weltkultur':27}))assert.equal(groups[cat].length,count);
 for(const unit of ['Jahr · Geburtsjahr','Jahr · Gründungsjahr','Jahr · Startjahr','Jahr · Erstes UNESCO-Welterbe-Einschreibungsjahr','Jahr · Jahr der offiziellen Eröffnung'])assert.match(test.moreLessPrompt('A','B',unit),/später/);
 assert.match(test.moreLessPrompt('A','B','Monate ungefähr · Tragzeit als grober Richtwert'),/grober Richtwert/);
-console.log('OK: 250 research comparisons, 84 sourced estimates, every subject illustrated, year semantics correct');
+console.log('OK: 540 net new research comparisons, 128 sourced estimates, every subject illustrated, year semantics correct');
 
 const temperatures=pack.moreless.filter(q=>/temperatur/i.test(q.metric));assert.equal(temperatures.length,12);assert(temperatures.every(q=>q.lv<0&&q.rv<0||q.metric==='Mittlere Oberflächentemperatur'));
 assert(!pack.moreless.some(q=>[q.l,q.r].includes('Erde')&&[q.l,q.r].includes('Venus')&&q.metric==='Umlaufdauer um die Sonne'));

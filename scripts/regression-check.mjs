@@ -94,3 +94,5 @@ await import('./category-ux-check.mjs');
 
 
 await import('./trivia-content-check.mjs');
+
+await import('./expansion-4-check.mjs');
