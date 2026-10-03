@@ -91,3 +91,6 @@ const gameClarity=spawnSync(process.execPath,["scripts/game-clarity-client-check
 
 await import('./mode-info-check.mjs');
 await import('./category-ux-check.mjs');
+
+
+await import('./trivia-content-check.mjs');

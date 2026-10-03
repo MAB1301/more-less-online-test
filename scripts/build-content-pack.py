@@ -27,7 +27,7 @@ def crop(source, target, size, focus):
         )
 
 
-def build(catalogue, output, images_dir=OUT):
+def build(catalogue, output, images_dir=OUT, trivia=None):
     records = json.loads(catalogue.read_text(encoding="utf-8"))
     if not isinstance(records, list):
         raise ValueError("Catalogue must be a JSON array")
@@ -97,6 +97,30 @@ def build(catalogue, output, images_dir=OUT):
             right, rv, rs, rd, rx = b
             if lv != rv and right not in lx and left not in rx:
                 pack["moreless"].append({"l": left, "r": right, "lv": lv, "rv": rv, "u": comparison_unit, "cat": cat, "metric": metric, "sub": metric, "source": ls, "sources": [ls, rs], "verified": ld if ld == rd else None})
+    if trivia is not None:
+        curated = json.loads(trivia.read_text(encoding="utf-8"))
+        if curated.get("status") == "approved":
+            for kind, prompt in (("facts", "s"), ("jeopardy", "q")):
+                seen = {item[prompt].strip().casefold() for item in pack[kind]}
+                for item in curated.get(kind, []):
+                    for field in (prompt, "cat", "source", "verified"):
+                        if not isinstance(item.get(field), str) or not item[field].strip():
+                            raise ValueError(f"Missing trivia field: {kind}/{field}")
+                    key = item[prompt].strip().casefold()
+                    if key in seen or len(item[prompt]) > 500:
+                        raise ValueError(f"Duplicate or oversized trivia prompt: {key}")
+                    seen.add(key)
+                    sources = item.get("sources", [item["source"]])
+                    if not sources or not all(isinstance(url, str) and url.startswith("https://") for url in sources) or not item["source"].startswith("https://"):
+                        raise ValueError("HTTPS trivia sources required")
+                    if item.get("subject") and item["subject"] not in pack["images"]:
+                        raise ValueError(f"Unresolved trivia visual: {item['subject']}")
+                    if kind == "facts":
+                        if not isinstance(item.get("a"), bool) or not item.get("e") or item.get("difficulty") not in ("easy", "medium", "hard"):
+                            raise ValueError("Fact/Fake requires a boolean answer, explanation and level")
+                    elif not isinstance(item.get("a"), str) or not item["a"].strip() or type(item.get("difficulty")) is not int or not 1 <= item["difficulty"] <= 5:
+                        raise ValueError("Jeopardy requires an answer and level 1–5")
+                    pack[kind].append({**item, "sources": sources})
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text("window.GAME_CONTENT_PACK=" + json.dumps(pack, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
     print(f"{len(pack['images'])} images, {len(pack['moreless'])} comparisons, {len(pack['estimate'])} estimates, {len(pack['facts'])} facts, {len(pack['jeopardy'])} Jeopardy clues")
@@ -106,5 +130,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("catalogue", type=Path)
     parser.add_argument("--output", type=Path, default=ROOT / "content/approved.js")
+    parser.add_argument("--trivia", type=Path, default=ROOT / "content/trivia.json")
     args = parser.parse_args()
-    build(args.catalogue.resolve(), args.output.resolve())
+    build(args.catalogue.resolve(), args.output.resolve(), trivia=args.trivia.resolve() if args.trivia.is_file() else None)
