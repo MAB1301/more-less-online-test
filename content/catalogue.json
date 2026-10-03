@@ -158,6 +158,17 @@
         "source": "https://newsroom.porsche.com/en/2024/products/porsche-the-new-911-gt3-double-premiere-37595.html",
         "category": "Autos",
         "verified": "2026-10-01"
+      },
+      {
+        "category": "Autos",
+        "metric": "Zylinderzahl des Verbrennungsmotors",
+        "value": 6,
+        "unit": "Zylinder",
+        "comparison_unit": "Zylinder",
+        "source": "https://newsroom.porsche.com/en/2024/products/porsche-the-new-911-gt3-double-premiere-37595.html",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Zylinder hat der Verbrennungsmotor des Porsche 911 GT3 (PDK, 2025)?",
+        "notes": ""
       }
     ]
   },
@@ -192,6 +203,18 @@
         "source": "https://www.ferrari.com/en-EN/auto/296-gtb",
         "category": "Autos",
         "verified": "2026-10-01"
+      },
+      {
+        "category": "Autos",
+        "metric": "Zylinderzahl des Verbrennungsmotors",
+        "unit": "Zylinder",
+        "comparison_unit": "Zylinder",
+        "sub": "Zylinderzahl",
+        "value": 6,
+        "source": "https://www.ferrari.com/content/dam/ferrari-fcom/old/pdf/CS_296_GTB_final_gbr.pdf",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Zylinder hat der Verbrennungsmotor des Ferrari 296 GTB?",
+        "notes": "Elektromotoren nicht mitzählen."
       }
     ]
   },
@@ -226,6 +249,18 @@
         "source": "https://www.ferrari.com/en-EN/auto/sf90-stradale",
         "category": "Autos",
         "verified": "2026-10-01"
+      },
+      {
+        "category": "Autos",
+        "metric": "Zylinderzahl des Verbrennungsmotors",
+        "unit": "Zylinder",
+        "comparison_unit": "Zylinder",
+        "sub": "Zylinderzahl",
+        "value": 8,
+        "source": "https://cdn.ferrari.com/cms/network/media/pdf/pr_ferrari_sf90_stradale_gbr.pdf",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Zylinder hat der Verbrennungsmotor des Ferrari SF90 Stradale?",
+        "notes": "Elektromotoren nicht mitzählen."
       }
     ]
   },
@@ -260,6 +295,18 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kylian-mbappe/231747",
         "category": "Fußballer",
         "verified": "2026-10-01"
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Geburtsjahr",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Geburtsjahr",
+        "sub": "Geburtsjahre",
+        "value": 1998,
+        "source": "https://www.realmadrid.com/de-DE/fussball/erste-mannshaft/spieler/kylian-mbappe",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde Kylian Mbappé geboren?",
+        "notes": ""
       }
     ]
   },
@@ -294,6 +341,17 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mohamed-salah/209331",
         "category": "Fußballer",
         "verified": "2026-10-01"
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Geburtsjahr",
+        "value": 1992,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Geburtsjahr",
+        "source": "https://www.liverpoolfc.com/news/first-team/283441-mohamed-salah-in-the-beginning",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde Mohamed Salah geboren?",
+        "notes": ""
       }
     ]
   },
@@ -328,6 +386,18 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/erling-haaland/239085",
         "category": "Fußballer",
         "verified": "2026-10-01"
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Geburtsjahr",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Geburtsjahr",
+        "sub": "Geburtsjahre",
+        "value": 2000,
+        "source": "https://live.mancity.com/news/mens/erling-haaland-10-things-factfile-63790703",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde Erling Haaland geboren?",
+        "notes": ""
       }
     ]
   },
@@ -362,6 +432,2679 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jude-bellingham/252371",
         "category": "Fußballer",
         "verified": "2026-10-01"
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Geburtsjahr",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Geburtsjahr",
+        "sub": "Geburtsjahre",
+        "value": 2003,
+        "source": "https://www.realmadrid.com/de-DE/fussball/erste-mannshaft/spieler/jude-bellingham",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde Jude Bellingham geboren?",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "austria-area",
+    "name": "Österreich",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Länder",
+        "metric": "Staatsfläche",
+        "unit": "km²",
+        "comparison_unit": "km²",
+        "sub": "Fläche",
+        "value": 83884,
+        "source": "https://www.statistik.at/fileadmin/publications/OZDF-DE-25-26.pdf",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie groß ist Österreich laut Statistik Austria 2025/26 in Quadratkilometern?",
+        "notes": "Gerundeter Veröffentlichungswert, nicht der ältere Wert 83.879."
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "research/at.svg",
+      "detail": "research/at.svg"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "image": "../assets/visuals/research/at.svg"
+  },
+  {
+    "id": "switzerland-area",
+    "name": "Schweiz",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Länder",
+        "metric": "Staatsfläche",
+        "unit": "km²",
+        "comparison_unit": "km²",
+        "sub": "Fläche",
+        "value": 41285,
+        "source": "https://www.aboutswitzerland.eda.admin.ch/de/geografie",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie groß ist die Schweiz ungefähr in Quadratkilometern?",
+        "notes": "Gesamtes Staatsgebiet, einschließlich Binnengewässer."
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "research/ch.svg",
+      "detail": "research/ch.svg"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "image": "../assets/visuals/research/ch.svg"
+  },
+  {
+    "id": "belgium-area",
+    "name": "Belgien",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Länder",
+        "metric": "Staatsfläche",
+        "unit": "km²",
+        "comparison_unit": "km²",
+        "sub": "Fläche",
+        "value": 30689,
+        "source": "https://statbel.fgov.be/en/quiz",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie groß ist Belgien laut Statbel in Quadratkilometern?",
+        "notes": "Staatsfläche; unterschiedliche Vermessungsstände sind bei engen Vergleichen zu beachten."
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "research/be.svg",
+      "detail": "research/be.svg"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "image": "../assets/visuals/research/be.svg"
+  },
+  {
+    "id": "berlin-districts",
+    "name": "Berlin",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Städte",
+        "metric": "Verwaltungsbezirke",
+        "unit": "Bezirke",
+        "comparison_unit": "Bezirke",
+        "sub": "Verwaltungsbezirke",
+        "value": 12,
+        "source": "https://willkommenszentrum.berlin.de/glossary/bezirk",
+        "verified": "2026-10-01",
+        "estimate_question": "In wie viele Verwaltungsbezirke ist Berlin gegliedert?",
+        "notes": ""
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "berlin.webp",
+      "detail": "berlin.webp"
+    },
+    "image_source": "https://commons.wikimedia.org/wiki/File:Berlin_skyline.jpg",
+    "image_license": "Existing image; original author and license in assets/visuals/credits.html",
+    "image": "../assets/visuals/berlin.webp"
+  },
+  {
+    "id": "hamburg-districts",
+    "name": "Hamburg",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Städte",
+        "metric": "Verwaltungsbezirke",
+        "unit": "Bezirke",
+        "comparison_unit": "Bezirke",
+        "sub": "Verwaltungsbezirke",
+        "value": 7,
+        "source": "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/themen/bezirke-und-bezirksverwaltung",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Verwaltungsbezirke hat Hamburg?",
+        "notes": ""
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "hamburg.webp",
+      "detail": "hamburg.webp"
+    },
+    "image_source": "https://commons.wikimedia.org/wiki/File:Hamburg_city_skyline.jpg",
+    "image_license": "Existing image; original author and license in assets/visuals/credits.html",
+    "image": "../assets/visuals/hamburg.webp"
+  },
+  {
+    "id": "vienna-districts",
+    "name": "Wien",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Städte",
+        "metric": "Verwaltungsbezirke",
+        "unit": "Bezirke",
+        "comparison_unit": "Bezirke",
+        "sub": "Verwaltungsbezirke",
+        "value": 23,
+        "source": "https://www.wien.gv.at/statistik/bezirksdaten",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Gemeindebezirke hat Wien?",
+        "notes": "Verglichen wird ausschließlich die Anzahl; die Bezirke haben nicht dieselben Kompetenzen."
+      }
+    ],
+    "generated": true,
+    "variants": {
+      "card": "research/vienna-districts-card.webp",
+      "detail": "research/vienna-districts-detail.webp"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "AI-generated illustration",
+    "image": "../assets/visuals/research/vienna-districts-card.webp"
+  },
+  {
+    "id": "yellowstone-founded",
+    "name": "Yellowstone-Nationalpark",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Natur",
+        "metric": "Gründungsjahr als Nationalpark",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Gründungsjahr als Nationalpark",
+        "sub": "Nationalparks",
+        "value": 1872,
+        "source": "https://www.nps.gov/yell/planyourvisit/parkfacts.htm",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde Yellowstone als Nationalpark gegründet?",
+        "notes": ""
+      }
+    ],
+    "generated": true,
+    "variants": {
+      "card": "research/yellowstone-founded-card.webp",
+      "detail": "research/yellowstone-founded-detail.webp"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "AI-generated illustration",
+    "image": "../assets/visuals/research/yellowstone-founded-card.webp"
+  },
+  {
+    "id": "yosemite-founded",
+    "name": "Yosemite-Nationalpark",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Natur",
+        "metric": "Gründungsjahr als Nationalpark",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Gründungsjahr als Nationalpark",
+        "sub": "Nationalparks",
+        "value": 1890,
+        "source": "https://www.nps.gov/yose/learn/news/yosemite-national-park-commemorates-124th-anniversary.htm",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde Yosemite zum Nationalpark erklärt?",
+        "notes": "Nationalpark 1890; Yosemite Grant von 1864 ist eine andere Schutzentscheidung."
+      }
+    ],
+    "generated": true,
+    "variants": {
+      "card": "research/yosemite-founded-card.webp",
+      "detail": "research/yosemite-founded-detail.webp"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "AI-generated illustration",
+    "image": "../assets/visuals/research/yosemite-founded-card.webp"
+  },
+  {
+    "id": "grand-canyon-founded",
+    "name": "Grand-Canyon-Nationalpark",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Natur",
+        "metric": "Gründungsjahr als Nationalpark",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Gründungsjahr als Nationalpark",
+        "sub": "Nationalparks",
+        "value": 1919,
+        "source": "https://www.nps.gov/grca/learn/historyculture/thenandnow.htm",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde der Grand Canyon zum Nationalpark erklärt?",
+        "notes": "National Monument 1908 und Nationalpark 1919 unterscheiden."
+      }
+    ],
+    "generated": true,
+    "variants": {
+      "card": "research/grand-canyon-founded-card.webp",
+      "detail": "research/grand-canyon-founded-detail.webp"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "AI-generated illustration",
+    "image": "../assets/visuals/research/grand-canyon-founded-card.webp"
+  },
+  {
+    "id": "football-players",
+    "name": "Fußball",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Sport",
+        "metric": "Reguläre Spielerzahl je Team auf dem Feld",
+        "unit": "Spieler",
+        "comparison_unit": "Spieler",
+        "sub": "Teamgrößen",
+        "value": 11,
+        "source": "https://theifab.com/laws/latest/the-players/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Spieler hat eine vollständige Fußballmannschaft gleichzeitig auf dem Feld, einschließlich Torwart?",
+        "notes": ""
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "research/football.svg",
+      "detail": "research/football.svg"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "image": "../assets/visuals/research/football.svg"
+  },
+  {
+    "id": "basketball-players",
+    "name": "Basketball",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Sport",
+        "metric": "Reguläre Spielerzahl je Team auf dem Feld",
+        "unit": "Spieler",
+        "comparison_unit": "Spieler",
+        "sub": "Teamgrößen",
+        "value": 5,
+        "source": "https://about.fiba.basketball/en/our-sport/basketball",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Spieler eines Teams stehen beim klassischen Basketball gleichzeitig auf dem Feld?",
+        "notes": ""
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "research/basketball.svg",
+      "detail": "research/basketball.svg"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "image": "../assets/visuals/research/basketball.svg"
+  },
+  {
+    "id": "volleyball-players",
+    "name": "Hallenvolleyball",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Sport",
+        "metric": "Reguläre Spielerzahl je Team auf dem Feld",
+        "unit": "Spieler",
+        "comparison_unit": "Spieler",
+        "sub": "Teamgrößen",
+        "value": 6,
+        "source": "https://www.fivb.com/volleyball/the-game/basic-rules/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Spieler eines Teams stehen beim Hallenvolleyball gleichzeitig auf dem Feld?",
+        "notes": "Keine Ersatzspieler, Beachvolleyball oder 3×3 mitzählen."
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "research/volleyball.svg",
+      "detail": "research/volleyball.svg"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "image": "../assets/visuals/research/volleyball.svg"
+  },
+  {
+    "id": "eiffel-opened",
+    "name": "Eiffelturm",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Bauwerke",
+        "metric": "Jahr der offiziellen Eröffnung",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Jahr der offiziellen Eröffnung",
+        "sub": "Eröffnungsjahre",
+        "value": 1889,
+        "source": "https://www.toureiffel.paris/en/news/history-and-culture/why-does-eiffel-tower-change-size",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde der Eiffelturm eingeweiht?",
+        "notes": ""
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "eiffelturm.webp",
+      "detail": "eiffelturm.webp"
+    },
+    "image_source": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_in_2022_02.jpg",
+    "image_license": "Existing image; original author and license in assets/visuals/credits.html",
+    "image": "../assets/visuals/eiffelturm.webp"
+  },
+  {
+    "id": "esb-opened",
+    "name": "Empire State Building",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Bauwerke",
+        "metric": "Jahr der offiziellen Eröffnung",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Jahr der offiziellen Eröffnung",
+        "sub": "Eröffnungsjahre",
+        "value": 1931,
+        "source": "https://www.esbnyc.com/about/history",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde das Empire State Building eröffnet?",
+        "notes": ""
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "empire-state-building.webp",
+      "detail": "empire-state-building.webp"
+    },
+    "image_source": "https://commons.wikimedia.org/wiki/File:Empire_State_Building_by_David_Shankbone.jpg",
+    "image_license": "Existing image; original author and license in assets/visuals/credits.html",
+    "image": "../assets/visuals/empire-state-building.webp"
+  },
+  {
+    "id": "burj-opened",
+    "name": "Burj Khalifa",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Bauwerke",
+        "metric": "Jahr der offiziellen Eröffnung",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Jahr der offiziellen Eröffnung",
+        "sub": "Eröffnungsjahre",
+        "value": 2010,
+        "source": "https://www.emaar.com/en/other-emaar-businesses/burj-khalifa",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde der Burj Khalifa offiziell eröffnet?",
+        "notes": ""
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "burj-khalifa.webp",
+      "detail": "burj-khalifa.webp"
+    },
+    "image_source": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_Dubai%2C_UAE_at_Sunset_001_by_Eric_Chamchoum.jpg",
+    "image_license": "Existing image; original author and license in assets/visuals/credits.html",
+    "image": "../assets/visuals/burj-khalifa.webp"
+  },
+  {
+    "id": "elephant-gestation",
+    "name": "Elefant",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Tierwelt",
+        "metric": "Tragzeit als grober Spielrichtwert",
+        "unit": "Monate ungefähr",
+        "comparison_unit": "Monate ungefähr · Tragzeit als grober Richtwert",
+        "sub": "Fortpflanzung",
+        "value": 21,
+        "source": "https://animals.sandiegozoo.org/animals/elephant",
+        "verified": "2026-10-01",
+        "notes": "Quelle: 20–22 Monate. 21 ist der berechnete Mittelpunkt, keine behauptete exakte oder empirische Durchschnittsmessung. Für Schätzspiel eine Toleranz von mindestens ±1 Monat verwenden."
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "afrikanischer-elefant.webp",
+      "detail": "afrikanischer-elefant.webp"
+    },
+    "image_source": "https://commons.wikimedia.org/wiki/File:African_Bush_Elephant.jpg",
+    "image_license": "Existing image; original author and license in assets/visuals/credits.html",
+    "image": "../assets/visuals/afrikanischer-elefant.webp"
+  },
+  {
+    "id": "giraffe-gestation",
+    "name": "Giraffe",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Tierwelt",
+        "metric": "Tragzeit als grober Spielrichtwert",
+        "unit": "Monate ungefähr",
+        "comparison_unit": "Monate ungefähr · Tragzeit als grober Richtwert",
+        "sub": "Fortpflanzung",
+        "value": 14,
+        "source": "https://animals.sandiegozoo.org/animals/giraffe",
+        "verified": "2026-10-01",
+        "notes": "Veröffentlichter Richtwert 14 Monate; keine individuelle exakte Dauer."
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "giraffe.webp",
+      "detail": "giraffe.webp"
+    },
+    "image_source": "https://commons.wikimedia.org/wiki/File:Giraffe_standing.jpg",
+    "image_license": "Existing image; original author and license in assets/visuals/credits.html",
+    "image": "../assets/visuals/giraffe.webp"
+  },
+  {
+    "id": "lion-gestation",
+    "name": "Löwe",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Tierwelt",
+        "metric": "Tragzeit als grober Spielrichtwert",
+        "unit": "Monate ungefähr",
+        "comparison_unit": "Monate ungefähr · Tragzeit als grober Richtwert",
+        "sub": "Fortpflanzung",
+        "value": 4,
+        "source": "https://animals.sandiegozoo.org/animals/lion",
+        "verified": "2026-10-01",
+        "notes": "Quelle: fast vier Monate. Als Spielrichtwert auf vier gerundet; nicht exakt vier."
+      }
+    ],
+    "generated": true,
+    "variants": {
+      "card": "research/lion-gestation-card.webp",
+      "detail": "research/lion-gestation-detail.webp"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "AI-generated illustration",
+    "image": "../assets/visuals/research/lion-gestation-card.webp"
+  },
+  {
+    "id": "12cilindri-cylinders",
+    "name": "Ferrari 12Cilindri",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Autos",
+        "metric": "Zylinderzahl des Verbrennungsmotors",
+        "unit": "Zylinder",
+        "comparison_unit": "Zylinder",
+        "sub": "Zylinderzahl",
+        "value": 12,
+        "source": "https://www.ferrari.com/content/dam/ferrari-fcom/news/corporate/2026/01/pdf/CS_12Cilindri_Tailor_Made_gbr.pdf",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Zylinder hat der Motor des Ferrari 12Cilindri?",
+        "notes": ""
+      }
+    ],
+    "generated": true,
+    "variants": {
+      "card": "research/12cilindri-cylinders-card.webp",
+      "detail": "research/12cilindri-cylinders-detail.webp"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "AI-generated illustration",
+    "image": "../assets/visuals/research/12cilindri-cylinders-card.webp"
+  },
+  {
+    "id": "mercury-orbit",
+    "name": "Merkur",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Weltraum",
+        "metric": "Umlaufdauer um die Sonne",
+        "unit": "Erdtage",
+        "comparison_unit": "Erdtage",
+        "sub": "Rotation & Umlauf",
+        "value": 88,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Erdtage dauert ein Umlauf des Merkur um die Sonne ungefähr?",
+        "notes": "NASA-Tabellenstand 18.03.2025."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Sonnenentfernung (große Halbachse)",
+        "value": 57.9,
+        "unit": "Millionen km",
+        "comparison_unit": "Millionen km · mittlere Sonnenentfernung",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie groß ist die mittlere Entfernung von Merkur zur Sonne ungefähr, in Millionen Kilometern?",
+        "notes": "NASA-Tabelle Stand 18.03.2025; große Halbachse, keine momentane Entfernung. Werte nicht aus älteren Tabellenversionen mischen."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Oberflächentemperatur",
+        "value": 167,
+        "unit": "°C",
+        "comparison_unit": "°C · Mittlere Oberflächentemperatur ungefähr",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Welchen ungefähren Wert nennt die NASA für die mittlere oberflächentemperatur von Merkur in Grad Celsius?",
+        "notes": "NASA-Tabelle Stand 18.03.2025. Oberflächenwerte und Atmosphärenwerte bei 1 bar bilden getrennte Vergleichsgruppen; keine lokalen Tageshöchstwerte."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Planetendichte",
+        "value": 5429,
+        "unit": "kg/m³",
+        "comparison_unit": "kg/m³ · mittlere Planetendichte",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche mittlere Dichte hat Merkur laut NASA ungefähr, in Kilogramm pro Kubikmeter?",
+        "notes": "Mittlere Dichte des gesamten Planeten, keine lokale Materialdichte."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Fluchtgeschwindigkeit",
+        "value": 4.3,
+        "unit": "km/s",
+        "comparison_unit": "km/s · Fluchtgeschwindigkeit",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche Fluchtgeschwindigkeit nennt die NASA für Merkur ungefähr, in Kilometern pro Sekunde?",
+        "notes": "Tabellenwert ohne Atmosphärenwiderstand; bei Gasplaneten am 1-bar-Niveau. Keine reale Raketen-Startgeschwindigkeit."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Bahngeschwindigkeit um die Sonne",
+        "value": 47.4,
+        "unit": "km/s",
+        "comparison_unit": "km/s · mittlere Bahngeschwindigkeit um die Sonne",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Mit welcher mittleren Geschwindigkeit bewegt sich Merkur laut NASA um die Sonne, in Kilometern pro Sekunde?",
+        "notes": "Gemittelte heliozentrische Bahngeschwindigkeit, keine momentane Geschwindigkeit oder Rotation."
+      }
+    ],
+    "generated": true,
+    "variants": {
+      "card": "research/mercury-orbit-card.webp",
+      "detail": "research/mercury-orbit-detail.webp"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "AI-generated illustration",
+    "image": "../assets/visuals/research/mercury-orbit-card.webp"
+  },
+  {
+    "id": "venus-orbit",
+    "name": "Venus",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Weltraum",
+        "metric": "Umlaufdauer um die Sonne",
+        "unit": "Erdtage",
+        "comparison_unit": "Erdtage",
+        "sub": "Rotation & Umlauf",
+        "value": 224.7,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Erdtage dauert ein Umlauf der Venus um die Sonne ungefähr?",
+        "notes": "Umlaufdauer, nicht Rotation oder Sonnentag."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Sonnenentfernung (große Halbachse)",
+        "value": 108.2,
+        "unit": "Millionen km",
+        "comparison_unit": "Millionen km · mittlere Sonnenentfernung",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie groß ist die mittlere Entfernung von Venus zur Sonne ungefähr, in Millionen Kilometern?",
+        "notes": "NASA-Tabelle Stand 18.03.2025; große Halbachse, keine momentane Entfernung. Werte nicht aus älteren Tabellenversionen mischen."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Oberflächentemperatur",
+        "value": 464,
+        "unit": "°C",
+        "comparison_unit": "°C · Mittlere Oberflächentemperatur ungefähr",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Welchen ungefähren Wert nennt die NASA für die mittlere oberflächentemperatur von Venus in Grad Celsius?",
+        "notes": "NASA-Tabelle Stand 18.03.2025. Oberflächenwerte und Atmosphärenwerte bei 1 bar bilden getrennte Vergleichsgruppen; keine lokalen Tageshöchstwerte."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Planetendichte",
+        "value": 5243,
+        "unit": "kg/m³",
+        "comparison_unit": "kg/m³ · mittlere Planetendichte",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche mittlere Dichte hat Venus laut NASA ungefähr, in Kilogramm pro Kubikmeter?",
+        "notes": "Mittlere Dichte des gesamten Planeten, keine lokale Materialdichte."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Fluchtgeschwindigkeit",
+        "value": 10.4,
+        "unit": "km/s",
+        "comparison_unit": "km/s · Fluchtgeschwindigkeit",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche Fluchtgeschwindigkeit nennt die NASA für Venus ungefähr, in Kilometern pro Sekunde?",
+        "notes": "Tabellenwert ohne Atmosphärenwiderstand; bei Gasplaneten am 1-bar-Niveau. Keine reale Raketen-Startgeschwindigkeit."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Bahngeschwindigkeit um die Sonne",
+        "value": 35.0,
+        "unit": "km/s",
+        "comparison_unit": "km/s · mittlere Bahngeschwindigkeit um die Sonne",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Mit welcher mittleren Geschwindigkeit bewegt sich Venus laut NASA um die Sonne, in Kilometern pro Sekunde?",
+        "notes": "Gemittelte heliozentrische Bahngeschwindigkeit, keine momentane Geschwindigkeit oder Rotation."
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "venus.webp",
+      "detail": "venus.webp"
+    },
+    "image_source": "https://commons.wikimedia.org/wiki/File:Venus-real_color.jpg",
+    "image_license": "Existing image; original author and license in assets/visuals/credits.html",
+    "image": "../assets/visuals/venus.webp"
+  },
+  {
+    "id": "mars-orbit",
+    "name": "Mars",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Weltraum",
+        "metric": "Umlaufdauer um die Sonne",
+        "unit": "Erdtage",
+        "comparison_unit": "Erdtage",
+        "sub": "Rotation & Umlauf",
+        "value": 687,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Erdtage dauert ein Umlauf des Mars um die Sonne ungefähr?",
+        "notes": ""
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Sonnenentfernung (große Halbachse)",
+        "value": 228.0,
+        "unit": "Millionen km",
+        "comparison_unit": "Millionen km · mittlere Sonnenentfernung",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie groß ist die mittlere Entfernung von Mars zur Sonne ungefähr, in Millionen Kilometern?",
+        "notes": "NASA-Tabelle Stand 18.03.2025; große Halbachse, keine momentane Entfernung. Werte nicht aus älteren Tabellenversionen mischen."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Oberflächentemperatur",
+        "value": -65,
+        "unit": "°C",
+        "comparison_unit": "°C · Mittlere Oberflächentemperatur ungefähr",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Welchen ungefähren Wert nennt die NASA für die mittlere oberflächentemperatur von Mars in Grad Celsius?",
+        "notes": "NASA-Tabelle Stand 18.03.2025. Oberflächenwerte und Atmosphärenwerte bei 1 bar bilden getrennte Vergleichsgruppen; keine lokalen Tageshöchstwerte."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Planetendichte",
+        "value": 3934,
+        "unit": "kg/m³",
+        "comparison_unit": "kg/m³ · mittlere Planetendichte",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche mittlere Dichte hat Mars laut NASA ungefähr, in Kilogramm pro Kubikmeter?",
+        "notes": "Mittlere Dichte des gesamten Planeten, keine lokale Materialdichte."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Fluchtgeschwindigkeit",
+        "value": 5.0,
+        "unit": "km/s",
+        "comparison_unit": "km/s · Fluchtgeschwindigkeit",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche Fluchtgeschwindigkeit nennt die NASA für Mars ungefähr, in Kilometern pro Sekunde?",
+        "notes": "Tabellenwert ohne Atmosphärenwiderstand; bei Gasplaneten am 1-bar-Niveau. Keine reale Raketen-Startgeschwindigkeit."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Bahngeschwindigkeit um die Sonne",
+        "value": 24.1,
+        "unit": "km/s",
+        "comparison_unit": "km/s · mittlere Bahngeschwindigkeit um die Sonne",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Mit welcher mittleren Geschwindigkeit bewegt sich Mars laut NASA um die Sonne, in Kilometern pro Sekunde?",
+        "notes": "Gemittelte heliozentrische Bahngeschwindigkeit, keine momentane Geschwindigkeit oder Rotation."
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "mars.webp",
+      "detail": "mars.webp"
+    },
+    "image_source": "https://commons.wikimedia.org/wiki/File:OSIRIS_Mars_true_color.jpg",
+    "image_license": "Existing image; original author and license in assets/visuals/credits.html",
+    "image": "../assets/visuals/mars.webp"
+  },
+  {
+    "id": "carbon-number",
+    "name": "Kohlenstoff",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "sub": "Chemie",
+        "value": 6,
+        "source": "https://periodic-table.rsc.org/element/6/Carbon",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Protonen enthält der Atomkern von Kohlenstoff?",
+        "notes": ""
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "research/carbon.svg",
+      "detail": "research/carbon.svg"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "image": "../assets/visuals/research/carbon.svg"
+  },
+  {
+    "id": "oxygen-number",
+    "name": "Sauerstoff",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "sub": "Chemie",
+        "value": 8,
+        "source": "https://periodic-table.rsc.org/element/8/Oxygen",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Protonen enthält der Atomkern von Sauerstoff?",
+        "notes": ""
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "research/oxygen.svg",
+      "detail": "research/oxygen.svg"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "image": "../assets/visuals/research/oxygen.svg"
+  },
+  {
+    "id": "iron-number",
+    "name": "Eisen",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "sub": "Chemie",
+        "value": 26,
+        "source": "https://periodic-table.rsc.org/element/26/iron",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Protonen enthält der Atomkern von Eisen?",
+        "notes": ""
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "research/iron.svg",
+      "detail": "research/iron.svg"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "image": "../assets/visuals/research/iron.svg"
+  },
+  {
+    "id": "poker-cards",
+    "name": "Standard-Kartendeck ohne Joker",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Karten im vollständigen Grunddeck",
+        "unit": "Karten",
+        "comparison_unit": "Karten",
+        "sub": "Kartenspiele",
+        "value": 52,
+        "source": "https://de.bicyclecards.com/game-rules/spades/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Karten enthält ein Standard-Kartendeck ohne Joker?",
+        "notes": "Bereits bekanntes Motiv als Vergleichspartner für die neuen Decks. Kein neu entdeckter Fakt."
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "karten-pokerblatt.webp",
+      "detail": "karten-pokerblatt.webp"
+    },
+    "image_source": "https://commons.wikimedia.org/wiki/File:Cards_-Deck_Playing.jpg",
+    "image_license": "Existing image; original author and license in assets/visuals/credits.html",
+    "image": "../assets/visuals/karten-pokerblatt.webp"
+  },
+  {
+    "id": "set-cards",
+    "name": "SET (Grundspiel)",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Karten im vollständigen Grunddeck",
+        "unit": "Karten",
+        "comparison_unit": "Karten",
+        "sub": "Kartenspiele",
+        "value": 81,
+        "source": "https://www.setgame.com/sites/default/files/set_catalogsmall.pdf",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Karten enthält das SET-Grundspiel?",
+        "notes": ""
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "research/set.svg",
+      "detail": "research/set.svg"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "image": "../assets/visuals/research/set.svg"
+  },
+  {
+    "id": "uno-cards",
+    "name": "UNO (Ausgabe W2085)",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Karten im vollständigen Grunddeck",
+        "unit": "Karten",
+        "comparison_unit": "Karten",
+        "sub": "Kartenspiele",
+        "value": 108,
+        "source": "https://service.mattel.com/us/productPopup.aspx?prodno=W2085&siteid=27",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Karten enthält die klassische UNO-Ausgabe W2085?",
+        "notes": "Ausgabe explizit genannt, weil andere UNO-Ausgaben mehr Karten enthalten."
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "research/uno.svg",
+      "detail": "research/uno.svg"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "image": "../assets/visuals/research/uno.svg"
+  },
+  {
+    "id": "400m-record",
+    "name": "400-m-Weltrekord Männer",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Rekorde & Extreme",
+        "metric": "Weltrekordzeit Männer im Freien · WA-Veröffentlichung September 2026",
+        "unit": "Sekunden",
+        "comparison_unit": "Sekunden",
+        "sub": "Sportrekorde",
+        "value": 43.03,
+        "source": "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Sekunden beträgt der Männer-Weltrekord über 400 m laut World Athletics im September 2026?",
+        "notes": "Wayde van Niekerk; vorhandener Richtwert als neuer Vergleichspartner."
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "research/400m.svg",
+      "detail": "research/400m.svg"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "image": "../assets/visuals/research/400m.svg"
+  },
+  {
+    "id": "800m-record",
+    "name": "800-m-Weltrekord Männer",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Rekorde & Extreme",
+        "metric": "Weltrekordzeit Männer im Freien · WA-Veröffentlichung September 2026",
+        "unit": "Sekunden",
+        "comparison_unit": "Sekunden",
+        "sub": "Sportrekorde",
+        "value": 100.91,
+        "source": "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Sekunden sind die 1:40,91 min des Männer-Weltrekords über 800 m im WA-Datensatz September 2026?",
+        "notes": "David Rudisha; Minuten in Sekunden umgerechnet."
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "research/800m.svg",
+      "detail": "research/800m.svg"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "image": "../assets/visuals/research/800m.svg"
+  },
+  {
+    "id": "1500m-record",
+    "name": "1500-m-Weltrekord Männer",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Rekorde & Extreme",
+        "metric": "Weltrekordzeit Männer im Freien · WA-Veröffentlichung September 2026",
+        "unit": "Sekunden",
+        "comparison_unit": "Sekunden",
+        "sub": "Sportrekorde",
+        "value": 206,
+        "source": "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Sekunden sind die 3:26,00 min des Männer-Weltrekords über 1500 m im WA-Datensatz September 2026?",
+        "notes": "Hicham El Guerrouj; Minuten in Sekunden umgerechnet. Snapshot, keine dauerhafte Aktualitätszusage."
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "research/1500m.svg",
+      "detail": "research/1500m.svg"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "image": "../assets/visuals/research/1500m.svg"
+  },
+  {
+    "id": "sputnik-launch",
+    "name": "Sputnik 1",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Raumfahrt",
+        "metric": "Startjahr der Mission",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Startjahr der Mission",
+        "sub": "Missionsgeschichte",
+        "value": 1957,
+        "source": "https://science.nasa.gov/mission/hubble/overview/hubble-timeline/hubble-history-timeline-full-text/",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr startete Sputnik 1?",
+        "notes": ""
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "research/sputnik.svg",
+      "detail": "research/sputnik.svg"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "image": "../assets/visuals/research/sputnik.svg"
+  },
+  {
+    "id": "hubble-launch",
+    "name": "Hubble-Weltraumteleskop",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Raumfahrt",
+        "metric": "Startjahr der Mission",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Startjahr der Mission",
+        "sub": "Missionsgeschichte",
+        "value": 1990,
+        "source": "https://www.nasa.gov/history/hubble/",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde das Hubble-Weltraumteleskop gestartet?",
+        "notes": ""
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "research/hubble.svg",
+      "detail": "research/hubble.svg"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "image": "../assets/visuals/research/hubble.svg"
+  },
+  {
+    "id": "webb-launch",
+    "name": "James-Webb-Weltraumteleskop",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Raumfahrt",
+        "metric": "Startjahr der Mission",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Startjahr der Mission",
+        "sub": "Missionsgeschichte",
+        "value": 2021,
+        "source": "https://science.nasa.gov/mission/webb/launch/",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr startete das James-Webb-Weltraumteleskop?",
+        "notes": ""
+      }
+    ],
+    "generated": false,
+    "variants": {
+      "card": "research/webb.svg",
+      "detail": "research/webb.svg"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "image": "../assets/visuals/research/webb.svg"
+  },
+  {
+    "id": "aachen-unesco",
+    "name": "Aachener Dom",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Weltkultur",
+        "metric": "Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "sub": "UNESCO",
+        "value": 1978,
+        "source": "https://whc.unesco.org/en/list/3/",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde der Aachener Dom erstmals UNESCO-Welterbe?",
+        "notes": ""
+      }
+    ],
+    "generated": true,
+    "variants": {
+      "card": "research/aachen-unesco-card.webp",
+      "detail": "research/aachen-unesco-detail.webp"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "AI-generated illustration",
+    "image": "../assets/visuals/research/aachen-unesco-card.webp"
+  },
+  {
+    "id": "taj-unesco",
+    "name": "Taj Mahal",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Weltkultur",
+        "metric": "Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "sub": "UNESCO",
+        "value": 1983,
+        "source": "https://whc.unesco.org/en/list/252/",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde der Taj Mahal UNESCO-Welterbe?",
+        "notes": ""
+      }
+    ],
+    "generated": true,
+    "variants": {
+      "card": "research/taj-unesco-card.webp",
+      "detail": "research/taj-unesco-detail.webp"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "AI-generated illustration",
+    "image": "../assets/visuals/research/taj-unesco-card.webp"
+  },
+  {
+    "id": "sydney-unesco",
+    "name": "Opernhaus Sydney",
+    "status": "approved",
+    "facts": [
+      {
+        "category": "Weltkultur",
+        "metric": "Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "sub": "UNESCO",
+        "value": 2007,
+        "source": "https://whc.unesco.org/en/list/166/",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde das Opernhaus von Sydney UNESCO-Welterbe?",
+        "notes": "Einschreibung 2007, nicht Eröffnung 1973."
+      }
+    ],
+    "generated": true,
+    "variants": {
+      "card": "research/sydney-unesco-card.webp",
+      "detail": "research/sydney-unesco-detail.webp"
+    },
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research/README.md",
+    "image_license": "AI-generated illustration",
+    "image": "../assets/visuals/research/sydney-unesco-card.webp"
+  },
+  {
+    "id": "hydrogen",
+    "name": "Wasserstoff",
+    "status": "approved",
+    "image": "../assets/visuals/research-2/hydrogen.svg",
+    "variants": {
+      "card": "research-2/hydrogen.svg",
+      "detail": "research-2/hydrogen.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-2/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 1,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/1/hydrogen",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Protonen enthält ein Atomkern des Elements Wasserstoff?",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "helium",
+    "name": "Helium",
+    "status": "approved",
+    "image": "../assets/visuals/research-2/helium.svg",
+    "variants": {
+      "card": "research-2/helium.svg",
+      "detail": "research-2/helium.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-2/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 2,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/2/helium",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Protonen enthält ein Atomkern des Elements Helium?",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "nitrogen",
+    "name": "Stickstoff",
+    "status": "approved",
+    "image": "../assets/visuals/research-2/nitrogen.svg",
+    "variants": {
+      "card": "research-2/nitrogen.svg",
+      "detail": "research-2/nitrogen.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-2/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 7,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/7/nitrogen",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Protonen enthält ein Atomkern des Elements Stickstoff?",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "neon",
+    "name": "Neon",
+    "status": "approved",
+    "image": "../assets/visuals/research-2/neon.svg",
+    "variants": {
+      "card": "research-2/neon.svg",
+      "detail": "research-2/neon.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-2/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 10,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/10/neon",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Protonen enthält ein Atomkern des Elements Neon?",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "sodium",
+    "name": "Natrium",
+    "status": "approved",
+    "image": "../assets/visuals/research-2/sodium.svg",
+    "variants": {
+      "card": "research-2/sodium.svg",
+      "detail": "research-2/sodium.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-2/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 11,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/11/sodium",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Protonen enthält ein Atomkern des Elements Natrium?",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "magnesium",
+    "name": "Magnesium",
+    "status": "approved",
+    "image": "../assets/visuals/research-2/magnesium.svg",
+    "variants": {
+      "card": "research-2/magnesium.svg",
+      "detail": "research-2/magnesium.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-2/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 12,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/12/magnesium",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Protonen enthält ein Atomkern des Elements Magnesium?",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "aluminium",
+    "name": "Aluminium",
+    "status": "approved",
+    "image": "../assets/visuals/research-2/aluminium.svg",
+    "variants": {
+      "card": "research-2/aluminium.svg",
+      "detail": "research-2/aluminium.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-2/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 13,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/13/aluminium",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Protonen enthält ein Atomkern des Elements Aluminium?",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "silicon",
+    "name": "Silizium",
+    "status": "approved",
+    "image": "../assets/visuals/research-2/silicon.svg",
+    "variants": {
+      "card": "research-2/silicon.svg",
+      "detail": "research-2/silicon.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-2/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 14,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/14/silicon",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Protonen enthält ein Atomkern des Elements Silizium?",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "sulfur",
+    "name": "Schwefel",
+    "status": "approved",
+    "image": "../assets/visuals/research-2/sulfur.svg",
+    "variants": {
+      "card": "research-2/sulfur.svg",
+      "detail": "research-2/sulfur.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-2/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 16,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/16/sulfur",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Protonen enthält ein Atomkern des Elements Schwefel?",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "chlorine",
+    "name": "Chlor",
+    "status": "approved",
+    "image": "../assets/visuals/research-2/chlorine.svg",
+    "variants": {
+      "card": "research-2/chlorine.svg",
+      "detail": "research-2/chlorine.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-2/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 17,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/17/chlorine",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Protonen enthält ein Atomkern des Elements Chlor?",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "calcium",
+    "name": "Calcium",
+    "status": "approved",
+    "image": "../assets/visuals/research-2/calcium.svg",
+    "variants": {
+      "card": "research-2/calcium.svg",
+      "detail": "research-2/calcium.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-2/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 20,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/20/calcium",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Protonen enthält ein Atomkern des Elements Calcium?",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "copper",
+    "name": "Kupfer",
+    "status": "approved",
+    "image": "../assets/visuals/research-2/copper.svg",
+    "variants": {
+      "card": "research-2/copper.svg",
+      "detail": "research-2/copper.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-2/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 29,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/29/copper",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Protonen enthält ein Atomkern des Elements Kupfer?",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "earth-research",
+    "name": "Erde",
+    "status": "approved",
+    "image": "../assets/visuals/erde.webp",
+    "variants": {
+      "card": "erde.webp",
+      "detail": "erde.webp"
+    },
+    "generated": false,
+    "image_source": "https://commons.wikimedia.org/wiki/File:Earth_Western_Hemisphere_transparent_background.png",
+    "image_license": "Existing image; original author and license in assets/visuals/credits.html",
+    "facts": [
+      {
+        "category": "Weltraum",
+        "metric": "Umlaufdauer um die Sonne",
+        "value": 365.2,
+        "unit": "Erdtage",
+        "comparison_unit": "Erdtage",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Erdtage dauert ein Umlauf von Erde um die Sonne ungefähr?",
+        "notes": "NASA-Tabelle Stand 18.03.2025; tropische Umlaufperiode, gerundeter Tabellenwert. Der Vergleich mit Venus existiert bereits als Venus-Jahr/Erdjahr im Basispool.",
+        "exclude_with": [
+          "Venus"
+        ]
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Sonnenentfernung (große Halbachse)",
+        "value": 149.6,
+        "unit": "Millionen km",
+        "comparison_unit": "Millionen km · mittlere Sonnenentfernung",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie groß ist die mittlere Entfernung von Erde zur Sonne ungefähr, in Millionen Kilometern?",
+        "notes": "NASA-Tabelle Stand 18.03.2025; große Halbachse, keine momentane Entfernung. Werte nicht aus älteren Tabellenversionen mischen."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Oberflächentemperatur",
+        "value": 15,
+        "unit": "°C",
+        "comparison_unit": "°C · Mittlere Oberflächentemperatur ungefähr",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Welchen ungefähren Wert nennt die NASA für die mittlere oberflächentemperatur von Erde in Grad Celsius?",
+        "notes": "NASA-Tabelle Stand 18.03.2025. Oberflächenwerte und Atmosphärenwerte bei 1 bar bilden getrennte Vergleichsgruppen; keine lokalen Tageshöchstwerte."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Planetendichte",
+        "value": 5514,
+        "unit": "kg/m³",
+        "comparison_unit": "kg/m³ · mittlere Planetendichte",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche mittlere Dichte hat Erde laut NASA ungefähr, in Kilogramm pro Kubikmeter?",
+        "notes": "Mittlere Dichte des gesamten Planeten, keine lokale Materialdichte."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Fluchtgeschwindigkeit",
+        "value": 11.2,
+        "unit": "km/s",
+        "comparison_unit": "km/s · Fluchtgeschwindigkeit",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche Fluchtgeschwindigkeit nennt die NASA für Erde ungefähr, in Kilometern pro Sekunde?",
+        "notes": "Tabellenwert ohne Atmosphärenwiderstand; bei Gasplaneten am 1-bar-Niveau. Keine reale Raketen-Startgeschwindigkeit."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Bahngeschwindigkeit um die Sonne",
+        "value": 29.8,
+        "unit": "km/s",
+        "comparison_unit": "km/s · mittlere Bahngeschwindigkeit um die Sonne",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Mit welcher mittleren Geschwindigkeit bewegt sich Erde laut NASA um die Sonne, in Kilometern pro Sekunde?",
+        "notes": "Gemittelte heliozentrische Bahngeschwindigkeit, keine momentane Geschwindigkeit oder Rotation."
+      }
+    ]
+  },
+  {
+    "id": "jupiter-research",
+    "name": "Jupiter",
+    "status": "approved",
+    "image": "../assets/visuals/jupiter.webp",
+    "variants": {
+      "card": "jupiter.webp",
+      "detail": "jupiter.webp"
+    },
+    "generated": false,
+    "image_source": "https://commons.wikimedia.org/wiki/File:Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
+    "image_license": "Existing image; original author and license in assets/visuals/credits.html",
+    "facts": [
+      {
+        "category": "Weltraum",
+        "metric": "Umlaufdauer um die Sonne",
+        "value": 4331,
+        "unit": "Erdtage",
+        "comparison_unit": "Erdtage",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Erdtage dauert ein Umlauf von Jupiter um die Sonne ungefähr?",
+        "notes": "NASA-Tabelle Stand 18.03.2025; tropische Umlaufperiode, gerundeter Tabellenwert."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Sonnenentfernung (große Halbachse)",
+        "value": 778.5,
+        "unit": "Millionen km",
+        "comparison_unit": "Millionen km · mittlere Sonnenentfernung",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie groß ist die mittlere Entfernung von Jupiter zur Sonne ungefähr, in Millionen Kilometern?",
+        "notes": "NASA-Tabelle Stand 18.03.2025; große Halbachse, keine momentane Entfernung. Werte nicht aus älteren Tabellenversionen mischen."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Atmosphärentemperatur bei 1 bar",
+        "value": -110,
+        "unit": "°C",
+        "comparison_unit": "°C · Mittlere Atmosphärentemperatur bei 1 bar ungefähr",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Welchen ungefähren Wert nennt die NASA für die mittlere atmosphärentemperatur bei 1 bar von Jupiter in Grad Celsius?",
+        "notes": "NASA-Tabelle Stand 18.03.2025. Oberflächenwerte und Atmosphärenwerte bei 1 bar bilden getrennte Vergleichsgruppen; keine lokalen Tageshöchstwerte."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Planetendichte",
+        "value": 1326,
+        "unit": "kg/m³",
+        "comparison_unit": "kg/m³ · mittlere Planetendichte",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche mittlere Dichte hat Jupiter laut NASA ungefähr, in Kilogramm pro Kubikmeter?",
+        "notes": "Mittlere Dichte des gesamten Planeten, keine lokale Materialdichte."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Fluchtgeschwindigkeit",
+        "value": 59.5,
+        "unit": "km/s",
+        "comparison_unit": "km/s · Fluchtgeschwindigkeit",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche Fluchtgeschwindigkeit nennt die NASA für Jupiter ungefähr, in Kilometern pro Sekunde?",
+        "notes": "Tabellenwert ohne Atmosphärenwiderstand; bei Gasplaneten am 1-bar-Niveau. Keine reale Raketen-Startgeschwindigkeit."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Bahngeschwindigkeit um die Sonne",
+        "value": 13.1,
+        "unit": "km/s",
+        "comparison_unit": "km/s · mittlere Bahngeschwindigkeit um die Sonne",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Mit welcher mittleren Geschwindigkeit bewegt sich Jupiter laut NASA um die Sonne, in Kilometern pro Sekunde?",
+        "notes": "Gemittelte heliozentrische Bahngeschwindigkeit, keine momentane Geschwindigkeit oder Rotation."
+      }
+    ]
+  },
+  {
+    "id": "saturn-research",
+    "name": "Saturn",
+    "status": "approved",
+    "image": "../assets/visuals/saturn.webp",
+    "variants": {
+      "card": "saturn.webp",
+      "detail": "saturn.webp"
+    },
+    "generated": false,
+    "image_source": "https://commons.wikimedia.org/wiki/File:Saturn_during_Equinox.jpg",
+    "image_license": "Existing image; original author and license in assets/visuals/credits.html",
+    "facts": [
+      {
+        "category": "Weltraum",
+        "metric": "Umlaufdauer um die Sonne",
+        "value": 10747,
+        "unit": "Erdtage",
+        "comparison_unit": "Erdtage",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Erdtage dauert ein Umlauf von Saturn um die Sonne ungefähr?",
+        "notes": "NASA-Tabelle Stand 18.03.2025; tropische Umlaufperiode, gerundeter Tabellenwert."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Sonnenentfernung (große Halbachse)",
+        "value": 1432.0,
+        "unit": "Millionen km",
+        "comparison_unit": "Millionen km · mittlere Sonnenentfernung",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie groß ist die mittlere Entfernung von Saturn zur Sonne ungefähr, in Millionen Kilometern?",
+        "notes": "NASA-Tabelle Stand 18.03.2025; große Halbachse, keine momentane Entfernung. Werte nicht aus älteren Tabellenversionen mischen."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Atmosphärentemperatur bei 1 bar",
+        "value": -140,
+        "unit": "°C",
+        "comparison_unit": "°C · Mittlere Atmosphärentemperatur bei 1 bar ungefähr",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Welchen ungefähren Wert nennt die NASA für die mittlere atmosphärentemperatur bei 1 bar von Saturn in Grad Celsius?",
+        "notes": "NASA-Tabelle Stand 18.03.2025. Oberflächenwerte und Atmosphärenwerte bei 1 bar bilden getrennte Vergleichsgruppen; keine lokalen Tageshöchstwerte."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Planetendichte",
+        "value": 687,
+        "unit": "kg/m³",
+        "comparison_unit": "kg/m³ · mittlere Planetendichte",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche mittlere Dichte hat Saturn laut NASA ungefähr, in Kilogramm pro Kubikmeter?",
+        "notes": "Mittlere Dichte des gesamten Planeten, keine lokale Materialdichte."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Fluchtgeschwindigkeit",
+        "value": 35.5,
+        "unit": "km/s",
+        "comparison_unit": "km/s · Fluchtgeschwindigkeit",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche Fluchtgeschwindigkeit nennt die NASA für Saturn ungefähr, in Kilometern pro Sekunde?",
+        "notes": "Tabellenwert ohne Atmosphärenwiderstand; bei Gasplaneten am 1-bar-Niveau. Keine reale Raketen-Startgeschwindigkeit."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Bahngeschwindigkeit um die Sonne",
+        "value": 9.7,
+        "unit": "km/s",
+        "comparison_unit": "km/s · mittlere Bahngeschwindigkeit um die Sonne",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Mit welcher mittleren Geschwindigkeit bewegt sich Saturn laut NASA um die Sonne, in Kilometern pro Sekunde?",
+        "notes": "Gemittelte heliozentrische Bahngeschwindigkeit, keine momentane Geschwindigkeit oder Rotation."
+      }
+    ]
+  },
+  {
+    "id": "uranus-research",
+    "name": "Uranus",
+    "status": "approved",
+    "image": "../assets/visuals/uranus.webp",
+    "variants": {
+      "card": "uranus.webp",
+      "detail": "uranus.webp"
+    },
+    "generated": false,
+    "image_source": "https://commons.wikimedia.org/wiki/File:Uranus2.jpg",
+    "image_license": "Existing image; original author and license in assets/visuals/credits.html",
+    "facts": [
+      {
+        "category": "Weltraum",
+        "metric": "Umlaufdauer um die Sonne",
+        "value": 30589,
+        "unit": "Erdtage",
+        "comparison_unit": "Erdtage",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Erdtage dauert ein Umlauf von Uranus um die Sonne ungefähr?",
+        "notes": "NASA-Tabelle Stand 18.03.2025; tropische Umlaufperiode, gerundeter Tabellenwert."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Sonnenentfernung (große Halbachse)",
+        "value": 2867.0,
+        "unit": "Millionen km",
+        "comparison_unit": "Millionen km · mittlere Sonnenentfernung",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie groß ist die mittlere Entfernung von Uranus zur Sonne ungefähr, in Millionen Kilometern?",
+        "notes": "NASA-Tabelle Stand 18.03.2025; große Halbachse, keine momentane Entfernung. Werte nicht aus älteren Tabellenversionen mischen."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Atmosphärentemperatur bei 1 bar",
+        "value": -195,
+        "unit": "°C",
+        "comparison_unit": "°C · Mittlere Atmosphärentemperatur bei 1 bar ungefähr",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Welchen ungefähren Wert nennt die NASA für die mittlere atmosphärentemperatur bei 1 bar von Uranus in Grad Celsius?",
+        "notes": "NASA-Tabelle Stand 18.03.2025. Oberflächenwerte und Atmosphärenwerte bei 1 bar bilden getrennte Vergleichsgruppen; keine lokalen Tageshöchstwerte."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Planetendichte",
+        "value": 1270,
+        "unit": "kg/m³",
+        "comparison_unit": "kg/m³ · mittlere Planetendichte",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche mittlere Dichte hat Uranus laut NASA ungefähr, in Kilogramm pro Kubikmeter?",
+        "notes": "Mittlere Dichte des gesamten Planeten, keine lokale Materialdichte."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Fluchtgeschwindigkeit",
+        "value": 21.3,
+        "unit": "km/s",
+        "comparison_unit": "km/s · Fluchtgeschwindigkeit",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche Fluchtgeschwindigkeit nennt die NASA für Uranus ungefähr, in Kilometern pro Sekunde?",
+        "notes": "Tabellenwert ohne Atmosphärenwiderstand; bei Gasplaneten am 1-bar-Niveau. Keine reale Raketen-Startgeschwindigkeit."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Bahngeschwindigkeit um die Sonne",
+        "value": 6.8,
+        "unit": "km/s",
+        "comparison_unit": "km/s · mittlere Bahngeschwindigkeit um die Sonne",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Mit welcher mittleren Geschwindigkeit bewegt sich Uranus laut NASA um die Sonne, in Kilometern pro Sekunde?",
+        "notes": "Gemittelte heliozentrische Bahngeschwindigkeit, keine momentane Geschwindigkeit oder Rotation."
+      }
+    ]
+  },
+  {
+    "id": "neptune-research",
+    "name": "Neptun",
+    "status": "approved",
+    "image": "../assets/visuals/neptun.webp",
+    "variants": {
+      "card": "neptun.webp",
+      "detail": "neptun.webp"
+    },
+    "generated": false,
+    "image_source": "https://commons.wikimedia.org/wiki/File:Neptune_Voyager2_color_calibrated.png",
+    "image_license": "Existing image; original author and license in assets/visuals/credits.html",
+    "facts": [
+      {
+        "category": "Weltraum",
+        "metric": "Umlaufdauer um die Sonne",
+        "value": 59800,
+        "unit": "Erdtage",
+        "comparison_unit": "Erdtage",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Erdtage dauert ein Umlauf von Neptun um die Sonne ungefähr?",
+        "notes": "NASA-Tabelle Stand 18.03.2025; tropische Umlaufperiode, gerundeter Tabellenwert."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Sonnenentfernung (große Halbachse)",
+        "value": 4515.0,
+        "unit": "Millionen km",
+        "comparison_unit": "Millionen km · mittlere Sonnenentfernung",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie groß ist die mittlere Entfernung von Neptun zur Sonne ungefähr, in Millionen Kilometern?",
+        "notes": "NASA-Tabelle Stand 18.03.2025; große Halbachse, keine momentane Entfernung. Werte nicht aus älteren Tabellenversionen mischen."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Atmosphärentemperatur bei 1 bar",
+        "value": -200,
+        "unit": "°C",
+        "comparison_unit": "°C · Mittlere Atmosphärentemperatur bei 1 bar ungefähr",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Welchen ungefähren Wert nennt die NASA für die mittlere atmosphärentemperatur bei 1 bar von Neptun in Grad Celsius?",
+        "notes": "NASA-Tabelle Stand 18.03.2025. Oberflächenwerte und Atmosphärenwerte bei 1 bar bilden getrennte Vergleichsgruppen; keine lokalen Tageshöchstwerte."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Planetendichte",
+        "value": 1638,
+        "unit": "kg/m³",
+        "comparison_unit": "kg/m³ · mittlere Planetendichte",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche mittlere Dichte hat Neptun laut NASA ungefähr, in Kilogramm pro Kubikmeter?",
+        "notes": "Mittlere Dichte des gesamten Planeten, keine lokale Materialdichte."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Fluchtgeschwindigkeit",
+        "value": 23.5,
+        "unit": "km/s",
+        "comparison_unit": "km/s · Fluchtgeschwindigkeit",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche Fluchtgeschwindigkeit nennt die NASA für Neptun ungefähr, in Kilometern pro Sekunde?",
+        "notes": "Tabellenwert ohne Atmosphärenwiderstand; bei Gasplaneten am 1-bar-Niveau. Keine reale Raketen-Startgeschwindigkeit."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Bahngeschwindigkeit um die Sonne",
+        "value": 5.4,
+        "unit": "km/s",
+        "comparison_unit": "km/s · mittlere Bahngeschwindigkeit um die Sonne",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Mit welcher mittleren Geschwindigkeit bewegt sich Neptun laut NASA um die Sonne, in Kilometern pro Sekunde?",
+        "notes": "Gemittelte heliozentrische Bahngeschwindigkeit, keine momentane Geschwindigkeit oder Rotation."
+      }
+    ]
+  },
+  {
+    "id": "handball",
+    "name": "Hallenhandball",
+    "status": "approved",
+    "image": "../assets/visuals/research-2/handball.svg",
+    "variants": {
+      "card": "research-2/handball.svg",
+      "detail": "research-2/handball.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-2/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Sport",
+        "metric": "Reguläre Spielerzahl je Team auf dem Feld",
+        "value": 7,
+        "unit": "Spieler",
+        "comparison_unit": "Spieler",
+        "source": "https://www.ihf.info/sites/default/files/2025-02/09A%20-%20Rules%20of%20the%20Game_Indoor%20Handball_E.pdf",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Spieler eines vollständigen Teams stehen beim Hallenhandball regulär gleichzeitig auf dem Spielfeld?",
+        "notes": "Standardformat, einschließlich Torwart falls vorhanden, ohne Ersatzbank oder Strafzeitreduktion. Rugby Union: klassisches Format, keine Siebener-Variante; Hockey: Outdoor, keine Halle oder Hockey5s."
+      }
+    ]
+  },
+  {
+    "id": "rugby",
+    "name": "Rugby Union",
+    "status": "approved",
+    "image": "../assets/visuals/research-2/rugby.svg",
+    "variants": {
+      "card": "research-2/rugby.svg",
+      "detail": "research-2/rugby.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-2/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Sport",
+        "metric": "Reguläre Spielerzahl je Team auf dem Feld",
+        "value": 15,
+        "unit": "Spieler",
+        "comparison_unit": "Spieler",
+        "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/3-team/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Spieler eines vollständigen Teams stehen beim Rugby Union regulär gleichzeitig auf dem Spielfeld?",
+        "notes": "Standardformat, einschließlich Torwart falls vorhanden, ohne Ersatzbank oder Strafzeitreduktion. Rugby Union: klassisches Format, keine Siebener-Variante; Hockey: Outdoor, keine Halle oder Hockey5s."
+      }
+    ]
+  },
+  {
+    "id": "hockey",
+    "name": "Feldhockey",
+    "status": "approved",
+    "image": "../assets/visuals/research-2/hockey.svg",
+    "variants": {
+      "card": "research-2/hockey.svg",
+      "detail": "research-2/hockey.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-2/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Sport",
+        "metric": "Reguläre Spielerzahl je Team auf dem Feld",
+        "value": 11,
+        "unit": "Spieler",
+        "comparison_unit": "Spieler",
+        "source": "https://www.fih.hockey/static-assets/pdf/fih-Rules-of-hockey-2026-final.pdf",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Spieler eines vollständigen Teams stehen beim Feldhockey regulär gleichzeitig auf dem Spielfeld?",
+        "notes": "Standardformat, einschließlich Torwart falls vorhanden, ohne Ersatzbank oder Strafzeitreduktion. Rugby Union: klassisches Format, keine Siebener-Variante; Hockey: Outdoor, keine Halle oder Hockey5s."
+      }
+    ]
+  },
+  {
+    "id": "cologne-inscription",
+    "name": "Kölner Dom",
+    "status": "approved",
+    "image": "../assets/visuals/kolner-dom.webp",
+    "variants": {
+      "card": "kolner-dom.webp",
+      "detail": "kolner-dom.webp"
+    },
+    "generated": false,
+    "image_source": "https://commons.wikimedia.org/wiki/File:Cologne_Cathedral.jpg",
+    "image_license": "Existing image; original author and license in assets/visuals/credits.html",
+    "facts": [
+      {
+        "category": "Weltkultur",
+        "metric": "Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "value": 1996,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "source": "https://whc.unesco.org/en/list/292/",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde der Kölner Dom erstmals in die UNESCO-Welterbeliste aufgenommen?",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "voyager",
+    "name": "Voyager 1",
+    "status": "approved",
+    "image": "../assets/visuals/research-2/voyager.svg",
+    "variants": {
+      "card": "research-2/voyager.svg",
+      "detail": "research-2/voyager.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-2/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Raumfahrt",
+        "metric": "Startjahr der Mission",
+        "value": 1977,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Startjahr der Mission",
+        "source": "https://voyager.gsfc.nasa.gov/mission.html",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr startete die Raumfahrtmission Voyager 1?",
+        "notes": "Start von der Erde, nicht Ankunft am Zielkörper."
+      }
+    ]
+  },
+  {
+    "id": "cassini",
+    "name": "Cassini-Huygens",
+    "status": "approved",
+    "image": "../assets/visuals/research-2/cassini.svg",
+    "variants": {
+      "card": "research-2/cassini.svg",
+      "detail": "research-2/cassini.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-2/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Raumfahrt",
+        "metric": "Startjahr der Mission",
+        "value": 1997,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Startjahr der Mission",
+        "source": "https://science.nasa.gov/mission/cassini/quick-facts/",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr startete die Raumfahrtmission Cassini-Huygens?",
+        "notes": "Start von der Erde, nicht Ankunft am Zielkörper."
+      }
+    ]
+  },
+  {
+    "id": "new-horizons",
+    "name": "New Horizons",
+    "status": "approved",
+    "image": "../assets/visuals/research-2/new-horizons.svg",
+    "variants": {
+      "card": "research-2/new-horizons.svg",
+      "detail": "research-2/new-horizons.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-2/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Raumfahrt",
+        "metric": "Startjahr der Mission",
+        "value": 2006,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Startjahr der Mission",
+        "source": "https://science.nasa.gov/mission/new-horizons/",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr startete die Raumfahrtmission New Horizons?",
+        "notes": "Start von der Erde, nicht Ankunft am Zielkörper."
+      }
+    ]
+  },
+  {
+    "id": "zion",
+    "name": "Zion-Nationalpark",
+    "status": "approved",
+    "image": "../assets/visuals/research-2/zion.svg",
+    "variants": {
+      "card": "research-2/zion.svg",
+      "detail": "research-2/zion.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-2/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Natur",
+        "metric": "Gründungsjahr als Nationalpark",
+        "value": 1919,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Gründungsjahr als Nationalpark",
+        "source": "https://www.nps.gov/zion/learn/historyculture/people.htm",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde der Zion-Nationalpark als Nationalpark gegründet?",
+        "notes": "Datum der Ausweisung als Nationalpark, nicht vorheriger National-Monument-Status."
+      }
+    ]
+  },
+  {
+    "id": "rocky-mountain",
+    "name": "Rocky-Mountain-Nationalpark",
+    "status": "approved",
+    "image": "../assets/visuals/research-2/rocky-mountain.svg",
+    "variants": {
+      "card": "research-2/rocky-mountain.svg",
+      "detail": "research-2/rocky-mountain.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-2/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Natur",
+        "metric": "Gründungsjahr als Nationalpark",
+        "value": 1915,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Gründungsjahr als Nationalpark",
+        "source": "https://www.nps.gov/romo/learn/historyculture/brief.htm",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde der Rocky-Mountain-Nationalpark als Nationalpark gegründet?",
+        "notes": "Datum der Ausweisung als Nationalpark, nicht vorheriger National-Monument-Status."
+      }
+    ]
+  },
+  {
+    "id": "olympic",
+    "name": "Olympic-Nationalpark",
+    "status": "approved",
+    "image": "../assets/visuals/research-2/olympic.svg",
+    "variants": {
+      "card": "research-2/olympic.svg",
+      "detail": "research-2/olympic.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-2/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Natur",
+        "metric": "Gründungsjahr als Nationalpark",
+        "value": 1938,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Gründungsjahr als Nationalpark",
+        "source": "https://www.nps.gov/olym/learn/historyculture/index.htm",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde der Olympic-Nationalpark als Nationalpark gegründet?",
+        "notes": "Datum der Ausweisung als Nationalpark, nicht vorheriger National-Monument-Status."
+      }
+    ]
+  },
+  {
+    "id": "boron",
+    "name": "Bor",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/boron-card.svg",
+    "variants": {
+      "card": "research-4/boron-card.svg",
+      "detail": "research-4/boron-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 5,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/5/boron",
+        "verified": "2026-10-03",
+        "estimate_question": "Wie viele Protonen enthält ein Atomkern des Elements Bor?",
+        "notes": "Ordnungszahl gleich Protonenzahl. Grafik zeigt nur das Elementsymbol."
+      }
+    ]
+  },
+  {
+    "id": "fluorine",
+    "name": "Fluor",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/fluorine-card.svg",
+    "variants": {
+      "card": "research-4/fluorine-card.svg",
+      "detail": "research-4/fluorine-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 9,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/9/fluorine",
+        "verified": "2026-10-03",
+        "estimate_question": "Wie viele Protonen enthält ein Atomkern des Elements Fluor?",
+        "notes": "Ordnungszahl gleich Protonenzahl. Grafik zeigt nur das Elementsymbol."
+      }
+    ]
+  },
+  {
+    "id": "phosphorus",
+    "name": "Phosphor",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/phosphorus-card.svg",
+    "variants": {
+      "card": "research-4/phosphorus-card.svg",
+      "detail": "research-4/phosphorus-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 15,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/15/phosphorus",
+        "verified": "2026-10-03",
+        "estimate_question": "Wie viele Protonen enthält ein Atomkern des Elements Phosphor?",
+        "notes": "Ordnungszahl gleich Protonenzahl. Grafik zeigt nur das Elementsymbol."
+      }
+    ]
+  },
+  {
+    "id": "potassium",
+    "name": "Kalium",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/potassium-card.svg",
+    "variants": {
+      "card": "research-4/potassium-card.svg",
+      "detail": "research-4/potassium-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 19,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/19/potassium",
+        "verified": "2026-10-03",
+        "estimate_question": "Wie viele Protonen enthält ein Atomkern des Elements Kalium?",
+        "notes": "Ordnungszahl gleich Protonenzahl. Grafik zeigt nur das Elementsymbol."
+      }
+    ]
+  },
+  {
+    "id": "silver",
+    "name": "Silber",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/silver-card.svg",
+    "variants": {
+      "card": "research-4/silver-card.svg",
+      "detail": "research-4/silver-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 47,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/47/silver",
+        "verified": "2026-10-03",
+        "estimate_question": "Wie viele Protonen enthält ein Atomkern des Elements Silber?",
+        "notes": "Ordnungszahl gleich Protonenzahl. Grafik zeigt nur das Elementsymbol."
+      }
+    ]
+  },
+  {
+    "id": "gold",
+    "name": "Gold",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/gold-card.svg",
+    "variants": {
+      "card": "research-4/gold-card.svg",
+      "detail": "research-4/gold-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 79,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/79/gold",
+        "verified": "2026-10-03",
+        "estimate_question": "Wie viele Protonen enthält ein Atomkern des Elements Gold?",
+        "notes": "Ordnungszahl gleich Protonenzahl. Grafik zeigt nur das Elementsymbol."
+      }
+    ]
+  },
+  {
+    "id": "grand-teton",
+    "name": "Grand-Teton-Nationalpark",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/grand-teton-card.svg",
+    "variants": {
+      "card": "research-4/grand-teton-card.svg",
+      "detail": "research-4/grand-teton-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Natur",
+        "metric": "Gründungsjahr als Nationalpark",
+        "value": 1929,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Gründungsjahr als Nationalpark",
+        "source": "https://www.nps.gov/grte/learn/historyculture/cultural.htm",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr erhielt der Grand-Teton-Nationalpark erstmals den Status eines Nationalparks?",
+        "notes": "Erste Ausweisung als Nationalpark; nicht National Monument, Genehmigung, spätere Erweiterung oder Umbenennung."
+      }
+    ]
+  },
+  {
+    "id": "shenandoah",
+    "name": "Shenandoah-Nationalpark",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/shenandoah-card.svg",
+    "variants": {
+      "card": "research-4/shenandoah-card.svg",
+      "detail": "research-4/shenandoah-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Natur",
+        "metric": "Gründungsjahr als Nationalpark",
+        "value": 1935,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Gründungsjahr als Nationalpark",
+        "source": "https://www.nps.gov/shen/faqs.htm?fullweb=1",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr erhielt der Shenandoah-Nationalpark erstmals den Status eines Nationalparks?",
+        "notes": "Erste Ausweisung als Nationalpark; nicht National Monument, Genehmigung, spätere Erweiterung oder Umbenennung."
+      }
+    ]
+  },
+  {
+    "id": "arches",
+    "name": "Arches-Nationalpark",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/arches-card.svg",
+    "variants": {
+      "card": "research-4/arches-card.svg",
+      "detail": "research-4/arches-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Natur",
+        "metric": "Gründungsjahr als Nationalpark",
+        "value": 1971,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Gründungsjahr als Nationalpark",
+        "source": "https://www.nps.gov/articles/arch-timeline.htm",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr erhielt der Arches-Nationalpark erstmals den Status eines Nationalparks?",
+        "notes": "Erste Ausweisung als Nationalpark; nicht National Monument, Genehmigung, spätere Erweiterung oder Umbenennung."
+      }
+    ]
+  },
+  {
+    "id": "canyonlands",
+    "name": "Canyonlands-Nationalpark",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/canyonlands-card.svg",
+    "variants": {
+      "card": "research-4/canyonlands-card.svg",
+      "detail": "research-4/canyonlands-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Natur",
+        "metric": "Gründungsjahr als Nationalpark",
+        "value": 1964,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Gründungsjahr als Nationalpark",
+        "source": "https://www.nps.gov/cany/learn/historyculture/parkfounders.htm",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr erhielt der Canyonlands-Nationalpark erstmals den Status eines Nationalparks?",
+        "notes": "Erste Ausweisung als Nationalpark; nicht National Monument, Genehmigung, spätere Erweiterung oder Umbenennung."
+      }
+    ]
+  },
+  {
+    "id": "joshua-tree",
+    "name": "Joshua-Tree-Nationalpark",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/joshua-tree-card.svg",
+    "variants": {
+      "card": "research-4/joshua-tree-card.svg",
+      "detail": "research-4/joshua-tree-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Natur",
+        "metric": "Gründungsjahr als Nationalpark",
+        "value": 1994,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Gründungsjahr als Nationalpark",
+        "source": "https://www.nps.gov/jotr/learn/historyculture/parkhistory.htm",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr erhielt der Joshua-Tree-Nationalpark erstmals den Status eines Nationalparks?",
+        "notes": "Erste Ausweisung als Nationalpark; nicht National Monument, Genehmigung, spätere Erweiterung oder Umbenennung."
+      }
+    ]
+  },
+  {
+    "id": "explorer-1",
+    "name": "Explorer 1",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/explorer-1-card.svg",
+    "variants": {
+      "card": "research-4/explorer-1-card.svg",
+      "detail": "research-4/explorer-1-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Raumfahrt",
+        "metric": "Startjahr der Mission",
+        "value": 1958,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Startjahr der Mission",
+        "source": "https://science.nasa.gov/mission/explorer-1/",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr startete die Raumfahrtmission Explorer 1 von der Erde?",
+        "notes": "Startjahr, nicht Jahr des Vorbeiflugs oder der Ankunft am Ziel. Missionsgrafik ist ein allgemeines Symbol, kein maßstabsgetreues Sondenmodell."
+      }
+    ]
+  },
+  {
+    "id": "mariner-2",
+    "name": "Mariner 2",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/mariner-2-card.svg",
+    "variants": {
+      "card": "research-4/mariner-2-card.svg",
+      "detail": "research-4/mariner-2-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Raumfahrt",
+        "metric": "Startjahr der Mission",
+        "value": 1962,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Startjahr der Mission",
+        "source": "https://science.nasa.gov/mission/mariner-2/",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr startete die Raumfahrtmission Mariner 2 von der Erde?",
+        "notes": "Startjahr, nicht Jahr des Vorbeiflugs oder der Ankunft am Ziel. Missionsgrafik ist ein allgemeines Symbol, kein maßstabsgetreues Sondenmodell."
+      }
+    ]
+  },
+  {
+    "id": "pioneer-10",
+    "name": "Pioneer 10",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/pioneer-10-card.svg",
+    "variants": {
+      "card": "research-4/pioneer-10-card.svg",
+      "detail": "research-4/pioneer-10-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Raumfahrt",
+        "metric": "Startjahr der Mission",
+        "value": 1972,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Startjahr der Mission",
+        "source": "https://science.nasa.gov/mission/pioneer-10/",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr startete die Raumfahrtmission Pioneer 10 von der Erde?",
+        "notes": "Startjahr, nicht Jahr des Vorbeiflugs oder der Ankunft am Ziel. Missionsgrafik ist ein allgemeines Symbol, kein maßstabsgetreues Sondenmodell."
+      }
+    ]
+  },
+  {
+    "id": "galileo",
+    "name": "Galileo",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/galileo-card.svg",
+    "variants": {
+      "card": "research-4/galileo-card.svg",
+      "detail": "research-4/galileo-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Raumfahrt",
+        "metric": "Startjahr der Mission",
+        "value": 1989,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Startjahr der Mission",
+        "source": "https://science.nasa.gov/mission/galileo/",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr startete die Raumfahrtmission Galileo von der Erde?",
+        "notes": "Startjahr, nicht Jahr des Vorbeiflugs oder der Ankunft am Ziel. Missionsgrafik ist ein allgemeines Symbol, kein maßstabsgetreues Sondenmodell."
+      }
+    ]
+  },
+  {
+    "id": "juno",
+    "name": "Juno",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/juno-card.svg",
+    "variants": {
+      "card": "research-4/juno-card.svg",
+      "detail": "research-4/juno-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Raumfahrt",
+        "metric": "Startjahr der Mission",
+        "value": 2011,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Startjahr der Mission",
+        "source": "https://www.jpl.nasa.gov/missions/juno/",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr startete die Raumfahrtmission Juno von der Erde?",
+        "notes": "Startjahr, nicht Jahr des Vorbeiflugs oder der Ankunft am Ziel. Missionsgrafik ist ein allgemeines Symbol, kein maßstabsgetreues Sondenmodell."
+      }
+    ]
+  },
+  {
+    "id": "rome",
+    "name": "Historisches Zentrum von Rom",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/rome-card.svg",
+    "variants": {
+      "card": "research-4/rome-card.svg",
+      "detail": "research-4/rome-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Weltkultur",
+        "metric": "Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "value": 1980,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "source": "https://whc.unesco.org/en/list/91/",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr wurde die Welterbestätte Historisches Zentrum von Rom erstmals in die UNESCO-Welterbeliste aufgenommen?",
+        "notes": "Erste Einschreibung der gesamten Welterbestätte; nicht Baujahr, Entdeckung oder spätere Erweiterung."
+      }
+    ]
+  },
+  {
+    "id": "machu-picchu",
+    "name": "Machu Picchu",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/machu-picchu-card.svg",
+    "variants": {
+      "card": "research-4/machu-picchu-card.svg",
+      "detail": "research-4/machu-picchu-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Weltkultur",
+        "metric": "Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "value": 1983,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "source": "https://whc.unesco.org/en/list/274/",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr wurde die Welterbestätte Machu Picchu erstmals in die UNESCO-Welterbeliste aufgenommen?",
+        "notes": "Erste Einschreibung der gesamten Welterbestätte; nicht Baujahr, Entdeckung oder spätere Erweiterung."
+      }
+    ]
+  },
+  {
+    "id": "petra",
+    "name": "Petra",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/petra-card.svg",
+    "variants": {
+      "card": "research-4/petra-card.svg",
+      "detail": "research-4/petra-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Weltkultur",
+        "metric": "Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "value": 1985,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "source": "https://whc.unesco.org/en/list/326/",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr wurde die Welterbestätte Petra erstmals in die UNESCO-Welterbeliste aufgenommen?",
+        "notes": "Erste Einschreibung der gesamten Welterbestätte; nicht Baujahr, Entdeckung oder spätere Erweiterung."
+      }
+    ]
+  },
+  {
+    "id": "angkor",
+    "name": "Angkor",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/angkor-card.svg",
+    "variants": {
+      "card": "research-4/angkor-card.svg",
+      "detail": "research-4/angkor-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Weltkultur",
+        "metric": "Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "value": 1992,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "source": "https://whc.unesco.org/en/list/668/",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr wurde die Welterbestätte Angkor erstmals in die UNESCO-Welterbeliste aufgenommen?",
+        "notes": "Erste Einschreibung der gesamten Welterbestätte; nicht Baujahr, Entdeckung oder spätere Erweiterung."
       }
     ]
   }

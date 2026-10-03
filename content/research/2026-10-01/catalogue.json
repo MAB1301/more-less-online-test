@@ -1,0 +1,968 @@
+[
+  {
+    "id": "austria-area",
+    "name": "Österreich",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Länder",
+        "metric": "Staatsfläche",
+        "unit": "km²",
+        "comparison_unit": "km²",
+        "sub": "Fläche",
+        "value": 83884,
+        "source": "https://www.statistik.at/fileadmin/publications/OZDF-DE-25-26.pdf",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie groß ist Österreich laut Statistik Austria 2025/26 in Quadratkilometern?",
+        "notes": "Gerundeter Veröffentlichungswert, nicht der ältere Wert 83.879."
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Österreich; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "switzerland-area",
+    "name": "Schweiz",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Länder",
+        "metric": "Staatsfläche",
+        "unit": "km²",
+        "comparison_unit": "km²",
+        "sub": "Fläche",
+        "value": 41285,
+        "source": "https://www.aboutswitzerland.eda.admin.ch/de/geografie",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie groß ist die Schweiz ungefähr in Quadratkilometern?",
+        "notes": "Gesamtes Staatsgebiet, einschließlich Binnengewässer."
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Schweiz; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "belgium-area",
+    "name": "Belgien",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Länder",
+        "metric": "Staatsfläche",
+        "unit": "km²",
+        "comparison_unit": "km²",
+        "sub": "Fläche",
+        "value": 30689,
+        "source": "https://statbel.fgov.be/en/quiz",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie groß ist Belgien laut Statbel in Quadratkilometern?",
+        "notes": "Staatsfläche; unterschiedliche Vermessungsstände sind bei engen Vergleichen zu beachten."
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Belgien; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "berlin-districts",
+    "name": "Berlin",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Städte",
+        "metric": "Verwaltungsbezirke",
+        "unit": "Bezirke",
+        "comparison_unit": "Bezirke",
+        "sub": "Verwaltungsbezirke",
+        "value": 12,
+        "source": "https://willkommenszentrum.berlin.de/glossary/bezirk",
+        "verified": "2026-10-01",
+        "estimate_question": "In wie viele Verwaltungsbezirke ist Berlin gegliedert?",
+        "notes": ""
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Berlin; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "hamburg-districts",
+    "name": "Hamburg",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Städte",
+        "metric": "Verwaltungsbezirke",
+        "unit": "Bezirke",
+        "comparison_unit": "Bezirke",
+        "sub": "Verwaltungsbezirke",
+        "value": 7,
+        "source": "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/themen/bezirke-und-bezirksverwaltung",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Verwaltungsbezirke hat Hamburg?",
+        "notes": ""
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Hamburg; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "vienna-districts",
+    "name": "Wien",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Städte",
+        "metric": "Verwaltungsbezirke",
+        "unit": "Bezirke",
+        "comparison_unit": "Bezirke",
+        "sub": "Verwaltungsbezirke",
+        "value": 23,
+        "source": "https://www.wien.gv.at/statistik/bezirksdaten",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Gemeindebezirke hat Wien?",
+        "notes": "Verglichen wird ausschließlich die Anzahl; die Bezirke haben nicht dieselben Kompetenzen."
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Wien; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "yellowstone-founded",
+    "name": "Yellowstone-Nationalpark",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Natur",
+        "metric": "Gründungsjahr als Nationalpark",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr",
+        "sub": "Nationalparks",
+        "value": 1872,
+        "source": "https://www.nps.gov/yell/planyourvisit/parkfacts.htm",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde Yellowstone als Nationalpark gegründet?",
+        "notes": ""
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Yellowstone-Nationalpark; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "yosemite-founded",
+    "name": "Yosemite-Nationalpark",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Natur",
+        "metric": "Gründungsjahr als Nationalpark",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr",
+        "sub": "Nationalparks",
+        "value": 1890,
+        "source": "https://www.nps.gov/yose/learn/news/yosemite-national-park-commemorates-124th-anniversary.htm",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde Yosemite zum Nationalpark erklärt?",
+        "notes": "Nationalpark 1890; Yosemite Grant von 1864 ist eine andere Schutzentscheidung."
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Yosemite-Nationalpark; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "grand-canyon-founded",
+    "name": "Grand-Canyon-Nationalpark",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Natur",
+        "metric": "Gründungsjahr als Nationalpark",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr",
+        "sub": "Nationalparks",
+        "value": 1919,
+        "source": "https://www.nps.gov/grca/learn/historyculture/thenandnow.htm",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde der Grand Canyon zum Nationalpark erklärt?",
+        "notes": "National Monument 1908 und Nationalpark 1919 unterscheiden."
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Grand-Canyon-Nationalpark; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "football-players",
+    "name": "Fußball (elf gegen elf)",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Sport",
+        "metric": "Reguläre Spielerzahl je Team auf dem Feld",
+        "unit": "Spieler",
+        "comparison_unit": "Spieler",
+        "sub": "Teamgrößen",
+        "value": 11,
+        "source": "https://theifab.com/laws/latest/the-players/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Spieler hat eine vollständige Fußballmannschaft gleichzeitig auf dem Feld, einschließlich Torwart?",
+        "notes": ""
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Fußball (elf gegen elf); keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "basketball-players",
+    "name": "Basketball (fünf gegen fünf)",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Sport",
+        "metric": "Reguläre Spielerzahl je Team auf dem Feld",
+        "unit": "Spieler",
+        "comparison_unit": "Spieler",
+        "sub": "Teamgrößen",
+        "value": 5,
+        "source": "https://about.fiba.basketball/en/our-sport/basketball",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Spieler eines Teams stehen beim klassischen Basketball gleichzeitig auf dem Feld?",
+        "notes": ""
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Basketball (fünf gegen fünf); keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "volleyball-players",
+    "name": "Hallenvolleyball",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Sport",
+        "metric": "Reguläre Spielerzahl je Team auf dem Feld",
+        "unit": "Spieler",
+        "comparison_unit": "Spieler",
+        "sub": "Teamgrößen",
+        "value": 6,
+        "source": "https://www.fivb.com/volleyball/the-game/basic-rules/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Spieler eines Teams stehen beim Hallenvolleyball gleichzeitig auf dem Feld?",
+        "notes": "Keine Ersatzspieler, Beachvolleyball oder 3×3 mitzählen."
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Hallenvolleyball; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "eiffel-opened",
+    "name": "Eiffelturm",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Bauwerke",
+        "metric": "Jahr der offiziellen Eröffnung",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr",
+        "sub": "Eröffnungsjahre",
+        "value": 1889,
+        "source": "https://www.toureiffel.paris/en/news/history-and-culture/why-does-eiffel-tower-change-size",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde der Eiffelturm eingeweiht?",
+        "notes": ""
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Eiffelturm; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "esb-opened",
+    "name": "Empire State Building",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Bauwerke",
+        "metric": "Jahr der offiziellen Eröffnung",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr",
+        "sub": "Eröffnungsjahre",
+        "value": 1931,
+        "source": "https://www.esbnyc.com/about/history",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde das Empire State Building eröffnet?",
+        "notes": ""
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Empire State Building; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "burj-opened",
+    "name": "Burj Khalifa",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Bauwerke",
+        "metric": "Jahr der offiziellen Eröffnung",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr",
+        "sub": "Eröffnungsjahre",
+        "value": 2010,
+        "source": "https://www.emaar.com/en/other-emaar-businesses/burj-khalifa",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde der Burj Khalifa offiziell eröffnet?",
+        "notes": ""
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Burj Khalifa; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "elephant-gestation",
+    "name": "Elefant",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Tierwelt",
+        "metric": "Tragzeit als grober Spielrichtwert",
+        "unit": "Monate ungefähr",
+        "comparison_unit": "Monate ungefähr",
+        "sub": "Fortpflanzung",
+        "value": 21,
+        "source": "https://animals.sandiegozoo.org/animals/elephant",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Monate dauert die Tragzeit eines Elefanten ungefähr?",
+        "notes": "Quelle: 20–22 Monate. 21 ist der berechnete Mittelpunkt, keine behauptete exakte oder empirische Durchschnittsmessung. Für Schätzspiel eine Toleranz von mindestens ±1 Monat verwenden."
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Elefant; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "giraffe-gestation",
+    "name": "Giraffe",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Tierwelt",
+        "metric": "Tragzeit als grober Spielrichtwert",
+        "unit": "Monate ungefähr",
+        "comparison_unit": "Monate ungefähr",
+        "sub": "Fortpflanzung",
+        "value": 14,
+        "source": "https://animals.sandiegozoo.org/animals/giraffe",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Monate dauert die Tragzeit einer Giraffe laut San Diego Zoo ungefähr?",
+        "notes": "Veröffentlichter Richtwert 14 Monate; keine individuelle exakte Dauer."
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Giraffe; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "lion-gestation",
+    "name": "Löwe",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Tierwelt",
+        "metric": "Tragzeit als grober Spielrichtwert",
+        "unit": "Monate ungefähr",
+        "comparison_unit": "Monate ungefähr",
+        "sub": "Fortpflanzung",
+        "value": 4,
+        "source": "https://animals.sandiegozoo.org/animals/lion",
+        "verified": "2026-10-01",
+        "estimate_question": "Auf wie viele ganze Monate wird die Tragzeit einer Löwin ungefähr gerundet?",
+        "notes": "Quelle: fast vier Monate. Als Spielrichtwert auf vier gerundet; nicht exakt vier."
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Löwe; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "mbappe-born",
+    "name": "Kylian Mbappé",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Fußballer",
+        "metric": "Geburtsjahr",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr",
+        "sub": "Geburtsjahre",
+        "value": 1998,
+        "source": "https://www.realmadrid.com/de-DE/fussball/erste-mannshaft/spieler/kylian-mbappe",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde Kylian Mbappé geboren?",
+        "notes": ""
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Kylian Mbappé; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "haaland-born",
+    "name": "Erling Haaland",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Fußballer",
+        "metric": "Geburtsjahr",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr",
+        "sub": "Geburtsjahre",
+        "value": 2000,
+        "source": "https://live.mancity.com/news/mens/erling-haaland-10-things-factfile-63790703",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde Erling Haaland geboren?",
+        "notes": ""
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Erling Haaland; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "bellingham-born",
+    "name": "Jude Bellingham",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Fußballer",
+        "metric": "Geburtsjahr",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr",
+        "sub": "Geburtsjahre",
+        "value": 2003,
+        "source": "https://www.realmadrid.com/de-DE/fussball/erste-mannshaft/spieler/jude-bellingham",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde Jude Bellingham geboren?",
+        "notes": ""
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Jude Bellingham; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "296-cylinders",
+    "name": "Ferrari 296 GTB",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Autos",
+        "metric": "Zylinderzahl des Verbrennungsmotors",
+        "unit": "Zylinder",
+        "comparison_unit": "Zylinder",
+        "sub": "Zylinderzahl",
+        "value": 6,
+        "source": "https://www.ferrari.com/content/dam/ferrari-fcom/old/pdf/CS_296_GTB_final_gbr.pdf",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Zylinder hat der Verbrennungsmotor des Ferrari 296 GTB?",
+        "notes": "Elektromotoren nicht mitzählen."
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Ferrari 296 GTB; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "sf90-cylinders",
+    "name": "Ferrari SF90 Stradale",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Autos",
+        "metric": "Zylinderzahl des Verbrennungsmotors",
+        "unit": "Zylinder",
+        "comparison_unit": "Zylinder",
+        "sub": "Zylinderzahl",
+        "value": 8,
+        "source": "https://cdn.ferrari.com/cms/network/media/pdf/pr_ferrari_sf90_stradale_gbr.pdf",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Zylinder hat der Verbrennungsmotor des Ferrari SF90 Stradale?",
+        "notes": "Elektromotoren nicht mitzählen."
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Ferrari SF90 Stradale; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "12cilindri-cylinders",
+    "name": "Ferrari 12Cilindri",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Autos",
+        "metric": "Zylinderzahl des Verbrennungsmotors",
+        "unit": "Zylinder",
+        "comparison_unit": "Zylinder",
+        "sub": "Zylinderzahl",
+        "value": 12,
+        "source": "https://www.ferrari.com/content/dam/ferrari-fcom/news/corporate/2026/01/pdf/CS_12Cilindri_Tailor_Made_gbr.pdf",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Zylinder hat der Motor des Ferrari 12Cilindri?",
+        "notes": ""
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Ferrari 12Cilindri; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "mercury-orbit",
+    "name": "Merkur",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Weltraum",
+        "metric": "Umlaufdauer um die Sonne",
+        "unit": "Erdtage",
+        "comparison_unit": "Erdtage",
+        "sub": "Rotation & Umlauf",
+        "value": 88,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Erdtage dauert ein Umlauf des Merkur um die Sonne ungefähr?",
+        "notes": "NASA-Tabellenstand 18.03.2025."
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Merkur; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "venus-orbit",
+    "name": "Venus",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Weltraum",
+        "metric": "Umlaufdauer um die Sonne",
+        "unit": "Erdtage",
+        "comparison_unit": "Erdtage",
+        "sub": "Rotation & Umlauf",
+        "value": 224.7,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Erdtage dauert ein Umlauf der Venus um die Sonne ungefähr?",
+        "notes": "Umlaufdauer, nicht Rotation oder Sonnentag."
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Venus; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "mars-orbit",
+    "name": "Mars",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Weltraum",
+        "metric": "Umlaufdauer um die Sonne",
+        "unit": "Erdtage",
+        "comparison_unit": "Erdtage",
+        "sub": "Rotation & Umlauf",
+        "value": 687,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Erdtage dauert ein Umlauf des Mars um die Sonne ungefähr?",
+        "notes": ""
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Mars; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "carbon-number",
+    "name": "Kohlenstoff",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "sub": "Chemie",
+        "value": 6,
+        "source": "https://periodic-table.rsc.org/element/6/Carbon",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Protonen enthält der Atomkern von Kohlenstoff?",
+        "notes": ""
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Kohlenstoff; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "oxygen-number",
+    "name": "Sauerstoff",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "sub": "Chemie",
+        "value": 8,
+        "source": "https://periodic-table.rsc.org/element/8/Oxygen",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Protonen enthält der Atomkern von Sauerstoff?",
+        "notes": ""
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Sauerstoff; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "iron-number",
+    "name": "Eisen",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "sub": "Chemie",
+        "value": 26,
+        "source": "https://periodic-table.rsc.org/element/26/iron",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Protonen enthält der Atomkern von Eisen?",
+        "notes": ""
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Eisen; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "poker-cards",
+    "name": "Standard-Kartendeck ohne Joker",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Karten im vollständigen Grunddeck",
+        "unit": "Karten",
+        "comparison_unit": "Karten",
+        "sub": "Kartenspiele",
+        "value": 52,
+        "source": "https://de.bicyclecards.com/game-rules/spades/",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Karten enthält ein Standard-Kartendeck ohne Joker?",
+        "notes": "Bereits bekanntes Motiv als Vergleichspartner für die neuen Decks. Kein neu entdeckter Fakt."
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Standard-Kartendeck ohne Joker; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "set-cards",
+    "name": "SET (Grundspiel)",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Karten im vollständigen Grunddeck",
+        "unit": "Karten",
+        "comparison_unit": "Karten",
+        "sub": "Kartenspiele",
+        "value": 81,
+        "source": "https://www.setgame.com/sites/default/files/set_catalogsmall.pdf",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Karten enthält das SET-Grundspiel?",
+        "notes": ""
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu SET (Grundspiel); keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "uno-cards",
+    "name": "UNO (Ausgabe W2085)",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Karten im vollständigen Grunddeck",
+        "unit": "Karten",
+        "comparison_unit": "Karten",
+        "sub": "Kartenspiele",
+        "value": 108,
+        "source": "https://service.mattel.com/us/productPopup.aspx?prodno=W2085&siteid=27",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Karten enthält die klassische UNO-Ausgabe W2085?",
+        "notes": "Ausgabe explizit genannt, weil andere UNO-Ausgaben mehr Karten enthalten."
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu UNO (Ausgabe W2085); keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "400m-record",
+    "name": "400-m-Weltrekord Männer",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Rekorde & Extreme",
+        "metric": "Weltrekordzeit Männer im Freien · WA-Veröffentlichung September 2026",
+        "unit": "Sekunden",
+        "comparison_unit": "Sekunden",
+        "sub": "Sportrekorde",
+        "value": 43.03,
+        "source": "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Sekunden beträgt der Männer-Weltrekord über 400 m laut World Athletics im September 2026?",
+        "notes": "Wayde van Niekerk; vorhandener Richtwert als neuer Vergleichspartner."
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu 400-m-Weltrekord Männer; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "800m-record",
+    "name": "800-m-Weltrekord Männer",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Rekorde & Extreme",
+        "metric": "Weltrekordzeit Männer im Freien · WA-Veröffentlichung September 2026",
+        "unit": "Sekunden",
+        "comparison_unit": "Sekunden",
+        "sub": "Sportrekorde",
+        "value": 100.91,
+        "source": "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Sekunden sind die 1:40,91 min des Männer-Weltrekords über 800 m im WA-Datensatz September 2026?",
+        "notes": "David Rudisha; Minuten in Sekunden umgerechnet."
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu 800-m-Weltrekord Männer; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "1500m-record",
+    "name": "1500-m-Weltrekord Männer",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Rekorde & Extreme",
+        "metric": "Weltrekordzeit Männer im Freien · WA-Veröffentlichung September 2026",
+        "unit": "Sekunden",
+        "comparison_unit": "Sekunden",
+        "sub": "Sportrekorde",
+        "value": 206,
+        "source": "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Sekunden sind die 3:26,00 min des Männer-Weltrekords über 1500 m im WA-Datensatz September 2026?",
+        "notes": "Hicham El Guerrouj; Minuten in Sekunden umgerechnet. Snapshot, keine dauerhafte Aktualitätszusage."
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu 1500-m-Weltrekord Männer; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "sputnik-launch",
+    "name": "Sputnik 1",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Raumfahrt",
+        "metric": "Startjahr der Mission",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr",
+        "sub": "Missionsgeschichte",
+        "value": 1957,
+        "source": "https://science.nasa.gov/mission/hubble/overview/hubble-timeline/hubble-history-timeline-full-text/",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr startete Sputnik 1?",
+        "notes": ""
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Sputnik 1; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "hubble-launch",
+    "name": "Hubble-Weltraumteleskop",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Raumfahrt",
+        "metric": "Startjahr der Mission",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr",
+        "sub": "Missionsgeschichte",
+        "value": 1990,
+        "source": "https://www.nasa.gov/history/hubble/",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde das Hubble-Weltraumteleskop gestartet?",
+        "notes": ""
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Hubble-Weltraumteleskop; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "webb-launch",
+    "name": "James-Webb-Weltraumteleskop",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Raumfahrt",
+        "metric": "Startjahr der Mission",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr",
+        "sub": "Missionsgeschichte",
+        "value": 2021,
+        "source": "https://science.nasa.gov/mission/webb/launch/",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr startete das James-Webb-Weltraumteleskop?",
+        "notes": ""
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu James-Webb-Weltraumteleskop; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "aachen-unesco",
+    "name": "Aachener Dom",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Weltkultur",
+        "metric": "Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr",
+        "sub": "UNESCO",
+        "value": 1978,
+        "source": "https://whc.unesco.org/en/list/3/",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde der Aachener Dom erstmals UNESCO-Welterbe?",
+        "notes": ""
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Aachener Dom; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "taj-unesco",
+    "name": "Taj Mahal",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Weltkultur",
+        "metric": "Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr",
+        "sub": "UNESCO",
+        "value": 1983,
+        "source": "https://whc.unesco.org/en/list/252/",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde der Taj Mahal UNESCO-Welterbe?",
+        "notes": ""
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Taj Mahal; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  },
+  {
+    "id": "sydney-unesco",
+    "name": "Opernhaus Sydney",
+    "status": "draft",
+    "facts": [
+      {
+        "category": "Weltkultur",
+        "metric": "Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "unit": "Jahr",
+        "comparison_unit": "Jahr",
+        "sub": "UNESCO",
+        "value": 2007,
+        "source": "https://whc.unesco.org/en/list/166/",
+        "verified": "2026-10-01",
+        "estimate_question": "In welchem Jahr wurde das Opernhaus von Sydney UNESCO-Welterbe?",
+        "notes": "Einschreibung 2007, nicht Eröffnung 1973."
+      }
+    ],
+    "visual": {
+      "status": "pending",
+      "brief": "Eigenständiges Motiv zu Opernhaus Sydney; keine Zahlenwerte oder Lösungen im Bild. Vorhandene passende lokale Motive bevorzugen; sonst Illustration oder Grafik mit dokumentierten Rechten."
+    }
+  }
+]

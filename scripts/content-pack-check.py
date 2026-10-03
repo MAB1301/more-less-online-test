@@ -36,4 +36,27 @@ with tempfile.TemporaryDirectory() as temp:
     catalogue.write_text(json.dumps([record("tier-a", 10), record("tier-b", 20, unit="cm")]))
     builder.build(catalogue, output, root / "images")
     assert '"moreless":[]' in output.read_text(), "Different units must never be compared"
-print("OK: approval, semantic unit gate, and both crop formats")
+    left,right=record("tier-a",10),record("tier-b",20)
+    left["facts"][0]["exclude_with"]=["tier-b"]
+    catalogue.write_text(json.dumps([left,right]));builder.build(catalogue,output,root/"images")
+    assert '\"moreless\":[]' in output.read_text(), "Existing semantic comparisons must remain excluded"
+    trivia = root / "trivia.json"
+    fact = {"s": "Eine weitere Aussage.", "a": True, "e": "Begründung.", "cat": "Tierwelt", "source": "https://example.org/fact", "verified": "2026-10-03", "difficulty": "easy"}
+    clue = {"q": "Eine neue Frage?", "a": "Antwort|Alternative", "cat": "Tierwelt", "source": "https://example.org/fact", "verified": "2026-10-03", "difficulty": 4}
+    curated = {"status": "approved", "facts": [fact], "jeopardy": [clue]}
+    trivia.write_text(json.dumps(curated));builder.build(catalogue, output, root / "images", trivia)
+    pack = json.loads(output.read_text().removeprefix("window.GAME_CONTENT_PACK=").rstrip(";\n"))
+    assert pack["facts"][0]["a"] is True and pack["jeopardy"][0]["difficulty"] == 4
+    for invalid in ({**curated, "facts": [{**fact, "a": "false"}]}, {**curated, "jeopardy": [clue, clue]}, {**curated, "jeopardy": [{**clue, "subject": "unknown"}]}):
+        trivia.write_text(json.dumps(invalid))
+        try:
+            builder.build(catalogue, output, root / "images", trivia)
+        except ValueError:
+            pass
+        else:
+            raise AssertionError("Invalid curated trivia must be rejected")
+    trivia.write_text(json.dumps({**curated, "status": "draft"}));builder.build(catalogue, output, root / "images", trivia)
+    pack = json.loads(output.read_text().removeprefix("window.GAME_CONTENT_PACK=").rstrip(";\n"))
+    assert not pack["facts"] and not pack["jeopardy"], "Draft trivia must stay unpublished"
+print("OK: approval, semantic unit gate, exclusions, crops and curated trivia validation")
+

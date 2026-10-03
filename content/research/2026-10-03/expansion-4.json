@@ -1,0 +1,826 @@
+[
+  {
+    "name": "Merkur",
+    "facts": [
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Planetendichte",
+        "value": 5429,
+        "unit": "kg/m³",
+        "comparison_unit": "kg/m³ · mittlere Planetendichte",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche mittlere Dichte hat Merkur laut NASA ungefähr, in Kilogramm pro Kubikmeter?",
+        "notes": "Mittlere Dichte des gesamten Planeten, keine lokale Materialdichte."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Fluchtgeschwindigkeit",
+        "value": 4.3,
+        "unit": "km/s",
+        "comparison_unit": "km/s · Fluchtgeschwindigkeit",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche Fluchtgeschwindigkeit nennt die NASA für Merkur ungefähr, in Kilometern pro Sekunde?",
+        "notes": "Tabellenwert ohne Atmosphärenwiderstand; bei Gasplaneten am 1-bar-Niveau. Keine reale Raketen-Startgeschwindigkeit."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Bahngeschwindigkeit um die Sonne",
+        "value": 47.4,
+        "unit": "km/s",
+        "comparison_unit": "km/s · mittlere Bahngeschwindigkeit um die Sonne",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Mit welcher mittleren Geschwindigkeit bewegt sich Merkur laut NASA um die Sonne, in Kilometern pro Sekunde?",
+        "notes": "Gemittelte heliozentrische Bahngeschwindigkeit, keine momentane Geschwindigkeit oder Rotation."
+      }
+    ]
+  },
+  {
+    "name": "Venus",
+    "facts": [
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Planetendichte",
+        "value": 5243,
+        "unit": "kg/m³",
+        "comparison_unit": "kg/m³ · mittlere Planetendichte",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche mittlere Dichte hat Venus laut NASA ungefähr, in Kilogramm pro Kubikmeter?",
+        "notes": "Mittlere Dichte des gesamten Planeten, keine lokale Materialdichte."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Fluchtgeschwindigkeit",
+        "value": 10.4,
+        "unit": "km/s",
+        "comparison_unit": "km/s · Fluchtgeschwindigkeit",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche Fluchtgeschwindigkeit nennt die NASA für Venus ungefähr, in Kilometern pro Sekunde?",
+        "notes": "Tabellenwert ohne Atmosphärenwiderstand; bei Gasplaneten am 1-bar-Niveau. Keine reale Raketen-Startgeschwindigkeit."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Bahngeschwindigkeit um die Sonne",
+        "value": 35.0,
+        "unit": "km/s",
+        "comparison_unit": "km/s · mittlere Bahngeschwindigkeit um die Sonne",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Mit welcher mittleren Geschwindigkeit bewegt sich Venus laut NASA um die Sonne, in Kilometern pro Sekunde?",
+        "notes": "Gemittelte heliozentrische Bahngeschwindigkeit, keine momentane Geschwindigkeit oder Rotation."
+      }
+    ]
+  },
+  {
+    "name": "Erde",
+    "facts": [
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Planetendichte",
+        "value": 5514,
+        "unit": "kg/m³",
+        "comparison_unit": "kg/m³ · mittlere Planetendichte",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche mittlere Dichte hat Erde laut NASA ungefähr, in Kilogramm pro Kubikmeter?",
+        "notes": "Mittlere Dichte des gesamten Planeten, keine lokale Materialdichte."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Fluchtgeschwindigkeit",
+        "value": 11.2,
+        "unit": "km/s",
+        "comparison_unit": "km/s · Fluchtgeschwindigkeit",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche Fluchtgeschwindigkeit nennt die NASA für Erde ungefähr, in Kilometern pro Sekunde?",
+        "notes": "Tabellenwert ohne Atmosphärenwiderstand; bei Gasplaneten am 1-bar-Niveau. Keine reale Raketen-Startgeschwindigkeit."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Bahngeschwindigkeit um die Sonne",
+        "value": 29.8,
+        "unit": "km/s",
+        "comparison_unit": "km/s · mittlere Bahngeschwindigkeit um die Sonne",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Mit welcher mittleren Geschwindigkeit bewegt sich Erde laut NASA um die Sonne, in Kilometern pro Sekunde?",
+        "notes": "Gemittelte heliozentrische Bahngeschwindigkeit, keine momentane Geschwindigkeit oder Rotation."
+      }
+    ]
+  },
+  {
+    "name": "Mars",
+    "facts": [
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Planetendichte",
+        "value": 3934,
+        "unit": "kg/m³",
+        "comparison_unit": "kg/m³ · mittlere Planetendichte",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche mittlere Dichte hat Mars laut NASA ungefähr, in Kilogramm pro Kubikmeter?",
+        "notes": "Mittlere Dichte des gesamten Planeten, keine lokale Materialdichte."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Fluchtgeschwindigkeit",
+        "value": 5.0,
+        "unit": "km/s",
+        "comparison_unit": "km/s · Fluchtgeschwindigkeit",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche Fluchtgeschwindigkeit nennt die NASA für Mars ungefähr, in Kilometern pro Sekunde?",
+        "notes": "Tabellenwert ohne Atmosphärenwiderstand; bei Gasplaneten am 1-bar-Niveau. Keine reale Raketen-Startgeschwindigkeit."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Bahngeschwindigkeit um die Sonne",
+        "value": 24.1,
+        "unit": "km/s",
+        "comparison_unit": "km/s · mittlere Bahngeschwindigkeit um die Sonne",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Mit welcher mittleren Geschwindigkeit bewegt sich Mars laut NASA um die Sonne, in Kilometern pro Sekunde?",
+        "notes": "Gemittelte heliozentrische Bahngeschwindigkeit, keine momentane Geschwindigkeit oder Rotation."
+      }
+    ]
+  },
+  {
+    "name": "Jupiter",
+    "facts": [
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Planetendichte",
+        "value": 1326,
+        "unit": "kg/m³",
+        "comparison_unit": "kg/m³ · mittlere Planetendichte",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche mittlere Dichte hat Jupiter laut NASA ungefähr, in Kilogramm pro Kubikmeter?",
+        "notes": "Mittlere Dichte des gesamten Planeten, keine lokale Materialdichte."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Fluchtgeschwindigkeit",
+        "value": 59.5,
+        "unit": "km/s",
+        "comparison_unit": "km/s · Fluchtgeschwindigkeit",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche Fluchtgeschwindigkeit nennt die NASA für Jupiter ungefähr, in Kilometern pro Sekunde?",
+        "notes": "Tabellenwert ohne Atmosphärenwiderstand; bei Gasplaneten am 1-bar-Niveau. Keine reale Raketen-Startgeschwindigkeit."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Bahngeschwindigkeit um die Sonne",
+        "value": 13.1,
+        "unit": "km/s",
+        "comparison_unit": "km/s · mittlere Bahngeschwindigkeit um die Sonne",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Mit welcher mittleren Geschwindigkeit bewegt sich Jupiter laut NASA um die Sonne, in Kilometern pro Sekunde?",
+        "notes": "Gemittelte heliozentrische Bahngeschwindigkeit, keine momentane Geschwindigkeit oder Rotation."
+      }
+    ]
+  },
+  {
+    "name": "Saturn",
+    "facts": [
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Planetendichte",
+        "value": 687,
+        "unit": "kg/m³",
+        "comparison_unit": "kg/m³ · mittlere Planetendichte",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche mittlere Dichte hat Saturn laut NASA ungefähr, in Kilogramm pro Kubikmeter?",
+        "notes": "Mittlere Dichte des gesamten Planeten, keine lokale Materialdichte."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Fluchtgeschwindigkeit",
+        "value": 35.5,
+        "unit": "km/s",
+        "comparison_unit": "km/s · Fluchtgeschwindigkeit",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche Fluchtgeschwindigkeit nennt die NASA für Saturn ungefähr, in Kilometern pro Sekunde?",
+        "notes": "Tabellenwert ohne Atmosphärenwiderstand; bei Gasplaneten am 1-bar-Niveau. Keine reale Raketen-Startgeschwindigkeit."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Bahngeschwindigkeit um die Sonne",
+        "value": 9.7,
+        "unit": "km/s",
+        "comparison_unit": "km/s · mittlere Bahngeschwindigkeit um die Sonne",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Mit welcher mittleren Geschwindigkeit bewegt sich Saturn laut NASA um die Sonne, in Kilometern pro Sekunde?",
+        "notes": "Gemittelte heliozentrische Bahngeschwindigkeit, keine momentane Geschwindigkeit oder Rotation."
+      }
+    ]
+  },
+  {
+    "name": "Uranus",
+    "facts": [
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Planetendichte",
+        "value": 1270,
+        "unit": "kg/m³",
+        "comparison_unit": "kg/m³ · mittlere Planetendichte",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche mittlere Dichte hat Uranus laut NASA ungefähr, in Kilogramm pro Kubikmeter?",
+        "notes": "Mittlere Dichte des gesamten Planeten, keine lokale Materialdichte."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Fluchtgeschwindigkeit",
+        "value": 21.3,
+        "unit": "km/s",
+        "comparison_unit": "km/s · Fluchtgeschwindigkeit",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche Fluchtgeschwindigkeit nennt die NASA für Uranus ungefähr, in Kilometern pro Sekunde?",
+        "notes": "Tabellenwert ohne Atmosphärenwiderstand; bei Gasplaneten am 1-bar-Niveau. Keine reale Raketen-Startgeschwindigkeit."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Bahngeschwindigkeit um die Sonne",
+        "value": 6.8,
+        "unit": "km/s",
+        "comparison_unit": "km/s · mittlere Bahngeschwindigkeit um die Sonne",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Mit welcher mittleren Geschwindigkeit bewegt sich Uranus laut NASA um die Sonne, in Kilometern pro Sekunde?",
+        "notes": "Gemittelte heliozentrische Bahngeschwindigkeit, keine momentane Geschwindigkeit oder Rotation."
+      }
+    ]
+  },
+  {
+    "name": "Neptun",
+    "facts": [
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Planetendichte",
+        "value": 1638,
+        "unit": "kg/m³",
+        "comparison_unit": "kg/m³ · mittlere Planetendichte",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche mittlere Dichte hat Neptun laut NASA ungefähr, in Kilogramm pro Kubikmeter?",
+        "notes": "Mittlere Dichte des gesamten Planeten, keine lokale Materialdichte."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Fluchtgeschwindigkeit",
+        "value": 23.5,
+        "unit": "km/s",
+        "comparison_unit": "km/s · Fluchtgeschwindigkeit",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Welche Fluchtgeschwindigkeit nennt die NASA für Neptun ungefähr, in Kilometern pro Sekunde?",
+        "notes": "Tabellenwert ohne Atmosphärenwiderstand; bei Gasplaneten am 1-bar-Niveau. Keine reale Raketen-Startgeschwindigkeit."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Mittlere Bahngeschwindigkeit um die Sonne",
+        "value": 5.4,
+        "unit": "km/s",
+        "comparison_unit": "km/s · mittlere Bahngeschwindigkeit um die Sonne",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-03",
+        "estimate_question": "Mit welcher mittleren Geschwindigkeit bewegt sich Neptun laut NASA um die Sonne, in Kilometern pro Sekunde?",
+        "notes": "Gemittelte heliozentrische Bahngeschwindigkeit, keine momentane Geschwindigkeit oder Rotation."
+      }
+    ]
+  },
+  {
+    "id": "boron",
+    "name": "Bor",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/boron-card.svg",
+    "variants": {
+      "card": "research-4/boron-card.svg",
+      "detail": "research-4/boron-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 5,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/5/boron",
+        "verified": "2026-10-03",
+        "estimate_question": "Wie viele Protonen enthält ein Atomkern des Elements Bor?",
+        "notes": "Ordnungszahl gleich Protonenzahl. Grafik zeigt nur das Elementsymbol."
+      }
+    ]
+  },
+  {
+    "id": "fluorine",
+    "name": "Fluor",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/fluorine-card.svg",
+    "variants": {
+      "card": "research-4/fluorine-card.svg",
+      "detail": "research-4/fluorine-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 9,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/9/fluorine",
+        "verified": "2026-10-03",
+        "estimate_question": "Wie viele Protonen enthält ein Atomkern des Elements Fluor?",
+        "notes": "Ordnungszahl gleich Protonenzahl. Grafik zeigt nur das Elementsymbol."
+      }
+    ]
+  },
+  {
+    "id": "phosphorus",
+    "name": "Phosphor",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/phosphorus-card.svg",
+    "variants": {
+      "card": "research-4/phosphorus-card.svg",
+      "detail": "research-4/phosphorus-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 15,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/15/phosphorus",
+        "verified": "2026-10-03",
+        "estimate_question": "Wie viele Protonen enthält ein Atomkern des Elements Phosphor?",
+        "notes": "Ordnungszahl gleich Protonenzahl. Grafik zeigt nur das Elementsymbol."
+      }
+    ]
+  },
+  {
+    "id": "potassium",
+    "name": "Kalium",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/potassium-card.svg",
+    "variants": {
+      "card": "research-4/potassium-card.svg",
+      "detail": "research-4/potassium-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 19,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/19/potassium",
+        "verified": "2026-10-03",
+        "estimate_question": "Wie viele Protonen enthält ein Atomkern des Elements Kalium?",
+        "notes": "Ordnungszahl gleich Protonenzahl. Grafik zeigt nur das Elementsymbol."
+      }
+    ]
+  },
+  {
+    "id": "silver",
+    "name": "Silber",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/silver-card.svg",
+    "variants": {
+      "card": "research-4/silver-card.svg",
+      "detail": "research-4/silver-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 47,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/47/silver",
+        "verified": "2026-10-03",
+        "estimate_question": "Wie viele Protonen enthält ein Atomkern des Elements Silber?",
+        "notes": "Ordnungszahl gleich Protonenzahl. Grafik zeigt nur das Elementsymbol."
+      }
+    ]
+  },
+  {
+    "id": "gold",
+    "name": "Gold",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/gold-card.svg",
+    "variants": {
+      "card": "research-4/gold-card.svg",
+      "detail": "research-4/gold-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 79,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/79/gold",
+        "verified": "2026-10-03",
+        "estimate_question": "Wie viele Protonen enthält ein Atomkern des Elements Gold?",
+        "notes": "Ordnungszahl gleich Protonenzahl. Grafik zeigt nur das Elementsymbol."
+      }
+    ]
+  },
+  {
+    "id": "grand-teton",
+    "name": "Grand-Teton-Nationalpark",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/grand-teton-card.svg",
+    "variants": {
+      "card": "research-4/grand-teton-card.svg",
+      "detail": "research-4/grand-teton-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Natur",
+        "metric": "Gründungsjahr als Nationalpark",
+        "value": 1929,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Gründungsjahr als Nationalpark",
+        "source": "https://www.nps.gov/grte/learn/historyculture/cultural.htm",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr erhielt der Grand-Teton-Nationalpark erstmals den Status eines Nationalparks?",
+        "notes": "Erste Ausweisung als Nationalpark; nicht National Monument, Genehmigung, spätere Erweiterung oder Umbenennung."
+      }
+    ]
+  },
+  {
+    "id": "shenandoah",
+    "name": "Shenandoah-Nationalpark",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/shenandoah-card.svg",
+    "variants": {
+      "card": "research-4/shenandoah-card.svg",
+      "detail": "research-4/shenandoah-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Natur",
+        "metric": "Gründungsjahr als Nationalpark",
+        "value": 1935,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Gründungsjahr als Nationalpark",
+        "source": "https://www.nps.gov/shen/faqs.htm?fullweb=1",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr erhielt der Shenandoah-Nationalpark erstmals den Status eines Nationalparks?",
+        "notes": "Erste Ausweisung als Nationalpark; nicht National Monument, Genehmigung, spätere Erweiterung oder Umbenennung."
+      }
+    ]
+  },
+  {
+    "id": "arches",
+    "name": "Arches-Nationalpark",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/arches-card.svg",
+    "variants": {
+      "card": "research-4/arches-card.svg",
+      "detail": "research-4/arches-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Natur",
+        "metric": "Gründungsjahr als Nationalpark",
+        "value": 1971,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Gründungsjahr als Nationalpark",
+        "source": "https://www.nps.gov/articles/arch-timeline.htm",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr erhielt der Arches-Nationalpark erstmals den Status eines Nationalparks?",
+        "notes": "Erste Ausweisung als Nationalpark; nicht National Monument, Genehmigung, spätere Erweiterung oder Umbenennung."
+      }
+    ]
+  },
+  {
+    "id": "canyonlands",
+    "name": "Canyonlands-Nationalpark",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/canyonlands-card.svg",
+    "variants": {
+      "card": "research-4/canyonlands-card.svg",
+      "detail": "research-4/canyonlands-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Natur",
+        "metric": "Gründungsjahr als Nationalpark",
+        "value": 1964,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Gründungsjahr als Nationalpark",
+        "source": "https://www.nps.gov/cany/learn/historyculture/parkfounders.htm",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr erhielt der Canyonlands-Nationalpark erstmals den Status eines Nationalparks?",
+        "notes": "Erste Ausweisung als Nationalpark; nicht National Monument, Genehmigung, spätere Erweiterung oder Umbenennung."
+      }
+    ]
+  },
+  {
+    "id": "joshua-tree",
+    "name": "Joshua-Tree-Nationalpark",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/joshua-tree-card.svg",
+    "variants": {
+      "card": "research-4/joshua-tree-card.svg",
+      "detail": "research-4/joshua-tree-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Natur",
+        "metric": "Gründungsjahr als Nationalpark",
+        "value": 1994,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Gründungsjahr als Nationalpark",
+        "source": "https://www.nps.gov/jotr/learn/historyculture/parkhistory.htm",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr erhielt der Joshua-Tree-Nationalpark erstmals den Status eines Nationalparks?",
+        "notes": "Erste Ausweisung als Nationalpark; nicht National Monument, Genehmigung, spätere Erweiterung oder Umbenennung."
+      }
+    ]
+  },
+  {
+    "id": "explorer-1",
+    "name": "Explorer 1",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/explorer-1-card.svg",
+    "variants": {
+      "card": "research-4/explorer-1-card.svg",
+      "detail": "research-4/explorer-1-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Raumfahrt",
+        "metric": "Startjahr der Mission",
+        "value": 1958,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Startjahr der Mission",
+        "source": "https://science.nasa.gov/mission/explorer-1/",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr startete die Raumfahrtmission Explorer 1 von der Erde?",
+        "notes": "Startjahr, nicht Jahr des Vorbeiflugs oder der Ankunft am Ziel. Missionsgrafik ist ein allgemeines Symbol, kein maßstabsgetreues Sondenmodell."
+      }
+    ]
+  },
+  {
+    "id": "mariner-2",
+    "name": "Mariner 2",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/mariner-2-card.svg",
+    "variants": {
+      "card": "research-4/mariner-2-card.svg",
+      "detail": "research-4/mariner-2-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Raumfahrt",
+        "metric": "Startjahr der Mission",
+        "value": 1962,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Startjahr der Mission",
+        "source": "https://science.nasa.gov/mission/mariner-2/",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr startete die Raumfahrtmission Mariner 2 von der Erde?",
+        "notes": "Startjahr, nicht Jahr des Vorbeiflugs oder der Ankunft am Ziel. Missionsgrafik ist ein allgemeines Symbol, kein maßstabsgetreues Sondenmodell."
+      }
+    ]
+  },
+  {
+    "id": "pioneer-10",
+    "name": "Pioneer 10",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/pioneer-10-card.svg",
+    "variants": {
+      "card": "research-4/pioneer-10-card.svg",
+      "detail": "research-4/pioneer-10-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Raumfahrt",
+        "metric": "Startjahr der Mission",
+        "value": 1972,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Startjahr der Mission",
+        "source": "https://science.nasa.gov/mission/pioneer-10/",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr startete die Raumfahrtmission Pioneer 10 von der Erde?",
+        "notes": "Startjahr, nicht Jahr des Vorbeiflugs oder der Ankunft am Ziel. Missionsgrafik ist ein allgemeines Symbol, kein maßstabsgetreues Sondenmodell."
+      }
+    ]
+  },
+  {
+    "id": "galileo",
+    "name": "Galileo",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/galileo-card.svg",
+    "variants": {
+      "card": "research-4/galileo-card.svg",
+      "detail": "research-4/galileo-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Raumfahrt",
+        "metric": "Startjahr der Mission",
+        "value": 1989,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Startjahr der Mission",
+        "source": "https://science.nasa.gov/mission/galileo/",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr startete die Raumfahrtmission Galileo von der Erde?",
+        "notes": "Startjahr, nicht Jahr des Vorbeiflugs oder der Ankunft am Ziel. Missionsgrafik ist ein allgemeines Symbol, kein maßstabsgetreues Sondenmodell."
+      }
+    ]
+  },
+  {
+    "id": "juno",
+    "name": "Juno",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/juno-card.svg",
+    "variants": {
+      "card": "research-4/juno-card.svg",
+      "detail": "research-4/juno-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Raumfahrt",
+        "metric": "Startjahr der Mission",
+        "value": 2011,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Startjahr der Mission",
+        "source": "https://www.jpl.nasa.gov/missions/juno/",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr startete die Raumfahrtmission Juno von der Erde?",
+        "notes": "Startjahr, nicht Jahr des Vorbeiflugs oder der Ankunft am Ziel. Missionsgrafik ist ein allgemeines Symbol, kein maßstabsgetreues Sondenmodell."
+      }
+    ]
+  },
+  {
+    "id": "rome",
+    "name": "Historisches Zentrum von Rom",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/rome-card.svg",
+    "variants": {
+      "card": "research-4/rome-card.svg",
+      "detail": "research-4/rome-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Weltkultur",
+        "metric": "Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "value": 1980,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "source": "https://whc.unesco.org/en/list/91/",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr wurde die Welterbestätte Historisches Zentrum von Rom erstmals in die UNESCO-Welterbeliste aufgenommen?",
+        "notes": "Erste Einschreibung der gesamten Welterbestätte; nicht Baujahr, Entdeckung oder spätere Erweiterung."
+      }
+    ]
+  },
+  {
+    "id": "machu-picchu",
+    "name": "Machu Picchu",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/machu-picchu-card.svg",
+    "variants": {
+      "card": "research-4/machu-picchu-card.svg",
+      "detail": "research-4/machu-picchu-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Weltkultur",
+        "metric": "Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "value": 1983,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "source": "https://whc.unesco.org/en/list/274/",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr wurde die Welterbestätte Machu Picchu erstmals in die UNESCO-Welterbeliste aufgenommen?",
+        "notes": "Erste Einschreibung der gesamten Welterbestätte; nicht Baujahr, Entdeckung oder spätere Erweiterung."
+      }
+    ]
+  },
+  {
+    "id": "petra",
+    "name": "Petra",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/petra-card.svg",
+    "variants": {
+      "card": "research-4/petra-card.svg",
+      "detail": "research-4/petra-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Weltkultur",
+        "metric": "Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "value": 1985,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "source": "https://whc.unesco.org/en/list/326/",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr wurde die Welterbestätte Petra erstmals in die UNESCO-Welterbeliste aufgenommen?",
+        "notes": "Erste Einschreibung der gesamten Welterbestätte; nicht Baujahr, Entdeckung oder spätere Erweiterung."
+      }
+    ]
+  },
+  {
+    "id": "angkor",
+    "name": "Angkor",
+    "status": "approved",
+    "image": "../assets/visuals/research-4/angkor-card.svg",
+    "variants": {
+      "card": "research-4/angkor-card.svg",
+      "detail": "research-4/angkor-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/research-4/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Weltkultur",
+        "metric": "Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "value": 1992,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Erstes UNESCO-Welterbe-Einschreibungsjahr",
+        "source": "https://whc.unesco.org/en/list/668/",
+        "verified": "2026-10-03",
+        "estimate_question": "In welchem Jahr wurde die Welterbestätte Angkor erstmals in die UNESCO-Welterbeliste aufgenommen?",
+        "notes": "Erste Einschreibung der gesamten Welterbestätte; nicht Baujahr, Entdeckung oder spätere Erweiterung."
+      }
+    ]
+  }
+]

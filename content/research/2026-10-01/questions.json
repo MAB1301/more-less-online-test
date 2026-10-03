@@ -1,0 +1,1440 @@
+{
+  "status": "review-only",
+  "release_blockers": [
+    "Complete subject-specific images, rights/credits and crop review",
+    "Editorial review, especially approximate gestation and dated record values",
+    "Import into approved catalogue, regenerate approved.js and run client regression"
+  ],
+  "moreless": [
+    {
+      "id": "austria-area--switzerland-area",
+      "l": "Österreich",
+      "r": "Schweiz",
+      "lv": 83884,
+      "rv": 41285,
+      "u": "km²",
+      "cat": "Länder",
+      "metric": "Staatsfläche",
+      "sub": "Fläche",
+      "prompt": "Welches Land hat die größere Staatsfläche?",
+      "correct": "left",
+      "sources": [
+        "https://www.statistik.at/fileadmin/publications/OZDF-DE-25-26.pdf",
+        "https://www.aboutswitzerland.eda.admin.ch/de/geografie"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "Gerundeter Veröffentlichungswert, nicht der ältere Wert 83.879.",
+        "Gesamtes Staatsgebiet, einschließlich Binnengewässer."
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "austria-area--belgium-area",
+      "l": "Österreich",
+      "r": "Belgien",
+      "lv": 83884,
+      "rv": 30689,
+      "u": "km²",
+      "cat": "Länder",
+      "metric": "Staatsfläche",
+      "sub": "Fläche",
+      "prompt": "Welches Land hat die größere Staatsfläche?",
+      "correct": "left",
+      "sources": [
+        "https://www.statistik.at/fileadmin/publications/OZDF-DE-25-26.pdf",
+        "https://statbel.fgov.be/en/quiz"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "Gerundeter Veröffentlichungswert, nicht der ältere Wert 83.879.",
+        "Staatsfläche; unterschiedliche Vermessungsstände sind bei engen Vergleichen zu beachten."
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "switzerland-area--belgium-area",
+      "l": "Schweiz",
+      "r": "Belgien",
+      "lv": 41285,
+      "rv": 30689,
+      "u": "km²",
+      "cat": "Länder",
+      "metric": "Staatsfläche",
+      "sub": "Fläche",
+      "prompt": "Welches Land hat die größere Staatsfläche?",
+      "correct": "left",
+      "sources": [
+        "https://www.aboutswitzerland.eda.admin.ch/de/geografie",
+        "https://statbel.fgov.be/en/quiz"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "Gesamtes Staatsgebiet, einschließlich Binnengewässer.",
+        "Staatsfläche; unterschiedliche Vermessungsstände sind bei engen Vergleichen zu beachten."
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "berlin-districts--hamburg-districts",
+      "l": "Berlin",
+      "r": "Hamburg",
+      "lv": 12,
+      "rv": 7,
+      "u": "Bezirke",
+      "cat": "Städte",
+      "metric": "Verwaltungsbezirke",
+      "sub": "Verwaltungsbezirke",
+      "prompt": "Welche Stadt hat mehr Verwaltungsbezirke?",
+      "correct": "left",
+      "sources": [
+        "https://willkommenszentrum.berlin.de/glossary/bezirk",
+        "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/themen/bezirke-und-bezirksverwaltung"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "",
+        ""
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "berlin-districts--vienna-districts",
+      "l": "Berlin",
+      "r": "Wien",
+      "lv": 12,
+      "rv": 23,
+      "u": "Bezirke",
+      "cat": "Städte",
+      "metric": "Verwaltungsbezirke",
+      "sub": "Verwaltungsbezirke",
+      "prompt": "Welche Stadt hat mehr Verwaltungsbezirke?",
+      "correct": "right",
+      "sources": [
+        "https://willkommenszentrum.berlin.de/glossary/bezirk",
+        "https://www.wien.gv.at/statistik/bezirksdaten"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "",
+        "Verglichen wird ausschließlich die Anzahl; die Bezirke haben nicht dieselben Kompetenzen."
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "hamburg-districts--vienna-districts",
+      "l": "Hamburg",
+      "r": "Wien",
+      "lv": 7,
+      "rv": 23,
+      "u": "Bezirke",
+      "cat": "Städte",
+      "metric": "Verwaltungsbezirke",
+      "sub": "Verwaltungsbezirke",
+      "prompt": "Welche Stadt hat mehr Verwaltungsbezirke?",
+      "correct": "right",
+      "sources": [
+        "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/themen/bezirke-und-bezirksverwaltung",
+        "https://www.wien.gv.at/statistik/bezirksdaten"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "",
+        "Verglichen wird ausschließlich die Anzahl; die Bezirke haben nicht dieselben Kompetenzen."
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "yellowstone-founded--yosemite-founded",
+      "l": "Yellowstone-Nationalpark",
+      "r": "Yosemite-Nationalpark",
+      "lv": 1872,
+      "rv": 1890,
+      "u": "Jahr",
+      "cat": "Natur",
+      "metric": "Gründungsjahr als Nationalpark",
+      "sub": "Nationalparks",
+      "prompt": "Welcher Nationalpark wurde später gegründet?",
+      "correct": "right",
+      "sources": [
+        "https://www.nps.gov/yell/planyourvisit/parkfacts.htm",
+        "https://www.nps.gov/yose/learn/news/yosemite-national-park-commemorates-124th-anniversary.htm"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "",
+        "Nationalpark 1890; Yosemite Grant von 1864 ist eine andere Schutzentscheidung."
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "yellowstone-founded--grand-canyon-founded",
+      "l": "Yellowstone-Nationalpark",
+      "r": "Grand-Canyon-Nationalpark",
+      "lv": 1872,
+      "rv": 1919,
+      "u": "Jahr",
+      "cat": "Natur",
+      "metric": "Gründungsjahr als Nationalpark",
+      "sub": "Nationalparks",
+      "prompt": "Welcher Nationalpark wurde später gegründet?",
+      "correct": "right",
+      "sources": [
+        "https://www.nps.gov/yell/planyourvisit/parkfacts.htm",
+        "https://www.nps.gov/grca/learn/historyculture/thenandnow.htm"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "",
+        "National Monument 1908 und Nationalpark 1919 unterscheiden."
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "yosemite-founded--grand-canyon-founded",
+      "l": "Yosemite-Nationalpark",
+      "r": "Grand-Canyon-Nationalpark",
+      "lv": 1890,
+      "rv": 1919,
+      "u": "Jahr",
+      "cat": "Natur",
+      "metric": "Gründungsjahr als Nationalpark",
+      "sub": "Nationalparks",
+      "prompt": "Welcher Nationalpark wurde später gegründet?",
+      "correct": "right",
+      "sources": [
+        "https://www.nps.gov/yose/learn/news/yosemite-national-park-commemorates-124th-anniversary.htm",
+        "https://www.nps.gov/grca/learn/historyculture/thenandnow.htm"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "Nationalpark 1890; Yosemite Grant von 1864 ist eine andere Schutzentscheidung.",
+        "National Monument 1908 und Nationalpark 1919 unterscheiden."
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "football-players--basketball-players",
+      "l": "Fußball (elf gegen elf)",
+      "r": "Basketball (fünf gegen fünf)",
+      "lv": 11,
+      "rv": 5,
+      "u": "Spieler",
+      "cat": "Sport",
+      "metric": "Reguläre Spielerzahl je Team auf dem Feld",
+      "sub": "Teamgrößen",
+      "prompt": "Bei welcher Sportart stehen regulär mehr Spieler eines Teams gleichzeitig auf dem Feld?",
+      "correct": "left",
+      "sources": [
+        "https://theifab.com/laws/latest/the-players/",
+        "https://about.fiba.basketball/en/our-sport/basketball"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "",
+        ""
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "football-players--volleyball-players",
+      "l": "Fußball (elf gegen elf)",
+      "r": "Hallenvolleyball",
+      "lv": 11,
+      "rv": 6,
+      "u": "Spieler",
+      "cat": "Sport",
+      "metric": "Reguläre Spielerzahl je Team auf dem Feld",
+      "sub": "Teamgrößen",
+      "prompt": "Bei welcher Sportart stehen regulär mehr Spieler eines Teams gleichzeitig auf dem Feld?",
+      "correct": "left",
+      "sources": [
+        "https://theifab.com/laws/latest/the-players/",
+        "https://www.fivb.com/volleyball/the-game/basic-rules/"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "",
+        "Keine Ersatzspieler, Beachvolleyball oder 3×3 mitzählen."
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "basketball-players--volleyball-players",
+      "l": "Basketball (fünf gegen fünf)",
+      "r": "Hallenvolleyball",
+      "lv": 5,
+      "rv": 6,
+      "u": "Spieler",
+      "cat": "Sport",
+      "metric": "Reguläre Spielerzahl je Team auf dem Feld",
+      "sub": "Teamgrößen",
+      "prompt": "Bei welcher Sportart stehen regulär mehr Spieler eines Teams gleichzeitig auf dem Feld?",
+      "correct": "right",
+      "sources": [
+        "https://about.fiba.basketball/en/our-sport/basketball",
+        "https://www.fivb.com/volleyball/the-game/basic-rules/"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "",
+        "Keine Ersatzspieler, Beachvolleyball oder 3×3 mitzählen."
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "eiffel-opened--esb-opened",
+      "l": "Eiffelturm",
+      "r": "Empire State Building",
+      "lv": 1889,
+      "rv": 1931,
+      "u": "Jahr",
+      "cat": "Bauwerke",
+      "metric": "Jahr der offiziellen Eröffnung",
+      "sub": "Eröffnungsjahre",
+      "prompt": "Welches Bauwerk wurde später offiziell eröffnet?",
+      "correct": "right",
+      "sources": [
+        "https://www.toureiffel.paris/en/news/history-and-culture/why-does-eiffel-tower-change-size",
+        "https://www.esbnyc.com/about/history"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "",
+        ""
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "eiffel-opened--burj-opened",
+      "l": "Eiffelturm",
+      "r": "Burj Khalifa",
+      "lv": 1889,
+      "rv": 2010,
+      "u": "Jahr",
+      "cat": "Bauwerke",
+      "metric": "Jahr der offiziellen Eröffnung",
+      "sub": "Eröffnungsjahre",
+      "prompt": "Welches Bauwerk wurde später offiziell eröffnet?",
+      "correct": "right",
+      "sources": [
+        "https://www.toureiffel.paris/en/news/history-and-culture/why-does-eiffel-tower-change-size",
+        "https://www.emaar.com/en/other-emaar-businesses/burj-khalifa"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "",
+        ""
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "esb-opened--burj-opened",
+      "l": "Empire State Building",
+      "r": "Burj Khalifa",
+      "lv": 1931,
+      "rv": 2010,
+      "u": "Jahr",
+      "cat": "Bauwerke",
+      "metric": "Jahr der offiziellen Eröffnung",
+      "sub": "Eröffnungsjahre",
+      "prompt": "Welches Bauwerk wurde später offiziell eröffnet?",
+      "correct": "right",
+      "sources": [
+        "https://www.esbnyc.com/about/history",
+        "https://www.emaar.com/en/other-emaar-businesses/burj-khalifa"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "",
+        ""
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "elephant-gestation--giraffe-gestation",
+      "l": "Elefant",
+      "r": "Giraffe",
+      "lv": 21,
+      "rv": 14,
+      "u": "Monate ungefähr",
+      "cat": "Tierwelt",
+      "metric": "Tragzeit als grober Spielrichtwert",
+      "sub": "Fortpflanzung",
+      "prompt": "Welches Tier hat nach diesen groben Richtwerten die längere Tragzeit?",
+      "correct": "left",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/elephant",
+        "https://animals.sandiegozoo.org/animals/giraffe"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "Quelle: 20–22 Monate. 21 ist der berechnete Mittelpunkt, keine behauptete exakte oder empirische Durchschnittsmessung. Für Schätzspiel eine Toleranz von mindestens ±1 Monat verwenden.",
+        "Veröffentlichter Richtwert 14 Monate; keine individuelle exakte Dauer."
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "elephant-gestation--lion-gestation",
+      "l": "Elefant",
+      "r": "Löwe",
+      "lv": 21,
+      "rv": 4,
+      "u": "Monate ungefähr",
+      "cat": "Tierwelt",
+      "metric": "Tragzeit als grober Spielrichtwert",
+      "sub": "Fortpflanzung",
+      "prompt": "Welches Tier hat nach diesen groben Richtwerten die längere Tragzeit?",
+      "correct": "left",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/elephant",
+        "https://animals.sandiegozoo.org/animals/lion"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "Quelle: 20–22 Monate. 21 ist der berechnete Mittelpunkt, keine behauptete exakte oder empirische Durchschnittsmessung. Für Schätzspiel eine Toleranz von mindestens ±1 Monat verwenden.",
+        "Quelle: fast vier Monate. Als Spielrichtwert auf vier gerundet; nicht exakt vier."
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "giraffe-gestation--lion-gestation",
+      "l": "Giraffe",
+      "r": "Löwe",
+      "lv": 14,
+      "rv": 4,
+      "u": "Monate ungefähr",
+      "cat": "Tierwelt",
+      "metric": "Tragzeit als grober Spielrichtwert",
+      "sub": "Fortpflanzung",
+      "prompt": "Welches Tier hat nach diesen groben Richtwerten die längere Tragzeit?",
+      "correct": "left",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/giraffe",
+        "https://animals.sandiegozoo.org/animals/lion"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "Veröffentlichter Richtwert 14 Monate; keine individuelle exakte Dauer.",
+        "Quelle: fast vier Monate. Als Spielrichtwert auf vier gerundet; nicht exakt vier."
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "mbappe-born--haaland-born",
+      "l": "Kylian Mbappé",
+      "r": "Erling Haaland",
+      "lv": 1998,
+      "rv": 2000,
+      "u": "Jahr",
+      "cat": "Fußballer",
+      "metric": "Geburtsjahr",
+      "sub": "Geburtsjahre",
+      "prompt": "Welcher Fußballer wurde später geboren?",
+      "correct": "right",
+      "sources": [
+        "https://www.realmadrid.com/de-DE/fussball/erste-mannshaft/spieler/kylian-mbappe",
+        "https://live.mancity.com/news/mens/erling-haaland-10-things-factfile-63790703"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "",
+        ""
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "mbappe-born--bellingham-born",
+      "l": "Kylian Mbappé",
+      "r": "Jude Bellingham",
+      "lv": 1998,
+      "rv": 2003,
+      "u": "Jahr",
+      "cat": "Fußballer",
+      "metric": "Geburtsjahr",
+      "sub": "Geburtsjahre",
+      "prompt": "Welcher Fußballer wurde später geboren?",
+      "correct": "right",
+      "sources": [
+        "https://www.realmadrid.com/de-DE/fussball/erste-mannshaft/spieler/kylian-mbappe",
+        "https://www.realmadrid.com/de-DE/fussball/erste-mannshaft/spieler/jude-bellingham"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "",
+        ""
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "haaland-born--bellingham-born",
+      "l": "Erling Haaland",
+      "r": "Jude Bellingham",
+      "lv": 2000,
+      "rv": 2003,
+      "u": "Jahr",
+      "cat": "Fußballer",
+      "metric": "Geburtsjahr",
+      "sub": "Geburtsjahre",
+      "prompt": "Welcher Fußballer wurde später geboren?",
+      "correct": "right",
+      "sources": [
+        "https://live.mancity.com/news/mens/erling-haaland-10-things-factfile-63790703",
+        "https://www.realmadrid.com/de-DE/fussball/erste-mannshaft/spieler/jude-bellingham"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "",
+        ""
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "296-cylinders--sf90-cylinders",
+      "l": "Ferrari 296 GTB",
+      "r": "Ferrari SF90 Stradale",
+      "lv": 6,
+      "rv": 8,
+      "u": "Zylinder",
+      "cat": "Autos",
+      "metric": "Zylinderzahl des Verbrennungsmotors",
+      "sub": "Zylinderzahl",
+      "prompt": "Welches Auto hat mehr Zylinder im Verbrennungsmotor?",
+      "correct": "right",
+      "sources": [
+        "https://www.ferrari.com/content/dam/ferrari-fcom/old/pdf/CS_296_GTB_final_gbr.pdf",
+        "https://cdn.ferrari.com/cms/network/media/pdf/pr_ferrari_sf90_stradale_gbr.pdf"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "Elektromotoren nicht mitzählen.",
+        "Elektromotoren nicht mitzählen."
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "296-cylinders--12cilindri-cylinders",
+      "l": "Ferrari 296 GTB",
+      "r": "Ferrari 12Cilindri",
+      "lv": 6,
+      "rv": 12,
+      "u": "Zylinder",
+      "cat": "Autos",
+      "metric": "Zylinderzahl des Verbrennungsmotors",
+      "sub": "Zylinderzahl",
+      "prompt": "Welches Auto hat mehr Zylinder im Verbrennungsmotor?",
+      "correct": "right",
+      "sources": [
+        "https://www.ferrari.com/content/dam/ferrari-fcom/old/pdf/CS_296_GTB_final_gbr.pdf",
+        "https://www.ferrari.com/content/dam/ferrari-fcom/news/corporate/2026/01/pdf/CS_12Cilindri_Tailor_Made_gbr.pdf"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "Elektromotoren nicht mitzählen.",
+        ""
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "sf90-cylinders--12cilindri-cylinders",
+      "l": "Ferrari SF90 Stradale",
+      "r": "Ferrari 12Cilindri",
+      "lv": 8,
+      "rv": 12,
+      "u": "Zylinder",
+      "cat": "Autos",
+      "metric": "Zylinderzahl des Verbrennungsmotors",
+      "sub": "Zylinderzahl",
+      "prompt": "Welches Auto hat mehr Zylinder im Verbrennungsmotor?",
+      "correct": "right",
+      "sources": [
+        "https://cdn.ferrari.com/cms/network/media/pdf/pr_ferrari_sf90_stradale_gbr.pdf",
+        "https://www.ferrari.com/content/dam/ferrari-fcom/news/corporate/2026/01/pdf/CS_12Cilindri_Tailor_Made_gbr.pdf"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "Elektromotoren nicht mitzählen.",
+        ""
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "mercury-orbit--venus-orbit",
+      "l": "Merkur",
+      "r": "Venus",
+      "lv": 88,
+      "rv": 224.7,
+      "u": "Erdtage",
+      "cat": "Weltraum",
+      "metric": "Umlaufdauer um die Sonne",
+      "sub": "Rotation & Umlauf",
+      "prompt": "Welcher Planet braucht länger für einen Umlauf um die Sonne?",
+      "correct": "right",
+      "sources": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "NASA-Tabellenstand 18.03.2025.",
+        "Umlaufdauer, nicht Rotation oder Sonnentag."
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "mercury-orbit--mars-orbit",
+      "l": "Merkur",
+      "r": "Mars",
+      "lv": 88,
+      "rv": 687,
+      "u": "Erdtage",
+      "cat": "Weltraum",
+      "metric": "Umlaufdauer um die Sonne",
+      "sub": "Rotation & Umlauf",
+      "prompt": "Welcher Planet braucht länger für einen Umlauf um die Sonne?",
+      "correct": "right",
+      "sources": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "NASA-Tabellenstand 18.03.2025.",
+        ""
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "venus-orbit--mars-orbit",
+      "l": "Venus",
+      "r": "Mars",
+      "lv": 224.7,
+      "rv": 687,
+      "u": "Erdtage",
+      "cat": "Weltraum",
+      "metric": "Umlaufdauer um die Sonne",
+      "sub": "Rotation & Umlauf",
+      "prompt": "Welcher Planet braucht länger für einen Umlauf um die Sonne?",
+      "correct": "right",
+      "sources": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "Umlaufdauer, nicht Rotation oder Sonnentag.",
+        ""
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "carbon-number--oxygen-number",
+      "l": "Kohlenstoff",
+      "r": "Sauerstoff",
+      "lv": 6,
+      "rv": 8,
+      "u": "Protonen",
+      "cat": "Wissenschaft",
+      "metric": "Ordnungszahl",
+      "sub": "Chemie",
+      "prompt": "Welches Element hat mehr Protonen im Atomkern?",
+      "correct": "right",
+      "sources": [
+        "https://periodic-table.rsc.org/element/6/Carbon",
+        "https://periodic-table.rsc.org/element/8/Oxygen"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "",
+        ""
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "carbon-number--iron-number",
+      "l": "Kohlenstoff",
+      "r": "Eisen",
+      "lv": 6,
+      "rv": 26,
+      "u": "Protonen",
+      "cat": "Wissenschaft",
+      "metric": "Ordnungszahl",
+      "sub": "Chemie",
+      "prompt": "Welches Element hat mehr Protonen im Atomkern?",
+      "correct": "right",
+      "sources": [
+        "https://periodic-table.rsc.org/element/6/Carbon",
+        "https://periodic-table.rsc.org/element/26/iron"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "",
+        ""
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "oxygen-number--iron-number",
+      "l": "Sauerstoff",
+      "r": "Eisen",
+      "lv": 8,
+      "rv": 26,
+      "u": "Protonen",
+      "cat": "Wissenschaft",
+      "metric": "Ordnungszahl",
+      "sub": "Chemie",
+      "prompt": "Welches Element hat mehr Protonen im Atomkern?",
+      "correct": "right",
+      "sources": [
+        "https://periodic-table.rsc.org/element/8/Oxygen",
+        "https://periodic-table.rsc.org/element/26/iron"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "",
+        ""
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "poker-cards--set-cards",
+      "l": "Standard-Kartendeck ohne Joker",
+      "r": "SET (Grundspiel)",
+      "lv": 52,
+      "rv": 81,
+      "u": "Karten",
+      "cat": "Allgemeinwissen",
+      "metric": "Karten im vollständigen Grunddeck",
+      "sub": "Kartenspiele",
+      "prompt": "Welches der angegebenen Grunddecks enthält mehr Karten?",
+      "correct": "right",
+      "sources": [
+        "https://de.bicyclecards.com/game-rules/spades/",
+        "https://www.setgame.com/sites/default/files/set_catalogsmall.pdf"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "Bereits bekanntes Motiv als Vergleichspartner für die neuen Decks. Kein neu entdeckter Fakt.",
+        ""
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "poker-cards--uno-cards",
+      "l": "Standard-Kartendeck ohne Joker",
+      "r": "UNO (Ausgabe W2085)",
+      "lv": 52,
+      "rv": 108,
+      "u": "Karten",
+      "cat": "Allgemeinwissen",
+      "metric": "Karten im vollständigen Grunddeck",
+      "sub": "Kartenspiele",
+      "prompt": "Welches der angegebenen Grunddecks enthält mehr Karten?",
+      "correct": "right",
+      "sources": [
+        "https://de.bicyclecards.com/game-rules/spades/",
+        "https://service.mattel.com/us/productPopup.aspx?prodno=W2085&siteid=27"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "Bereits bekanntes Motiv als Vergleichspartner für die neuen Decks. Kein neu entdeckter Fakt.",
+        "Ausgabe explizit genannt, weil andere UNO-Ausgaben mehr Karten enthalten."
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "set-cards--uno-cards",
+      "l": "SET (Grundspiel)",
+      "r": "UNO (Ausgabe W2085)",
+      "lv": 81,
+      "rv": 108,
+      "u": "Karten",
+      "cat": "Allgemeinwissen",
+      "metric": "Karten im vollständigen Grunddeck",
+      "sub": "Kartenspiele",
+      "prompt": "Welches der angegebenen Grunddecks enthält mehr Karten?",
+      "correct": "right",
+      "sources": [
+        "https://www.setgame.com/sites/default/files/set_catalogsmall.pdf",
+        "https://service.mattel.com/us/productPopup.aspx?prodno=W2085&siteid=27"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "",
+        "Ausgabe explizit genannt, weil andere UNO-Ausgaben mehr Karten enthalten."
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "400m-record--800m-record",
+      "l": "400-m-Weltrekord Männer",
+      "r": "800-m-Weltrekord Männer",
+      "lv": 43.03,
+      "rv": 100.91,
+      "u": "Sekunden",
+      "cat": "Rekorde & Extreme",
+      "metric": "Weltrekordzeit Männer im Freien · WA-Veröffentlichung September 2026",
+      "sub": "Sportrekorde",
+      "prompt": "Welche der angegebenen Männer-Weltrekordzeiten ist länger?",
+      "correct": "right",
+      "sources": [
+        "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship",
+        "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "Wayde van Niekerk; vorhandener Richtwert als neuer Vergleichspartner.",
+        "David Rudisha; Minuten in Sekunden umgerechnet."
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "400m-record--1500m-record",
+      "l": "400-m-Weltrekord Männer",
+      "r": "1500-m-Weltrekord Männer",
+      "lv": 43.03,
+      "rv": 206,
+      "u": "Sekunden",
+      "cat": "Rekorde & Extreme",
+      "metric": "Weltrekordzeit Männer im Freien · WA-Veröffentlichung September 2026",
+      "sub": "Sportrekorde",
+      "prompt": "Welche der angegebenen Männer-Weltrekordzeiten ist länger?",
+      "correct": "right",
+      "sources": [
+        "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship",
+        "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "Wayde van Niekerk; vorhandener Richtwert als neuer Vergleichspartner.",
+        "Hicham El Guerrouj; Minuten in Sekunden umgerechnet. Snapshot, keine dauerhafte Aktualitätszusage."
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "800m-record--1500m-record",
+      "l": "800-m-Weltrekord Männer",
+      "r": "1500-m-Weltrekord Männer",
+      "lv": 100.91,
+      "rv": 206,
+      "u": "Sekunden",
+      "cat": "Rekorde & Extreme",
+      "metric": "Weltrekordzeit Männer im Freien · WA-Veröffentlichung September 2026",
+      "sub": "Sportrekorde",
+      "prompt": "Welche der angegebenen Männer-Weltrekordzeiten ist länger?",
+      "correct": "right",
+      "sources": [
+        "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship",
+        "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "David Rudisha; Minuten in Sekunden umgerechnet.",
+        "Hicham El Guerrouj; Minuten in Sekunden umgerechnet. Snapshot, keine dauerhafte Aktualitätszusage."
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "sputnik-launch--hubble-launch",
+      "l": "Sputnik 1",
+      "r": "Hubble-Weltraumteleskop",
+      "lv": 1957,
+      "rv": 1990,
+      "u": "Jahr",
+      "cat": "Raumfahrt",
+      "metric": "Startjahr der Mission",
+      "sub": "Missionsgeschichte",
+      "prompt": "Welche Mission wurde später gestartet?",
+      "correct": "right",
+      "sources": [
+        "https://science.nasa.gov/mission/hubble/overview/hubble-timeline/hubble-history-timeline-full-text/",
+        "https://www.nasa.gov/history/hubble/"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "",
+        ""
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "sputnik-launch--webb-launch",
+      "l": "Sputnik 1",
+      "r": "James-Webb-Weltraumteleskop",
+      "lv": 1957,
+      "rv": 2021,
+      "u": "Jahr",
+      "cat": "Raumfahrt",
+      "metric": "Startjahr der Mission",
+      "sub": "Missionsgeschichte",
+      "prompt": "Welche Mission wurde später gestartet?",
+      "correct": "right",
+      "sources": [
+        "https://science.nasa.gov/mission/hubble/overview/hubble-timeline/hubble-history-timeline-full-text/",
+        "https://science.nasa.gov/mission/webb/launch/"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "",
+        ""
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "hubble-launch--webb-launch",
+      "l": "Hubble-Weltraumteleskop",
+      "r": "James-Webb-Weltraumteleskop",
+      "lv": 1990,
+      "rv": 2021,
+      "u": "Jahr",
+      "cat": "Raumfahrt",
+      "metric": "Startjahr der Mission",
+      "sub": "Missionsgeschichte",
+      "prompt": "Welche Mission wurde später gestartet?",
+      "correct": "right",
+      "sources": [
+        "https://www.nasa.gov/history/hubble/",
+        "https://science.nasa.gov/mission/webb/launch/"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "",
+        ""
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "aachen-unesco--taj-unesco",
+      "l": "Aachener Dom",
+      "r": "Taj Mahal",
+      "lv": 1978,
+      "rv": 1983,
+      "u": "Jahr",
+      "cat": "Weltkultur",
+      "metric": "Erstes UNESCO-Welterbe-Einschreibungsjahr",
+      "sub": "UNESCO",
+      "prompt": "Welches Bauwerk wurde später erstmals UNESCO-Welterbe?",
+      "correct": "right",
+      "sources": [
+        "https://whc.unesco.org/en/list/3/",
+        "https://whc.unesco.org/en/list/252/"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "",
+        ""
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "aachen-unesco--sydney-unesco",
+      "l": "Aachener Dom",
+      "r": "Opernhaus Sydney",
+      "lv": 1978,
+      "rv": 2007,
+      "u": "Jahr",
+      "cat": "Weltkultur",
+      "metric": "Erstes UNESCO-Welterbe-Einschreibungsjahr",
+      "sub": "UNESCO",
+      "prompt": "Welches Bauwerk wurde später erstmals UNESCO-Welterbe?",
+      "correct": "right",
+      "sources": [
+        "https://whc.unesco.org/en/list/3/",
+        "https://whc.unesco.org/en/list/166/"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "",
+        "Einschreibung 2007, nicht Eröffnung 1973."
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "taj-unesco--sydney-unesco",
+      "l": "Taj Mahal",
+      "r": "Opernhaus Sydney",
+      "lv": 1983,
+      "rv": 2007,
+      "u": "Jahr",
+      "cat": "Weltkultur",
+      "metric": "Erstes UNESCO-Welterbe-Einschreibungsjahr",
+      "sub": "UNESCO",
+      "prompt": "Welches Bauwerk wurde später erstmals UNESCO-Welterbe?",
+      "correct": "right",
+      "sources": [
+        "https://whc.unesco.org/en/list/252/",
+        "https://whc.unesco.org/en/list/166/"
+      ],
+      "verified": "2026-10-01",
+      "notes": [
+        "",
+        "Einschreibung 2007, nicht Eröffnung 1973."
+      ],
+      "status": "draft"
+    }
+  ],
+  "estimate": [
+    {
+      "id": "austria-area-estimate",
+      "q": "Wie groß ist Österreich laut Statistik Austria 2025/26 in Quadratkilometern?",
+      "a": 83884,
+      "u": "km²",
+      "cat": "Länder",
+      "subject": "Österreich",
+      "source": "https://www.statistik.at/fileadmin/publications/OZDF-DE-25-26.pdf",
+      "notes": "Gerundeter Veröffentlichungswert, nicht der ältere Wert 83.879.",
+      "status": "draft"
+    },
+    {
+      "id": "switzerland-area-estimate",
+      "q": "Wie groß ist die Schweiz ungefähr in Quadratkilometern?",
+      "a": 41285,
+      "u": "km²",
+      "cat": "Länder",
+      "subject": "Schweiz",
+      "source": "https://www.aboutswitzerland.eda.admin.ch/de/geografie",
+      "notes": "Gesamtes Staatsgebiet, einschließlich Binnengewässer.",
+      "status": "draft"
+    },
+    {
+      "id": "belgium-area-estimate",
+      "q": "Wie groß ist Belgien laut Statbel in Quadratkilometern?",
+      "a": 30689,
+      "u": "km²",
+      "cat": "Länder",
+      "subject": "Belgien",
+      "source": "https://statbel.fgov.be/en/quiz",
+      "notes": "Staatsfläche; unterschiedliche Vermessungsstände sind bei engen Vergleichen zu beachten.",
+      "status": "draft"
+    },
+    {
+      "id": "berlin-districts-estimate",
+      "q": "In wie viele Verwaltungsbezirke ist Berlin gegliedert?",
+      "a": 12,
+      "u": "Bezirke",
+      "cat": "Städte",
+      "subject": "Berlin",
+      "source": "https://willkommenszentrum.berlin.de/glossary/bezirk",
+      "notes": "",
+      "status": "draft"
+    },
+    {
+      "id": "hamburg-districts-estimate",
+      "q": "Wie viele Verwaltungsbezirke hat Hamburg?",
+      "a": 7,
+      "u": "Bezirke",
+      "cat": "Städte",
+      "subject": "Hamburg",
+      "source": "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/themen/bezirke-und-bezirksverwaltung",
+      "notes": "",
+      "status": "draft"
+    },
+    {
+      "id": "vienna-districts-estimate",
+      "q": "Wie viele Gemeindebezirke hat Wien?",
+      "a": 23,
+      "u": "Bezirke",
+      "cat": "Städte",
+      "subject": "Wien",
+      "source": "https://www.wien.gv.at/statistik/bezirksdaten",
+      "notes": "Verglichen wird ausschließlich die Anzahl; die Bezirke haben nicht dieselben Kompetenzen.",
+      "status": "draft"
+    },
+    {
+      "id": "yellowstone-founded-estimate",
+      "q": "In welchem Jahr wurde Yellowstone als Nationalpark gegründet?",
+      "a": 1872,
+      "u": "Jahr",
+      "cat": "Natur",
+      "subject": "Yellowstone-Nationalpark",
+      "source": "https://www.nps.gov/yell/planyourvisit/parkfacts.htm",
+      "notes": "",
+      "status": "draft"
+    },
+    {
+      "id": "yosemite-founded-estimate",
+      "q": "In welchem Jahr wurde Yosemite zum Nationalpark erklärt?",
+      "a": 1890,
+      "u": "Jahr",
+      "cat": "Natur",
+      "subject": "Yosemite-Nationalpark",
+      "source": "https://www.nps.gov/yose/learn/news/yosemite-national-park-commemorates-124th-anniversary.htm",
+      "notes": "Nationalpark 1890; Yosemite Grant von 1864 ist eine andere Schutzentscheidung.",
+      "status": "draft"
+    },
+    {
+      "id": "grand-canyon-founded-estimate",
+      "q": "In welchem Jahr wurde der Grand Canyon zum Nationalpark erklärt?",
+      "a": 1919,
+      "u": "Jahr",
+      "cat": "Natur",
+      "subject": "Grand-Canyon-Nationalpark",
+      "source": "https://www.nps.gov/grca/learn/historyculture/thenandnow.htm",
+      "notes": "National Monument 1908 und Nationalpark 1919 unterscheiden.",
+      "status": "draft"
+    },
+    {
+      "id": "football-players-estimate",
+      "q": "Wie viele Spieler hat eine vollständige Fußballmannschaft gleichzeitig auf dem Feld, einschließlich Torwart?",
+      "a": 11,
+      "u": "Spieler",
+      "cat": "Sport",
+      "subject": "Fußball (elf gegen elf)",
+      "source": "https://theifab.com/laws/latest/the-players/",
+      "notes": "",
+      "status": "draft"
+    },
+    {
+      "id": "basketball-players-estimate",
+      "q": "Wie viele Spieler eines Teams stehen beim klassischen Basketball gleichzeitig auf dem Feld?",
+      "a": 5,
+      "u": "Spieler",
+      "cat": "Sport",
+      "subject": "Basketball (fünf gegen fünf)",
+      "source": "https://about.fiba.basketball/en/our-sport/basketball",
+      "notes": "",
+      "status": "draft"
+    },
+    {
+      "id": "volleyball-players-estimate",
+      "q": "Wie viele Spieler eines Teams stehen beim Hallenvolleyball gleichzeitig auf dem Feld?",
+      "a": 6,
+      "u": "Spieler",
+      "cat": "Sport",
+      "subject": "Hallenvolleyball",
+      "source": "https://www.fivb.com/volleyball/the-game/basic-rules/",
+      "notes": "Keine Ersatzspieler, Beachvolleyball oder 3×3 mitzählen.",
+      "status": "draft"
+    },
+    {
+      "id": "eiffel-opened-estimate",
+      "q": "In welchem Jahr wurde der Eiffelturm eingeweiht?",
+      "a": 1889,
+      "u": "Jahr",
+      "cat": "Bauwerke",
+      "subject": "Eiffelturm",
+      "source": "https://www.toureiffel.paris/en/news/history-and-culture/why-does-eiffel-tower-change-size",
+      "notes": "",
+      "status": "draft"
+    },
+    {
+      "id": "esb-opened-estimate",
+      "q": "In welchem Jahr wurde das Empire State Building eröffnet?",
+      "a": 1931,
+      "u": "Jahr",
+      "cat": "Bauwerke",
+      "subject": "Empire State Building",
+      "source": "https://www.esbnyc.com/about/history",
+      "notes": "",
+      "status": "draft"
+    },
+    {
+      "id": "burj-opened-estimate",
+      "q": "In welchem Jahr wurde der Burj Khalifa offiziell eröffnet?",
+      "a": 2010,
+      "u": "Jahr",
+      "cat": "Bauwerke",
+      "subject": "Burj Khalifa",
+      "source": "https://www.emaar.com/en/other-emaar-businesses/burj-khalifa",
+      "notes": "",
+      "status": "draft"
+    },
+    {
+      "id": "elephant-gestation-estimate",
+      "q": "Wie viele Monate dauert die Tragzeit eines Elefanten ungefähr?",
+      "a": 21,
+      "u": "Monate ungefähr",
+      "cat": "Tierwelt",
+      "subject": "Elefant",
+      "source": "https://animals.sandiegozoo.org/animals/elephant",
+      "notes": "Quelle: 20–22 Monate. 21 ist der berechnete Mittelpunkt, keine behauptete exakte oder empirische Durchschnittsmessung. Für Schätzspiel eine Toleranz von mindestens ±1 Monat verwenden.",
+      "status": "draft"
+    },
+    {
+      "id": "giraffe-gestation-estimate",
+      "q": "Wie viele Monate dauert die Tragzeit einer Giraffe laut San Diego Zoo ungefähr?",
+      "a": 14,
+      "u": "Monate ungefähr",
+      "cat": "Tierwelt",
+      "subject": "Giraffe",
+      "source": "https://animals.sandiegozoo.org/animals/giraffe",
+      "notes": "Veröffentlichter Richtwert 14 Monate; keine individuelle exakte Dauer.",
+      "status": "draft"
+    },
+    {
+      "id": "lion-gestation-estimate",
+      "q": "Auf wie viele ganze Monate wird die Tragzeit einer Löwin ungefähr gerundet?",
+      "a": 4,
+      "u": "Monate ungefähr",
+      "cat": "Tierwelt",
+      "subject": "Löwe",
+      "source": "https://animals.sandiegozoo.org/animals/lion",
+      "notes": "Quelle: fast vier Monate. Als Spielrichtwert auf vier gerundet; nicht exakt vier.",
+      "status": "draft"
+    },
+    {
+      "id": "mbappe-born-estimate",
+      "q": "In welchem Jahr wurde Kylian Mbappé geboren?",
+      "a": 1998,
+      "u": "Jahr",
+      "cat": "Fußballer",
+      "subject": "Kylian Mbappé",
+      "source": "https://www.realmadrid.com/de-DE/fussball/erste-mannshaft/spieler/kylian-mbappe",
+      "notes": "",
+      "status": "draft"
+    },
+    {
+      "id": "haaland-born-estimate",
+      "q": "In welchem Jahr wurde Erling Haaland geboren?",
+      "a": 2000,
+      "u": "Jahr",
+      "cat": "Fußballer",
+      "subject": "Erling Haaland",
+      "source": "https://live.mancity.com/news/mens/erling-haaland-10-things-factfile-63790703",
+      "notes": "",
+      "status": "draft"
+    },
+    {
+      "id": "bellingham-born-estimate",
+      "q": "In welchem Jahr wurde Jude Bellingham geboren?",
+      "a": 2003,
+      "u": "Jahr",
+      "cat": "Fußballer",
+      "subject": "Jude Bellingham",
+      "source": "https://www.realmadrid.com/de-DE/fussball/erste-mannshaft/spieler/jude-bellingham",
+      "notes": "",
+      "status": "draft"
+    },
+    {
+      "id": "296-cylinders-estimate",
+      "q": "Wie viele Zylinder hat der Verbrennungsmotor des Ferrari 296 GTB?",
+      "a": 6,
+      "u": "Zylinder",
+      "cat": "Autos",
+      "subject": "Ferrari 296 GTB",
+      "source": "https://www.ferrari.com/content/dam/ferrari-fcom/old/pdf/CS_296_GTB_final_gbr.pdf",
+      "notes": "Elektromotoren nicht mitzählen.",
+      "status": "draft"
+    },
+    {
+      "id": "sf90-cylinders-estimate",
+      "q": "Wie viele Zylinder hat der Verbrennungsmotor des Ferrari SF90 Stradale?",
+      "a": 8,
+      "u": "Zylinder",
+      "cat": "Autos",
+      "subject": "Ferrari SF90 Stradale",
+      "source": "https://cdn.ferrari.com/cms/network/media/pdf/pr_ferrari_sf90_stradale_gbr.pdf",
+      "notes": "Elektromotoren nicht mitzählen.",
+      "status": "draft"
+    },
+    {
+      "id": "12cilindri-cylinders-estimate",
+      "q": "Wie viele Zylinder hat der Motor des Ferrari 12Cilindri?",
+      "a": 12,
+      "u": "Zylinder",
+      "cat": "Autos",
+      "subject": "Ferrari 12Cilindri",
+      "source": "https://www.ferrari.com/content/dam/ferrari-fcom/news/corporate/2026/01/pdf/CS_12Cilindri_Tailor_Made_gbr.pdf",
+      "notes": "",
+      "status": "draft"
+    },
+    {
+      "id": "mercury-orbit-estimate",
+      "q": "Wie viele Erdtage dauert ein Umlauf des Merkur um die Sonne ungefähr?",
+      "a": 88,
+      "u": "Erdtage",
+      "cat": "Weltraum",
+      "subject": "Merkur",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "notes": "NASA-Tabellenstand 18.03.2025.",
+      "status": "draft"
+    },
+    {
+      "id": "venus-orbit-estimate",
+      "q": "Wie viele Erdtage dauert ein Umlauf der Venus um die Sonne ungefähr?",
+      "a": 224.7,
+      "u": "Erdtage",
+      "cat": "Weltraum",
+      "subject": "Venus",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "notes": "Umlaufdauer, nicht Rotation oder Sonnentag.",
+      "status": "draft"
+    },
+    {
+      "id": "mars-orbit-estimate",
+      "q": "Wie viele Erdtage dauert ein Umlauf des Mars um die Sonne ungefähr?",
+      "a": 687,
+      "u": "Erdtage",
+      "cat": "Weltraum",
+      "subject": "Mars",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "notes": "",
+      "status": "draft"
+    },
+    {
+      "id": "carbon-number-estimate",
+      "q": "Wie viele Protonen enthält der Atomkern von Kohlenstoff?",
+      "a": 6,
+      "u": "Protonen",
+      "cat": "Wissenschaft",
+      "subject": "Kohlenstoff",
+      "source": "https://periodic-table.rsc.org/element/6/Carbon",
+      "notes": "",
+      "status": "draft"
+    },
+    {
+      "id": "oxygen-number-estimate",
+      "q": "Wie viele Protonen enthält der Atomkern von Sauerstoff?",
+      "a": 8,
+      "u": "Protonen",
+      "cat": "Wissenschaft",
+      "subject": "Sauerstoff",
+      "source": "https://periodic-table.rsc.org/element/8/Oxygen",
+      "notes": "",
+      "status": "draft"
+    },
+    {
+      "id": "iron-number-estimate",
+      "q": "Wie viele Protonen enthält der Atomkern von Eisen?",
+      "a": 26,
+      "u": "Protonen",
+      "cat": "Wissenschaft",
+      "subject": "Eisen",
+      "source": "https://periodic-table.rsc.org/element/26/iron",
+      "notes": "",
+      "status": "draft"
+    },
+    {
+      "id": "poker-cards-estimate",
+      "q": "Wie viele Karten enthält ein Standard-Kartendeck ohne Joker?",
+      "a": 52,
+      "u": "Karten",
+      "cat": "Allgemeinwissen",
+      "subject": "Standard-Kartendeck ohne Joker",
+      "source": "https://de.bicyclecards.com/game-rules/spades/",
+      "notes": "Bereits bekanntes Motiv als Vergleichspartner für die neuen Decks. Kein neu entdeckter Fakt.",
+      "status": "draft"
+    },
+    {
+      "id": "set-cards-estimate",
+      "q": "Wie viele Karten enthält das SET-Grundspiel?",
+      "a": 81,
+      "u": "Karten",
+      "cat": "Allgemeinwissen",
+      "subject": "SET (Grundspiel)",
+      "source": "https://www.setgame.com/sites/default/files/set_catalogsmall.pdf",
+      "notes": "",
+      "status": "draft"
+    },
+    {
+      "id": "uno-cards-estimate",
+      "q": "Wie viele Karten enthält die klassische UNO-Ausgabe W2085?",
+      "a": 108,
+      "u": "Karten",
+      "cat": "Allgemeinwissen",
+      "subject": "UNO (Ausgabe W2085)",
+      "source": "https://service.mattel.com/us/productPopup.aspx?prodno=W2085&siteid=27",
+      "notes": "Ausgabe explizit genannt, weil andere UNO-Ausgaben mehr Karten enthalten.",
+      "status": "draft"
+    },
+    {
+      "id": "400m-record-estimate",
+      "q": "Wie viele Sekunden beträgt der Männer-Weltrekord über 400 m laut World Athletics im September 2026?",
+      "a": 43.03,
+      "u": "Sekunden",
+      "cat": "Rekorde & Extreme",
+      "subject": "400-m-Weltrekord Männer",
+      "source": "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship",
+      "notes": "Wayde van Niekerk; vorhandener Richtwert als neuer Vergleichspartner.",
+      "status": "draft"
+    },
+    {
+      "id": "800m-record-estimate",
+      "q": "Wie viele Sekunden sind die 1:40,91 min des Männer-Weltrekords über 800 m im WA-Datensatz September 2026?",
+      "a": 100.91,
+      "u": "Sekunden",
+      "cat": "Rekorde & Extreme",
+      "subject": "800-m-Weltrekord Männer",
+      "source": "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship",
+      "notes": "David Rudisha; Minuten in Sekunden umgerechnet.",
+      "status": "draft"
+    },
+    {
+      "id": "1500m-record-estimate",
+      "q": "Wie viele Sekunden sind die 3:26,00 min des Männer-Weltrekords über 1500 m im WA-Datensatz September 2026?",
+      "a": 206,
+      "u": "Sekunden",
+      "cat": "Rekorde & Extreme",
+      "subject": "1500-m-Weltrekord Männer",
+      "source": "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship",
+      "notes": "Hicham El Guerrouj; Minuten in Sekunden umgerechnet. Snapshot, keine dauerhafte Aktualitätszusage.",
+      "status": "draft"
+    },
+    {
+      "id": "sputnik-launch-estimate",
+      "q": "In welchem Jahr startete Sputnik 1?",
+      "a": 1957,
+      "u": "Jahr",
+      "cat": "Raumfahrt",
+      "subject": "Sputnik 1",
+      "source": "https://science.nasa.gov/mission/hubble/overview/hubble-timeline/hubble-history-timeline-full-text/",
+      "notes": "",
+      "status": "draft"
+    },
+    {
+      "id": "hubble-launch-estimate",
+      "q": "In welchem Jahr wurde das Hubble-Weltraumteleskop gestartet?",
+      "a": 1990,
+      "u": "Jahr",
+      "cat": "Raumfahrt",
+      "subject": "Hubble-Weltraumteleskop",
+      "source": "https://www.nasa.gov/history/hubble/",
+      "notes": "",
+      "status": "draft"
+    },
+    {
+      "id": "webb-launch-estimate",
+      "q": "In welchem Jahr startete das James-Webb-Weltraumteleskop?",
+      "a": 2021,
+      "u": "Jahr",
+      "cat": "Raumfahrt",
+      "subject": "James-Webb-Weltraumteleskop",
+      "source": "https://science.nasa.gov/mission/webb/launch/",
+      "notes": "",
+      "status": "draft"
+    },
+    {
+      "id": "aachen-unesco-estimate",
+      "q": "In welchem Jahr wurde der Aachener Dom erstmals UNESCO-Welterbe?",
+      "a": 1978,
+      "u": "Jahr",
+      "cat": "Weltkultur",
+      "subject": "Aachener Dom",
+      "source": "https://whc.unesco.org/en/list/3/",
+      "notes": "",
+      "status": "draft"
+    },
+    {
+      "id": "taj-unesco-estimate",
+      "q": "In welchem Jahr wurde der Taj Mahal UNESCO-Welterbe?",
+      "a": 1983,
+      "u": "Jahr",
+      "cat": "Weltkultur",
+      "subject": "Taj Mahal",
+      "source": "https://whc.unesco.org/en/list/252/",
+      "notes": "",
+      "status": "draft"
+    },
+    {
+      "id": "sydney-unesco-estimate",
+      "q": "In welchem Jahr wurde das Opernhaus von Sydney UNESCO-Welterbe?",
+      "a": 2007,
+      "u": "Jahr",
+      "cat": "Weltkultur",
+      "subject": "Opernhaus Sydney",
+      "source": "https://whc.unesco.org/en/list/166/",
+      "notes": "Einschreibung 2007, nicht Eröffnung 1973.",
+      "status": "draft"
+    }
+  ]
+}

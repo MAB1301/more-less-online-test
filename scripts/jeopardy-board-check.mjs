@@ -20,6 +20,7 @@ for(let level=1;level<=5;level++){ctx.level=level;const q=vm.runInContext("jeopQ
 assert.equal(ctx.picked.size,5,'history exhaustion still chooses five different questions');
 assert.equal(vm.runInContext("jeopQuestionForLevel('Test',pool,1,used,picked)",ctx),undefined,'exhausted board never repeats a question');
 const intro=html.slice(html.indexOf('id="jeopardyIntro"'),html.indexOf('id="jeopTeamSetup"'));
-assert(!intro.includes('jeopRandomSetup'));assert(!intro.includes('checkbox'));
+assert(!intro.includes('jeopRandomSetup'));assert.equal((intro.match(/type="checkbox"/g)||[]).length,1,'only optional Final round toggle remains in intro');assert(intro.includes('id="jeopFinalEnabled"')); 
 assert(html.indexOf('id="friendsQuizSetup"')>html.indexOf('<dialog id="friendsMenu"'));
 console.log('OK: full-pool Random, six unique categories, thirty unique questions, fixed presets, deterministic custom boards, exhausted history and editor placement');
+
