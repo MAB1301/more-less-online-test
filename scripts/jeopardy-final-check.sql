@@ -1,0 +1,57 @@
+-- Run inside a transaction and roll back every fixture and mutation.
+do $$
+declare r uuid:=gen_random_uuid(); h uuid:=gen_random_uuid(); g uuid:=gen_random_uuid(); outsider uuid:=gen_random_uuid(); data jsonb; denied boolean;
+begin
+ insert into auth.users(id) values(h),(g),(outsider);
+ insert into public.rooms(id,code,host_user_id) values(r,upper(substr(replace(r::text,'-',''),1,6)),h);
+ insert into public.players(room_id,user_id,display_name,seat) values(r,h,'Test host',1),(r,g,'Test guest',2);
+ insert into public.online_team_members(room_id,user_id,team_no) values(r,h,1),(r,g,2);
+ insert into public.jeopardy_game_state(room_id,team_1_score,team_2_score) values(r,100,-20);
+ perform set_config('request.jwt.claim.sub',h::text,true);
+ data:=public.ml_jeopardy_final(r,'configure',true,'{"q":"Final test?","a":"Secret answer|Alternative","cat":"Test"}');
+ data:=public.ml_jeopardy_final(r,'start');
+ if data->'question' ? 'q' or data->'question' ? 'a' then raise exception 'Question leaked before wagers';end if;
+ data:=public.ml_jeopardy_final(r,'wager',p_wager=>50);
+ data:=public.ml_jeopardy_final(r,'wager',p_wager=>80);
+ if (data->'mine'->>'wager')::int is distinct from 50 then raise exception 'Wager retry overwrote the first stake';end if;
+ perform set_config('request.jwt.claim.sub',g::text,true);
+ denied:=false;begin perform public.ml_jeopardy_final(r,'judge',p_team=>1,p_correct=>true);exception when others then denied:=true;end;
+ if not denied then raise exception 'Guest judged a Final';end if;
+ denied:=false;begin perform public.ml_jeopardy_final(r,'wager',p_wager=>1);exception when others then denied:=true;end;
+ if not denied then raise exception 'Negative-score team wagered points';end if;
+ data:=public.ml_jeopardy_final(r,'wager',p_wager=>0);
+ if data->>'phase' is distinct from 'answer' or data->'question' ? 'a' then raise exception 'Wrong answer phase or leaked answer';end if;
+ data:=public.ml_jeopardy_final(r,'answer',p_answer=>'Guest answer');
+ perform set_config('request.jwt.claim.sub',h::text,true);
+ data:=public.ml_jeopardy_final(r,'answer',p_answer=>'Secret answer');
+ if data->>'phase' is distinct from 'judge' or data->'question'->>'a' is null then raise exception 'Host cannot judge submitted answers';end if;
+ perform set_config('request.jwt.claim.sub',g::text,true);
+ data:=public.ml_jeopardy_final(r,'state');
+ if data->'question' ? 'a' or data->'answers' ? '1' then raise exception 'Guest saw opponent answer before settlement';end if;
+ perform set_config('request.jwt.claim.sub',h::text,true);
+ perform public.ml_jeopardy_final(r,'judge',p_team=>1,p_correct=>true);
+ perform public.ml_jeopardy_final(r,'judge',p_team=>1,p_correct=>false);
+ data:=public.ml_jeopardy_final(r,'judge',p_team=>2,p_correct=>false);
+ if data->'scores' is distinct from '[150,-20]'::jsonb or data->>'phase' is distinct from 'finished' then raise exception 'Incorrect Final score';end if;
+ data:=public.ml_jeopardy_final(r,'judge',p_team=>2,p_correct=>true);
+ if data->'scores' is distinct from '[150,-20]'::jsonb then raise exception 'Repeated Final changed the scores';end if;
+ if (select team_1_score from public.jeopardy_game_state where room_id=r)<>150 then raise exception 'Shared game score not updated';end if;
+ perform set_config('request.jwt.claim.sub',outsider::text,true);
+ denied:=false;begin perform public.ml_jeopardy_final(r,'state');exception when others then denied:=true;end;
+ if not denied then raise exception 'Nonmember accessed Final';end if;
+ perform set_config('request.jwt.claim.sub',h::text,true);
+ update public.jeopardy_game_state set used_cells='[]',game_status='board',team_1_score=200,team_2_score=100 where room_id=r;
+ perform public.ml_jeopardy_final(r,'configure',true,'{"q":"Next final?","a":"A","cat":"Test"}');
+ update public.jeopardy_game_state set team_1_score=250 where room_id=r;
+ data:=public.ml_jeopardy_final(r,'cancel');
+ if data->'scores' is distinct from '[250,100]'::jsonb then raise exception 'Skipped ready Final lost the current game scores';end if;
+ if has_table_privilege('authenticated','ml_private.jeopardy_finals','SELECT') then raise exception 'Private answers table exposed';end if;
+ if has_function_privilege('anon','public.ml_jeopardy_final(uuid,text,boolean,jsonb,integer,text,integer,boolean)','EXECUTE') then raise exception 'Anonymous RPC exposed';end if;
+perform set_config('ml.features.test_room',r::text,true);
+end $$;
+set local role authenticated;
+do $$declare data jsonb;begin
+ data:=public.ml_jeopardy_final(current_setting('ml.features.test_room')::uuid,'state');
+ if data->>'phase' is distinct from 'cancelled' then raise exception 'Authenticated wrapper call failed';end if;
+end $$;
+reset role;
