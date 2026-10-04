@@ -1,0 +1,24 @@
+/* Card artwork sits behind gameplay, preserving readable question panels. */
+body:has(#game:not(.preLobbyHidden):not(.hide)){background:#080c20 url('home/art/rule-background.webp') center/cover fixed no-repeat}
+body:has(#game:not(.preLobbyHidden):not(.hide)) #game{background:linear-gradient(145deg,#0d1029eb,#11132be8)!important;border:1px solid #9a67dc55;box-shadow:0 18px 75px #0007}
+#dailyOverlay:not(.hide){background:linear-gradient(#07091985,#070919b0),url('home/art/rule-background.webp') center/cover no-repeat}
+#dailyOverlay.dailyShowingScores .modal{background:radial-gradient(ellipse at 50% 0%,#52288155,transparent 65%),#0a0c20;border-color:#b17aff66;box-shadow:0 0 65px #8c3ddd30}
+.dailyShowingScores .dailyHead h2{color:#f1e2ff;text-shadow:0 0 24px #b960ff60}
+#dailyLeaderboardPanel{background:linear-gradient(155deg,#17132c,#101328);border-color:#966ac15c;border-radius:22px}
+#dailyLeaderboardPanel h3{font-size:clamp(20px,3vw,27px);letter-spacing:-.02em}
+#dailyBoardUpdated{margin:5px 0 0;line-height:1.4;color:#bbb4d5}
+.dailyIdentity{margin:6px 0 14px;color:#c7b9e7;font-size:12px;line-height:1.5;padding:9px 12px;border:1px solid #b18beb35;border-radius:12px;background:#221b36}
+.dailyIdentity[data-access=account]{color:#a7ead8;border-color:#70dab340}
+.dailyShowingScores .dailyTabs button{border-radius:99px}
+.dailyPodium{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:end;gap:12px;margin:30px 0 22px;padding-top:12px}
+.dailyPodiumCard{--podium:#d1d7ee;display:flex;flex-direction:column;align-items:center;min-width:0;min-height:174px;text-align:center;position:relative;padding:18px 12px 16px;border-radius:20px;border:1px solid #a9b5da66;background:linear-gradient(155deg,#353c56,#171b31);box-shadow:0 10px 25px #0004;color:var(--podium)}
+.dailyPodiumRank1{--podium:#ffe0a0;min-height:202px;order:2;background:linear-gradient(155deg,#665025,#292137);border-color:#f4c468a6;box-shadow:0 0 30px #ffc4581c,0 10px 25px #0004}
+.dailyPodiumRank2{order:1}.dailyPodiumRank3{--podium:#edbb98;order:3;background:linear-gradient(155deg,#513c36,#241c30);border-color:#b2806280}
+.dailyPodiumMedal{font-size:19px;font-weight:850;margin-bottom:10px}.dailyPodiumRank1 .dailyPodiumMedal{font-size:30px;line-height:1;filter:drop-shadow(0 0 8px #ffc86266)}
+.dailyPodiumAvatar{display:grid;place-items:center;border-radius:50%;width:48px;height:48px;border:1px solid currentColor;background:#ffffff0a;font-weight:800;font-size:17px;margin-bottom:10px}
+.dailyPodiumCard b{overflow-wrap:anywhere;color:#fff;font-size:14px;line-height:1.4;max-width:100%;margin-bottom:8px}.dailyPodiumCard strong{font-size:clamp(14px,2.2vw,21px);line-height:1.4}.dailyPodiumCard small{font-size:11px;line-height:1.5;margin-top:6px;color:var(--podium)}
+.dailyPodium[data-count="1"]{grid-template-columns:minmax(0,250px);justify-content:center}.dailyPodium[data-count="2"]{grid-template-columns:repeat(2,minmax(0,250px));justify-content:center}
+#dailyBoardMine{border-radius:14px;padding:14px;background:linear-gradient(110deg,#4c2d72,#25213f);border-color:#b78bff90;font-weight:700}
+.dailySaveRow{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:18px 0 8px}.dailySaveRow span{padding:7px 10px;border-radius:10px;font-size:13px;color:#c1bdd8;background:#ffffff08}.dailySaveRow [data-state=saved]{color:#9debc9;background:#42d49b14}.dailySaveRow [data-state=uncertain]{color:#ffddb0;background:#f9b45414}.dailySaveRow button{min-height:44px}
+@media(max-width:480px){.dailyPodium{gap:7px;margin-top:18px}.dailyPodiumCard{padding:14px 6px 12px;border-radius:14px;min-height:165px}.dailyPodiumRank1{min-height:193px}.dailyPodiumCard b{font-size:12px}.dailyPodiumCard strong{font-size:13px}.dailyPodiumAvatar{width:39px;height:39px;font-size:14px}.dailyPodiumCard small{font-size:10px}.dailyIdentity{font-size:11px}body:has(#game:not(.preLobbyHidden):not(.hide)){background-attachment:scroll}}
+@media(prefers-reduced-motion:reduce){.dailyPodiumCard{transition:none}}

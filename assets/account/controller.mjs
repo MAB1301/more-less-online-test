@@ -10,6 +10,7 @@ function activeMatch(){return !!S.room||DAILY.busy||!!(DAILY.data?.attempt&&!DAI
 function backupGuest(){try{const saved=localStorage.getItem('ml_account_auth_v1');if(saved&&JSON.parse(saved).guest)localStorage.setItem('ml_guest_account_backup_v1',saved);if(!localStorage.getItem('ml_guest_appearance_backup_v1'))localStorage.setItem('ml_guest_appearance_backup_v1',JSON.stringify({profile:localStorage.getItem('ml_guest_profile_v1'),preferences:localStorage.getItem('ml_game_preferences_v1')}))}catch{}}
 async function renderAccount(){
  const auth=await client.current();const fixed=!!auth&&!auth.guest;
+ if(typeof window.siteIdentityUpdate==='function')window.siteIdentityUpdate(fixed);void window.syncPlayerHistory?.();
  $('accountModeLine').textContent=fixed?'Angemeldet · '+(profile?.handle?'@'+profile.handle:'Account'):'Du spielst als Gast.';
  $('accountProfileNote').textContent=fixed?'Profil und Einstellungen im Account':'Gastprofil auf diesem Gerät';
  $('accountAuthControls').classList.toggle('hide',fixed);
@@ -78,8 +79,8 @@ window.accountReady=(async()=>{
  await loadAccount();
 })().catch(async error=>{if(error.status===400||error.status===401){client.forget();profile=null;await renderAccount();message('Deine Anmeldung ist abgelaufen. Bitte melde dich erneut an.')}else message(errorText(error));return null});
 
-const INVITE_MODES={moreless:{CLASSIC:'Classic',PARTY:'Party',BLITZ:'Blitz',SURVIVAL:'Survival',KING:'King',CHAOS:'Chaos'},estimate:{classic:'Classic',risk:'Risk',survival:'Survival',blitz:'Blitz',king:'King'},quiz:{standard:'Standard',big:'Big Board',football:'Fußball',random:'Random',nerd:'Schwer',sport:'Sport',geo:'Geo',party:'Party'}};
-const GAME_NAMES={moreless:'More / Less',estimate:'Schätzduell',quiz:'Jeopardy'};
+const INVITE_MODES={facts:{classic:'Klassisch'},moreless:{CLASSIC:'Classic',PARTY:'Party',BLITZ:'Blitz',SURVIVAL:'Survival',KING:'King',CHAOS:'Chaos'},estimate:{classic:'Classic',risk:'Risk',survival:'Survival',blitz:'Blitz',king:'King'},quiz:{standard:'Standard',big:'Big Board',football:'Fußball',random:'Random',nerd:'Schwer',sport:'Sport',geo:'Geo',party:'Party'}};
+const GAME_NAMES={facts:'Fakt oder Fake',moreless:'More / Less',estimate:'Schätzduell',quiz:'Jeopardy'};
 let inviteTarget=null,inviteFlight=false,inviteListFlight=false;
 window.updateInviteModes=function updateInviteModes(){const game=$('friendInviteGame').value,select=$('friendInviteMode');select.replaceChildren();for(const [value,label] of Object.entries(INVITE_MODES[game]||{})){const option=document.createElement('option');option.value=value;option.textContent=label;select.append(option)}};
 window.openFriendInvite=function openFriendInvite(uid,name){
@@ -103,9 +104,9 @@ window.sendFriendInvite=async function sendFriendInvite(event){
 };
 window.loadAccountInvitations=async function loadAccountInvitations(){
  if(inviteListFlight)return;inviteListFlight=true;
- try{const auth=await client.current(),list=$('accountInvitationsList'),badge=$('accountInviteBadge');if(!auth||auth.guest){list.replaceChildren();badge.classList.add('hide');return}
+ try{const auth=await client.current(),list=$('accountInvitationsList'),badge=$('accountInviteBadge');if(!auth||auth.guest){list.replaceChildren();badge.classList.add('hide');if(typeof updateInviteCenterBadge==='function')updateInviteCenterBadge(0);return}
   const invitations=await client.invitations();const ids=[...new Set(invitations.flatMap(i=>[i.sender_id,i.recipient_id]))],names=await client.friendProfiles(ids);
-  const count=invitations.filter(i=>i.recipient_id===auth.uid).length;badge.textContent=String(count);badge.classList.toggle('hide',!count);$('accountButton').setAttribute('aria-label',count?'Account · '+count+' offene Einladungen':'Account öffnen');list.replaceChildren();
+  const count=invitations.filter(i=>i.recipient_id===auth.uid).length;badge.textContent=String(count);badge.classList.toggle('hide',!count);if(typeof updateInviteCenterBadge==='function')updateInviteCenterBadge(count);$('accountButton').setAttribute('aria-label',count?'Account · '+count+' offene Einladungen':'Account öffnen');list.replaceChildren();
   if(!invitations.length){list.textContent='Keine offenen Einladungen.';return}
   for(const i of invitations){const incoming=i.recipient_id===auth.uid,other=incoming?i.sender_id:i.recipient_id,name=names.find(p=>p.user_id===other)?.display_name||'Spieler';const row=document.createElement('div'),label=document.createElement('span');row.className='accountFriendRow';label.textContent=(incoming?'Von ':'An ')+name+' · '+(GAME_NAMES[i.game]||i.game)+' · '+(INVITE_MODES[i.game]?.[i.game_mode]||i.game_mode);row.append(label);
    function button(text,fn){const b=document.createElement('button');b.type='button';b.textContent=text;b.onclick=async()=>{b.disabled=true;try{await fn();await loadAccountInvitations()}catch(error){message(errorText(error));b.disabled=false}};row.append(b)}
@@ -117,3 +118,4 @@ window.loadAccountInvitations=async function loadAccountInvitations(){
 window.accountReady.then(()=>loadAccountInvitations()).catch(()=>{});
 setInterval(()=>{if(!document.hidden)loadAccountInvitations().catch(()=>{})},30000);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)loadAccountInvitations().catch(()=>{})});
+

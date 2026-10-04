@@ -11,3 +11,7 @@ context.box=box;assert(vm.runInContext("setCountryVisual(box,'Italien (UNESCO-We
 vm.runInContext("setCountryVisual(box,'Spanien (UNESCO-Welterbe)')",context);images[0].onerror();assert.equal(box.children[0],images[1]);images[1].onerror();assert.match(box.children[0].textContent,/Spanien/);assert(!box.children[0].textContent.includes('Symbolbild'));
 assert.equal(vm.runInContext('Object.keys(COUNTRY_CODE).every(n=>countryFlagUrl(n).endsWith(COUNTRY_CODE[n]+".svg"))',context),true);
 console.log('OK: all country flags resolve, UNESCO/population suffixes match, distinct Italy/Spain images, stale and failed loads handled');
+
+
+for(const [name,code] of [['Österreich','at'],['Schweiz','ch'],['Belgien','be']]){assert.equal(context.countryFlagUrl(name),'assets/visuals/research/'+code+'.svg');assert(fs.existsSync(context.countryFlagUrl(name)));context.location={pathname:'/offline/index.html'};assert.equal(context.countryFlagUrl(name),'../assets/visuals/research/'+code+'.svg');delete context.location;}
+console.log('OK: new country flags bundled locally with correct online/offline paths');

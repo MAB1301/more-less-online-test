@@ -1,0 +1,1175 @@
+{
+  "status": "approved",
+  "jeopardy": [
+    {
+      "cat": "Chemie",
+      "q": "Wie viele Protonen enthält ein Atomkern des Elements Wasserstoff?",
+      "a": "1|1 Protonen",
+      "source": "https://periodic-table.rsc.org/element/1/hydrogen",
+      "verified": "2026-10-03",
+      "difficulty": 1,
+      "subject": "Wasserstoff"
+    },
+    {
+      "cat": "Chemie",
+      "q": "Wie viele Protonen enthält ein Atomkern des Elements Helium?",
+      "a": "2|2 Protonen",
+      "source": "https://periodic-table.rsc.org/element/2/helium",
+      "verified": "2026-10-03",
+      "difficulty": 1,
+      "subject": "Helium"
+    },
+    {
+      "cat": "Chemie",
+      "q": "Wie viele Protonen enthält ein Atomkern des Elements Stickstoff?",
+      "a": "7|7 Protonen",
+      "source": "https://periodic-table.rsc.org/element/7/nitrogen",
+      "verified": "2026-10-03",
+      "difficulty": 2,
+      "subject": "Stickstoff"
+    },
+    {
+      "cat": "Chemie",
+      "q": "Wie viele Protonen enthält ein Atomkern des Elements Neon?",
+      "a": "10|10 Protonen",
+      "source": "https://periodic-table.rsc.org/element/10/neon",
+      "verified": "2026-10-03",
+      "difficulty": 2,
+      "subject": "Neon"
+    },
+    {
+      "cat": "Chemie",
+      "q": "Wie viele Protonen enthält ein Atomkern des Elements Natrium?",
+      "a": "11|11 Protonen",
+      "source": "https://periodic-table.rsc.org/element/11/sodium",
+      "verified": "2026-10-03",
+      "difficulty": 3,
+      "subject": "Natrium"
+    },
+    {
+      "cat": "Chemie",
+      "q": "Wie viele Protonen enthält ein Atomkern des Elements Magnesium?",
+      "a": "12|12 Protonen",
+      "source": "https://periodic-table.rsc.org/element/12/magnesium",
+      "verified": "2026-10-03",
+      "difficulty": 3,
+      "subject": "Magnesium"
+    },
+    {
+      "cat": "Chemie",
+      "q": "Wie viele Protonen enthält ein Atomkern des Elements Aluminium?",
+      "a": "13|13 Protonen",
+      "source": "https://periodic-table.rsc.org/element/13/aluminium",
+      "verified": "2026-10-03",
+      "difficulty": 3,
+      "subject": "Aluminium"
+    },
+    {
+      "cat": "Chemie",
+      "q": "Wie viele Protonen enthält ein Atomkern des Elements Silizium?",
+      "a": "14|14 Protonen",
+      "source": "https://periodic-table.rsc.org/element/14/silicon",
+      "verified": "2026-10-03",
+      "difficulty": 4,
+      "subject": "Silizium"
+    },
+    {
+      "cat": "Chemie",
+      "q": "Wie viele Protonen enthält ein Atomkern des Elements Schwefel?",
+      "a": "16|16 Protonen",
+      "source": "https://periodic-table.rsc.org/element/16/sulfur",
+      "verified": "2026-10-03",
+      "difficulty": 4,
+      "subject": "Schwefel"
+    },
+    {
+      "cat": "Chemie",
+      "q": "Wie viele Protonen enthält ein Atomkern des Elements Chlor?",
+      "a": "17|17 Protonen",
+      "source": "https://periodic-table.rsc.org/element/17/chlorine",
+      "verified": "2026-10-03",
+      "difficulty": 4,
+      "subject": "Chlor"
+    },
+    {
+      "cat": "Chemie",
+      "q": "Wie viele Protonen enthält ein Atomkern des Elements Calcium?",
+      "a": "20|20 Protonen",
+      "source": "https://periodic-table.rsc.org/element/20/calcium",
+      "verified": "2026-10-03",
+      "difficulty": 5,
+      "subject": "Calcium"
+    },
+    {
+      "cat": "Chemie",
+      "q": "Wie viele Protonen enthält ein Atomkern des Elements Kupfer?",
+      "a": "29|29 Protonen",
+      "source": "https://periodic-table.rsc.org/element/29/copper",
+      "verified": "2026-10-03",
+      "difficulty": 5,
+      "subject": "Kupfer"
+    },
+    {
+      "cat": "Planetenkunde",
+      "q": "Welcher Planet hat laut NASA-Tabelle eine Umlaufdauer von ungefähr 88 Erdtagen?",
+      "a": "Merkur",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-03",
+      "difficulty": 1,
+      "subject": ""
+    },
+    {
+      "cat": "Planetenkunde",
+      "q": "Welcher Planet hat laut NASA-Tabelle eine Umlaufdauer von ungefähr 224,7 Erdtagen?",
+      "a": "Venus",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-03",
+      "difficulty": 2,
+      "subject": ""
+    },
+    {
+      "cat": "Planetenkunde",
+      "q": "Welcher Planet hat laut NASA-Tabelle eine Umlaufdauer von ungefähr 365,2 Erdtagen?",
+      "a": "Erde",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-03",
+      "difficulty": 1,
+      "subject": ""
+    },
+    {
+      "cat": "Planetenkunde",
+      "q": "Welcher Planet hat laut NASA-Tabelle eine Umlaufdauer von ungefähr 687 Erdtagen?",
+      "a": "Mars",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-03",
+      "difficulty": 2,
+      "subject": ""
+    },
+    {
+      "cat": "Planetenkunde",
+      "q": "Welcher Planet hat laut NASA-Tabelle eine Umlaufdauer von ungefähr 4331 Erdtagen?",
+      "a": "Jupiter",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-03",
+      "difficulty": 3,
+      "subject": ""
+    },
+    {
+      "cat": "Planetenkunde",
+      "q": "Welcher Planet hat laut NASA-Tabelle eine Umlaufdauer von ungefähr 10747 Erdtagen?",
+      "a": "Saturn",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-03",
+      "difficulty": 3,
+      "subject": ""
+    },
+    {
+      "cat": "Planetenkunde",
+      "q": "Welcher Planet hat laut NASA-Tabelle eine Umlaufdauer von ungefähr 30589 Erdtagen?",
+      "a": "Uranus",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-03",
+      "difficulty": 4,
+      "subject": ""
+    },
+    {
+      "cat": "Planetenkunde",
+      "q": "Welcher Planet hat laut NASA-Tabelle eine Umlaufdauer von ungefähr 59800 Erdtagen?",
+      "a": "Neptun",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-03",
+      "difficulty": 5,
+      "subject": ""
+    },
+    {
+      "cat": "Planetenkunde",
+      "q": "Welcher Planet hat laut NASA-Tabelle eine mittlere Oberflächentemperatur von ungefähr 464 °C?",
+      "a": "Venus",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-03",
+      "difficulty": 3,
+      "subject": ""
+    },
+    {
+      "cat": "Planetenkunde",
+      "q": "Welcher Planet hat laut NASA-Tabelle eine mittlere Oberflächentemperatur von ungefähr −65 °C?",
+      "a": "Mars",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-03",
+      "difficulty": 4,
+      "subject": ""
+    },
+    {
+      "cat": "Nationalparks",
+      "q": "In welchem Jahr wurde Yellowstone als Nationalpark gegründet?",
+      "a": "1872",
+      "source": "https://www.nps.gov/yell/planyourvisit/parkfacts.htm",
+      "verified": "2026-10-03",
+      "difficulty": 1,
+      "subject": "Yellowstone-Nationalpark"
+    },
+    {
+      "cat": "Nationalparks",
+      "q": "In welchem Jahr wurde Yosemite zum Nationalpark erklärt?",
+      "a": "1890",
+      "source": "https://www.nps.gov/yose/learn/news/yosemite-national-park-commemorates-124th-anniversary.htm",
+      "verified": "2026-10-03",
+      "difficulty": 2,
+      "subject": "Yosemite-Nationalpark"
+    },
+    {
+      "cat": "Nationalparks",
+      "q": "In welchem Jahr wurde der Grand Canyon zum Nationalpark erklärt?",
+      "a": "1919",
+      "source": "https://www.nps.gov/grca/learn/historyculture/thenandnow.htm",
+      "verified": "2026-10-03",
+      "difficulty": 3,
+      "subject": "Grand-Canyon-Nationalpark"
+    },
+    {
+      "cat": "Nationalparks",
+      "q": "In welchem Jahr wurde der Zion-Nationalpark als Nationalpark gegründet?",
+      "a": "1919",
+      "source": "https://www.nps.gov/zion/learn/historyculture/people.htm",
+      "verified": "2026-10-03",
+      "difficulty": 4,
+      "subject": "Zion-Nationalpark"
+    },
+    {
+      "cat": "Nationalparks",
+      "q": "In welchem Jahr wurde der Rocky-Mountain-Nationalpark als Nationalpark gegründet?",
+      "a": "1915",
+      "source": "https://www.nps.gov/romo/learn/historyculture/brief.htm",
+      "verified": "2026-10-03",
+      "difficulty": 5,
+      "subject": "Rocky-Mountain-Nationalpark"
+    },
+    {
+      "cat": "Nationalparks",
+      "q": "In welchem Jahr wurde der Olympic-Nationalpark als Nationalpark gegründet?",
+      "a": "1938",
+      "source": "https://www.nps.gov/olym/learn/historyculture/index.htm",
+      "verified": "2026-10-03",
+      "difficulty": 3,
+      "subject": "Olympic-Nationalpark"
+    },
+    {
+      "cat": "Raumfahrtmissionen",
+      "q": "In welchem Jahr startete Sputnik 1?",
+      "a": "1957",
+      "source": "https://science.nasa.gov/mission/hubble/overview/hubble-timeline/hubble-history-timeline-full-text/",
+      "verified": "2026-10-03",
+      "difficulty": 1,
+      "subject": "Sputnik 1"
+    },
+    {
+      "cat": "Raumfahrtmissionen",
+      "q": "In welchem Jahr wurde das Hubble-Weltraumteleskop gestartet?",
+      "a": "1990",
+      "source": "https://www.nasa.gov/history/hubble/",
+      "verified": "2026-10-03",
+      "difficulty": 2,
+      "subject": "Hubble-Weltraumteleskop"
+    },
+    {
+      "cat": "Raumfahrtmissionen",
+      "q": "In welchem Jahr startete das James-Webb-Weltraumteleskop?",
+      "a": "2021",
+      "source": "https://science.nasa.gov/mission/webb/launch/",
+      "verified": "2026-10-03",
+      "difficulty": 3,
+      "subject": "James-Webb-Weltraumteleskop"
+    },
+    {
+      "cat": "Raumfahrtmissionen",
+      "q": "In welchem Jahr startete die Raumfahrtmission Voyager 1?",
+      "a": "1977",
+      "source": "https://voyager.gsfc.nasa.gov/mission.html",
+      "verified": "2026-10-03",
+      "difficulty": 4,
+      "subject": "Voyager 1"
+    },
+    {
+      "cat": "Raumfahrtmissionen",
+      "q": "In welchem Jahr startete die Raumfahrtmission Cassini-Huygens?",
+      "a": "1997",
+      "source": "https://science.nasa.gov/mission/cassini/quick-facts/",
+      "verified": "2026-10-03",
+      "difficulty": 5,
+      "subject": "Cassini-Huygens"
+    },
+    {
+      "cat": "Raumfahrtmissionen",
+      "q": "In welchem Jahr startete die Raumfahrtmission New Horizons?",
+      "a": "2006",
+      "source": "https://science.nasa.gov/mission/new-horizons/",
+      "verified": "2026-10-03",
+      "difficulty": 3,
+      "subject": "New Horizons"
+    },
+    {
+      "cat": "Kultur",
+      "q": "In welchem Jahr wurde der Aachener Dom erstmals UNESCO-Welterbe?",
+      "a": "1978",
+      "source": "https://whc.unesco.org/en/list/3/",
+      "verified": "2026-10-03",
+      "difficulty": 2,
+      "subject": "Aachener Dom"
+    },
+    {
+      "cat": "Kultur",
+      "q": "In welchem Jahr wurde der Taj Mahal UNESCO-Welterbe?",
+      "a": "1983",
+      "source": "https://whc.unesco.org/en/list/252/",
+      "verified": "2026-10-03",
+      "difficulty": 3,
+      "subject": "Taj Mahal"
+    },
+    {
+      "cat": "Kultur",
+      "q": "In welchem Jahr wurde das Opernhaus von Sydney UNESCO-Welterbe?",
+      "a": "2007",
+      "source": "https://whc.unesco.org/en/list/166/",
+      "verified": "2026-10-03",
+      "difficulty": 4,
+      "subject": "Opernhaus Sydney"
+    },
+    {
+      "cat": "Kultur",
+      "q": "In welchem Jahr wurde der Kölner Dom erstmals in die UNESCO-Welterbeliste aufgenommen?",
+      "a": "1996",
+      "source": "https://whc.unesco.org/en/list/292/",
+      "verified": "2026-10-03",
+      "difficulty": 3,
+      "subject": "Kölner Dom"
+    },
+    {
+      "cat": "Sportregeln",
+      "q": "Wie viele Spieler eines Teams stehen beim klassischen Basketball gleichzeitig auf dem Feld?",
+      "a": "5|5 Spieler",
+      "source": "https://about.fiba.basketball/en/our-sport/basketball",
+      "verified": "2026-10-03",
+      "difficulty": 1,
+      "subject": "Basketball"
+    },
+    {
+      "cat": "Sportregeln",
+      "q": "Wie viele Spieler eines Teams stehen beim Hallenvolleyball gleichzeitig auf dem Feld?",
+      "a": "6|6 Spieler",
+      "source": "https://www.fivb.com/volleyball/the-game/basic-rules/",
+      "verified": "2026-10-03",
+      "difficulty": 2,
+      "subject": "Hallenvolleyball"
+    },
+    {
+      "cat": "Sportregeln",
+      "q": "Wie viele Spieler eines vollständigen Teams stehen beim Hallenhandball regulär gleichzeitig auf dem Spielfeld?",
+      "a": "7|7 Spieler",
+      "source": "https://www.ihf.info/sites/default/files/2025-02/09A%20-%20Rules%20of%20the%20Game_Indoor%20Handball_E.pdf",
+      "verified": "2026-10-03",
+      "difficulty": 3,
+      "subject": "Hallenhandball"
+    },
+    {
+      "cat": "Sportregeln",
+      "q": "Wie viele Spieler eines vollständigen Teams stehen beim Rugby Union regulär gleichzeitig auf dem Spielfeld?",
+      "a": "15|15 Spieler",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/3-team/",
+      "verified": "2026-10-03",
+      "difficulty": 4,
+      "subject": "Rugby Union"
+    },
+    {
+      "cat": "Sportregeln",
+      "q": "Wie viele Spieler eines vollständigen Teams stehen beim Feldhockey regulär gleichzeitig auf dem Spielfeld?",
+      "a": "11|11 Spieler",
+      "source": "https://www.fih.hockey/static-assets/pdf/fih-Rules-of-hockey-2026-final.pdf",
+      "verified": "2026-10-03",
+      "difficulty": 5,
+      "subject": "Feldhockey"
+    },
+    {
+      "cat": "Sportregeln",
+      "q": "Welche der Sportarten Basketball, Hallenvolleyball und klassisches Rugby Union hat regulär die größte Spielerzahl je Team auf dem Feld?",
+      "a": "Rugby Union|Rugby",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/3-team/",
+      "verified": "2026-10-03",
+      "difficulty": 3,
+      "subject": ""
+    },
+    {
+      "cat": "Autotechnik",
+      "q": "Wie viele Zylinder hat der Verbrennungsmotor des Porsche 911 GT3 (PDK, 2025)?",
+      "a": "6|6 Zylinder",
+      "source": "https://newsroom.porsche.com/en/2024/products/porsche-the-new-911-gt3-double-premiere-37595.html",
+      "verified": "2026-10-03",
+      "difficulty": 1,
+      "subject": "Porsche 911 GT3 (PDK, 2025)"
+    },
+    {
+      "cat": "Autotechnik",
+      "q": "Wie viele Zylinder hat der Verbrennungsmotor des Ferrari 296 GTB?",
+      "a": "6|6 Zylinder",
+      "source": "https://www.ferrari.com/content/dam/ferrari-fcom/old/pdf/CS_296_GTB_final_gbr.pdf",
+      "verified": "2026-10-03",
+      "difficulty": 2,
+      "subject": "Ferrari 296 GTB"
+    },
+    {
+      "cat": "Autotechnik",
+      "q": "Wie viele Zylinder hat der Verbrennungsmotor des Ferrari SF90 Stradale?",
+      "a": "8|8 Zylinder",
+      "source": "https://cdn.ferrari.com/cms/network/media/pdf/pr_ferrari_sf90_stradale_gbr.pdf",
+      "verified": "2026-10-03",
+      "difficulty": 3,
+      "subject": "Ferrari SF90 Stradale"
+    },
+    {
+      "cat": "Autotechnik",
+      "q": "Wie viele Zylinder hat der Motor des Ferrari 12Cilindri?",
+      "a": "12|12 Zylinder",
+      "source": "https://www.ferrari.com/content/dam/ferrari-fcom/news/corporate/2026/01/pdf/CS_12Cilindri_Tailor_Made_gbr.pdf",
+      "verified": "2026-10-03",
+      "difficulty": 4,
+      "subject": "Ferrari 12Cilindri"
+    },
+    {
+      "cat": "Autotechnik",
+      "q": "Wie viele PS Systemleistung nennt Ferrari für den Ferrari 296 GTB?",
+      "a": "830|830 PS",
+      "source": "https://www.ferrari.com/en-EN/auto/296-gtb",
+      "verified": "2026-10-03",
+      "difficulty": 4,
+      "subject": "Ferrari 296 GTB"
+    },
+    {
+      "cat": "Autotechnik",
+      "q": "Wie viele PS Systemleistung nennt Ferrari für den Ferrari SF90 Stradale?",
+      "a": "1000|1000 PS",
+      "source": "https://www.ferrari.com/en-EN/auto/sf90-stradale",
+      "verified": "2026-10-03",
+      "difficulty": 5,
+      "subject": "Ferrari SF90 Stradale"
+    },
+    {
+      "cat": "Fußball",
+      "q": "In welchem Jahr wurde Kylian Mbappé geboren?",
+      "a": "1998",
+      "source": "https://www.realmadrid.com/de-DE/fussball/erste-mannshaft/spieler/kylian-mbappe",
+      "verified": "2026-10-03",
+      "difficulty": 2,
+      "subject": "Kylian Mbappé"
+    },
+    {
+      "cat": "Fußball",
+      "q": "In welchem Jahr wurde Erling Haaland geboren?",
+      "a": "2000",
+      "source": "https://live.mancity.com/news/mens/erling-haaland-10-things-factfile-63790703",
+      "verified": "2026-10-03",
+      "difficulty": 3,
+      "subject": "Erling Haaland"
+    },
+    {
+      "cat": "Fußball",
+      "q": "In welchem Jahr wurde Jude Bellingham geboren?",
+      "a": "2003",
+      "source": "https://www.realmadrid.com/de-DE/fussball/erste-mannshaft/spieler/jude-bellingham",
+      "verified": "2026-10-03",
+      "difficulty": 4,
+      "subject": "Jude Bellingham"
+    },
+    {
+      "cat": "Fußball",
+      "q": "In welchem Jahr wurde Mohamed Salah geboren?",
+      "a": "1992",
+      "source": "https://www.liverpoolfc.com/news/first-team/283441-mohamed-salah-in-the-beginning",
+      "verified": "2026-10-03",
+      "difficulty": 3,
+      "subject": "Mohamed Salah"
+    },
+    {
+      "cat": "Geschichte",
+      "q": "In welchem Jahr wurde der Eiffelturm eingeweiht?",
+      "a": "1889",
+      "source": "https://www.toureiffel.paris/en/news/history-and-culture/why-does-eiffel-tower-change-size",
+      "verified": "2026-10-03",
+      "difficulty": 2,
+      "subject": "Eiffelturm"
+    },
+    {
+      "cat": "Geschichte",
+      "q": "In welchem Jahr wurde das Empire State Building eröffnet?",
+      "a": "1931",
+      "source": "https://www.esbnyc.com/about/history",
+      "verified": "2026-10-03",
+      "difficulty": 3,
+      "subject": "Empire State Building"
+    },
+    {
+      "cat": "Geschichte",
+      "q": "In welchem Jahr wurde der Burj Khalifa offiziell eröffnet?",
+      "a": "2010",
+      "source": "https://www.emaar.com/en/other-emaar-businesses/burj-khalifa",
+      "verified": "2026-10-03",
+      "difficulty": 4,
+      "subject": "Burj Khalifa"
+    },
+    {
+      "cat": "Geografie",
+      "q": "Welches mitteleuropäische Land hat laut Statistik Austria 2025/26 eine Staatsfläche von rund 83.884 km²?",
+      "a": "Österreich",
+      "source": "https://www.statistik.at/fileadmin/publications/OZDF-DE-25-26.pdf",
+      "verified": "2026-10-03",
+      "difficulty": 3,
+      "subject": ""
+    },
+    {
+      "cat": "Geografie",
+      "q": "Welches mitteleuropäische Land hat laut seinem offiziellen Geografieporträt eine Staatsfläche von rund 41.285 km²?",
+      "a": "Schweiz",
+      "source": "https://www.aboutswitzerland.eda.admin.ch/de/geografie",
+      "verified": "2026-10-03",
+      "difficulty": 4,
+      "subject": ""
+    },
+    {
+      "cat": "Geografie",
+      "q": "Welches westeuropäische Land hat laut Statbel eine Staatsfläche von rund 30.689 km²?",
+      "a": "Belgien",
+      "source": "https://statbel.fgov.be/en/quiz",
+      "verified": "2026-10-03",
+      "difficulty": 5,
+      "subject": ""
+    }
+  ],
+  "facts": [
+    {
+      "s": "Ein Kohlenstoff-Atomkern enthält sechs Protonen.",
+      "a": true,
+      "e": "Kohlenstoff hat die Ordnungszahl 6.",
+      "cat": "Wissenschaft",
+      "subject": "Kohlenstoff",
+      "difficulty": "easy",
+      "source": "https://periodic-table.rsc.org/element/6/Carbon",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Ein Sauerstoff-Atomkern enthält sechs Protonen.",
+      "a": false,
+      "e": "Sauerstoff hat acht Protonen; sechs gehören zu Kohlenstoff.",
+      "cat": "Wissenschaft",
+      "subject": "Sauerstoff",
+      "difficulty": "easy",
+      "source": "https://periodic-table.rsc.org/element/8/Oxygen",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Ein Helium-Atomkern enthält zwei Protonen.",
+      "a": true,
+      "e": "Helium hat die Ordnungszahl 2.",
+      "cat": "Wissenschaft",
+      "subject": "Helium",
+      "difficulty": "easy",
+      "source": "https://periodic-table.rsc.org/element/2/helium",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Ein Wasserstoff-Atomkern enthält zwei Protonen.",
+      "a": false,
+      "e": "Wasserstoff enthält ein Proton.",
+      "cat": "Wissenschaft",
+      "subject": "Wasserstoff",
+      "difficulty": "easy",
+      "source": "https://periodic-table.rsc.org/element/1/hydrogen",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Eine vollständige Fußballmannschaft steht einschließlich Torwart mit elf Spielern auf dem Feld.",
+      "a": true,
+      "e": "Das klassische Format sieht elf Spieler je Team vor.",
+      "cat": "Sport",
+      "subject": "Fußball",
+      "difficulty": "easy",
+      "source": "https://theifab.com/laws/latest/the-players/",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Beim klassischen Basketball stehen regulär sechs Spieler eines Teams gleichzeitig auf dem Feld.",
+      "a": false,
+      "e": "Es sind fünf; Ersatzspieler zählen nicht mit.",
+      "cat": "Sport",
+      "subject": "Basketball",
+      "difficulty": "easy",
+      "source": "https://about.fiba.basketball/en/our-sport/basketball",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Beim Hallenvolleyball stehen regulär sechs Spieler je Team auf dem Feld.",
+      "a": true,
+      "e": "Das Hallenformat hat sechs aktive Spieler je Mannschaft.",
+      "cat": "Sport",
+      "subject": "Hallenvolleyball",
+      "difficulty": "easy",
+      "source": "https://www.fivb.com/volleyball/the-game/basic-rules/",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Beim Hallenhandball dürfen einschließlich Torwart höchstens sechs Spieler eines Teams gleichzeitig auf dem Feld stehen.",
+      "a": false,
+      "e": "Die reguläre Höchstzahl ist sieben.",
+      "cat": "Sport",
+      "subject": "Hallenhandball",
+      "difficulty": "easy",
+      "source": "https://www.ihf.info/sites/default/files/2025-02/09A%20-%20Rules%20of%20the%20Game_Indoor%20Handball_E.pdf",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Im klassischen Rugby Union spielen vollständige Teams mit jeweils 15 Spielern.",
+      "a": true,
+      "e": "Gemeint ist das klassische Format und nicht Siebener-Rugby.",
+      "cat": "Sport",
+      "subject": "Rugby Union",
+      "difficulty": "easy",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/3-team/",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Beim klassischen Feldhockey stehen regulär fünf Spieler je Team auf dem Feld.",
+      "a": false,
+      "e": "Outdoor-Feldhockey hat elf aktive Spieler; Hockey5s ist ein anderes Format.",
+      "cat": "Sport",
+      "subject": "Feldhockey",
+      "difficulty": "easy",
+      "source": "https://www.fih.hockey/static-assets/pdf/fih-Rules-of-hockey-2026-final.pdf",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Ein Marsjahr dauert länger als ein Erdjahr.",
+      "a": true,
+      "e": "Mars braucht ungefähr 687 Erdtage; die Erde rund 365.",
+      "cat": "Weltraum",
+      "subject": "Mars",
+      "difficulty": "easy",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Ein Venusjahr dauert länger als ein Erdjahr.",
+      "a": false,
+      "e": "Venus braucht rund 225 Erdtage, weniger als die Erde.",
+      "cat": "Weltraum",
+      "subject": "Venus",
+      "difficulty": "easy",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Neptun braucht länger als die Erde für einen Umlauf um die Sonne.",
+      "a": true,
+      "e": "Neptuns Umlauf dauert ungefähr 59.800 Erdtage.",
+      "cat": "Weltraum",
+      "subject": "Neptun",
+      "difficulty": "easy",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Merkur braucht ungefähr ein Erdjahr für einen Umlauf um die Sonne.",
+      "a": false,
+      "e": "Ein Merkurjahr dauert nur etwa 88 Erdtage.",
+      "cat": "Weltraum",
+      "subject": "Merkur",
+      "difficulty": "easy",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Yellowstone wurde 1872 als Nationalpark gegründet.",
+      "a": true,
+      "e": "Das ist das Jahr der gesetzlichen Ausweisung als Nationalpark.",
+      "cat": "Natur",
+      "subject": "Yellowstone-Nationalpark",
+      "difficulty": "easy",
+      "source": "https://www.nps.gov/yell/planyourvisit/parkfacts.htm",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Zion erhielt bereits 1909 den Status eines Nationalparks.",
+      "a": false,
+      "e": "1909 war es ein National Monument; der Nationalparkstatus folgte 1919.",
+      "cat": "Natur",
+      "subject": "Zion-Nationalpark",
+      "difficulty": "easy",
+      "source": "https://www.nps.gov/zion/learn/historyculture/people.htm",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Olympic wurde 1938 als Nationalpark ausgewiesen.",
+      "a": true,
+      "e": "Ein früherer Schutzstatus als National Monument ist davon zu unterscheiden.",
+      "cat": "Natur",
+      "subject": "Olympic-Nationalpark",
+      "difficulty": "easy",
+      "source": "https://www.nps.gov/olym/learn/historyculture/index.htm",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Yosemite wurde im selben Jahr wie Yellowstone als Nationalpark gegründet.",
+      "a": false,
+      "e": "Yosemite wurde 1890 Nationalpark; Yellowstone 1872.",
+      "cat": "Natur",
+      "subject": "Yosemite-Nationalpark",
+      "difficulty": "easy",
+      "source": "https://www.nps.gov/yose/learn/news/yosemite-national-park-commemorates-124th-anniversary.htm",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Ein Standard-Kartendeck ohne Joker enthält 52 Karten.",
+      "a": true,
+      "e": "Gezählt wird das vollständige Standarddeck ohne Joker.",
+      "cat": "Allgemeinwissen",
+      "subject": "Standard-Kartendeck ohne Joker",
+      "difficulty": "easy",
+      "source": "https://de.bicyclecards.com/game-rules/spades/",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Das SET-Grundspiel enthält genauso viele Karten wie ein Standarddeck ohne Joker.",
+      "a": false,
+      "e": "SET enthält 81 Karten; das Standarddeck 52.",
+      "cat": "Allgemeinwissen",
+      "subject": "SET (Grundspiel)",
+      "difficulty": "easy",
+      "source": "https://www.setgame.com/sites/default/files/set_catalogsmall.pdf",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Der Aachener Dom wurde 1978 erstmals UNESCO-Welterbe.",
+      "a": true,
+      "e": "Die UNESCO nennt 1978 als Einschreibungsjahr.",
+      "cat": "Weltkultur",
+      "subject": "Aachener Dom",
+      "difficulty": "medium",
+      "source": "https://whc.unesco.org/en/list/3/",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Der Kölner Dom wurde früher UNESCO-Welterbe als der Aachener Dom.",
+      "a": false,
+      "e": "Köln wurde 1996 eingeschrieben, Aachen bereits 1978.",
+      "cat": "Weltkultur",
+      "subject": "Kölner Dom",
+      "difficulty": "medium",
+      "source": "https://whc.unesco.org/en/list/292/",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Das Opernhaus Sydney wurde 2007 UNESCO-Welterbe.",
+      "a": true,
+      "e": "2007 bezeichnet die Einschreibung, nicht die Eröffnung.",
+      "cat": "Weltkultur",
+      "subject": "Opernhaus Sydney",
+      "difficulty": "medium",
+      "source": "https://whc.unesco.org/en/list/166/",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Das Opernhaus Sydney wurde erst in seinem UNESCO-Einschreibungsjahr 2007 eröffnet.",
+      "a": false,
+      "e": "Es wurde 1973 eröffnet und erst 2007 eingeschrieben.",
+      "cat": "Weltkultur",
+      "subject": "Opernhaus Sydney",
+      "difficulty": "medium",
+      "source": "https://whc.unesco.org/en/list/166/",
+      "verified": "2026-10-03",
+      "sources": [
+        "https://whc.unesco.org/en/list/166/",
+        "https://www.sydneyoperahouse.com/our-story/50-years-extraordinary-moments"
+      ]
+    },
+    {
+      "s": "Das Taj Mahal wurde 1983 in die UNESCO-Welterbeliste aufgenommen.",
+      "a": true,
+      "e": "Die Einschreibung erfolgte 1983.",
+      "cat": "Weltkultur",
+      "subject": "Taj Mahal",
+      "difficulty": "medium",
+      "source": "https://whc.unesco.org/en/list/252/",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Das UNESCO-Einschreibungsjahr 1983 ist auch das Baujahr des Taj Mahal.",
+      "a": false,
+      "e": "Das Bauwerk stammt aus dem 17. Jahrhundert; UNESCO-Einschreibung und Bauzeit sind verschieden.",
+      "cat": "Weltkultur",
+      "subject": "Taj Mahal",
+      "difficulty": "medium",
+      "source": "https://whc.unesco.org/en/list/252/",
+      "verified": "2026-10-03",
+      "sources": [
+        "https://whc.unesco.org/en/list/252/",
+        "https://whc.unesco.org/en/list/252/"
+      ]
+    },
+    {
+      "s": "Das James-Webb-Weltraumteleskop startete 2021 von der Erde.",
+      "a": true,
+      "e": "Gemeint ist der Missionsstart, nicht die Aufnahme des wissenschaftlichen Betriebs.",
+      "cat": "Raumfahrt",
+      "subject": "James-Webb-Weltraumteleskop",
+      "difficulty": "medium",
+      "source": "https://science.nasa.gov/mission/webb/launch/",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Hubble startete im selben Jahr wie das James-Webb-Weltraumteleskop.",
+      "a": false,
+      "e": "Hubble startete 1990, Webb 2021.",
+      "cat": "Raumfahrt",
+      "subject": "Hubble-Weltraumteleskop",
+      "difficulty": "medium",
+      "source": "https://www.nasa.gov/history/hubble/",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Cassini-Huygens startete 1997.",
+      "a": true,
+      "e": "Die Mission hob im Oktober 1997 ab.",
+      "cat": "Raumfahrt",
+      "subject": "Cassini-Huygens",
+      "difficulty": "medium",
+      "source": "https://science.nasa.gov/mission/cassini/quick-facts/",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Voyager 1 startete erst 2006 von der Erde.",
+      "a": false,
+      "e": "Voyager 1 startete 1977; New Horizons startete 2006.",
+      "cat": "Raumfahrt",
+      "subject": "Voyager 1",
+      "difficulty": "medium",
+      "source": "https://voyager.gsfc.nasa.gov/mission.html",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Der Porsche 911 GT3 (PDK, 2025) hat einen Sechszylinder-Verbrennungsmotor.",
+      "a": true,
+      "e": "Der GT3 verwendet einen Sechszylinder-Boxermotor.",
+      "cat": "Autos",
+      "subject": "Porsche 911 GT3 (PDK, 2025)",
+      "difficulty": "medium",
+      "source": "https://newsroom.porsche.com/en/2024/products/porsche-the-new-911-gt3-double-premiere-37595.html",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Der Ferrari 296 GTB besitzt einen Achtzylinder-Verbrennungsmotor.",
+      "a": false,
+      "e": "Der Verbrennungsmotor hat sechs Zylinder; der zusätzliche Elektromotor ändert diese Zylinderzahl nicht.",
+      "cat": "Autos",
+      "subject": "Ferrari 296 GTB",
+      "difficulty": "medium",
+      "source": "https://www.ferrari.com/content/dam/ferrari-fcom/old/pdf/CS_296_GTB_final_gbr.pdf",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Der Verbrennungsmotor des Ferrari SF90 Stradale hat acht Zylinder.",
+      "a": true,
+      "e": "Es ist ein V8 innerhalb des Hybridantriebs.",
+      "cat": "Autos",
+      "subject": "Ferrari SF90 Stradale",
+      "difficulty": "medium",
+      "source": "https://cdn.ferrari.com/cms/network/media/pdf/pr_ferrari_sf90_stradale_gbr.pdf",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Der Ferrari 12Cilindri kommt ohne Verbrennungsmotor aus.",
+      "a": false,
+      "e": "Das Modell hat einen Zwölfzylinder-Verbrennungsmotor.",
+      "cat": "Autos",
+      "subject": "Ferrari 12Cilindri",
+      "difficulty": "medium",
+      "source": "https://www.ferrari.com/content/dam/ferrari-fcom/news/corporate/2026/01/pdf/CS_12Cilindri_Tailor_Made_gbr.pdf",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Mohamed Salah wurde 1992 geboren.",
+      "a": true,
+      "e": "Sein Geburtsdatum ist der 15. Juni 1992.",
+      "cat": "Fußballer",
+      "subject": "Mohamed Salah",
+      "difficulty": "medium",
+      "source": "https://www.liverpoolfc.com/news/first-team/283441-mohamed-salah-in-the-beginning",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Kylian Mbappé wurde im Jahr 2000 geboren.",
+      "a": false,
+      "e": "Mbappé wurde 1998 geboren.",
+      "cat": "Fußballer",
+      "subject": "Kylian Mbappé",
+      "difficulty": "medium",
+      "source": "https://www.realmadrid.com/de-DE/fussball/erste-mannshaft/spieler/kylian-mbappe",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Erling Haaland wurde früher geboren als Jude Bellingham.",
+      "a": true,
+      "e": "Haaland wurde 2000 geboren, Bellingham 2003.",
+      "cat": "Fußballer",
+      "subject": "Erling Haaland",
+      "difficulty": "medium",
+      "source": "https://live.mancity.com/news/mens/erling-haaland-10-things-factfile-63790703",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Jude Bellingham wurde 1998 geboren.",
+      "a": false,
+      "e": "Bellingham wurde 2003 geboren.",
+      "cat": "Fußballer",
+      "subject": "Jude Bellingham",
+      "difficulty": "medium",
+      "source": "https://www.realmadrid.com/de-DE/fussball/erste-mannshaft/spieler/jude-bellingham",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Berlin ist in zwölf Verwaltungsbezirke gegliedert.",
+      "a": true,
+      "e": "Die zwölf Bezirke sind die hier gezählte Verwaltungsebene.",
+      "cat": "Städte",
+      "subject": "Berlin",
+      "difficulty": "medium",
+      "source": "https://willkommenszentrum.berlin.de/glossary/bezirk",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Wien hat ebenso wie Berlin zwölf Stadtbezirke.",
+      "a": false,
+      "e": "Wien hat 23 Bezirke, Berlin zwölf.",
+      "cat": "Städte",
+      "subject": "Wien",
+      "difficulty": "medium",
+      "source": "https://www.wien.gv.at/statistik/bezirksdaten",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Ein Natrium-Atomkern enthält elf Protonen.",
+      "a": true,
+      "e": "Natrium hat die Ordnungszahl 11.",
+      "cat": "Wissenschaft",
+      "subject": "Natrium",
+      "difficulty": "hard",
+      "source": "https://periodic-table.rsc.org/element/11/sodium",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Ein Aluminium-Atomkern enthält zwölf Protonen.",
+      "a": false,
+      "e": "Aluminium hat 13 Protonen; zwölf gehören zu Magnesium.",
+      "cat": "Wissenschaft",
+      "subject": "Aluminium",
+      "difficulty": "hard",
+      "source": "https://periodic-table.rsc.org/element/13/aluminium",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Ein Magnesium-Atomkern enthält zwölf Protonen.",
+      "a": true,
+      "e": "Magnesium hat die Ordnungszahl 12.",
+      "cat": "Wissenschaft",
+      "subject": "Magnesium",
+      "difficulty": "hard",
+      "source": "https://periodic-table.rsc.org/element/12/magnesium",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Chlor hat die Ordnungszahl 18.",
+      "a": false,
+      "e": "Chlor hat die Ordnungszahl 17.",
+      "cat": "Wissenschaft",
+      "subject": "Chlor",
+      "difficulty": "hard",
+      "source": "https://periodic-table.rsc.org/element/17/chlorine",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Kupfer hat die Ordnungszahl 29.",
+      "a": true,
+      "e": "Die Ordnungszahl entspricht der Protonenzahl.",
+      "cat": "Wissenschaft",
+      "subject": "Kupfer",
+      "difficulty": "hard",
+      "source": "https://periodic-table.rsc.org/element/29/copper",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Ein Calcium-Atomkern enthält 26 Protonen.",
+      "a": false,
+      "e": "Calcium hat 20 Protonen; 26 gehören zu Eisen.",
+      "cat": "Wissenschaft",
+      "subject": "Calcium",
+      "difficulty": "hard",
+      "source": "https://periodic-table.rsc.org/element/20/calcium",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Ein Eisen-Atomkern enthält 26 Protonen.",
+      "a": true,
+      "e": "Eisen hat die Ordnungszahl 26.",
+      "cat": "Wissenschaft",
+      "subject": "Eisen",
+      "difficulty": "hard",
+      "source": "https://periodic-table.rsc.org/element/26/iron",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Silizium hat dieselbe Ordnungszahl wie Eisen.",
+      "a": false,
+      "e": "Silizium hat die Ordnungszahl 14; Eisen 26.",
+      "cat": "Wissenschaft",
+      "subject": "Silizium",
+      "difficulty": "hard",
+      "source": "https://periodic-table.rsc.org/element/14/silicon",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Schwefel hat die Ordnungszahl 16.",
+      "a": true,
+      "e": "Schwefel-Atomkerne enthalten 16 Protonen.",
+      "cat": "Wissenschaft",
+      "subject": "Schwefel",
+      "difficulty": "hard",
+      "source": "https://periodic-table.rsc.org/element/16/sulfur",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Ein Neon-Atomkern enthält elf Protonen.",
+      "a": false,
+      "e": "Neon enthält zehn Protonen; Natrium elf.",
+      "cat": "Wissenschaft",
+      "subject": "Neon",
+      "difficulty": "hard",
+      "source": "https://periodic-table.rsc.org/element/10/neon",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Der NASA-Temperaturwert für Jupiter von ungefähr −110 °C bezieht sich auf die Atmosphäre bei einem Druck von 1 bar.",
+      "a": true,
+      "e": "Gasriesen werden in dieser Tabelle am 1-bar-Niveau verglichen, nicht an einer festen Oberfläche.",
+      "cat": "Weltraum",
+      "subject": "Jupiter",
+      "difficulty": "hard",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-03",
+      "sources": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/planetfact_notes.html"
+      ]
+    },
+    {
+      "s": "Der NASA-Tabellenwert von ungefähr −140 °C für Saturn beschreibt die Temperatur seines Kerns.",
+      "a": false,
+      "e": "Er bezieht sich auf das 1-bar-Niveau in der Atmosphäre, nicht auf den Kern.",
+      "cat": "Weltraum",
+      "subject": "Saturn",
+      "difficulty": "hard",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-03",
+      "sources": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/planetfact_notes.html"
+      ]
+    },
+    {
+      "s": "Die NASA-Tabelle nennt für Neptuns mittlere Sonnenentfernung ungefähr 4.515 Millionen Kilometer.",
+      "a": true,
+      "e": "Das sind etwa 4,515 Milliarden Kilometer; gemeint ist die große Halbachse.",
+      "cat": "Weltraum",
+      "subject": "Neptun",
+      "difficulty": "hard",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Der NASA-Wert zur mittleren Sonnenentfernung der Erde beschreibt ihre Entfernung zu jedem beliebigen Zeitpunkt exakt.",
+      "a": false,
+      "e": "Die Entfernung schwankt auf der elliptischen Bahn; der Tabellenwert beschreibt die große Halbachse.",
+      "cat": "Weltraum",
+      "subject": "Erde",
+      "difficulty": "hard",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-03",
+      "sources": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/planetfact_notes.html"
+      ]
+    },
+    {
+      "s": "Der NASA-Wert von ungefähr 464 °C für Venus ist eine mittlere Oberflächentemperatur.",
+      "a": true,
+      "e": "Es handelt sich um einen mittleren Referenzwert und nicht um eine lokale Tageshöchsttemperatur.",
+      "cat": "Weltraum",
+      "subject": "Venus",
+      "difficulty": "hard",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-03",
+      "sources": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/planetfact_notes.html"
+      ]
+    },
+    {
+      "s": "Die ungefähr 167 °C aus der NASA-Tabelle sind die maximale Tagestemperatur auf Merkur.",
+      "a": false,
+      "e": "167 °C ist der mittlere Wert über die Oberfläche; lokale Tagestemperaturen können deutlich höher sein.",
+      "cat": "Weltraum",
+      "subject": "Merkur",
+      "difficulty": "hard",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-03",
+      "sources": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/planetfact_notes.html"
+      ]
+    },
+    {
+      "s": "New Horizons startete früher von der Erde als das James-Webb-Weltraumteleskop.",
+      "a": true,
+      "e": "New Horizons startete 2006, Webb 2021.",
+      "cat": "Raumfahrt",
+      "subject": "New Horizons",
+      "difficulty": "hard",
+      "source": "https://science.nasa.gov/mission/new-horizons/",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Voyager 1 startete später als Hubble.",
+      "a": false,
+      "e": "Voyager 1 startete 1977, Hubble 1990.",
+      "cat": "Raumfahrt",
+      "subject": "Voyager 1",
+      "difficulty": "hard",
+      "source": "https://voyager.gsfc.nasa.gov/mission.html",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Rocky Mountain wurde früher als Zion als Nationalpark ausgewiesen.",
+      "a": true,
+      "e": "Rocky Mountain wurde 1915 Nationalpark, Zion 1919.",
+      "cat": "Natur",
+      "subject": "Rocky-Mountain-Nationalpark",
+      "difficulty": "hard",
+      "source": "https://www.nps.gov/romo/learn/historyculture/brief.htm",
+      "verified": "2026-10-03"
+    },
+    {
+      "s": "Olympic erhielt schon 1909 den Status eines Nationalparks.",
+      "a": false,
+      "e": "1909 war es ein National Monument; die Ausweisung als Nationalpark erfolgte 1938.",
+      "cat": "Natur",
+      "subject": "Olympic-Nationalpark",
+      "difficulty": "hard",
+      "source": "https://www.nps.gov/olym/learn/historyculture/index.htm",
+      "verified": "2026-10-03"
+    }
+  ]
+}
