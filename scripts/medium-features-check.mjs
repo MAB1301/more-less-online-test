@@ -10,5 +10,17 @@ const p=fixture('host');let current={uid:'accountA',guest:false};let remote={fac
 current={uid:'offlineAccount',guest:false};p.ctx.gameAccount.authorized=async()=>{throw Error('offline')};await p.ctx.syncPlayerHistory();assert.equal(p.storage.get('ml_fact_recent_v1'),'[]','failed account sync cannot retain another owner history');
 const metrics=p.ctx.personalMetrics([{ok:true},{ok:true},{ok:false},{ok:true},{ok:null}]);assert.equal(metrics.answered,4);assert.equal(metrics.correct,3);assert.equal(metrics.best_streak,2);
 let resolvers=[];p.ctx.playerHubRpc=()=>new Promise(r=>resolvers.push(r));p.node('boardPeriod').value='day';p.node('boardScope').value='global';const old=p.ctx.refreshExtendedLeaderboard();const recent=p.ctx.refreshExtendedLeaderboard();const board={leaderboard:[{rank:1,name:'Recent',score:5,mine:true}],total:1,start:'2026-10-04',end:'2026-10-05'};resolvers[1](board);await recent;resolvers[0]({...board,leaderboard:[{rank:1,name:'Old',score:1}]});await old;assert.equal(p.node('extendedBoardList').children[0].children[1].textContent,'Recent · Du');
+// A failed filter request clears the old board and keeps pagination locked until retry succeeds.
+p.ctx.playerHubRpc=async()=>{throw Error('offline')};await p.ctx.refreshExtendedLeaderboard(50);
+assert.equal(p.node('extendedBoardList').children.length,1);
+assert.equal(p.node('extendedBoardList').children[0].textContent,'Erneut laden');
+assert.equal(p.node('extendedBoardPrev').disabled,true);assert.equal(p.node('extendedBoardNext').disabled,true);
+p.ctx.playerHubRpc=async()=>board;await p.node('extendedBoardList').children[0].onclick();
+assert.equal(p.node('extendedBoardList').children[0].children[1].textContent,'Recent · Du');
+assert.match(p.node('extendedBoardStatus').textContent,/Online aktualisiert/);
+// A response for a departed Daily must not repopulate the newly selected game's board.
+let completeOld;p.ctx.playerHubRpc=()=>new Promise(resolve=>{completeOld=resolve});
+const departed=p.ctx.refreshExtendedLeaderboard();p.ctx.DAILY.game='estimate';completeOld(board);await departed;
+assert.equal(p.node('extendedBoardList').children.length,0);
 const review=JSON.parse(fs.readFileSync('content/review-schedule.json','utf8'));assert.ok(review.records.length>200);assert.equal(new Set(review.records.map(r=>r.id)).size,review.records.length);for(const r of review.records){assert.match(r.source,/^https:\/\//);if(r.verified){assert.ok(r.next_review>r.verified);assert.equal((Date.parse(r.next_review)-Date.parse(r.verified))/86400000,r.review_interval_days)}}assert.ok(review.records.some(r=>r.time_dependent&&r.review_interval_days===90));
 console.log('OK: shared Fact/Fake, immutable false retries, host controls, stale room rejection, deduplicated history, account isolation, meaningful personal metrics, newest leaderboard and review deadlines');
