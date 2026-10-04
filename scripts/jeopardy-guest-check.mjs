@@ -11,7 +11,7 @@ function fixture(host){
   const elements=new Map();
   const el=id=>{
     if(!elements.has(id)){
-      const classes=new Set();elements.set(id,{classList:{add:(...xs)=>xs.forEach(x=>classes.add(x)),remove:(...xs)=>xs.forEach(x=>classes.delete(x)),contains:x=>classes.has(x)},textContent:'',dataset:{}});
+      const classes=new Set();elements.set(id,{classList:{add:(...xs)=>xs.forEach(x=>classes.add(x)),remove:(...xs)=>xs.forEach(x=>classes.delete(x)),contains:x=>classes.has(x),toggle:(x,v)=>{v?classes.add(x):classes.delete(x)}},textContent:'',dataset:{}});
     }
     return elements.get(id);
   };

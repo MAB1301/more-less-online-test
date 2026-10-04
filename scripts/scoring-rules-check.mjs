@@ -4,7 +4,7 @@ import vm from 'node:vm';
 
 const html=fs.readFileSync('index.html','utf8');
 function source(name){
-  const start=html.indexOf('function '+name+'(');
+  let start=html.indexOf('function '+name+'(');if(html.slice(start-6,start)==='async ')start-=6;
   assert(start>=0,name);
   let depth=0,quote='',escaped=false;
   for(let i=html.indexOf('{',start);i<html.length;i++){
@@ -17,7 +17,7 @@ function source(name){
   throw Error(name);
 }
 const els=new Map(),el=id=>{
-  if(!els.has(id))els.set(id,{value:'',textContent:'',style:{},classList:{add:()=>{},remove:()=>{}},querySelector:()=>({style:{}})});
+  if(!els.has(id))els.set(id,{value:'',textContent:'',style:{},classList:{add:()=>{},remove:()=>{}},blur(){},querySelector:()=>({style:{}})});
   return els.get(id);
 };
 let cleared=0,judged=null;
@@ -34,8 +34,8 @@ el('jeopAnswerInput').value='Auto';
 vm.runInContext('submitJeopAnswer()',context);
 assert.equal(judged,false,'Auto must not count as Au');
 assert.equal(el('jeopAnswer').textContent.includes('Auto'),true);
-context.S.room='test-room';judged=null;
-vm.runInContext('submitJeopAnswer()',context);
+context.S.room='test-room';context.S.uid='guest';context.JEOP.onlineState={buzz_user_id:'guest'};context.JEOP.questionToken='question-token';let submission;context.jeopRpc=async(fn,p)=>{submission={fn,p};return true};context.jeopSyncState=async()=>{};judged=null;
+await vm.runInContext('submitJeopAnswer()',context);assert.equal(submission.fn,'jeopardy_submit_answer');assert.equal(submission.p.p_answer,'Auto');assert.equal(submission.p.p_question_token,'question-token');
 assert.equal(judged,null,'guest answer waits for host verdict');
 assert.equal(el('jeopAnswer').textContent.includes('Richtige Antwort'),false,'guest cannot reveal solution before verdict');
 const storage=new Map(),facts=vm.createContext({localStorage:{getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v)},factShuffle:xs=>xs});

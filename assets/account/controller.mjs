@@ -17,7 +17,7 @@ async function renderAccount(){
  $('accountMemberControls').classList.toggle('hide',!fixed);
  $('accountHandleField').classList.toggle('hide',!fixed);
  if(profile)$('accountHandle').value=profile.handle;
- renderGuestProfile();
+ renderGuestProfile();window.refreshCosmeticIdentity?.();
 }
 async function loadAccount(){
  loading=true;
