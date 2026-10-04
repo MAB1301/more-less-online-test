@@ -64,14 +64,7 @@ function closeRulePreview(){
  clearInterval(GAME_UX.timer);GAME_UX.timer=null;const d=el('gameRulePreview');if(d?.open)d.close();
  GAME_UX.onStart=null;GAME_UX.onCancel=null;GAME_UX.returnFocus?.focus?.();
 }
-function needsRulePreview(game,mode,run){
- if(S.room)return false;const key=game+':'+mode;
- if(GAME_UX.approved===key){GAME_UX.approved=null;return false}
- closeRulePreview();if(typeof closeForeignGames==='function')closeForeignGames(null);fillRulePreview(gameRules(game,mode),'DEIN NÄCHSTES MATCH');configureRuleSettings(gameRules(game,mode),true);
- el('gameRuleStart').disabled=false;el('gameRuleStart').textContent='Los geht’s →';el('gameRuleCancel').textContent='Zurück';
- GAME_UX.onStart=()=>{closeRulePreview();GAME_UX.approved=key;run()};GAME_UX.onCancel=()=>{closeRulePreview();openWorldMenu(game)};
- return true;
-}
+function needsRulePreview(game,mode,run){return false}
 function rulePreviewStart(){GAME_UX.onStart?.()}
 function rulePreviewCancel(){if(GAME_UX.onCancel)GAME_UX.onCancel();else closeRulePreview()}
 function questionStartsIn(q){const start=Date.parse(q?.starts_at);return Number.isFinite(start)?Math.max(0,Math.ceil((start-Date.now()-(S.serverOffset||0))/1000)):0}
