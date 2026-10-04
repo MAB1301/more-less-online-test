@@ -129,5 +129,5 @@ await vm.runInContext('retryDailyAnswer()',ctx);
 assert.equal(attempts['2026-09-28facts'].answered,1,'idempotent retry does not score twice');
 assert.equal(el('dailySaveState')['data-state'],'saved');assert(el('dailyRetry').classList.contains('hide'));
 await vm.runInContext('nextDaily()',ctx);assert.equal(el('dailySaveState')['data-state'],'ready');
-for(const file of ['index.html','offline/index.html']){const html=fs.readFileSync(file,'utf8');for(const id of ['dailyIdentity','dailyPodium','dailyBoardUpdated','dailySaveState','dailyRetry'])assert.equal(html.split('id="'+id+'"').length-1,1);assert(html.includes('assets/game-polish.css?v=podium-20261003'))}
+for(const file of ['index.html','offline/index.html']){const html=fs.readFileSync(file,'utf8');for(const id of ['dailyIdentity','dailyPodium','dailyBoardUpdated','dailySaveState','dailyRetry'])assert.equal(html.split('id="'+id+'"').length-1,1);assert(html.includes('assets/game-polish.css?v=mode-first-20261004'))}
 console.log('OK: safe tied podium, single/empty/page handling, account/guest badge, stale refresh feedback and lost-response retry without duplicate points');

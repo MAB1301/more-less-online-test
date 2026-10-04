@@ -1,6 +1,6 @@
 /* Card artwork sits behind gameplay, preserving readable question panels. */
 body:has(#game:not(.preLobbyHidden):not(.hide)){background:#080c20 url('home/art/rule-background.webp') center/cover fixed no-repeat}
-body:has(#game:not(.preLobbyHidden):not(.hide)) #game{background:linear-gradient(145deg,#0d1029eb,#11132be8)!important;border:1px solid #9a67dc55;box-shadow:0 18px 75px #0007}
+body:has(#game:not(.preLobbyHidden):not(.hide)) #game{background:linear-gradient(145deg,#0d1029b0,#11132bc4),url('home/art/rule-background.webp') center/cover no-repeat!important;border:1px solid #9a67dc55;box-shadow:0 18px 75px #0007}
 #dailyOverlay:not(.hide){background:linear-gradient(#07091985,#070919b0),url('home/art/rule-background.webp') center/cover no-repeat}
 #dailyOverlay.dailyShowingScores .modal{background:radial-gradient(ellipse at 50% 0%,#52288155,transparent 65%),#0a0c20;border-color:#b17aff66;box-shadow:0 0 65px #8c3ddd30}
 .dailyShowingScores .dailyHead h2{color:#f1e2ff;text-shadow:0 0 24px #b960ff60}
@@ -22,3 +22,5 @@ body:has(#game:not(.preLobbyHidden):not(.hide)) #game{background:linear-gradient
 .dailySaveRow{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:18px 0 8px}.dailySaveRow span{padding:7px 10px;border-radius:10px;font-size:13px;color:#c1bdd8;background:#ffffff08}.dailySaveRow [data-state=saved]{color:#9debc9;background:#42d49b14}.dailySaveRow [data-state=uncertain]{color:#ffddb0;background:#f9b45414}.dailySaveRow button{min-height:44px}
 @media(max-width:480px){.dailyPodium{gap:7px;margin-top:18px}.dailyPodiumCard{padding:14px 6px 12px;border-radius:14px;min-height:165px}.dailyPodiumRank1{min-height:193px}.dailyPodiumCard b{font-size:12px}.dailyPodiumCard strong{font-size:13px}.dailyPodiumAvatar{width:39px;height:39px;font-size:14px}.dailyPodiumCard small{font-size:10px}.dailyIdentity{font-size:11px}body:has(#game:not(.preLobbyHidden):not(.hide)){background-attachment:scroll}}
 @media(prefers-reduced-motion:reduce){.dailyPodiumCard{transition:none}}
+
+#estimateGame,#factGame,#jeopGame{background:linear-gradient(#060c1ba6,#060c1bc4),url('home/art/rule-background.webp') center/cover no-repeat!important}

@@ -6,8 +6,8 @@ function node(id){if(!nodes.has(id)){const classes=new Set(['hide']);nodes.set(i
 let calls=[];
 const ctx={document:{getElementById:node},window:{devicePixelRatio:2},S:{},SOLO:{on:false},DAILY:{data:null},EST:{mode:'classic'},JEOP:{mode:'standard'},GAME_WORLD:'moreless',FACT_DIFFICULTY:'easy',FACT_LEVEL_NAMES:{easy:'Leicht'},openFriendsMenu:(...args)=>calls.push(['online',...args]),playSolo:()=>calls.push(['solo']),startEstimateSolo:()=>calls.push(['estimate']),startFactCheck:()=>calls.push(['facts']),openJeopTeamSetup:()=>calls.push(['teams']),closeWorldMenu:()=>calls.push(['home']),leaveMatch:()=>calls.push(['confirm']),clearInterval(){},closeDaily(){},menuBack(){}};
 vm.createContext(ctx);vm.runInContext(fs.readFileSync('assets/site-ux.js','utf8').split('(function initSiteUX()')[0],ctx);
-ctx.siteEntry('local');assert.equal(calls.pop()[0],'solo');
-ctx.GAME_WORLD='quiz';ctx.siteEntry('local');assert.equal(calls.pop()[0],'teams');
+node('worldMenu').dataset.options='open';ctx.siteChoosePlayType();assert.equal(node('worldMenu').dataset.options,'closed');assert.ok(node('siteLocalStart').focused);ctx.siteShowModes();assert.equal(node('worldMenu').dataset.options,'open');ctx.siteEntry('local');assert.equal(calls.pop()[0],'solo');
+ctx.GAME_WORLD='quiz';ctx.siteEntry('local');assert.equal(calls.pop()[0],'teams');assert.equal(node('worldMenu').dataset.options,'teams');
 ctx.GAME_WORLD='facts';ctx.siteEntryUpdate();assert.equal(node('siteOnlineStart').hidden,false);ctx.siteEntry('local');assert.equal(calls.pop()[0],'facts');
 ctx.GAME_WORLD='estimate';ctx.siteEntry('online');assert.equal(calls.pop()[1],'estimate');
 ctx.S.room='room';ctx.siteMainMenu();assert.equal(node('siteNavigation').open,true);assert.equal(ctx.S.room,'room');ctx.siteResume();assert.equal(node('siteNavigation').open,false);assert.equal(ctx.S.room,'room');
