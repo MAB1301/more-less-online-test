@@ -42,7 +42,8 @@ const context=vm.createContext({renderSoloProgress(){},renderOnlineProgress(){},
   sync:async()=>{},scheduleAutoNext:()=>{},showFinish:()=>{},
   setTimeout:()=>{},Math
 });
-vm.runInContext(['onlineTotalQuestions','setOnlineAnswerState','answer','showReveal'].map(source).join('\n'),context);
+vm.runInContext(html.match(/^function escapeHTML.*$/m)[0],context);
+  vm.runInContext(['onlineTotalQuestions','setOnlineAnswerState','answer','showReveal'].map(source).join('\n'),context);
 await vm.runInContext("answer('a')",context);
 assert.equal(node('a').classes.has('lockedPick'),true,'chosen card is visibly locked');
 assert.equal(node('a').stamp['.answerStampText'].textContent,'EINGELOGGT');

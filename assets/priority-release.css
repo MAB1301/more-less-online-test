@@ -1,0 +1,27 @@
+/* Shared accessibility and viewport rules; artwork and engine layouts remain intact. */
+:root{--visible-height:100dvh;--visible-top:0px}
+button,input,select,textarea,summary,[role=button],[role=checkbox]{touch-action:manipulation}
+button,select,summary,[role=button],[role=checkbox]{min-height:44px}
+input:not([type=checkbox]):not([type=range]),select,textarea{font-size:max(16px,1em);max-width:100%;box-sizing:border-box}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:3px solid #e2d6ff!important;outline-offset:3px}
+[inert]{pointer-events:none}
+.priorityModal{overscroll-behavior:contain;box-sizing:border-box;max-height:calc(var(--visible-height) - 24px)!important;overflow:auto!important;scroll-padding:20px}
+dialog.priorityModal{width:min(720px,calc(100vw - 24px));max-width:calc(100vw - 24px);margin:auto}
+.overlay.priorityModal{top:var(--visible-top)!important;bottom:auto!important;height:var(--visible-height);max-height:var(--visible-height)!important;padding:12px;align-items:safe center}
+.overlay.priorityModal>.modal{max-height:calc(var(--visible-height) - 24px)!important;overflow:auto;min-width:0}
+.soloCardDraw.priorityModal{top:var(--visible-top)!important;height:var(--visible-height);max-height:var(--visible-height)!important;align-items:safe center;overflow:auto;padding:16px}
+.priorityModal p,.priorityModal li{line-height:1.55;overflow-wrap:anywhere}
+.priorityModal input,.priorityModal textarea{scroll-margin:24px}
+.prioritySetup{margin:16px 0;padding:14px;border:1px solid #9a85ce66;border-radius:14px;background:#151c33;color:#eef0ff;line-height:1.6;white-space:pre-line}
+.priorityNotice{padding:12px 14px;border:1px solid #c6a26c;border-radius:14px;background:#25213a;line-height:1.5;color:#ffedca}
+.priorityNotice[hidden]{display:none!important}.priorityNotice button{margin:8px 8px 0 0}
+body[data-modal-open=true] .siteNav{visibility:hidden;pointer-events:none}
+body[data-keyboard-open=true] .siteNav,body[data-keyboard-open=true] .accountDock{visibility:hidden;pointer-events:none}
+.siteNav{box-sizing:border-box}.siteNav button{white-space:normal!important;line-height:1.3}
+.siteNavigation{max-height:calc(var(--visible-height) - 24px);overflow:auto;box-sizing:border-box}
+.recapQ[role=button]{cursor:pointer}.priorityModal .muted,.siteEntry p,.siteEntry small{color:#d2d6e8}
+#status[role=status]{line-height:1.5;overflow-wrap:anywhere}
+.prioritySkip{position:fixed;left:12px;top:12px;z-index:20000;padding:12px;background:#fff;color:#17132c;transform:translateY(-180%)}.prioritySkip:focus{transform:none}
+@media(max-width:600px){.siteNav{width:calc(100vw - 16px)!important;gap:4px;flex-wrap:wrap}.siteNav button{flex:1 1 calc(50% - 8px);padding:8px!important;font-size:12px!important}.homeMain,.estimateInner,.factInner,.wrap{padding-bottom:150px!important}.priorityModal{border-radius:18px!important}.priorityModal .row{flex-wrap:wrap}.priorityModal .row>input,.priorityModal .row>select{min-width:0;flex:1 1 140px}.prioritySetup{font-size:14px}.lobbyFooter #overlayHost{min-width:0;width:100%}.jeopQBox{width:calc(100vw - 24px);box-sizing:border-box}.drawCards{max-width:100%;flex-wrap:wrap}.drawPanel{max-width:100%;min-width:0}}
+@media(max-height:550px){.priorityModal{max-height:calc(var(--visible-height) - 16px)!important}.overlay.priorityModal{align-items:flex-start}.priorityModal .modalHead{gap:8px}.priorityModal h2{font-size:24px}.siteNav{right:8px!important;left:auto!important;transform:none!important;width:min(380px,calc(100vw - 16px))!important}.objectVisual,.modeQuestionVisual{max-height:120px}}
+@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}.priorityModal,.priorityNotice{animation:none!important;transition:none!important}}

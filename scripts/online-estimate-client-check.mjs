@@ -14,6 +14,7 @@ function device(uid,host){const nodes=new Map();function el(id){if(!nodes.has(id
   throw Error(fn);
  };
  const context=vm.createContext({S,EST,el,rpc,estimateCategory:()=> 'Bauwerke',sharedTheme:()=> 'buildings',sharedArt:()=> '',categoryPhotoArt:()=> '',setQuestionVisual(){},document:{createElement:()=>({textContent:''})},clearInterval(){},setInterval(){return 1},Date,Number,Math,showLocalEnd:(g,summary,rows)=>{context.finished=rows}});
+ vm.runInContext(html.match(/^function escapeHTML.*$/m)[0],context);
  vm.runInContext(['parseGameNumber','estimateInputConfig','configureEstimateInput','parseEstimateInput','syncEstimateOnline','renderEstimateOnline','submitEstimateOnline','nextEstimateOnline','finishEstimateOnline'].map(source).join('\n'),context);
  return {S,EST,el,context,run:code=>vm.runInContext(code,context)};
 }

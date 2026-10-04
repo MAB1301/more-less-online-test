@@ -1,5 +1,5 @@
 /* Site-wide entry and navigation; game state remains owned by the game engines. */
-function siteRoundActive(){return !!S.room||!!SOLO.on||['estimateGame','jeopGame','factGame'].some(id=>{const n=document.getElementById(id);return n&&!n.classList.contains('hide')})||!!(DAILY.data?.attempt&&!DAILY.data.attempt.complete)}
+function siteRoundActive(){return !!S.room||!!SOLO.on||['estimateGame','jeopGame','factGame'].some(id=>{const n=document.getElementById(id);return n&&!n.classList.contains('hide')})||DAILY.busy||!!(DAILY.data?.attempt&&!DAILY.data.attempt.complete&&!document.getElementById('dailyOverlay')?.classList.contains('hide'))}
 function siteEntry(kind){
  if(siteRoundActive()){siteMainMenu();return}
  if(kind==='online'){openFriendsMenu(GAME_WORLD,document.getElementById('siteOnlineStart'));return}
