@@ -83,7 +83,7 @@ def build(catalogue, output, images_dir=OUT, trivia=None):
                 difficulty = fact.get("fact_difficulty", "easy")
                 if difficulty not in ("easy", "medium", "hard"):
                     raise ValueError(f"Invalid Fact or Fake difficulty: {ident}")
-                pack["facts"].append({"s": fact["fact_statement"], "a": fact["fact_answer"], "e": fact["fact_explanation"], "cat": cat, "subject": name, "difficulty": difficulty, "source": source})
+                pack["facts"].append({"s": fact["fact_statement"], "a": fact["fact_answer"], "e": fact["fact_explanation"], "cat": cat, "subject": name, "difficulty": difficulty, "source": source, "verified": fact.get("verified")})
             if fact.get("jeopardy_question"):
                 if not fact.get("jeopardy_answer"):
                     raise ValueError(f"Jeopardy answer missing: {ident}")

@@ -8,7 +8,7 @@ const ctx={document:{getElementById:node},window:{devicePixelRatio:2},S:{},SOLO:
 vm.createContext(ctx);vm.runInContext(fs.readFileSync('assets/site-ux.js','utf8').split('(function initSiteUX()')[0],ctx);
 ctx.siteEntry('local');assert.equal(calls.pop()[0],'solo');
 ctx.GAME_WORLD='quiz';ctx.siteEntry('local');assert.equal(calls.pop()[0],'teams');
-ctx.GAME_WORLD='facts';ctx.siteEntryUpdate();assert.equal(node('siteOnlineStart').hidden,true);ctx.siteEntry('local');assert.equal(calls.pop()[0],'facts');
+ctx.GAME_WORLD='facts';ctx.siteEntryUpdate();assert.equal(node('siteOnlineStart').hidden,false);ctx.siteEntry('local');assert.equal(calls.pop()[0],'facts');
 ctx.GAME_WORLD='estimate';ctx.siteEntry('online');assert.equal(calls.pop()[1],'estimate');
 ctx.S.room='room';ctx.siteMainMenu();assert.equal(node('siteNavigation').open,true);assert.equal(ctx.S.room,'room');ctx.siteResume();assert.equal(node('siteNavigation').open,false);assert.equal(ctx.S.room,'room');
 ctx.siteEntry('local');assert.equal(node('siteNavigation').open,true);ctx.siteEndRound();assert.equal(calls.pop()[0],'confirm');assert.equal(ctx.S.room,'room');

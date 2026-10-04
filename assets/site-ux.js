@@ -12,8 +12,8 @@ function siteToggleOptions(){const n=document.getElementById('worldMenu'),open=n
 function siteEntryUpdate(){
  const quiz=GAME_WORLD==='quiz',facts=GAME_WORLD==='facts';
  document.getElementById('siteLocalStart').textContent=quiz?'Lokal · 2 Teams starten':'Solo starten';
- document.getElementById('siteOnlineStart').hidden=facts;
- document.getElementById('siteEntryNote').textContent=facts?'10 Aussagen · Solo auf diesem Gerät':quiz?'Lokal auf einem Gerät oder online in einer gemeinsamen Lobby':'Direkt losspielen oder eine Online-Lobby erstellen / betreten';
+ document.getElementById('siteOnlineStart').hidden=false;
+ document.getElementById('siteEntryNote').textContent=facts?'Solo: gewähltes Level · Online: 10 gemeinsame Aussagen, 60 Sekunden pro Frage':quiz?'Lokal auf einem Gerät oder online in einer gemeinsamen Lobby':'Direkt losspielen oder eine Online-Lobby erstellen / betreten';
  document.getElementById('siteSelection').textContent=GAME_WORLD==='moreless'?document.getElementById('chosenMode').textContent:GAME_WORLD==='estimate'?EST.mode:quiz?JEOP.mode:FACT_LEVEL_NAMES[FACT_DIFFICULTY];
 }
 function siteMainMenu(){

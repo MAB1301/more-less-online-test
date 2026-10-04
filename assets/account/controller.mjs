@@ -10,7 +10,7 @@ function activeMatch(){return !!S.room||DAILY.busy||!!(DAILY.data?.attempt&&!DAI
 function backupGuest(){try{const saved=localStorage.getItem('ml_account_auth_v1');if(saved&&JSON.parse(saved).guest)localStorage.setItem('ml_guest_account_backup_v1',saved);if(!localStorage.getItem('ml_guest_appearance_backup_v1'))localStorage.setItem('ml_guest_appearance_backup_v1',JSON.stringify({profile:localStorage.getItem('ml_guest_profile_v1'),preferences:localStorage.getItem('ml_game_preferences_v1')}))}catch{}}
 async function renderAccount(){
  const auth=await client.current();const fixed=!!auth&&!auth.guest;
- if(typeof window.siteIdentityUpdate==='function')window.siteIdentityUpdate(fixed);
+ if(typeof window.siteIdentityUpdate==='function')window.siteIdentityUpdate(fixed);void window.syncPlayerHistory?.();
  $('accountModeLine').textContent=fixed?'Angemeldet · '+(profile?.handle?'@'+profile.handle:'Account'):'Du spielst als Gast.';
  $('accountProfileNote').textContent=fixed?'Profil und Einstellungen im Account':'Gastprofil auf diesem Gerät';
  $('accountAuthControls').classList.toggle('hide',fixed);
@@ -79,8 +79,8 @@ window.accountReady=(async()=>{
  await loadAccount();
 })().catch(async error=>{if(error.status===400||error.status===401){client.forget();profile=null;await renderAccount();message('Deine Anmeldung ist abgelaufen. Bitte melde dich erneut an.')}else message(errorText(error));return null});
 
-const INVITE_MODES={moreless:{CLASSIC:'Classic',PARTY:'Party',BLITZ:'Blitz',SURVIVAL:'Survival',KING:'King',CHAOS:'Chaos'},estimate:{classic:'Classic',risk:'Risk',survival:'Survival',blitz:'Blitz',king:'King'},quiz:{standard:'Standard',big:'Big Board',football:'Fußball',random:'Random',nerd:'Schwer',sport:'Sport',geo:'Geo',party:'Party'}};
-const GAME_NAMES={moreless:'More / Less',estimate:'Schätzduell',quiz:'Jeopardy'};
+const INVITE_MODES={facts:{classic:'Klassisch'},moreless:{CLASSIC:'Classic',PARTY:'Party',BLITZ:'Blitz',SURVIVAL:'Survival',KING:'King',CHAOS:'Chaos'},estimate:{classic:'Classic',risk:'Risk',survival:'Survival',blitz:'Blitz',king:'King'},quiz:{standard:'Standard',big:'Big Board',football:'Fußball',random:'Random',nerd:'Schwer',sport:'Sport',geo:'Geo',party:'Party'}};
+const GAME_NAMES={facts:'Fakt oder Fake',moreless:'More / Less',estimate:'Schätzduell',quiz:'Jeopardy'};
 let inviteTarget=null,inviteFlight=false,inviteListFlight=false;
 window.updateInviteModes=function updateInviteModes(){const game=$('friendInviteGame').value,select=$('friendInviteMode');select.replaceChildren();for(const [value,label] of Object.entries(INVITE_MODES[game]||{})){const option=document.createElement('option');option.value=value;option.textContent=label;select.append(option)}};
 window.openFriendInvite=function openFriendInvite(uid,name){
