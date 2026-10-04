@@ -1,0 +1,15 @@
+/* Approved static backgrounds; no image is applied in data-saving mode. */
+html:not(.dataSaving) #homeScreen{background:linear-gradient(#050b1933,#050b1966),url('backgrounds/menu-20261004.webp') center/cover no-repeat!important}
+html:not(.dataSaving) #worldMenu[data-world=estimate],html:not(.dataSaving) #estimateGame{background:linear-gradient(#050b1933,#050b1959),url('backgrounds/estimate-20261004.webp') center/cover no-repeat!important}
+html:not(.dataSaving) #worldMenu[data-world=quiz],html:not(.dataSaving) #jeopGame{background:linear-gradient(#050b1926,#050b194d),url('backgrounds/jeopardy-20261004.webp') center/cover no-repeat!important}
+html:not(.dataSaving) #worldMenu[data-world=facts],html:not(.dataSaving) #factGame{background:linear-gradient(#050b1933,#050b1959),url('backgrounds/facts-20261004.webp') center/cover no-repeat!important}
+#homeScreen::before,#homeScreen::after,#estimateGame::before,#estimateGame::after,#factGame::before,#factGame::after,#jeopGame::before,#jeopGame::after{display:none!important}
+html.dataSaving #homeScreen,html.dataSaving #worldMenu,html.dataSaving #estimateGame,html.dataSaving #factGame,html.dataSaving #jeopGame{background:radial-gradient(ellipse at 50% 0%,#202b4c,#090f20 75%)!important}
+html.dataSaving body,html.dataSaving body #game,html.dataSaving #dailyOverlay:not(.hide){background:linear-gradient(145deg,#101a30,#080e1d)!important}
+html.dataSaving #jeopQuestion{background:linear-gradient(#080e1de8,#080e1df5)!important}
+html.dataSaving .jeopCategoryPhoto{display:none!important}
+html.dataSaving #jeopBoard .jeopHead{min-height:76px;justify-content:center;background:linear-gradient(145deg,#25314b,#121c30)!important}
+html.dataSaving .rulePreviewArt,html.dataSaving .gameModeIcon.cardArt{background-image:none!important}
+html.dataSaving *,html.dataSaving *::before,html.dataSaving *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+html.dataSaving .pointFly,html.dataSaving .scoreFly{display:none!important}
+@media(max-width:650px){html.dataSaving #jeopBoard .jeopHead{min-height:88px}}
