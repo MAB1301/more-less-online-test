@@ -15,7 +15,7 @@ vm.runInContext(html.slice(html.indexOf('const JEOP_HISTORY_KEY='),html.indexOf(
 const cats=vm.runInContext('JEOP_CATS.map(c=>c[0])',game);
 assert.equal(Object.keys(images).length,cats.length);assert.equal(new Set(Object.values(images)).size,cats.length,'Each category requires a distinct image');
 for(const name of cats){assert(images[name],name+' missing image');const bytes=fs.readFileSync('assets/jeopardy/categories/'+images[name]);assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WEBP');assert(bytes.length<200000,'Keep banners compact')}
-for(const mode of ['standard','big','football','random','nerd','sport','geo','party']){game.JEOP.mode=mode;game.buildJeopData();assert.equal(game.JEOP.data.length,6);for(const [name,questions] of game.JEOP.data){assert(images[name],mode+' has unmapped category');assert.equal(questions.length,5)}assert.equal(game.JEOP.step,mode==='big'?200:100)}
+for(const mode of ['standard','big','football','random','nerd','sport','geo','party']){game.JEOP.mode=mode;game.buildJeopData();assert.equal(game.JEOP.data.length,6);for(const [name,questions] of game.JEOP.data){assert(images[name]||ctx.window.JEOP_GEO_IMAGES[name],mode+' has unmapped category');assert.equal(questions.length,5)}assert.equal(game.JEOP.step,mode==='big'?200:100)}
 for(const path of ['index.html','offline/index.html']){const page=fs.readFileSync(path,'utf8');assert.match(page,/jeopardy\/categories.js\?v=20261004-studio/);assert.match(page,/jeopardy-polish.js\?v=20261004-backgrounds/)}
 console.log('OK: all 26 categories have distinct optimized WebP assets; every board mode resolves category imagery and retains its points and questions; online/offline load the same presentation');
 
