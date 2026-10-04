@@ -104,9 +104,9 @@ window.sendFriendInvite=async function sendFriendInvite(event){
 };
 window.loadAccountInvitations=async function loadAccountInvitations(){
  if(inviteListFlight)return;inviteListFlight=true;
- try{const auth=await client.current(),list=$('accountInvitationsList'),badge=$('accountInviteBadge');if(!auth||auth.guest){list.replaceChildren();badge.classList.add('hide');return}
+ try{const auth=await client.current(),list=$('accountInvitationsList'),badge=$('accountInviteBadge');if(!auth||auth.guest){list.replaceChildren();badge.classList.add('hide');if(typeof updateInviteCenterBadge==='function')updateInviteCenterBadge(0);return}
   const invitations=await client.invitations();const ids=[...new Set(invitations.flatMap(i=>[i.sender_id,i.recipient_id]))],names=await client.friendProfiles(ids);
-  const count=invitations.filter(i=>i.recipient_id===auth.uid).length;badge.textContent=String(count);badge.classList.toggle('hide',!count);$('accountButton').setAttribute('aria-label',count?'Account · '+count+' offene Einladungen':'Account öffnen');list.replaceChildren();
+  const count=invitations.filter(i=>i.recipient_id===auth.uid).length;badge.textContent=String(count);badge.classList.toggle('hide',!count);if(typeof updateInviteCenterBadge==='function')updateInviteCenterBadge(count);$('accountButton').setAttribute('aria-label',count?'Account · '+count+' offene Einladungen':'Account öffnen');list.replaceChildren();
   if(!invitations.length){list.textContent='Keine offenen Einladungen.';return}
   for(const i of invitations){const incoming=i.recipient_id===auth.uid,other=incoming?i.sender_id:i.recipient_id,name=names.find(p=>p.user_id===other)?.display_name||'Spieler';const row=document.createElement('div'),label=document.createElement('span');row.className='accountFriendRow';label.textContent=(incoming?'Von ':'An ')+name+' · '+(GAME_NAMES[i.game]||i.game)+' · '+(INVITE_MODES[i.game]?.[i.game_mode]||i.game_mode);row.append(label);
    function button(text,fn){const b=document.createElement('button');b.type='button';b.textContent=text;b.onclick=async()=>{b.disabled=true;try{await fn();await loadAccountInvitations()}catch(error){message(errorText(error));b.disabled=false}};row.append(b)}
