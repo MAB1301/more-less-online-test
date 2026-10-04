@@ -1,0 +1,21 @@
+import fs from 'node:fs';import vm from 'node:vm';import assert from 'node:assert/strict';
+const html=fs.readFileSync('index.html','utf8'),packCtx={window:{}};vm.runInNewContext(fs.readFileSync('content/approved.js','utf8'),packCtx);const pack=packCtx.window.GAME_CONTENT_PACK;
+const expansion=JSON.parse(fs.readFileSync('content/research/2026-10-04/expansion-5.json','utf8'));
+assert.equal(expansion.numeric.length,44);assert.equal(expansion.facts.length,54);assert.equal(expansion.jeopardy.length,138);
+assert.equal(pack.moreless.filter(q=>q.verified==='2026-10-04').length,135);
+const fc=pack.moreless.filter(q=>q.u.includes('FC 27'));assert.equal(fc.length,40);assert(fc.every(q=>q.metric.includes('FC 27')));
+assert.equal(pack.estimate.filter(q=>q.q.includes('FC 27')).length,28);
+const fc26=pack.moreless.filter(q=>q.u.includes('FC 26'));assert.equal(fc26.length,10);assert(fc26.some(q=>q.lv===97||q.rv===97),'FC26 snapshot remains distinct');
+for(const level of ['easy','medium','hard']){const rows=expansion.facts.filter(q=>q.difficulty===level);assert.equal(rows.length,18);assert.equal(rows.filter(q=>q.a).length,9)}
+assert(expansion.facts.some(q=>q.s.includes('vor seinem Liverpool-Wechsel 2017')&&!q.a));assert(expansion.facts.some(q=>q.s.includes('Sommer 2026')));
+const state=new Map();const ctx=vm.createContext({window:{GAME_CONTENT_PACK:pack},VISUAL_IMG:{},VISUAL_DETAIL:{},GENERATED_SUBJECTS:new Set(),SOLO_Q:[],ESTIMATE_Q:[],FACT_Q:[],localStorage:{getItem:k=>state.get(k)||null,setItem:(k,v)=>state.set(k,v)},knowledgeJeopardyQuestions:()=>[],S:{room:null},JEOP:{mode:'football'}});
+vm.runInContext(html.slice(html.indexOf('const JEOP_CATS='),html.indexOf('let JEOP=')),ctx);
+const a=html.indexOf('(function mergeReviewedContent(){'),b=html.indexOf('})();',a)+5;vm.runInContext(html.slice(a,b),ctx);
+const c=html.indexOf("const JEOP_HISTORY_KEY="),d=html.indexOf('let JEOP_SYNC_REV=',c);vm.runInContext(html.slice(c,d),ctx);
+const board=()=>{ctx.buildJeopData();const data=ctx.JEOP.data;assert.equal(data.length,6);const q=data.flatMap(x=>x[1].map(q=>q[0]));assert.equal(q.length,30);assert.equal(new Set(q).size,30);return q};
+board();assert.deepEqual(Array.from(ctx.JEOP.data.map(x=>x[0])),['Fußball','FC 27-Werte','Vereinsstationen','Transfers 2025','Transfers 2026','Champions League']);
+ctx.JEOP.mode='random';ctx.S={room:'replay-room',signalId:'match-A',roomConfig:{game:'quiz',game_mode:'random'}};board();const first=JSON.stringify(ctx.JEOP.data);board();assert.equal(JSON.stringify(ctx.JEOP.data),first,'reconnect restores same shared board');ctx.S.signalId='match-B';board();assert.notEqual(JSON.stringify(ctx.JEOP.data),first,'new shared match signal creates a new board');
+ctx.S={room:null};state.clear();ctx.JEOP.mode='standard';ctx.JEOP_CATS;vm.runInContext("JEOP_CATS.splice(0,JEOP_CATS.length,...['Fußball','FC 27-Werte','Planetenphysik','Chemie','Nationalparks','Raumfahrtmissionen'].map(n=>JEOP_CATS.find(c=>c[0]===n)))",ctx);const firstLocal=board();const secondLocal=board();assert.equal(new Set([...firstLocal,...secondLocal]).size,60,'two full boards use 60 different available questions');
+ctx.JEOP.mode='nerd';state.clear();board();assert(state.get('ml_jeop_history_v2'));assert(!html.includes('jeopShuffle(cat[1]).slice(-5)'),'hard mode retains entire category pools');
+assert(html.includes("if(n===901){const signal=await req("));
+console.log('OK: FC27 stays edition-separated, 54 balanced new facts, 138 new Jeopardy clues, football preset, two non-repeating local boards, shared rematch seed and reconnect stability');

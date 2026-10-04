@@ -1,6 +1,6 @@
 import fs from 'node:fs';import vm from 'node:vm';import assert from 'node:assert/strict';
 const html=fs.readFileSync('index.html','utf8'),ctx={window:{}};vm.runInNewContext(fs.readFileSync('content/approved.js','utf8'),ctx);const pack=ctx.window.GAME_CONTENT_PACK;
-const groups=Object.groupBy(pack.moreless,q=>q.cat);assert.equal(groups['Fußballer'].length,16);assert.equal(groups.Autos.length,11);
+const groups=Object.groupBy(pack.moreless,q=>q.cat);assert.equal(groups['Fußballer'].length,56);assert.equal(groups.Autos.length,20);
 const pairKeys=new Set();for(const q of pack.moreless){assert.notEqual(q.lv,q.rv);assert(q.sources.length===2&&q.sources.every(url=>url.startsWith('https://')));const key=[q.cat,q.u,...[q.l,q.r].sort()].join('|');assert(!pairKeys.has(key));pairKeys.add(key);assert(pack.images[q.l]&&pack.images[q.r]);}
 for(const image of Object.values(pack.images)){assert(fs.existsSync('assets/visuals/'+image.card));assert(image.source.startsWith("https://")&&image.license);assert.equal(typeof image.generated,"boolean")}
 assert.notEqual(pack.images.Orca.card,pack.images.Delfin.card);assert.notEqual(pack.images['Kylian Mbappé'].card,pack.images['Erling Haaland'].card);
@@ -16,12 +16,12 @@ assert.equal(vm.runInContext("questionSubject('Wie viele Tasten hat ein Standard
 assert.equal(vm.runInContext("questionSubject('Wie viele Felder hat ein Schachbrett?')",test),'Felder Schachbrett');
 
 
-assert.equal(pack.moreless.length,556);assert.equal(pack.estimate.length,128);
-for(const q of pack.estimate){assert(pack.images[q.subject]);assert(q.source.startsWith('https://'));assert(['2026-10-01','2026-10-03'].includes(q.verified));assert(!/Tragzeit/.test(q.q));}
-for(const [cat,count] of Object.entries({'Länder':3,'Städte':3,'Natur':54,'Sport':14,'Bauwerke':3,'Tierwelt':3,'Weltraum':151,'Wissenschaft':210,'Allgemeinwissen':3,'Rekorde & Extreme':3,'Raumfahrt':55,'Weltkultur':27}))assert.equal(groups[cat].length,count);
+assert.equal(pack.moreless.length,691);assert.equal(pack.estimate.length,213);
+for(const q of pack.estimate){assert(pack.images[q.subject]);assert(q.source.startsWith('https://'));assert(['2026-10-01','2026-10-03','2026-10-04'].includes(q.verified));assert(!/Tragzeit/.test(q.q));}
+for(const [cat,count] of Object.entries({'Länder':6,'Städte':6,'Natur':57,'Sport':17,'Bauwerke':6,'Tierwelt':6,'Weltraum':206,'Wissenschaft':213,'Allgemeinwissen':4,'Rekorde & Extreme':6,'Raumfahrt':58,'Weltkultur':30}))assert.equal(groups[cat].length,count);
 for(const unit of ['Jahr · Geburtsjahr','Jahr · Gründungsjahr','Jahr · Startjahr','Jahr · Erstes UNESCO-Welterbe-Einschreibungsjahr','Jahr · Jahr der offiziellen Eröffnung'])assert.match(test.moreLessPrompt('A','B',unit),/später/);
 assert.match(test.moreLessPrompt('A','B','Monate ungefähr · Tragzeit als grober Richtwert'),/grober Richtwert/);
-console.log('OK: 540 net new research comparisons, 128 sourced estimates, every subject illustrated, year semantics correct');
+console.log('OK: 680 net new research comparisons, 213 sourced estimates, every subject illustrated, year semantics correct');
 
 const temperatures=pack.moreless.filter(q=>/temperatur/i.test(q.metric));assert.equal(temperatures.length,12);assert(temperatures.every(q=>q.lv<0&&q.rv<0||q.metric==='Mittlere Oberflächentemperatur'));
 assert(!pack.moreless.some(q=>[q.l,q.r].includes('Erde')&&[q.l,q.r].includes('Venus')&&q.metric==='Umlaufdauer um die Sonne'));

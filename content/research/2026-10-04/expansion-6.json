@@ -1,0 +1,1943 @@
+{
+  "numeric": [
+    {
+      "subject": "Österreich",
+      "category": "Länder",
+      "metric": "Internationale Telefon-Landeskennzahl",
+      "value": 43,
+      "unit": "Zahl nach +",
+      "comparison_unit": "Zahl nach + · Internationale Telefon-Landeskennzahl",
+      "source": "https://www.itu.int/oth/t0202/en",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Telefonvorwahl ohne internationale Verkehrsausscheidungsziffer.",
+      "estimate_question": "Österreich: Wie hoch ist der Wert für „Internationale Telefon-Landeskennzahl“ (Zahl nach +)?"
+    },
+    {
+      "subject": "Schweiz",
+      "category": "Länder",
+      "metric": "Internationale Telefon-Landeskennzahl",
+      "value": 41,
+      "unit": "Zahl nach +",
+      "comparison_unit": "Zahl nach + · Internationale Telefon-Landeskennzahl",
+      "source": "https://www.itu.int/oth/t0202/en",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Telefonvorwahl ohne internationale Verkehrsausscheidungsziffer.",
+      "estimate_question": "Schweiz: Wie hoch ist der Wert für „Internationale Telefon-Landeskennzahl“ (Zahl nach +)?"
+    },
+    {
+      "subject": "Belgien",
+      "category": "Länder",
+      "metric": "Internationale Telefon-Landeskennzahl",
+      "value": 32,
+      "unit": "Zahl nach +",
+      "comparison_unit": "Zahl nach + · Internationale Telefon-Landeskennzahl",
+      "source": "https://www.itu.int/oth/t0202/en",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Telefonvorwahl ohne internationale Verkehrsausscheidungsziffer.",
+      "estimate_question": "Belgien: Wie hoch ist der Wert für „Internationale Telefon-Landeskennzahl“ (Zahl nach +)?"
+    },
+    {
+      "subject": "Berlin",
+      "category": "Städte",
+      "metric": "Stadtfläche laut angegebenem Quellenstand",
+      "value": 891.1,
+      "unit": "km²",
+      "comparison_unit": "km² · Stadtfläche laut angegebenem Quellenstand",
+      "source": "https://bundeswahlleiterin.de/bundestagswahlen/2025/strukturdaten/bund-99/land-11.html",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Berlin: 31.12.2023; Hamburg: gerundeter Behördenwert; Wien: 2025. Verwaltungsfläche einschließlich Wasserflächen.",
+      "estimate_question": "Berlin: Wie hoch ist der Wert für „Stadtfläche laut angegebenem Quellenstand“ (km²)?"
+    },
+    {
+      "subject": "Hamburg",
+      "category": "Städte",
+      "metric": "Stadtfläche laut angegebenem Quellenstand",
+      "value": 755,
+      "unit": "km²",
+      "comparison_unit": "km² · Stadtfläche laut angegebenem Quellenstand",
+      "source": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/boden-und-geologie/altlasten/flaechenrecycling/flaechenrecycling-167942",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Berlin: 31.12.2023; Hamburg: gerundeter Behördenwert; Wien: 2025. Verwaltungsfläche einschließlich Wasserflächen.",
+      "estimate_question": "Hamburg: Wie hoch ist der Wert für „Stadtfläche laut angegebenem Quellenstand“ (km²)?"
+    },
+    {
+      "subject": "Wien",
+      "category": "Städte",
+      "metric": "Stadtfläche laut angegebenem Quellenstand",
+      "value": 414.9,
+      "unit": "km²",
+      "comparison_unit": "km² · Stadtfläche laut angegebenem Quellenstand",
+      "source": "https://www.wien.gv.at/statistik/aktuelle-daten",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Berlin: 31.12.2023; Hamburg: gerundeter Behördenwert; Wien: 2025. Verwaltungsfläche einschließlich Wasserflächen.",
+      "estimate_question": "Wien: Wie hoch ist der Wert für „Stadtfläche laut angegebenem Quellenstand“ (km²)?"
+    },
+    {
+      "subject": "Eiffelturm",
+      "category": "Bauwerke",
+      "metric": "Baubeginn (einschließlich Gründungsarbeiten)",
+      "value": 1887,
+      "unit": "Jahr",
+      "comparison_unit": "Jahr · Baubeginn (einschließlich Gründungsarbeiten)",
+      "source": "https://www.toureiffel.paris/en/the-monument/history",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "",
+      "estimate_question": "Eiffelturm: Wie hoch ist der Wert für „Baubeginn (einschließlich Gründungsarbeiten)“ (Jahr)?"
+    },
+    {
+      "subject": "Empire State Building",
+      "category": "Bauwerke",
+      "metric": "Baubeginn (einschließlich Gründungsarbeiten)",
+      "value": 1930,
+      "unit": "Jahr",
+      "comparison_unit": "Jahr · Baubeginn (einschließlich Gründungsarbeiten)",
+      "source": "https://www.esbnyc.com/about/history",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "",
+      "estimate_question": "Empire State Building: Wie hoch ist der Wert für „Baubeginn (einschließlich Gründungsarbeiten)“ (Jahr)?"
+    },
+    {
+      "subject": "Burj Khalifa",
+      "category": "Bauwerke",
+      "metric": "Baubeginn (einschließlich Gründungsarbeiten)",
+      "value": 2004,
+      "unit": "Jahr",
+      "comparison_unit": "Jahr · Baubeginn (einschließlich Gründungsarbeiten)",
+      "source": "https://bk.emaar.com/en/assets/FACT-SHEET.pdf",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "",
+      "estimate_question": "Burj Khalifa: Wie hoch ist der Wert für „Baubeginn (einschließlich Gründungsarbeiten)“ (Jahr)?"
+    },
+    {
+      "subject": "Yellowstone-Nationalpark",
+      "category": "Natur",
+      "metric": "Parkfläche laut NPS-Statistik",
+      "value": 2221766,
+      "unit": "Acres",
+      "comparison_unit": "Acres · Parkfläche laut NPS-Statistik",
+      "source": "https://www.nps.gov/yell/planyourvisit/parkfacts.htm",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Momentaufnahme der verlinkten NPS-Statistik; verschiedene ältere NPS-Unterseiten können abweichende Grenzstände enthalten.",
+      "estimate_question": "Yellowstone-Nationalpark: Wie hoch ist der Wert für „Parkfläche laut NPS-Statistik“ (Acres)?"
+    },
+    {
+      "subject": "Yosemite-Nationalpark",
+      "category": "Natur",
+      "metric": "Parkfläche laut NPS-Statistik",
+      "value": 759620,
+      "unit": "Acres",
+      "comparison_unit": "Acres · Parkfläche laut NPS-Statistik",
+      "source": "https://www.nps.gov/yose/learn/management/statistics.htm",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Momentaufnahme der verlinkten NPS-Statistik; verschiedene ältere NPS-Unterseiten können abweichende Grenzstände enthalten.",
+      "estimate_question": "Yosemite-Nationalpark: Wie hoch ist der Wert für „Parkfläche laut NPS-Statistik“ (Acres)?"
+    },
+    {
+      "subject": "Grand-Canyon-Nationalpark",
+      "category": "Natur",
+      "metric": "Parkfläche laut NPS-Statistik",
+      "value": 1218375,
+      "unit": "Acres",
+      "comparison_unit": "Acres · Parkfläche laut NPS-Statistik",
+      "source": "https://home.nps.gov/grca/learn/management/statistics.htm",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Momentaufnahme der verlinkten NPS-Statistik; verschiedene ältere NPS-Unterseiten können abweichende Grenzstände enthalten.",
+      "estimate_question": "Grand-Canyon-Nationalpark: Wie hoch ist der Wert für „Parkfläche laut NPS-Statistik“ (Acres)?"
+    },
+    {
+      "subject": "Elefant",
+      "category": "Tierwelt",
+      "metric": "Geburtsgewicht: oberer genannter Richtwert",
+      "value": 120,
+      "unit": "kg",
+      "comparison_unit": "kg · Geburtsgewicht: oberer genannter Richtwert",
+      "source": "https://animals.sandiegozoo.org/animals/elephant",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Oberes Ende des Zoo-Richtbereichs; beim Löwen einzelner ungefährer Wert. Kein Durchschnitt und kein Rekord.",
+      "estimate_question": "Elefant: Wie hoch ist der Wert für „Geburtsgewicht: oberer genannter Richtwert“ (kg)?"
+    },
+    {
+      "subject": "Giraffe",
+      "category": "Tierwelt",
+      "metric": "Geburtsgewicht: oberer genannter Richtwert",
+      "value": 100,
+      "unit": "kg",
+      "comparison_unit": "kg · Geburtsgewicht: oberer genannter Richtwert",
+      "source": "https://animals.sandiegozoo.org/animals/giraffe",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Oberes Ende des Zoo-Richtbereichs; beim Löwen einzelner ungefährer Wert. Kein Durchschnitt und kein Rekord.",
+      "estimate_question": "Giraffe: Wie hoch ist der Wert für „Geburtsgewicht: oberer genannter Richtwert“ (kg)?"
+    },
+    {
+      "subject": "Löwe",
+      "category": "Tierwelt",
+      "metric": "Geburtsgewicht: oberer genannter Richtwert",
+      "value": 1.4,
+      "unit": "kg",
+      "comparison_unit": "kg · Geburtsgewicht: oberer genannter Richtwert",
+      "source": "https://animals.sandiegozoo.org/animals/lion",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Oberes Ende des Zoo-Richtbereichs; beim Löwen einzelner ungefährer Wert. Kein Durchschnitt und kein Rekord.",
+      "estimate_question": "Löwe: Wie hoch ist der Wert für „Geburtsgewicht: oberer genannter Richtwert“ (kg)?"
+    },
+    {
+      "subject": "Kohlenstoff",
+      "category": "Wissenschaft",
+      "metric": "Relative Atommasse nach RSC",
+      "value": 12.011,
+      "unit": "relative Atommasse",
+      "comparison_unit": "relative Atommasse · Relative Atommasse nach RSC",
+      "source": "https://periodic-table.rsc.org/element/6/carbon",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Dimensionsloser Tabellenwert; keine Massenzahl eines einzelnen Isotops.",
+      "estimate_question": "Kohlenstoff: Wie hoch ist der Wert für „Relative Atommasse nach RSC“ (relative Atommasse)?"
+    },
+    {
+      "subject": "Sauerstoff",
+      "category": "Wissenschaft",
+      "metric": "Relative Atommasse nach RSC",
+      "value": 15.999,
+      "unit": "relative Atommasse",
+      "comparison_unit": "relative Atommasse · Relative Atommasse nach RSC",
+      "source": "https://periodic-table.rsc.org/element/8/oxygen",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Dimensionsloser Tabellenwert; keine Massenzahl eines einzelnen Isotops.",
+      "estimate_question": "Sauerstoff: Wie hoch ist der Wert für „Relative Atommasse nach RSC“ (relative Atommasse)?"
+    },
+    {
+      "subject": "Eisen",
+      "category": "Wissenschaft",
+      "metric": "Relative Atommasse nach RSC",
+      "value": 55.845,
+      "unit": "relative Atommasse",
+      "comparison_unit": "relative Atommasse · Relative Atommasse nach RSC",
+      "source": "https://periodic-table.rsc.org/element/26/iron",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Dimensionsloser Tabellenwert; keine Massenzahl eines einzelnen Isotops.",
+      "estimate_question": "Eisen: Wie hoch ist der Wert für „Relative Atommasse nach RSC“ (relative Atommasse)?"
+    },
+    {
+      "subject": "Fußball",
+      "category": "Sport",
+      "metric": "Reguläre Spielzeit für Erwachsene ohne Verlängerung",
+      "value": 90,
+      "unit": "Minuten",
+      "comparison_unit": "Minuten · Reguläre Spielzeit für Erwachsene ohne Verlängerung",
+      "source": "https://www.theifab.com/laws/latest/the-duration-of-the-match/",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Fußball ohne Nachspielzeit; Basketball nach FIBA, nicht NBA; Handball für mindestens 16-Jährige.",
+      "estimate_question": "Fußball: Wie hoch ist der Wert für „Reguläre Spielzeit für Erwachsene ohne Verlängerung“ (Minuten)?"
+    },
+    {
+      "subject": "Basketball",
+      "category": "Sport",
+      "metric": "Reguläre Spielzeit für Erwachsene ohne Verlängerung",
+      "value": 40,
+      "unit": "Minuten",
+      "comparison_unit": "Minuten · Reguläre Spielzeit für Erwachsene ohne Verlängerung",
+      "source": "https://assets.fiba.basketball/image/upload/documents-corporate-fiba-official-rules-2026-v1-1.pdf",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Fußball ohne Nachspielzeit; Basketball nach FIBA, nicht NBA; Handball für mindestens 16-Jährige.",
+      "estimate_question": "Basketball: Wie hoch ist der Wert für „Reguläre Spielzeit für Erwachsene ohne Verlängerung“ (Minuten)?"
+    },
+    {
+      "subject": "Hallenhandball",
+      "category": "Sport",
+      "metric": "Reguläre Spielzeit für Erwachsene ohne Verlängerung",
+      "value": 60,
+      "unit": "Minuten",
+      "comparison_unit": "Minuten · Reguläre Spielzeit für Erwachsene ohne Verlängerung",
+      "source": "https://www.ihf.info/sites/default/files/2025-02/09A%20-%20Rules%20of%20the%20Game_Indoor%20Handball_E.pdf",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Fußball ohne Nachspielzeit; Basketball nach FIBA, nicht NBA; Handball für mindestens 16-Jährige.",
+      "estimate_question": "Hallenhandball: Wie hoch ist der Wert für „Reguläre Spielzeit für Erwachsene ohne Verlängerung“ (Minuten)?"
+    },
+    {
+      "subject": "Porsche 911 GT3 (PDK, 2025)",
+      "category": "Autos",
+      "metric": "Maximales Drehmoment des Verbrennungsmotors",
+      "value": 450,
+      "unit": "Nm",
+      "comparison_unit": "Nm · Maximales Drehmoment des Verbrennungsmotors",
+      "source": "https://newsroom.porsche.com/en/2024/products/porsche-the-new-911-gt3-double-premiere-37595.html",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Verbrennungsmotor, kein addiertes Hybrid-Systemdrehmoment.",
+      "estimate_question": "Porsche 911 GT3 (PDK, 2025): Wie hoch ist der Wert für „Maximales Drehmoment des Verbrennungsmotors“ (Nm)?"
+    },
+    {
+      "subject": "Ferrari 296 GTB",
+      "category": "Autos",
+      "metric": "Maximales Drehmoment des Verbrennungsmotors",
+      "value": 740,
+      "unit": "Nm",
+      "comparison_unit": "Nm · Maximales Drehmoment des Verbrennungsmotors",
+      "source": "https://www.ferrari.com/content/dam/ferrari-fcom/old/pdf/CS_296_GTB_final_gbr.pdf",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Verbrennungsmotor, kein addiertes Hybrid-Systemdrehmoment.",
+      "estimate_question": "Ferrari 296 GTB: Wie hoch ist der Wert für „Maximales Drehmoment des Verbrennungsmotors“ (Nm)?"
+    },
+    {
+      "subject": "Ferrari SF90 Stradale",
+      "category": "Autos",
+      "metric": "Maximales Drehmoment des Verbrennungsmotors",
+      "value": 800,
+      "unit": "Nm",
+      "comparison_unit": "Nm · Maximales Drehmoment des Verbrennungsmotors",
+      "source": "https://cdn.ferrari.com/cms/network/media/pdf/pr_ferrari_sf90_stradale_gbr.pdf",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Verbrennungsmotor, kein addiertes Hybrid-Systemdrehmoment.",
+      "estimate_question": "Ferrari SF90 Stradale: Wie hoch ist der Wert für „Maximales Drehmoment des Verbrennungsmotors“ (Nm)?"
+    },
+    {
+      "subject": "Aachener Dom",
+      "category": "Weltkultur",
+      "metric": "UNESCO-Kernfläche ohne Pufferzone",
+      "value": 0.223,
+      "unit": "ha",
+      "comparison_unit": "ha · UNESCO-Kernfläche ohne Pufferzone",
+      "source": "https://whc.unesco.org/en/list/3/",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Property, nicht Buffer zone; Quellenstand 4.10.2026.",
+      "estimate_question": "Aachener Dom: Wie hoch ist der Wert für „UNESCO-Kernfläche ohne Pufferzone“ (ha)?"
+    },
+    {
+      "subject": "Opernhaus Sydney",
+      "category": "Weltkultur",
+      "metric": "UNESCO-Kernfläche ohne Pufferzone",
+      "value": 5.8,
+      "unit": "ha",
+      "comparison_unit": "ha · UNESCO-Kernfläche ohne Pufferzone",
+      "source": "https://whc.unesco.org/en/list/166/",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Property, nicht Buffer zone; Quellenstand 4.10.2026.",
+      "estimate_question": "Opernhaus Sydney: Wie hoch ist der Wert für „UNESCO-Kernfläche ohne Pufferzone“ (ha)?"
+    },
+    {
+      "subject": "Standard-Kartendeck ohne Joker",
+      "category": "Allgemeinwissen",
+      "metric": "Anzahl der Kartenfarben",
+      "value": 4,
+      "unit": "Kartenfarben",
+      "comparison_unit": "Kartenfarben · Anzahl der Kartenfarben",
+      "source": "https://de.bicyclecards.com/game-rules/spades/",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Standarddeck: vier Farben/Suits; SET: rot, grün, violett. Keine Anzahl der Farbpigmente einer Druckdatei.",
+      "estimate_question": "Standard-Kartendeck ohne Joker: Wie hoch ist der Wert für „Anzahl der Kartenfarben“ (Kartenfarben)?"
+    },
+    {
+      "subject": "SET (Grundspiel)",
+      "category": "Allgemeinwissen",
+      "metric": "Anzahl der Kartenfarben",
+      "value": 3,
+      "unit": "Kartenfarben",
+      "comparison_unit": "Kartenfarben · Anzahl der Kartenfarben",
+      "source": "https://www.setgame.com/sites/default/files/teacherscorner/THE%20JOY%20OF%20SET.pdf",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Standarddeck: vier Farben/Suits; SET: rot, grün, violett. Keine Anzahl der Farbpigmente einer Druckdatei.",
+      "estimate_question": "SET (Grundspiel): Wie hoch ist der Wert für „Anzahl der Kartenfarben“ (Kartenfarben)?"
+    },
+    {
+      "subject": "400-m-Weltrekord Männer",
+      "category": "Rekorde & Extreme",
+      "metric": "Mittlere Geschwindigkeit des Rekordlaufs · WA September 2026",
+      "value": 9.296,
+      "unit": "m/s",
+      "comparison_unit": "m/s · Mittlere Geschwindigkeit des Rekordlaufs · WA September 2026",
+      "source": "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Berechnet als Streckenlänge geteilt durch die veröffentlichte Rekordzeit; auf drei Dezimalstellen gerundet. Historischer Quellenstand September 2026.",
+      "estimate_question": "400-m-Weltrekord Männer: Wie hoch ist der Wert für „Mittlere Geschwindigkeit des Rekordlaufs · WA September 2026“ (m/s)?"
+    },
+    {
+      "subject": "800-m-Weltrekord Männer",
+      "category": "Rekorde & Extreme",
+      "metric": "Mittlere Geschwindigkeit des Rekordlaufs · WA September 2026",
+      "value": 7.928,
+      "unit": "m/s",
+      "comparison_unit": "m/s · Mittlere Geschwindigkeit des Rekordlaufs · WA September 2026",
+      "source": "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Berechnet als Streckenlänge geteilt durch die veröffentlichte Rekordzeit; auf drei Dezimalstellen gerundet. Historischer Quellenstand September 2026.",
+      "estimate_question": "800-m-Weltrekord Männer: Wie hoch ist der Wert für „Mittlere Geschwindigkeit des Rekordlaufs · WA September 2026“ (m/s)?"
+    },
+    {
+      "subject": "1500-m-Weltrekord Männer",
+      "category": "Rekorde & Extreme",
+      "metric": "Mittlere Geschwindigkeit des Rekordlaufs · WA September 2026",
+      "value": 7.282,
+      "unit": "m/s",
+      "comparison_unit": "m/s · Mittlere Geschwindigkeit des Rekordlaufs · WA September 2026",
+      "source": "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Berechnet als Streckenlänge geteilt durch die veröffentlichte Rekordzeit; auf drei Dezimalstellen gerundet. Historischer Quellenstand September 2026.",
+      "estimate_question": "1500-m-Weltrekord Männer: Wie hoch ist der Wert für „Mittlere Geschwindigkeit des Rekordlaufs · WA September 2026“ (m/s)?"
+    },
+    {
+      "subject": "Sputnik 1",
+      "category": "Raumfahrt",
+      "metric": "Masse beim Start laut Quelle, ungefähr",
+      "value": 83,
+      "unit": "kg",
+      "comparison_unit": "kg · Masse beim Start laut Quelle, ungefähr",
+      "source": "https://science.nasa.gov/blogs/earth-matters/2017/04/14/modern-satellites-littler-and-mightier-than-before/",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "NASA gerundete Satellitenwerte; Webb einschließlich Verbrauchsmitteln und Startadapter nach ESA.",
+      "estimate_question": "Sputnik 1: Wie hoch ist der Wert für „Masse beim Start laut Quelle, ungefähr“ (kg)?"
+    },
+    {
+      "subject": "Explorer 1",
+      "category": "Raumfahrt",
+      "metric": "Masse beim Start laut Quelle, ungefähr",
+      "value": 14,
+      "unit": "kg",
+      "comparison_unit": "kg · Masse beim Start laut Quelle, ungefähr",
+      "source": "https://science.nasa.gov/blogs/earth-matters/2017/04/14/modern-satellites-littler-and-mightier-than-before/",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "NASA gerundete Satellitenwerte; Webb einschließlich Verbrauchsmitteln und Startadapter nach ESA.",
+      "estimate_question": "Explorer 1: Wie hoch ist der Wert für „Masse beim Start laut Quelle, ungefähr“ (kg)?"
+    },
+    {
+      "subject": "James-Webb-Weltraumteleskop",
+      "category": "Raumfahrt",
+      "metric": "Masse beim Start laut Quelle, ungefähr",
+      "value": 6200,
+      "unit": "kg",
+      "comparison_unit": "kg · Masse beim Start laut Quelle, ungefähr",
+      "source": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_factsheet",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "NASA gerundete Satellitenwerte; Webb einschließlich Verbrauchsmitteln und Startadapter nach ESA.",
+      "estimate_question": "James-Webb-Weltraumteleskop: Wie hoch ist der Wert für „Masse beim Start laut Quelle, ungefähr“ (kg)?"
+    },
+    {
+      "subject": "Kölner Dom",
+      "category": "Weltkultur",
+      "metric": "UNESCO-Kernfläche ohne Pufferzone",
+      "value": 0.874,
+      "unit": "ha",
+      "comparison_unit": "ha · UNESCO-Kernfläche ohne Pufferzone",
+      "source": "https://whc.unesco.org/en/list/292/",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "Property, nicht Buffer zone; Quellenstand 4.10.2026.",
+      "estimate_question": "Kölner Dom: Wie hoch ist der Wert für „UNESCO-Kernfläche ohne Pufferzone“ (ha)?"
+    },
+    {
+      "subject": "Porsche 911 GT3 (PDK, 2025)",
+      "category": "Autos",
+      "metric": "Hubraum des Verbrennungsmotors",
+      "value": 3996,
+      "unit": "cm³",
+      "comparison_unit": "cm³ · Hubraum des Verbrennungsmotors",
+      "source": "https://newsroom.porsche.com/en/press-kits/911-GT3/Powertrain-and-performance.html",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "",
+      "estimate_question": "Porsche 911 GT3 (PDK, 2025): Wie hoch ist der Wert für „Hubraum des Verbrennungsmotors“ (cm³)?"
+    },
+    {
+      "subject": "Porsche 911 GT3 (PDK, 2025)",
+      "category": "Autos",
+      "metric": "Maximale Motordrehzahl des Verbrennungsmotors",
+      "value": 9000,
+      "unit": "U/min",
+      "comparison_unit": "U/min · Maximale Motordrehzahl des Verbrennungsmotors",
+      "source": "https://newsroom.porsche.com/en/press-kits/911-GT3/Powertrain-and-performance.html",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "",
+      "estimate_question": "Porsche 911 GT3 (PDK, 2025): Wie hoch ist der Wert für „Maximale Motordrehzahl des Verbrennungsmotors“ (U/min)?"
+    },
+    {
+      "subject": "Ferrari 296 GTB",
+      "category": "Autos",
+      "metric": "Hubraum des Verbrennungsmotors",
+      "value": 2992,
+      "unit": "cm³",
+      "comparison_unit": "cm³ · Hubraum des Verbrennungsmotors",
+      "source": "https://www.ferrari.com/content/dam/ferrari-fcom/old/pdf/CS_296_GTB_final_gbr.pdf",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "",
+      "estimate_question": "Ferrari 296 GTB: Wie hoch ist der Wert für „Hubraum des Verbrennungsmotors“ (cm³)?"
+    },
+    {
+      "subject": "Ferrari 296 GTB",
+      "category": "Autos",
+      "metric": "Maximale Motordrehzahl des Verbrennungsmotors",
+      "value": 8500,
+      "unit": "U/min",
+      "comparison_unit": "U/min · Maximale Motordrehzahl des Verbrennungsmotors",
+      "source": "https://www.ferrari.com/content/dam/ferrari-fcom/old/pdf/CS_296_GTB_final_gbr.pdf",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "",
+      "estimate_question": "Ferrari 296 GTB: Wie hoch ist der Wert für „Maximale Motordrehzahl des Verbrennungsmotors“ (U/min)?"
+    },
+    {
+      "subject": "Ferrari SF90 Stradale",
+      "category": "Autos",
+      "metric": "Hubraum des Verbrennungsmotors",
+      "value": 3990,
+      "unit": "cm³",
+      "comparison_unit": "cm³ · Hubraum des Verbrennungsmotors",
+      "source": "https://cdn.ferrari.com/cms/network/media/pdf/pr_ferrari_sf90_stradale_gbr.pdf",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "",
+      "estimate_question": "Ferrari SF90 Stradale: Wie hoch ist der Wert für „Hubraum des Verbrennungsmotors“ (cm³)?"
+    },
+    {
+      "subject": "Ferrari SF90 Stradale",
+      "category": "Autos",
+      "metric": "Maximale Motordrehzahl des Verbrennungsmotors",
+      "value": 8000,
+      "unit": "U/min",
+      "comparison_unit": "U/min · Maximale Motordrehzahl des Verbrennungsmotors",
+      "source": "https://cdn.ferrari.com/cms/network/media/pdf/pr_ferrari_sf90_stradale_gbr.pdf",
+      "verified": "2026-10-04",
+      "expansion": 6,
+      "notes": "",
+      "estimate_question": "Ferrari SF90 Stradale: Wie hoch ist der Wert für „Maximale Motordrehzahl des Verbrennungsmotors“ (U/min)?"
+    }
+  ],
+  "jeopardy": [
+    {
+      "cat": "Geografie",
+      "q": "Österreich: Wie hoch ist der Wert für „Internationale Telefon-Landeskennzahl“ (Zahl nach +)?",
+      "a": "43|43|43 Zahl nach +",
+      "source": "https://www.itu.int/oth/t0202/en",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Geografie",
+      "q": "Schweiz: Wie hoch ist der Wert für „Internationale Telefon-Landeskennzahl“ (Zahl nach +)?",
+      "a": "41|41|41 Zahl nach +",
+      "source": "https://www.itu.int/oth/t0202/en",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Geografie",
+      "q": "Belgien: Wie hoch ist der Wert für „Internationale Telefon-Landeskennzahl“ (Zahl nach +)?",
+      "a": "32|32|32 Zahl nach +",
+      "source": "https://www.itu.int/oth/t0202/en",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Geografie",
+      "q": "Berlin: Wie hoch ist der Wert für „Stadtfläche laut angegebenem Quellenstand“ (km²)?",
+      "a": "891.1|891,1|891.1 km²",
+      "source": "https://bundeswahlleiterin.de/bundestagswahlen/2025/strukturdaten/bund-99/land-11.html",
+      "verified": "2026-10-04",
+      "difficulty": 5,
+      "expansion": 6
+    },
+    {
+      "cat": "Geografie",
+      "q": "Hamburg: Wie hoch ist der Wert für „Stadtfläche laut angegebenem Quellenstand“ (km²)?",
+      "a": "755|755|755 km²",
+      "source": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/boden-und-geologie/altlasten/flaechenrecycling/flaechenrecycling-167942",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Geografie",
+      "q": "Wien: Wie hoch ist der Wert für „Stadtfläche laut angegebenem Quellenstand“ (km²)?",
+      "a": "414.9|414,9|414.9 km²",
+      "source": "https://www.wien.gv.at/statistik/aktuelle-daten",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Geschichte",
+      "q": "Eiffelturm: Wie hoch ist der Wert für „Baubeginn (einschließlich Gründungsarbeiten)“ (Jahr)?",
+      "a": "1887|1887|1887 Jahr",
+      "source": "https://www.toureiffel.paris/en/the-monument/history",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Geschichte",
+      "q": "Empire State Building: Wie hoch ist der Wert für „Baubeginn (einschließlich Gründungsarbeiten)“ (Jahr)?",
+      "a": "1930|1930|1930 Jahr",
+      "source": "https://www.esbnyc.com/about/history",
+      "verified": "2026-10-04",
+      "difficulty": 5,
+      "expansion": 6
+    },
+    {
+      "cat": "Geschichte",
+      "q": "Burj Khalifa: Wie hoch ist der Wert für „Baubeginn (einschließlich Gründungsarbeiten)“ (Jahr)?",
+      "a": "2004|2004|2004 Jahr",
+      "source": "https://bk.emaar.com/en/assets/FACT-SHEET.pdf",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Nationalparks",
+      "q": "Yellowstone-Nationalpark: Wie hoch ist der Wert für „Parkfläche laut NPS-Statistik“ (Acres)?",
+      "a": "2221766|2221766|2221766 Acres",
+      "source": "https://www.nps.gov/yell/planyourvisit/parkfacts.htm",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Nationalparks",
+      "q": "Yosemite-Nationalpark: Wie hoch ist der Wert für „Parkfläche laut NPS-Statistik“ (Acres)?",
+      "a": "759620|759620|759620 Acres",
+      "source": "https://www.nps.gov/yose/learn/management/statistics.htm",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Nationalparks",
+      "q": "Grand-Canyon-Nationalpark: Wie hoch ist der Wert für „Parkfläche laut NPS-Statistik“ (Acres)?",
+      "a": "1218375|1218375|1218375 Acres",
+      "source": "https://home.nps.gov/grca/learn/management/statistics.htm",
+      "verified": "2026-10-04",
+      "difficulty": 5,
+      "expansion": 6
+    },
+    {
+      "cat": "Allgemeinwissen",
+      "q": "Elefant: Wie hoch ist der Wert für „Geburtsgewicht: oberer genannter Richtwert“ (kg)?",
+      "a": "120|120|120 kg",
+      "source": "https://animals.sandiegozoo.org/animals/elephant",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Allgemeinwissen",
+      "q": "Giraffe: Wie hoch ist der Wert für „Geburtsgewicht: oberer genannter Richtwert“ (kg)?",
+      "a": "100|100|100 kg",
+      "source": "https://animals.sandiegozoo.org/animals/giraffe",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Allgemeinwissen",
+      "q": "Löwe: Wie hoch ist der Wert für „Geburtsgewicht: oberer genannter Richtwert“ (kg)?",
+      "a": "1.4|1,4|1.4 kg",
+      "source": "https://animals.sandiegozoo.org/animals/lion",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Chemie",
+      "q": "Kohlenstoff: Wie hoch ist der Wert für „Relative Atommasse nach RSC“ (relative Atommasse)?",
+      "a": "12.011|12,011|12.011 relative Atommasse",
+      "source": "https://periodic-table.rsc.org/element/6/carbon",
+      "verified": "2026-10-04",
+      "difficulty": 5,
+      "expansion": 6
+    },
+    {
+      "cat": "Chemie",
+      "q": "Sauerstoff: Wie hoch ist der Wert für „Relative Atommasse nach RSC“ (relative Atommasse)?",
+      "a": "15.999|15,999|15.999 relative Atommasse",
+      "source": "https://periodic-table.rsc.org/element/8/oxygen",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Chemie",
+      "q": "Eisen: Wie hoch ist der Wert für „Relative Atommasse nach RSC“ (relative Atommasse)?",
+      "a": "55.845|55,845|55.845 relative Atommasse",
+      "source": "https://periodic-table.rsc.org/element/26/iron",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Sportregeln",
+      "q": "Fußball: Wie hoch ist der Wert für „Reguläre Spielzeit für Erwachsene ohne Verlängerung“ (Minuten)?",
+      "a": "90|90|90 Minuten",
+      "source": "https://www.theifab.com/laws/latest/the-duration-of-the-match/",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Sportregeln",
+      "q": "Basketball: Wie hoch ist der Wert für „Reguläre Spielzeit für Erwachsene ohne Verlängerung“ (Minuten)?",
+      "a": "40|40|40 Minuten",
+      "source": "https://assets.fiba.basketball/image/upload/documents-corporate-fiba-official-rules-2026-v1-1.pdf",
+      "verified": "2026-10-04",
+      "difficulty": 5,
+      "expansion": 6
+    },
+    {
+      "cat": "Sportregeln",
+      "q": "Hallenhandball: Wie hoch ist der Wert für „Reguläre Spielzeit für Erwachsene ohne Verlängerung“ (Minuten)?",
+      "a": "60|60|60 Minuten",
+      "source": "https://www.ihf.info/sites/default/files/2025-02/09A%20-%20Rules%20of%20the%20Game_Indoor%20Handball_E.pdf",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Autotechnik",
+      "q": "Porsche 911 GT3 (PDK, 2025): Wie hoch ist der Wert für „Maximales Drehmoment des Verbrennungsmotors“ (Nm)?",
+      "a": "450|450|450 Nm",
+      "source": "https://newsroom.porsche.com/en/2024/products/porsche-the-new-911-gt3-double-premiere-37595.html",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Autotechnik",
+      "q": "Ferrari 296 GTB: Wie hoch ist der Wert für „Maximales Drehmoment des Verbrennungsmotors“ (Nm)?",
+      "a": "740|740|740 Nm",
+      "source": "https://www.ferrari.com/content/dam/ferrari-fcom/old/pdf/CS_296_GTB_final_gbr.pdf",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Autotechnik",
+      "q": "Ferrari SF90 Stradale: Wie hoch ist der Wert für „Maximales Drehmoment des Verbrennungsmotors“ (Nm)?",
+      "a": "800|800|800 Nm",
+      "source": "https://cdn.ferrari.com/cms/network/media/pdf/pr_ferrari_sf90_stradale_gbr.pdf",
+      "verified": "2026-10-04",
+      "difficulty": 5,
+      "expansion": 6
+    },
+    {
+      "cat": "Weltkultur",
+      "q": "Aachener Dom: Wie hoch ist der Wert für „UNESCO-Kernfläche ohne Pufferzone“ (ha)?",
+      "a": "0.223|0,223|0.223 ha",
+      "source": "https://whc.unesco.org/en/list/3/",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Weltkultur",
+      "q": "Opernhaus Sydney: Wie hoch ist der Wert für „UNESCO-Kernfläche ohne Pufferzone“ (ha)?",
+      "a": "5.8|5,8|5.8 ha",
+      "source": "https://whc.unesco.org/en/list/166/",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Mix",
+      "q": "Standard-Kartendeck ohne Joker: Wie hoch ist der Wert für „Anzahl der Kartenfarben“ (Kartenfarben)?",
+      "a": "4|4|4 Kartenfarben",
+      "source": "https://de.bicyclecards.com/game-rules/spades/",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Mix",
+      "q": "SET (Grundspiel): Wie hoch ist der Wert für „Anzahl der Kartenfarben“ (Kartenfarben)?",
+      "a": "3|3|3 Kartenfarben",
+      "source": "https://www.setgame.com/sites/default/files/teacherscorner/THE%20JOY%20OF%20SET.pdf",
+      "verified": "2026-10-04",
+      "difficulty": 5,
+      "expansion": 6
+    },
+    {
+      "cat": "Rekorde & Extreme",
+      "q": "400-m-Weltrekord Männer: Wie hoch ist der Wert für „Mittlere Geschwindigkeit des Rekordlaufs · WA September 2026“ (m/s)?",
+      "a": "9.296|9,296|9.296 m/s",
+      "source": "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Rekorde & Extreme",
+      "q": "800-m-Weltrekord Männer: Wie hoch ist der Wert für „Mittlere Geschwindigkeit des Rekordlaufs · WA September 2026“ (m/s)?",
+      "a": "7.928|7,928|7.928 m/s",
+      "source": "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Rekorde & Extreme",
+      "q": "1500-m-Weltrekord Männer: Wie hoch ist der Wert für „Mittlere Geschwindigkeit des Rekordlaufs · WA September 2026“ (m/s)?",
+      "a": "7.282|7,282|7.282 m/s",
+      "source": "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Raumfahrtmissionen",
+      "q": "Sputnik 1: Wie hoch ist der Wert für „Masse beim Start laut Quelle, ungefähr“ (kg)?",
+      "a": "83|83|83 kg",
+      "source": "https://science.nasa.gov/blogs/earth-matters/2017/04/14/modern-satellites-littler-and-mightier-than-before/",
+      "verified": "2026-10-04",
+      "difficulty": 5,
+      "expansion": 6
+    },
+    {
+      "cat": "Raumfahrtmissionen",
+      "q": "Explorer 1: Wie hoch ist der Wert für „Masse beim Start laut Quelle, ungefähr“ (kg)?",
+      "a": "14|14|14 kg",
+      "source": "https://science.nasa.gov/blogs/earth-matters/2017/04/14/modern-satellites-littler-and-mightier-than-before/",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Raumfahrtmissionen",
+      "q": "James-Webb-Weltraumteleskop: Wie hoch ist der Wert für „Masse beim Start laut Quelle, ungefähr“ (kg)?",
+      "a": "6200|6200|6200 kg",
+      "source": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_factsheet",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Weltkultur",
+      "q": "Kölner Dom: Wie hoch ist der Wert für „UNESCO-Kernfläche ohne Pufferzone“ (ha)?",
+      "a": "0.874|0,874|0.874 ha",
+      "source": "https://whc.unesco.org/en/list/292/",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Autotechnik",
+      "q": "Porsche 911 GT3 (PDK, 2025): Wie hoch ist der Wert für „Hubraum des Verbrennungsmotors“ (cm³)?",
+      "a": "3996|3996|3996 cm³",
+      "source": "https://newsroom.porsche.com/en/press-kits/911-GT3/Powertrain-and-performance.html",
+      "verified": "2026-10-04",
+      "difficulty": 5,
+      "expansion": 6
+    },
+    {
+      "cat": "Autotechnik",
+      "q": "Porsche 911 GT3 (PDK, 2025): Wie hoch ist der Wert für „Maximale Motordrehzahl des Verbrennungsmotors“ (U/min)?",
+      "a": "9000|9000|9000 U/min",
+      "source": "https://newsroom.porsche.com/en/press-kits/911-GT3/Powertrain-and-performance.html",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Autotechnik",
+      "q": "Ferrari 296 GTB: Wie hoch ist der Wert für „Hubraum des Verbrennungsmotors“ (cm³)?",
+      "a": "2992|2992|2992 cm³",
+      "source": "https://www.ferrari.com/content/dam/ferrari-fcom/old/pdf/CS_296_GTB_final_gbr.pdf",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Autotechnik",
+      "q": "Ferrari 296 GTB: Wie hoch ist der Wert für „Maximale Motordrehzahl des Verbrennungsmotors“ (U/min)?",
+      "a": "8500|8500|8500 U/min",
+      "source": "https://www.ferrari.com/content/dam/ferrari-fcom/old/pdf/CS_296_GTB_final_gbr.pdf",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Autotechnik",
+      "q": "Ferrari SF90 Stradale: Wie hoch ist der Wert für „Hubraum des Verbrennungsmotors“ (cm³)?",
+      "a": "3990|3990|3990 cm³",
+      "source": "https://cdn.ferrari.com/cms/network/media/pdf/pr_ferrari_sf90_stradale_gbr.pdf",
+      "verified": "2026-10-04",
+      "difficulty": 5,
+      "expansion": 6
+    },
+    {
+      "cat": "Autotechnik",
+      "q": "Ferrari SF90 Stradale: Wie hoch ist der Wert für „Maximale Motordrehzahl des Verbrennungsmotors“ (U/min)?",
+      "a": "8000|8000|8000 U/min",
+      "source": "https://cdn.ferrari.com/cms/network/media/pdf/pr_ferrari_sf90_stradale_gbr.pdf",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Wissenschaft",
+      "q": "Welche SI-Einheit mit eigenem Namen verwendet man für Frequenz?",
+      "a": "Hertz",
+      "source": "https://www.nist.gov/pml/special-publication-330/sp-330-section-2",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 6
+    },
+    {
+      "cat": "Wissenschaft",
+      "q": "Welche SI-Einheit mit eigenem Namen verwendet man für Kraft?",
+      "a": "Newton",
+      "source": "https://www.nist.gov/pml/special-publication-330/sp-330-section-2",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Wissenschaft",
+      "q": "Welche SI-Einheit mit eigenem Namen verwendet man für Druck?",
+      "a": "Pascal",
+      "source": "https://www.nist.gov/pml/special-publication-330/sp-330-section-2",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Wissenschaft",
+      "q": "Welche SI-Einheit mit eigenem Namen verwendet man für Energie?",
+      "a": "Joule",
+      "source": "https://www.nist.gov/pml/special-publication-330/sp-330-section-2",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Wissenschaft",
+      "q": "Welche SI-Einheit mit eigenem Namen verwendet man für Leistung?",
+      "a": "Watt",
+      "source": "https://www.nist.gov/pml/special-publication-330/sp-330-section-2",
+      "verified": "2026-10-04",
+      "difficulty": 5,
+      "expansion": 6
+    },
+    {
+      "cat": "Wissenschaft",
+      "q": "Welche SI-Einheit mit eigenem Namen verwendet man für elektrische Ladung?",
+      "a": "Coulomb",
+      "source": "https://www.nist.gov/pml/special-publication-330/sp-330-section-2",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 6
+    },
+    {
+      "cat": "Wissenschaft",
+      "q": "Welche SI-Einheit mit eigenem Namen verwendet man für elektrischen Widerstand?",
+      "a": "Ohm",
+      "source": "https://www.nist.gov/pml/special-publication-330/sp-330-section-2",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Wissenschaft",
+      "q": "Welche SI-Einheit mit eigenem Namen verwendet man für elektrische Kapazität?",
+      "a": "Farad",
+      "source": "https://www.nist.gov/pml/special-publication-330/sp-330-section-2",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Wissenschaft",
+      "q": "Welche SI-Einheit mit eigenem Namen verwendet man für magnetischen Fluss?",
+      "a": "Weber",
+      "source": "https://www.nist.gov/pml/special-publication-330/sp-330-section-2",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Wissenschaft",
+      "q": "Welche SI-Einheit mit eigenem Namen verwendet man für magnetische Flussdichte?",
+      "a": "Tesla",
+      "source": "https://www.nist.gov/pml/special-publication-330/sp-330-section-2",
+      "verified": "2026-10-04",
+      "difficulty": 5,
+      "expansion": 6
+    },
+    {
+      "cat": "Wissenschaft",
+      "q": "Welche SI-Einheit mit eigenem Namen verwendet man für Induktivität?",
+      "a": "Henry",
+      "source": "https://www.nist.gov/pml/special-publication-330/sp-330-section-2",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 6
+    },
+    {
+      "cat": "Wissenschaft",
+      "q": "Welche SI-Einheit mit eigenem Namen verwendet man für Lichtstrom?",
+      "a": "Lumen",
+      "source": "https://www.nist.gov/pml/special-publication-330/sp-330-section-2",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Wissenschaft",
+      "q": "Welche SI-Einheit mit eigenem Namen verwendet man für Beleuchtungsstärke?",
+      "a": "Lux",
+      "source": "https://www.nist.gov/pml/special-publication-330/sp-330-section-2",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Deutschland",
+      "q": "Wie heißt die Landeshauptstadt von Baden-Württemberg?",
+      "a": "Stuttgart",
+      "source": "https://www.deutschland.de/de/topic/leben/mobilitaet-reise/landeshauptstaedte",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 6
+    },
+    {
+      "cat": "Deutschland",
+      "q": "Wie heißt die Landeshauptstadt von Brandenburg?",
+      "a": "Potsdam",
+      "source": "https://www.deutschland.de/de/topic/leben/mobilitaet-reise/landeshauptstaedte",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Deutschland",
+      "q": "Wie heißt die Landeshauptstadt von Hessen?",
+      "a": "Wiesbaden",
+      "source": "https://www.deutschland.de/de/topic/leben/mobilitaet-reise/landeshauptstaedte",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Deutschland",
+      "q": "Wie heißt die Landeshauptstadt von Niedersachsen?",
+      "a": "Hannover",
+      "source": "https://www.deutschland.de/de/topic/leben/mobilitaet-reise/landeshauptstaedte",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Deutschland",
+      "q": "Wie heißt die Landeshauptstadt von Nordrhein-Westfalen?",
+      "a": "Düsseldorf",
+      "source": "https://www.deutschland.de/de/topic/leben/mobilitaet-reise/landeshauptstaedte",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 6
+    },
+    {
+      "cat": "Deutschland",
+      "q": "Wie heißt die Landeshauptstadt von Rheinland-Pfalz?",
+      "a": "Mainz",
+      "source": "https://www.deutschland.de/de/topic/leben/mobilitaet-reise/landeshauptstaedte",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Deutschland",
+      "q": "Wie heißt die Landeshauptstadt von Saarland?",
+      "a": "Saarbrücken",
+      "source": "https://www.deutschland.de/de/topic/leben/mobilitaet-reise/landeshauptstaedte",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Deutschland",
+      "q": "Wie heißt die Landeshauptstadt von Sachsen?",
+      "a": "Dresden",
+      "source": "https://www.deutschland.de/de/topic/leben/mobilitaet-reise/landeshauptstaedte",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Deutschland",
+      "q": "Wie heißt die Landeshauptstadt von Sachsen-Anhalt?",
+      "a": "Magdeburg",
+      "source": "https://www.deutschland.de/de/topic/leben/mobilitaet-reise/landeshauptstaedte",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 6
+    },
+    {
+      "cat": "Deutschland",
+      "q": "Wie heißt die Landeshauptstadt von Schleswig-Holstein?",
+      "a": "Kiel",
+      "source": "https://www.deutschland.de/de/topic/leben/mobilitaet-reise/landeshauptstaedte",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Deutschland",
+      "q": "Wie heißt die Landeshauptstadt von Thüringen?",
+      "a": "Erfurt",
+      "source": "https://www.deutschland.de/de/topic/leben/mobilitaet-reise/landeshauptstaedte",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Kultur",
+      "q": "Wer schrieb den Roman „Alice im Wunderland“?",
+      "a": "Lewis Carroll",
+      "source": "https://www.gutenberg.org/ebooks/bookshelf/649",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Kultur",
+      "q": "Wer schrieb den Roman „Frankenstein“?",
+      "a": "Mary Shelley",
+      "source": "https://www.gutenberg.org/ebooks/bookshelf/649",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Kultur",
+      "q": "Wer schrieb den Roman „Dracula“?",
+      "a": "Bram Stoker",
+      "source": "https://www.gutenberg.org/ebooks/bookshelf/649",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Kultur",
+      "q": "Wer schrieb den Roman „Moby Dick“?",
+      "a": "Herman Melville",
+      "source": "https://www.gutenberg.org/ebooks/bookshelf/649",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Sport",
+      "q": "Welche Stadt war Gastgeberin der Olympischen Sommerspiele 2024?",
+      "a": "Paris",
+      "source": "https://worldathletics.org/results/olympic-games",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 6
+    },
+    {
+      "cat": "Sport",
+      "q": "Welche Stadt war Gastgeberin der Olympischen Sommerspiele 2020 (ausgetragen 2021)?",
+      "a": "Tokio",
+      "source": "https://worldathletics.org/results/olympic-games",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Sport",
+      "q": "Welche Stadt war Gastgeberin der Olympischen Sommerspiele 2016?",
+      "a": "Rio de Janeiro",
+      "source": "https://worldathletics.org/results/olympic-games",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Sport",
+      "q": "Welche Stadt war Gastgeberin der Olympischen Sommerspiele 2012?",
+      "a": "London",
+      "source": "https://worldathletics.org/results/olympic-games",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Sport",
+      "q": "Welche Stadt war Gastgeberin der Olympischen Sommerspiele 2008?",
+      "a": "Peking",
+      "source": "https://worldathletics.org/results/olympic-games",
+      "verified": "2026-10-04",
+      "difficulty": 5,
+      "expansion": 6
+    },
+    {
+      "cat": "Sport",
+      "q": "Welche Stadt war Gastgeberin der Olympischen Sommerspiele 2004?",
+      "a": "Athen",
+      "source": "https://worldathletics.org/results/olympic-games",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 6
+    },
+    {
+      "cat": "Sport",
+      "q": "Welche Stadt war Gastgeberin der Olympischen Sommerspiele 2000?",
+      "a": "Sydney",
+      "source": "https://worldathletics.org/results/olympic-games",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Sport",
+      "q": "Welche Stadt war Gastgeberin der Olympischen Sommerspiele 1996?",
+      "a": "Atlanta",
+      "source": "https://worldathletics.org/results/olympic-games",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Sport",
+      "q": "Welche Stadt war Gastgeberin der Olympischen Sommerspiele 1992?",
+      "a": "Barcelona",
+      "source": "https://worldathletics.org/results/olympic-games",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Sport",
+      "q": "Welche Stadt war Gastgeberin der Olympischen Sommerspiele 1988?",
+      "a": "Seoul",
+      "source": "https://worldathletics.org/results/olympic-games",
+      "verified": "2026-10-04",
+      "difficulty": 5,
+      "expansion": 6
+    },
+    {
+      "cat": "Champions League",
+      "q": "Welcher Verein gewann das Männer-Champions-League-Finale 2025?",
+      "a": "Paris Saint-Germain",
+      "source": "https://es.uefa.com/news/0252-0e98d341867a-1f3b773dccf1-1000--todas-las-finales-en-video/",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 6
+    },
+    {
+      "cat": "Champions League",
+      "q": "Welcher Verein gewann das Männer-Champions-League-Finale 2024?",
+      "a": "Real Madrid",
+      "source": "https://es.uefa.com/news/0252-0e98d341867a-1f3b773dccf1-1000--todas-las-finales-en-video/",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Champions League",
+      "q": "Welcher Verein gewann das Männer-Champions-League-Finale 2023?",
+      "a": "Manchester City",
+      "source": "https://es.uefa.com/news/0252-0e98d341867a-1f3b773dccf1-1000--todas-las-finales-en-video/",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Champions League",
+      "q": "Welcher Verein gewann das Männer-Champions-League-Finale 2021?",
+      "a": "Chelsea",
+      "source": "https://es.uefa.com/news/0252-0e98d341867a-1f3b773dccf1-1000--todas-las-finales-en-video/",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Champions League",
+      "q": "Welcher Verein gewann das Männer-Champions-League-Finale 2020?",
+      "a": "Bayern München",
+      "source": "https://es.uefa.com/news/0252-0e98d341867a-1f3b773dccf1-1000--todas-las-finales-en-video/",
+      "verified": "2026-10-04",
+      "difficulty": 5,
+      "expansion": 6
+    },
+    {
+      "cat": "Champions League",
+      "q": "Welcher Verein gewann das Männer-Champions-League-Finale 2019?",
+      "a": "Liverpool",
+      "source": "https://es.uefa.com/news/0252-0e98d341867a-1f3b773dccf1-1000--todas-las-finales-en-video/",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 6
+    },
+    {
+      "cat": "Champions League",
+      "q": "Welcher Verein gewann das Männer-Champions-League-Finale 2015?",
+      "a": "Barcelona",
+      "source": "https://es.uefa.com/news/0252-0e98d341867a-1f3b773dccf1-1000--todas-las-finales-en-video/",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Champions League",
+      "q": "Welcher Verein gewann das Männer-Champions-League-Finale 2010?",
+      "a": "Inter Mailand",
+      "source": "https://es.uefa.com/news/0252-0e98d341867a-1f3b773dccf1-1000--todas-las-finales-en-video/",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Champions League",
+      "q": "Welcher Verein gewann das Männer-Champions-League-Finale 2008?",
+      "a": "Manchester United",
+      "source": "https://es.uefa.com/news/0252-0e98d341867a-1f3b773dccf1-1000--todas-las-finales-en-video/",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Champions League",
+      "q": "Welcher Verein gewann das Männer-Champions-League-Finale 2004?",
+      "a": "FC Porto",
+      "source": "https://es.uefa.com/news/0252-0e98d341867a-1f3b773dccf1-1000--todas-las-finales-en-video/",
+      "verified": "2026-10-04",
+      "difficulty": 5,
+      "expansion": 6
+    },
+    {
+      "cat": "Champions League",
+      "q": "Welcher Verein gewann das Männer-Champions-League-Finale 1995?",
+      "a": "Ajax Amsterdam",
+      "source": "https://es.uefa.com/news/0252-0e98d341867a-1f3b773dccf1-1000--todas-las-finales-en-video/",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 6
+    },
+    {
+      "cat": "Champions League",
+      "q": "Welcher Verein gewann das Männer-Champions-League-Finale 1993?",
+      "a": "Olympique Marseille",
+      "source": "https://es.uefa.com/news/0252-0e98d341867a-1f3b773dccf1-1000--todas-las-finales-en-video/",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Science-Fiction",
+      "q": "Von welchem Planeten stammen die Time Lords in Doctor Who?",
+      "a": "Gallifrey",
+      "source": "https://www.doctorwho.tv/news-and-features/what-is-a-time-lord",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Science-Fiction",
+      "q": "Wie viele Herzen hat ein Time Lord normalerweise?",
+      "a": "2",
+      "source": "https://www.doctorwho.tv/news-and-features/what-is-a-time-lord",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 6
+    },
+    {
+      "cat": "Science-Fiction",
+      "q": "Wie heißt die Veränderung des Körpers, mit der Time Lords dem Tod entgehen können?",
+      "a": "Regeneration",
+      "source": "https://www.doctorwho.tv/news-and-features/what-is-a-time-lord",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Science-Fiction",
+      "q": "Wie viele Sonnen umkreist Gallifrey laut Doctor Who?",
+      "a": "2",
+      "source": "https://www.doctorwho.tv/news-and-features/what-is-a-time-lord",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Science-Fiction",
+      "q": "Wie heißt das Sternsystem, in dem Gallifrey liegt?",
+      "a": "Kasterborous",
+      "source": "https://www.doctorwho.tv/news-and-features/what-is-a-time-lord",
+      "verified": "2026-10-04",
+      "difficulty": 5,
+      "expansion": 6
+    },
+    {
+      "cat": "Science-Fiction",
+      "q": "Wie viele Regenerationen umfasst ein gewöhnlicher Time-Lord-Zyklus maximal?",
+      "a": "12",
+      "source": "https://www.doctorwho.tv/news-and-features/what-is-a-time-lord",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Science-Fiction",
+      "q": "Wofür steht die englische Abkürzung TARDIS?",
+      "a": "Time and Relative Dimension in Space",
+      "source": "https://www.doctorwho.tv/news-and-features/what-is-the-tardis",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Science-Fiction",
+      "q": "In welchem Jahr lief die erste Doctor-Who-Geschichte „An Unearthly Child“?",
+      "a": "1963",
+      "source": "https://www.doctorwho.tv/news-and-features/what-is-the-tardis",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Science-Fiction",
+      "q": "Auf welchem Planeten entstanden die Daleks?",
+      "a": "Skaro",
+      "source": "https://www.doctorwho.tv/news-and-features/a-brief-history-of-the-daleks",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Science-Fiction",
+      "q": "Wie heißt Spocks Vater in Star Trek?",
+      "a": "Sarek",
+      "source": "https://www.startrek.com/en-un/news/most-memorable-dads",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Star Wars",
+      "q": "Zu welcher Droidenklasse gehört R2-D2?",
+      "a": "Astromech-Droide",
+      "source": "https://www.starwars.com/databank/r2-d2",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Star Wars",
+      "q": "Wer versteckte die Todessternpläne in R2-D2?",
+      "a": "Leia Organa",
+      "source": "https://www.starwars.com/databank/r2-d2",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Star Wars",
+      "q": "An welchen Jedi war Leias Hilfsbotschaft in Episode IV gerichtet?",
+      "a": "Obi-Wan Kenobi",
+      "source": "https://www.starwars.com/databank/r2-d2",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Star Wars",
+      "q": "Welcher Feuchtigkeitsfarmer kaufte R2-D2 und C-3PO den Jawas ab?",
+      "a": "Owen Lars",
+      "source": "https://www.starwars.com/databank/r2-d2",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Star Wars",
+      "q": "Welcher Verbrecher erhielt den in Karbonit eingefrorenen Han Solo?",
+      "a": "Jabba der Hutt",
+      "source": "https://www.starwars.com/databank/r2-d2",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Star Wars",
+      "q": "Auf welchem Waldmond befindet sich der Schildgenerator des zweiten Todessterns?",
+      "a": "Endor",
+      "source": "https://www.starwars.com/databank/r2-d2",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Star Wars",
+      "q": "Welches Lichtschwert schmuggelte R2-D2 in Jabbas Palast?",
+      "a": "Luke Skywalkers Lichtschwert",
+      "source": "https://www.starwars.com/databank/r2-d2",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Star Wars",
+      "q": "Welche Art Droide ist C-3PO?",
+      "a": "Protokolldroide",
+      "source": "https://www.starwars.com/databank/c-3po",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 6
+    },
+    {
+      "cat": "Star Wars",
+      "q": "Zu welcher Spezies gehört Chewbacca?",
+      "a": "Wookiee",
+      "source": "https://www.starwars.com/databank/chewbacca",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 6
+    },
+    {
+      "cat": "Star Wars",
+      "q": "Welche Kristalle bilden das Herz eines Jedi-Lichtschwerts?",
+      "a": "Kyberkristalle",
+      "source": "https://www.starwars.com/databank/lightsaber-crystal",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Weltraum",
+      "q": "Welcher Planet hat laut NASA die höchste mittlere Dichte?",
+      "a": "Erde",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Weltraum",
+      "q": "Welcher Planet hat laut NASA die niedrigste mittlere Dichte?",
+      "a": "Saturn",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Weltraum",
+      "q": "Welcher Planet bewegt sich auf seiner Bahn im Mittel am schnellsten?",
+      "a": "Merkur",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Weltraum",
+      "q": "Welcher Planet bewegt sich auf seiner Bahn im Mittel am langsamsten?",
+      "a": "Neptun",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Weltraum",
+      "q": "Welcher der acht Planeten hat die höchste mittlere Oberflächentemperatur?",
+      "a": "Venus",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Weltraum",
+      "q": "Welcher Planet hat laut NASA am Äquator die höchste Fallbeschleunigung?",
+      "a": "Jupiter",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Weltraum",
+      "q": "Welcher der acht Planeten besitzt die geringste Masse?",
+      "a": "Merkur",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Weltraum",
+      "q": "Welcher Planet hat laut NASA die größte Fluchtgeschwindigkeit?",
+      "a": "Jupiter",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Weltraum",
+      "q": "Welcher Planet hat eine mittlere Dichte unter der von Wasser (1000 kg/m³)?",
+      "a": "Saturn",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Weltraum",
+      "q": "Bei welchem Planeten liegt laut NASA ein Umlauf um die Sonne näher an 165 als an 100 Erdenjahren?",
+      "a": "Neptun",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Mix",
+      "q": "Wie viele Sekunden sind drei Minuten?",
+      "a": "180",
+      "source": "https://www.nist.gov/pml/special-publication-330/sp-330-section-2",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 6
+    },
+    {
+      "cat": "Mix",
+      "q": "Wie viele Zentimeter ergeben 2,5 Meter?",
+      "a": "250",
+      "source": "https://www.nist.gov/pml/special-publication-330/sp-330-section-2",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 6
+    },
+    {
+      "cat": "Mix",
+      "q": "Wie viele Millimeter sind 0,75 Meter?",
+      "a": "750",
+      "source": "https://www.nist.gov/pml/special-publication-330/sp-330-section-2",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Mix",
+      "q": "Wie viele Kubikzentimeter enthält ein Würfel mit 10 Zentimetern Kantenlänge?",
+      "a": "1000",
+      "source": "https://www.nist.gov/pml/special-publication-330/sp-330-section-2",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Mix",
+      "q": "Wie viele Quadratmeter umfasst ein Quadrat mit 12 Metern Seitenlänge?",
+      "a": "144",
+      "source": "https://www.nist.gov/pml/special-publication-330/sp-330-section-2",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Mix",
+      "q": "Wie viele Meter legt man in 10 Sekunden bei konstant 25 m/s zurück?",
+      "a": "250",
+      "source": "https://www.nist.gov/pml/special-publication-330/sp-330-section-2",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Mix",
+      "q": "Wie viele Watt entsprechen 2,5 Kilowatt?",
+      "a": "2500",
+      "source": "https://www.nist.gov/pml/special-publication-330/sp-330-section-2",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Mix",
+      "q": "Wie viele Kilogramm entsprechen 750 Gramm?",
+      "a": "0,75",
+      "source": "https://www.nist.gov/pml/special-publication-330/sp-330-section-2",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 6
+    },
+    {
+      "cat": "Geschichte",
+      "q": "In welchem Jahr begann der Erste Weltkrieg?",
+      "a": "1914",
+      "source": "https://www.dhm.de/lemo/kapitel/erster-weltkrieg",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 6
+    },
+    {
+      "cat": "Geschichte",
+      "q": "In welchem Jahr endete der Erste Weltkrieg?",
+      "a": "1918",
+      "source": "https://www.dhm.de/lemo/kapitel/erster-weltkrieg",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Geschichte",
+      "q": "In welchem Monat 1918 endete der Erste Weltkrieg?",
+      "a": "November",
+      "source": "https://www.dhm.de/lemo/kapitel/erster-weltkrieg",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Geschichte",
+      "q": "Der deutsche Überfall auf welches Land begann am 1. September 1939?",
+      "a": "Polen",
+      "source": "https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/kriegsverlauf/ueberfall-auf-polen-1939",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 6
+    },
+    {
+      "cat": "Geschichte",
+      "q": "In welcher Stadt wurde das Grundgesetz am 23. Mai 1949 verkündet?",
+      "a": "Bonn",
+      "source": "https://www.hdg.de/lemo/jahreschronik/1949",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Geschichte",
+      "q": "Welches Forschungsnetzwerk wurde laut LeMO im März 1949 in München gegründet?",
+      "a": "Fraunhofer-Gesellschaft",
+      "source": "https://www.hdg.de/lemo/jahreschronik/1949",
+      "verified": "2026-10-04",
+      "difficulty": 5,
+      "expansion": 6
+    },
+    {
+      "cat": "Transfers 2025",
+      "q": "Zu welchem Verein wechselte Jonathan Tah im Sommer 2025?",
+      "a": "Bayern München",
+      "source": "https://fcbayern.com/de/news/2025/05/neuzugang-aus-leverkusen-jonathan-tah-kommt-zum-fc-bayern",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Transfers 2025",
+      "q": "Zu welchem Verein wurde Marcus Rashford im Sommer 2025 ausgeliehen?",
+      "a": "Barcelona",
+      "source": "https://www.fcbarcelona.com/en/football/first-team/news/4319297",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Transfers 2025",
+      "q": "Zu welchem Verein wechselte Leroy Sané im Sommer 2025?",
+      "a": "Galatasaray",
+      "source": "https://www.galatasaray.org/haber/futbol/galatasaraya-hos-geldin-leroy-sane/57952",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Transfers 2025",
+      "q": "Zu welchem Verein wechselte Kevin De Bruyne im Sommer 2025?",
+      "a": "SSC Neapel",
+      "source": "https://live.mancity.com/news/mens/de-bruyne-to-join-napoli-63885336",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Transfers 2026",
+      "q": "Bis zu welchem Jahr läuft Marc Cucurellas im Juni 2026 angekündigter Real-Vertrag?",
+      "a": "2032",
+      "source": "https://www.realmadrid.com/es-ES/noticias/club/comunicados/comunicado-oficial-cucurella-15-06-2026",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Transfers 2026",
+      "q": "Welcher französische Innenverteidiger wurde am 18. Juni 2026 von Real Madrid als Neuzugang angekündigt?",
+      "a": "Ibrahima Konaté",
+      "source": "https://www.realmadrid.com/es-ES/noticias/club/comunicados/comunicado-oficial-konate-18-06-2026",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Transfers 2026",
+      "q": "Welcher portugiesische Mittelfeldspieler wurde am 17. Juni 2026 von Real Madrid als Neuzugang angekündigt?",
+      "a": "Bernardo Silva",
+      "source": "https://www.realmadrid.com/es-ES/noticias/club/comunicados/comunicado-oficial-bernardo-silva-17-06-2026",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    },
+    {
+      "cat": "Vereinsstationen",
+      "q": "Welcher Liverpool-Neuzugang von 2017 hatte zuvor für FC Basel gespielt?",
+      "a": "Mohamed Salah",
+      "source": "https://www.liverpoolfc.com/news/first-team/266612-in-profile-salah-s-journey-from-egypt-to-anfield",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Vereinsstationen",
+      "q": "Welcher Liverpool-Neuzugang von 2017 hatte zuvor für Chelsea gespielt?",
+      "a": "Mohamed Salah",
+      "source": "https://www.liverpoolfc.com/news/first-team/266612-in-profile-salah-s-journey-from-egypt-to-anfield",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Vereinsstationen",
+      "q": "Welcher Liverpool-Neuzugang von 2017 hatte zuvor für Fiorentina gespielt?",
+      "a": "Mohamed Salah",
+      "source": "https://www.liverpoolfc.com/news/first-team/266612-in-profile-salah-s-journey-from-egypt-to-anfield",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Weltkultur",
+      "q": "In welchem Land liegt die UNESCO-Welterbestätte Aachener Dom?",
+      "a": "Deutschland",
+      "source": "https://whc.unesco.org/en/list/3/",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Weltkultur",
+      "q": "In welchem Land liegt die UNESCO-Welterbestätte Taj Mahal?",
+      "a": "Indien",
+      "source": "https://whc.unesco.org/en/list/252/",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Weltkultur",
+      "q": "In welchem Land liegt die UNESCO-Welterbestätte Opernhaus Sydney?",
+      "a": "Australien",
+      "source": "https://whc.unesco.org/en/list/166/",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Weltkultur",
+      "q": "In welchem Land liegt die UNESCO-Welterbestätte Kölner Dom?",
+      "a": "Deutschland",
+      "source": "https://whc.unesco.org/en/list/292/",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Weltkultur",
+      "q": "In welchem Land liegt die UNESCO-Welterbestätte Historisches Zentrum von Rom?",
+      "a": "Italien",
+      "source": "https://whc.unesco.org/en/list/91/",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Weltkultur",
+      "q": "In welchem Land liegt die UNESCO-Welterbestätte Machu Picchu?",
+      "a": "Peru",
+      "source": "https://whc.unesco.org/en/list/274/",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Weltkultur",
+      "q": "In welchem Land liegt die UNESCO-Welterbestätte Petra?",
+      "a": "Jordanien",
+      "source": "https://whc.unesco.org/en/list/326/",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Weltkultur",
+      "q": "In welchem Land liegt die UNESCO-Welterbestätte Angkor?",
+      "a": "Kambodscha",
+      "source": "https://whc.unesco.org/en/list/668/",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Rekorde & Extreme",
+      "q": "Welcher Männer-Freiluft-Weltrekord hat im WA-Datensatz September 2026 die Zeit 43,03 Sekunden?",
+      "a": "400 Meter",
+      "source": "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 6
+    },
+    {
+      "cat": "Rekorde & Extreme",
+      "q": "Welcher Männer-Freiluft-Weltrekord hat im WA-Datensatz September 2026 die Zeit 100,91 Sekunden?",
+      "a": "800 Meter",
+      "source": "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 6
+    },
+    {
+      "cat": "Rekorde & Extreme",
+      "q": "Welcher Männer-Freiluft-Weltrekord hat im WA-Datensatz September 2026 die Zeit 206 Sekunden?",
+      "a": "1500 Meter",
+      "source": "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 6
+    }
+  ]
+}

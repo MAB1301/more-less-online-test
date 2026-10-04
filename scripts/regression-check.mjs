@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import vm from 'node:vm';
 const html=fs.readFileSync('index.html','utf8');
-const daily=fs.readFileSync('assets/priority-release.js','utf8')+fs.readFileSync('assets/question-review.js','utf8')+fs.readFileSync('assets/player-hub.js','utf8')+fs.readFileSync('assets/facts-online.js','utf8')+fs.readFileSync('assets/quality-ux.js','utf8')+fs.readFileSync('assets/connection-ux.js','utf8')+fs.readFileSync('assets/invite-center.js','utf8')+fs.readFileSync('assets/site-ux.js','utf8')+fs.readFileSync('assets/site-images.js','utf8')+fs.readFileSync('assets/game-features.js','utf8')+fs.readFileSync('assets/home/category-ux.js','utf8')+fs.readFileSync('assets/home/mode-info.js','utf8')+fs.readFileSync('assets/home/game-ux.js','utf8')+fs.readFileSync('assets/daily.js','utf8')+fs.readFileSync('assets/account/menu.js','utf8')+fs.readFileSync('assets/account/preferences.js','utf8')+fs.readFileSync('assets/account/controller.mjs','utf8');
+const daily=fs.readFileSync('assets/comfort.js','utf8')+fs.readFileSync('assets/priority-release.js','utf8')+fs.readFileSync('assets/question-review.js','utf8')+fs.readFileSync('assets/player-hub.js','utf8')+fs.readFileSync('assets/facts-online.js','utf8')+fs.readFileSync('assets/quality-ux.js','utf8')+fs.readFileSync('assets/connection-ux.js','utf8')+fs.readFileSync('assets/invite-center.js','utf8')+fs.readFileSync('assets/site-ux.js','utf8')+fs.readFileSync('assets/site-images.js','utf8')+fs.readFileSync('assets/game-features.js','utf8')+fs.readFileSync('assets/home/category-ux.js','utf8')+fs.readFileSync('assets/home/mode-info.js','utf8')+fs.readFileSync('assets/home/game-ux.js','utf8')+fs.readFileSync('assets/daily.js','utf8')+fs.readFileSync('assets/account/menu.js','utf8')+fs.readFileSync('assets/account/preferences.js','utf8')+fs.readFileSync('assets/account/controller.mjs','utf8');
 const offline=fs.readFileSync('offline/index.html','utf8');
 const fail=m=>{console.error('FAIL:',m);process.exitCode=1}, ok=m=>console.log('OK:',m);
 if(html===offline.replaceAll('src="../assets/','src="assets/').replaceAll('href="../assets/','href="assets/').replaceAll('src="../content/','src="content/'))ok('online/offline HTML identical except content path');else fail('online/offline HTML differ beyond content path');
@@ -106,3 +106,9 @@ await import('./high-priorities-check.mjs');
 await import('./medium-features-check.mjs');
 
 await import('./priority-release-check.mjs');
+
+await import('./comfort-check.mjs');
+
+await import('./expansion-5-check.mjs');
+
+await import("./expansion-6-check.mjs");

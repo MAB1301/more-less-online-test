@@ -12,6 +12,7 @@
   if(node('soundVolume'))node('soundVolume').value=Math.round(prefs.volume*100);
   if(node('soundVolumeValue'))node('soundVolumeValue').textContent=Math.round(prefs.volume*100)+' %';
   if(node('reducedMotion'))node('reducedMotion').checked=prefs.reducedMotion;
+  if(window.dispatchEvent)window.dispatchEvent(new Event('gamepreferenceschange'));
   if(master)master.gain.setValueAtTime(prefs.muted?0:prefs.volume,context.currentTime);
  }
  function persist(){render();window.saveAccountPreferences?.();try{localStorage.setItem(key,JSON.stringify(prefs));if(node('preferencesStatus'))node('preferencesStatus').textContent='Auf diesem Gerät gespeichert.'}catch{if(node('preferencesStatus'))node('preferencesStatus').textContent='Einstellung aktiv, konnte aber nicht gespeichert werden.'}}
