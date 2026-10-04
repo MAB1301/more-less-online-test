@@ -1,6 +1,7 @@
 /* Presentation only: selection, buzzing and score ownership stay in the engine. */
 (()=>{'use strict';
  const board=document.getElementById('jeopBoard'),question=document.getElementById('jeopQuestion');if(!board||!question)return;
+ question.setAttribute('aria-labelledby','jeopPrompt');question.removeAttribute('aria-label');
  const assetBase=new URL('jeopardy/categories/',document.currentScript.src),images=window.JEOP_CATEGORY_IMAGES||{};
  const picture=category=>new URL(images[category]||images.Mix||'mix.webp',assetBase).href;
  const pages=document.createElement('nav');pages.className='jeopPages';pages.setAttribute('aria-label','Jeopardy-Kategorien auf kleinen Bildschirmen');board.before(pages);let page=0;
@@ -21,6 +22,6 @@
  function renderTable(){const rows=ranked(),own=ownTeam(),body=table.querySelector('tbody');body.replaceChildren();let previous=null,rank=0;rows.forEach((t,i)=>{if(t.score!==previous)rank=i+1;previous=t.score;const row=document.createElement('tr');if(t.number===own)row.className='jeopOwnTeam';[String(rank),t.name+(t.number===own?' · Dein Team':''),String(t.score)].forEach(value=>{const cell=document.createElement('td');cell.textContent=value;row.append(cell)});body.append(row)})}
  let hudKey='';function refreshScores(){const rows=ranked(),own=ownTeam(),key=JSON.stringify([rows,own]);if(key!==hudKey){hudKey=key;summaries(hud,rows,own);summaries(questionHud,rows,own);if(dialog.open)renderTable()}}
  if(source)new MutationObserver(refreshScores).observe(source,{subtree:true,childList:true,characterData:true});
- function refreshQuestion(){if(question.classList.contains('on')){const category=typeof JEOP!=='undefined'&&JEOP.cell?JEOP.data?.[JEOP.cell.col]?.[0]:null;if(category){question.style.setProperty('--jeop-category-image','url("'+picture(category)+'")');question.dataset.category=category}}refreshScores()}
+ let questionKey=null;function refreshQuestion(){if(question.classList.contains('on')){const key=String(typeof JEOP!=='undefined'&&JEOP.cell?JEOP.cell.col+':'+JEOP.cell.row:'')+'|'+document.getElementById('jeopPrompt').textContent;if(key!==questionKey){questionKey=key;const help=document.getElementById('jeopReviewHelp');if(help)help.textContent='';}const category=typeof JEOP!=='undefined'&&JEOP.cell?JEOP.data?.[JEOP.cell.col]?.[0]:null;if(category){question.style.setProperty('--jeop-category-image','url("'+picture(category)+'")');question.dataset.category=category}}else questionKey=null;refreshScores()}
  new MutationObserver(refreshQuestion).observe(question,{attributes:true,attributeFilter:['class','data-theme']});document.addEventListener('visibilitychange',refreshScores);const membership=document.getElementById('lobbyTeamStatus');if(membership)new MutationObserver(refreshScores).observe(membership,{subtree:true,childList:true,characterData:true});refreshScores();refreshQuestion();
 })();
