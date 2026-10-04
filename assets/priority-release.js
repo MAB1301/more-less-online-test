@@ -48,14 +48,15 @@ function syncPriorityModals(){
  PRIORITY_UI.scheduled=false;
  for(const [node,was] of PRIORITY_UI.inert){node.inert=was}PRIORITY_UI.inert.clear();
  const active=priorityModals();
- PRIORITY_UI.frames=PRIORITY_UI.frames.filter(frame=>{if(active.includes(frame.node))return true;if(frame.focus?.isConnected)frame.focus.focus({preventScroll:true});return false});
+ const closed=PRIORITY_UI.frames.filter(frame=>!active.includes(frame.node));PRIORITY_UI.frames=PRIORITY_UI.frames.filter(frame=>active.includes(frame.node));
  for(const node of active){
   if(!node.classList.contains('priorityModal'))node.classList.add('priorityModal');
   if(node.tagName!=='DIALOG'){node.setAttribute('role','dialog');node.setAttribute('aria-modal','true');if(!node.hasAttribute('aria-label')&&!node.hasAttribute('aria-labelledby'))node.setAttribute('aria-label',node.querySelector('h1,h2,h3')?.textContent||'Spielansicht')}
-  if(!PRIORITY_UI.frames.some(f=>f.node===node))PRIORITY_UI.frames.push({node,focus:document.activeElement});
+  if(!PRIORITY_UI.frames.some(f=>f.node===node))PRIORITY_UI.frames.push({node,focus:node.priorityReturnFocus||document.activeElement});
  }
  const native=PRIORITY_UI.frames.map(f=>f.node).filter(n=>n.tagName==='DIALOG'),top=native.at(-1)||PRIORITY_UI.frames.at(-1)?.node||null,changed=top!==PRIORITY_UI.top;PRIORITY_UI.top=top;
  document.body.dataset.modalOpen=String(!!top);
+ for(const frame of closed.reverse()){if(frame.focus?.isConnected&&(!top||top.contains(frame.focus))){frame.focus.focus({preventScroll:true});break}}
  for(const notice of [el('hostRecoveryNotice'),el('priorityError')].filter(Boolean)){const target=top?(top.querySelector('.modal')||top):document.body;if(notice.parentElement!==target)target.append(notice);notice.style.position=target===document.body?'fixed':'static'}
  if(top){
   for(let node=top;node&&node!==document.body;node=node.parentElement){for(const sibling of node.parentElement?.children||[]){if(sibling===node||sibling.tagName==='SCRIPT'||sibling.tagName==='STYLE'||sibling.tagName==='LINK')continue;PRIORITY_UI.inert.set(sibling,sibling.inert);sibling.inert=true}}
@@ -93,6 +94,7 @@ function priorityAnswerState(game,kind,history,before){
  else setGameAnswerStatus(game,last.ok?'correct':'wrong');
 }
 (function initPriorityRelease(){
+ const dialogProto=window.HTMLDialogElement?.prototype;if(dialogProto?.showModal){const nativeShow=dialogProto.showModal;dialogProto.showModal=function(...args){if(!this.open)this.priorityReturnFocus=document.activeElement;return nativeShow.apply(this,args)}}
  const switchDialog=document.createElement('dialog');switchDialog.id='accountSwitchNotice';switchDialog.setAttribute('aria-labelledby','accountSwitchTitle');const switchTitle=document.createElement('h2');switchTitle.id='accountSwitchTitle';switchTitle.textContent='Account wurde geändert';const switchText=document.createElement('p');switchText.textContent='In einem anderen Tab wurde ein anderer Zugang gewählt. Lade diese Ansicht neu, damit Profil und Ergebnisse zum richtigen Account gehören. Eine Online-Runde bleibt auf dem Server erhalten.';const switchReload=document.createElement('button');switchReload.textContent='Ansicht neu laden';switchReload.onclick=()=>goMainMenu();switchDialog.addEventListener('cancel',event=>event.preventDefault());switchDialog.append(switchTitle,switchText,switchReload);document.body.append(switchDialog);
  const setup=document.createElement('p');setup.id='prioritySetup';setup.className='prioritySetup';setup.setAttribute('aria-label','Zusammenfassung deiner Auswahl');document.querySelector('.siteEntry').insertBefore(setup,document.querySelector('.siteEntryActions'));
  const dailyNotice=document.createElement('div');dailyNotice.id='dailyDayNotice';dailyNotice.className='priorityNotice';dailyNotice.hidden=true;const noticeText=document.createElement('p');noticeText.id='dailyDayNoticeText';const todayButton=document.createElement('button');todayButton.id='dailyDayNoticeGo';todayButton.textContent='Zum heutigen Daily';todayButton.onclick=openTodaysDaily;dailyNotice.append(noticeText,todayButton);el('dailyStatus').before(dailyNotice);
