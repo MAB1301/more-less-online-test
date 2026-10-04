@@ -114,3 +114,5 @@ await import('./expansion-5-check.mjs');
 await import("./expansion-6-check.mjs");
 
 await import('./jeopardy-studio-check.mjs');
+
+await import('./game-learning-check.mjs');
