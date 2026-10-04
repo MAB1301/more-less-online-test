@@ -56,7 +56,8 @@ function syncPriorityModals(){
  }
  const native=PRIORITY_UI.frames.map(f=>f.node).filter(n=>n.tagName==='DIALOG'),top=native.at(-1)||PRIORITY_UI.frames.at(-1)?.node||null,changed=top!==PRIORITY_UI.top;PRIORITY_UI.top=top;
  document.body.dataset.modalOpen=String(!!top);
- for(const frame of closed.reverse()){if(frame.focus?.isConnected&&(!top||top.contains(frame.focus))){frame.focus.focus({preventScroll:true});break}}
+ for(const frame of closed.reverse()){if(frame.focus?.isConnected&&frame.focus.getClientRects().length&&(!top||top.contains(frame.focus))){frame.focus.focus({preventScroll:true});break}}
+ if(closed.length&&!top&&document.activeElement===document.body){const fallback=[...document.querySelectorAll('#siteModeContinue,#estimateValue,#factButtons button,#soloBtns button,#homeScreen button,#accountButton')].find(n=>n.getClientRects().length&&!n.disabled);fallback?.focus({preventScroll:true})}
  for(const notice of [el('hostRecoveryNotice'),el('priorityError')].filter(Boolean)){const target=top?(top.querySelector('.modal')||top):document.body;if(notice.parentElement!==target)target.append(notice);notice.style.position=target===document.body?'fixed':'static'}
  if(top){
   for(let node=top;node&&node!==document.body;node=node.parentElement){for(const sibling of node.parentElement?.children||[]){if(sibling===node||sibling.tagName==='SCRIPT'||sibling.tagName==='STYLE'||sibling.tagName==='LINK')continue;PRIORITY_UI.inert.set(sibling,sibling.inert);sibling.inert=true}}
