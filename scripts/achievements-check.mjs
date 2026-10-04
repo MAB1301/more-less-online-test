@@ -1,0 +1,20 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+const source=fs.readFileSync('assets/player-hub.js','utf8');
+const node=()=>({children:[],className:'',textContent:'',append(...items){this.children.push(...items)},replaceChildren(){this.children=[]},setAttribute(){}});
+const storage=new Map();const root=node(),context=vm.createContext({PLAYER_HUB:{historyUID:null},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},document:{getElementById:()=>root,createElement:node}});
+vm.runInContext(source.slice(source.indexOf('function renderPlayerAchievements(')),context);
+context.runs=[{game:'moreless',mode:'CLASSIC',best_score:19},{game:'moreless',mode:'online-classic',best_score:100},{game:'estimate',mode:'CLASSIC',best_score:100},{game:'moreless',mode:'SURVIVAL',best_streak:24}];
+context.daily={daily_best_streak:3};vm.runInContext('renderPlayerAchievements(runs,daily)',context);
+assert.equal(root.children.length,5);
+assert.equal(root.children.filter(n=>n.className.includes('unlocked')).length,1,'only three-day Daily is earned; other games and online records do not grant Solo achievements');
+context.runs[0].best_score=20;context.runs[3].best_streak=25;context.daily.daily_best_streak=7;
+vm.runInContext('renderPlayerAchievements(runs,daily)',context);
+assert.equal(root.children.filter(n=>n.className.includes('unlocked')).length,4,'thresholds award once and preserve shorter Daily milestones');
+context.daily=null;vm.runInContext('renderPlayerAchievements(runs,daily)',context);
+assert(root.children.slice(2).every(n=>n.children.some(c=>c.textContent==='Daily-Fortschritt gerade nicht verfügbar')),'missing server data never implies zero progress or an earned reward');
+assert(source.includes("filter(r=>r.period==='week')"),'only settled weekly placements appear as ranking badges');
+console.log('OK: achievement thresholds, Solo mode isolation, multi-day milestones, repeat rendering, unavailable Daily state and weekly rewards');
+
+context.runs=[];vm.runInContext('renderPlayerAchievements(runs,daily)',context);assert.equal(root.children.filter(n=>n.className.includes('unlocked')).length,2,'earned personal goals survive trimmed recent history');vm.runInContext("PLAYER_HUB.historyUID='another-account';renderPlayerAchievements(runs,daily)",context);assert.equal(root.children.filter(n=>n.className.includes('unlocked')).length,0,'personal achievements never leak to another account');

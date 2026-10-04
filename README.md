@@ -54,3 +54,14 @@ A member-only waiting snapshot returns participant names, connectivity and submi
 Phone layouts use shorter imagery and smaller spacing while retaining at least 44px control targets. Card labels wrap and expand rather than being clipped; landscape uses shorter images. No new main-menu section was added.
 
 Apply `supabase/game-clarity.sql` after the online mechanics scripts. `scripts/game-clarity-server-check.sql` verifies waiting privacy, preview locks and full post-preview answer time with rolled-back fixtures. `scripts/game-clarity-client-check.mjs` is included in the regression suite and checks rules, focus return, timer release, locked answers and waiting-state cleanup.
+
+
+### Settings and achievements (5 October 2026)
+
+The account dialog fills the available viewport and starts at the top on every opening. Login/register and logout appear directly after the profile. The More/Less question and answer cards precede category progress, save status, waiting and jokers. Short-view layouts reduce image height while names remain readable. Online and offline HTML stay synchronized.
+
+Ranking badges show settled weekly podiums only. One-time personal achievements require 20 points in a single Solo Classic round or 25 correct consecutive Solo Survival answers. Daily milestones require 3, 7 or 30 distinct consecutive Berlin calendar days with an on-time completed challenge. Multiple games on one day count once, and archive completions do not count. Solo achievements are personal records, not verified ranking awards.
+
+Apply `docs/database/player-achievements.sql` to project `rnwsbgzdrttqtivrwnxo` after `player-hub.sql` before publishing. It adds an owner-bound read-only Daily streak RPC, with private storage unchanged and no new scoring rules. If the RPC is unavailable, the UI explicitly says Daily progress is unavailable. Existing day awards are omitted from the badge view; no historical results are deleted.
+
+Validation: `node scripts/regression-check.mjs`, `node scripts/achievements-check.mjs`, and the read-only fixture query in `scripts/achievement-streak-check.sql`. Browser visual verification must be completed before publishing.

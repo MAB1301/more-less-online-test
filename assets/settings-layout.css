@@ -1,0 +1,45 @@
+/* A single scroll surface keeps settings reachable in Safari and with the keyboard open. */
+html body #accountMenu{inset:12px!important;margin:auto!important;width:min(960px,calc(100vw - 24px))!important;height:calc(var(--visible-height,100dvh) - 24px);max-height:calc(var(--visible-height,100dvh) - 24px)!important;border-radius:24px;overflow:auto!important;scroll-padding:100px 24px 24px}
+#accountMenu .accountMenuPanel{padding:0 28px 28px;max-width:100%;box-sizing:border-box}
+#accountMenu .accountMenuPanel>header{position:sticky;top:0;z-index:2;padding:22px 0 18px;background:#121b32;border-bottom:1px solid #465679;align-items:center}
+#accountMenu .accountMenuPanel h2{font-size:clamp(24px,3vw,32px)}
+#accountMenu .accountMenuPanel header p{font-size:14px;line-height:1.5}
+#accountMenu .accountProfile{padding:18px 0 8px}
+#accountMenu #accountAuthControls{margin:12px 0 20px;padding:18px;background:#1a2440;border:1px solid #697ba2;border-radius:16px}
+#accountMenu .accountAuthSoon b{font-size:18px}
+#accountMenu .accountAuthSoon p,#accountMenuStatus{font-size:14px}
+#accountMenu .accountAuthSoon button{font-size:16px;min-height:48px}
+#accountMenu #accountMemberControls>button{margin:10px 0 16px;min-height:48px}
+#accountMenu .accountSettingsLink{margin:6px 0;min-height:48px}
+#accountMenu .qualityPreference{box-sizing:border-box;margin-top:24px;display:grid;grid-template-columns:28px minmax(0,1fr);gap:10px;align-items:start}
+#accountMenu .qualityPreference small{grid-column:2;line-height:1.6}
+#accountMenu .qualityPreference input{margin:2px 0;min-width:24px}
+#accountMenu .gamePreferences{padding-top:20px;margin-top:24px}
+#accountMenu button,#accountMenu input,#accountMenu select{max-width:100%;box-sizing:border-box}
+#accountMenu input[type=range]{width:100%}
+#accountMenu .siteIdentity:empty,#accountMenu .siteAccountScope:empty{display:none}
+/* Answer first: secondary information follows the comparison cards. */
+html body #game:not(.preLobbyHidden):not(.hide){display:flex!important;flex-direction:column;gap:10px;margin-top:76px!important;padding:16px!important}
+#game>div:first-child{order:0}
+html body #game #prompt{order:1;margin:0!important;padding:10px 14px!important;font-size:clamp(22px,3vw,32px)!important;line-height:1.2}
+#game>#gameTimer{order:2;margin:0;padding:6px 10px;width:max-content}
+#game>.cards{order:3;margin:0!important;gap:12px!important}
+html body #game .cards>button.card.visualCard{min-height:0!important;display:flex!important;flex-direction:column;padding:8px!important}
+html body #game .cards>button.card.visualCard>.objectVisual{height:clamp(110px,25dvh,240px)!important;min-height:0!important;flex:0 0 auto!important}
+html body #game .visualLabel{padding:10px 6px!important;min-height:64px;overflow-wrap:anywhere}
+html body #game .visualLabel b{font-size:clamp(17px,2.3vw,24px)!important;line-height:1.25}
+html body #game .visualLabel span{font-size:clamp(16px,2vw,22px)!important;line-height:1.3}
+html body #game #prog.categoryProgress{order:4;padding:10px 14px!important;margin:0!important;gap:10px}
+#game .categoryProgressTitle{font-size:18px!important}
+#game .categoryProgressHeading{flex-direction:row;align-items:center;flex-wrap:wrap;gap:6px}
+#game .categoryProgressChip{font-size:12px;padding:3px 6px}
+#game>.answerState,#game>#answerRetry-moreless{order:5;margin:0;padding:8px 12px;min-height:0}
+#game>#reveal,#game>#next{order:6;margin:0}
+#game>#onlineWaiting{order:7;margin:0;padding:8px 12px}
+#game>#chaosRuleBar,#game>#onlineModeInfo{order:8;margin:0}
+#game>#jokerShelf,#game>#onlineJokerInfo{order:9;margin:0}
+#game>#gameConnectionPeers{order:10;margin:0}
+#game>#gameConnectionPeers:empty,#game>#onlineJokerInfo:empty,#game>#reveal:empty{display:none}
+body:has(#game:not(.preLobbyHidden):not(.hide)){padding-bottom:110px}
+@media(max-width:600px){#accountMenu .accountMenuPanel{padding:0 16px 20px}#accountMenu .accountMenuPanel>header{padding:16px 0}#accountMenu .accountAuthSoon div{flex-wrap:wrap}html body #game:not(.preLobbyHidden):not(.hide){padding:10px!important;gap:8px}html body #game .cards>button.card.visualCard>.objectVisual{height:clamp(100px,22dvh,170px)!important}}
+@media(max-height:550px){html body #game .cards>button.card.visualCard>.objectVisual{height:90px!important}html body #game #prompt{font-size:22px!important;padding:6px!important}}
