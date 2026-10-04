@@ -169,6 +169,42 @@
         "verified": "2026-10-01",
         "estimate_question": "Wie viele Zylinder hat der Verbrennungsmotor des Porsche 911 GT3 (PDK, 2025)?",
         "notes": ""
+      },
+      {
+        "category": "Autos",
+        "metric": "Maximales Drehmoment des Verbrennungsmotors",
+        "value": 450,
+        "unit": "Nm",
+        "comparison_unit": "Nm · Maximales Drehmoment des Verbrennungsmotors",
+        "source": "https://newsroom.porsche.com/en/2024/products/porsche-the-new-911-gt3-double-premiere-37595.html",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Verbrennungsmotor, kein addiertes Hybrid-Systemdrehmoment.",
+        "estimate_question": "Porsche 911 GT3 (PDK, 2025): Wie hoch ist der Wert für „Maximales Drehmoment des Verbrennungsmotors“ (Nm)?"
+      },
+      {
+        "category": "Autos",
+        "metric": "Hubraum des Verbrennungsmotors",
+        "value": 3996,
+        "unit": "cm³",
+        "comparison_unit": "cm³ · Hubraum des Verbrennungsmotors",
+        "source": "https://newsroom.porsche.com/en/press-kits/911-GT3/Powertrain-and-performance.html",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "",
+        "estimate_question": "Porsche 911 GT3 (PDK, 2025): Wie hoch ist der Wert für „Hubraum des Verbrennungsmotors“ (cm³)?"
+      },
+      {
+        "category": "Autos",
+        "metric": "Maximale Motordrehzahl des Verbrennungsmotors",
+        "value": 9000,
+        "unit": "U/min",
+        "comparison_unit": "U/min · Maximale Motordrehzahl des Verbrennungsmotors",
+        "source": "https://newsroom.porsche.com/en/press-kits/911-GT3/Powertrain-and-performance.html",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "",
+        "estimate_question": "Porsche 911 GT3 (PDK, 2025): Wie hoch ist der Wert für „Maximale Motordrehzahl des Verbrennungsmotors“ (U/min)?"
       }
     ]
   },
@@ -200,7 +236,7 @@
         "unit": "Sekunden",
         "comparison_unit": "Sekunden · 0–100 km/h laut Hersteller",
         "value": 2.9,
-        "source": "https://www.ferrari.com/en-EN/auto/296-gtb",
+        "source": "https://www.ferrari.com/content/dam/ferrari-fcom/old/pdf/CS_296_GTB_final_gbr.pdf",
         "category": "Autos",
         "verified": "2026-10-01"
       },
@@ -215,6 +251,42 @@
         "verified": "2026-10-01",
         "estimate_question": "Wie viele Zylinder hat der Verbrennungsmotor des Ferrari 296 GTB?",
         "notes": "Elektromotoren nicht mitzählen."
+      },
+      {
+        "category": "Autos",
+        "metric": "Maximales Drehmoment des Verbrennungsmotors",
+        "value": 740,
+        "unit": "Nm",
+        "comparison_unit": "Nm · Maximales Drehmoment des Verbrennungsmotors",
+        "source": "https://www.ferrari.com/content/dam/ferrari-fcom/old/pdf/CS_296_GTB_final_gbr.pdf",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Verbrennungsmotor, kein addiertes Hybrid-Systemdrehmoment.",
+        "estimate_question": "Ferrari 296 GTB: Wie hoch ist der Wert für „Maximales Drehmoment des Verbrennungsmotors“ (Nm)?"
+      },
+      {
+        "category": "Autos",
+        "metric": "Hubraum des Verbrennungsmotors",
+        "value": 2992,
+        "unit": "cm³",
+        "comparison_unit": "cm³ · Hubraum des Verbrennungsmotors",
+        "source": "https://www.ferrari.com/content/dam/ferrari-fcom/old/pdf/CS_296_GTB_final_gbr.pdf",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "",
+        "estimate_question": "Ferrari 296 GTB: Wie hoch ist der Wert für „Hubraum des Verbrennungsmotors“ (cm³)?"
+      },
+      {
+        "category": "Autos",
+        "metric": "Maximale Motordrehzahl des Verbrennungsmotors",
+        "value": 8500,
+        "unit": "U/min",
+        "comparison_unit": "U/min · Maximale Motordrehzahl des Verbrennungsmotors",
+        "source": "https://www.ferrari.com/content/dam/ferrari-fcom/old/pdf/CS_296_GTB_final_gbr.pdf",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "",
+        "estimate_question": "Ferrari 296 GTB: Wie hoch ist der Wert für „Maximale Motordrehzahl des Verbrennungsmotors“ (U/min)?"
       }
     ]
   },
@@ -261,6 +333,42 @@
         "verified": "2026-10-01",
         "estimate_question": "Wie viele Zylinder hat der Verbrennungsmotor des Ferrari SF90 Stradale?",
         "notes": "Elektromotoren nicht mitzählen."
+      },
+      {
+        "category": "Autos",
+        "metric": "Maximales Drehmoment des Verbrennungsmotors",
+        "value": 800,
+        "unit": "Nm",
+        "comparison_unit": "Nm · Maximales Drehmoment des Verbrennungsmotors",
+        "source": "https://cdn.ferrari.com/cms/network/media/pdf/pr_ferrari_sf90_stradale_gbr.pdf",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Verbrennungsmotor, kein addiertes Hybrid-Systemdrehmoment.",
+        "estimate_question": "Ferrari SF90 Stradale: Wie hoch ist der Wert für „Maximales Drehmoment des Verbrennungsmotors“ (Nm)?"
+      },
+      {
+        "category": "Autos",
+        "metric": "Hubraum des Verbrennungsmotors",
+        "value": 3990,
+        "unit": "cm³",
+        "comparison_unit": "cm³ · Hubraum des Verbrennungsmotors",
+        "source": "https://cdn.ferrari.com/cms/network/media/pdf/pr_ferrari_sf90_stradale_gbr.pdf",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "",
+        "estimate_question": "Ferrari SF90 Stradale: Wie hoch ist der Wert für „Hubraum des Verbrennungsmotors“ (cm³)?"
+      },
+      {
+        "category": "Autos",
+        "metric": "Maximale Motordrehzahl des Verbrennungsmotors",
+        "value": 8000,
+        "unit": "U/min",
+        "comparison_unit": "U/min · Maximale Motordrehzahl des Verbrennungsmotors",
+        "source": "https://cdn.ferrari.com/cms/network/media/pdf/pr_ferrari_sf90_stradale_gbr.pdf",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "",
+        "estimate_question": "Ferrari SF90 Stradale: Wie hoch ist der Wert für „Maximale Motordrehzahl des Verbrennungsmotors“ (U/min)?"
       }
     ]
   },
@@ -307,6 +415,83 @@
         "verified": "2026-10-01",
         "estimate_question": "In welchem Jahr wurde Kylian Mbappé geboren?",
         "notes": ""
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Gesamtwertung · EA SPORTS FC 27",
+        "value": 91,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Gesamtwertung-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Gesamtwertung hat Kylian Mbappé auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Tempo · EA SPORTS FC 27",
+        "value": 96,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Tempo-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Tempo-Wertung hat Kylian Mbappé auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Schuss · EA SPORTS FC 27",
+        "value": 91,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Schuss-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Schuss-Wertung hat Kylian Mbappé auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Passen · EA SPORTS FC 27",
+        "value": 80,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Passen-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Passen-Wertung hat Kylian Mbappé auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Dribbling · EA SPORTS FC 27",
+        "value": 92,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Dribbling-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Dribbling-Wertung hat Kylian Mbappé auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Defensive · EA SPORTS FC 27",
+        "value": 29,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Defensive-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Defensive-Wertung hat Kylian Mbappé auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Physis · EA SPORTS FC 27",
+        "value": 76,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Physis-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Physis-Wertung hat Kylian Mbappé auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
       }
     ]
   },
@@ -352,6 +537,83 @@
         "verified": "2026-10-01",
         "estimate_question": "In welchem Jahr wurde Mohamed Salah geboren?",
         "notes": ""
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Gesamtwertung · EA SPORTS FC 27",
+        "value": 87,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Gesamtwertung-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Gesamtwertung hat Mohamed Salah auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Tempo · EA SPORTS FC 27",
+        "value": 84,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Tempo-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Tempo-Wertung hat Mohamed Salah auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Schuss · EA SPORTS FC 27",
+        "value": 83,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Schuss-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Schuss-Wertung hat Mohamed Salah auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Passen · EA SPORTS FC 27",
+        "value": 83,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Passen-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Passen-Wertung hat Mohamed Salah auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Dribbling · EA SPORTS FC 27",
+        "value": 86,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Dribbling-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Dribbling-Wertung hat Mohamed Salah auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Defensive · EA SPORTS FC 27",
+        "value": 45,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Defensive-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Defensive-Wertung hat Mohamed Salah auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Physis · EA SPORTS FC 27",
+        "value": 72,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Physis-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Physis-Wertung hat Mohamed Salah auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
       }
     ]
   },
@@ -398,6 +660,83 @@
         "verified": "2026-10-01",
         "estimate_question": "In welchem Jahr wurde Erling Haaland geboren?",
         "notes": ""
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Gesamtwertung · EA SPORTS FC 27",
+        "value": 91,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Gesamtwertung-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Gesamtwertung hat Erling Haaland auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Tempo · EA SPORTS FC 27",
+        "value": 87,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Tempo-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Tempo-Wertung hat Erling Haaland auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Schuss · EA SPORTS FC 27",
+        "value": 92,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Schuss-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Schuss-Wertung hat Erling Haaland auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Passen · EA SPORTS FC 27",
+        "value": 71,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Passen-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Passen-Wertung hat Erling Haaland auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Dribbling · EA SPORTS FC 27",
+        "value": 80,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Dribbling-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Dribbling-Wertung hat Erling Haaland auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Defensive · EA SPORTS FC 27",
+        "value": 47,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Defensive-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Defensive-Wertung hat Erling Haaland auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Physis · EA SPORTS FC 27",
+        "value": 89,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Physis-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Physis-Wertung hat Erling Haaland auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
       }
     ]
   },
@@ -444,6 +783,83 @@
         "verified": "2026-10-01",
         "estimate_question": "In welchem Jahr wurde Jude Bellingham geboren?",
         "notes": ""
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Gesamtwertung · EA SPORTS FC 27",
+        "value": 90,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Gesamtwertung-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Gesamtwertung hat Jude Bellingham auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Tempo · EA SPORTS FC 27",
+        "value": 79,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Tempo-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Tempo-Wertung hat Jude Bellingham auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Schuss · EA SPORTS FC 27",
+        "value": 86,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Schuss-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Schuss-Wertung hat Jude Bellingham auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Passen · EA SPORTS FC 27",
+        "value": 83,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Passen-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Passen-Wertung hat Jude Bellingham auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Dribbling · EA SPORTS FC 27",
+        "value": 88,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Dribbling-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Dribbling-Wertung hat Jude Bellingham auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Defensive · EA SPORTS FC 27",
+        "value": 79,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Defensive-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Defensive-Wertung hat Jude Bellingham auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Physis · EA SPORTS FC 27",
+        "value": 85,
+        "unit": "Wertungspunkte",
+        "comparison_unit": "Physis-Wertung · EA SPORTS FC 27 · Basiskarte",
+        "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Physis-Wertung hat Jude Bellingham auf der Basiskarte in EA SPORTS FC 27?",
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
       }
     ]
   },
@@ -463,6 +879,18 @@
         "verified": "2026-10-01",
         "estimate_question": "Wie groß ist Österreich laut Statistik Austria 2025/26 in Quadratkilometern?",
         "notes": "Gerundeter Veröffentlichungswert, nicht der ältere Wert 83.879."
+      },
+      {
+        "category": "Länder",
+        "metric": "Internationale Telefon-Landeskennzahl",
+        "value": 43,
+        "unit": "Zahl nach +",
+        "comparison_unit": "Zahl nach + · Internationale Telefon-Landeskennzahl",
+        "source": "https://www.itu.int/oth/t0202/en",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Telefonvorwahl ohne internationale Verkehrsausscheidungsziffer.",
+        "estimate_question": "Österreich: Wie hoch ist der Wert für „Internationale Telefon-Landeskennzahl“ (Zahl nach +)?"
       }
     ],
     "generated": false,
@@ -490,6 +918,18 @@
         "verified": "2026-10-01",
         "estimate_question": "Wie groß ist die Schweiz ungefähr in Quadratkilometern?",
         "notes": "Gesamtes Staatsgebiet, einschließlich Binnengewässer."
+      },
+      {
+        "category": "Länder",
+        "metric": "Internationale Telefon-Landeskennzahl",
+        "value": 41,
+        "unit": "Zahl nach +",
+        "comparison_unit": "Zahl nach + · Internationale Telefon-Landeskennzahl",
+        "source": "https://www.itu.int/oth/t0202/en",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Telefonvorwahl ohne internationale Verkehrsausscheidungsziffer.",
+        "estimate_question": "Schweiz: Wie hoch ist der Wert für „Internationale Telefon-Landeskennzahl“ (Zahl nach +)?"
       }
     ],
     "generated": false,
@@ -513,10 +953,22 @@
         "comparison_unit": "km²",
         "sub": "Fläche",
         "value": 30689,
-        "source": "https://statbel.fgov.be/en/quiz",
+        "source": "https://statbel.fgov.be/de/nachrichten/saint-josse-ten-noode-koekelberg-und-herstappe-sind-die-kleinsten-gemeinden-belgien",
         "verified": "2026-10-01",
-        "estimate_question": "Wie groß ist Belgien laut Statbel in Quadratkilometern?",
-        "notes": "Staatsfläche; unterschiedliche Vermessungsstände sind bei engen Vergleichen zu beachten."
+        "estimate_question": "Welche Staatsfläche nennt Statbel für Belgien im Jahr 2023, gerundet auf ganze Quadratkilometer?",
+        "notes": "Historischer Statbel-Stand 2023: 30.689 km². Der Statbel-Stand 2025 nennt gerundet 30.690 km². Kein aktueller Livewert."
+      },
+      {
+        "category": "Länder",
+        "metric": "Internationale Telefon-Landeskennzahl",
+        "value": 32,
+        "unit": "Zahl nach +",
+        "comparison_unit": "Zahl nach + · Internationale Telefon-Landeskennzahl",
+        "source": "https://www.itu.int/oth/t0202/en",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Telefonvorwahl ohne internationale Verkehrsausscheidungsziffer.",
+        "estimate_question": "Belgien: Wie hoch ist der Wert für „Internationale Telefon-Landeskennzahl“ (Zahl nach +)?"
       }
     ],
     "generated": false,
@@ -544,6 +996,18 @@
         "verified": "2026-10-01",
         "estimate_question": "In wie viele Verwaltungsbezirke ist Berlin gegliedert?",
         "notes": ""
+      },
+      {
+        "category": "Städte",
+        "metric": "Stadtfläche laut angegebenem Quellenstand",
+        "value": 891.1,
+        "unit": "km²",
+        "comparison_unit": "km² · Stadtfläche laut angegebenem Quellenstand",
+        "source": "https://bundeswahlleiterin.de/bundestagswahlen/2025/strukturdaten/bund-99/land-11.html",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Berlin: 31.12.2023; Hamburg: gerundeter Behördenwert; Wien: 2025. Verwaltungsfläche einschließlich Wasserflächen.",
+        "estimate_question": "Berlin: Wie hoch ist der Wert für „Stadtfläche laut angegebenem Quellenstand“ (km²)?"
       }
     ],
     "generated": false,
@@ -571,6 +1035,18 @@
         "verified": "2026-10-01",
         "estimate_question": "Wie viele Verwaltungsbezirke hat Hamburg?",
         "notes": ""
+      },
+      {
+        "category": "Städte",
+        "metric": "Stadtfläche laut angegebenem Quellenstand",
+        "value": 755,
+        "unit": "km²",
+        "comparison_unit": "km² · Stadtfläche laut angegebenem Quellenstand",
+        "source": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/boden-und-geologie/altlasten/flaechenrecycling/flaechenrecycling-167942",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Berlin: 31.12.2023; Hamburg: gerundeter Behördenwert; Wien: 2025. Verwaltungsfläche einschließlich Wasserflächen.",
+        "estimate_question": "Hamburg: Wie hoch ist der Wert für „Stadtfläche laut angegebenem Quellenstand“ (km²)?"
       }
     ],
     "generated": false,
@@ -598,6 +1074,18 @@
         "verified": "2026-10-01",
         "estimate_question": "Wie viele Gemeindebezirke hat Wien?",
         "notes": "Verglichen wird ausschließlich die Anzahl; die Bezirke haben nicht dieselben Kompetenzen."
+      },
+      {
+        "category": "Städte",
+        "metric": "Stadtfläche laut angegebenem Quellenstand",
+        "value": 414.9,
+        "unit": "km²",
+        "comparison_unit": "km² · Stadtfläche laut angegebenem Quellenstand",
+        "source": "https://www.wien.gv.at/statistik/aktuelle-daten",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Berlin: 31.12.2023; Hamburg: gerundeter Behördenwert; Wien: 2025. Verwaltungsfläche einschließlich Wasserflächen.",
+        "estimate_question": "Wien: Wie hoch ist der Wert für „Stadtfläche laut angegebenem Quellenstand“ (km²)?"
       }
     ],
     "generated": true,
@@ -625,6 +1113,18 @@
         "verified": "2026-10-01",
         "estimate_question": "In welchem Jahr wurde Yellowstone als Nationalpark gegründet?",
         "notes": ""
+      },
+      {
+        "category": "Natur",
+        "metric": "Parkfläche laut NPS-Statistik",
+        "value": 2221766,
+        "unit": "Acres",
+        "comparison_unit": "Acres · Parkfläche laut NPS-Statistik",
+        "source": "https://www.nps.gov/yell/planyourvisit/parkfacts.htm",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Momentaufnahme der verlinkten NPS-Statistik; verschiedene ältere NPS-Unterseiten können abweichende Grenzstände enthalten.",
+        "estimate_question": "Yellowstone-Nationalpark: Wie hoch ist der Wert für „Parkfläche laut NPS-Statistik“ (Acres)?"
       }
     ],
     "generated": true,
@@ -652,6 +1152,18 @@
         "verified": "2026-10-01",
         "estimate_question": "In welchem Jahr wurde Yosemite zum Nationalpark erklärt?",
         "notes": "Nationalpark 1890; Yosemite Grant von 1864 ist eine andere Schutzentscheidung."
+      },
+      {
+        "category": "Natur",
+        "metric": "Parkfläche laut NPS-Statistik",
+        "value": 759620,
+        "unit": "Acres",
+        "comparison_unit": "Acres · Parkfläche laut NPS-Statistik",
+        "source": "https://www.nps.gov/yose/learn/management/statistics.htm",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Momentaufnahme der verlinkten NPS-Statistik; verschiedene ältere NPS-Unterseiten können abweichende Grenzstände enthalten.",
+        "estimate_question": "Yosemite-Nationalpark: Wie hoch ist der Wert für „Parkfläche laut NPS-Statistik“ (Acres)?"
       }
     ],
     "generated": true,
@@ -679,6 +1191,18 @@
         "verified": "2026-10-01",
         "estimate_question": "In welchem Jahr wurde der Grand Canyon zum Nationalpark erklärt?",
         "notes": "National Monument 1908 und Nationalpark 1919 unterscheiden."
+      },
+      {
+        "category": "Natur",
+        "metric": "Parkfläche laut NPS-Statistik",
+        "value": 1218375,
+        "unit": "Acres",
+        "comparison_unit": "Acres · Parkfläche laut NPS-Statistik",
+        "source": "https://home.nps.gov/grca/learn/management/statistics.htm",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Momentaufnahme der verlinkten NPS-Statistik; verschiedene ältere NPS-Unterseiten können abweichende Grenzstände enthalten.",
+        "estimate_question": "Grand-Canyon-Nationalpark: Wie hoch ist der Wert für „Parkfläche laut NPS-Statistik“ (Acres)?"
       }
     ],
     "generated": true,
@@ -706,6 +1230,18 @@
         "verified": "2026-10-01",
         "estimate_question": "Wie viele Spieler hat eine vollständige Fußballmannschaft gleichzeitig auf dem Feld, einschließlich Torwart?",
         "notes": ""
+      },
+      {
+        "category": "Sport",
+        "metric": "Reguläre Spielzeit für Erwachsene ohne Verlängerung",
+        "value": 90,
+        "unit": "Minuten",
+        "comparison_unit": "Minuten · Reguläre Spielzeit für Erwachsene ohne Verlängerung",
+        "source": "https://www.theifab.com/laws/latest/the-duration-of-the-match/",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Fußball ohne Nachspielzeit; Basketball nach FIBA, nicht NBA; Handball für mindestens 16-Jährige.",
+        "estimate_question": "Fußball: Wie hoch ist der Wert für „Reguläre Spielzeit für Erwachsene ohne Verlängerung“ (Minuten)?"
       }
     ],
     "generated": false,
@@ -733,6 +1269,18 @@
         "verified": "2026-10-01",
         "estimate_question": "Wie viele Spieler eines Teams stehen beim klassischen Basketball gleichzeitig auf dem Feld?",
         "notes": ""
+      },
+      {
+        "category": "Sport",
+        "metric": "Reguläre Spielzeit für Erwachsene ohne Verlängerung",
+        "value": 40,
+        "unit": "Minuten",
+        "comparison_unit": "Minuten · Reguläre Spielzeit für Erwachsene ohne Verlängerung",
+        "source": "https://assets.fiba.basketball/image/upload/documents-corporate-fiba-official-rules-2026-v1-1.pdf",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Fußball ohne Nachspielzeit; Basketball nach FIBA, nicht NBA; Handball für mindestens 16-Jährige.",
+        "estimate_question": "Basketball: Wie hoch ist der Wert für „Reguläre Spielzeit für Erwachsene ohne Verlängerung“ (Minuten)?"
       }
     ],
     "generated": false,
@@ -787,6 +1335,18 @@
         "verified": "2026-10-01",
         "estimate_question": "In welchem Jahr wurde der Eiffelturm eingeweiht?",
         "notes": ""
+      },
+      {
+        "category": "Bauwerke",
+        "metric": "Baubeginn (einschließlich Gründungsarbeiten)",
+        "value": 1887,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Baubeginn (einschließlich Gründungsarbeiten)",
+        "source": "https://www.toureiffel.paris/en/the-monument/history",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "",
+        "estimate_question": "Eiffelturm: Wie hoch ist der Wert für „Baubeginn (einschließlich Gründungsarbeiten)“ (Jahr)?"
       }
     ],
     "generated": false,
@@ -814,6 +1374,18 @@
         "verified": "2026-10-01",
         "estimate_question": "In welchem Jahr wurde das Empire State Building eröffnet?",
         "notes": ""
+      },
+      {
+        "category": "Bauwerke",
+        "metric": "Baubeginn (einschließlich Gründungsarbeiten)",
+        "value": 1930,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Baubeginn (einschließlich Gründungsarbeiten)",
+        "source": "https://www.esbnyc.com/about/history",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "",
+        "estimate_question": "Empire State Building: Wie hoch ist der Wert für „Baubeginn (einschließlich Gründungsarbeiten)“ (Jahr)?"
       }
     ],
     "generated": false,
@@ -841,6 +1413,18 @@
         "verified": "2026-10-01",
         "estimate_question": "In welchem Jahr wurde der Burj Khalifa offiziell eröffnet?",
         "notes": ""
+      },
+      {
+        "category": "Bauwerke",
+        "metric": "Baubeginn (einschließlich Gründungsarbeiten)",
+        "value": 2004,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Baubeginn (einschließlich Gründungsarbeiten)",
+        "source": "https://bk.emaar.com/en/assets/FACT-SHEET.pdf",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "",
+        "estimate_question": "Burj Khalifa: Wie hoch ist der Wert für „Baubeginn (einschließlich Gründungsarbeiten)“ (Jahr)?"
       }
     ],
     "generated": false,
@@ -867,6 +1451,18 @@
         "source": "https://animals.sandiegozoo.org/animals/elephant",
         "verified": "2026-10-01",
         "notes": "Quelle: 20–22 Monate. 21 ist der berechnete Mittelpunkt, keine behauptete exakte oder empirische Durchschnittsmessung. Für Schätzspiel eine Toleranz von mindestens ±1 Monat verwenden."
+      },
+      {
+        "category": "Tierwelt",
+        "metric": "Geburtsgewicht: oberer genannter Richtwert",
+        "value": 120,
+        "unit": "kg",
+        "comparison_unit": "kg · Geburtsgewicht: oberer genannter Richtwert",
+        "source": "https://animals.sandiegozoo.org/animals/elephant",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Oberes Ende des Zoo-Richtbereichs; beim Löwen einzelner ungefährer Wert. Kein Durchschnitt und kein Rekord.",
+        "estimate_question": "Elefant: Wie hoch ist der Wert für „Geburtsgewicht: oberer genannter Richtwert“ (kg)?"
       }
     ],
     "generated": false,
@@ -893,6 +1489,18 @@
         "source": "https://animals.sandiegozoo.org/animals/giraffe",
         "verified": "2026-10-01",
         "notes": "Veröffentlichter Richtwert 14 Monate; keine individuelle exakte Dauer."
+      },
+      {
+        "category": "Tierwelt",
+        "metric": "Geburtsgewicht: oberer genannter Richtwert",
+        "value": 100,
+        "unit": "kg",
+        "comparison_unit": "kg · Geburtsgewicht: oberer genannter Richtwert",
+        "source": "https://animals.sandiegozoo.org/animals/giraffe",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Oberes Ende des Zoo-Richtbereichs; beim Löwen einzelner ungefährer Wert. Kein Durchschnitt und kein Rekord.",
+        "estimate_question": "Giraffe: Wie hoch ist der Wert für „Geburtsgewicht: oberer genannter Richtwert“ (kg)?"
       }
     ],
     "generated": false,
@@ -919,6 +1527,18 @@
         "source": "https://animals.sandiegozoo.org/animals/lion",
         "verified": "2026-10-01",
         "notes": "Quelle: fast vier Monate. Als Spielrichtwert auf vier gerundet; nicht exakt vier."
+      },
+      {
+        "category": "Tierwelt",
+        "metric": "Geburtsgewicht: oberer genannter Richtwert",
+        "value": 1.4,
+        "unit": "kg",
+        "comparison_unit": "kg · Geburtsgewicht: oberer genannter Richtwert",
+        "source": "https://animals.sandiegozoo.org/animals/lion",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Oberes Ende des Zoo-Richtbereichs; beim Löwen einzelner ungefährer Wert. Kein Durchschnitt und kein Rekord.",
+        "estimate_question": "Löwe: Wie hoch ist der Wert für „Geburtsgewicht: oberer genannter Richtwert“ (kg)?"
       }
     ],
     "generated": true,
@@ -1028,6 +1648,28 @@
         "verified": "2026-10-03",
         "estimate_question": "Mit welcher mittleren Geschwindigkeit bewegt sich Merkur laut NASA um die Sonne, in Kilometern pro Sekunde?",
         "notes": "Gemittelte heliozentrische Bahngeschwindigkeit, keine momentane Geschwindigkeit oder Rotation."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Planetenmasse",
+        "value": 0.33,
+        "unit": "10²⁴ kg",
+        "comparison_unit": "10²⁴ kg · Planetenmasse",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Masse hat Merkur laut NASA ungefähr, in Einheiten von 10 hoch 24 Kilogramm?",
+        "notes": "Eine Einheit entspricht einer Quadrillion Kilogramm; Masse, nicht Gewichtskraft."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Fallbeschleunigung am Äquator",
+        "value": 3.7,
+        "unit": "m/s²",
+        "comparison_unit": "m/s² · Fallbeschleunigung am Äquator",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Fallbeschleunigung nennt die NASA für Merkur am Äquator ungefähr, in Metern pro Sekunde zum Quadrat?",
+        "notes": "Einschließlich Rotation; Gasplaneten am 1-bar-Niveau, keine feste Oberfläche."
       }
     ],
     "generated": true,
@@ -1110,6 +1752,28 @@
         "verified": "2026-10-03",
         "estimate_question": "Mit welcher mittleren Geschwindigkeit bewegt sich Venus laut NASA um die Sonne, in Kilometern pro Sekunde?",
         "notes": "Gemittelte heliozentrische Bahngeschwindigkeit, keine momentane Geschwindigkeit oder Rotation."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Planetenmasse",
+        "value": 4.87,
+        "unit": "10²⁴ kg",
+        "comparison_unit": "10²⁴ kg · Planetenmasse",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Masse hat Venus laut NASA ungefähr, in Einheiten von 10 hoch 24 Kilogramm?",
+        "notes": "Eine Einheit entspricht einer Quadrillion Kilogramm; Masse, nicht Gewichtskraft."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Fallbeschleunigung am Äquator",
+        "value": 8.9,
+        "unit": "m/s²",
+        "comparison_unit": "m/s² · Fallbeschleunigung am Äquator",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Fallbeschleunigung nennt die NASA für Venus am Äquator ungefähr, in Metern pro Sekunde zum Quadrat?",
+        "notes": "Einschließlich Rotation; Gasplaneten am 1-bar-Niveau, keine feste Oberfläche."
       }
     ],
     "generated": false,
@@ -1192,6 +1856,28 @@
         "verified": "2026-10-03",
         "estimate_question": "Mit welcher mittleren Geschwindigkeit bewegt sich Mars laut NASA um die Sonne, in Kilometern pro Sekunde?",
         "notes": "Gemittelte heliozentrische Bahngeschwindigkeit, keine momentane Geschwindigkeit oder Rotation."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Planetenmasse",
+        "value": 0.642,
+        "unit": "10²⁴ kg",
+        "comparison_unit": "10²⁴ kg · Planetenmasse",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Masse hat Mars laut NASA ungefähr, in Einheiten von 10 hoch 24 Kilogramm?",
+        "notes": "Eine Einheit entspricht einer Quadrillion Kilogramm; Masse, nicht Gewichtskraft."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Fallbeschleunigung am Äquator",
+        "value": 3.7,
+        "unit": "m/s²",
+        "comparison_unit": "m/s² · Fallbeschleunigung am Äquator",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Fallbeschleunigung nennt die NASA für Mars am Äquator ungefähr, in Metern pro Sekunde zum Quadrat?",
+        "notes": "Einschließlich Rotation; Gasplaneten am 1-bar-Niveau, keine feste Oberfläche."
       }
     ],
     "generated": false,
@@ -1219,6 +1905,18 @@
         "verified": "2026-10-01",
         "estimate_question": "Wie viele Protonen enthält der Atomkern von Kohlenstoff?",
         "notes": ""
+      },
+      {
+        "category": "Wissenschaft",
+        "metric": "Relative Atommasse nach RSC",
+        "value": 12.011,
+        "unit": "relative Atommasse",
+        "comparison_unit": "relative Atommasse · Relative Atommasse nach RSC",
+        "source": "https://periodic-table.rsc.org/element/6/carbon",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Dimensionsloser Tabellenwert; keine Massenzahl eines einzelnen Isotops.",
+        "estimate_question": "Kohlenstoff: Wie hoch ist der Wert für „Relative Atommasse nach RSC“ (relative Atommasse)?"
       }
     ],
     "generated": false,
@@ -1246,6 +1944,18 @@
         "verified": "2026-10-01",
         "estimate_question": "Wie viele Protonen enthält der Atomkern von Sauerstoff?",
         "notes": ""
+      },
+      {
+        "category": "Wissenschaft",
+        "metric": "Relative Atommasse nach RSC",
+        "value": 15.999,
+        "unit": "relative Atommasse",
+        "comparison_unit": "relative Atommasse · Relative Atommasse nach RSC",
+        "source": "https://periodic-table.rsc.org/element/8/oxygen",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Dimensionsloser Tabellenwert; keine Massenzahl eines einzelnen Isotops.",
+        "estimate_question": "Sauerstoff: Wie hoch ist der Wert für „Relative Atommasse nach RSC“ (relative Atommasse)?"
       }
     ],
     "generated": false,
@@ -1273,6 +1983,18 @@
         "verified": "2026-10-01",
         "estimate_question": "Wie viele Protonen enthält der Atomkern von Eisen?",
         "notes": ""
+      },
+      {
+        "category": "Wissenschaft",
+        "metric": "Relative Atommasse nach RSC",
+        "value": 55.845,
+        "unit": "relative Atommasse",
+        "comparison_unit": "relative Atommasse · Relative Atommasse nach RSC",
+        "source": "https://periodic-table.rsc.org/element/26/iron",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Dimensionsloser Tabellenwert; keine Massenzahl eines einzelnen Isotops.",
+        "estimate_question": "Eisen: Wie hoch ist der Wert für „Relative Atommasse nach RSC“ (relative Atommasse)?"
       }
     ],
     "generated": false,
@@ -1300,6 +2022,18 @@
         "verified": "2026-10-01",
         "estimate_question": "Wie viele Karten enthält ein Standard-Kartendeck ohne Joker?",
         "notes": "Bereits bekanntes Motiv als Vergleichspartner für die neuen Decks. Kein neu entdeckter Fakt."
+      },
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Anzahl der Kartenfarben",
+        "value": 4,
+        "unit": "Kartenfarben",
+        "comparison_unit": "Kartenfarben · Anzahl der Kartenfarben",
+        "source": "https://de.bicyclecards.com/game-rules/spades/",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Standarddeck: vier Farben/Suits; SET: rot, grün, violett. Keine Anzahl der Farbpigmente einer Druckdatei.",
+        "estimate_question": "Standard-Kartendeck ohne Joker: Wie hoch ist der Wert für „Anzahl der Kartenfarben“ (Kartenfarben)?"
       }
     ],
     "generated": false,
@@ -1327,6 +2061,18 @@
         "verified": "2026-10-01",
         "estimate_question": "Wie viele Karten enthält das SET-Grundspiel?",
         "notes": ""
+      },
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Anzahl der Kartenfarben",
+        "value": 3,
+        "unit": "Kartenfarben",
+        "comparison_unit": "Kartenfarben · Anzahl der Kartenfarben",
+        "source": "https://www.setgame.com/sites/default/files/teacherscorner/THE%20JOY%20OF%20SET.pdf",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Standarddeck: vier Farben/Suits; SET: rot, grün, violett. Keine Anzahl der Farbpigmente einer Druckdatei.",
+        "estimate_question": "SET (Grundspiel): Wie hoch ist der Wert für „Anzahl der Kartenfarben“ (Kartenfarben)?"
       }
     ],
     "generated": false,
@@ -1381,6 +2127,18 @@
         "verified": "2026-10-01",
         "estimate_question": "Wie viele Sekunden beträgt der Männer-Weltrekord über 400 m laut World Athletics im September 2026?",
         "notes": "Wayde van Niekerk; vorhandener Richtwert als neuer Vergleichspartner."
+      },
+      {
+        "category": "Rekorde & Extreme",
+        "metric": "Mittlere Geschwindigkeit des Rekordlaufs · WA September 2026",
+        "value": 9.296,
+        "unit": "m/s",
+        "comparison_unit": "m/s · Mittlere Geschwindigkeit des Rekordlaufs · WA September 2026",
+        "source": "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Berechnet als Streckenlänge geteilt durch die veröffentlichte Rekordzeit; auf drei Dezimalstellen gerundet. Historischer Quellenstand September 2026.",
+        "estimate_question": "400-m-Weltrekord Männer: Wie hoch ist der Wert für „Mittlere Geschwindigkeit des Rekordlaufs · WA September 2026“ (m/s)?"
       }
     ],
     "generated": false,
@@ -1408,6 +2166,18 @@
         "verified": "2026-10-01",
         "estimate_question": "Wie viele Sekunden sind die 1:40,91 min des Männer-Weltrekords über 800 m im WA-Datensatz September 2026?",
         "notes": "David Rudisha; Minuten in Sekunden umgerechnet."
+      },
+      {
+        "category": "Rekorde & Extreme",
+        "metric": "Mittlere Geschwindigkeit des Rekordlaufs · WA September 2026",
+        "value": 7.928,
+        "unit": "m/s",
+        "comparison_unit": "m/s · Mittlere Geschwindigkeit des Rekordlaufs · WA September 2026",
+        "source": "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Berechnet als Streckenlänge geteilt durch die veröffentlichte Rekordzeit; auf drei Dezimalstellen gerundet. Historischer Quellenstand September 2026.",
+        "estimate_question": "800-m-Weltrekord Männer: Wie hoch ist der Wert für „Mittlere Geschwindigkeit des Rekordlaufs · WA September 2026“ (m/s)?"
       }
     ],
     "generated": false,
@@ -1435,6 +2205,18 @@
         "verified": "2026-10-01",
         "estimate_question": "Wie viele Sekunden sind die 3:26,00 min des Männer-Weltrekords über 1500 m im WA-Datensatz September 2026?",
         "notes": "Hicham El Guerrouj; Minuten in Sekunden umgerechnet. Snapshot, keine dauerhafte Aktualitätszusage."
+      },
+      {
+        "category": "Rekorde & Extreme",
+        "metric": "Mittlere Geschwindigkeit des Rekordlaufs · WA September 2026",
+        "value": 7.282,
+        "unit": "m/s",
+        "comparison_unit": "m/s · Mittlere Geschwindigkeit des Rekordlaufs · WA September 2026",
+        "source": "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/news/world-record-watch-ultimate-championship",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Berechnet als Streckenlänge geteilt durch die veröffentlichte Rekordzeit; auf drei Dezimalstellen gerundet. Historischer Quellenstand September 2026.",
+        "estimate_question": "1500-m-Weltrekord Männer: Wie hoch ist der Wert für „Mittlere Geschwindigkeit des Rekordlaufs · WA September 2026“ (m/s)?"
       }
     ],
     "generated": false,
@@ -1462,6 +2244,18 @@
         "verified": "2026-10-01",
         "estimate_question": "In welchem Jahr startete Sputnik 1?",
         "notes": ""
+      },
+      {
+        "category": "Raumfahrt",
+        "metric": "Masse beim Start laut Quelle, ungefähr",
+        "value": 83,
+        "unit": "kg",
+        "comparison_unit": "kg · Masse beim Start laut Quelle, ungefähr",
+        "source": "https://science.nasa.gov/blogs/earth-matters/2017/04/14/modern-satellites-littler-and-mightier-than-before/",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "NASA gerundete Satellitenwerte; Webb einschließlich Verbrauchsmitteln und Startadapter nach ESA.",
+        "estimate_question": "Sputnik 1: Wie hoch ist der Wert für „Masse beim Start laut Quelle, ungefähr“ (kg)?"
       }
     ],
     "generated": false,
@@ -1516,6 +2310,18 @@
         "verified": "2026-10-01",
         "estimate_question": "In welchem Jahr startete das James-Webb-Weltraumteleskop?",
         "notes": ""
+      },
+      {
+        "category": "Raumfahrt",
+        "metric": "Masse beim Start laut Quelle, ungefähr",
+        "value": 6200,
+        "unit": "kg",
+        "comparison_unit": "kg · Masse beim Start laut Quelle, ungefähr",
+        "source": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_factsheet",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "NASA gerundete Satellitenwerte; Webb einschließlich Verbrauchsmitteln und Startadapter nach ESA.",
+        "estimate_question": "James-Webb-Weltraumteleskop: Wie hoch ist der Wert für „Masse beim Start laut Quelle, ungefähr“ (kg)?"
       }
     ],
     "generated": false,
@@ -1543,6 +2349,18 @@
         "verified": "2026-10-01",
         "estimate_question": "In welchem Jahr wurde der Aachener Dom erstmals UNESCO-Welterbe?",
         "notes": ""
+      },
+      {
+        "category": "Weltkultur",
+        "metric": "UNESCO-Kernfläche ohne Pufferzone",
+        "value": 0.223,
+        "unit": "ha",
+        "comparison_unit": "ha · UNESCO-Kernfläche ohne Pufferzone",
+        "source": "https://whc.unesco.org/en/list/3/",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Property, nicht Buffer zone; Quellenstand 4.10.2026.",
+        "estimate_question": "Aachener Dom: Wie hoch ist der Wert für „UNESCO-Kernfläche ohne Pufferzone“ (ha)?"
       }
     ],
     "generated": true,
@@ -1597,6 +2415,18 @@
         "verified": "2026-10-01",
         "estimate_question": "In welchem Jahr wurde das Opernhaus von Sydney UNESCO-Welterbe?",
         "notes": "Einschreibung 2007, nicht Eröffnung 1973."
+      },
+      {
+        "category": "Weltkultur",
+        "metric": "UNESCO-Kernfläche ohne Pufferzone",
+        "value": 5.8,
+        "unit": "ha",
+        "comparison_unit": "ha · UNESCO-Kernfläche ohne Pufferzone",
+        "source": "https://whc.unesco.org/en/list/166/",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Property, nicht Buffer zone; Quellenstand 4.10.2026.",
+        "estimate_question": "Opernhaus Sydney: Wie hoch ist der Wert für „UNESCO-Kernfläche ohne Pufferzone“ (ha)?"
       }
     ],
     "generated": true,
@@ -2001,6 +2831,28 @@
         "verified": "2026-10-03",
         "estimate_question": "Mit welcher mittleren Geschwindigkeit bewegt sich Erde laut NASA um die Sonne, in Kilometern pro Sekunde?",
         "notes": "Gemittelte heliozentrische Bahngeschwindigkeit, keine momentane Geschwindigkeit oder Rotation."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Planetenmasse",
+        "value": 5.97,
+        "unit": "10²⁴ kg",
+        "comparison_unit": "10²⁴ kg · Planetenmasse",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Masse hat Erde laut NASA ungefähr, in Einheiten von 10 hoch 24 Kilogramm?",
+        "notes": "Eine Einheit entspricht einer Quadrillion Kilogramm; Masse, nicht Gewichtskraft."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Fallbeschleunigung am Äquator",
+        "value": 9.8,
+        "unit": "m/s²",
+        "comparison_unit": "m/s² · Fallbeschleunigung am Äquator",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Fallbeschleunigung nennt die NASA für Erde am Äquator ungefähr, in Metern pro Sekunde zum Quadrat?",
+        "notes": "Einschließlich Rotation; Gasplaneten am 1-bar-Niveau, keine feste Oberfläche."
       }
     ]
   },
@@ -2082,6 +2934,28 @@
         "verified": "2026-10-03",
         "estimate_question": "Mit welcher mittleren Geschwindigkeit bewegt sich Jupiter laut NASA um die Sonne, in Kilometern pro Sekunde?",
         "notes": "Gemittelte heliozentrische Bahngeschwindigkeit, keine momentane Geschwindigkeit oder Rotation."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Planetenmasse",
+        "value": 1898,
+        "unit": "10²⁴ kg",
+        "comparison_unit": "10²⁴ kg · Planetenmasse",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Masse hat Jupiter laut NASA ungefähr, in Einheiten von 10 hoch 24 Kilogramm?",
+        "notes": "Eine Einheit entspricht einer Quadrillion Kilogramm; Masse, nicht Gewichtskraft."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Fallbeschleunigung am Äquator",
+        "value": 23.1,
+        "unit": "m/s²",
+        "comparison_unit": "m/s² · Fallbeschleunigung am Äquator",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Fallbeschleunigung nennt die NASA für Jupiter am Äquator ungefähr, in Metern pro Sekunde zum Quadrat?",
+        "notes": "Einschließlich Rotation; Gasplaneten am 1-bar-Niveau, keine feste Oberfläche."
       }
     ]
   },
@@ -2163,6 +3037,28 @@
         "verified": "2026-10-03",
         "estimate_question": "Mit welcher mittleren Geschwindigkeit bewegt sich Saturn laut NASA um die Sonne, in Kilometern pro Sekunde?",
         "notes": "Gemittelte heliozentrische Bahngeschwindigkeit, keine momentane Geschwindigkeit oder Rotation."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Planetenmasse",
+        "value": 568,
+        "unit": "10²⁴ kg",
+        "comparison_unit": "10²⁴ kg · Planetenmasse",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Masse hat Saturn laut NASA ungefähr, in Einheiten von 10 hoch 24 Kilogramm?",
+        "notes": "Eine Einheit entspricht einer Quadrillion Kilogramm; Masse, nicht Gewichtskraft."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Fallbeschleunigung am Äquator",
+        "value": 9.0,
+        "unit": "m/s²",
+        "comparison_unit": "m/s² · Fallbeschleunigung am Äquator",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Fallbeschleunigung nennt die NASA für Saturn am Äquator ungefähr, in Metern pro Sekunde zum Quadrat?",
+        "notes": "Einschließlich Rotation; Gasplaneten am 1-bar-Niveau, keine feste Oberfläche."
       }
     ]
   },
@@ -2244,6 +3140,28 @@
         "verified": "2026-10-03",
         "estimate_question": "Mit welcher mittleren Geschwindigkeit bewegt sich Uranus laut NASA um die Sonne, in Kilometern pro Sekunde?",
         "notes": "Gemittelte heliozentrische Bahngeschwindigkeit, keine momentane Geschwindigkeit oder Rotation."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Planetenmasse",
+        "value": 86.8,
+        "unit": "10²⁴ kg",
+        "comparison_unit": "10²⁴ kg · Planetenmasse",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Masse hat Uranus laut NASA ungefähr, in Einheiten von 10 hoch 24 Kilogramm?",
+        "notes": "Eine Einheit entspricht einer Quadrillion Kilogramm; Masse, nicht Gewichtskraft."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Fallbeschleunigung am Äquator",
+        "value": 8.7,
+        "unit": "m/s²",
+        "comparison_unit": "m/s² · Fallbeschleunigung am Äquator",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Fallbeschleunigung nennt die NASA für Uranus am Äquator ungefähr, in Metern pro Sekunde zum Quadrat?",
+        "notes": "Einschließlich Rotation; Gasplaneten am 1-bar-Niveau, keine feste Oberfläche."
       }
     ]
   },
@@ -2325,6 +3243,28 @@
         "verified": "2026-10-03",
         "estimate_question": "Mit welcher mittleren Geschwindigkeit bewegt sich Neptun laut NASA um die Sonne, in Kilometern pro Sekunde?",
         "notes": "Gemittelte heliozentrische Bahngeschwindigkeit, keine momentane Geschwindigkeit oder Rotation."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Planetenmasse",
+        "value": 102,
+        "unit": "10²⁴ kg",
+        "comparison_unit": "10²⁴ kg · Planetenmasse",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Masse hat Neptun laut NASA ungefähr, in Einheiten von 10 hoch 24 Kilogramm?",
+        "notes": "Eine Einheit entspricht einer Quadrillion Kilogramm; Masse, nicht Gewichtskraft."
+      },
+      {
+        "category": "Weltraum",
+        "metric": "Fallbeschleunigung am Äquator",
+        "value": 11.0,
+        "unit": "m/s²",
+        "comparison_unit": "m/s² · Fallbeschleunigung am Äquator",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+        "verified": "2026-10-04",
+        "estimate_question": "Welche Fallbeschleunigung nennt die NASA für Neptun am Äquator ungefähr, in Metern pro Sekunde zum Quadrat?",
+        "notes": "Einschließlich Rotation; Gasplaneten am 1-bar-Niveau, keine feste Oberfläche."
       }
     ]
   },
@@ -2351,6 +3291,18 @@
         "verified": "2026-10-01",
         "estimate_question": "Wie viele Spieler eines vollständigen Teams stehen beim Hallenhandball regulär gleichzeitig auf dem Spielfeld?",
         "notes": "Standardformat, einschließlich Torwart falls vorhanden, ohne Ersatzbank oder Strafzeitreduktion. Rugby Union: klassisches Format, keine Siebener-Variante; Hockey: Outdoor, keine Halle oder Hockey5s."
+      },
+      {
+        "category": "Sport",
+        "metric": "Reguläre Spielzeit für Erwachsene ohne Verlängerung",
+        "value": 60,
+        "unit": "Minuten",
+        "comparison_unit": "Minuten · Reguläre Spielzeit für Erwachsene ohne Verlängerung",
+        "source": "https://www.ihf.info/sites/default/files/2025-02/09A%20-%20Rules%20of%20the%20Game_Indoor%20Handball_E.pdf",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Fußball ohne Nachspielzeit; Basketball nach FIBA, nicht NBA; Handball für mindestens 16-Jährige.",
+        "estimate_question": "Hallenhandball: Wie hoch ist der Wert für „Reguläre Spielzeit für Erwachsene ohne Verlängerung“ (Minuten)?"
       }
     ]
   },
@@ -2429,6 +3381,18 @@
         "verified": "2026-10-01",
         "estimate_question": "In welchem Jahr wurde der Kölner Dom erstmals in die UNESCO-Welterbeliste aufgenommen?",
         "notes": ""
+      },
+      {
+        "category": "Weltkultur",
+        "metric": "UNESCO-Kernfläche ohne Pufferzone",
+        "value": 0.874,
+        "unit": "ha",
+        "comparison_unit": "ha · UNESCO-Kernfläche ohne Pufferzone",
+        "source": "https://whc.unesco.org/en/list/292/",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "Property, nicht Buffer zone; Quellenstand 4.10.2026.",
+        "estimate_question": "Kölner Dom: Wie hoch ist der Wert für „UNESCO-Kernfläche ohne Pufferzone“ (ha)?"
       }
     ]
   },
@@ -2897,6 +3861,18 @@
         "verified": "2026-10-03",
         "estimate_question": "In welchem Jahr startete die Raumfahrtmission Explorer 1 von der Erde?",
         "notes": "Startjahr, nicht Jahr des Vorbeiflugs oder der Ankunft am Ziel. Missionsgrafik ist ein allgemeines Symbol, kein maßstabsgetreues Sondenmodell."
+      },
+      {
+        "category": "Raumfahrt",
+        "metric": "Masse beim Start laut Quelle, ungefähr",
+        "value": 14,
+        "unit": "kg",
+        "comparison_unit": "kg · Masse beim Start laut Quelle, ungefähr",
+        "source": "https://science.nasa.gov/blogs/earth-matters/2017/04/14/modern-satellites-littler-and-mightier-than-before/",
+        "verified": "2026-10-04",
+        "expansion": 6,
+        "notes": "NASA gerundete Satellitenwerte; Webb einschließlich Verbrauchsmitteln und Startadapter nach ESA.",
+        "estimate_question": "Explorer 1: Wie hoch ist der Wert für „Masse beim Start laut Quelle, ungefähr“ (kg)?"
       }
     ]
   },

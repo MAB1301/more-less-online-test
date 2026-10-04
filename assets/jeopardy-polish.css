@@ -1,0 +1,26 @@
+/* Jeopardy uses the same Game / Night palette and comfortable controls. */
+#jeopGame{background:radial-gradient(ellipse at 15% 0%,#7057ff25,transparent 55%),#090d17;padding-top:76px}
+#jeopGame .homeMain{width:100%;min-width:0}
+#jeopGame .homeLogo{font-size:clamp(30px,6vw,56px);letter-spacing:-.035em;text-align:left}
+#jeopGame .homeBadge{color:#bbadff;border-color:#7057ff66;text-align:left}
+#jeopGame .jeopTeams{gap:14px;margin:22px 0}
+#jeopGame .jeopTeam{background:linear-gradient(140deg,#1b2540,#101725);border:1px solid #586eab;border-radius:20px;padding:18px;text-align:left;min-width:0}
+#jeopGame .jeopTeam:nth-child(2){background:linear-gradient(140deg,#292044,#101725);border-color:#8d73c9}
+#jeopGame .jeopScore{font-size:clamp(28px,5vw,42px);color:#fff;line-height:1.2}
+#jeopBoard{gap:10px;background:#101725;border:1px solid #29344d;padding:12px;border-radius:24px;min-width:0}
+#jeopBoard .jeopHead{background:#141c2c!important;border:0!important;border-radius:12px;padding:10px 5px;min-height:90px;font-size:clamp(12px,1.5vw,17px);overflow-wrap:anywhere;box-shadow:none!important}
+#jeopBoard .jeopHead svg{height:32px;width:32px;opacity:.75}
+#jeopBoard .jeopCell{background:linear-gradient(145deg,#242341,#151d30)!important;border:1px solid #6657a655!important;color:#ded6ff!important;border-radius:12px;min-height:64px;font-size:clamp(20px,3vw,34px);text-shadow:none!important;box-shadow:none!important}
+#jeopBoard .jeopCell:hover,#jeopBoard .jeopCell.selected{border-color:#b5a4ff!important;background:#382a64!important;transform:translateY(-2px)}
+#jeopBoard .jeopCell.used{color:#a5afc3!important;background:#111827!important;opacity:.5}
+#jeopQuestion .jeopQBox{background:linear-gradient(145deg,#1c2540,#101725)!important;border:1px solid #7057ff80!important;border-radius:24px!important;box-shadow:0 28px 80px #0009!important;max-height:calc(100dvh - 40px);overflow-y:auto!important;padding:24px!important}
+#jeopQuestion .jeopQBox:before{display:none}
+#jeopQuestion #jeopPrompt{font-size:clamp(24px,4vw,40px);line-height:1.25;text-shadow:none;margin:20px 0}
+#jeopQuestion #jeopMeta{color:#c4b9ff;font-size:14px;letter-spacing:.03em}
+#jeopQuestion button,#jeopQuestion input{min-height:48px}
+#jeopQuestion .jeopBuzz{border-radius:14px;box-shadow:none;background:#213350}
+#jeopQuestion #jeopBuzzB{background:#382a58}
+#jeopQuestion .jeopJudge{gap:10px;flex-wrap:wrap}
+.jeopPages{display:none;gap:10px;margin:12px 0}.jeopPages button{flex:1;min-height:44px}.jeopPages button[aria-pressed=true]{background:#7057ff;border-color:#b4a4ff}
+@media(max-width:650px){#jeopGame{padding:74px 12px 24px}#jeopBoard{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;padding:9px}#jeopBoard .jeopHead{min-height:72px;font-size:13px}#jeopBoard .jeopCell{min-height:58px}.jeopPages{display:flex}#jeopBoard[data-page='0']>[data-col='3'],#jeopBoard[data-page='0']>[data-col='4'],#jeopBoard[data-page='0']>[data-col='5'],#jeopBoard[data-page='1']>[data-col='0'],#jeopBoard[data-page='1']>[data-col='1'],#jeopBoard[data-page='1']>[data-col='2']{display:none}#jeopQuestion .jeopQBox{padding:18px!important}#jeopGame .jeopTeam{padding:14px}}
+@media(prefers-reduced-motion:reduce){#jeopBoard .jeopCell{transform:none!important}}
