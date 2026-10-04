@@ -9,7 +9,7 @@ function playingSolo(){return !!SOLO.on||['estimateGame','jeopGame','factGame'].
 function activeMatch(){return !!S.room||DAILY.busy||!!(DAILY.data?.attempt&&!DAILY.data.attempt.complete&&!$('dailyOverlay').classList.contains('hide'))}
 function backupGuest(){try{const saved=localStorage.getItem('ml_account_auth_v1');if(saved&&JSON.parse(saved).guest)localStorage.setItem('ml_guest_account_backup_v1',saved);if(!localStorage.getItem('ml_guest_appearance_backup_v1'))localStorage.setItem('ml_guest_appearance_backup_v1',JSON.stringify({profile:localStorage.getItem('ml_guest_profile_v1'),preferences:localStorage.getItem('ml_game_preferences_v1')}))}catch{}}
 async function renderAccount(){
- const auth=await client.current();const fixed=!!auth&&!auth.guest;
+ const auth=await client.current();const fixed=!!auth&&!auth.guest;window.gameEconomy?.syncAccount(auth);
  if(typeof window.siteIdentityUpdate==='function')window.siteIdentityUpdate(fixed);void window.syncPlayerHistory?.();
  $('accountModeLine').textContent=fixed?'Angemeldet · '+(profile?.handle?'@'+profile.handle:'Account'):'Du spielst als Gast.';
  $('accountProfileNote').textContent=fixed?'Profil und Einstellungen im Account':'Gastprofil auf diesem Gerät';
@@ -17,7 +17,7 @@ async function renderAccount(){
  $('accountMemberControls').classList.toggle('hide',!fixed);
  $('accountHandleField').classList.toggle('hide',!fixed);
  if(profile)$('accountHandle').value=profile.handle;
- renderGuestProfile();
+ renderGuestProfile();void window.gameEconomy?.profile().catch(()=>{});
 }
 async function loadAccount(){
  loading=true;

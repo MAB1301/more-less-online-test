@@ -56,12 +56,18 @@ Phone layouts use shorter imagery and smaller spacing while retaining at least 4
 Apply `supabase/game-clarity.sql` after the online mechanics scripts. `scripts/game-clarity-server-check.sql` verifies waiting privacy, preview locks and full post-preview answer time with rolled-back fixtures. `scripts/game-clarity-client-check.mjs` is included in the regression suite and checks rules, focus return, timer release, locked answers and waiting-state cleanup.
 
 
-### Settings and achievements (5 October 2026)
+### Settings, rewards and profile shop (5 October 2026)
 
-The account dialog fills the available viewport and starts at the top on every opening. Login/register and logout appear directly after the profile. The More/Less question and answer cards precede category progress, save status, waiting and jokers. Short-view layouts reduce image height while names remain readable. Online and offline HTML stay synchronized.
+Account settings fill the viewport; sign-in/out follow the profile. More/Less question and answer cards precede progress, waiting and jokers. Ranking badges display settled weekly podiums. Online/offline HTML stays synchronized.
 
-Ranking badges show settled weekly podiums only. One-time personal achievements require 20 points in a single Solo Classic round or 25 correct consecutive Solo Survival answers. Daily milestones require 3, 7 or 30 distinct consecutive Berlin calendar days with an on-time completed challenge. Multiple games on one day count once, and archive completions do not count. Solo achievements are personal records, not verified ranking awards.
+Personal Solo Classic milestones: 5, 10 and 20 points; Survival: 25 consecutive correct answers. Verified Daily milestones: 3/5/7/10/30 consecutive Berlin days and 5/10/20 points in one on-time Daily. Distinct days count once across games; archive completions do not count. Daily achievements grant once-only coins and four titles; unverified Solo records never mint coins.
 
-Apply `docs/database/player-achievements.sql` to project `rnwsbgzdrttqtivrwnxo` after `player-hub.sql` before publishing. It adds an owner-bound read-only Daily streak RPC, with private storage unchanged and no new scoring rules. If the RPC is unavailable, the UI explicitly says Daily progress is unavailable. Existing day awards are omitted from the badge view; no historical results are deleted.
+The existing server wallet now supports music and titles alongside frames and colors. Three original synthesized loops (House, Breakbeat, Glitch) cost 60/100/140 coins; Game Night stays free. Purchases and equipment are owned, charged and persisted on the server. Eight-second previews respect mute; background playback still requires opt-in and user interaction. See `assets/audio/README.md` and `scripts/build-shop-music.py` for provenance/reproduction.
 
-Validation: `node scripts/regression-check.mjs`, `node scripts/achievements-check.mjs`, and the read-only fixture query in `scripts/achievement-streak-check.sql`. Browser visual verification must be completed before publishing.
+Twelve original SVG avatar frames include Orbit, Neon, Emerald, Gold, Davidstern, Kippa, Kreuz, Dornenkrone, UFO, Toast, Kartoffel and Rakete. Four humorous purchasable titles complement achievement titles. Equipped art/name colors and titles appear in the profile and account dock. Religious motifs are voluntary cosmetic choices.
+
+Online results are captured at server completion for More/Less, Schätzduell and Fakt oder Fake, with at least two participants. The profile shows games, outright wins, shared-first draws, losses and win rate (outright wins / all finished games). Blitz bonuses count. A unique final-question ID prevents duplicate records; history survives lobby reset/deletion. Collection begins with this migration; historical games and locally judged team Jeopardy are excluded.
+
+Applied to the connected project in order: `docs/database/player-achievements.sql`, `docs/database/music-achievement-shop.sql`, `docs/database/profile-frames-online-stats.sql`. New private tables use RLS with no client table privileges; public wrappers are invoker functions with owner-bound private helpers. The frontend remains in draft PR #109, pending browser visual QA before publishing.
+
+Validation: `node scripts/regression-check.mjs`, rollback-only `scripts/music-shop-server-check.sql` and `scripts/profile-stats-server-check.sql`, and `scripts/achievement-streak-check.sql`. Audio files are decoded and checked for duration, finite samples and clipping.
