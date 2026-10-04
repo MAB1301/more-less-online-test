@@ -35,7 +35,7 @@ function dailyDayNotice(){
 async function openTodaysDaily(){if(DAILY.busy)return;DAILY.today=berlinDay();await chooseDailyDay(DAILY.today);dailyDayNotice()}
 function modalVisible(node){return !!node&&node.getClientRects().length>0&&!node.hidden&&!node.classList.contains('hide')}
 function priorityModals(){
- return [...document.querySelectorAll('dialog[open],.overlay:not(.hide),#jeopQuestion.on,#jeopSelect:not(.hide),#exitAsk.on,#finishOverlay.on,#catOverlay.on,#soloCardDraw.on,#localEndScreen:not(.hide),#modeInfo.on')].filter(modalVisible);
+ return [...document.querySelectorAll('dialog[open],.overlay:not(.hide),#jeopQuestion.on,#exitAsk.on,#finishOverlay.on,#catOverlay.on,#soloCardDraw.on,#localEndScreen:not(.hide),#modeInfo.on')].filter(modalVisible);
 }
 function priorityFocusables(node){return [...node.querySelectorAll('button:not(:disabled),a[href],input:not(:disabled),select:not(:disabled),textarea:not(:disabled),summary,[tabindex="0"]')].filter(n=>modalVisible(n)&&!n.closest('[inert]'))}
 function priorityCloseTop(){
