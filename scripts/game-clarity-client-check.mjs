@@ -12,8 +12,8 @@ assert.equal(el('gameRulePreview').open,true);assert.equal(el('gameRuleTitle').t
 now=5999;tick();assert.equal(el('a').disabled,true,'early clicks remain locked');now=6000;tick();assert.equal(el('gameRulePreview').open,false);assert.equal(el('a').disabled,false,'answers unlock exactly at start');assert.match(el('reveal').textContent,/kleineren/);
 vm.runInContext("showOnlineRulePreview('moreless',q)",ctx);assert.equal(el('gameRulePreview').open,false,'polling does not repeat preview');
 S.answeredQ=1;vm.runInContext('refreshOnlineReadiness(q)',ctx);assert.equal(el('a').disabled,true,'saved answer cannot unlock after preview');
-S.room=null;ctx.run=()=>{starts++;assert.equal(vm.runInContext("needsRulePreview('estimate','risk',run)",ctx),false)};
-assert.equal(vm.runInContext("needsRulePreview('estimate','risk',run)",ctx),true);assert.equal(starts,0);assert.match(el('gameRuleList').children[0].textContent,/500/);vm.runInContext('rulePreviewStart()',ctx);assert.equal(starts,1);assert(focused>0,'focus returns after close');
+S.room=null;ctx.run=()=>{starts++};
+assert.equal(vm.runInContext("needsRulePreview('estimate','risk',run)",ctx),false);assert.equal(starts,0);assert.equal(el('gameRulePreview').open,false,'local start does not open another rules dialog');
 const waiting={active:true,question_id:'q2',players:[{user_id:'a',name:'Anna',answered:true,connected:true},{user_id:'me',name:'Du',answered:false,connected:true},{user_id:'c',name:'<img src=x>',answered:false,connected:false}]};ctx.waiting=waiting;
 vm.runInContext("renderWaiting('waiting',waiting,'q2',true)",ctx);assert.equal(el('waiting[data-wait-count]').textContent,'1 von 3 Antworten gespeichert');assert.equal(el('waiting[data-wait-names]').textContent,'Noch offen: Du, <img src=x> (Verbindung unterbrochen)');assert.equal(el('waitingprogress').value,1);
 vm.runInContext("renderWaiting('waiting',waiting,'old',true)",ctx);assert(el('waiting').classList.contains('hide'),'stale question snapshot stays hidden');vm.runInContext("renderWaiting('waiting',waiting,'q2',false)",ctx);assert(el('waiting').classList.contains('hide'),'no wait panel after reveal');
@@ -21,7 +21,7 @@ console.log('OK: rules before solo start, timed reverse preview, exact unlock, s
 
 // Preview settings must affect both the live timer control and match metadata.
 S.room=null;ctx.blitzSeconds=()=>Number(el('blitzSeconds').value)||8;el('blitzSeconds').value=8;
-vm.runInContext("needsRulePreview('moreless','blitz',()=>{})",ctx);
+vm.runInContext("configureRuleSettings(gameRules('moreless','blitz'),true)",ctx);
 el('gameRuleRounds').value=2;el('gameRuleSeconds').value=12;vm.runInContext('updateRuleSettings()',ctx);
 assert.equal(vm.runInContext('selectedSoloRounds()',ctx),2);assert.equal(el('blitzSeconds').value,12);
 assert(el('gameRuleMeta').children.some(x=>x.textContent==='2 Runden'));assert(el('gameRuleMeta').children.some(x=>/12 Sekunden/.test(x.textContent)));
