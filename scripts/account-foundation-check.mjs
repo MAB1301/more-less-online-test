@@ -25,3 +25,17 @@ assert.equal(await client.current(),null);assert.equal(entries.get('moreless_onl
 const clean=createAccountSession({url:'https://test.invalid',key:'public',storage,fetchImpl:async()=>response(200,{user:{id:'new'}})});
 assert.deepEqual(await clean.register('a@b.de','password'),{session:null,confirmationRequired:true});
 console.log('OK: isolated account persistence, refresh coordination, identity checks, guest upgrade, confirmation and empty mutation responses');
+
+// Cross-tab changes and delayed refreshes must never overwrite another account.
+const raceEntries=new Map(),raceStorage={getItem:k=>raceEntries.get(k)||null,setItem:(k,v)=>raceEntries.set(k,v),removeItem:k=>raceEntries.delete(k)};
+let releaseRefresh,raceNow=0;
+const race=createAccountSession({url:'https://test.invalid',key:'public',storage:raceStorage,now:()=>raceNow,fetchImpl:async(url)=>url.includes('refresh_token')?new Promise(resolve=>{releaseRefresh=resolve}):response(200,identity('accountA',false))});
+await race.login('a@example.org','password');raceNow=90000;const oldRefresh=race.refresh();
+raceEntries.set('ml_account_auth_v1',JSON.stringify({uid:'accountB',token:'B',refresh:'B-refresh',guest:false,expiresAt:999999}));
+releaseRefresh(response(200,identity('accountA',false)));await assert.rejects(oldRefresh,/inzwischen geändert/);
+assert.equal((await race.current()).uid,'accountB');raceEntries.delete('ml_account_auth_v1');assert.equal(await race.current(),null,'external logout clears cached identity');
+let releaseRequest;raceEntries.set('ml_account_auth_v1',JSON.stringify({uid:'accountA',token:'A',refresh:'A-refresh',guest:false,expiresAt:999999}));
+const delayed=createAccountSession({url:'https://test.invalid',key:'public',storage:raceStorage,now:()=>0,fetchImpl:()=>new Promise(resolve=>{releaseRequest=resolve})});
+const oldProfile=delayed.authorized('/rest/v1/profile',undefined,'GET');await Promise.resolve();
+raceEntries.set('ml_account_auth_v1',JSON.stringify({uid:'accountB',token:'B',refresh:'B-refresh',guest:false,expiresAt:999999}));releaseRequest(response(200,{private:'A'}));await assert.rejects(oldProfile,/Account wurde inzwischen gewechselt/);
+console.log('OK: delayed refresh cannot replace new identity, external logout respected, stale private response rejected');

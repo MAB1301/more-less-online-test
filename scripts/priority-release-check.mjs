@@ -1,0 +1,24 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+const script=fs.readFileSync('assets/priority-release.js','utf8');
+const nodes=new Map(),storage=new Map();
+function el(id){if(!nodes.has(id))nodes.set(id,{textContent:id==='chosenMode'?'BLITZ':'',hidden:false,disabled:false,classList:{contains:()=>false,toggle(){}}});return nodes.get(id)}
+const c={S:{room:null,uid:'owner',playerNames:{},roomConfig:{}},EST:{roundLength:15},JEOP:{mode:'standard'},FACT_PLAY_MODE:'confidence',FACT_DIFFICULTY:'hard',FACT_LEVEL_NAMES:{hard:'Schwer'},CATEGORY_OPTIONS:{mode:'chosen',category:'Länder'},selectedSoloRounds:()=>3,onlineTotalQuestions:()=>20,blitzSeconds:()=>12,el,Intl,Date,Math,JSON,String,document:{getElementById:el},sessionStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v),removeItem:k=>storage.delete(k)},DAILY:{data:{day:'2026-10-03'},today:'2026-10-03',busy:false}};
+vm.createContext(c);vm.runInContext(script.split('(function initPriorityRelease()')[0],c);
+assert.equal(c.berlinDay(new Date('2026-10-03T21:59:59Z')),'2026-10-03');
+assert.equal(c.berlinDay(new Date('2026-10-03T22:00:00Z')),'2026-10-04');
+assert.equal(c.berlinDay(new Date('2026-10-25T00:30:00Z')),'2026-10-25');
+assert.equal(c.berlinDay(new Date('2026-10-25T01:30:00Z')),'2026-10-25','repeated DST hour stays same Daily');
+assert.match(c.prioritySelection('moreless'),/15 Fragen/);assert.match(c.prioritySelection('moreless'),/12 Sekunden/);assert.match(c.prioritySelection('moreless'),/Länder/);
+assert.match(c.prioritySelection('facts'),/Wie sicher\?/);assert.match(c.prioritySelection('facts'),/Schwer/);
+assert.match(c.prioritySelection('quiz'),/2 Teams/);
+c.priorityPendingSave('facts','question',{choice:false});assert.equal(c.priorityPendingRead('facts','question').choice,false);
+assert.equal(c.priorityPendingRead('facts','other'),null);c.S.uid='other';assert.equal(c.priorityPendingRead('facts','question'),null,'another account cannot replay');
+c.S.uid='owner';c.S.room='another';assert.equal(c.priorityPendingRead('facts','question'),null,'another room cannot replay');c.S.room=null;
+c.priorityPendingClear('facts','other');assert(c.priorityPendingRead('facts','question'));c.priorityPendingClear('facts','question');assert.equal(c.priorityPendingRead('facts','question'),null);
+assert.match(c.friendlyGameError('Failed to fetch'),/erneut verbinden/);assert.match(c.friendlyGameError('host only'),/nur der Host/);
+const html=fs.readFileSync('index.html','utf8');vm.runInContext(html.match(/^function escapeHTML.*$/m)[0],c);
+assert.equal(c.escapeHTML('<img src=x onerror="bad">'),'&lt;img src=x onerror=&quot;bad&quot;&gt;');
+assert.match(html,/escapeHTML\(pname\(p\)\)/);assert.match(html,/escapeHTML\(x.name\|\|S.playerNames/);
+console.log('OK: Berlin midnight/DST, truthful start summaries, account/room-scoped immutable retries, friendly errors and safe online text');

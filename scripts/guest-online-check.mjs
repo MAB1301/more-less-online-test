@@ -61,6 +61,7 @@ function device(uid,host){
     setGlobalBack:()=>{},startTransition:()=>{},endTransition:()=>{},setObjectVisual:()=>{},
     moreLessPrompt:(left,right)=>left+' oder '+right,scheduleAutoNext:()=>{},showFinish:()=>{},setTimeout:()=>{},clearInterval:()=>{},
     msg:message=>{throw Error(message)}});
+  vm.runInContext(html.match(/^function escapeHTML.*$/m)[0],context);
   vm.runInContext(['onlineTotalQuestions','setOnlineAnswerState','showQ','showReveal','sync','answer'].map(source).join('\n'),context);
   return {context,S,el,run:code=>vm.runInContext(code,context)};
 }

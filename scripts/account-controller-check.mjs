@@ -8,7 +8,7 @@ vm.runInNewContext(source,ctx);await ctx.accountReady;
 node('accountAuthMode').value='login';node('accountEmail').value='member@example.invalid';node('accountPassword').value='secret';await ctx.submitAccountAuth({preventDefault(){}});assert.equal(loginCalls,1);assert.equal(ctx.DAILY.auth,null);assert.equal(store.get('ml_daily_auth_v1'),'original guest daily');assert.equal(node('accountPassword').value,'');assert.match(node('accountModeLine').textContent,/@member/);
 ctx.S.room='active';await ctx.logoutAccount();assert(auth);assert.match(node('accountMenuStatus').textContent,/verlasse die Lobby/);ctx.S.room=null;
 await ctx.logoutAccount();assert.equal(auth,null);assert.equal(store.get('ml_daily_auth_v1'),'original guest daily');assert.equal(JSON.parse(store.get('ml_guest_profile_v1')).name,'Gast');
-ctx.DAILY.data={attempt:{complete:false}};await ctx.submitAccountAuth({preventDefault(){}});assert.equal(loginCalls,1);
+node('dailyOverlay').classList.contains=()=>false;ctx.DAILY.data={attempt:{complete:false}};await ctx.submitAccountAuth({preventDefault(){}});assert.equal(loginCalls,1);node('dailyOverlay').classList.contains=()=>true;
 console.log('OK: real controller login/logout flow, password clearing, retained guest Dailys and blocked mid-match account switch');
 
 // Exercise the real invitation controller through successful send and acceptance.

@@ -22,7 +22,7 @@ do $$declare a jsonb;b jsonb;blocked boolean;begin
  blocked:=false;begin perform public.ml_player_hub('record','{"game":"facts"}');exception when others then blocked:=true;end;assert blocked,'missing fields rejected';
  blocked:=false;begin perform * from ml_private.player_runs;exception when insufficient_privilege then blocked:=true;end;assert blocked,'raw results inaccessible';
  blocked:=false;begin perform * from ml_private.fact_matches;exception when insufficient_privilege then blocked:=true;end;assert blocked,'secret answers inaccessible';
- a:=public.ml_fact_game((select id from medium_room),'start');assert a->>'phase'='open','host starts';assert not(a->'question' ? 'a') and a->'result'='null','answer hidden';
+ a:=public.ml_fact_game((select id from medium_room),'start');assert a->>'phase'='open','host starts';assert (a->'waitingStatus'->>'active')::boolean,'waiting snapshot active';assert jsonb_array_length(a->'waitingStatus'->'players')=2,'roster only';assert not(a->'waitingStatus'->'players'->0 ? 'choice') and not(a->'waitingStatus'->'players'->0 ? 'answer'),'waiting never exposes choices';assert not(a->'question' ? 'a') and a->'result'='null','answer hidden';
  a:=public.ml_fact_game((select id from medium_room),'answer',(a->>'question_id')::uuid,false);assert (a->'mine'->>'choice')::boolean=false,'false answer stored';
  b:=public.ml_fact_game((select id from medium_room),'answer',(a->>'question_id')::uuid,true);assert (b->'mine'->>'choice')::boolean=false,'changed retry cannot overwrite';
  blocked:=false;begin perform public.ml_fact_game((select id from medium_room),'next',(a->>'question_id')::uuid);exception when others then blocked:=true;end;assert blocked,'reveal first';

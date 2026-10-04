@@ -1,4 +1,4 @@
-import {createAccountSession} from './session.mjs?v=friend-invites-14';
+import {createAccountSession} from './session.mjs?v=high-release-20261004';
 const client=createAccountSession({url:SUPABASE_URL,key:KEY,storage:localStorage});
 window.gameAccount=client;
 let profile=null,accountBusy=false,loading=false,settingsTimer=null;
@@ -6,7 +6,7 @@ const $=id=>document.getElementById(id),message=text=>{$('accountMenuStatus').te
 const errorText=error=>/email_address_not_authorized|email.*not.*authorized/i.test(error.message)?'Der E-Mail-Versand ist im Projekt noch nicht für diese Adresse eingerichtet.':error.status===409?'Dieser Benutzername oder diese Freundschaft existiert bereits.':error.message;
 const redirect=()=>location.origin+location.pathname;
 function playingSolo(){return !!SOLO.on||['estimateGame','jeopGame','factGame'].some(id=>$(id)&&!$(id).classList.contains('hide'))}
-function activeMatch(){return !!S.room||DAILY.busy||!!(DAILY.data?.attempt&&!DAILY.data.attempt.complete)}
+function activeMatch(){return !!S.room||DAILY.busy||!!(DAILY.data?.attempt&&!DAILY.data.attempt.complete&&!$('dailyOverlay').classList.contains('hide'))}
 function backupGuest(){try{const saved=localStorage.getItem('ml_account_auth_v1');if(saved&&JSON.parse(saved).guest)localStorage.setItem('ml_guest_account_backup_v1',saved);if(!localStorage.getItem('ml_guest_appearance_backup_v1'))localStorage.setItem('ml_guest_appearance_backup_v1',JSON.stringify({profile:localStorage.getItem('ml_guest_profile_v1'),preferences:localStorage.getItem('ml_game_preferences_v1')}))}catch{}}
 async function renderAccount(){
  const auth=await client.current();const fixed=!!auth&&!auth.guest;
@@ -35,7 +35,7 @@ async function loadAccount(){
 window.accountPanelOpened=()=>{window.accountReady.then(async()=>{await renderAccount();await loadAccountFriends();await loadAccountInvitations()}).catch(error=>message(errorText(error)))};
 window.showAccountAuth=function showAccountAuth(mode){$('accountAuthForm').classList.remove('hide');$('accountAuthMode').value=mode;$('accountAuthTitle').textContent=mode==='register'?'Account erstellen':'Anmelden';$('accountAuthSubmit').textContent=mode==='register'?'Account erstellen':'Anmelden';$('accountPassword').autocomplete=mode==='register'?'new-password':'current-password';$('accountRegistrationNote').classList.toggle('hide',mode!=='register');$('accountEmail').focus()};
 window.submitAccountAuth=async function submitAccountAuth(event){
- event.preventDefault();if(accountBusy)return;if(activeMatch()){message('Beende zuerst deine laufende Daily-Runde oder verlasse die Lobby, bevor du den Account wechselst.');return}
+ event.preventDefault();if(accountBusy)return;if(activeMatch()||playingSolo()){message('Beende zuerst deine laufende Daily-Runde oder verlasse die Lobby, bevor du den Account wechselst.');return}
  const email=$('accountEmail').value.trim(),password=$('accountPassword').value,mode=$('accountAuthMode').value;if(mode==='register'&&password.length<8){message('Bitte ein Passwort mit mindestens 8 Zeichen wählen.');return}
  accountBusy=true;$('accountAuthSubmit').disabled=true;message('Anmeldung wird bearbeitet …');
  try{
@@ -48,7 +48,7 @@ window.submitAccountAuth=async function submitAccountAuth(event){
  }catch(error){message(errorText(error))}finally{accountBusy=false;$('accountAuthSubmit').disabled=false;$('accountPassword').value=''}
 };
 window.logoutAccount=async function logoutAccount(){
- if(accountBusy)return;if(activeMatch()){message('Beende zuerst deine Daily-Runde oder verlasse die Lobby, bevor du dich abmeldest.');return}
+ if(accountBusy)return;if(activeMatch()||playingSolo()){message('Beende zuerst deine Daily-Runde oder verlasse die Lobby, bevor du dich abmeldest.');return}
  accountBusy=true;clearTimeout(settingsTimer);
  try{await client.logout()}catch{message('Auf diesem Gerät abgemeldet. Die Server-Abmeldung konnte nicht bestätigt werden.')}
  try{const guest=localStorage.getItem('ml_guest_account_backup_v1');if(guest)localStorage.setItem('ml_account_auth_v1',guest);const backup=JSON.parse(localStorage.getItem('ml_guest_appearance_backup_v1')||'null');if(backup){for(const [key,value] of [['ml_guest_profile_v1',backup.profile],['ml_game_preferences_v1',backup.preferences]]){if(value)localStorage.setItem(key,value);else localStorage.removeItem(key)}localStorage.removeItem('ml_guest_appearance_backup_v1');window.applyGamePreferences(JSON.parse(backup.preferences||'{}'))}profile=null;DAILY.auth=null;DAILY.data=null;S.token=null;S.uid=null;await renderAccount();await loadAccountInvitations();message('Abgemeldet. Du spielst wieder als Gast.')}catch(error){message(errorText(error))}finally{accountBusy=false}
@@ -60,9 +60,8 @@ window.saveAccountProfile=async function saveAccountProfile(){
  await client.updateProfile(handle,getGuestProfile().name);await client.savePreferences(window.getGamePreferences(),getGuestProfile().photo);profile=await client.readProfile();await renderAccount();message('Profil im Account gespeichert.');}finally{accountBusy=false}
 };
 window.loadAccountFriends=async function loadAccountFriends(){
- const auth=await client.current();if(!auth||auth.guest)return;
- const list=$('accountFriendsList');list.replaceChildren();
- const friends=await client.friends(),ids=[...new Set(friends.map(f=>f.sender_id===auth.uid?f.recipient_id:f.sender_id))],profiles=await client.friendProfiles(ids);
+ const auth=await client.current();const list=$('accountFriendsList');list.replaceChildren();if(!auth||auth.guest)return;
+ const friends=await client.friends(),ids=[...new Set(friends.map(f=>f.sender_id===auth.uid?f.recipient_id:f.sender_id))],profiles=await client.friendProfiles(ids);if((await client.current())?.uid!==auth.uid)return;
  if(!friends.length){list.textContent='Noch keine Freunde. Füge jemanden über den Benutzernamen hinzu.';return}
  for(const f of friends){const other=f.sender_id===auth.uid?f.recipient_id:f.sender_id,p=profiles.find(p=>p.user_id===other),row=document.createElement('div'),label=document.createElement('span');row.className='accountFriendRow';label.textContent=(p?.display_name||'Spieler')+' · @'+(p?.handle||'unbekannt')+(f.status==='pending'?(f.recipient_id===auth.uid?' · Anfrage erhalten':' · Anfrage gesendet'):'');row.append(label);
   function action(text,fn){const button=document.createElement('button');button.type='button';button.textContent=text;button.onclick=async()=>{button.disabled=true;try{await fn();await loadAccountFriends()}catch(error){message(errorText(error));button.disabled=false}};row.append(button)}
@@ -105,7 +104,7 @@ window.sendFriendInvite=async function sendFriendInvite(event){
 window.loadAccountInvitations=async function loadAccountInvitations(){
  if(inviteListFlight)return;inviteListFlight=true;
  try{const auth=await client.current(),list=$('accountInvitationsList'),badge=$('accountInviteBadge');if(!auth||auth.guest){list.replaceChildren();badge.classList.add('hide');if(typeof updateInviteCenterBadge==='function')updateInviteCenterBadge(0);return}
-  const invitations=await client.invitations();const ids=[...new Set(invitations.flatMap(i=>[i.sender_id,i.recipient_id]))],names=await client.friendProfiles(ids);
+  const invitations=await client.invitations();const ids=[...new Set(invitations.flatMap(i=>[i.sender_id,i.recipient_id]))],names=await client.friendProfiles(ids);if((await client.current())?.uid!==auth.uid)return;
   const count=invitations.filter(i=>i.recipient_id===auth.uid).length;badge.textContent=String(count);badge.classList.toggle('hide',!count);if(typeof updateInviteCenterBadge==='function')updateInviteCenterBadge(count);$('accountButton').setAttribute('aria-label',count?'Account · '+count+' offene Einladungen':'Account öffnen');list.replaceChildren();
   if(!invitations.length){list.textContent='Keine offenen Einladungen.';return}
   for(const i of invitations){const incoming=i.recipient_id===auth.uid,other=incoming?i.sender_id:i.recipient_id,name=names.find(p=>p.user_id===other)?.display_name||'Spieler';const row=document.createElement('div'),label=document.createElement('span');row.className='accountFriendRow';label.textContent=(incoming?'Von ':'An ')+name+' · '+(GAME_NAMES[i.game]||i.game)+' · '+(INVITE_MODES[i.game]?.[i.game_mode]||i.game_mode);row.append(label);
