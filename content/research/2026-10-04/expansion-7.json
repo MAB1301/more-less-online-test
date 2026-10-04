@@ -1,0 +1,774 @@
+{
+  "category_aliases": {
+    "Transfers 2025": "Transfers",
+    "Transfers 2026": "Transfers",
+    "FC 27-Werte": "FIFA-Ratings"
+  },
+  "jeopardy": [
+    {
+      "cat": "Transfers",
+      "q": "Von welchem Verein wechselte Zinédine Zidane 1996 zu Juventus Turin?",
+      "a": "Girondins Bordeaux|Bordeaux",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/zinedine-zidane",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "In welchem Jahr wechselte Zinédine Zidane von Girondins Bordeaux zu Juventus Turin?",
+      "a": "1996",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/zinedine-zidane",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "Von welchem Verein wechselte Zinédine Zidane 2001 zu Real Madrid?",
+      "a": "Juventus Turin|Juventus",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/zinedine-zidane",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "In welchem Jahr wechselte Zinédine Zidane von Juventus Turin zu Real Madrid?",
+      "a": "2001",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/zinedine-zidane",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "Von welchem Verein wechselte Ronaldinho 2003 zu FC Barcelona?",
+      "a": "Paris Saint-Germain|PSG",
+      "source": "https://www.fcbarcelona.com/en/football/barca-legends/players/1493844/ronaldinho",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "In welchem Jahr wechselte Ronaldinho von Paris Saint-Germain zu FC Barcelona?",
+      "a": "2003",
+      "source": "https://www.fcbarcelona.com/en/football/barca-legends/players/1493844/ronaldinho",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "Von welchem Verein wechselte Ronaldinho 2008 zu AC Mailand?",
+      "a": "FC Barcelona|Barcelona",
+      "source": "https://www.fcbarcelona.com/en/football/barca-legends/players/1493844/ronaldinho",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "In welchem Jahr wechselte Ronaldinho von FC Barcelona zu AC Mailand?",
+      "a": "2008",
+      "source": "https://www.fcbarcelona.com/en/football/barca-legends/players/1493844/ronaldinho",
+      "verified": "2026-10-04",
+      "difficulty": 5,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "Von welchem Verein wechselte Ronaldo Nazário 2002 zu Real Madrid?",
+      "a": "Inter Mailand|Inter|Internazionale",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/ronaldo-luis-nazario-de-lima",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "In welchem Jahr wechselte Ronaldo Nazário von Inter Mailand zu Real Madrid?",
+      "a": "2002",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/ronaldo-luis-nazario-de-lima",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "Von welchem Verein wechselte Thierry Henry 2007 zu FC Barcelona?",
+      "a": "FC Arsenal|Arsenal",
+      "source": "https://www.fcbarcelona.com/en/news/755613/ten-years-since-the-arrival-of-thierry-henry-at-fc-barcelona",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "In welchem Jahr wechselte Thierry Henry von FC Arsenal zu FC Barcelona?",
+      "a": "2007",
+      "source": "https://www.fcbarcelona.com/en/news/755613/ten-years-since-the-arrival-of-thierry-henry-at-fc-barcelona",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "Von welchem Verein wechselte Franck Ribéry 2007 zu FC Bayern München?",
+      "a": "Olympique Marseille|Marseille",
+      "source": "https://fcbayern.com/en/photos/2017/07/gallery-riberys-10-years-at-bayern",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "In welchem Jahr wechselte Franck Ribéry von Olympique Marseille zu FC Bayern München?",
+      "a": "2007",
+      "source": "https://fcbayern.com/en/photos/2017/07/gallery-riberys-10-years-at-bayern",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "Von welchem Verein wechselte Arjen Robben 2009 zu FC Bayern München?",
+      "a": "Real Madrid",
+      "source": "https://fcbayern.com/en/club/history/mile-stones/2010-to-2013-the-historic-treble",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "In welchem Jahr wechselte Arjen Robben von Real Madrid zu FC Bayern München?",
+      "a": "2009",
+      "source": "https://fcbayern.com/en/club/history/mile-stones/2010-to-2013-the-historic-treble",
+      "verified": "2026-10-04",
+      "difficulty": 5,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "Von welchem Verein wechselte Luka Modrić 2012 zu Real Madrid?",
+      "a": "Tottenham Hotspur|Tottenham",
+      "source": "https://www.realmadrid.com/en-US/football/squad/luka-modric",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "In welchem Jahr wechselte Luka Modrić von Tottenham Hotspur zu Real Madrid?",
+      "a": "2012",
+      "source": "https://www.realmadrid.com/en-US/football/squad/luka-modric",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "Von welchem Verein wechselte Robert Lewandowski 2014 zu FC Bayern München?",
+      "a": "Borussia Dortmund|Dortmund|BVB",
+      "source": "https://fcbayern.com/en/teams/first-team/former-players/robert-lewandowski",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "In welchem Jahr wechselte Robert Lewandowski von Borussia Dortmund zu FC Bayern München?",
+      "a": "2014",
+      "source": "https://fcbayern.com/en/teams/first-team/former-players/robert-lewandowski",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "Von welchem Verein wechselte Luis Suárez 2014 zu FC Barcelona?",
+      "a": "FC Liverpool|Liverpool",
+      "source": "https://players.fcbarcelona.com/en/player/855-suarez-luis-alberto-suarez-diaz",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "In welchem Jahr wechselte Luis Suárez von FC Liverpool zu FC Barcelona?",
+      "a": "2014",
+      "source": "https://players.fcbarcelona.com/en/player/855-suarez-luis-alberto-suarez-diaz",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "Von welchem Verein wechselte Neymar 2013 zu FC Barcelona?",
+      "a": "FC Santos|Santos",
+      "source": "https://www.fcbarcelona.com/en/club/history/legendary-players",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "In welchem Jahr wechselte Neymar von FC Santos zu FC Barcelona?",
+      "a": "2013",
+      "source": "https://www.fcbarcelona.com/en/club/history/legendary-players",
+      "verified": "2026-10-04",
+      "difficulty": 5,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "Von welchem Verein wechselte Mohamed Salah 2017 zu FC Liverpool?",
+      "a": "AS Rom|Roma|AS Roma",
+      "source": "https://www.asroma.com/en/news/41866/roma-and-liverpool-agree-salah-transfer",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 7
+    },
+    {
+      "cat": "Transfers",
+      "q": "In welchem Jahr wechselte Mohamed Salah von AS Rom zu FC Liverpool?",
+      "a": "2017",
+      "source": "https://www.asroma.com/en/news/41866/roma-and-liverpool-agree-salah-transfer",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "FIFA 19: Welche Gesamtwertung hatte Cristiano Ronaldo im archivierten FIFA-19-Datensatz (keine Spezialkarte)?",
+      "a": "94",
+      "source": "https://fifaindex.com/players/fifa19",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "FIFA 19: Welche Gesamtwertung hatte Lionel Messi im archivierten FIFA-19-Datensatz (keine Spezialkarte)?",
+      "a": "94",
+      "source": "https://fifaindex.com/players/fifa19",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "FIFA 19: Welche Gesamtwertung hatte Neymar im archivierten FIFA-19-Datensatz (keine Spezialkarte)?",
+      "a": "92",
+      "source": "https://fifaindex.com/players/fifa19",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "FIFA 20: Welche Gesamtwertung hatte Lionel Messi in der veröffentlichten Basisbewertung (keine Spezialkarte)?",
+      "a": "94",
+      "source": "https://www.ea.com/able/news/fifa-20-player-ratings-la-liga-santander",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "FIFA 20: Welche Gesamtwertung hatte Jan Oblak in der veröffentlichten Basisbewertung (keine Spezialkarte)?",
+      "a": "91",
+      "source": "https://www.ea.com/able/news/fifa-20-player-ratings-la-liga-santander",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "FIFA 20: Welche Gesamtwertung hatte Luka Modrić in der veröffentlichten Basisbewertung (keine Spezialkarte)?",
+      "a": "90",
+      "source": "https://www.ea.com/able/news/fifa-20-player-ratings-la-liga-santander",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "FIFA 20: Welche Gesamtwertung hatte Toni Kroos in der veröffentlichten Basisbewertung (keine Spezialkarte)?",
+      "a": "88",
+      "source": "https://www.ea.com/able/news/fifa-20-player-ratings-la-liga-santander",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "FIFA 21: Welche Gesamtwertung hatte Cristiano Ronaldo in der veröffentlichten Basisbewertung (keine Spezialkarte)?",
+      "a": "92",
+      "source": "https://www.ea.com/es-es/news/fifa-21-player-ratings-five-star-skillers-skill-moves",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "FIFA 21: Welche Gesamtwertung hatte Neymar in der veröffentlichten Basisbewertung (keine Spezialkarte)?",
+      "a": "91",
+      "source": "https://www.ea.com/es-es/news/fifa-21-player-ratings-five-star-skillers-skill-moves",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "FIFA 21: Welche Gesamtwertung hatte Kylian Mbappé in der veröffentlichten Basisbewertung (keine Spezialkarte)?",
+      "a": "90",
+      "source": "https://www.ea.com/es-es/news/fifa-21-player-ratings-five-star-skillers-skill-moves",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "FIFA 21: Welche Gesamtwertung hatte Jadon Sancho in der veröffentlichten Basisbewertung (keine Spezialkarte)?",
+      "a": "87",
+      "source": "https://www.ea.com/es-es/news/fifa-21-player-ratings-five-star-skillers-skill-moves",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "FIFA 22: Welche Gesamtwertung hatte Robert Lewandowski in der veröffentlichten Basisbewertung (keine Spezialkarte)?",
+      "a": "92",
+      "source": "https://www.ea.com/ea-originals/news/fifa-22-player-ratings-bundesliga",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "FIFA 22: Welche Gesamtwertung hatte Manuel Neuer in der veröffentlichten Basisbewertung (keine Spezialkarte)?",
+      "a": "90",
+      "source": "https://www.ea.com/ea-originals/news/fifa-22-player-ratings-bundesliga",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "FIFA 22: Welche Gesamtwertung hatte Joshua Kimmich in der veröffentlichten Basisbewertung (keine Spezialkarte)?",
+      "a": "89",
+      "source": "https://www.ea.com/ea-originals/news/fifa-22-player-ratings-bundesliga",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "FIFA 22: Welche Gesamtwertung hatte Erling Haaland in der veröffentlichten Basisbewertung (keine Spezialkarte)?",
+      "a": "88",
+      "source": "https://www.ea.com/ea-originals/news/fifa-22-player-ratings-bundesliga",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "FIFA 23: Welche Gesamtwertung hatte Karim Benzema in der veröffentlichten Basisbewertung (keine Spezialkarte)?",
+      "a": "91",
+      "source": "https://www.ea.com/able/news/fifa-23-player-ratings-la-liga-santander",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "FIFA 23: Welche Gesamtwertung hatte Thibaut Courtois in der veröffentlichten Basisbewertung (keine Spezialkarte)?",
+      "a": "91",
+      "source": "https://www.ea.com/able/news/fifa-23-player-ratings-la-liga-santander",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "FIFA 23: Welche Gesamtwertung hatte Toni Kroos in der veröffentlichten Basisbewertung (keine Spezialkarte)?",
+      "a": "88",
+      "source": "https://www.ea.com/able/news/fifa-23-player-ratings-la-liga-santander",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "FIFA 23: Welche Gesamtwertung hatte Vinícius Júnior in der veröffentlichten Basisbewertung (keine Spezialkarte)?",
+      "a": "86",
+      "source": "https://www.ea.com/able/news/fifa-23-player-ratings-la-liga-santander",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "EA Sports FC 24: Welche Gesamtwertung hatte Erling Haaland in der veröffentlichten Basisbewertung (keine Spezialkarte)?",
+      "a": "91",
+      "source": "https://ea-sports.prezly.com/ea-sports-fc-24-donne-le-coup-denvoi-de-la-semaine-des-notes-avec-les-24-joueuses-et-joueurs-les-mieux-notees",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "EA Sports FC 24: Welche Gesamtwertung hatte Alexia Putellas in der veröffentlichten Basisbewertung (keine Spezialkarte)?",
+      "a": "91",
+      "source": "https://ea-sports.prezly.com/ea-sports-fc-24-donne-le-coup-denvoi-de-la-semaine-des-notes-avec-les-24-joueuses-et-joueurs-les-mieux-notees",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "EA Sports FC 24: Welche Gesamtwertung hatte Lionel Messi in der veröffentlichten Basisbewertung (keine Spezialkarte)?",
+      "a": "90",
+      "source": "https://ea-sports.prezly.com/ea-sports-fc-24-donne-le-coup-denvoi-de-la-semaine-des-notes-avec-les-24-joueuses-et-joueurs-les-mieux-notees",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "EA Sports FC 24: Welche Gesamtwertung hatte Aitana Bonmatí in der veröffentlichten Basisbewertung (keine Spezialkarte)?",
+      "a": "90",
+      "source": "https://ea-sports.prezly.com/ea-sports-fc-24-donne-le-coup-denvoi-de-la-semaine-des-notes-avec-les-24-joueuses-et-joueurs-les-mieux-notees",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "EA Sports FC 25: Welche Gesamtwertung hatte Rodri in der veröffentlichten Basisbewertung (keine Spezialkarte)?",
+      "a": "91",
+      "source": "https://www.mancity.com/news/club/ea-sports-fc-25-ratings-revealed-63861581",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "EA Sports FC 25: Welche Gesamtwertung hatte Erling Haaland in der veröffentlichten Basisbewertung (keine Spezialkarte)?",
+      "a": "91",
+      "source": "https://www.mancity.com/news/club/ea-sports-fc-25-ratings-revealed-63861581",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "EA Sports FC 26: Welche Basis-Gesamtwertung hat Kylian Mbappé im geprüften FC-26-Datensatz (keine Spezialkarte)?",
+      "a": "91",
+      "source": "https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kylian-mbappe/231747",
+      "verified": "2026-10-01",
+      "difficulty": 2,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "EA Sports FC 26: Welche Basis-Gesamtwertung hat Mohamed Salah im geprüften FC-26-Datensatz (keine Spezialkarte)?",
+      "a": "91",
+      "source": "https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mohamed-salah/209331",
+      "verified": "2026-10-01",
+      "difficulty": 3,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "EA Sports FC 26: Welche Basis-Gesamtwertung hat Erling Haaland im geprüften FC-26-Datensatz (keine Spezialkarte)?",
+      "a": "90",
+      "source": "https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/erling-haaland/239085",
+      "verified": "2026-10-01",
+      "difficulty": 4,
+      "expansion": 7
+    },
+    {
+      "cat": "FIFA-Ratings",
+      "q": "EA Sports FC 26: Welche Basis-Gesamtwertung hat Jude Bellingham im geprüften FC-26-Datensatz (keine Spezialkarte)?",
+      "a": "90",
+      "source": "https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jude-bellingham/252371",
+      "verified": "2026-10-01",
+      "difficulty": 5,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Wie heißt Marios Bruder mit der grünen Mütze?",
+      "a": "Luigi",
+      "source": "https://www.nintendo.com/en-ca/explore/characters/mario/friends/",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Welcher Koopa-König ist Marios bekanntester Gegenspieler?",
+      "a": "Bowser",
+      "source": "https://www.nintendo.com/en-ca/explore/characters/mario/friends/",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Wie heißt die Prinzessin des Pilz-Königreichs, die Mario häufig rettet?",
+      "a": "Peach|Prinzessin Peach",
+      "source": "https://www.nintendo.com/en-ca/explore/characters/mario/friends/",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Welcher grüne Begleiter aus den Mario-Spielen verschluckt Gegner mit seiner langen Zunge?",
+      "a": "Yoshi",
+      "source": "https://www.nintendo.com/en-ca/explore/characters/mario/friends/",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Welchen Beruf hat Mario laut seiner offiziellen Charakterbeschreibung?",
+      "a": "Klempner|Installateur",
+      "source": "https://www.nintendo.com/en-ca/explore/characters/mario/friends/",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Welcher Mario-Charakter trägt üblicherweise eine gelbe Mütze und eine violette Latzhose?",
+      "a": "Wario",
+      "source": "https://www.nintendo.com/en-ca/explore/characters/mario/friends/",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Wie heißt Luigis großer, schlanker Rivale und Warios Partner?",
+      "a": "Waluigi",
+      "source": "https://www.nintendo.com/en-ca/explore/characters/mario/friends/",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Welche Figur aus Super Mario Galaxy kümmert sich um die sternförmigen Lumas?",
+      "a": "Rosalina",
+      "source": "https://www.nintendo.com/en-ca/explore/characters/mario/friends/",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Wie heißt der spielbare Held der Hauptreihe The Legend of Zelda?",
+      "a": "Link",
+      "source": "https://play.nintendo.com/activities/skill-quizzes/master-sword-online-trivia-quiz/",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Wie heißt das Königreich, das Link und Prinzessin Zelda häufig beschützen?",
+      "a": "Hyrule",
+      "source": "https://play.nintendo.com/activities/skill-quizzes/master-sword-online-trivia-quiz/",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Wie heißt Links legendäres Schwert, das auf Englisch Master Sword heißt?",
+      "a": "Master-Schwert|Master Sword|Masterschwert",
+      "source": "https://play.nintendo.com/activities/skill-quizzes/master-sword-online-trivia-quiz/",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Wie heißt der wiederkehrende Zelda-Gegenspieler, gegen den Link mit dem Master-Schwert kämpft?",
+      "a": "Ganon|Ganondorf",
+      "source": "https://play.nintendo.com/activities/skill-quizzes/master-sword-online-trivia-quiz/",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Welches grüne Minecraft-Monster explodiert typischerweise, wenn man ihm zu nahe kommt?",
+      "a": "Creeper",
+      "source": "https://www.minecraft.net/tr-tr/article/meet-creeper",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Wie heißt der große Drachen-Boss von Minecraft?",
+      "a": "Enderdrache|Ender Dragon",
+      "source": "https://www.minecraft.net/en-us/article/ender-dragon",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "In welcher Minecraft-Dimension kämpft man gegen den Enderdrachen?",
+      "a": "Das Ende|Ende|The End|End",
+      "source": "https://www.minecraft.net/en-us/article/ender-dragon",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Welcher Captain führt in Call of Duty: Modern Warfare II (2022) die Task Force 141 an?",
+      "a": "John Price|Captain Price|Price",
+      "source": "https://www.callofduty.com/au/en/blog/2022/05/call-of-duty-modern-warfare-ii-ghost-price-task-force-141",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Wie lautet der Nachname von John „Soap“ in Call of Duty: Modern Warfare II (2022)?",
+      "a": "MacTavish|Mactavish",
+      "source": "https://www.callofduty.com/au/en/blog/2022/05/call-of-duty-modern-warfare-ii-ghost-price-task-force-141",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Wie heißt „Ghost“ aus Call of Duty: Modern Warfare II (2022) mit bürgerlichem Namen?",
+      "a": "Simon Riley|Riley",
+      "source": "https://www.callofduty.com/au/en/blog/2022/05/call-of-duty-modern-warfare-ii-ghost-price-task-force-141",
+      "verified": "2026-10-04",
+      "difficulty": 5,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Welche Nummer trägt die Task Force von Price, Soap und Ghost in Modern Warfare II (2022)?",
+      "a": "141|Task Force 141",
+      "source": "https://www.callofduty.com/au/en/blog/2022/05/call-of-duty-modern-warfare-ii-ghost-price-task-force-141",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Welcher Operator in Rainbow Six Siege benutzt den Vorschlaghammer „The Caber“?",
+      "a": "Sledge",
+      "source": "https://www.ubisoft.com/en-ca/game/rainbow-six/siege/game-info/operators/sledge",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Welche FBI-Operatorin in Rainbow Six Siege ist für ihr Durchbruchgeschoss bekannt?",
+      "a": "Ash",
+      "source": "https://www.ubisoft.com/en-us/game/rainbow-six/siege/news-updates/2mEQC66wHsLYFhdNRwCsK7/operator-spotlight-6-ash-fbi-swat-unit",
+      "verified": "2026-10-04",
+      "difficulty": 4,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Welchen Pokémon-Typ hat Pikachu?",
+      "a": "Elektro|Electric",
+      "source": "https://www.pokemon.com/us/pokedex/pikachu",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Welche Nummer hat Pikachu im Nationalen Pokédex?",
+      "a": "25|025",
+      "source": "https://www.pokemon.com/us/pokedex/pikachu",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Welches Pokémon steht im ursprünglichen Pokédex an Nummer 1?",
+      "a": "Bisasam|Bulbasaur",
+      "source": "https://www.pokemon.com/pokedex/",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Aus welcher Pokémon-Region stammen die ursprünglichen Starter Bisasam, Glumanda und Schiggy?",
+      "a": "Kanto",
+      "source": "https://www.pokemon.com/us/pokemon-news/order-the-pokemon-special-series-kanto-region-first-partner-figure-set-from-jazwares-vault",
+      "verified": "2026-10-04",
+      "difficulty": 3,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Wie viele verschiedene Hauptfiguren kann man in der Story von GTA V spielen?",
+      "a": "3|drei",
+      "source": "https://www.rockstargames.com/newswire/article/25o2411819aok8/original-gtav-artwork-michael-franklin-trevor.html",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Wie heißt Segas blauer Igel, der vor allem für seine Geschwindigkeit bekannt ist?",
+      "a": "Sonic|Sonic the Hedgehog",
+      "source": "https://manuals.sega.com/origins/de/index.html",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Wie heißt Sonics Fuchsfreund mit den zwei Schwänzen?",
+      "a": "Tails|Miles Prower|Miles Tails Prower",
+      "source": "https://manuals.sega.com/origins/de/index.html",
+      "verified": "2026-10-04",
+      "difficulty": 2,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Welche Sportart verbindet Rocket League mit Fahrzeugen und großen Toren?",
+      "a": "Fußball|Fussball|Soccer",
+      "source": "https://www.rocketleague.com/?lang=en",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 7
+    },
+    {
+      "cat": "Videospiele",
+      "q": "Was steuert man in Rocket League anstelle von menschlichen Fußballspielern?",
+      "a": "Autos|Auto|Fahrzeuge|Fahrzeug|Raketenautos",
+      "source": "https://www.rocketleague.com/?lang=en",
+      "verified": "2026-10-04",
+      "difficulty": 1,
+      "expansion": 7
+    }
+  ]
+}
