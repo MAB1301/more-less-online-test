@@ -1,5 +1,5 @@
 /* Approved static backgrounds; no image is applied in data-saving mode. */
-html:not(.dataSaving) #homeScreen{background:linear-gradient(#050b1933,#050b1966),url('backgrounds/menu-20261004.webp') center/cover no-repeat!important}
+html:not(.dataSaving) #homeScreen{background:linear-gradient(#050b191a,#050b1933),url('backgrounds/menu-lounge-v1-20261004.webp') center/cover no-repeat!important}
 html:not(.dataSaving) #worldMenu[data-world=estimate],html:not(.dataSaving) #estimateGame{background:linear-gradient(#050b1933,#050b1959),url('backgrounds/estimate-20261004.webp') center/cover no-repeat!important}
 html:not(.dataSaving) #worldMenu[data-world=quiz],html:not(.dataSaving) #jeopGame{background:linear-gradient(#050b1926,#050b194d),url('backgrounds/jeopardy-20261004.webp') center/cover no-repeat!important}
 html:not(.dataSaving) #worldMenu[data-world=facts],html:not(.dataSaving) #factGame{background:linear-gradient(#050b1933,#050b1959),url('backgrounds/facts-20261004.webp') center/cover no-repeat!important}
@@ -13,3 +13,21 @@ html.dataSaving .rulePreviewArt,html.dataSaving .gameModeIcon.cardArt{background
 html.dataSaving *,html.dataSaving *::before,html.dataSaving *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
 html.dataSaving .pointFly,html.dataSaving .scoreFly{display:none!important}
 @media(max-width:650px){html.dataSaving #jeopBoard .jeopHead{min-height:88px}}
+
+/* Selected lounge proposal 1: real text and controls over a separate room asset. */
+#homeScreen .homeInner{max-width:1320px;flex-basis:1320px}
+#homeScreen .homeHeader{gap:18px;padding:38px 0 20px}
+#homeScreen .homeBrand{margin:0}
+#homeScreen .homeLogo{font-size:clamp(34px,4.4vw,58px);letter-spacing:-1.5px;text-shadow:0 2px 0 #c5bfdf,0 4px 2px #141025,0 0 16px #c6a9ff88,0 0 34px #9165d344}
+#homeScreen .homeSlash{text-shadow:0 2px 0 #682895,0 0 16px #af48ff99}
+#homeScreen .homeNight{text-shadow:0 2px 0 #17637f,0 4px 2px #061a30,0 0 18px #18d9ff99,0 0 36px #18b8ff55}
+#homeScreen .homeTag{font-size:18px;color:#c2c9e7}
+#homeScreen .inviteCenterOpen{margin:10px 0 0}
+#homeScreen .worldCard{min-height:242px;padding:18px 26px 18px 10px;border-color:color-mix(in srgb,var(--accent) 65%,#202b43);background:radial-gradient(ellipse at 12% 50%,var(--tint),transparent 75%),#10172ff5;box-shadow:0 12px 32px #0003}
+#homeScreen .homeTileVisual{flex-basis:40%;max-width:250px}
+#homeScreen .homeTileCopy b{font-size:clamp(22px,2.4vw,32px)}
+#homeScreen .homeTileAction{font-size:16px;padding:12px 18px}
+html.dataSaving #homeScreen .homeLogo,html.dataSaving #homeScreen .homeSlash,html.dataSaving #homeScreen .homeNight{text-shadow:none}
+@media(min-width:701px) and (max-height:780px){#homeScreen .homeHeader{padding-top:32px;gap:12px;padding-bottom:16px}#homeScreen .homeLogo{font-size:42px}#homeScreen .homeTag{font-size:15px}#homeScreen .worldCard{min-height:192px;padding-top:10px;padding-bottom:10px}#homeScreen .homeTileVisual{max-width:185px}#homeScreen .homeTileCopy b{font-size:25px}}
+@media(max-width:700px){#homeScreen .homeHeader{padding:45px 0 20px;gap:16px}#homeScreen .homeLogo{font-size:clamp(32px,7vw,44px)}#homeScreen .homeTag{font-size:15px}#homeScreen .worldCard{min-height:165px;padding:12px 18px 12px 8px}#homeScreen .homeTileVisual{flex-basis:130px;max-width:130px}#homeScreen .homeTileCopy b{font-size:23px}#homeScreen .homeTileAction{font-size:14px;padding:10px 13px}}
+@media(max-width:380px){#homeScreen .homeTileVisual{flex-basis:100px}#homeScreen .homeTileCopy b{font-size:20px}}
