@@ -71,3 +71,9 @@ Online results are captured at server completion for More/Less, Schätzduell and
 Applied to the connected project in order: `docs/database/player-achievements.sql`, `docs/database/music-achievement-shop.sql`, `docs/database/profile-frames-online-stats.sql`. New private tables use RLS with no client table privileges; public wrappers are invoker functions with owner-bound private helpers. The frontend remains in draft PR #109, pending browser visual QA before publishing.
 
 Validation: `node scripts/regression-check.mjs`, rollback-only `scripts/music-shop-server-check.sql` and `scripts/profile-stats-server-check.sql`, and `scripts/achievement-streak-check.sql`. Audio files are decoded and checked for duration, finite samples and clipping.
+
+### Music collection expansion
+
+Eight further shop loops bring the local selection to fifteen tracks including the free default: six original Lo-Fi/Ambient/Bossa/Dream Pop/Quiz/Weird compositions and new synthesized performances of public-domain Satie and Beethoven scores. Shop and comfort controls share `assets/audio/tracks.js`; every track has an eight-second preview and persistent server equipment. Prices are 60–120 coins. `docs/database/music-collection.sql` is applied to the connected project. Source MIDI, its hashes/licensing, and reproduction steps are documented in `assets/audio/README.md`. The expanded frontend remains in draft PR #109.
+
+The integration retains the newer Main design and direct-start changes, plus its three additional free tracks and Style-Shop/leaderboard presentation. The shared shop now handles all equipment without parallel wallet state.

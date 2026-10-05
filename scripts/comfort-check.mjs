@@ -5,8 +5,9 @@ function setup(saved='{}',saveData=false){
  const node=id=>{if(!nodes.has(id)){const n=new Node();n.id=id}return nodes.get(id)};
  const doc={hidden:false,currentScript:{src:'https://game.test/assets/comfort.js'},body:new Node(),documentElement:{classList:{toggle(k,v){v?classes.add(k):classes.delete(k)}}},createElement:t=>new Node(t),getElementById:node,querySelector:s=>s.includes('gamePreferences')?node('preferences'):null,querySelectorAll:()=>[],addEventListener:(k,f)=>listeners.set(k,f)};
  const win={getGamePreferences:()=>({...game}),applyGamePreferences:v=>{game=v;windowListeners.get('gamepreferenceschange')?.()},addEventListener:(k,f)=>windowListeners.set(k,f)};
- vm.runInNewContext(fs.readFileSync('assets/comfort.js','utf8'),{navigator:{connection:{saveData}},document:doc,window:win,localStorage:{getItem:k=>store.get(k),setItem:(k,v)=>store.set(k,v)},URL});
- return {node,doc,store,classes,listeners,calls:()=>calls,resolve:()=>resolvePlay?.(),win,change:()=>node('comfortMusic').events.change()};
+ vm.runInNewContext(fs.readFileSync('assets/audio/tracks.js','utf8'),{window:win});
+vm.runInNewContext(fs.readFileSync('assets/comfort.js','utf8'),{navigator:{connection:{saveData}},document:doc,window:win,localStorage:{getItem:k=>store.get(k),setItem:(k,v)=>store.set(k,v)},URL});
+ return {node,doc,store,classes,listeners,calls:()=>calls,resolve:()=>resolvePlay?.(),win,equipmentChanged:()=>windowListeners.get('gameeconomychange')?.(),change:()=>node('comfortMusic').events.change()};
 }
 const s=setup();assert.equal(s.calls(),0,'no default music autoplay');s.node('comfortMusic').checked=true;s.node('comfortMusicVolume').value=22;s.change();assert.equal(s.calls(),1);assert.equal(s.node('gameMusic').volume,.22);
 s.node('comfortSound').checked=false;s.change();assert.equal(s.node('gameMusic').paused,true,'global mute pauses music');s.resolve();await new Promise(r=>setImmediate(r));assert.equal(s.node('gameMusic').paused,true,'late play cannot undo mute');
@@ -14,3 +15,9 @@ s.node('comfortSound').checked=true;s.node('comfortText').checked=true;s.node('c
 s.doc.hidden=true;s.listeners.get('visibilitychange')();assert.equal(s.node('gameMusic').paused,true);s.doc.hidden=false;s.listeners.get('visibilitychange')();assert.equal(s.calls(),3);s.resolve();await new Promise(r=>setImmediate(r));assert.equal(s.node('gameMusic').paused,false);const hidden=setup(s.store.get('ml_comfort_v1'));assert.equal(hidden.calls(),0,'saved music requires an interaction');assert.equal(hidden.node('comfortMusic').checked,true);assert.equal(hidden.node('comfortMusicVolume').value,22);assert.equal(setup('{bad').calls(),0);
 const compact=setup();compact.node('comfortDataSaving').checked=true;compact.change();assert(compact.classes.has('dataSaving'));assert.equal(JSON.parse(compact.store.get('ml_comfort_v1')).dataSaving,true);assert(setup(compact.store.get('ml_comfort_v1')).classes.has('dataSaving'));assert(setup('{}',true).classes.has('dataSaving'),'honor browser Save-Data by default');assert(!setup('{"dataSaving":false}',true).classes.has('dataSaving'),'explicit preference overrides connection default');compact.node('comfortDataSaving').checked=false;compact.change();assert(!compact.classes.has('dataSaving'));
 console.log('OK: music opt-in, separate volume, mute during pending play, device restoration and unchanged identity');
+const collection=setup();assert.equal(collection.node('comfortTrack').children.length,15);
+collection.win.gameEconomy={data:{music:'music-satie-lounge'},owned:id=>id==='music-satie-lounge'};
+collection.equipmentChanged();assert.match(collection.node('gameMusic').src,/satie-lounge.mp3$/);assert.equal(collection.calls(),0,'new selected music does not autoplay');
+collection.node('comfortMusic').checked=true;collection.change();collection.resolve();await new Promise(r=>setImmediate(r));assert.equal(collection.node('gameMusic').paused,false);
+collection.win.gameEconomy={data:null,owned:()=>false};collection.equipmentChanged();collection.resolve();await new Promise(r=>setImmediate(r));assert.match(collection.node('gameMusic').src,/game-night.mp3$/,'logout removes purchased selection');
+console.log('OK: fifteen music options, purchased classical selection, no selection autoplay and logout fallback');

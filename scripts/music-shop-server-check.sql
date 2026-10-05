@@ -12,7 +12,7 @@ begin
  values(today-1,u,'Shop fixture',10,20,((today-1)::timestamp+interval '12 hours') at time zone 'Europe/Berlin','estimate');
  perform set_config('request.jwt.claim.sub',u::text,true);
  a:=public.ml_cosmetics('profile');
- if (a->>'daily_best_streak')::int<>10 or (a->>'achievement_earned')::int<>315 then raise exception 'Daily milestones incorrect: %',a;end if;
+ if (a->>'daily_best_streak')::int<>10 or (select coalesce(sum(amount),0) from ml_private.achievement_rewards where user_id=u)<>315 then raise exception 'Daily milestones incorrect: %',a;end if;
  if not exists(select 1 from jsonb_array_elements(a->'catalog') c where c->>'id'='title-daily-10' and (c->>'owned')::boolean) then raise exception 'title missing';end if;
  b:=public.ml_cosmetics('profile');
  if a->>'balance'<>b->>'balance' or (b->>'achievement_earned')::int<>0 then raise exception 'repeat minted coins';end if;

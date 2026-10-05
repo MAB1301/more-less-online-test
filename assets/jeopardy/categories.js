@@ -26,3 +26,5 @@ window.JEOP_CATEGORY_IMAGES={
   "Rekorde & Extreme": "rekorde-extreme.webp",
   "Videospiele": "videospiele.webp"
 };
+
+window.JEOP_GEO_IMAGES={'Länder & Grenzen':'geografie.webp','Städte & Hauptstädte':'deutschland.webp','Natur & Landschaften':'nationalparks.webp','Europa':'geografie.webp','Weltreise & Welterbe':'weltkultur.webp'};

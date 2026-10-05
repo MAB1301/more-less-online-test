@@ -2,7 +2,7 @@
 (()=>{'use strict';
  const board=document.getElementById('jeopBoard'),question=document.getElementById('jeopQuestion');if(!board||!question)return;
  question.setAttribute('aria-labelledby','jeopPrompt');question.removeAttribute('aria-label');
- const assetBase=new URL('jeopardy/categories/',document.currentScript.src),images=window.JEOP_CATEGORY_IMAGES||{};
+ const assetBase=new URL('jeopardy/categories/',document.currentScript.src),images={...(window.JEOP_CATEGORY_IMAGES||{}),...(window.JEOP_GEO_IMAGES||{})};
  const picture=category=>new URL(images[category]||images.Mix||'mix.webp',assetBase).href;
  const pages=document.createElement('nav');pages.className='jeopPages';pages.setAttribute('aria-label','Jeopardy-Kategorien auf kleinen Bildschirmen');board.before(pages);let page=0;
  for(let i=0;i<2;i++){const button=document.createElement('button');button.type='button';button.textContent=i===0?'Kategorien 1–3':'Kategorien 4–6';button.addEventListener('click',()=>{page=i;refreshBoard()});pages.append(button)}

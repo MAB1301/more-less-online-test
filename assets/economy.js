@@ -1,12 +1,7 @@
 /* The installed Supabase wallet owns purchases, rewards and equipped items. */
 (function(){
  const state={data:null,owner:null,scope:null,version:0,busy:false};
- const tracks=[
-  {id:'music-game-night',name:'Game Night',file:'game-night.mp3'},
-  {id:'music-night-drive',name:'Night Drive · House',file:'night-drive.mp3'},
-  {id:'music-pixel-riot',name:'Pixel Riot · Breakbeat',file:'pixel-riot.mp3'},
-  {id:'music-moon-bounce',name:'Moon Bounce · Glitch',file:'moon-bounce.mp3'}
- ];
+ const tracks=window.GAME_MUSIC_TRACKS||[{id:'music-game-night',name:'Game Night',file:'game-night.mp3'}];
  const frames=['starter','neon','emerald','gold','david','kippa','cross','thorns','ufo','toast','potato','rocket'];
  const script=document.currentScript,preview=document.createElement('audio');preview.preload='none';preview.volume=.25;let previewTimer=null,previewId=0;
  const dialog=document.createElement('dialog');dialog.id='gameShop';dialog.className='playerHub gameShop';dialog.setAttribute('aria-labelledby','gameShopTitle');
@@ -33,7 +28,10 @@
   node('gameShopRefresh').disabled=state.busy;const root=node('gameShopItems');root.replaceChildren();for(const id of ['accountPlayerTitle','accountDockTitle']){const target=node(id);if(target){target.textContent='';target.hidden=true}}if(!data)return;
   const names={music:'Musik',title:'Titel',frame:'Profilrahmen',color:'Namensfarbe'},equipped={music:data.music,title:data.title,frame:data.frame,color:data.name_color};
   for(const item of data.catalog||[]){
-   const card=document.createElement('article');card.className='shopItem';const type=document.createElement('small');type.textContent=names[item.kind]||item.kind;const title=document.createElement('h4');title.textContent=item.name;const detail=document.createElement('p');detail.textContent=item.unlock_achievement?'Belohnung für '+item.unlock_achievement.replace('daily-score-','Daily-Punkte ').replace('daily-','Daily-Tage '):item.price?item.price+' Münzen':'Kostenlos';card.append(type,title,detail);if(item.kind==='frame'&&frames.includes(item.id.replace('frame-',''))){const image=document.createElement('img');image.className='framePreview';image.alt='Vorschau: '+item.name;image.src=new URL('frames/'+item.id.replace('frame-','')+'.svg',script.src).href;card.append(image)}
+   if(!['music','title','frame','color'].includes(item.kind))continue;
+   if(item.kind==='music'&&!track(item.id))continue;
+   if(item.kind==='frame'&&!frames.includes(item.id.replace('frame-','')))continue;
+   const card=document.createElement('article');card.className='shopItem';const type=document.createElement('small');type.textContent=names[item.kind]||item.kind;const title=document.createElement('h4');title.textContent=item.name;const detail=document.createElement('p');detail.textContent=item.unlock_achievement?'Belohnung für '+item.unlock_achievement.replace('daily-score-','Daily-Punkte ').replace('daily-','Daily-Tage '):item.price?item.price+' Münzen':'Kostenlos';card.append(type,title,detail);const info=track(item.id)?.description;if(info){const description=document.createElement('p');description.className='tiny muted';description.textContent=info;card.append(description)}if(item.kind==='frame'&&frames.includes(item.id.replace('frame-',''))){const image=document.createElement('img');image.className='framePreview';image.alt='Vorschau: '+item.name;image.src=new URL('frames/'+item.id.replace('frame-','')+'.svg',script.src).href;card.append(image)}
    if(item.kind==='music'&&track(item.id)){const play=document.createElement('button');play.type='button';play.textContent='8 Sekunden anhören';play.onclick=()=>listen(item.id);card.append(play)}
    const button=document.createElement('button');button.type='button';button.textContent=equipped[item.kind]===item.id?'Ausgewählt':item.owned?'Auswählen':item.unlock_achievement?'Durch Achievement freischalten':'Für '+item.price+' Münzen kaufen';button.disabled=state.busy||equipped[item.kind]===item.id||(!item.owned&&(!!item.unlock_achievement||data.balance<item.price));button.onclick=()=>choose(item);card.append(button);root.append(card);
   }

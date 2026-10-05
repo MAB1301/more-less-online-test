@@ -24,7 +24,7 @@ async function refreshExtendedLeaderboard(offset=0){
   const data=await playerHubRpc('board',selection);if(!current())return;
   for(const entry of data.leaderboard){
    const row=document.createElement('div');row.className='dailyBoardRow'+(entry.mine?' dailyMineRow':'');
-   for(const text of [entry.rank+'.',entry.name+(entry.mine?' · Du':''),entry.score+' P']){const n=document.createElement('span');n.textContent=text;row.append(n)}list.append(row);
+   const rank=document.createElement('span');rank.textContent=entry.rank+'.';const name=document.createElement('span');name.textContent=entry.name+(entry.mine?' · Du':'');const score=document.createElement('span');score.textContent=entry.score+' P';row.append(rank,window.cosmeticPlayer?window.cosmeticPlayer(entry):name,score);list.append(row);
   }
   if(!data.total)list.textContent='Noch keine fristgerecht abgeschlossenen Ergebnisse für diese Auswahl.';
   const updated=new Intl.DateTimeFormat('de-DE',{hour:'2-digit',minute:'2-digit',second:'2-digit'}).format(new Date());

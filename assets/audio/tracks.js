@@ -1,0 +1,133 @@
+/* Shared local music manifest: no streaming services or third-party recordings. */
+window.GAME_MUSIC_TRACKS=Object.freeze([
+  {
+    "id": "music-game-night",
+    "name": "Game Night · ruhiger Synth-Loop",
+    "file": "game-night.mp3",
+    "price": 0,
+    "genre": "Synth",
+    "description": "Der kostenlose ruhige Synth-Loop."
+  },
+  {
+    "id": "music-night-drive",
+    "name": "Night Drive · House",
+    "file": "night-drive.mp3",
+    "price": 60,
+    "genre": "House"
+  },
+  {
+    "id": "music-pixel-riot",
+    "name": "Pixel Riot · Breakbeat",
+    "file": "pixel-riot.mp3",
+    "price": 100,
+    "genre": "Breakbeat"
+  },
+  {
+    "id": "music-moon-bounce",
+    "name": "Moon Bounce · Glitch",
+    "file": "moon-bounce.mp3",
+    "price": 140,
+    "genre": "Glitch"
+  },
+  {
+    "id": "music-midnight-lounge",
+    "name": "Midnight Lounge · Chill",
+    "file": "midnight-lounge.mp3",
+    "price": 0,
+    "genre": "Chill"
+  },
+  {
+    "id": "music-cloud-drift",
+    "name": "Cloud Drift · Ambient",
+    "file": "cloud-drift.mp3",
+    "price": 0,
+    "genre": "Ambient"
+  },
+  {
+    "id": "music-arcade-pulse",
+    "name": "Arcade Pulse · Arcade",
+    "file": "arcade-pulse.mp3",
+    "price": 0,
+    "genre": "Arcade"
+  },
+  {
+    "id": "music-velvet-cafe",
+    "name": "Velvet Café · Lo-Fi",
+    "file": "velvet-cafe.mp3",
+    "price": 60,
+    "genre": "Lo-Fi",
+    "description": "Warme E-Piano-Akkorde, weicher Bass und ein lockerer Beat.",
+    "duration": 24.0,
+    "bpm": 80
+  },
+  {
+    "id": "music-blue-hour",
+    "name": "Blue Hour · Ambient",
+    "file": "blue-hour.mp3",
+    "price": 80,
+    "genre": "Ambient",
+    "description": "Ruhige Flächen und langsame Glockentöne, ohne Schlagzeug.",
+    "duration": 30.0,
+    "bpm": 64
+  },
+  {
+    "id": "music-palm-pixels",
+    "name": "Palm Pixels · Bossa",
+    "file": "palm-pixels.mp3",
+    "price": 80,
+    "genre": "Bossa",
+    "description": "Gezupfte Synth-Saiten und synkopierte Percussion.",
+    "duration": 20.0,
+    "bpm": 96
+  },
+  {
+    "id": "music-cloud-garden",
+    "name": "Cloud Garden · Dream Pop",
+    "file": "cloud-garden.mp3",
+    "price": 100,
+    "genre": "Dream Pop",
+    "description": "Schwebende Akkorde, eine helle Melodie und ein sanfter Beat.",
+    "duration": 21.82,
+    "bpm": 88
+  },
+  {
+    "id": "music-final-answer",
+    "name": "Final Answer · Quiz",
+    "file": "final-answer.mp3",
+    "price": 120,
+    "genre": "Quiz",
+    "description": "Eigene spannende Quizmusik mit Pulsbass und tickender Percussion.",
+    "duration": 17.14,
+    "bpm": 112
+  },
+  {
+    "id": "music-rubber-duck",
+    "name": "Rubber Duck Parade · Weird",
+    "file": "rubber-duck.mp3",
+    "price": 100,
+    "genre": "Weird",
+    "description": "Verspielter Dreiertakt mit federnden FM-Tönen.",
+    "duration": 19.2,
+    "bpm": 150
+  },
+  {
+    "id": "music-satie-lounge",
+    "name": "Gymnopédie Lounge · Satie",
+    "file": "satie-lounge.mp3",
+    "price": 80,
+    "genre": "Klassik / Chill",
+    "description": "Gymnopédie Nr. 1 · Erik Satie · neue Synth-Piano-Einspielung.",
+    "duration": 40.0,
+    "bpm": 72
+  },
+  {
+    "id": "music-elise-afterglow",
+    "name": "Elise Afterglow · Beethoven",
+    "file": "elise-afterglow.mp3",
+    "price": 80,
+    "genre": "Klassik / Chill",
+    "description": "Für Elise · Ludwig van Beethoven · neue Synth-Piano-Einspielung.",
+    "duration": 24.0,
+    "bpm": 90
+  }
+].map(track=>Object.freeze(track)));
