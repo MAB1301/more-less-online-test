@@ -1,0 +1,379 @@
+{
+  "policy": "Changing values: 90 days; stable and historical facts: 365 days. Dates are review deadlines, not automatic approval. Fixed edition/year values retain their stated edition.",
+  "records": [
+    {
+      "id": "small-20261005-moreless-01",
+      "verified": "2026-10-05",
+      "data_years": [
+        1998,
+        1937
+      ],
+      "sources": [
+        "https://www.jb-honshi.co.jp/english/corp_index/technology/introduction/introduction_akashi.html",
+        "https://www.nps.gov/places/000/how-long-is-the-golden-gate-bridge.htm"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261005-moreless-02",
+      "verified": "2026-10-05",
+      "data_years": [
+        1998,
+        1999
+      ],
+      "sources": [
+        "https://www.jb-honshi.co.jp/english/corp_index/technology/introduction/introduction_akashi.html",
+        "https://www.jb-honshi.co.jp/english/corp_index/technology/introduction/introduction_kurushima.html"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261005-moreless-03",
+      "verified": "2026-10-05",
+      "data_years": [
+        1863,
+        1900
+      ],
+      "sources": [
+        "https://tfl-newsroom.prgloo.com/news/tfl-press-release-happy-birthday-london-underground-the-worlds-first-underground-railway-the-tube-celebrates-160-years-of-serving-the-capital",
+        "https://www.ratp.fr/decouvrir/patrimoine/histoire-metro-ligne-1"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261005-moreless-04",
+      "verified": "2026-10-05",
+      "data_years": [
+        1863,
+        1919
+      ],
+      "sources": [
+        "https://tfl-newsroom.prgloo.com/news/tfl-press-release-happy-birthday-london-underground-the-worlds-first-underground-railway-the-tube-celebrates-160-years-of-serving-the-capital",
+        "https://www.comunidad.madrid/infraestructuras/linea-1-metro-madrid"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261005-moreless-05",
+      "verified": "2026-10-05",
+      "data_years": [
+        1978,
+        1981
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1/",
+        "https://whc.unesco.org/en/list/156/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261005-moreless-06",
+      "verified": "2026-10-05",
+      "data_years": [
+        1978,
+        1981
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1/",
+        "https://whc.unesco.org/en/list/154/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261005-moreless-07",
+      "verified": "2026-10-05",
+      "data_years": [
+        1968,
+        1970
+      ],
+      "sources": [
+        "https://www.nasa.gov/mission/apollo-8/",
+        "https://www.nasa.gov/mission/apollo-13/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261005-moreless-08",
+      "verified": "2026-10-05",
+      "data_years": [
+        1968,
+        1972
+      ],
+      "sources": [
+        "https://www.nasa.gov/mission/apollo-8/",
+        "https://www.nasa.gov/mission/apollo-17/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261005-moreless-09",
+      "verified": "2026-10-05",
+      "data_years": [
+        1968,
+        1974
+      ],
+      "sources": [
+        "https://www.nps.gov/redw/learn/park-facts.htm",
+        "https://www.nps.gov/bicy/learn/historyculture/timeline-of-historic-events.htm"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261005-moreless-10",
+      "verified": "2026-10-05",
+      "data_years": [
+        1968,
+        1980
+      ],
+      "sources": [
+        "https://www.nps.gov/redw/learn/park-facts.htm",
+        "https://www.govinfo.gov/features/biscayne-national-park"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261005-estimate-01",
+      "verified": "2026-10-05",
+      "data_years": [
+        1998
+      ],
+      "sources": [
+        "https://www.jb-honshi.co.jp/english/corp_index/technology/introduction/introduction_akashi.html"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261005-estimate-02",
+      "verified": "2026-10-05",
+      "data_years": [
+        1900
+      ],
+      "sources": [
+        "https://www.ratp.fr/decouvrir/patrimoine/histoire-metro-ligne-1"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261005-estimate-03",
+      "verified": "2026-10-05",
+      "data_years": [
+        1978
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261005-estimate-04",
+      "verified": "2026-10-05",
+      "data_years": [
+        1968
+      ],
+      "sources": [
+        "https://www.nasa.gov/mission/apollo-8/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261005-estimate-05",
+      "verified": "2026-10-05",
+      "data_years": [
+        1968
+      ],
+      "sources": [
+        "https://www.nps.gov/redw/learn/park-facts.htm"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261005-facts-01",
+      "verified": "2026-10-05",
+      "data_years": [
+        1937,
+        1998
+      ],
+      "sources": [
+        "https://www.jb-honshi.co.jp/english/corp_index/technology/introduction/introduction_akashi.html",
+        "https://www.nps.gov/places/000/how-long-is-the-golden-gate-bridge.htm"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261005-facts-02",
+      "verified": "2026-10-05",
+      "data_years": [
+        1900
+      ],
+      "sources": [
+        "https://www.ratp.fr/decouvrir/patrimoine/histoire-metro-ligne-1"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261005-facts-03",
+      "verified": "2026-10-05",
+      "data_years": [
+        1981
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/156/",
+        "https://whc.unesco.org/en/list/154/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261005-facts-04",
+      "verified": "2026-10-05",
+      "data_years": [
+        1970
+      ],
+      "sources": [
+        "https://www.nasa.gov/mission/apollo-13/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261005-facts-05",
+      "verified": "2026-10-05",
+      "data_years": [
+        1968,
+        1980
+      ],
+      "sources": [
+        "https://www.govinfo.gov/features/biscayne-national-park"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261005-jeopardy-01",
+      "verified": "2026-10-05",
+      "data_years": [
+        1998
+      ],
+      "sources": [
+        "https://www.jb-honshi.co.jp/english/corp_index/technology/introduction/introduction_akashi.html"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261005-jeopardy-02",
+      "verified": "2026-10-05",
+      "data_years": [
+        1863
+      ],
+      "sources": [
+        "https://tfl-newsroom.prgloo.com/news/tfl-press-release-happy-birthday-london-underground-the-worlds-first-underground-railway-the-tube-celebrates-160-years-of-serving-the-capital"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261005-jeopardy-03",
+      "verified": "2026-10-05",
+      "data_years": [
+        1978
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261005-jeopardy-04",
+      "verified": "2026-10-05",
+      "data_years": [
+        1968
+      ],
+      "sources": [
+        "https://www.nasa.gov/mission/apollo-8/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261005-jeopardy-05",
+      "verified": "2026-10-05",
+      "data_years": [
+        1968
+      ],
+      "sources": [
+        "https://www.nps.gov/redw/learn/historyculture/area-history.htm"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-05",
+      "review_status": "draft_not_approved"
+    }
+  ]
+}

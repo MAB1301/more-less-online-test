@@ -1,0 +1,163 @@
+{
+  "akashi": {
+    "url": "https://www.jb-honshi.co.jp/english/corp_index/technology/introduction/introduction_akashi.html",
+    "publisher": "www.jb-honshi.co.jp",
+    "verified": "2026-10-05",
+    "data_years": [
+      1998
+    ],
+    "evidence": "Mittlere Spannweite 1991 m; für Verkehr geöffnet am 5. April 1998; Verbindung Kobe/Maiko–Awaji/Matsuho.",
+    "method": "Primary page retrieved and relevant statement read; evidence paraphrased in German."
+  },
+  "golden": {
+    "url": "https://www.nps.gov/places/000/how-long-is-the-golden-gate-bridge.htm",
+    "publisher": "www.nps.gov",
+    "verified": "2026-10-05",
+    "data_years": [
+      1937
+    ],
+    "evidence": "Mittlere Spannweite zwischen den Türmen 4200 Fuß; Eröffnung im Mai 1937.",
+    "method": "Primary page retrieved and relevant statement read; evidence paraphrased in German."
+  },
+  "kurushima": {
+    "url": "https://www.jb-honshi.co.jp/english/corp_index/technology/introduction/introduction_kurushima.html",
+    "publisher": "www.jb-honshi.co.jp",
+    "verified": "2026-10-05",
+    "data_years": [
+      1999
+    ],
+    "evidence": "Brückenverbund für Verkehr geöffnet am 1. Mai 1999.",
+    "method": "Primary page retrieved and relevant statement read; evidence paraphrased in German."
+  },
+  "london": {
+    "url": "https://tfl-newsroom.prgloo.com/news/tfl-press-release-happy-birthday-london-underground-the-worlds-first-underground-railway-the-tube-celebrates-160-years-of-serving-the-capital",
+    "publisher": "tfl-newsroom.prgloo.com",
+    "verified": "2026-10-05",
+    "data_years": [
+      1863
+    ],
+    "evidence": "Metropolitan Railway: erster Abschnitt zwischen Paddington und Farringdon am 10. Januar 1863 eröffnet.",
+    "method": "Primary page retrieved and relevant statement read; evidence paraphrased in German."
+  },
+  "paris": {
+    "url": "https://www.ratp.fr/decouvrir/patrimoine/histoire-metro-ligne-1",
+    "publisher": "www.ratp.fr",
+    "verified": "2026-10-05",
+    "data_years": [
+      1900
+    ],
+    "evidence": "Linie 1 am 19. Juli 1900 öffentlich eröffnet; zunächst acht Stationen.",
+    "method": "Primary page retrieved and relevant statement read; evidence paraphrased in German."
+  },
+  "madrid": {
+    "url": "https://www.comunidad.madrid/infraestructuras/linea-1-metro-madrid",
+    "publisher": "www.comunidad.madrid",
+    "verified": "2026-10-05",
+    "data_years": [
+      1919
+    ],
+    "evidence": "Offizielle Einweihung am 17. Oktober 1919; öffentlicher Betrieb ab 31. Oktober 1919.",
+    "method": "Primary page retrieved and relevant statement read; evidence paraphrased in German."
+  },
+  "galapagos": {
+    "url": "https://whc.unesco.org/en/list/1/",
+    "publisher": "whc.unesco.org",
+    "verified": "2026-10-05",
+    "data_years": [
+      1978
+    ],
+    "evidence": "Erste Welterbe-Einschreibung 1978; Vertragsstaat Ecuador.",
+    "method": "Primary page retrieved and relevant statement read; evidence paraphrased in German."
+  },
+  "serengeti": {
+    "url": "https://whc.unesco.org/en/list/156/",
+    "publisher": "whc.unesco.org",
+    "verified": "2026-10-05",
+    "data_years": [
+      1981
+    ],
+    "evidence": "Erste Welterbe-Einschreibung 1981; Vertragsstaat Tansania.",
+    "method": "Primary page retrieved and relevant statement read; evidence paraphrased in German."
+  },
+  "reef": {
+    "url": "https://whc.unesco.org/en/list/154/",
+    "publisher": "whc.unesco.org",
+    "verified": "2026-10-05",
+    "data_years": [
+      1981
+    ],
+    "evidence": "Erste Welterbe-Einschreibung 1981; Vertragsstaat Australien.",
+    "method": "Primary page retrieved and relevant statement read; evidence paraphrased in German."
+  },
+  "apollo8": {
+    "url": "https://www.nasa.gov/mission/apollo-8/",
+    "publisher": "www.nasa.gov",
+    "verified": "2026-10-05",
+    "data_years": [
+      1968
+    ],
+    "evidence": "Start am 21. Dezember 1968; NASA-Missionsseite nennt Besatzung und Missionsverlauf. Besatzung Borman, Lovell, Anders; Earthrise von William Anders am 24. Dezember 1968.",
+    "method": "Primary page retrieved and relevant statement read; evidence paraphrased in German."
+  },
+  "apollo13": {
+    "url": "https://www.nasa.gov/mission/apollo-13/",
+    "publisher": "www.nasa.gov",
+    "verified": "2026-10-05",
+    "data_years": [
+      1970
+    ],
+    "evidence": "Start am 11. April 1970; NASA-Missionsseite nennt Besatzung und Missionsverlauf. Geplante Mondlandung fand nicht statt; sichere Rückkehr zur Erde.",
+    "method": "Primary page retrieved and relevant statement read; evidence paraphrased in German."
+  },
+  "apollo17": {
+    "url": "https://www.nasa.gov/mission/apollo-17/",
+    "publisher": "www.nasa.gov",
+    "verified": "2026-10-05",
+    "data_years": [
+      1972
+    ],
+    "evidence": "Start am 7. Dezember 1972; NASA-Missionsseite nennt Besatzung und Missionsverlauf.",
+    "method": "Primary page retrieved and relevant statement read; evidence paraphrased in German."
+  },
+  "redwood": {
+    "url": "https://www.nps.gov/redw/learn/park-facts.htm",
+    "publisher": "www.nps.gov",
+    "verified": "2026-10-05",
+    "data_years": [
+      1968
+    ],
+    "evidence": "Redwood National Park am 2. Oktober 1968 gegründet; Erweiterung 1978 und gemeinsame Verwaltung 1994 sind andere Ereignisse.",
+    "method": "Primary page retrieved and relevant statement read; evidence paraphrased in German."
+  },
+  "redwoodhistory": {
+    "url": "https://www.nps.gov/redw/learn/historyculture/area-history.htm",
+    "publisher": "www.nps.gov",
+    "verified": "2026-10-05",
+    "data_years": [
+      1968
+    ],
+    "evidence": "Lyndon B. Johnson unterzeichnete am 2. Oktober 1968 das Gründungsgesetz des Redwood National Park.",
+    "method": "Primary page retrieved and relevant statement read; evidence paraphrased in German."
+  },
+  "cypress": {
+    "url": "https://www.nps.gov/bicy/learn/historyculture/timeline-of-historic-events.htm",
+    "publisher": "www.nps.gov",
+    "verified": "2026-10-05",
+    "data_years": [
+      1974
+    ],
+    "evidence": "Big Cypress National Preserve am 11. Oktober 1974 eingerichtet.",
+    "method": "Primary page retrieved and relevant statement read; evidence paraphrased in German."
+  },
+  "biscayne": {
+    "url": "https://www.govinfo.gov/features/biscayne-national-park",
+    "publisher": "www.govinfo.gov",
+    "verified": "2026-10-05",
+    "data_years": [
+      1968,
+      1980
+    ],
+    "evidence": "National Monument 1968 eingerichtet; am 28. Juni 1980 als Nationalpark neu ausgewiesen.",
+    "method": "Primary page retrieved and relevant statement read; evidence paraphrased in German."
+  }
+}

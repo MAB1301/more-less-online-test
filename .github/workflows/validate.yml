@@ -18,3 +18,5 @@ jobs:
       - name: Static game regression checks
         run: |
           node scripts/regression-check.mjs
+      - name: Review-only quiz pack reproducibility and content checks
+        run: python3 scripts/build-draft-quiz-pack.py --check

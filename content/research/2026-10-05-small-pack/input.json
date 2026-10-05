@@ -1,0 +1,522 @@
+{
+  "status": "draft",
+  "verified": "2026-10-05",
+  "base_commit": "8cc47183c77104a836a895ab2978c7cb53bedbbd",
+  "moreless": [
+    {
+      "l": "Akashi-Kaikyo-Brücke",
+      "r": "Golden Gate Bridge",
+      "lv": 1991,
+      "rv": 1280.16,
+      "u": "m · Hauptspannweite zwischen den Türmen",
+      "cat": "Bauwerke",
+      "metric": "Hauptspannweite",
+      "sub": "Hauptspannweite",
+      "prompt": "Welcher Wert ist größer?",
+      "notes": "Golden Gate: 4200 ft × 0,3048 m/ft = 1280,16 m. Hauptspannweite, nicht Gesamtlänge. SVG ist ein nicht maßstäbliches Themenbild.",
+      "id": "small-20261005-moreless-01",
+      "status": "draft",
+      "source_refs": [
+        "akashi",
+        "golden"
+      ],
+      "data_years": [
+        1998,
+        1937
+      ],
+      "visual": "bridges",
+      "time_dependent": false
+    },
+    {
+      "l": "Akashi-Kaikyo-Brücke",
+      "r": "Kurushima-Kaikyo-Brücken",
+      "lv": 1998,
+      "rv": 1999,
+      "u": "Jahr · Verkehrsfreigabe",
+      "cat": "Bauwerke",
+      "metric": "Jahr der Verkehrsfreigabe",
+      "sub": "Jahr der Verkehrsfreigabe",
+      "prompt": "Welches benannte Ereignis fand später statt?",
+      "notes": "",
+      "id": "small-20261005-moreless-02",
+      "status": "draft",
+      "source_refs": [
+        "akashi",
+        "kurushima"
+      ],
+      "data_years": [
+        1998,
+        1999
+      ],
+      "visual": "bridges",
+      "time_dependent": false
+    },
+    {
+      "l": "London Underground",
+      "r": "Métro Paris",
+      "lv": 1863,
+      "rv": 1900,
+      "u": "Jahr · Eröffnung des ersten Netzabschnitts",
+      "cat": "Städte",
+      "metric": "Eröffnung des ersten Netzabschnitts",
+      "sub": "Eröffnung des ersten Netzabschnitts",
+      "prompt": "Welches benannte Ereignis fand später statt?",
+      "notes": "Erster historischer Netzabschnitt; Madrid: Einweihung und öffentlicher Betrieb beide 1919. Nicht nur tiefliegende elektrische Tunnelbahnen.",
+      "id": "small-20261005-moreless-03",
+      "status": "draft",
+      "source_refs": [
+        "london",
+        "paris"
+      ],
+      "data_years": [
+        1863,
+        1900
+      ],
+      "visual": "metro",
+      "time_dependent": false
+    },
+    {
+      "l": "London Underground",
+      "r": "Metro Madrid",
+      "lv": 1863,
+      "rv": 1919,
+      "u": "Jahr · Eröffnung des ersten Netzabschnitts",
+      "cat": "Städte",
+      "metric": "Eröffnung des ersten Netzabschnitts",
+      "sub": "Eröffnung des ersten Netzabschnitts",
+      "prompt": "Welches benannte Ereignis fand später statt?",
+      "notes": "Erster historischer Netzabschnitt; Madrid: Einweihung und öffentlicher Betrieb beide 1919. Nicht nur tiefliegende elektrische Tunnelbahnen.",
+      "id": "small-20261005-moreless-04",
+      "status": "draft",
+      "source_refs": [
+        "london",
+        "madrid"
+      ],
+      "data_years": [
+        1863,
+        1919
+      ],
+      "visual": "metro",
+      "time_dependent": false
+    },
+    {
+      "l": "Galápagos-Inseln",
+      "r": "Serengeti-Nationalpark",
+      "lv": 1978,
+      "rv": 1981,
+      "u": "Jahr · Erstes UNESCO-Welterbe-Einschreibungsjahr",
+      "cat": "Weltkultur",
+      "metric": "Erstes UNESCO-Welterbe-Einschreibungsjahr",
+      "sub": "Erstes UNESCO-Welterbe-Einschreibungsjahr",
+      "prompt": "Welches benannte Ereignis fand später statt?",
+      "notes": "Erste Einschreibung; spätere Grenzerweiterungen zählen nicht. Gleichstand Serengeti/Reef wird nicht exportiert.",
+      "id": "small-20261005-moreless-05",
+      "status": "draft",
+      "source_refs": [
+        "galapagos",
+        "serengeti"
+      ],
+      "data_years": [
+        1978,
+        1981
+      ],
+      "visual": "heritage",
+      "time_dependent": false
+    },
+    {
+      "l": "Galápagos-Inseln",
+      "r": "Great Barrier Reef",
+      "lv": 1978,
+      "rv": 1981,
+      "u": "Jahr · Erstes UNESCO-Welterbe-Einschreibungsjahr",
+      "cat": "Weltkultur",
+      "metric": "Erstes UNESCO-Welterbe-Einschreibungsjahr",
+      "sub": "Erstes UNESCO-Welterbe-Einschreibungsjahr",
+      "prompt": "Welches benannte Ereignis fand später statt?",
+      "notes": "Erste Einschreibung; spätere Grenzerweiterungen zählen nicht. Gleichstand Serengeti/Reef wird nicht exportiert.",
+      "id": "small-20261005-moreless-06",
+      "status": "draft",
+      "source_refs": [
+        "galapagos",
+        "reef"
+      ],
+      "data_years": [
+        1978,
+        1981
+      ],
+      "visual": "heritage",
+      "time_dependent": false
+    },
+    {
+      "l": "Apollo 8",
+      "r": "Apollo 13",
+      "lv": 1968,
+      "rv": 1970,
+      "u": "Jahr · Startjahr",
+      "cat": "Raumfahrt",
+      "metric": "Startjahr",
+      "sub": "Startjahr",
+      "prompt": "Welches benannte Ereignis fand später statt?",
+      "notes": "",
+      "id": "small-20261005-moreless-07",
+      "status": "draft",
+      "source_refs": [
+        "apollo8",
+        "apollo13"
+      ],
+      "data_years": [
+        1968,
+        1970
+      ],
+      "visual": "space",
+      "time_dependent": false
+    },
+    {
+      "l": "Apollo 8",
+      "r": "Apollo 17",
+      "lv": 1968,
+      "rv": 1972,
+      "u": "Jahr · Startjahr",
+      "cat": "Raumfahrt",
+      "metric": "Startjahr",
+      "sub": "Startjahr",
+      "prompt": "Welches benannte Ereignis fand später statt?",
+      "notes": "",
+      "id": "small-20261005-moreless-08",
+      "status": "draft",
+      "source_refs": [
+        "apollo8",
+        "apollo17"
+      ],
+      "data_years": [
+        1968,
+        1972
+      ],
+      "visual": "space",
+      "time_dependent": false
+    },
+    {
+      "l": "Redwood National Park",
+      "r": "Big Cypress National Preserve",
+      "lv": 1968,
+      "rv": 1974,
+      "u": "Jahr · Einrichtung mit der benannten Schutzgebietsausweisung",
+      "cat": "Natur",
+      "metric": "Einrichtung mit der benannten Schutzgebietsausweisung",
+      "sub": "Einrichtung mit der benannten Schutzgebietsausweisung",
+      "prompt": "Welches benannte Ereignis fand später statt?",
+      "notes": "Benannte Bundesausweisung: National Park beziehungsweise National Preserve; Biscayne als Nationalpark 1980, nicht als National Monument 1968.",
+      "id": "small-20261005-moreless-09",
+      "status": "draft",
+      "source_refs": [
+        "redwood",
+        "cypress"
+      ],
+      "data_years": [
+        1968,
+        1974
+      ],
+      "visual": "nature",
+      "time_dependent": false
+    },
+    {
+      "l": "Redwood National Park",
+      "r": "Biscayne National Park",
+      "lv": 1968,
+      "rv": 1980,
+      "u": "Jahr · Einrichtung mit der benannten Schutzgebietsausweisung",
+      "cat": "Natur",
+      "metric": "Einrichtung mit der benannten Schutzgebietsausweisung",
+      "sub": "Einrichtung mit der benannten Schutzgebietsausweisung",
+      "prompt": "Welches benannte Ereignis fand später statt?",
+      "notes": "Benannte Bundesausweisung: National Park beziehungsweise National Preserve; Biscayne als Nationalpark 1980, nicht als National Monument 1968.",
+      "id": "small-20261005-moreless-10",
+      "status": "draft",
+      "source_refs": [
+        "redwood",
+        "biscayne"
+      ],
+      "data_years": [
+        1968,
+        1980
+      ],
+      "visual": "nature",
+      "time_dependent": false
+    }
+  ],
+  "estimate": [
+    {
+      "q": "Wie lang ist die Hauptspannweite der Akashi-Kaikyo-Brücke zwischen den Türmen, in Metern?",
+      "a": 1991,
+      "u": "m",
+      "cat": "Bauwerke",
+      "subject": "Akashi-Kaikyo-Brücke",
+      "id": "small-20261005-estimate-01",
+      "status": "draft",
+      "source_refs": [
+        "akashi"
+      ],
+      "data_years": [
+        1998
+      ],
+      "visual": "bridges",
+      "time_dependent": false,
+      "notes": "Historisches, ausdrücklich benanntes Ereignis; kein aktuelles Ranking."
+    },
+    {
+      "q": "Mit wie vielen geöffneten Stationen nahm die Pariser Métro-Linie 1 am 19. Juli 1900 den öffentlichen Betrieb auf?",
+      "a": 8,
+      "u": "Stationen",
+      "cat": "Städte",
+      "subject": "Métro Paris",
+      "id": "small-20261005-estimate-02",
+      "status": "draft",
+      "source_refs": [
+        "paris"
+      ],
+      "data_years": [
+        1900
+      ],
+      "visual": "metro",
+      "time_dependent": false,
+      "notes": "Historisches, ausdrücklich benanntes Ereignis; kein aktuelles Ranking."
+    },
+    {
+      "q": "In welchem Jahr wurden die Galápagos-Inseln erstmals UNESCO-Welterbe?",
+      "a": 1978,
+      "u": "Jahr",
+      "cat": "Weltkultur",
+      "subject": "Galápagos-Inseln",
+      "id": "small-20261005-estimate-03",
+      "status": "draft",
+      "source_refs": [
+        "galapagos"
+      ],
+      "data_years": [
+        1978
+      ],
+      "visual": "heritage",
+      "time_dependent": false,
+      "notes": "Historisches, ausdrücklich benanntes Ereignis; kein aktuelles Ranking."
+    },
+    {
+      "q": "Wie viele Astronauten gehörten zur Besatzung von Apollo 8 beim Start 1968?",
+      "a": 3,
+      "u": "Astronauten",
+      "cat": "Raumfahrt",
+      "subject": "Apollo 8",
+      "id": "small-20261005-estimate-04",
+      "status": "draft",
+      "source_refs": [
+        "apollo8"
+      ],
+      "data_years": [
+        1968
+      ],
+      "visual": "space",
+      "time_dependent": false,
+      "notes": "Historisches, ausdrücklich benanntes Ereignis; kein aktuelles Ranking."
+    },
+    {
+      "q": "In welchem Jahr wurde Redwood als US-Nationalpark gegründet, ohne die früheren State Parks mitzuzählen?",
+      "a": 1968,
+      "u": "Jahr",
+      "cat": "Natur",
+      "subject": "Redwood National Park",
+      "id": "small-20261005-estimate-05",
+      "status": "draft",
+      "source_refs": [
+        "redwood"
+      ],
+      "data_years": [
+        1968
+      ],
+      "visual": "nature",
+      "time_dependent": false,
+      "notes": "Historisches, ausdrücklich benanntes Ereignis; kein aktuelles Ranking."
+    }
+  ],
+  "facts": [
+    {
+      "s": "Die Akashi-Kaikyo-Brücke wurde vor der Golden Gate Bridge für den Verkehr geöffnet.",
+      "a": false,
+      "e": "Golden Gate eröffnete 1937, Akashi-Kaikyo 1998. Akashi-Kaikyo eröffnete also später.",
+      "cat": "Bauwerke",
+      "difficulty": "medium",
+      "id": "small-20261005-facts-01",
+      "status": "draft",
+      "source_refs": [
+        "akashi",
+        "golden"
+      ],
+      "data_years": [
+        1937,
+        1998
+      ],
+      "visual": "bridges",
+      "time_dependent": false,
+      "notes": "Historisches, ausdrücklich benanntes Ereignis; kein aktuelles Ranking."
+    },
+    {
+      "s": "Die Pariser Métro-Linie 1 wurde am 19. Juli 1900 für das Publikum eröffnet.",
+      "a": true,
+      "e": "Die RATP nennt den 19. Juli 1900 als öffentliche Eröffnung.",
+      "cat": "Städte",
+      "difficulty": "medium",
+      "id": "small-20261005-facts-02",
+      "status": "draft",
+      "source_refs": [
+        "paris"
+      ],
+      "data_years": [
+        1900
+      ],
+      "visual": "metro",
+      "time_dependent": false,
+      "notes": "Historisches, ausdrücklich benanntes Ereignis; kein aktuelles Ranking."
+    },
+    {
+      "s": "Serengeti und Great Barrier Reef wurden im selben Jahr erstmals UNESCO-Welterbe.",
+      "a": true,
+      "e": "Beide UNESCO-Einträge nennen 1981 als erstes Einschreibungsjahr.",
+      "cat": "Weltkultur",
+      "difficulty": "medium",
+      "id": "small-20261005-facts-03",
+      "status": "draft",
+      "source_refs": [
+        "serengeti",
+        "reef"
+      ],
+      "data_years": [
+        1981
+      ],
+      "visual": "heritage",
+      "time_dependent": false,
+      "notes": "Historisches, ausdrücklich benanntes Ereignis; kein aktuelles Ranking."
+    },
+    {
+      "s": "Die Besatzung von Apollo 13 landete während ihrer Mission 1970 auf dem Mond.",
+      "a": false,
+      "e": "Die geplante Mondlandung wurde abgebrochen; die Besatzung kehrte zur Erde zurück.",
+      "cat": "Raumfahrt",
+      "difficulty": "medium",
+      "id": "small-20261005-facts-04",
+      "status": "draft",
+      "source_refs": [
+        "apollo13"
+      ],
+      "data_years": [
+        1970
+      ],
+      "visual": "space",
+      "time_dependent": false,
+      "notes": "Historisches, ausdrücklich benanntes Ereignis; kein aktuelles Ranking."
+    },
+    {
+      "s": "Biscayne erhielt erst 1980 die Ausweisung als Nationalpark, obwohl es schon zuvor ein National Monument war.",
+      "a": true,
+      "e": "Biscayne wurde 1968 als National Monument eingerichtet und 1980 zum Nationalpark umgewandelt.",
+      "cat": "Natur",
+      "difficulty": "medium",
+      "id": "small-20261005-facts-05",
+      "status": "draft",
+      "source_refs": [
+        "biscayne"
+      ],
+      "data_years": [
+        1968,
+        1980
+      ],
+      "visual": "nature",
+      "time_dependent": false,
+      "notes": "Historisches, ausdrücklich benanntes Ereignis; kein aktuelles Ranking."
+    }
+  ],
+  "jeopardy": [
+    {
+      "q": "Welche japanische Hängebrücke verbindet Kobe/Maiko mit Awaji/Matsuho und wurde 1998 für den Verkehr geöffnet?",
+      "a": "Akashi-Kaikyo-Brücke|Akashi Kaikyo|Akashi-Kaikyo",
+      "cat": "Geschichte",
+      "difficulty": 3,
+      "id": "small-20261005-jeopardy-01",
+      "status": "draft",
+      "source_refs": [
+        "akashi"
+      ],
+      "data_years": [
+        1998
+      ],
+      "visual": "bridges",
+      "time_dependent": false,
+      "notes": "Historisches, ausdrücklich benanntes Ereignis; kein aktuelles Ranking."
+    },
+    {
+      "q": "In welcher europäischen Hauptstadt eröffnete 1863 die Metropolitan Railway zwischen Paddington und Farringdon?",
+      "a": "London",
+      "cat": "Geografie",
+      "difficulty": 1,
+      "id": "small-20261005-jeopardy-02",
+      "status": "draft",
+      "source_refs": [
+        "london"
+      ],
+      "data_years": [
+        1863
+      ],
+      "visual": "metro",
+      "time_dependent": false,
+      "notes": "Historisches, ausdrücklich benanntes Ereignis; kein aktuelles Ranking."
+    },
+    {
+      "q": "Zu welchem Staat gehören die 1978 als Welterbe eingetragenen Galápagos-Inseln?",
+      "a": "Ecuador",
+      "cat": "Weltkultur",
+      "difficulty": 2,
+      "id": "small-20261005-jeopardy-03",
+      "status": "draft",
+      "source_refs": [
+        "galapagos"
+      ],
+      "data_years": [
+        1978
+      ],
+      "visual": "heritage",
+      "time_dependent": false,
+      "notes": "Historisches, ausdrücklich benanntes Ereignis; kein aktuelles Ranking."
+    },
+    {
+      "q": "Welcher Apollo-8-Astronaut fotografierte am 24. Dezember 1968 das berühmte Earthrise-Motiv?",
+      "a": "William Anders|Bill Anders|Anders",
+      "cat": "Raumfahrtmissionen",
+      "difficulty": 4,
+      "id": "small-20261005-jeopardy-04",
+      "status": "draft",
+      "source_refs": [
+        "apollo8"
+      ],
+      "data_years": [
+        1968
+      ],
+      "visual": "space",
+      "time_dependent": false,
+      "notes": "Historisches, ausdrücklich benanntes Ereignis; kein aktuelles Ranking."
+    },
+    {
+      "q": "Welcher US-Präsident unterzeichnete 1968 das Gesetz zur Gründung des Redwood National Park?",
+      "a": "Lyndon B. Johnson|Lyndon Johnson|Johnson",
+      "cat": "Nationalparks",
+      "difficulty": 5,
+      "id": "small-20261005-jeopardy-05",
+      "status": "draft",
+      "source_refs": [
+        "redwoodhistory"
+      ],
+      "data_years": [
+        1968
+      ],
+      "visual": "nature",
+      "time_dependent": false,
+      "notes": "Historisches, ausdrücklich benanntes Ereignis; kein aktuelles Ranking."
+    }
+  ]
+}
