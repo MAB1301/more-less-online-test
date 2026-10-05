@@ -13,3 +13,27 @@
 .challengeConfig{padding:16px;border:1px solid #536183;border-radius:18px;margin:14px 0;background:#131e32}.challengeConfig label{display:flex;gap:14px;align-items:center;flex-wrap:wrap}.challengeConfig select{padding:12px;background:#1d2d45;color:#fff;border:1px solid #64748b;border-radius:12px}.challengeConfig p{margin:10px 0 0;color:#c1cfdf;font-size:14px}
 .rescueOffer{padding:14px 18px;background:#203347;border:1px solid #6f96a3;border-radius:16px;margin:12px auto;max-width:760px}.rescueOffer p{margin:0 0 8px}.rescueOffer button{min-height:44px}.rescueOffer[hidden]{display:none}.rescueStatus{display:block;margin-top:8px;color:#b9dcdf}
 .cosmeticAvatar{position:relative}.cosmeticAvatar:after{content:"";position:absolute;inset:-12%;background:var(--frame-art,none) center/contain no-repeat;pointer-events:none}.cosmeticPlayerTitle{color:#b9c8dd;font-size:12px}
+
+/* Vector ornaments are shared by the shop, profile and leaderboard. */
+[data-frame].cosmeticAvatar,[data-frame].profileAvatar,[data-frame].dailyPodiumAvatar{border:2px solid #29374c!important;outline:none!important;box-shadow:inset 0 0 0 1px #ffffff12!important;isolation:isolate;overflow:visible}
+[data-frame].cosmeticAvatar:after,[data-frame].profileAvatar:after,[data-frame].dailyPodiumAvatar:after{content:"";position:absolute;inset:-18%;background:var(--frame-art,none) center/contain no-repeat;pointer-events:none;z-index:1}
+.cosmeticAvatar img{position:relative;z-index:0}
+.cosmeticPlayer{flex-wrap:wrap;column-gap:12px;row-gap:5px}
+.cosmeticPlayerTitle{display:inline-flex;align-items:center;justify-content:center;gap:6px;max-width:100%;padding:5px 10px;border:1px solid var(--title-color,#aab6d0);border-radius:7px;background:linear-gradient(120deg,var(--title-bg,#263044),#101b2c);color:var(--title-color,#d8e1f3);font-size:11px;font-weight:700;line-height:1.4;letter-spacing:.25px;text-align:center;overflow-wrap:anywhere;box-sizing:border-box}
+.cosmeticPlayerTitle:before{content:"✦";font-size:10px;flex:none}
+[data-title="title-none"]:before{content:none}
+[data-title-tone="mint"]{--title-color:#98f0cc;--title-bg:#173c38}
+[data-title-tone="blue"]{--title-color:#a3d7ff;--title-bg:#213854}
+[data-title-tone="gold"]{--title-color:#f4dc98;--title-bg:#473827}
+[data-title-tone="violet"]{--title-color:#d7b3ff;--title-bg:#382649}
+[data-title-tone="amber"]{--title-color:#f4c598;--title-bg:#463122}
+[data-title-tone="rose"]{--title-color:#ffb9d3;--title-bg:#482b40}
+#cosmeticPreviewTitle:empty{display:none}
+#cosmeticPreviewTitle{display:flex;justify-content:center;max-width:100%}
+[data-name-color="color-pearl"]{color:#f5dfed!important}
+[data-name-color="color-ocean"]{color:#7fc9ff!important}
+[data-name-color="color-aurora"]{color:#83ecc4!important}
+.cosmeticColorChip{display:block;width:72%;height:5px;border-radius:4px;background:currentColor;box-shadow:0 0 12px color-mix(in srgb,currentColor 35%,transparent)}
+
+.cosmeticShop .cosmeticPlayerTitle{color:var(--title-color,#d8e1f3);width:auto}
+.cosmeticPreview #cosmeticPreviewTitle .cosmeticPlayerTitle{font-size:11px}
