@@ -121,3 +121,5 @@ await import('./progression-check.mjs');
 await import("./expansion-8-check.mjs");
 
 await import("./asset-cache-check.mjs");
+
+await import('./asset-cache-ui-check.mjs');
