@@ -406,3 +406,13 @@ html body .modeQuestionVisual{position:relative!important;height:clamp(155px,23v
 @media(max-width:550px){html body .modeQuestionVisual{height:160px!important;max-width:100%!important}.estimateScaleField{font-size:14px}.estimateInputPreview{font-size:12px}}
 /* Respect hidden controls after buzz, submit and manual review. */
 #jeopQuestion #jeopAnswerEntry.hide,#jeopQuestion #jeopJudge.hide,#jeopQuestion #jeopJokers.hide,#jeopQuestion #jeopChoices.hide,#jeopQuestion .jeopBuzz.hide,#jeopQuestion #jeopAnswer.hide{display:none!important}
+
+/* Image pre-download is available directly from the main menu. */
+#homeScreen .homeImageDownload{display:flex;flex-direction:column;align-items:center;gap:8px;width:min(100%,360px)}
+#homeScreen .homeImageDownloadButton{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 16px;border:1px solid #8b72c8;border-radius:14px;background:#241545;color:#f4edff;font:inherit;font-weight:650;cursor:pointer}
+#homeScreen .homeImageDownloadButton svg{width:21px;height:21px;flex-shrink:0}
+#homeScreen .homeImageDownloadButton:disabled{opacity:.55;cursor:default}
+#homeScreen .homeImageDownloadButton:focus-visible{outline:3px solid #bda5ff;outline-offset:3px}
+#homeScreen .homeImageDownload progress{width:100%;height:10px;accent-color:#bda5ff}
+#homeScreen .homeImageDownload p{margin:0;line-height:1.45;color:#ded3f5}
+#homeScreen .homeImageDownload [hidden]{display:none}
