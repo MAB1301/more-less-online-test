@@ -1,37 +1,57 @@
-/* Registration and background warming happen after the page is usable. */
+/* Full offline game, persistent-storage request and user-controlled release activation. */
 (()=>{
- const script=document.currentScript,root=new URL('../',script.src);let workerReady=null,busy=false;
- const panel=document.createElement('fieldset');panel.className='assetCachePanel';const legend=document.createElement('legend');legend.textContent='Bilder auf diesem Gerät';const description=document.createElement('p');description.className='tiny';description.textContent='Gesehene Grafiken werden automatisch gespeichert. Alle Spielbilder vorab herunterladen: ungefähr 12 MB, am besten im WLAN. Neue Bildversionen werden automatisch ersetzt.';const button=document.createElement('button');button.type='button';button.textContent='Spielbilder vorab speichern';button.disabled=true;const status=document.createElement('p');status.className='tiny';status.setAttribute('role','status');const progress=document.createElement('progress');progress.hidden=true;progress.setAttribute('aria-label','Gespeicherte Spielbilder');panel.append(legend,description,button,progress,status);document.getElementById('comfortStatus')?.before(panel);
- const controls=[{button,status,progress}];
- const header=document.querySelector('#homeScreen .homeHeader');
- if(header){
-  const home=document.createElement('div');home.className='homeImageDownload';
-  const homeButton=document.createElement('button');homeButton.type='button';homeButton.className='homeImageDownloadButton';homeButton.disabled=true;homeButton.setAttribute('aria-label','Spielbilder vorab herunterladen');homeButton.title='Spielbilder auf diesem Gerät speichern · ca. 12 MB';
-  homeButton.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m-5-5 5 5 5-5M4 16v4h16v-4"/></svg><span>Bilder laden</span>';
-  const homeStatus=document.createElement('p');homeStatus.className='tiny';homeStatus.setAttribute('role','status');homeStatus.hidden=true;
-  const homeProgress=document.createElement('progress');homeProgress.hidden=true;homeProgress.setAttribute('aria-label','Gespeicherte Spielbilder');
-  home.append(homeButton,homeProgress,homeStatus);header.append(home);controls.push({button:homeButton,status:homeStatus,progress:homeProgress});
+ if(window.ML_APP_BUILD)return;
+ const root=new URL('../',document.currentScript.src);let registration=null,busy=false,activationRequested=false,updateDialog=null,deferredPrompt=null,lastCheck=0;
+ const panel=document.createElement('fieldset');panel.className='assetCachePanel';panel.innerHTML='<legend>Web-App & Offline-Spiel</legend><p>Bilder, Animationen, Sounds und Fragen einmal auf diesem Gerät speichern. Internet brauchst du weiterhin für Online-Spiel und die Account-Sicherung.</p><button type="button" id="offlineGameDownload">Offline herunterladen</button><progress id="offlineGameProgress" hidden aria-label="Offline-Download"></progress><p id="offlineGameStatus" role="status">Offline-Paket wird geprüft …</p><p id="offlineStorageStatus" class="tiny"></p><button type="button" id="pwaInstall">App installieren</button><button type="button" id="pwaCheckUpdates">Updates prüfen</button><p id="pwaInstallHelp" class="tiny">Auf iPhone/iPad: in Safari „Teilen“ → „Zum Home-Bildschirm“ → als Web-App öffnen. Zuerst den Offline-Download abschließen.</p>';
+ document.getElementById('comfortStatus')?.before(panel);
+ const node=id=>document.getElementById(id),button=node('offlineGameDownload'),progress=node('offlineGameProgress'),status=node('offlineGameStatus');
+ const header=document.querySelector('#homeScreen .homeHeader');let homeButton,homeStatus,homeProgress;
+ if(header){const home=document.createElement('div');home.className='homeImageDownload';home.innerHTML='<button type="button" class="homeImageDownloadButton">↓ Offline herunterladen</button><progress hidden aria-label="Offline-Download"></progress><p class="tiny" role="status"></p>';header.append(home);homeButton=home.querySelector('button');homeProgress=home.querySelector('progress');homeStatus=home.querySelector('p')}
+ const controls=[{button,progress,status},...(homeButton?[{button:homeButton,progress:homeProgress,status:homeStatus}]:[])];
+ function text(value){for(const c of controls)c.status.textContent=value}
+ function enabled(value){for(const c of controls)c.button.disabled=!value}
+ function message(worker,type,onProgress){return new Promise((resolve,reject)=>{if(!worker){reject(Error('Offline-Speicher ist noch nicht bereit.'));return}const channel=new MessageChannel();let timer;
+  const renew=()=>{clearTimeout(timer);timer=setTimeout(()=>{channel.port1.close();reject(Error('Download unterbrochen. Bitte erneut versuchen.'))},45000)};renew();
+  channel.port1.onmessage=event=>{renew();const data=event.data;onProgress?.(data);if(data.done){clearTimeout(timer);channel.port1.close();data.error?reject(Error(data.error)):resolve(data)}};
+  worker.postMessage({type},[channel.port2]);
+ })}
+ async function storageStatus(request=false){try{const granted=request&&navigator.storage?.persist?await navigator.storage.persist():await navigator.storage?.persisted?.();node('offlineStorageStatus').textContent=granted?'Dauerhafter Speicher bewilligt. Bewusstes Löschen der Website-Daten bleibt möglich.':'Offline-Speicher aktiv. Der Browser kann ihn bei Platzmangel löschen; bei Bedarf erneut herunterladen.'}catch{node('offlineStorageStatus').textContent='Speicherschutz ist in diesem Browser nicht verfügbar.'}}
+ function renderState(data){const mb=(data.bytes/1000000).toFixed(1);text(data.ready?'Offline bereit · '+mb+' MB · Version '+data.version.slice(0,8):'Noch nicht vollständig offline · '+data.completed+' / '+data.total+' Dateien · '+mb+' MB');for(const c of controls)c.button.textContent=data.ready?'Offline-Paket prüfen':'↓ Offline herunterladen'}
+ async function audit(){if(registration?.active){renderState(await message(registration.active,'GAME_STATUS'));await storageStatus()}}
+ function safeMenu(){return !document.hidden&&!document.querySelector('dialog[open]')&&(typeof S==='undefined'||!S.room)&&(typeof SOLO==='undefined'||!SOLO.on)&&['estimateGame','factGame','jeopGame'].every(id=>!node(id)||node(id).classList.contains('hide'))&&!!document.querySelector('#homeScreen:not(.hide)')}
+ function announce(){if(!registration?.waiting||busy||updateDialog?.open||!safeMenu())return;
+  if(!updateDialog){updateDialog=document.createElement('dialog');updateDialog.className='appUpdateDialog';updateDialog.setAttribute('aria-labelledby','webUpdateTitle');updateDialog.innerHTML='<h2 id="webUpdateTitle">Eine neue Version des Spiels ist vorhanden</h2><p>Neue oder geänderte Dateien laden. Gespeicherte Bilder und Sounds werden wiederverwendet.</p><p role="status" class="webUpdateStatus"></p><div class="row"><button type="button" class="p webUpdateApply">Update laden & neu starten</button><button type="button" class="webUpdateLater">Später</button></div>';document.body.append(updateDialog);updateDialog.querySelector('.webUpdateApply').onclick=()=>download(true);updateDialog.querySelector('.webUpdateLater').onclick=()=>{if(busy)return;updateDialog.close();lastDismiss=registration.waiting};updateDialog.oncancel=event=>{if(busy)event.preventDefault();else lastDismiss=registration.waiting}}
+  if(lastDismiss===registration.waiting)return;updateDialog.showModal();updateDialog.querySelector('.webUpdateApply').focus();
  }
- function setStatus(text,reveal=false){for(const control of controls){control.status.textContent=text;if(reveal)control.status.hidden=false}}
- function setDisabled(disabled){for(const control of controls)control.button.disabled=disabled}
- function message(worker,payload,onProgress){return new Promise((resolve,reject)=>{const channel=new MessageChannel();let timer;function renew(){clearTimeout(timer);timer=setTimeout(()=>{channel.port1.close();reject(Error('Das Speichern wurde unterbrochen. Du kannst es erneut starten.'))},45000)}renew();channel.port1.onmessage=event=>{renew();onProgress?.(event.data);if(event.data.done){clearTimeout(timer);channel.port1.close();resolve(event.data)}};worker.postMessage({type:'CACHE_ASSETS',...payload},[channel.port2])})}
- async function register(){if(!window.isSecureContext||!('serviceWorker' in navigator)){setDisabled(true);setStatus('Dieser Browser unterstützt den zusätzlichen Bildspeicher hier nicht.',true);return null}try{await navigator.serviceWorker.register(new URL('service-worker.js',root),{scope:root.pathname,updateViaCache:'none'});const registration=await navigator.serviceWorker.ready;setDisabled(false);setStatus('Automatischer Bildspeicher aktiv.');return registration.active}catch{setDisabled(true);setStatus('Bildspeicher konnte nicht aktiviert werden. Die Seite bleibt normal spielbar.',true);return null}}
- async function downloadImages(){
-  if(busy)return;busy=true;setDisabled(true);
-  for(const control of controls){control.button.setAttribute('aria-busy','true');control.progress.hidden=false;control.progress.removeAttribute('value')}
-  setStatus('Bildspeicher wird vorbereitet …',true);
-  try{
-   const worker=await workerReady;if(!worker)throw Error('Bildspeicher ist in diesem Browser nicht verfügbar.');
-   const result=await message(worker,{allImages:true},data=>{
-    for(const control of controls){control.progress.max=data.total||1;control.progress.value=data.completed}
-    setStatus((data.completed-data.failed)+' / '+data.total+' Bilder gespeichert'+(data.failed?' · '+data.failed+' noch nicht verfügbar':''),true);
-   });
-   setStatus(result.failed?'Speichern beendet · '+result.failed+' Bilder konnten nicht gespeichert werden. Du kannst es erneut versuchen.':'Alle '+result.total+' Spielbilder sind auf diesem Gerät gespeichert.',true);
-  }catch(error){setStatus(error.message,true)}finally{
-   busy=false;setDisabled(false);for(const control of controls){control.button.removeAttribute('aria-busy');control.progress.hidden=true}
-  }
+ let lastDismiss=null;
+ async function download(update=false){
+  if(busy)return;busy=true;enabled(false);if(updateDialog?.open)for(const selector of ['.webUpdateApply','.webUpdateLater'])updateDialog.querySelector(selector).disabled=true;for(const c of controls){c.progress.hidden=false;c.progress.removeAttribute('value');c.button.setAttribute('aria-busy','true')}
+  try{await storageStatus(true);if(!registration?.active)await register();const worker=update?registration.waiting:registration.active;
+   if(update&&!worker)throw Error('Dieses Update ist nicht mehr verfügbar. Bitte erneut prüfen.');
+   text(update?'Update wird geladen …':'Offline-Spiel wird heruntergeladen …');
+   const result=await message(worker,'CACHE_GAME',data=>{for(const c of controls){c.progress.max=data.total||1;c.progress.value=data.completed||0}const line=(data.completed-data.failed)+' / '+data.total+' Dateien gespeichert'+(data.failed?' · '+data.failed+' fehlen':'');text(line);if(updateDialog?.open)updateDialog.querySelector('.webUpdateStatus').textContent=line});
+   if(result.failed)throw Error(result.failed+' Dateien fehlen. Bitte mit Internet erneut herunterladen.');
+   if(update){if((typeof S!=='undefined'&&S.room)||(typeof SOLO!=='undefined'&&SOLO.on)||['estimateGame','factGame','jeopGame'].some(id=>node(id)&&!node(id).classList.contains('hide')))throw Error('Update bereit. Bitte zuerst die laufende Runde beenden.');activationRequested=true;await message(worker,'ACTIVATE_UPDATE');return}
+   renderState({...result,ready:true});
+  }catch(error){activationRequested=false;text(error.message);if(updateDialog?.open)updateDialog.querySelector('.webUpdateStatus').textContent=error.message}
+  finally{busy=false;enabled(true);if(updateDialog?.open)for(const selector of ['.webUpdateApply','.webUpdateLater'])updateDialog.querySelector(selector).disabled=false;for(const c of controls){c.progress.hidden=true;c.button.removeAttribute('aria-busy')}}
  }
- for(const control of controls)control.button.onclick=downloadImages;
- function start(){workerReady=register();const warm=async()=>{if(navigator.connection?.saveData||document.documentElement.classList.contains('dataSaving'))return;const worker=await workerReady;if(!worker)return;const paths=performance.getEntriesByType('resource').map(entry=>{const u=new URL(entry.name);return u.origin===root.origin&&u.pathname.startsWith(root.pathname)?u.pathname.slice(root.pathname.length)+u.search:''}).filter(p=>/^(assets\/|content\/approved\.js(?:\?|$))/.test(p)&&/\.(js|mjs|css|webp|svg|png)(?:\?.*)?$/.test(p));message(worker,{paths},()=>{}).catch(()=>{})};if('requestIdleCallback' in window)requestIdleCallback(warm,{timeout:5000});else setTimeout(warm,2000)}
- if(document.readyState==='complete')start();else window.addEventListener('load',start,{once:true});
+ async function register(){
+  if(!window.isSecureContext||!('serviceWorker' in navigator))throw Error('Offline-Spiel benötigt HTTPS und einen Browser mit Web-App-Unterstützung.');
+  registration=await navigator.serviceWorker.getRegistration(root.href);
+  if(!registration){text('Spiel wird für Offline-Betrieb vorbereitet …');registration=await navigator.serviceWorker.register(new URL('service-worker.js',root),{scope:root.pathname,updateViaCache:'none'})}
+  registration.addEventListener('updatefound',()=>{const worker=registration.installing;worker?.addEventListener('statechange',()=>{if(worker.state==='installed')announce()})});
+  if(!registration.active){await new Promise((resolve,reject)=>{const worker=registration.installing;if(!worker){reject(Error('Download konnte nicht gestartet werden.'));return}const timer=setTimeout(()=>reject(Error('Vorbereitung dauert länger. Bitte später erneut versuchen.')),900000);const check=()=>{if(worker.state==='activated'){clearTimeout(timer);resolve()}else if(worker.state==='redundant'){clearTimeout(timer);reject(Error('Offline-Download fehlgeschlagen. Bitte mit Internet erneut versuchen.'))}};worker.addEventListener('statechange',check);check()})}
+  announce();return registration;
+ }
+ async function checkUpdates(force=false){if(!registration||navigator.onLine===false){text('Für neue Updates brauchst du eine Internetverbindung.');return}if(!force&&Date.now()-lastCheck<15*60*1000)return;lastCheck=Date.now();try{await registration.update();if(force)lastDismiss=null;announce();if(force&&!registration.waiting&&!registration.installing)text('Keine neue Version verfügbar.')}catch{text('Updates konnten gerade nicht geprüft werden. Dein gespeichertes Spiel bleibt verfügbar.')}}
+ for(const c of controls)c.button.onclick=()=>download();node('pwaCheckUpdates').onclick=()=>checkUpdates(true);
+ node('pwaInstall').onclick=async()=>{if(deferredPrompt){await deferredPrompt.prompt();deferredPrompt=null}else node('pwaInstallHelp').textContent='In Safari: Teilen → Zum Home-Bildschirm → als Web-App öffnen. Auf anderen Geräten: im Browsermenü „App installieren“ wählen.'};
+ window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredPrompt=event});
+ navigator.serviceWorker?.addEventListener('controllerchange',()=>{if(activationRequested)location.reload();else audit().catch(()=>{})});
+ navigator.serviceWorker?.addEventListener('message',event=>{if(!busy||event.data?.type!=='OFFLINE_INSTALL_PROGRESS'||event.source!==registration?.installing)return;const data=event.data;for(const c of controls){c.progress.max=data.total||1;c.progress.value=data.completed||0}text((data.completed-data.failed)+' / '+data.total+' Dateien gespeichert'+(data.failed?' · '+data.failed+' fehlen':''))});
+ window.addEventListener('online',()=>{audit().catch(()=>{});checkUpdates()});document.addEventListener('visibilitychange',()=>{if(!document.hidden){audit().catch(()=>{});checkUpdates();announce()}});
+ window.gameWebApp={download,checkUpdates,audit};
+ async function start(){try{if(!window.isSecureContext||!('serviceWorker' in navigator))throw Error('Offline-Spiel benötigt HTTPS und einen Browser mit Web-App-Unterstützung.');registration=await navigator.serviceWorker.getRegistration(root.href);if(!registration){text('Noch nicht offline · ca. 33 MB einmal herunterladen.');await storageStatus();return}await register();enabled(true);await checkUpdates();if(registration.waiting){if(!busy)text('Neue Offline-Version bereit. Update laden & neu starten.');await storageStatus();return}await audit()}catch(error){enabled(true);text(error.message)}}
+ setInterval(announce,5000);if(document.readyState==='complete')start();else window.addEventListener('load',start,{once:true});
 })();

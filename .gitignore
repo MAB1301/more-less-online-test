@@ -1,2 +1,12 @@
 __pycache__/
 *.pyc
+
+node_modules/
+www/
+ios/App/App/public/
+ios/App/App/capacitor.config.json
+ios/App/CapApp-SPM/.build/
+build/
+
+dist-web/
+*.log

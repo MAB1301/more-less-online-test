@@ -20,12 +20,14 @@ export function createAccountSession({url,key,storage,fetchImpl=fetch,now=Date.n
   refreshFlight=flight;try{return await flight}finally{if(refreshFlight===flight){refreshFlight=null;refreshUID=null}}
  }
  async function current(){const saved=read();if(!saved)return null;return saved.expiresAt<=now()+60000?refresh():{...saved}}
- async function authorized(path,body,method='POST',headers={}){
-  let auth=await current();if(!auth)throw Error('Bitte anmelden.');const owner=auth.uid;
+ async function authorized(path,body,method='POST',headers={},expectedUID=null){
+  let auth=await current();if(!auth)throw Error('Bitte anmelden.');if(expectedUID&&auth.uid!==expectedUID)throw Error('Der Account wurde inzwischen gewechselt. Bitte erneut versuchen.');const owner=auth.uid;
   const sameOwner=()=>{if(read()?.uid!==owner)throw Error('Der Account wurde inzwischen gewechselt. Bitte die Ansicht erneut öffnen.')};
   try{const data=await call(path,body,auth.token,method,headers);sameOwner();return data}catch(error){sameOwner();if(error.status!==401)throw error;auth=await refresh();sameOwner();const data=await call(path,body,auth.token,method,headers);sameOwner();return data}
  }
  return {
+  // Local identity only; never use this as server authorization.
+  peek(){const saved=read();return saved?{uid:saved.uid,guest:saved.guest}:null},
   current,refresh,authorized,
   async invitations(){const auth=await current();return authorized('/rest/v1/ml_game_invitations?select=*&or=(sender_id.eq.'+auth.uid+',recipient_id.eq.'+auth.uid+')&status=eq.pending&expires_at=gt.'+encodeURIComponent(new Date(now()).toISOString())+'&order=created_at.desc&limit=50',undefined,'GET')},
   async sendInvitation(recipient,room){return authorized('/rest/v1/rpc/ml_send_game_invitation',{p_recipient:recipient,p_room:room})},
@@ -35,7 +37,7 @@ export function createAccountSession({url,key,storage,fetchImpl=fetch,now=Date.n
   async importCallback(token,refreshToken,expires=3600){const user=await call('/auth/v1/user',undefined,token,'GET');return save({access_token:token,refresh_token:refreshToken,expires_in:expires,user})},
   forget(){storage.removeItem(store);session=null},
   async registerNew(email,password,redirect){const result=await call('/auth/v1/signup'+(redirect?'?redirect_to='+encodeURIComponent(redirect):''),{email,password});return result.access_token?{session:save(result),confirmationRequired:false}:{session:null,confirmationRequired:true}},
-  async recover(email,redirect){return call('/auth/v1/recover?redirect_to='+encodeURIComponent(redirect),{email})},
+  async recover(email,redirect){return call('/auth/v1/recover'+(redirect?'?redirect_to='+encodeURIComponent(redirect):''),{email})},
   async changePassword(password){return authorized('/auth/v1/user',{password},'PUT')},
   async readProfile(){const auth=await current();return (await authorized('/rest/v1/ml_profiles?user_id=eq.'+auth.uid+'&select=user_id,handle,display_name',undefined,'GET'))?.[0]||null},
   async updateProfile(handle,displayName){const auth=await current();return authorized('/rest/v1/ml_profiles?user_id=eq.'+auth.uid,{handle,display_name:displayName},'PATCH')},

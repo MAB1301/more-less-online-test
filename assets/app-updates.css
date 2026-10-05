@@ -1,0 +1,5 @@
+.appUpdateDialog{max-width:30rem;width:calc(100% - 2rem);border:1px solid #bda4ff;border-radius:1.25rem;padding:1.5rem;background:#20133c;color:#fff;box-sizing:border-box}
+.appUpdateDialog::backdrop{background:rgb(0 0 0 / .65)}
+.appUpdateDialog h2{font-size:1.4rem;line-height:1.3}
+.appUpdateDialog .appUpdateLink{display:inline-flex;align-items:center;min-height:44px;padding:0 1rem;border-radius:.75rem;background:#e2d2ff;color:#26123f;text-decoration:none;font-weight:700}
+.appUpdateDialog button{min-height:44px}

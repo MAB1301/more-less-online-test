@@ -22,3 +22,7 @@ html=re.sub(r'(src|href)="((?:assets|content)/[^"]+)"',reference,(ROOT/'index.ht
 (ROOT/'offline/index.html').write_text(html.replace('src="assets/','src="../assets/').replace('href="assets/','href="../assets/').replace('src="content/','src="../content/'))
 print(f'{len(revisions)} public assets; {len(images)} images; {size/1e6:.1f} MB optional image download')
 if __name__=='__main__':pass
+
+# Generate the complete offline snapshot only after HTML references are final.
+import runpy
+runpy.run_path(str(ROOT/'scripts/build-pwa-manifest.py'))

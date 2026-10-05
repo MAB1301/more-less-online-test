@@ -4,7 +4,7 @@ window.gameAccount=client;
 let profile=null,accountBusy=false,loading=false,settingsTimer=null;
 const $=id=>document.getElementById(id),message=text=>{$('accountMenuStatus').textContent=text};
 const errorText=error=>/email_address_not_authorized|email.*not.*authorized/i.test(error.message)?'Der E-Mail-Versand ist im Projekt noch nicht für diese Adresse eingerichtet.':error.status===409?'Dieser Benutzername oder diese Freundschaft existiert bereits.':error.message;
-const redirect=()=>location.origin+location.pathname;
+const redirect=()=>window.ML_APP_BUILD?undefined:location.origin+location.pathname;
 function playingSolo(){return !!SOLO.on||['estimateGame','jeopGame','factGame'].some(id=>$(id)&&!$(id).classList.contains('hide'))}
 function activeMatch(){return !!S.room||DAILY.busy||!!(DAILY.data?.attempt&&!DAILY.data.attempt.complete&&!$('dailyOverlay').classList.contains('hide'))}
 function backupGuest(){try{const saved=localStorage.getItem('ml_account_auth_v1');if(saved&&JSON.parse(saved).guest)localStorage.setItem('ml_guest_account_backup_v1',saved);if(!localStorage.getItem('ml_guest_appearance_backup_v1'))localStorage.setItem('ml_guest_appearance_backup_v1',JSON.stringify({profile:localStorage.getItem('ml_guest_profile_v1'),preferences:localStorage.getItem('ml_game_preferences_v1')}))}catch{}}
@@ -117,4 +117,3 @@ window.loadAccountInvitations=async function loadAccountInvitations(){
 window.accountReady.then(()=>loadAccountInvitations()).catch(()=>{});
 setInterval(()=>{if(!document.hidden)loadAccountInvitations().catch(()=>{})},30000);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)loadAccountInvitations().catch(()=>{})});
-
