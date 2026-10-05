@@ -1,5 +1,14 @@
 # MORE / LESS – Online Test
 
+## Installierbare Offline-Web-App
+
+Mit Safari auf dem iPhone/iPad oder einem kompatiblen Browser auf anderen Geräten:
+Spiel öffnen, **Offline herunterladen** abschließen und zum Home-Bildschirm hinzufügen.
+Das vollständige Paket enthält Bilder, Animationen, Fragen und Sounds. Neue Versionen
+werden angekündigt und können mit **Update laden & neu starten** übernommen werden.
+Unveränderte Dateien werden wiederverwendet. Installation und Updates benötigen keine
+Apple-Mitgliedschaft. [Anleitung und Update-Ablauf](docs/web-app.md).
+
 Separate Testumgebung für den Online-Multiplayer. Die produktive App im Repository `more-less` bleibt davon getrennt.
 
 Backend: Supabase Anonymous Auth + RLS/RPC. Diese Testversion dient zunächst dem Zwei-Geräte-Test für Raum erstellen/beitreten, Synchronisierung, Teams und MORE/LESS-Fragen.

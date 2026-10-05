@@ -1,0 +1,26 @@
+name: Build offline Web App
+on:
+  push:
+    branches: [Main]
+  pull_request:
+    branches: [Main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  web-app:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci
+      - run: npm run pwa:build
+      - run: npm test
+      - uses: actions/upload-artifact@v4
+        with:
+          name: GameNight-Web-App
+          path: dist-web/
+          if-no-files-found: error
+          retention-days: 14
