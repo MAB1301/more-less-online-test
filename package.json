@@ -5,6 +5,6 @@
   "scripts": {
     "pwa:build": "node scripts/build-web-app.mjs",
     "test:pwa": "node scripts/pwa-check.mjs",
-    "test": "node scripts/regression-check.mjs && npm run test:pwa"
+    "test": "node scripts/regression-check.mjs && node scripts/check-expansion-9.mjs && npm run test:pwa"
   }
 }

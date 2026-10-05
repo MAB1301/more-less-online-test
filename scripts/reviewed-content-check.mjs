@@ -1,6 +1,6 @@
 import fs from 'node:fs';import vm from 'node:vm';import assert from 'node:assert/strict';
-const html=fs.readFileSync('index.html','utf8'),ctx={window:{}};vm.runInNewContext(fs.readFileSync('content/approved.js','utf8'),ctx);const pack=ctx.window.GAME_CONTENT_PACK;for(const kind of ['moreless','estimate','facts','jeopardy'])pack[kind]=pack[kind].filter(q=>q.expansion!==8);
-const groups=Object.groupBy(pack.moreless,q=>q.cat);assert.equal(groups['Fußballer'].length,56);assert.equal(groups.Autos.length,20);
+const html=fs.readFileSync('index.html','utf8'),ctx={window:{}};vm.runInNewContext(fs.readFileSync('content/approved.js','utf8'),ctx);const pack=ctx.window.GAME_CONTENT_PACK;for(const kind of ['moreless','estimate','facts','jeopardy'])pack[kind]=pack[kind].filter(q=>q.expansion!==8&&q.expansion!==9);
+const groups=Object.groupBy(pack.moreless,q=>q.cat);assert.equal(groups['Fußball'].length+groups['Videospiele'].length,56);assert.equal(groups.Autos.length,20);
 const pairKeys=new Set();for(const q of pack.moreless){assert.notEqual(q.lv,q.rv);assert(q.sources.length===2&&q.sources.every(url=>url.startsWith('https://')));const key=[q.cat,q.u,...[q.l,q.r].sort()].join('|');assert(!pairKeys.has(key));pairKeys.add(key);assert(pack.images[q.l]&&pack.images[q.r]);}
 for(const image of Object.values(pack.images)){assert(fs.existsSync('assets/visuals/'+image.card));assert(image.source.startsWith("https://")&&image.license);assert.equal(typeof image.generated,"boolean")}
 assert.notEqual(pack.images.Orca.card,pack.images.Delfin.card);assert.notEqual(pack.images['Kylian Mbappé'].card,pack.images['Erling Haaland'].card);

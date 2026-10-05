@@ -7,6 +7,7 @@ import itertools
 import json
 import re
 from content_sets import annotate
+from content_categories import normalize_category
 from pathlib import Path
 
 from PIL import Image, ImageOps
@@ -70,11 +71,12 @@ def build(catalogue, output, images_dir=OUT, trivia=None):
                 raise ValueError(f"Invalid duplicate alias: {alias}")
             names.add(alias); pack["images"][alias] = pack["images"][name]
         for fact in record.get("facts", []):
+            normalize_category(fact, "category")
             metric, unit, value, source = (fact[k] for k in ("metric", "unit", "value", "source"))
             if not isinstance(value, (int, float)) or isinstance(value, bool) or not source.startswith("https://") or not metric or not unit:
                 raise ValueError(f"Invalid fact: {ident}")
             cat = fact.get("category", "Tierwelt")
-            key = (cat, metric, unit, fact.get("comparison_unit", unit))
+            key = (cat, metric, unit, fact.get("comparison_unit", unit), fact.get("reference", ""))
             if fact.get("sources") and not all(isinstance(url,str) and url.startswith("https://") for url in fact["sources"]):
                 raise ValueError(f"HTTPS derived sources required: {ident}")
             groups.setdefault(key, []).append((name, value, source, fact.get("verified"), fact.get("exclude_with", []), fact))
@@ -91,7 +93,7 @@ def build(catalogue, output, images_dir=OUT, trivia=None):
                 if not fact.get("jeopardy_answer"):
                     raise ValueError(f"Jeopardy answer missing: {ident}")
                 pack["jeopardy"].append({"cat": cat, "q": fact["jeopardy_question"], "a": fact["jeopardy_answer"], "subject": name})
-    for (cat, metric, unit, comparison_unit), entries in groups.items():
+    for (cat, metric, unit, comparison_unit, reference), entries in groups.items():
         # One pair per entry; never compare different measures or units.
         if len(entries) < 2:
             continue
@@ -99,13 +101,14 @@ def build(catalogue, output, images_dir=OUT, trivia=None):
             left, lv, ls, ld, lx, lf = a
             right, rv, rs, rd, rx, rf = b
             if lv != rv and right not in lx and left not in rx:
-                pack["moreless"].append({"l": left, "r": right, "lv": lv, "rv": rv, "u": comparison_unit, "cat": cat, "metric": metric, "sub": metric, "source": ls, "sources": [ls, rs], "verified": ld if ld == rd else None, **{k:lf[k] for k in ("subcategory","set") if k in lf and lf.get(k)==rf.get(k)}, **({"expansion":8} if lf.get("expansion")==8 or rf.get("expansion")==8 else {})})
+                pack["moreless"].append({"l": left, "r": right, "lv": lv, "rv": rv, "u": comparison_unit, "cat": cat, "metric": metric, "sub": metric, "source": ls, "sources": [ls, rs], "verified": ld if ld == rd else None, **{k:lf[k] for k in ("subcategory","set") if k in lf and lf.get(k)==rf.get(k)}, **({"expansion":max(lf.get("expansion",0), rf.get("expansion",0))} if lf.get("expansion") or rf.get("expansion") else {}), **({"reference":reference} if reference else {})})
     if trivia is not None:
         curated = json.loads(trivia.read_text(encoding="utf-8"))
         if curated.get("status") == "approved":
             for kind, prompt in (("facts", "s"), ("jeopardy", "q"), ("estimate", "q")):
                 seen = {item[prompt].strip().casefold() for item in pack[kind]}
                 for item in curated.get(kind, []):
+                    normalize_category(item)
                     for field in (prompt, "cat", "source", "verified"):
                         if not isinstance(item.get(field), str) or not item[field].strip():
                             raise ValueError(f"Missing trivia field: {kind}/{field}")
@@ -140,3 +143,4 @@ if __name__ == "__main__":
     parser.add_argument("--trivia", type=Path, default=ROOT / "content/trivia.json")
     args = parser.parse_args()
     build(args.catalogue.resolve(), args.output.resolve(), trivia=args.trivia.resolve() if args.trivia.is_file() else None)
+

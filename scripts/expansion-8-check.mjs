@@ -1,13 +1,14 @@
 import fs from 'node:fs';import vm from 'node:vm';import assert from 'node:assert/strict';
 const ctx=vm.createContext({window:{},knowledgeJeopardyQuestions:()=>[],S:{room:null},JEOP:{mode:'random'},localStorage:{getItem(){return null},setItem(){}},SOLO_Q:[],ESTIMATE_Q:[],FACT_Q:[],VISUAL_IMG:{},VISUAL_DETAIL:{},GENERATED_SUBJECTS:new Set()});
 vm.runInContext(fs.readFileSync('content/approved.js','utf8'),ctx);const pack=ctx.window.GAME_CONTENT_PACK;
-for(const game of ['moreless','estimate','facts','jeopardy']){const categories=new Set(pack[game].map(q=>q.cat));for(const cat of categories){assert(pack[game].some(q=>q.cat===cat&&q.expansion===8),game+' missing additions in '+cat)}for(const q of pack[game]){assert(q.subcategory);assert(Array.isArray(q.sets));}}
+for(const game of ['moreless','estimate','facts','jeopardy']){const categories=new Set(pack[game].map(q=>q.cat));for(const cat of categories){assert(pack[game].some(q=>q.cat===cat&&[8,9].includes(q.expansion)),game+' missing additions in '+cat)}for(const q of pack[game]){assert(q.subcategory);assert(Array.isArray(q.sets));}}
 assert.equal(pack.moreless.filter(q=>q.expansion===8).length,126);assert.equal(pack.estimate.filter(q=>q.expansion===8).length,90);assert.equal(pack.facts.filter(q=>q.expansion===8).length,90);assert.equal(pack.jeopardy.filter(q=>q.expansion===8).length,175);
-const html=fs.readFileSync('index.html','utf8');vm.runInContext(html.slice(html.indexOf('const JEOP_CATS='),html.indexOf('let JEOP=')),ctx);
+const html=fs.readFileSync('index.html','utf8');vm.runInContext(fs.readFileSync('assets/content-categories.js','utf8'),ctx);
+vm.runInContext(html.slice(html.indexOf('const JEOP_CATS='),html.indexOf('let JEOP=')),ctx);
 const merge=html.indexOf('(function mergeReviewedContent(){');vm.runInContext(html.slice(merge,html.indexOf('})();',merge)+5),ctx);
 vm.runInContext(html.slice(html.indexOf('const JEOP_HISTORY_KEY='),html.indexOf('let JEOP_SYNC_REV=')),ctx);
 vm.runInContext(fs.readFileSync('assets/content-sets.js','utf8'),ctx);
-assert.equal(ctx.contentFilterPool('moreless',pack.moreless).length,817);
+assert.equal(ctx.contentFilterPool('moreless',pack.moreless).length,948);
 for(const game of ['moreless','estimate'])for(const cat of new Set(pack[game].map(q=>q.cat))){const rows=pack[game].filter(q=>q.cat===cat);const subs=ctx.contentCounts(rows,'subcategory');assert(subs.length,cat+' lacks playable themes');for(const [sub] of subs){const sets=ctx.contentCounts(rows.filter(q=>q.subcategory===sub),'sets');assert(sets.length,cat+' lacks sets');for(const [set,n] of sets){vm.runInContext(`CONTENT_SELECTION.${game}=${JSON.stringify({cat,sub,set})}`,ctx);const filtered=ctx.contentFilterPool(game,pack[game]);assert.equal(filtered.length,n);assert(filtered.length>=5);assert(filtered.every(q=>q.cat===cat&&q.subcategory===sub&&q.sets.includes(set)));}}}
 const columns=['Kultur','Fußball','Geschichte','Geografie','Videospiele','Star Wars'].map(cat=>{const q=pack.jeopardy.find(q=>q.cat===cat&&q.expansion===8&&q.set);return {cat,sub:q.subcategory,set:q.set}});
 ctx.columns=columns;vm.runInContext('CONTENT_JEOP_ENABLED=true;CONTENT_JEOP_COLUMNS=columns',ctx);assert.equal(ctx.contentJeopData().length,6);ctx.S={room:'shared',signalId:'new-game',roomConfig:{game:'quiz',game_mode:'random',content_sets:ctx.contentRoomConfig()}};ctx.buildJeopData();const first=JSON.stringify(ctx.JEOP.data);assert.equal(new Set(ctx.JEOP.data.flatMap(c=>c[1].map(q=>q[0]))).size,30);
