@@ -8,10 +8,10 @@ const pack=packContext.window.GAME_CONTENT_PACK;
 const added=JSON.parse(fs.readFileSync('content/research/2026-10-03/expansion-4.json','utf8'));
 assert.equal(added.flatMap(x=>x.facts).length,44);
 assert.equal(pack.estimate.filter(q=>q.verified==='2026-10-03').length,44);
-assert.equal(pack.moreless.filter(q=>q.expansion!==8&&q.verified!=='2026-10-04').length,556);
-assert.equal(pack.estimate.filter(q=>q.expansion!==8&&q.verified!=='2026-10-04').length,128);
+assert.equal(pack.moreless.filter(q=>q.expansion!==8&&q.expansion!==9&&q.verified!=='2026-10-04').length,556);
+assert.equal(pack.estimate.filter(q=>q.expansion!==8&&q.expansion!==9&&q.verified!=='2026-10-04').length,128);
 const keys=pack.estimate.map(q=>q.q.trim().toLowerCase());assert.equal(new Set(keys).size,keys.length);
-const dates=pack.moreless.filter(q=>['Natur','Weltkultur','Raumfahrt'].includes(q.cat)&&q.expansion!==8&&q.verified!=='2026-10-04');
+const dates=pack.moreless.filter(q=>['Natur','Weltkultur','Raumfahrt'].includes(q.cat)&&q.expansion!==8&&q.expansion!==9&&q.verified!=='2026-10-04');
 assert(dates.every(q=>q.u.startsWith('Jahr')));
 assert(!pack.moreless.some(q=>q.l==='Machu Picchu'&&q.r==='Taj Mahal'||q.r==='Machu Picchu'&&q.l==='Taj Mahal'));
 for(const record of added.filter(x=>x.variants)){

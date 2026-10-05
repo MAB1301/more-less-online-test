@@ -470,8 +470,9 @@
         "comparison_unit": "Tempo-Wertung · EA SPORTS FC 26 · Basiskarte",
         "value": 97,
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kylian-mbappe/231747",
-        "category": "Fußballer",
-        "verified": "2026-10-01"
+        "category": "Videospiele",
+        "verified": "2026-10-01",
+        "subcategory": "FC 26"
       },
       {
         "metric": "Gesamtwertung",
@@ -479,11 +480,12 @@
         "comparison_unit": "Gesamtwertung · EA SPORTS FC 26 · Basiskarte",
         "value": 91,
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kylian-mbappe/231747",
-        "category": "Fußballer",
-        "verified": "2026-10-01"
+        "category": "Videospiele",
+        "verified": "2026-10-01",
+        "subcategory": "FC 26"
       },
       {
-        "category": "Fußballer",
+        "category": "Fußball",
         "metric": "Geburtsjahr",
         "unit": "Jahr",
         "comparison_unit": "Jahr · Geburtsjahr",
@@ -495,7 +497,7 @@
         "notes": ""
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Gesamtwertung · EA SPORTS FC 27",
         "value": 91,
         "unit": "Wertungspunkte",
@@ -503,10 +505,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Gesamtwertung hat Kylian Mbappé auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Tempo · EA SPORTS FC 27",
         "value": 96,
         "unit": "Wertungspunkte",
@@ -514,10 +517,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Tempo-Wertung hat Kylian Mbappé auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Schuss · EA SPORTS FC 27",
         "value": 91,
         "unit": "Wertungspunkte",
@@ -525,10 +529,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Schuss-Wertung hat Kylian Mbappé auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Passen · EA SPORTS FC 27",
         "value": 80,
         "unit": "Wertungspunkte",
@@ -536,10 +541,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Passen-Wertung hat Kylian Mbappé auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Dribbling · EA SPORTS FC 27",
         "value": 92,
         "unit": "Wertungspunkte",
@@ -547,10 +553,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Dribbling-Wertung hat Kylian Mbappé auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Defensive · EA SPORTS FC 27",
         "value": 29,
         "unit": "Wertungspunkte",
@@ -558,10 +565,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Defensive-Wertung hat Kylian Mbappé auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Physis · EA SPORTS FC 27",
         "value": 76,
         "unit": "Wertungspunkte",
@@ -569,10 +577,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Physis-Wertung hat Kylian Mbappé auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Fußball",
         "metric": "Körpergröße laut Spielerprofil",
         "value": 178,
         "unit": "cm",
@@ -583,6 +592,19 @@
         "notes": "Gerundete Angabe des verlinkten Spielerprofils.",
         "subcategory": "Spielerprofile",
         "expansion": 8
+      },
+      {
+        "category": "Fußball",
+        "subcategory": "Champions League 2023/24",
+        "metric": "Champions-League-Tore 2023/24",
+        "unit": "Tore",
+        "value": 8,
+        "source": "https://www.uefa.com/uefachampionsleague/news/0285-1906eba1bea4-31faa14228af-1000--champions-league-top-scorers-2023-24-rasmus-hojlund-lead/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Tore · Champions-League-Tore 2023/24",
+        "estimate_question": "Wie viele Tore erzielte Kylian Mbappé in der Champions-League-Saison 2023/24 laut UEFA?",
+        "notes": "UEFA-Saisonstatistik 2023/24; kein Karrierewert; Qualifikation ausgeschlossen."
       }
     ]
   },
@@ -606,8 +628,9 @@
         "comparison_unit": "Tempo-Wertung · EA SPORTS FC 26 · Basiskarte",
         "value": 89,
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mohamed-salah/209331",
-        "category": "Fußballer",
-        "verified": "2026-10-01"
+        "category": "Videospiele",
+        "verified": "2026-10-01",
+        "subcategory": "FC 26"
       },
       {
         "metric": "Gesamtwertung",
@@ -615,11 +638,12 @@
         "comparison_unit": "Gesamtwertung · EA SPORTS FC 26 · Basiskarte",
         "value": 91,
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mohamed-salah/209331",
-        "category": "Fußballer",
-        "verified": "2026-10-01"
+        "category": "Videospiele",
+        "verified": "2026-10-01",
+        "subcategory": "FC 26"
       },
       {
-        "category": "Fußballer",
+        "category": "Fußball",
         "metric": "Geburtsjahr",
         "value": 1992,
         "unit": "Jahr",
@@ -630,7 +654,7 @@
         "notes": ""
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Gesamtwertung · EA SPORTS FC 27",
         "value": 87,
         "unit": "Wertungspunkte",
@@ -638,10 +662,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Gesamtwertung hat Mohamed Salah auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Tempo · EA SPORTS FC 27",
         "value": 84,
         "unit": "Wertungspunkte",
@@ -649,10 +674,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Tempo-Wertung hat Mohamed Salah auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Schuss · EA SPORTS FC 27",
         "value": 83,
         "unit": "Wertungspunkte",
@@ -660,10 +686,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Schuss-Wertung hat Mohamed Salah auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Passen · EA SPORTS FC 27",
         "value": 83,
         "unit": "Wertungspunkte",
@@ -671,10 +698,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Passen-Wertung hat Mohamed Salah auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Dribbling · EA SPORTS FC 27",
         "value": 86,
         "unit": "Wertungspunkte",
@@ -682,10 +710,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Dribbling-Wertung hat Mohamed Salah auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Defensive · EA SPORTS FC 27",
         "value": 45,
         "unit": "Wertungspunkte",
@@ -693,10 +722,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Defensive-Wertung hat Mohamed Salah auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Physis · EA SPORTS FC 27",
         "value": 72,
         "unit": "Wertungspunkte",
@@ -704,10 +734,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Physis-Wertung hat Mohamed Salah auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Fußball",
         "metric": "Körpergröße laut Spielerprofil",
         "value": 175,
         "unit": "cm",
@@ -741,8 +772,9 @@
         "comparison_unit": "Gesamtwertung · EA SPORTS FC 26 · Basiskarte",
         "value": 90,
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/erling-haaland/239085",
-        "category": "Fußballer",
-        "verified": "2026-10-01"
+        "category": "Videospiele",
+        "verified": "2026-10-01",
+        "subcategory": "FC 26"
       },
       {
         "metric": "Tempo",
@@ -750,11 +782,12 @@
         "comparison_unit": "Tempo-Wertung · EA SPORTS FC 26 · Basiskarte",
         "value": 86,
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/erling-haaland/239085",
-        "category": "Fußballer",
-        "verified": "2026-10-01"
+        "category": "Videospiele",
+        "verified": "2026-10-01",
+        "subcategory": "FC 26"
       },
       {
-        "category": "Fußballer",
+        "category": "Fußball",
         "metric": "Geburtsjahr",
         "unit": "Jahr",
         "comparison_unit": "Jahr · Geburtsjahr",
@@ -766,7 +799,7 @@
         "notes": ""
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Gesamtwertung · EA SPORTS FC 27",
         "value": 91,
         "unit": "Wertungspunkte",
@@ -774,10 +807,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Gesamtwertung hat Erling Haaland auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Tempo · EA SPORTS FC 27",
         "value": 87,
         "unit": "Wertungspunkte",
@@ -785,10 +819,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Tempo-Wertung hat Erling Haaland auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Schuss · EA SPORTS FC 27",
         "value": 92,
         "unit": "Wertungspunkte",
@@ -796,10 +831,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Schuss-Wertung hat Erling Haaland auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Passen · EA SPORTS FC 27",
         "value": 71,
         "unit": "Wertungspunkte",
@@ -807,10 +843,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Passen-Wertung hat Erling Haaland auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Dribbling · EA SPORTS FC 27",
         "value": 80,
         "unit": "Wertungspunkte",
@@ -818,10 +855,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Dribbling-Wertung hat Erling Haaland auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Defensive · EA SPORTS FC 27",
         "value": 47,
         "unit": "Wertungspunkte",
@@ -829,10 +867,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Defensive-Wertung hat Erling Haaland auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Physis · EA SPORTS FC 27",
         "value": 89,
         "unit": "Wertungspunkte",
@@ -840,7 +879,21 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Physis-Wertung hat Erling Haaland auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
+      },
+      {
+        "category": "Fußball",
+        "subcategory": "Champions League 2023/24",
+        "metric": "Champions-League-Tore 2023/24",
+        "unit": "Tore",
+        "value": 6,
+        "source": "https://www.uefa.com/uefachampionsleague/news/0285-1906eba1bea4-31faa14228af-1000--champions-league-top-scorers-2023-24-rasmus-hojlund-lead/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Tore · Champions-League-Tore 2023/24",
+        "estimate_question": "Wie viele Tore erzielte Erling Haaland in der Champions-League-Saison 2023/24 laut UEFA?",
+        "notes": "UEFA-Saisonstatistik 2023/24; kein Karrierewert; Qualifikation ausgeschlossen."
       }
     ]
   },
@@ -864,8 +917,9 @@
         "comparison_unit": "Gesamtwertung · EA SPORTS FC 26 · Basiskarte",
         "value": 90,
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jude-bellingham/252371",
-        "category": "Fußballer",
-        "verified": "2026-10-01"
+        "category": "Videospiele",
+        "verified": "2026-10-01",
+        "subcategory": "FC 26"
       },
       {
         "metric": "Tempo",
@@ -873,11 +927,12 @@
         "comparison_unit": "Tempo-Wertung · EA SPORTS FC 26 · Basiskarte",
         "value": 80,
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jude-bellingham/252371",
-        "category": "Fußballer",
-        "verified": "2026-10-01"
+        "category": "Videospiele",
+        "verified": "2026-10-01",
+        "subcategory": "FC 26"
       },
       {
-        "category": "Fußballer",
+        "category": "Fußball",
         "metric": "Geburtsjahr",
         "unit": "Jahr",
         "comparison_unit": "Jahr · Geburtsjahr",
@@ -889,7 +944,7 @@
         "notes": ""
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Gesamtwertung · EA SPORTS FC 27",
         "value": 90,
         "unit": "Wertungspunkte",
@@ -897,10 +952,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Gesamtwertung hat Jude Bellingham auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Tempo · EA SPORTS FC 27",
         "value": 79,
         "unit": "Wertungspunkte",
@@ -908,10 +964,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Tempo-Wertung hat Jude Bellingham auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Schuss · EA SPORTS FC 27",
         "value": 86,
         "unit": "Wertungspunkte",
@@ -919,10 +976,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Schuss-Wertung hat Jude Bellingham auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Passen · EA SPORTS FC 27",
         "value": 83,
         "unit": "Wertungspunkte",
@@ -930,10 +988,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Passen-Wertung hat Jude Bellingham auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Dribbling · EA SPORTS FC 27",
         "value": 88,
         "unit": "Wertungspunkte",
@@ -941,10 +1000,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Dribbling-Wertung hat Jude Bellingham auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Defensive · EA SPORTS FC 27",
         "value": 79,
         "unit": "Wertungspunkte",
@@ -952,10 +1012,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Defensive-Wertung hat Jude Bellingham auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Videospiele",
         "metric": "Physis · EA SPORTS FC 27",
         "value": 85,
         "unit": "Wertungspunkte",
@@ -963,10 +1024,11 @@
         "source": "https://www.ea.com/games/ea-sports-fc/ratings/stats-ratings/best-shooters",
         "verified": "2026-10-04",
         "estimate_question": "Welche Physis-Wertung hat Jude Bellingham auf der Basiskarte in EA SPORTS FC 27?",
-        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+        "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe.",
+        "subcategory": "FC 27"
       },
       {
-        "category": "Fußballer",
+        "category": "Fußball",
         "metric": "Körpergröße laut Spielerprofil",
         "value": 186,
         "unit": "cm",
@@ -977,6 +1039,19 @@
         "notes": "Gerundete Angabe des verlinkten Spielerprofils.",
         "subcategory": "Spielerprofile",
         "expansion": 8
+      },
+      {
+        "category": "Fußball",
+        "subcategory": "Champions League 2023/24",
+        "metric": "Champions-League-Assists 2023/24",
+        "unit": "Assists",
+        "value": 5,
+        "source": "https://www.uefa.com/uefachampionsleague/news/0285-1906eba1bea4-31faa14228af-1000--champions-league-top-scorers-2023-24-rasmus-hojlund-lead/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Assists · Champions-League-Assists 2023/24",
+        "estimate_question": "Wie viele Assists erzielte Jude Bellingham in der Champions-League-Saison 2023/24 laut UEFA?",
+        "notes": "UEFA-Saisonstatistik 2023/24; kein Karrierewert; Qualifikation ausgeschlossen."
       }
     ]
   },
@@ -4858,6 +4933,1382 @@
         "notes": "Historisches Ergebnis der angegebenen Distanz und Veranstaltung; kein Anspruch auf einen unveränderten heutigen Weltrekord.",
         "subcategory": "Historische Rennen",
         "expansion": 8
+      }
+    ]
+  },
+  {
+    "id": "alan-shearer",
+    "name": "Alan Shearer",
+    "image": "../assets/visuals/sport-field.webp",
+    "variants": {
+      "card": "sport-field.webp",
+      "detail": "sport-field.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Fußball",
+        "subcategory": "Premier League: Karriere",
+        "metric": "Premier-League-Tore – abgeschlossene Karriere",
+        "unit": "Tore",
+        "value": 260,
+        "source": "https://www.premierleague.com/en/events/hall-of-fame/inductees/alan-shearer",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Tore · Premier-League-Tore – abgeschlossene Karriere",
+        "estimate_question": "Wie viele Tore hatte Alan Shearer insgesamt in der Premier League?",
+        "notes": "Nur Premier League; abgeschlossene Spielerkarriere. Keine Pokale, Nationalmannschaft oder Videospielwerte."
+      },
+      {
+        "category": "Fußball",
+        "subcategory": "Premier League: Karriere",
+        "metric": "Premier-League-Assists – abgeschlossene Karriere",
+        "unit": "Assists",
+        "value": 64,
+        "source": "https://www.premierleague.com/en/events/hall-of-fame/inductees/alan-shearer",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Assists · Premier-League-Assists – abgeschlossene Karriere",
+        "estimate_question": "Wie viele Assists hatte Alan Shearer insgesamt in der Premier League?",
+        "notes": "Nur Premier League; abgeschlossene Spielerkarriere. Keine Pokale, Nationalmannschaft oder Videospielwerte."
+      },
+      {
+        "category": "Fußball",
+        "subcategory": "Premier League: Karriere",
+        "metric": "Premier-League-Einsätze – abgeschlossene Karriere",
+        "unit": "Einsätze",
+        "value": 441,
+        "source": "https://www.premierleague.com/en/events/hall-of-fame/inductees/alan-shearer",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Einsätze · Premier-League-Einsätze – abgeschlossene Karriere",
+        "estimate_question": "Wie viele Einsätze hatte Alan Shearer insgesamt in der Premier League?",
+        "notes": "Nur Premier League; abgeschlossene Spielerkarriere. Keine Pokale, Nationalmannschaft oder Videospielwerte."
+      },
+      {
+        "category": "Fußball",
+        "subcategory": "Premier League: Karriere",
+        "metric": "Premier-League-Meisterschaften – abgeschlossene Karriere",
+        "unit": "Titel",
+        "value": 1,
+        "source": "https://www.premierleague.com/en/events/hall-of-fame/inductees/alan-shearer",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Titel · Premier-League-Meisterschaften – abgeschlossene Karriere",
+        "estimate_question": "Wie viele Meisterschaften hatte Alan Shearer insgesamt in der Premier League?",
+        "notes": "Nur Premier League; abgeschlossene Spielerkarriere. Keine Pokale, Nationalmannschaft oder Videospielwerte."
+      }
+    ]
+  },
+  {
+    "id": "wayne-rooney",
+    "name": "Wayne Rooney",
+    "image": "../assets/visuals/sport-field.webp",
+    "variants": {
+      "card": "sport-field.webp",
+      "detail": "sport-field.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Fußball",
+        "subcategory": "Premier League: Karriere",
+        "metric": "Premier-League-Tore – abgeschlossene Karriere",
+        "unit": "Tore",
+        "value": 208,
+        "source": "https://www.premierleague.com/en/events/hall-of-fame/inductees/wayne-rooney",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Tore · Premier-League-Tore – abgeschlossene Karriere",
+        "estimate_question": "Wie viele Tore hatte Wayne Rooney insgesamt in der Premier League?",
+        "notes": "Nur Premier League; abgeschlossene Spielerkarriere. Keine Pokale, Nationalmannschaft oder Videospielwerte."
+      },
+      {
+        "category": "Fußball",
+        "subcategory": "Premier League: Karriere",
+        "metric": "Premier-League-Assists – abgeschlossene Karriere",
+        "unit": "Assists",
+        "value": 103,
+        "source": "https://www.premierleague.com/en/events/hall-of-fame/inductees/wayne-rooney",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Assists · Premier-League-Assists – abgeschlossene Karriere",
+        "estimate_question": "Wie viele Assists hatte Wayne Rooney insgesamt in der Premier League?",
+        "notes": "Nur Premier League; abgeschlossene Spielerkarriere. Keine Pokale, Nationalmannschaft oder Videospielwerte."
+      },
+      {
+        "category": "Fußball",
+        "subcategory": "Premier League: Karriere",
+        "metric": "Premier-League-Einsätze – abgeschlossene Karriere",
+        "unit": "Einsätze",
+        "value": 491,
+        "source": "https://www.premierleague.com/en/events/hall-of-fame/inductees/wayne-rooney",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Einsätze · Premier-League-Einsätze – abgeschlossene Karriere",
+        "estimate_question": "Wie viele Einsätze hatte Wayne Rooney insgesamt in der Premier League?",
+        "notes": "Nur Premier League; abgeschlossene Spielerkarriere. Keine Pokale, Nationalmannschaft oder Videospielwerte."
+      },
+      {
+        "category": "Fußball",
+        "subcategory": "Premier League: Karriere",
+        "metric": "Premier-League-Meisterschaften – abgeschlossene Karriere",
+        "unit": "Titel",
+        "value": 5,
+        "source": "https://www.premierleague.com/en/events/hall-of-fame/inductees/wayne-rooney",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Titel · Premier-League-Meisterschaften – abgeschlossene Karriere",
+        "estimate_question": "Wie viele Meisterschaften hatte Wayne Rooney insgesamt in der Premier League?",
+        "notes": "Nur Premier League; abgeschlossene Spielerkarriere. Keine Pokale, Nationalmannschaft oder Videospielwerte."
+      },
+      {
+        "category": "Fußball",
+        "subcategory": "Vereinsstationen",
+        "metric": "Verschiedene Profivereine – abgeschlossene Karriere",
+        "unit": "Vereine",
+        "value": 4,
+        "source": "https://www.premierleague.com/en/news/1974550",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Vereine · Verschiedene Profivereine – abgeschlossene Karriere",
+        "estimate_question": "Für wie viele verschiedene Profivereine bestritt Wayne Rooney Pflichtspiele in der ersten Mannschaft?",
+        "notes": "Verschiedene Vereine mit Pflichtspieleinsatz in erster Mannschaft; Jugend und Reserven ausgeschlossen; Rückkehr zählt nicht erneut."
+      }
+    ]
+  },
+  {
+    "id": "thierry-henry",
+    "name": "Thierry Henry",
+    "image": "../assets/visuals/sport-field.webp",
+    "variants": {
+      "card": "sport-field.webp",
+      "detail": "sport-field.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Fußball",
+        "subcategory": "Premier League: Karriere",
+        "metric": "Premier-League-Tore – abgeschlossene Karriere",
+        "unit": "Tore",
+        "value": 175,
+        "source": "https://www.premierleague.com/en/events/hall-of-fame/inductees/thierry-henry",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Tore · Premier-League-Tore – abgeschlossene Karriere",
+        "estimate_question": "Wie viele Tore hatte Thierry Henry insgesamt in der Premier League?",
+        "notes": "Nur Premier League; abgeschlossene Spielerkarriere. Keine Pokale, Nationalmannschaft oder Videospielwerte."
+      },
+      {
+        "category": "Fußball",
+        "subcategory": "Premier League: Karriere",
+        "metric": "Premier-League-Assists – abgeschlossene Karriere",
+        "unit": "Assists",
+        "value": 74,
+        "source": "https://www.premierleague.com/en/events/hall-of-fame/inductees/thierry-henry",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Assists · Premier-League-Assists – abgeschlossene Karriere",
+        "estimate_question": "Wie viele Assists hatte Thierry Henry insgesamt in der Premier League?",
+        "notes": "Nur Premier League; abgeschlossene Spielerkarriere. Keine Pokale, Nationalmannschaft oder Videospielwerte."
+      },
+      {
+        "category": "Fußball",
+        "subcategory": "Premier League: Karriere",
+        "metric": "Premier-League-Einsätze – abgeschlossene Karriere",
+        "unit": "Einsätze",
+        "value": 258,
+        "source": "https://www.premierleague.com/en/events/hall-of-fame/inductees/thierry-henry",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Einsätze · Premier-League-Einsätze – abgeschlossene Karriere",
+        "estimate_question": "Wie viele Einsätze hatte Thierry Henry insgesamt in der Premier League?",
+        "notes": "Nur Premier League; abgeschlossene Spielerkarriere. Keine Pokale, Nationalmannschaft oder Videospielwerte."
+      },
+      {
+        "category": "Fußball",
+        "subcategory": "Premier League: Karriere",
+        "metric": "Premier-League-Meisterschaften – abgeschlossene Karriere",
+        "unit": "Titel",
+        "value": 2,
+        "source": "https://www.premierleague.com/en/events/hall-of-fame/inductees/thierry-henry",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Titel · Premier-League-Meisterschaften – abgeschlossene Karriere",
+        "estimate_question": "Wie viele Meisterschaften hatte Thierry Henry insgesamt in der Premier League?",
+        "notes": "Nur Premier League; abgeschlossene Spielerkarriere. Keine Pokale, Nationalmannschaft oder Videospielwerte."
+      },
+      {
+        "category": "Fußball",
+        "subcategory": "Vereinsstationen",
+        "metric": "Verschiedene Profivereine – abgeschlossene Karriere",
+        "unit": "Vereine",
+        "value": 5,
+        "source": "https://www.uefa.com/news-media/news/021c-0e8ec1687d78-c169cffabb8f-1000--france-icon-henry-s-finest-hours/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Vereine · Verschiedene Profivereine – abgeschlossene Karriere",
+        "estimate_question": "Für wie viele verschiedene Profivereine bestritt Thierry Henry Pflichtspiele in der ersten Mannschaft?",
+        "notes": "Verschiedene Vereine mit Pflichtspieleinsatz in erster Mannschaft; Jugend und Reserven ausgeschlossen; Rückkehr zählt nicht erneut."
+      }
+    ]
+  },
+  {
+    "id": "frank-lampard",
+    "name": "Frank Lampard",
+    "image": "../assets/visuals/sport-field.webp",
+    "variants": {
+      "card": "sport-field.webp",
+      "detail": "sport-field.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Fußball",
+        "subcategory": "Premier League: Karriere",
+        "metric": "Premier-League-Tore – abgeschlossene Karriere",
+        "unit": "Tore",
+        "value": 177,
+        "source": "https://www.premierleague.com/en/events/hall-of-fame/inductees/frank-lampard",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Tore · Premier-League-Tore – abgeschlossene Karriere",
+        "estimate_question": "Wie viele Tore hatte Frank Lampard insgesamt in der Premier League?",
+        "notes": "Nur Premier League; abgeschlossene Spielerkarriere. Keine Pokale, Nationalmannschaft oder Videospielwerte."
+      },
+      {
+        "category": "Fußball",
+        "subcategory": "Premier League: Karriere",
+        "metric": "Premier-League-Assists – abgeschlossene Karriere",
+        "unit": "Assists",
+        "value": 102,
+        "source": "https://www.premierleague.com/en/events/hall-of-fame/inductees/frank-lampard",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Assists · Premier-League-Assists – abgeschlossene Karriere",
+        "estimate_question": "Wie viele Assists hatte Frank Lampard insgesamt in der Premier League?",
+        "notes": "Nur Premier League; abgeschlossene Spielerkarriere. Keine Pokale, Nationalmannschaft oder Videospielwerte."
+      },
+      {
+        "category": "Fußball",
+        "subcategory": "Premier League: Karriere",
+        "metric": "Premier-League-Einsätze – abgeschlossene Karriere",
+        "unit": "Einsätze",
+        "value": 609,
+        "source": "https://www.premierleague.com/en/events/hall-of-fame/inductees/frank-lampard",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Einsätze · Premier-League-Einsätze – abgeschlossene Karriere",
+        "estimate_question": "Wie viele Einsätze hatte Frank Lampard insgesamt in der Premier League?",
+        "notes": "Nur Premier League; abgeschlossene Spielerkarriere. Keine Pokale, Nationalmannschaft oder Videospielwerte."
+      },
+      {
+        "category": "Fußball",
+        "subcategory": "Premier League: Karriere",
+        "metric": "Premier-League-Meisterschaften – abgeschlossene Karriere",
+        "unit": "Titel",
+        "value": 3,
+        "source": "https://www.premierleague.com/en/events/hall-of-fame/inductees/frank-lampard",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Titel · Premier-League-Meisterschaften – abgeschlossene Karriere",
+        "estimate_question": "Wie viele Meisterschaften hatte Frank Lampard insgesamt in der Premier League?",
+        "notes": "Nur Premier League; abgeschlossene Spielerkarriere. Keine Pokale, Nationalmannschaft oder Videospielwerte."
+      }
+    ]
+  },
+  {
+    "id": "paul-scholes",
+    "name": "Paul Scholes",
+    "image": "../assets/visuals/sport-field.webp",
+    "variants": {
+      "card": "sport-field.webp",
+      "detail": "sport-field.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Fußball",
+        "subcategory": "Premier League: Karriere",
+        "metric": "Premier-League-Tore – abgeschlossene Karriere",
+        "unit": "Tore",
+        "value": 107,
+        "source": "https://www.premierleague.com/en/events/hall-of-fame/inductees/paul-scholes",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Tore · Premier-League-Tore – abgeschlossene Karriere",
+        "estimate_question": "Wie viele Tore hatte Paul Scholes insgesamt in der Premier League?",
+        "notes": "Nur Premier League; abgeschlossene Spielerkarriere. Keine Pokale, Nationalmannschaft oder Videospielwerte."
+      },
+      {
+        "category": "Fußball",
+        "subcategory": "Premier League: Karriere",
+        "metric": "Premier-League-Assists – abgeschlossene Karriere",
+        "unit": "Assists",
+        "value": 55,
+        "source": "https://www.premierleague.com/en/events/hall-of-fame/inductees/paul-scholes",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Assists · Premier-League-Assists – abgeschlossene Karriere",
+        "estimate_question": "Wie viele Assists hatte Paul Scholes insgesamt in der Premier League?",
+        "notes": "Nur Premier League; abgeschlossene Spielerkarriere. Keine Pokale, Nationalmannschaft oder Videospielwerte."
+      },
+      {
+        "category": "Fußball",
+        "subcategory": "Premier League: Karriere",
+        "metric": "Premier-League-Einsätze – abgeschlossene Karriere",
+        "unit": "Einsätze",
+        "value": 499,
+        "source": "https://www.premierleague.com/en/events/hall-of-fame/inductees/paul-scholes",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Einsätze · Premier-League-Einsätze – abgeschlossene Karriere",
+        "estimate_question": "Wie viele Einsätze hatte Paul Scholes insgesamt in der Premier League?",
+        "notes": "Nur Premier League; abgeschlossene Spielerkarriere. Keine Pokale, Nationalmannschaft oder Videospielwerte."
+      },
+      {
+        "category": "Fußball",
+        "subcategory": "Premier League: Karriere",
+        "metric": "Premier-League-Meisterschaften – abgeschlossene Karriere",
+        "unit": "Titel",
+        "value": 11,
+        "source": "https://www.premierleague.com/en/events/hall-of-fame/inductees/paul-scholes",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Titel · Premier-League-Meisterschaften – abgeschlossene Karriere",
+        "estimate_question": "Wie viele Meisterschaften hatte Paul Scholes insgesamt in der Premier League?",
+        "notes": "Nur Premier League; abgeschlossene Spielerkarriere. Keine Pokale, Nationalmannschaft oder Videospielwerte."
+      },
+      {
+        "category": "Fußball",
+        "subcategory": "Vereinsstationen",
+        "metric": "Verschiedene Profivereine – abgeschlossene Karriere",
+        "unit": "Vereine",
+        "value": 1,
+        "source": "https://www.premierleague.com/en/events/hall-of-fame/inductees/paul-scholes",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Vereine · Verschiedene Profivereine – abgeschlossene Karriere",
+        "estimate_question": "Für wie viele verschiedene Profivereine bestritt Paul Scholes Pflichtspiele in der ersten Mannschaft?",
+        "notes": "Verschiedene Vereine mit Pflichtspieleinsatz in erster Mannschaft; Jugend und Reserven ausgeschlossen; Rückkehr zählt nicht erneut."
+      }
+    ]
+  },
+  {
+    "id": "steven-gerrard",
+    "name": "Steven Gerrard",
+    "image": "../assets/visuals/sport-field.webp",
+    "variants": {
+      "card": "sport-field.webp",
+      "detail": "sport-field.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Fußball",
+        "subcategory": "Vereinsstationen",
+        "metric": "Verschiedene Profivereine – abgeschlossene Karriere",
+        "unit": "Vereine",
+        "value": 2,
+        "source": "https://www.liverpoolfc.com/news/features/342686-lfc-legends-v-milan-glorie-what-happened-next-to-the-istanbul-contingent",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Vereine · Verschiedene Profivereine – abgeschlossene Karriere",
+        "estimate_question": "Für wie viele verschiedene Profivereine bestritt Steven Gerrard Pflichtspiele in der ersten Mannschaft?",
+        "notes": "Verschiedene Vereine mit Pflichtspieleinsatz in erster Mannschaft; Jugend und Reserven ausgeschlossen; Rückkehr zählt nicht erneut."
+      }
+    ]
+  },
+  {
+    "id": "ucl-harry-kane",
+    "name": "Harry Kane",
+    "image": "../assets/visuals/sport-field.webp",
+    "variants": {
+      "card": "sport-field.webp",
+      "detail": "sport-field.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Fußball",
+        "subcategory": "Champions League 2023/24",
+        "metric": "Champions-League-Tore 2023/24",
+        "unit": "Tore",
+        "value": 8,
+        "source": "https://www.uefa.com/uefachampionsleague/news/0285-1906eba1bea4-31faa14228af-1000--champions-league-top-scorers-2023-24-rasmus-hojlund-lead/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Tore · Champions-League-Tore 2023/24",
+        "estimate_question": "Wie viele Tore erzielte Harry Kane in der Champions-League-Saison 2023/24 laut UEFA?",
+        "notes": "UEFA-Saisonstatistik 2023/24; kein Karrierewert; Qualifikation ausgeschlossen."
+      }
+    ]
+  },
+  {
+    "id": "ucl-antoine-griezmann",
+    "name": "Antoine Griezmann",
+    "image": "../assets/visuals/sport-field.webp",
+    "variants": {
+      "card": "sport-field.webp",
+      "detail": "sport-field.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Fußball",
+        "subcategory": "Champions League 2023/24",
+        "metric": "Champions-League-Tore 2023/24",
+        "unit": "Tore",
+        "value": 6,
+        "source": "https://www.uefa.com/uefachampionsleague/news/0285-1906eba1bea4-31faa14228af-1000--champions-league-top-scorers-2023-24-rasmus-hojlund-lead/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Tore · Champions-League-Tore 2023/24",
+        "estimate_question": "Wie viele Tore erzielte Antoine Griezmann in der Champions-League-Saison 2023/24 laut UEFA?",
+        "notes": "UEFA-Saisonstatistik 2023/24; kein Karrierewert; Qualifikation ausgeschlossen."
+      }
+    ]
+  },
+  {
+    "id": "ucl-vinicius-junior",
+    "name": "Vinícius Júnior",
+    "image": "../assets/visuals/sport-field.webp",
+    "variants": {
+      "card": "sport-field.webp",
+      "detail": "sport-field.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Fußball",
+        "subcategory": "Champions League 2023/24",
+        "metric": "Champions-League-Tore 2023/24",
+        "unit": "Tore",
+        "value": 6,
+        "source": "https://www.uefa.com/uefachampionsleague/news/0285-1906eba1bea4-31faa14228af-1000--champions-league-top-scorers-2023-24-rasmus-hojlund-lead/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Tore · Champions-League-Tore 2023/24",
+        "estimate_question": "Wie viele Tore erzielte Vinícius Júnior in der Champions-League-Saison 2023/24 laut UEFA?",
+        "notes": "UEFA-Saisonstatistik 2023/24; kein Karrierewert; Qualifikation ausgeschlossen."
+      },
+      {
+        "category": "Fußball",
+        "subcategory": "Champions League 2023/24",
+        "metric": "Champions-League-Assists 2023/24",
+        "unit": "Assists",
+        "value": 5,
+        "source": "https://www.uefa.com/uefachampionsleague/news/0285-1906eba1bea4-31faa14228af-1000--champions-league-top-scorers-2023-24-rasmus-hojlund-lead/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Assists · Champions-League-Assists 2023/24",
+        "estimate_question": "Wie viele Assists erzielte Vinícius Júnior in der Champions-League-Saison 2023/24 laut UEFA?",
+        "notes": "UEFA-Saisonstatistik 2023/24; kein Karrierewert; Qualifikation ausgeschlossen."
+      }
+    ]
+  },
+  {
+    "id": "ucl-phil-foden",
+    "name": "Phil Foden",
+    "image": "../assets/visuals/sport-field.webp",
+    "variants": {
+      "card": "sport-field.webp",
+      "detail": "sport-field.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Fußball",
+        "subcategory": "Champions League 2023/24",
+        "metric": "Champions-League-Tore 2023/24",
+        "unit": "Tore",
+        "value": 5,
+        "source": "https://www.uefa.com/uefachampionsleague/news/0285-1906eba1bea4-31faa14228af-1000--champions-league-top-scorers-2023-24-rasmus-hojlund-lead/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Tore · Champions-League-Tore 2023/24",
+        "estimate_question": "Wie viele Tore erzielte Phil Foden in der Champions-League-Saison 2023/24 laut UEFA?",
+        "notes": "UEFA-Saisonstatistik 2023/24; kein Karrierewert; Qualifikation ausgeschlossen."
+      }
+    ]
+  },
+  {
+    "id": "ucl-marcel-sabitzer",
+    "name": "Marcel Sabitzer",
+    "image": "../assets/visuals/sport-field.webp",
+    "variants": {
+      "card": "sport-field.webp",
+      "detail": "sport-field.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Fußball",
+        "subcategory": "Champions League 2023/24",
+        "metric": "Champions-League-Assists 2023/24",
+        "unit": "Assists",
+        "value": 5,
+        "source": "https://www.uefa.com/uefachampionsleague/news/0285-1906eba1bea4-31faa14228af-1000--champions-league-top-scorers-2023-24-rasmus-hojlund-lead/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Assists · Champions-League-Assists 2023/24",
+        "estimate_question": "Wie viele Assists erzielte Marcel Sabitzer in der Champions-League-Saison 2023/24 laut UEFA?",
+        "notes": "UEFA-Saisonstatistik 2023/24; kein Karrierewert; Qualifikation ausgeschlossen."
+      }
+    ]
+  },
+  {
+    "id": "ucl-galeno",
+    "name": "Galeno",
+    "image": "../assets/visuals/sport-field.webp",
+    "variants": {
+      "card": "sport-field.webp",
+      "detail": "sport-field.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Fußball",
+        "subcategory": "Champions League 2023/24",
+        "metric": "Champions-League-Assists 2023/24",
+        "unit": "Assists",
+        "value": 4,
+        "source": "https://www.uefa.com/uefachampionsleague/news/0285-1906eba1bea4-31faa14228af-1000--champions-league-top-scorers-2023-24-rasmus-hojlund-lead/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Assists · Champions-League-Assists 2023/24",
+        "estimate_question": "Wie viele Assists erzielte Galeno in der Champions-League-Saison 2023/24 laut UEFA?",
+        "notes": "UEFA-Saisonstatistik 2023/24; kein Karrierewert; Qualifikation ausgeschlossen."
+      }
+    ]
+  },
+  {
+    "id": "ucl-ilkay-gundogan",
+    "name": "İlkay Gündoğan",
+    "image": "../assets/visuals/sport-field.webp",
+    "variants": {
+      "card": "sport-field.webp",
+      "detail": "sport-field.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Fußball",
+        "subcategory": "Champions League 2023/24",
+        "metric": "Champions-League-Assists 2023/24",
+        "unit": "Assists",
+        "value": 4,
+        "source": "https://www.uefa.com/uefachampionsleague/news/0285-1906eba1bea4-31faa14228af-1000--champions-league-top-scorers-2023-24-rasmus-hojlund-lead/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Assists · Champions-League-Assists 2023/24",
+        "estimate_question": "Wie viele Assists erzielte İlkay Gündoğan in der Champions-League-Saison 2023/24 laut UEFA?",
+        "notes": "UEFA-Saisonstatistik 2023/24; kein Karrierewert; Qualifikation ausgeschlossen."
+      }
+    ]
+  },
+  {
+    "id": "ucl-bukayo-saka",
+    "name": "Bukayo Saka",
+    "image": "../assets/visuals/sport-field.webp",
+    "variants": {
+      "card": "sport-field.webp",
+      "detail": "sport-field.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Fußball",
+        "subcategory": "Champions League 2023/24",
+        "metric": "Champions-League-Assists 2023/24",
+        "unit": "Assists",
+        "value": 4,
+        "source": "https://www.uefa.com/uefachampionsleague/news/0285-1906eba1bea4-31faa14228af-1000--champions-league-top-scorers-2023-24-rasmus-hojlund-lead/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Assists · Champions-League-Assists 2023/24",
+        "estimate_question": "Wie viele Assists erzielte Bukayo Saka in der Champions-League-Saison 2023/24 laut UEFA?",
+        "notes": "UEFA-Saisonstatistik 2023/24; kein Karrierewert; Qualifikation ausgeschlossen."
+      }
+    ]
+  },
+  {
+    "id": "bisasam",
+    "name": "Bisasam",
+    "image": "../assets/visuals/expansion-8/gaming-card.webp",
+    "variants": {
+      "card": "expansion-8/gaming-card.webp",
+      "detail": "expansion-8/gaming-card.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Videospiele",
+        "subcategory": "Pokémon",
+        "metric": "Nationaldex-Nummer",
+        "unit": "Nummer",
+        "value": 1,
+        "source": "https://in.portal-pokemon.com/pokedex/0001/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Nummer · Nationaldex-Nummer",
+        "estimate_question": "Welche Nationaldex-Nummer nennt der offizielle Pokédex für Bisasam?",
+        "notes": "Standardform im offiziellen Pokédex; keine Mega-, Regional- oder Gigadynamaxform."
+      },
+      {
+        "category": "Videospiele",
+        "subcategory": "Pokémon",
+        "metric": "Pokédex-Größe",
+        "unit": "m",
+        "value": 0.7,
+        "source": "https://in.portal-pokemon.com/pokedex/0001/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "m · Pokédex-Größe",
+        "estimate_question": "Welche Pokédex-Größe nennt der offizielle Pokédex für Bisasam in m?",
+        "notes": "Standardform im offiziellen Pokédex; keine Mega-, Regional- oder Gigadynamaxform."
+      },
+      {
+        "category": "Videospiele",
+        "subcategory": "Pokémon",
+        "metric": "Pokédex-Gewicht",
+        "unit": "kg",
+        "value": 6.9,
+        "source": "https://in.portal-pokemon.com/pokedex/0001/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "kg · Pokédex-Gewicht",
+        "estimate_question": "Welche Pokédex-Gewicht nennt der offizielle Pokédex für Bisasam in kg?",
+        "notes": "Standardform im offiziellen Pokédex; keine Mega-, Regional- oder Gigadynamaxform."
+      }
+    ]
+  },
+  {
+    "id": "glumanda",
+    "name": "Glumanda",
+    "image": "../assets/visuals/expansion-8/gaming-card.webp",
+    "variants": {
+      "card": "expansion-8/gaming-card.webp",
+      "detail": "expansion-8/gaming-card.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Videospiele",
+        "subcategory": "Pokémon",
+        "metric": "Nationaldex-Nummer",
+        "unit": "Nummer",
+        "value": 4,
+        "source": "https://in.portal-pokemon.com/pokedex/0004/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Nummer · Nationaldex-Nummer",
+        "estimate_question": "Welche Nationaldex-Nummer nennt der offizielle Pokédex für Glumanda?",
+        "notes": "Standardform im offiziellen Pokédex; keine Mega-, Regional- oder Gigadynamaxform."
+      },
+      {
+        "category": "Videospiele",
+        "subcategory": "Pokémon",
+        "metric": "Pokédex-Größe",
+        "unit": "m",
+        "value": 0.6,
+        "source": "https://in.portal-pokemon.com/pokedex/0004/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "m · Pokédex-Größe",
+        "estimate_question": "Welche Pokédex-Größe nennt der offizielle Pokédex für Glumanda in m?",
+        "notes": "Standardform im offiziellen Pokédex; keine Mega-, Regional- oder Gigadynamaxform."
+      },
+      {
+        "category": "Videospiele",
+        "subcategory": "Pokémon",
+        "metric": "Pokédex-Gewicht",
+        "unit": "kg",
+        "value": 8.5,
+        "source": "https://in.portal-pokemon.com/pokedex/0004/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "kg · Pokédex-Gewicht",
+        "estimate_question": "Welche Pokédex-Gewicht nennt der offizielle Pokédex für Glumanda in kg?",
+        "notes": "Standardform im offiziellen Pokédex; keine Mega-, Regional- oder Gigadynamaxform."
+      }
+    ]
+  },
+  {
+    "id": "schiggy",
+    "name": "Schiggy",
+    "image": "../assets/visuals/expansion-8/gaming-card.webp",
+    "variants": {
+      "card": "expansion-8/gaming-card.webp",
+      "detail": "expansion-8/gaming-card.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Videospiele",
+        "subcategory": "Pokémon",
+        "metric": "Nationaldex-Nummer",
+        "unit": "Nummer",
+        "value": 7,
+        "source": "https://in.portal-pokemon.com/pokedex/0007/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Nummer · Nationaldex-Nummer",
+        "estimate_question": "Welche Nationaldex-Nummer nennt der offizielle Pokédex für Schiggy?",
+        "notes": "Standardform im offiziellen Pokédex; keine Mega-, Regional- oder Gigadynamaxform."
+      },
+      {
+        "category": "Videospiele",
+        "subcategory": "Pokémon",
+        "metric": "Pokédex-Größe",
+        "unit": "m",
+        "value": 0.5,
+        "source": "https://in.portal-pokemon.com/pokedex/0007/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "m · Pokédex-Größe",
+        "estimate_question": "Welche Pokédex-Größe nennt der offizielle Pokédex für Schiggy in m?",
+        "notes": "Standardform im offiziellen Pokédex; keine Mega-, Regional- oder Gigadynamaxform."
+      },
+      {
+        "category": "Videospiele",
+        "subcategory": "Pokémon",
+        "metric": "Pokédex-Gewicht",
+        "unit": "kg",
+        "value": 9,
+        "source": "https://in.portal-pokemon.com/pokedex/0007/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "kg · Pokédex-Gewicht",
+        "estimate_question": "Welche Pokédex-Gewicht nennt der offizielle Pokédex für Schiggy in kg?",
+        "notes": "Standardform im offiziellen Pokédex; keine Mega-, Regional- oder Gigadynamaxform."
+      }
+    ]
+  },
+  {
+    "id": "pikachu",
+    "name": "Pikachu",
+    "image": "../assets/visuals/expansion-8/gaming-card.webp",
+    "variants": {
+      "card": "expansion-8/gaming-card.webp",
+      "detail": "expansion-8/gaming-card.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Videospiele",
+        "subcategory": "Pokémon",
+        "metric": "Nationaldex-Nummer",
+        "unit": "Nummer",
+        "value": 25,
+        "source": "https://in.portal-pokemon.com/pokedex/0025/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Nummer · Nationaldex-Nummer",
+        "estimate_question": "Welche Nationaldex-Nummer nennt der offizielle Pokédex für Pikachu?",
+        "notes": "Standardform im offiziellen Pokédex; keine Mega-, Regional- oder Gigadynamaxform."
+      },
+      {
+        "category": "Videospiele",
+        "subcategory": "Pokémon",
+        "metric": "Pokédex-Größe",
+        "unit": "m",
+        "value": 0.4,
+        "source": "https://in.portal-pokemon.com/pokedex/0025/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "m · Pokédex-Größe",
+        "estimate_question": "Welche Pokédex-Größe nennt der offizielle Pokédex für Pikachu in m?",
+        "notes": "Standardform im offiziellen Pokédex; keine Mega-, Regional- oder Gigadynamaxform."
+      },
+      {
+        "category": "Videospiele",
+        "subcategory": "Pokémon",
+        "metric": "Pokédex-Gewicht",
+        "unit": "kg",
+        "value": 6,
+        "source": "https://in.portal-pokemon.com/pokedex/0025/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "kg · Pokédex-Gewicht",
+        "estimate_question": "Welche Pokédex-Gewicht nennt der offizielle Pokédex für Pikachu in kg?",
+        "notes": "Standardform im offiziellen Pokédex; keine Mega-, Regional- oder Gigadynamaxform."
+      }
+    ]
+  },
+  {
+    "id": "evoli",
+    "name": "Evoli",
+    "image": "../assets/visuals/expansion-8/gaming-card.webp",
+    "variants": {
+      "card": "expansion-8/gaming-card.webp",
+      "detail": "expansion-8/gaming-card.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Videospiele",
+        "subcategory": "Pokémon",
+        "metric": "Nationaldex-Nummer",
+        "unit": "Nummer",
+        "value": 133,
+        "source": "https://in.portal-pokemon.com/pokedex/0133/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Nummer · Nationaldex-Nummer",
+        "estimate_question": "Welche Nationaldex-Nummer nennt der offizielle Pokédex für Evoli?",
+        "notes": "Standardform im offiziellen Pokédex; keine Mega-, Regional- oder Gigadynamaxform."
+      },
+      {
+        "category": "Videospiele",
+        "subcategory": "Pokémon",
+        "metric": "Pokédex-Größe",
+        "unit": "m",
+        "value": 0.3,
+        "source": "https://in.portal-pokemon.com/pokedex/0133/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "m · Pokédex-Größe",
+        "estimate_question": "Welche Pokédex-Größe nennt der offizielle Pokédex für Evoli in m?",
+        "notes": "Standardform im offiziellen Pokédex; keine Mega-, Regional- oder Gigadynamaxform."
+      },
+      {
+        "category": "Videospiele",
+        "subcategory": "Pokémon",
+        "metric": "Pokédex-Gewicht",
+        "unit": "kg",
+        "value": 6.5,
+        "source": "https://in.portal-pokemon.com/pokedex/0133/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "kg · Pokédex-Gewicht",
+        "estimate_question": "Welche Pokédex-Gewicht nennt der offizielle Pokédex für Evoli in kg?",
+        "notes": "Standardform im offiziellen Pokédex; keine Mega-, Regional- oder Gigadynamaxform."
+      }
+    ]
+  },
+  {
+    "id": "real-madrid",
+    "name": "Real Madrid",
+    "image": "../assets/visuals/sport-field.webp",
+    "variants": {
+      "card": "sport-field.webp",
+      "detail": "sport-field.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Fußball",
+        "subcategory": "Europapokal: Vereinstitel",
+        "metric": "Europapokal der Landesmeister / Champions-League-Titel – 05.10.2026",
+        "unit": "Titel",
+        "value": 15,
+        "source": "https://www.uefa.com/news/0275-1541637ad1db-88aeeefefefd-1000--all-time-honours-board/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Titel · Europapokal der Landesmeister / Champions-League-Titel – 05.10.2026",
+        "estimate_question": "Wie viele Titel im Europapokal der Landesmeister beziehungsweise der Champions League gewann Real Madrid bis zum 05.10.2026?",
+        "notes": "Beide historischen Namen desselben Wettbewerbs; andere internationale Wettbewerbe, Supercups und nationale Titel ausgeschlossen."
+      }
+    ]
+  },
+  {
+    "id": "ac-milan",
+    "name": "AC Milan",
+    "image": "../assets/visuals/sport-field.webp",
+    "variants": {
+      "card": "sport-field.webp",
+      "detail": "sport-field.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Fußball",
+        "subcategory": "Europapokal: Vereinstitel",
+        "metric": "Europapokal der Landesmeister / Champions-League-Titel – 05.10.2026",
+        "unit": "Titel",
+        "value": 7,
+        "source": "https://www.uefa.com/news/0275-1541637ad1db-88aeeefefefd-1000--all-time-honours-board/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Titel · Europapokal der Landesmeister / Champions-League-Titel – 05.10.2026",
+        "estimate_question": "Wie viele Titel im Europapokal der Landesmeister beziehungsweise der Champions League gewann AC Milan bis zum 05.10.2026?",
+        "notes": "Beide historischen Namen desselben Wettbewerbs; andere internationale Wettbewerbe, Supercups und nationale Titel ausgeschlossen."
+      }
+    ]
+  },
+  {
+    "id": "fc-liverpool",
+    "name": "Liverpool FC",
+    "image": "../assets/visuals/sport-field.webp",
+    "variants": {
+      "card": "sport-field.webp",
+      "detail": "sport-field.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Fußball",
+        "subcategory": "Europapokal: Vereinstitel",
+        "metric": "Europapokal der Landesmeister / Champions-League-Titel – 05.10.2026",
+        "unit": "Titel",
+        "value": 6,
+        "source": "https://www.uefa.com/news/0275-1541637ad1db-88aeeefefefd-1000--all-time-honours-board/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Titel · Europapokal der Landesmeister / Champions-League-Titel – 05.10.2026",
+        "estimate_question": "Wie viele Titel im Europapokal der Landesmeister beziehungsweise der Champions League gewann Liverpool FC bis zum 05.10.2026?",
+        "notes": "Beide historischen Namen desselben Wettbewerbs; andere internationale Wettbewerbe, Supercups und nationale Titel ausgeschlossen."
+      }
+    ]
+  },
+  {
+    "id": "bayern",
+    "name": "FC Bayern München",
+    "image": "../assets/visuals/sport-field.webp",
+    "variants": {
+      "card": "sport-field.webp",
+      "detail": "sport-field.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Fußball",
+        "subcategory": "Europapokal: Vereinstitel",
+        "metric": "Europapokal der Landesmeister / Champions-League-Titel – 05.10.2026",
+        "unit": "Titel",
+        "value": 6,
+        "source": "https://www.uefa.com/news/0275-1541637ad1db-88aeeefefefd-1000--all-time-honours-board/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Titel · Europapokal der Landesmeister / Champions-League-Titel – 05.10.2026",
+        "estimate_question": "Wie viele Titel im Europapokal der Landesmeister beziehungsweise der Champions League gewann FC Bayern München bis zum 05.10.2026?",
+        "notes": "Beide historischen Namen desselben Wettbewerbs; andere internationale Wettbewerbe, Supercups und nationale Titel ausgeschlossen."
+      }
+    ]
+  },
+  {
+    "id": "fc-barcelona",
+    "name": "FC Barcelona",
+    "image": "../assets/visuals/sport-field.webp",
+    "variants": {
+      "card": "sport-field.webp",
+      "detail": "sport-field.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Fußball",
+        "subcategory": "Europapokal: Vereinstitel",
+        "metric": "Europapokal der Landesmeister / Champions-League-Titel – 05.10.2026",
+        "unit": "Titel",
+        "value": 5,
+        "source": "https://www.uefa.com/news/0275-1541637ad1db-88aeeefefefd-1000--all-time-honours-board/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Titel · Europapokal der Landesmeister / Champions-League-Titel – 05.10.2026",
+        "estimate_question": "Wie viele Titel im Europapokal der Landesmeister beziehungsweise der Champions League gewann FC Barcelona bis zum 05.10.2026?",
+        "notes": "Beide historischen Namen desselben Wettbewerbs; andere internationale Wettbewerbe, Supercups und nationale Titel ausgeschlossen."
+      }
+    ]
+  },
+  {
+    "id": "ajax",
+    "name": "Ajax Amsterdam",
+    "image": "../assets/visuals/sport-field.webp",
+    "variants": {
+      "card": "sport-field.webp",
+      "detail": "sport-field.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Fußball",
+        "subcategory": "Europapokal: Vereinstitel",
+        "metric": "Europapokal der Landesmeister / Champions-League-Titel – 05.10.2026",
+        "unit": "Titel",
+        "value": 4,
+        "source": "https://www.uefa.com/news/0275-1541637ad1db-88aeeefefefd-1000--all-time-honours-board/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Titel · Europapokal der Landesmeister / Champions-League-Titel – 05.10.2026",
+        "estimate_question": "Wie viele Titel im Europapokal der Landesmeister beziehungsweise der Champions League gewann Ajax Amsterdam bis zum 05.10.2026?",
+        "notes": "Beide historischen Namen desselben Wettbewerbs; andere internationale Wettbewerbe, Supercups und nationale Titel ausgeschlossen."
+      }
+    ]
+  },
+  {
+    "id": "portal-2",
+    "name": "Portal 2",
+    "image": "../assets/visuals/expansion-8/gaming-card.webp",
+    "variants": {
+      "card": "expansion-8/gaming-card.webp",
+      "detail": "expansion-8/gaming-card.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Videospiele",
+        "subcategory": "Veröffentlichungen",
+        "metric": "Erstveröffentlichung des benannten Spiels",
+        "unit": "Jahr",
+        "value": 2011,
+        "source": "https://store.steampowered.com/app/620/Portal_2/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Jahr · Erstveröffentlichung des benannten Spiels",
+        "estimate_question": "In welchem Jahr erschien Portal 2 erstmals?",
+        "notes": "Erste reguläre Veröffentlichung des ausdrücklich benannten Spiels; kein Early Access, späterer Port oder Vorgängerspiel."
+      }
+    ]
+  },
+  {
+    "id": "stardew-valley",
+    "name": "Stardew Valley",
+    "image": "../assets/visuals/expansion-8/gaming-card.webp",
+    "variants": {
+      "card": "expansion-8/gaming-card.webp",
+      "detail": "expansion-8/gaming-card.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Videospiele",
+        "subcategory": "Veröffentlichungen",
+        "metric": "Erstveröffentlichung des benannten Spiels",
+        "unit": "Jahr",
+        "value": 2016,
+        "source": "https://store.steampowered.com/app/413150/Stardew_Valley/",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Jahr · Erstveröffentlichung des benannten Spiels",
+        "estimate_question": "In welchem Jahr erschien Stardew Valley erstmals?",
+        "notes": "Erste reguläre Veröffentlichung des ausdrücklich benannten Spiels; kein Early Access, späterer Port oder Vorgängerspiel."
+      }
+    ]
+  },
+  {
+    "id": "elden-ring",
+    "name": "Elden Ring",
+    "image": "../assets/visuals/expansion-8/gaming-card.webp",
+    "variants": {
+      "card": "expansion-8/gaming-card.webp",
+      "detail": "expansion-8/gaming-card.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Videospiele",
+        "subcategory": "Veröffentlichungen",
+        "metric": "Erstveröffentlichung des benannten Spiels",
+        "unit": "Jahr",
+        "value": 2022,
+        "source": "https://www.bandainamcoent.com/news/elden-ring-now-available-adventure-arrives-for-the-brave",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Jahr · Erstveröffentlichung des benannten Spiels",
+        "estimate_question": "In welchem Jahr erschien Elden Ring erstmals?",
+        "notes": "Erste reguläre Veröffentlichung des ausdrücklich benannten Spiels; kein Early Access, späterer Port oder Vorgängerspiel."
+      }
+    ]
+  },
+  {
+    "id": "mk8",
+    "name": "Mario Kart 8 Deluxe",
+    "image": "../assets/visuals/expansion-8/gaming-card.webp",
+    "variants": {
+      "card": "expansion-8/gaming-card.webp",
+      "detail": "expansion-8/gaming-card.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Videospiele",
+        "subcategory": "Veröffentlichungen",
+        "metric": "Erstveröffentlichung des benannten Spiels",
+        "unit": "Jahr",
+        "value": 2017,
+        "source": "https://www.nintendo.com/en-gb/News/2017/April/In-shops-and-on-Nintendo-eShop-now-Mario-Kart-8-Deluxe-1218775.html",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Jahr · Erstveröffentlichung des benannten Spiels",
+        "estimate_question": "In welchem Jahr erschien Mario Kart 8 Deluxe erstmals?",
+        "notes": "Erste reguläre Veröffentlichung des ausdrücklich benannten Spiels; kein Early Access, späterer Port oder Vorgängerspiel."
+      },
+      {
+        "category": "Videospiele",
+        "subcategory": "Nintendo: Verkäufe 30.06.2026",
+        "metric": "Nintendo-Switch-Verkäufe bis 30.06.2026",
+        "unit": "Mio. Exemplare",
+        "value": 71.53,
+        "source": "https://www.nintendo.co.jp/ir/en/finance/software/switch.html",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Mio. Exemplare · Nintendo-Switch-Verkäufe bis 30.06.2026",
+        "estimate_question": "Wie viele Millionen Exemplare von Mario Kart 8 Deluxe wurden auf Nintendo Switch weltweit bis 30.06.2026 verkauft?",
+        "notes": "Nintendo: weltweite kumulierte Stückverkäufe, inklusive Downloads und Hardware-Bundles; Stand 30.06.2026; nur Switch-Fassung."
+      }
+    ]
+  },
+  {
+    "id": "acnh",
+    "name": "Animal Crossing: New Horizons",
+    "image": "../assets/visuals/expansion-8/gaming-card.webp",
+    "variants": {
+      "card": "expansion-8/gaming-card.webp",
+      "detail": "expansion-8/gaming-card.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Videospiele",
+        "subcategory": "Nintendo: Verkäufe 30.06.2026",
+        "metric": "Nintendo-Switch-Verkäufe bis 30.06.2026",
+        "unit": "Mio. Exemplare",
+        "value": 50.29,
+        "source": "https://www.nintendo.co.jp/ir/en/finance/software/switch.html",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Mio. Exemplare · Nintendo-Switch-Verkäufe bis 30.06.2026",
+        "estimate_question": "Wie viele Millionen Exemplare von Animal Crossing: New Horizons wurden auf Nintendo Switch weltweit bis 30.06.2026 verkauft?",
+        "notes": "Nintendo: weltweite kumulierte Stückverkäufe, inklusive Downloads und Hardware-Bundles; Stand 30.06.2026; nur Switch-Fassung."
+      }
+    ]
+  },
+  {
+    "id": "ssbu",
+    "name": "Super Smash Bros. Ultimate",
+    "image": "../assets/visuals/expansion-8/gaming-card.webp",
+    "variants": {
+      "card": "expansion-8/gaming-card.webp",
+      "detail": "expansion-8/gaming-card.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Videospiele",
+        "subcategory": "Nintendo: Verkäufe 30.06.2026",
+        "metric": "Nintendo-Switch-Verkäufe bis 30.06.2026",
+        "unit": "Mio. Exemplare",
+        "value": 38.14,
+        "source": "https://www.nintendo.co.jp/ir/en/finance/software/switch.html",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Mio. Exemplare · Nintendo-Switch-Verkäufe bis 30.06.2026",
+        "estimate_question": "Wie viele Millionen Exemplare von Super Smash Bros. Ultimate wurden auf Nintendo Switch weltweit bis 30.06.2026 verkauft?",
+        "notes": "Nintendo: weltweite kumulierte Stückverkäufe, inklusive Downloads und Hardware-Bundles; Stand 30.06.2026; nur Switch-Fassung."
+      }
+    ]
+  },
+  {
+    "id": "botw",
+    "name": "The Legend of Zelda: Breath of the Wild",
+    "image": "../assets/visuals/expansion-8/gaming-card.webp",
+    "variants": {
+      "card": "expansion-8/gaming-card.webp",
+      "detail": "expansion-8/gaming-card.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Videospiele",
+        "subcategory": "Nintendo: Verkäufe 30.06.2026",
+        "metric": "Nintendo-Switch-Verkäufe bis 30.06.2026",
+        "unit": "Mio. Exemplare",
+        "value": 34.06,
+        "source": "https://www.nintendo.co.jp/ir/en/finance/software/switch.html",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Mio. Exemplare · Nintendo-Switch-Verkäufe bis 30.06.2026",
+        "estimate_question": "Wie viele Millionen Exemplare von The Legend of Zelda: Breath of the Wild wurden auf Nintendo Switch weltweit bis 30.06.2026 verkauft?",
+        "notes": "Nintendo: weltweite kumulierte Stückverkäufe, inklusive Downloads und Hardware-Bundles; Stand 30.06.2026; nur Switch-Fassung."
+      }
+    ]
+  },
+  {
+    "id": "odyssey",
+    "name": "Super Mario Odyssey",
+    "image": "../assets/visuals/expansion-8/gaming-card.webp",
+    "variants": {
+      "card": "expansion-8/gaming-card.webp",
+      "detail": "expansion-8/gaming-card.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Videospiele",
+        "subcategory": "Nintendo: Verkäufe 30.06.2026",
+        "metric": "Nintendo-Switch-Verkäufe bis 30.06.2026",
+        "unit": "Mio. Exemplare",
+        "value": 30.8,
+        "source": "https://www.nintendo.co.jp/ir/en/finance/software/switch.html",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Mio. Exemplare · Nintendo-Switch-Verkäufe bis 30.06.2026",
+        "estimate_question": "Wie viele Millionen Exemplare von Super Mario Odyssey wurden auf Nintendo Switch weltweit bis 30.06.2026 verkauft?",
+        "notes": "Nintendo: weltweite kumulierte Stückverkäufe, inklusive Downloads und Hardware-Bundles; Stand 30.06.2026; nur Switch-Fassung."
+      }
+    ]
+  },
+  {
+    "id": "totk",
+    "name": "The Legend of Zelda: Tears of the Kingdom",
+    "image": "../assets/visuals/expansion-8/gaming-card.webp",
+    "variants": {
+      "card": "expansion-8/gaming-card.webp",
+      "detail": "expansion-8/gaming-card.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/tree/Main/assets/visuals",
+    "image_license": "AI-generated thematic illustration; not a portrait or screenshot",
+    "status": "approved",
+    "expansion": 9,
+    "facts": [
+      {
+        "category": "Videospiele",
+        "subcategory": "Nintendo: Verkäufe 30.06.2026",
+        "metric": "Nintendo-Switch-Verkäufe bis 30.06.2026",
+        "unit": "Mio. Exemplare",
+        "value": 22.71,
+        "source": "https://www.nintendo.co.jp/ir/en/finance/software/switch.html",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "comparison_unit": "Mio. Exemplare · Nintendo-Switch-Verkäufe bis 30.06.2026",
+        "estimate_question": "Wie viele Millionen Exemplare von The Legend of Zelda: Tears of the Kingdom wurden auf Nintendo Switch weltweit bis 30.06.2026 verkauft?",
+        "notes": "Nintendo: weltweite kumulierte Stückverkäufe, inklusive Downloads und Hardware-Bundles; Stand 30.06.2026; nur Switch-Fassung."
       }
     ]
   }

@@ -5,6 +5,7 @@ const html=fs.readFileSync('index.html','utf8');
 function source(name){const start=html.indexOf('function '+name+'(');assert(start>=0,name);const open=html.indexOf('{',start);let depth=0,quote='',escape=false;for(let i=open;i<html.length;i++){const c=html[i];if(quote){if(escape)escape=false;else if(c==='\\')escape=true;else if(c===quote)quote='';continue}if(c==='\''||c==='"'||c==='`'){quote=c;continue}if(c==='{')depth++;if(c==='}'&&!--depth)return html.slice(start,i+1)}throw Error(name)}
 const ctx=vm.createContext({window:{},VISUAL_IMG:{},VISUAL_DETAIL:{},GENERATED_SUBJECTS:new Set(),SOLO_Q:[],ESTIMATE_Q:[],FACT_Q:[],S:{room:null},JEOP:{mode:'random',boardCats:[0,1,2,3,4,5]},knowledgeJeopardyQuestions:()=>[],jeopHistory:()=>[],saveJeopHistory:()=>{}});
 vm.runInContext(fs.readFileSync('content/approved.js','utf8'),ctx);
+vm.runInContext(fs.readFileSync('assets/content-categories.js','utf8'),ctx);
 vm.runInContext(html.slice(html.indexOf('const JEOP_CATS='),html.indexOf('let JEOP=')),ctx);
 const mergeStart=html.indexOf('(function mergeReviewedContent(){');vm.runInContext(html.slice(mergeStart,html.indexOf('})();',mergeStart)+5),ctx);
 vm.runInContext('let JEOP_RANDOM=null;'+['jeopDifficulty','jeopQuestionKey','jeopRoomRandom','jeopShuffle','jeopPick','jeopQuestionForLevel','buildJeopData'].map(source).join('\n'),ctx);
@@ -26,4 +27,3 @@ const intro=html.slice(html.indexOf('id="jeopardyIntro"'),html.indexOf('id="jeop
 assert(!intro.includes('jeopRandomSetup'));assert.equal((intro.match(/type="checkbox"/g)||[]).length,1,'only optional Final round toggle remains in intro');assert(intro.includes('id="jeopFinalEnabled"')); 
 assert(html.indexOf('id="friendsQuizSetup"')>html.indexOf('<dialog id="friendsMenu"'));
 console.log('OK: full-pool Random, six unique categories, thirty unique questions, fixed presets, deterministic custom boards, exhausted history and editor placement');
-

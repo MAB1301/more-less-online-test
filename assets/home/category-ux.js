@@ -1,10 +1,11 @@
 /* Shared topic artwork and explicit category choices, separate from the main menu. */
 const CATEGORY_PHOTOS={geography:'erde.webp',city:'berlin.webp',nature:'nil.webp',sport:'sport-mix.webp',buildings:'burj-khalifa.webp',animals:'afrikanischer-elefant.webp',space:'saturn.webp',science:'mars.webp',mix:'felder-schachbrett.webp',records:'100-m-weltrekord-manner.webp',culture:'kolner-dom.webp',missions:'mond.webp'};
-const CATEGORY_SUBJECT_PHOTOS={'Fußballer':'generated/subjects/mbappe.webp','Autos':'generated/subjects/porsche-gt3.webp','UNESCO':'kolner-dom.webp','Flüsse':'rhein.webp','Ozeane':'pazifik.webp','Inseln':'island.webp','Spielfelder':'sport-field.webp','Planetengröße':'jupiter.webp','Monde':'mond.webp'};
+const CATEGORY_SUBJECT_PHOTOS={'Videospiele':'expansion-8/gaming-card.webp','Fußball':'generated/subjects/mbappe.webp','Autos':'generated/subjects/porsche-gt3.webp','UNESCO':'kolner-dom.webp','Flüsse':'rhein.webp','Ozeane':'pazifik.webp','Inseln':'island.webp','Spielfelder':'sport-field.webp','Planetengröße':'jupiter.webp','Monde':'mond.webp'};
 function categoryPhoto(name){return CATEGORY_SUBJECT_PHOTOS[name]||CATEGORY_PHOTOS[CATEGORY_ART[name]||sharedTheme(name)]||CATEGORY_PHOTOS.mix}
 function categoryPhotoArt(name){if((CATEGORY_ART[name]||sharedTheme(name))==='science')return '<span class="drawArt categoryPhoto visualIllustration art-science" role="img" aria-label="Wissenschaft: Labor und Prisma"></span>';return '<img class="drawArt categoryPhoto" src="'+VISUAL_BASE+categoryPhoto(name)+'" alt="" loading="lazy">'}
 function topicFromQuestion(question,category=''){
  const text=String(question).toLowerCase();
+ if(category==='Videospiele')return 'Videospiele';
  if(/fußball|fussball|champions league|bundesliga|club|verein|torjäger/.test(text+' '+category.toLowerCase()))return 'Fußball';
  if(/tennis|wimbledon/.test(text))return 'Tennis';
  if(/schach/.test(text))return 'Allgemeinwissen';
@@ -60,3 +61,4 @@ function upgradeCategoryCards(){
  });refreshCategoryOptionLabel();
 }
 upgradeCategoryCards();
+

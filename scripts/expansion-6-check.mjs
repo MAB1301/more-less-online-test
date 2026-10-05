@@ -1,9 +1,10 @@
 import fs from 'node:fs';import vm from 'node:vm';import assert from 'node:assert/strict';
 const html=fs.readFileSync('index.html','utf8'),ctx={window:{}};vm.runInNewContext(fs.readFileSync('content/approved.js','utf8'),ctx);const pack=ctx.window.GAME_CONTENT_PACK;
-const baseline={'Autos':11,'Fußballer':16,'Länder':3,'Städte':3,'Natur':54,'Sport':14,'Bauwerke':3,'Tierwelt':3,'Weltraum':151,'Wissenschaft':210,'Allgemeinwissen':3,'Rekorde & Extreme':3,'Raumfahrt':55,'Weltkultur':27};
+const baseline={'Autos':11,'Videospiele':16,'Länder':3,'Städte':3,'Natur':54,'Sport':14,'Bauwerke':3,'Tierwelt':3,'Weltraum':151,'Wissenschaft':210,'Allgemeinwissen':3,'Rekorde & Extreme':3,'Raumfahrt':55,'Weltkultur':27};
 for(const [cat,count] of Object.entries(baseline))assert(pack.moreless.filter(q=>q.cat===cat).length>count,'No new playable comparison in '+cat);
 const before={'Chemie':12,'Planetenkunde':10,'Nationalparks':6,'Raumfahrtmissionen':6,'Kultur':4,'Sportregeln':6,'Autotechnik':6,'Fußball':4,'Geschichte':3,'Geografie':3};for(const [cat,count] of Object.entries(before))assert(pack.jeopardy.filter(q=>q.cat===cat).length>count,'Jeopardy pool did not grow: '+cat);
 const state=new Map(),game=vm.createContext({window:{GAME_CONTENT_PACK:pack},VISUAL_IMG:{},VISUAL_DETAIL:{},GENERATED_SUBJECTS:new Set(),SOLO_Q:[],ESTIMATE_Q:[],FACT_Q:[],localStorage:{getItem:k=>state.get(k)||null,setItem:(k,v)=>state.set(k,v)},knowledgeJeopardyQuestions:()=>[],S:{room:null},JEOP:{mode:'standard'}});
+vm.runInContext(fs.readFileSync('assets/content-categories.js','utf8'),game);
 vm.runInContext(html.slice(html.indexOf('const JEOP_CATS='),html.indexOf('let JEOP=')),game);const a=html.indexOf('(function mergeReviewedContent(){');vm.runInContext(html.slice(a,html.indexOf('})();',a)+5),game);vm.runInContext(html.slice(html.indexOf('const JEOP_HISTORY_KEY='),html.indexOf('let JEOP_SYNC_REV=')),game);
 const cats=vm.runInContext('JEOP_CATS',game);assert.equal(cats.length,26);for(const [name,questions] of cats.slice(0,12))assert(questions.length>=20,name+' needs at least twenty questions');
 const boards=[];for(let i=0;i<3;i++){game.buildJeopData();boards.push(...game.JEOP.data.flatMap(c=>c[1].map(q=>q[0])))}assert.equal(new Set(boards).size,90,'Three standard boards should have 90 unique clues');

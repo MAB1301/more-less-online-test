@@ -1,0 +1,17 @@
+{
+  "Länder": ["Küstenlänge", "Lebenserwartung", "Waldanteil", "Nachbarländer"],
+  "Städte": ["Einwohner", "Bevölkerungsdichte", "Höhenlage", "U-Bahn-Netzlänge"],
+  "Natur": ["Berghöhe", "Seetiefe", "Wasserfallhöhe", "Seevolumen", "Mittlerer Flussabfluss"],
+  "Sport": ["Netzhöhe", "Ballmasse", "Titel im gleichen Wettbewerb"],
+  "Bauwerke": ["Stockwerke", "Brückenlänge", "Hauptspannweite", "Stadionkapazität", "Baukosten mit Preisbasis"],
+  "Tierwelt": ["Körperlänge", "Flügelspannweite", "Lebenserwartung", "Wurfgröße"],
+  "Fußball": ["Karrieretore", "Karriereassists", "Champions-League-Tore", "Champions-League-Assists", "Länderspiele", "Länderspieltore", "Pflichtspiele", "Trophäen nach Wettbewerb", "Verschiedene Profivereine", "Transferablöse", "Vereinsmeisterschaften", "Vereinspokale", "Champions-League-Titel", "Internationale Vereinstitel", "Gründungsjahr", "Stadionkapazität", "Saisontore", "Saisonpunkte"],
+  "Autos": ["Höchstgeschwindigkeit", "Leergewicht", "Kofferraumvolumen", "WLTP-Reichweite", "Batteriekapazität"],
+  "Weltraum": ["Achsenneigung", "Oberflächendruck", "Bahnexzentrizität", "Sternradius"],
+  "Wissenschaft": ["Schmelzpunkt", "Siedepunkt", "Dichte", "Elektrische Leitfähigkeit"],
+  "Allgemeinwissen": ["Buchseiten einer bestimmten Ausgabe", "Filmlaufzeit einer bestimmten Fassung", "Spielbestandteile einer Ausgabe", "Instrumentensaiten"],
+  "Rekorde & Extreme": ["Achterbahngeschwindigkeit", "Achterbahnlänge", "Fallhöhe", "Inversionen"],
+  "Raumfahrt": ["Missionsdauer", "Raketenhöhe", "Nutzlast für gleichen Zielorbit", "Besatzungsgröße"],
+  "Weltkultur": ["Amtssprachen", "Museumsfläche", "Museumsbesuche pro Jahr", "Länge historischer Stätten"],
+  "Videospiele": ["Erscheinungsjahr", "Verkäufe mit Stichtag und Plattform", "Maximale Spielerzahl je Modus", "Erweiterungen mit Stichtag", "EA SPORTS FC: Gesamtwertung", "EA SPORTS FC: Tempo", "EA SPORTS FC: schwacher Fuß", "EA SPORTS FC: Spezialbewegungen", "Minecraft: Lebenspunkte", "Minecraft: Schaden", "Minecraft: Stapelgröße", "Minecraft: Verzauberungsstufe", "Pokémon: Nationaldex-Nummer", "Pokémon: Größe", "Pokémon: Gewicht", "Pokémon: Basiswerte", "Pokémon: Entwicklungslevel", "Mario Kart: Strecken", "Mario: Welten", "Zelda: Schreine", "Zelda: Dungeons", "GTA: Missionen", "Fortnite: Schaden", "Fortnite: Magazingröße", "Fortnite: Nachladezeit", "Counter-Strike: Waffenpreis", "Counter-Strike: Magazingröße", "Counter-Strike: Feuerrate", "Valorant: Waffenpreis", "Valorant: Schaden", "League of Legends: Basiswerte auf gleichem Level", "League of Legends: Reichweite", "League of Legends: Abklingzeit", "Clash Royale: Elixierkosten", "Clash Royale: Lebenspunkte auf gleichem Level", "Clash Royale: Schaden auf gleichem Level", "Clash of Clans: Gebäudekapazität", "Clash of Clans: Bauzeit auf gleichem Level", "Animal Crossing: Verkaufspreis", "Animal Crossing: Ausbaukosten", "Skyrim: Waffenschaden bei gleichen Voraussetzungen", "Elden Ring: Waffengewicht", "Dark Souls: Attributanforderungen", "Die Sims: Objektpreis", "Die Sims: Haushaltsgröße", "Tetris: Punkte nach gleichem Regelsatz", "Pac-Man: Punkte", "Sonic: Erscheinungsjahr"]
+}

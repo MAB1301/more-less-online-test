@@ -19,7 +19,7 @@ window.JEOP_CATEGORY_IMAGES={
   "Autotechnik": "autotechnik.webp",
   "Transfers": "transfers.webp",
   "Vereinsstationen": "vereinsstationen.webp",
-  "FIFA-Ratings": "fifa-ratings.webp",
+  "Fußballlegenden": "football-legends.webp",
   "Allgemeinwissen": "allgemeinwissen.webp",
   "Planetenphysik": "planetenphysik.webp",
   "Weltkultur": "weltkultur.webp",
@@ -28,3 +28,4 @@ window.JEOP_CATEGORY_IMAGES={
 };
 
 window.JEOP_GEO_IMAGES={'Länder & Grenzen':'geografie.webp','Städte & Hauptstädte':'deutschland.webp','Natur & Landschaften':'nationalparks.webp','Europa':'geografie.webp','Weltreise & Welterbe':'weltkultur.webp'};
+

@@ -4,7 +4,7 @@ import hashlib,json
 ROOT=Path(__file__).resolve().parents[1]
 paths=[ROOT/'index.html',ROOT/'offline/index.html']
 paths += [p for p in (ROOT/'assets').rglob('*') if p.is_file() and p.suffix in ('.html','.js','.mjs','.css','.svg','.png','.webp','.jpg','.jpeg','.mp3','.ogg','.wav','.woff','.woff2','.webmanifest')]
-paths += [ROOT/'content'/name for name in ('approved.js','catalogue.json','trivia.json','review-schedule.json')]
+paths += [ROOT/'content'/name for name in ('approved.js','catalogue.json','trivia.json','review-schedule.json','criteria.json')]
 files={str(p.relative_to(ROOT)):{'hash':hashlib.sha256(p.read_bytes()).hexdigest(),'bytes':p.stat().st_size} for p in sorted(paths)}
 encoded=json.dumps(files,separators=(',',':'),sort_keys=True)
 release={'id':hashlib.sha256((encoded+(ROOT/'service-worker.js').read_text()).encode()).hexdigest()[:16],'bytes':sum(item['bytes'] for item in files.values())}

@@ -4,7 +4,7 @@ from urllib.parse import urlsplit,parse_qsl,urlencode
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 paths=[p for p in (ROOT/'assets').rglob('*') if p.is_file() and p.suffix in ('.js','.mjs','.css','.svg','.webp') and p.name!='asset-manifest.js']
-paths.append(ROOT/'content/approved.js')
+paths.extend(ROOT/'content'/name for name in ('approved.js','catalogue.json','criteria.json'))
 revisions={str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest()[:16] for p in sorted(paths)}
 images=[name for name in revisions if name.endswith(('.svg','.webp'))]
 size=sum((ROOT/name).stat().st_size for name in images)
