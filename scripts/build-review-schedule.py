@@ -14,7 +14,7 @@ def build():
         for f in r.get('facts',[]):
             records.append({'subject':r['name'],'prompt':f.get('estimate_question') or f.get('fact_statement') or f.get('metric'),'source':f['source'],'verified':f.get('verified'),'metric':f.get('metric',''),'notes':f.get('notes','')})
     trivia=json.loads((ROOT/'content/trivia.json').read_text())
-    for game,key in [('facts','s'),('jeopardy','q')]:
+    for game,key in [('facts','s'),('jeopardy','q'),('estimate','q')]:
         for f in trivia.get(game,[]): records.append({'subject':f.get('subject',f['cat']),'prompt':f[key],'source':f['source'],'verified':f.get('verified'),'metric':'','notes':'','game':game})
     out=[]
     for r in records:

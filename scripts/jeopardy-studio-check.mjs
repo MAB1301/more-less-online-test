@@ -4,7 +4,7 @@ vm.runInNewContext(fs.readFileSync('content/approved.js','utf8'),ctx);
 vm.runInNewContext(fs.readFileSync('assets/jeopardy/categories.js','utf8'),ctx);
 const images=ctx.window.JEOP_CATEGORY_IMAGES;
 const clues=ctx.window.GAME_CONTENT_PACK.jeopardy;
-assert.equal(clues.filter(q=>q.cat==='Videospiele').length,30);
+assert.equal(clues.filter(q=>q.cat==='Videospiele').length,35);
 assert(clues.filter(q=>q.cat==='Transfers').length>=40);
 assert(!clues.some(q=>['Transfers 2025','Transfers 2026','FC 27-Werte'].includes(q.cat)));
 for(const edition of ['FIFA 19','FIFA 20','FIFA 21','FIFA 22','FIFA 23','FC 24','FC 25','FC 26','FC 27'])assert(clues.some(q=>q.cat==='FIFA-Ratings'&&q.q.includes(edition)),edition+' missing');

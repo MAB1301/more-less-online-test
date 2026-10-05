@@ -6,6 +6,7 @@ import io
 import itertools
 import json
 import re
+from content_sets import annotate
 from pathlib import Path
 
 from PIL import Image, ImageOps
@@ -74,9 +75,11 @@ def build(catalogue, output, images_dir=OUT, trivia=None):
                 raise ValueError(f"Invalid fact: {ident}")
             cat = fact.get("category", "Tierwelt")
             key = (cat, metric, unit, fact.get("comparison_unit", unit))
-            groups.setdefault(key, []).append((name, value, source, fact.get("verified"), fact.get("exclude_with", [])))
+            if fact.get("sources") and not all(isinstance(url,str) and url.startswith("https://") for url in fact["sources"]):
+                raise ValueError(f"HTTPS derived sources required: {ident}")
+            groups.setdefault(key, []).append((name, value, source, fact.get("verified"), fact.get("exclude_with", []), fact))
             if fact.get("estimate_question"):
-                pack["estimate"].append({"q": fact["estimate_question"], "a": value, "u": unit, "subject": name, "cat": cat, "source": source, "verified": fact.get("verified"), "notes": fact.get("notes", "")})
+                pack["estimate"].append({"q": fact["estimate_question"], "a": value, "u": unit, "subject": name, "cat": cat, "source": source, "verified": fact.get("verified"), "notes": fact.get("notes", ""), **{k:fact[k] for k in ("subcategory","set","expansion","sources") if k in fact}})
             if fact.get("fact_statement"):
                 if not isinstance(fact.get("fact_answer"), bool) or not fact.get("fact_explanation"):
                     raise ValueError(f"Fact or Fake answer/explanation missing: {ident}")
@@ -93,14 +96,14 @@ def build(catalogue, output, images_dir=OUT, trivia=None):
         if len(entries) < 2:
             continue
         for a, b in itertools.combinations(entries, 2):
-            left, lv, ls, ld, lx = a
-            right, rv, rs, rd, rx = b
+            left, lv, ls, ld, lx, lf = a
+            right, rv, rs, rd, rx, rf = b
             if lv != rv and right not in lx and left not in rx:
-                pack["moreless"].append({"l": left, "r": right, "lv": lv, "rv": rv, "u": comparison_unit, "cat": cat, "metric": metric, "sub": metric, "source": ls, "sources": [ls, rs], "verified": ld if ld == rd else None})
+                pack["moreless"].append({"l": left, "r": right, "lv": lv, "rv": rv, "u": comparison_unit, "cat": cat, "metric": metric, "sub": metric, "source": ls, "sources": [ls, rs], "verified": ld if ld == rd else None, **{k:lf[k] for k in ("subcategory","set") if k in lf and lf.get(k)==rf.get(k)}, **({"expansion":8} if lf.get("expansion")==8 or rf.get("expansion")==8 else {})})
     if trivia is not None:
         curated = json.loads(trivia.read_text(encoding="utf-8"))
         if curated.get("status") == "approved":
-            for kind, prompt in (("facts", "s"), ("jeopardy", "q")):
+            for kind, prompt in (("facts", "s"), ("jeopardy", "q"), ("estimate", "q")):
                 seen = {item[prompt].strip().casefold() for item in pack[kind]}
                 for item in curated.get(kind, []):
                     for field in (prompt, "cat", "source", "verified"):
@@ -118,9 +121,13 @@ def build(catalogue, output, images_dir=OUT, trivia=None):
                     if kind == "facts":
                         if not isinstance(item.get("a"), bool) or not item.get("e") or item.get("difficulty") not in ("easy", "medium", "hard"):
                             raise ValueError("Fact/Fake requires a boolean answer, explanation and level")
+                    elif kind == "estimate":
+                        if not isinstance(item.get("a"), (int,float)) or isinstance(item["a"],bool) or not item.get("u"):
+                            raise ValueError("Estimate requires a numeric answer and unit")
                     elif not isinstance(item.get("a"), str) or not item["a"].strip() or type(item.get("difficulty")) is not int or not 1 <= item["difficulty"] <= 5:
                         raise ValueError("Jeopardy requires an answer and level 1–5")
                     pack[kind].append({**item, "sources": sources})
+    annotate(pack)
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text("window.GAME_CONTENT_PACK=" + json.dumps(pack, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
     print(f"{len(pack['images'])} images, {len(pack['moreless'])} comparisons, {len(pack['estimate'])} estimates, {len(pack['facts'])} facts, {len(pack['jeopardy'])} Jeopardy clues")
