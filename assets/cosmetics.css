@@ -37,3 +37,16 @@
 
 .cosmeticShop .cosmeticPlayerTitle{color:var(--title-color,#d8e1f3);width:auto}
 .cosmeticPreview #cosmeticPreviewTitle .cosmeticPlayerTitle{font-size:11px}
+
+/* The portrait follows the frame silhouette while the ornament stays unclipped. */
+[data-frame-shape]:not([data-frame-shape=round]){background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;position:relative}
+[data-frame-shape]:not([data-frame-shape=round]):before{content:"";position:absolute;inset:0;background:#172a40;clip-path:var(--avatar-shape);pointer-events:none;z-index:-1}
+[data-frame-shape]:not([data-frame-shape=round]) img{border-radius:0!important;clip-path:var(--avatar-shape)}
+[data-frame-shape=hexagon]{--avatar-shape:polygon(50% 0%,94% 25%,94% 75%,50% 100%,6% 75%,6% 25%)}
+[data-frame-shape=shield]{--avatar-shape:polygon(8% 5%,50% 0%,92% 5%,92% 56%,80% 80%,50% 100%,20% 80%,8% 56%)}
+[data-frame-shape=diamond]{--avatar-shape:polygon(50% 0%,100% 50%,50% 100%,0% 50%)}
+[data-frame-shape=octagon]{--avatar-shape:polygon(27% 0%,73% 0%,100% 27%,100% 73%,73% 100%,27% 100%,0% 73%,0% 27%)}
+[data-frame-shape=star]{--avatar-shape:polygon(50% 0%,64% 32%,100% 34%,73% 60%,82% 100%,50% 80%,18% 100%,27% 60%,0% 34%,36% 32%)}
+[data-frame-shape=david]{--avatar-shape:polygon(29% 19%,71% 19%,92% 50%,71% 81%,29% 81%,8% 50%)}
+[data-frame-shape=toast]{--avatar-shape:polygon(12% 15%,20% 2%,38% 0%,50% 3%,62% 0%,80% 2%,88% 15%,86% 30%,90% 43%,90% 96%,10% 96%,10% 43%,14% 30%)}
+[data-frame-shape=oval]{--avatar-shape:ellipse(50% 35% at 50% 50%)}

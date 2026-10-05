@@ -4,6 +4,16 @@ from math import sin, cos, radians
 import hashlib,json,re
 
 ROOT = Path(__file__).resolve().parents[1]
+SHAPES = {
+ 'emerald':('hexagon','M80 12L139 46V114L80 148L21 114V46Z'),
+ 'obsidian':('shield','M28 26L80 12L132 26V84Q128 123 80 148Q32 123 28 84Z'),
+ 'dragon':('shield','M28 26L80 12L132 26V84Q128 123 80 148Q32 123 28 84Z'),
+ 'prism':('diamond','M80 10L150 80L80 150L10 80Z'),
+ 'ice':('octagon','M52 13H108L147 52V108L108 147H52L13 108V52Z'),
+ 'stars':('star','M80 8L98 55L149 58L110 91L123 143L80 115L37 143L50 91L11 58L62 55Z'),
+ 'david':('david','M80 7L101 43H143L122 80L143 117H101L80 153L59 117H17L38 80L17 43H59Z'),
+ 'toast':('toast','M31 139V54C2 27 29 10 51 15Q80 3 109 15C131 10 158 27 129 54V139Z'),
+ 'ufo':('oval','M148 80A68 48 0 1 1 12 80A68 48 0 1 1 148 80Z')}
 PALETTES = {
  'starter':('#93b7df','#edf5ff','#355171'), 'neon':('#68e6ff','#e7b6ff','#593db0'),
  'emerald':('#61e3b1','#dcfff0','#167c64'), 'gold':('#e4b657','#fff1b2','#895522'),
@@ -24,6 +34,9 @@ def svg_frame(key, p):
  '<circle cx="80" cy="80" r="59" fill="none" stroke="url(#metal)" stroke-width="6"/>',
  f'<circle cx="80" cy="80" r="54.5" fill="none" stroke="{b}" stroke-opacity=".65" stroke-width="1"/>',
  f'<path d="M37 38a60 60 0 0 1 82 0" fill="none" stroke="{b}" stroke-width="1.5" opacity=".8"/>']
+ if key in SHAPES:
+  shape,d=SHAPES[key]
+  pieces=pieces[:1]+[f'<path d="{d}" fill="none" stroke="#07101e" stroke-width="12" stroke-linejoin="round"/>',f'<path d="{d}" fill="none" stroke="url(#metal)" stroke-width="6" stroke-linejoin="round"/>',f'<path d="{d}" transform="translate(80 80) scale(.91) translate(-80 -80)" fill="none" stroke="{b}" stroke-width="1" stroke-opacity=".65"/>']
  def path(d,fill='none',stroke=a,w=2):
   pieces.append(f'<path d="{d}" fill="{fill}" stroke="{stroke}" stroke-width="{w}" stroke-linejoin="round" stroke-linecap="round"/>')
  def circle(x,y,r,fill=a):pieces.append(f'<circle cx="{x}" cy="{y}" r="{r}" fill="{fill}"/>')
@@ -37,6 +50,35 @@ def svg_frame(key, p):
    for i in range(7):
     y=130-i*9;x=80+side*(35+20*sin(i/7*3.14))
     path(f'M{x:.1f} {y}q{side*17} -2 {side*7} -13q{-side*11} 4 {-side*7} 13z','url(#metal)',c,.6)
+ if key in SHAPES:
+  if key=='david':
+   path('M80 7L143 117H17Z','none',b,1.5)
+   path('M80 153L17 43H143Z','none',a,1.5)
+   # Keep the centre open: the crossing lines lie along the central hexagon.
+  elif key=='emerald':
+   for x,y in [(80,12),(139,46),(139,114),(80,148),(21,114),(21,46)]:diamond(x,y,4)
+  elif key=='prism':
+   for x,y,col in [(80,10,'#ffb5de'),(150,80,'#a6c4ff'),(80,150,'#9ae9dc'),(10,80,'#ffdfa1')]:
+    circle(x,y,4,col)
+   path('M80 17L143 80','none','#dfb6ff',2);path('M17 80L80 143','none','#94e8de',2)
+  elif key=='obsidian':
+   diamond(80,15,7);path('M32 28L80 16L128 28','none',b,1.5)
+  elif key=='dragon':
+   path('M64 23L62 5L80 16L98 5L96 23','url(#metal)',c,1.5)
+   path('M26 56L13 42L19 72M134 56L147 42L141 72','url(#metal)',c,1.5)
+  elif key=='ice':
+   for x,y in [(52,13),(108,13),(147,52),(147,108),(108,147),(52,147),(13,108),(13,52)]:
+    path(f'M{x-4} {y}h8M{x} {y-4}v8','none',b,1.5)
+  elif key=='stars':
+   for x,y in [(80,8),(149,58),(123,143),(37,143),(11,58)]:diamond(x,y,3)
+  elif key=='toast':
+   path('M39 133V53M121 133V53','none',b,1)
+   for x,y in [(43,34),(114,31),(49,122),(109,115)]:circle(x,y,2,a)
+  elif key=='ufo':
+   path('M57 32Q80-2 103 32','url(#metal)',c)
+   for x,y in [(27,61),(46,43),(80,32),(114,43),(133,61)]:circle(x,y,2.5,b)
+  pieces.append('</svg>')
+  return ''.join(pieces)
  if key in ['starter','neon','emerald','obsidian','prism','aurora']:
   pieces.append(f'<circle cx="80" cy="80" r="65" fill="none" stroke="{a}" stroke-width="1" opacity=".6" stroke-dasharray="26 10"/>')
   for deg in [45,135,225,315]:
