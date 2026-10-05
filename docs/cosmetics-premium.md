@@ -15,3 +15,12 @@ catalog IDs and inventory rows are preserved. The additive SQL seed is in
 Validation: full client regression suite; transaction-scoped anonymous test user
 purchased all 15 additions, checked duplicate buys do not charge again, changed
 equipped items and checked a fresh profile read. The test was rolled back.
+
+## Silhouette variation
+
+Emerald Circuit is a hexagon, Obsidian Crest and Dragon Guard are shields,
+Prism Arc is a diamond, Frost Halo is an octagon, Stardust is a five-pointed
+star, and Davidstern uses the full six-pointed star outline. Toast and UFO
+use bread and oval silhouettes. Portrait backgrounds and photos follow the
+matching cutout; the vector overlay is not clipped. Existing inventory IDs
+are unchanged, so owned frames update automatically.
