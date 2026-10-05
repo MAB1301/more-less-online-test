@@ -1,8 +1,8 @@
-"""Three original instrumental 8-bar loops; deterministic synthesis, no samples."""
+"""Original instrumental 8-bar loops; deterministic synthesis, no samples."""
 from pathlib import Path
 import math,random,struct,wave,subprocess
 RATE=22050
-TRACKS=[('midnight-lounge','Midnight Lounge',84,[48,45,53,55],.09,.045),('cloud-drift','Cloud Drift',72,[50,46,53,48],.055,.025),('arcade-pulse','Arcade Pulse',110,[45,53,48,55],.11,.085)]
+TRACKS=[('midnight-lounge','Midnight Lounge',84,[48,45,53,55],.09,.045),('cloud-drift','Cloud Drift',72,[50,46,53,48],.055,.025),('arcade-pulse','Arcade Pulse',110,[45,53,48,55],.11,.085),('neon-drive','Neon Drive',100,[40,43,47,45],.10,.07),('pocket-groove','Pocket Groove',78,[46,49,44,41],.075,.06),('orbit-house','Orbit House',122,[41,44,48,46],.10,.09),('pixel-quest','Pixel Quest',132,[48,55,53,57],.09,.06)]
 for slug,title,bpm,roots,bass,drums in TRACKS:
  beat=60/bpm;length=32*beat;n=int(RATE*length);audio=[0.0]*n;rng=random.Random(slug)
  def add(start,seconds,fn,level):
@@ -16,9 +16,9 @@ for slug,title,bpm,roots,bass,drums in TRACKS:
   for pitch in chord:note(pitch,start,4.3*beat,.038)
   for k in [0,1.5,2.5]:note(root,start+k*beat,1.1*beat,bass)
   for k in range(8):
-   if slug!='cloud-drift' or k%2==0:note(chord[(k+bar)%4]+12,start+k*.5*beat,.7*beat,.025,True)
+   if slug!='cloud-drift' or k%2==0:note(chord[(k+bar)%4]+12,start+k*.5*beat+(beat*.06 if slug=='pocket-groove' and k%2 else 0),.7*beat,.025,True)
    add(start+(k+.25)*.5*beat,.065,lambda t,d:(rng.random()*2-1)*math.exp(-t/.014),drums*.32)
-  for k in [0,2]:add(start+k*beat,.28,lambda t,d:math.sin(2*math.pi*(48*t+7*(1-math.exp(-t*32))/32))*math.exp(-t*20)*min(1,t/.003),drums*2)
+  for k in ([0,1,2,3] if slug=='orbit-house' else [0,2]):add(start+k*beat,.28,lambda t,d:math.sin(2*math.pi*(48*t+7*(1-math.exp(-t*32))/32))*math.exp(-t*20)*min(1,t/.003),drums*2)
   for k in [1,3]:add(start+k*beat,.12,lambda t,d:((rng.random()*2-1)*.8+math.sin(2*math.pi*180*t)*.2)*math.exp(-t*35)*min(1,t/.002),drums*.6)
  peak=max(abs(v) for v in audio);rms=math.sqrt(sum(v*v for v in audio)/n);gain=min(.62/peak,.13/rms)
  samples=b''.join(struct.pack('<h',round(v*gain*32767)) for v in audio)
