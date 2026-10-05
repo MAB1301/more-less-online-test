@@ -6,7 +6,7 @@
  document.getElementById('comfortStatus')?.before(panel);
  const node=id=>document.getElementById(id),button=node('offlineGameDownload'),progress=node('offlineGameProgress'),status=node('offlineGameStatus');
  const header=document.querySelector('#homeScreen .homeHeader');let homeButton,homeStatus,homeProgress;
- if(header){const home=document.createElement('div');home.className='homeImageDownload';home.innerHTML='<button type="button" class="homeImageDownloadButton">↓ Offline herunterladen</button><progress hidden aria-label="Offline-Download"></progress><p class="tiny" role="status"></p>';header.append(home);homeButton=home.querySelector('button');homeProgress=home.querySelector('progress');homeStatus=home.querySelector('p')}
+ if(header){const home=document.createElement('div');home.className='homeImageDownload';home.innerHTML='<button type="button" class="homeImageDownloadButton">↓ App herunterladen</button><progress hidden aria-label="Offline-Download"></progress><p class="tiny" role="status"></p><p class="homeDownloadHelp">Auf iPhone/iPad anschließend: Safari → Teilen → Zum Home-Bildschirm. Über das App-Icon starten und den Offline-Status prüfen.</p>';header.append(home);homeButton=home.querySelector('button');homeProgress=home.querySelector('progress');homeStatus=home.querySelector('p[role="status"]')}
  const controls=[{button,progress,status},...(homeButton?[{button:homeButton,progress:homeProgress,status:homeStatus}]:[])];
  function text(value){for(const c of controls)c.status.textContent=value}
  function enabled(value){for(const c of controls)c.button.disabled=!value}
@@ -16,7 +16,7 @@
   worker.postMessage({type},[channel.port2]);
  })}
  async function storageStatus(request=false){try{const granted=request&&navigator.storage?.persist?await navigator.storage.persist():await navigator.storage?.persisted?.();node('offlineStorageStatus').textContent=granted?'Dauerhafter Speicher bewilligt. Bewusstes Löschen der Website-Daten bleibt möglich.':'Offline-Speicher aktiv. Der Browser kann ihn bei Platzmangel löschen; bei Bedarf erneut herunterladen.'}catch{node('offlineStorageStatus').textContent='Speicherschutz ist in diesem Browser nicht verfügbar.'}}
- function renderState(data){const mb=(data.bytes/1000000).toFixed(1);text(data.ready?'Offline bereit · '+mb+' MB · Version '+data.version.slice(0,8):'Noch nicht vollständig offline · '+data.completed+' / '+data.total+' Dateien · '+mb+' MB');for(const c of controls)c.button.textContent=data.ready?'Offline-Paket prüfen':'↓ Offline herunterladen'}
+ function renderState(data){const mb=(data.bytes/1000000).toFixed(1);text(data.ready?'Offline bereit · '+mb+' MB · Version '+data.version.slice(0,8):'Noch nicht vollständig offline · '+data.completed+' / '+data.total+' Dateien · '+mb+' MB');for(const c of controls)c.button.textContent=c.button===homeButton?(data.ready?'✓ App heruntergeladen · prüfen':'↓ App herunterladen'):(data.ready?'Offline-Paket prüfen':'↓ Offline herunterladen')}
  async function audit(){if(registration?.active){renderState(await message(registration.active,'GAME_STATUS'));await storageStatus()}}
  function safeMenu(){return !document.hidden&&!document.querySelector('dialog[open]')&&(typeof S==='undefined'||!S.room)&&(typeof SOLO==='undefined'||!SOLO.on)&&['estimateGame','factGame','jeopGame'].every(id=>!node(id)||node(id).classList.contains('hide'))&&!!document.querySelector('#homeScreen:not(.hide)')}
  function announce(){if(!registration?.waiting||busy||updateDialog?.open||!safeMenu())return;
