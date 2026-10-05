@@ -5,8 +5,8 @@ import vm from 'node:vm';
 const html=fs.readFileSync('index.html','utf8');
 const offline=fs.readFileSync('offline/index.html','utf8');
 const library=fs.readFileSync('assets/vendor/qrcode.min.js','utf8');
-assert(html.includes('src="assets/vendor/qrcode.min.js"'));
-assert(offline.includes('src="../assets/vendor/qrcode.min.js"'));
+assert.match(html,/src="assets\/vendor\/qrcode.min.js(?:\?[^"]*)?"/);
+assert.match(offline,/src="\.\.\/assets\/vendor\/qrcode.min.js(?:\?[^"]*)?"/);
 assert(!html.includes('qrcode@1.5.4/build/qrcode.min.js'));
 function source(name){
   const start=html.indexOf('function '+name+'(');

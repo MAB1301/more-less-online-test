@@ -158,7 +158,7 @@ button.appBack:hover,#worldMenu button.appBack:hover{background:#203454;border-c
 button.appBack:focus-visible,#worldMenu button.appBack:focus-visible{outline:3px solid #fff;outline-offset:3px}
 
 /* Raster illustrations keep all copy in HTML and load only in the game menus. */
-#worldMenu .cardArt{display:block;flex:none;background-image:url('art/modes-atlas.png');background-size:300% 300%;background-repeat:no-repeat;width:96px;height:96px;min-width:0;border:0;padding:0;border-radius:14px;filter:none;font-size:0!important;line-height:0;box-shadow:none;transform:none}
+#worldMenu .cardArt{display:block;flex:none;background-image:url('art/modes-atlas.webp');background-size:300% 300%;background-repeat:no-repeat;width:96px;height:96px;min-width:0;border:0;padding:0;border-radius:14px;filter:none;font-size:0!important;line-height:0;box-shadow:none;transform:none}
 #worldMenu .art-classic{background-position:0 0}#worldMenu .art-party{background-position:50% 0}#worldMenu .art-blitz{background-position:100% 0}
 #worldMenu .art-survival{background-position:0 50%}#worldMenu .art-king{background-position:50% 50%}#worldMenu .art-chaos{background-position:100% 50%}
 #worldMenu .art-target{background-position:0 100%}#worldMenu .art-risk{background-position:50% 100%}#worldMenu .art-seed{background-position:100% 100%}
@@ -169,11 +169,11 @@ button.appBack:focus-visible,#worldMenu button.appBack:focus-visible{outline:3px
 #worldMenu .gameMode .cardArt{margin:6px auto 12px}
 #worldMenu .selectionLabel{display:none;position:absolute;top:11px;left:12px;font-size:9px;line-height:1.2;font-weight:850;letter-spacing:.04em;text-transform:uppercase;color:var(--accent);border:1px solid rgba(var(--accent-rgb),.35);background:#071329cc;padding:4px 6px;border-radius:5px}
 #worldMenu .gameMode.active>.selectionLabel,#worldMenu .factLevel.selected>.selectionLabel{display:block}
-#worldMenu #jeopardyIntro .jeopArt{background-image:url('art/jeopardy-atlas.png');background-size:400% 200%;width:120px;height:120px;border-radius:12px;margin:16px auto 12px}
+#worldMenu #jeopardyIntro .jeopArt{background-image:url('art/jeopardy-atlas.webp');background-size:400% 200%;width:120px;height:120px;border-radius:12px;margin:16px auto 12px}
 #worldMenu .jeop-standard{background-position:0 0}#worldMenu .jeop-big{background-position:33.333333% 0}#worldMenu .jeop-football{background-position:66.666667% 0}#worldMenu .jeop-random{background-position:100% 0}
 #worldMenu .jeop-nerd{background-position:0 100%}#worldMenu .jeop-sport{background-position:33.333333% 100%}#worldMenu .jeop-geo{background-position:66.666667% 100%}#worldMenu .jeop-party{background-position:100% 100%}
 #worldMenu #jeopardyIntro .gameMode{min-height:230px;padding:20px 12px 14px}
-#worldMenu .factLevel .levelArt{background-image:url('art/levels-atlas.png');background-size:300% 100%;width:120px;height:120px;margin:12px auto 0}
+#worldMenu .factLevel .levelArt{background-image:url('art/levels-atlas.webp');background-size:300% 100%;width:120px;height:120px;margin:12px auto 0}
 #worldMenu .level-easy{background-position:0 0}#worldMenu .level-medium{background-position:50% 0}#worldMenu .level-hard{background-position:100% 0}
 #worldMenu .factLevel{min-height:238px}
 #worldMenu .modeChoices{grid-template-columns:1fr 1fr;align-items:start}
@@ -242,7 +242,7 @@ button.appBack:focus-visible,#worldMenu button.appBack:focus-visible{outline:3px
 
 /* Original generated topic artwork replaces abstract and emoji-like fallbacks. */
 .objectVisual,.modeQuestionVisual{position:relative}
-.visualIllustration{display:block;width:100%;height:100%;min-height:140px;background-image:url('../visuals/generated/question-atlas.png');background-size:300% 300%;background-repeat:no-repeat;border-radius:inherit;background-position:50% 100%}
+.visualIllustration{display:block;width:100%;height:100%;min-height:140px;background-image:url('../visuals/generated/question-atlas.webp');background-size:300% 300%;background-repeat:no-repeat;border-radius:inherit;background-position:50% 100%}
 .visualIllustration.art-building{background-position:0 0}.visualIllustration.art-planet{background-position:50% 0}.visualIllustration.art-animal{background-position:100% 0}.visualIllustration.art-country{background-position:0 50%}.visualIllustration.art-city{background-position:50% 50%}.visualIllustration.art-nature{background-position:100% 50%}.visualIllustration.art-sport{background-position:0 100%}.visualIllustration.art-science{background-position:50% 100%}.visualIllustration.art-primordial{background-position:100% 100%}
 .visualIllustrationLabel{position:absolute;bottom:8px;left:8px;border-radius:6px;padding:3px 6px;background:#071023cf;color:#c5d4ed;font-size:9px;font-weight:500;line-height:1.3}
 #accountDock{position:fixed;top:max(12px,env(safe-area-inset-top));right:14px;z-index:2500}
@@ -382,9 +382,9 @@ html body .catOverlay #sharedCatGrid .topicHint{margin:0 12px 12px!important;ali
 #gameRulePreview[data-game="estimate"]::backdrop,#modeInfoDialog[data-game="estimate"]::backdrop{background:radial-gradient(ellipse at 10% 20%,#087eac66,transparent 50%),radial-gradient(ellipse at 90% 80%,#235d9866,transparent 50%),#061424}
 #gameRulePreview[data-game="quiz"]::backdrop,#modeInfoDialog[data-game="quiz"]::backdrop{background:radial-gradient(ellipse at 15% 20%,#244db966,transparent 50%),radial-gradient(ellipse at 90% 80%,#bb953444,transparent 50%),#080e23}
 #gameRulePreview[data-game="facts"]::backdrop,#modeInfoDialog[data-game="facts"]::backdrop{background:radial-gradient(ellipse at 20% 20%,#218e5966,transparent 60%),#071720}
-#gameRulePreview[data-game="estimate"] .rulePreviewArt{background-image:url('art/modes-atlas.png');background-size:300% 300%;background-position:0 100%}
-#gameRulePreview[data-game="quiz"] .rulePreviewArt{background-image:url('art/jeopardy-atlas.png');background-size:400% 200%;background-position:0 0}
-#gameRulePreview[data-game="facts"] .rulePreviewArt{background-image:url('art/levels-atlas.png');background-size:300% 100%;background-position:0 0}
+#gameRulePreview[data-game="estimate"] .rulePreviewArt{background-image:url('art/modes-atlas.webp');background-size:300% 300%;background-position:0 100%}
+#gameRulePreview[data-game="quiz"] .rulePreviewArt{background-image:url('art/jeopardy-atlas.webp');background-size:400% 200%;background-position:0 0}
+#gameRulePreview[data-game="facts"] .rulePreviewArt{background-image:url('art/levels-atlas.webp');background-size:300% 100%;background-position:0 0}
 #gameRulePreview[data-game="estimate"] #gameRuleStart{background:linear-gradient(120deg,#0fd0e5,#0877af)}#gameRulePreview[data-game="quiz"] #gameRuleStart{background:linear-gradient(120deg,#e4c064,#aa782e);color:#101829}
 @media(max-width:600px){html body .catOverlay #sharedCatGrid button.premiumDeck .cardPicture{height:120px!important;min-height:120px!important;max-height:120px!important}html body .catOverlay #sharedCatGrid button.premiumDeck{min-height:198px!important}html body .catOverlay #sharedCatGrid .cardRibbon{font-size:14px!important}.cardFace .categoryPhoto{height:100px}}
 

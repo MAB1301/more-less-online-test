@@ -119,3 +119,5 @@ await import('./game-learning-check.mjs');
 await import('./progression-check.mjs');
 
 await import("./expansion-8-check.mjs");
+
+await import("./asset-cache-check.mjs");
