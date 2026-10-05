@@ -1,6 +1,7 @@
 """Original vector ornaments: transparent centres, no fonts or bitmap downloads."""
 from pathlib import Path
 from math import sin, cos, radians
+import hashlib,json,re
 
 ROOT = Path(__file__).resolve().parents[1]
 PALETTES = {
@@ -115,3 +116,12 @@ def svg_frame(key, p):
 for key,palette in PALETTES.items():
  (ROOT/'assets/frames'/f'{key}.svg').write_text(svg_frame(key,palette))
 print(f'{len(PALETTES)} original SVG frames')
+
+# Content hashes also refresh previously downloaded ornaments immediately.
+p=ROOT/'assets/cosmetics.js'
+revisions={'frame-'+key:hashlib.sha256((ROOT/'assets/frames'/f'{key}.svg').read_bytes()).hexdigest()[:16] for key in PALETTES}
+line=' const frameRevisions='+json.dumps(revisions,separators=(',',':'))+';'
+s=p.read_text()
+if ' const frameRevisions=' in s:s=re.sub(r' const frameRevisions=[^\n]+',lambda _:line,s)
+else:s=s.replace(' function style(',line+'\n function style(')
+p.write_text(s)
