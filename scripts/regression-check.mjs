@@ -123,3 +123,5 @@ await import("./expansion-8-check.mjs");
 await import("./asset-cache-check.mjs");
 
 await import('./asset-cache-ui-check.mjs');
+
+await import('./xp-levels-check.mjs');
