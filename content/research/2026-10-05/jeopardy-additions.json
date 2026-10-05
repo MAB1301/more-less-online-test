@@ -1,0 +1,761 @@
+{
+  "Chemie": {
+    "subcategory": "Elementsymbole",
+    "set": "Metalle & Alltagsstoffe",
+    "source": "https://periodic-table.rsc.org/",
+    "questions": [
+      [
+        "Welches chemische Elementsymbol hat Natrium?",
+        "Na",
+        "https://periodic-table.rsc.org/element/11/sodium"
+      ],
+      [
+        "Welches chemische Elementsymbol hat Kalium?",
+        "K",
+        "https://periodic-table.rsc.org/element/19/potassium"
+      ],
+      [
+        "Für welches Element steht das Symbol Fe?",
+        "Eisen",
+        "https://periodic-table.rsc.org/element/26/iron"
+      ],
+      [
+        "Für welches Element steht das Symbol Ag?",
+        "Silber",
+        "https://periodic-table.rsc.org/element/47/silver"
+      ],
+      [
+        "Welches chemische Elementsymbol hat Quecksilber?",
+        "Hg",
+        "https://periodic-table.rsc.org/element/80/mercury"
+      ]
+    ]
+  },
+  "Planetenkunde": {
+    "subcategory": "Planetensystem",
+    "set": "Reihenfolge & Nachbarn",
+    "source": "https://science.nasa.gov/solar-system/planets/",
+    "questions": [
+      [
+        "Welcher Planet liegt in der Reihenfolge von der Sonne zwischen Venus und Mars?",
+        "Erde"
+      ],
+      [
+        "Welcher Planet liegt in der Reihenfolge von der Sonne direkt hinter Saturn?",
+        "Uranus"
+      ],
+      [
+        "Welcher Planet liegt in der Reihenfolge von der Sonne direkt vor Saturn?",
+        "Jupiter"
+      ],
+      [
+        "Welcher Planet steht in der Reihenfolge von der Sonne an vierter Stelle?",
+        "Mars"
+      ],
+      [
+        "Wie viele der acht Planeten liegen in der Reihenfolge von der Sonne vor Jupiter?",
+        "4|vier"
+      ]
+    ]
+  },
+  "Nationalparks": {
+    "subcategory": "Landschaften & Wahrzeichen",
+    "set": "US-Parks entdecken",
+    "source": "https://www.nps.gov/",
+    "questions": [
+      [
+        "In welchem US-Bundesstaat liegt der Yosemite-Nationalpark?",
+        "Kalifornien|California",
+        "https://www.nps.gov/yose/index.htm"
+      ],
+      [
+        "Welcher Fluss hat die Landschaft des Grand Canyon wesentlich geformt?",
+        "Colorado|Colorado River",
+        "https://www.nps.gov/grca/learn/nature/geologicformations.htm"
+      ],
+      [
+        "Wie heißt der berühmte, regelmäßig ausbrechende Geysir im Yellowstone-Nationalpark?",
+        "Old Faithful",
+        "https://www.nps.gov/yell/planyourvisit/exploreoldfaithful.htm"
+      ],
+      [
+        "In welchem US-Bundesstaat liegt der Arches-Nationalpark?",
+        "Utah",
+        "https://www.nps.gov/arch/index.htm"
+      ],
+      [
+        "Welche Gebirgskette gibt dem Grand-Teton-Nationalpark seinen Namen?",
+        "Teton Range|Teton-Gebirge|Tetons",
+        "https://www.nps.gov/grte/learn/nature/mountains.htm"
+      ]
+    ]
+  },
+  "Raumfahrtmissionen": {
+    "subcategory": "Ziele & Entdeckungen",
+    "set": "Missionen und ihre Ziele",
+    "source": "https://science.nasa.gov/",
+    "questions": [
+      [
+        "Welchen Zwergplaneten flog New Horizons im Juli 2015 aus der Nähe an?",
+        "Pluto",
+        "https://science.nasa.gov/mission/new-horizons/"
+      ],
+      [
+        "Welchen Planeten umkreiste die Sonde Cassini von 2004 bis 2017?",
+        "Saturn",
+        "https://science.nasa.gov/mission/cassini/"
+      ],
+      [
+        "Auf welchem Mond landete die Sonde Huygens im Januar 2005?",
+        "Titan",
+        "https://science.nasa.gov/mission/cassini/"
+      ],
+      [
+        "Welchen Planeten erforscht die 2011 gestartete Mission Juno aus einer Umlaufbahn?",
+        "Jupiter",
+        "https://science.nasa.gov/mission/juno/"
+      ],
+      [
+        "Welcher sowjetische Satellit gab 1957 den Startschuss für das Satellitenzeitalter?",
+        "Sputnik 1|Sputnik",
+        "https://www.nasa.gov/history/sputnik-and-the-space-age/"
+      ]
+    ]
+  },
+  "Kultur": {
+    "subcategory": "Museen & Kunst",
+    "set": "Berühmte Werke",
+    "source": "https://www.louvre.fr/en/explore/the-palace/the-mona-lisa",
+    "questions": [
+      [
+        "In welchem Pariser Museum wird die Mona Lisa ausgestellt?",
+        "Louvre"
+      ],
+      [
+        "Wer malte die Mona Lisa?",
+        "Leonardo da Vinci|Leonardo"
+      ],
+      [
+        "Welcher niederländische Künstler malte 1889 Die Sternennacht?",
+        "Vincent van Gogh|Van Gogh",
+        "https://www.moma.org/collection/works/79802"
+      ],
+      [
+        "Welcher Künstler schuf die Skulptur Der Denker?",
+        "Auguste Rodin|Rodin",
+        "https://www.musee-rodin.fr/en/musee/collections/oeuvres/thinker"
+      ],
+      [
+        "Welcher spanische Künstler malte Guernica?",
+        "Pablo Picasso|Picasso",
+        "https://www.museoreinasofia.es/en/collection/artwork/guernica"
+      ]
+    ]
+  },
+  "Sportregeln": {
+    "subcategory": "Wertung & Ausrüstung",
+    "set": "Punkte und Spielgeräte",
+    "source": "https://www.fiba.basketball/documents/official-basketball-rules",
+    "questions": [
+      [
+        "Wie viele Punkte zählt ein erfolgreicher Freiwurf im Basketball?",
+        "1|eins"
+      ],
+      [
+        "Wie viele Punkte zählt im Basketball ein erfolgreicher Wurf von außerhalb der Dreipunktlinie?",
+        "3|drei"
+      ],
+      [
+        "Wie hoch hängt der obere Rand eines regulären Basketballrings, in Zentimetern?",
+        "305|305 cm"
+      ],
+      [
+        "Wie viele Berührungen stehen einem Volleyballteam normalerweise zur Rückgabe des Balls zu, wenn ein Blockkontakt nicht mitgezählt wird?",
+        "3|drei",
+        "https://www.fivb.com/volleyball/the-game/official-volleyball-rules/"
+      ],
+      [
+        "Wie viele Schritte darf ein Handballspieler mit dem gehaltenen Ball höchstens machen, bevor er abspielt, wirft oder prellt?",
+        "3|drei",
+        "https://www.ihf.info/regulations-documents/3"
+      ]
+    ]
+  },
+  "Autotechnik": {
+    "subcategory": "Antrieb & Begriffe",
+    "set": "Motorwissen",
+    "source": "https://newsroom.porsche.com/en/press-kits/911-GT3/Powertrain-and-performance.html",
+    "questions": [
+      [
+        "Welcher Motortyp hat beim Porsche 911 GT3 horizontal gegenüberliegende Zylinder?",
+        "Boxermotor|Boxer"
+      ],
+      [
+        "Wofür steht die Porsche-Abkürzung PDK auf Deutsch?",
+        "Porsche Doppelkupplungsgetriebe|Porsche-Doppelkupplungsgetriebe"
+      ],
+      [
+        "Welche Art Hybridantrieb besitzt der Ferrari 296 GTB, der auch an einer Steckdose geladen werden kann?",
+        "Plug-in-Hybrid|Plug-in Hybrid|PHEV",
+        "https://www.ferrari.com/en-EN/auto/296-gtb"
+      ],
+      [
+        "Welche Maßeinheit verwendet man üblicherweise für Motordrehmoment?",
+        "Newtonmeter|Nm",
+        "https://www.bipm.org/en/measurement-units"
+      ],
+      [
+        "Wofür steht das W in der Leistungsangabe kW?",
+        "Watt",
+        "https://www.bipm.org/en/measurement-units"
+      ]
+    ]
+  },
+  "Fußball": {
+    "subcategory": "Weltmeisterschaften",
+    "set": "WM-Sieger 1966–2014",
+    "source": "https://www.fifa.com/en/tournaments/mens/worldcup",
+    "questions": [
+      [
+        "Welche Nationalmannschaft gewann die Männer-Fußball-WM 2014 in Brasilien?",
+        "Deutschland"
+      ],
+      [
+        "Welche Nationalmannschaft gewann die Männer-Fußball-WM 2006 in Deutschland?",
+        "Italien"
+      ],
+      [
+        "Welche Nationalmannschaft gewann die Männer-Fußball-WM 1998 im eigenen Land?",
+        "Frankreich"
+      ],
+      [
+        "Welche Nationalmannschaft gewann die Männer-Fußball-WM 1986 in Mexiko?",
+        "Argentinien"
+      ],
+      [
+        "Welche Nationalmannschaft gewann die Männer-Fußball-WM 1966 im eigenen Land?",
+        "England"
+      ]
+    ]
+  },
+  "Geschichte": {
+    "subcategory": "Deutsche Zeitgeschichte",
+    "set": "Wende & Republik",
+    "source": "https://www.hdg.de/lemo/kapitel/deutsche-einheit",
+    "questions": [
+      [
+        "An welchem Datum wurde die Berliner Mauer im November 1989 geöffnet?",
+        "9. November 1989|09.11.1989|9.11.1989"
+      ],
+      [
+        "In welchem Jahr wurde die DDR gegründet?",
+        "1949",
+        "https://www.hdg.de/lemo/jahreschronik/1949"
+      ],
+      [
+        "Welcher Tag und Monat ist seit 1990 der deutsche Nationalfeiertag?",
+        "3. Oktober|03.10.|3.10."
+      ],
+      [
+        "Wie heißt der erste Bundeskanzler der Bundesrepublik Deutschland?",
+        "Konrad Adenauer|Adenauer",
+        "https://www.hdg.de/lemo/biografie/konrad-adenauer"
+      ],
+      [
+        "Welche Stadt wurde nach der deutschen Einheit wieder Sitz von Bundestag und Bundesregierung?",
+        "Berlin",
+        "https://www.bundestag.de/parlament/geschichte/schauplaetze/berlin"
+      ]
+    ]
+  },
+  "Geografie": {
+    "subcategory": "Hauptstädte weltweit",
+    "set": "Hauptstadtfallen",
+    "source": "https://www.auswaertiges-amt.de/de/service/laender",
+    "questions": [
+      [
+        "Wie heißt die Hauptstadt Kanadas?",
+        "Ottawa"
+      ],
+      [
+        "Wie heißt die Hauptstadt Australiens?",
+        "Canberra"
+      ],
+      [
+        "Wie heißt die Hauptstadt Brasiliens?",
+        "Brasília|Brasilia"
+      ],
+      [
+        "Wie heißt die Hauptstadt der Türkei?",
+        "Ankara"
+      ],
+      [
+        "Wie heißt die Hauptstadt Neuseelands?",
+        "Wellington"
+      ]
+    ]
+  },
+  "Transfers": {
+    "subcategory": "Historische Wechsel",
+    "set": "Legendäre Sommertransfers",
+    "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/cristiano-ronaldo-dos-santos-aveiro",
+    "questions": [
+      [
+        "Von welchem englischen Verein wechselte Cristiano Ronaldo 2009 zu Real Madrid?",
+        "Manchester United|Man United|ManU"
+      ],
+      [
+        "In welchem Jahr wechselte Cristiano Ronaldo von Manchester United zu Real Madrid?",
+        "2009"
+      ],
+      [
+        "Von welchem Verein wechselte Gareth Bale 2013 zu Real Madrid?",
+        "Tottenham Hotspur|Tottenham",
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/gareth-bale"
+      ],
+      [
+        "Von welchem Verein wechselte Toni Kroos 2014 zu Real Madrid?",
+        "FC Bayern München|Bayern München|Bayern",
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/toni-kroos"
+      ],
+      [
+        "Von welchem Verein wechselte Eden Hazard 2019 zu Real Madrid?",
+        "Chelsea|FC Chelsea",
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/eden-hazard"
+      ]
+    ]
+  },
+  "Vereinsstationen": {
+    "subcategory": "Karrierestarts",
+    "set": "Vor dem Weltruhm",
+    "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/",
+    "questions": [
+      [
+        "Für welchen Lissabonner Verein spielte Cristiano Ronaldo als Profi vor Manchester United?",
+        "Sporting CP|Sporting Lissabon|Sporting",
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/cristiano-ronaldo-dos-santos-aveiro"
+      ],
+      [
+        "Bei welchem französischen Verein gab Zinédine Zidane sein Profidebüt?",
+        "AS Cannes|Cannes",
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/zinedine-zidane"
+      ],
+      [
+        "Für welchen portugiesischen Verein spielte Pepe unmittelbar vor seinem Wechsel zu Real Madrid 2007?",
+        "FC Porto|Porto",
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/kepler-laveran-lima-ferreira"
+      ],
+      [
+        "Für welchen brasilianischen Verein spielte Marcelo unmittelbar vor Real Madrid?",
+        "Fluminense",
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/marcelo-vieira-da-silva"
+      ],
+      [
+        "Für welchen deutschen Verein spielte Mesut Özil direkt vor Real Madrid?",
+        "Werder Bremen|Werder",
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/mesut-ozil"
+      ]
+    ]
+  },
+  "FIFA-Ratings": {
+    "subcategory": "FIFA 22",
+    "set": "Bundesliga-Basiskarten",
+    "source": "https://www.ea.com/ea-originals/news/fifa-22-player-ratings-bundesliga",
+    "questions": [
+      [
+        "FIFA 22: Welche Basis-Gesamtwertung hatte Leon Goretzka in der veröffentlichten Bundesliga-Liste?",
+        "87"
+      ],
+      [
+        "FIFA 22: Welche Basis-Gesamtwertung hatte Thomas Müller in der veröffentlichten Bundesliga-Liste?",
+        "87"
+      ],
+      [
+        "FIFA 22: Welche Basis-Gesamtwertung hatte Mats Hummels in der veröffentlichten Bundesliga-Liste?",
+        "86"
+      ],
+      [
+        "FIFA 22: Welche Basis-Gesamtwertung hatte Marco Reus in der veröffentlichten Bundesliga-Liste?",
+        "85"
+      ],
+      [
+        "FIFA 22: Welche Basis-Gesamtwertung hatte Leroy Sané in der veröffentlichten Bundesliga-Liste?",
+        "84"
+      ]
+    ]
+  },
+  "Allgemeinwissen": {
+    "subcategory": "Brettspiele & Rätsel",
+    "set": "Schach verstehen",
+    "source": "https://handbook.fide.com/chapter/E012023",
+    "questions": [
+      [
+        "Welche Schachfigur darf als einzige regulär über andere Figuren springen?",
+        "Springer"
+      ],
+      [
+        "Wie nennt man den gleichzeitigen Zug von König und Turm im Schach?",
+        "Rochade"
+      ],
+      [
+        "Wie viele Bauern besitzt jede Seite in der Standard-Schachstartaufstellung?",
+        "8|acht"
+      ],
+      [
+        "Auf welcher Farbe steht das Feld a1 eines korrekt ausgerichteten Schachbretts?",
+        "Schwarz|Dunkel"
+      ],
+      [
+        "Wie heißt ein Schachergebnis, bei dem der Spieler am Zug nicht im Schach steht, aber keinen legalen Zug hat?",
+        "Patt"
+      ]
+    ]
+  },
+  "Planetenphysik": {
+    "subcategory": "Rotation",
+    "set": "Tage sind nicht Jahre",
+    "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+    "questions": [
+      [
+        "Wie viele Stunden benötigt Jupiter laut NASA ungefähr für eine Drehung um die eigene Achse?",
+        "9,9|9.9"
+      ],
+      [
+        "Wie viele Stunden dauert laut NASA eine Rotation von Mars relativ zu den Sternen ungefähr?",
+        "24,6|24.6"
+      ],
+      [
+        "Wie viele Stunden dauert laut NASA eine Rotation von Neptun relativ zu den Sternen ungefähr?",
+        "16,1|16.1"
+      ],
+      [
+        "Welche Richtung bezeichnet ein Minuszeichen bei einer Rotationsperiode in der NASA-Tabelle?",
+        "Rückläufig|Retrograd|Rückläufige Rotation",
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/fact_notes.html"
+      ],
+      [
+        "Welche NASA-Tabellenangabe beschreibt die Zeit von einem Sonnenmittag bis zum nächsten: Rotation Period oder Length of Day?",
+        "Length of Day|Tageslänge",
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/fact_notes.html"
+      ]
+    ]
+  },
+  "Weltkultur": {
+    "subcategory": "Baumeister & Zivilisationen",
+    "set": "Wer baute die Weltwunder?",
+    "source": "https://whc.unesco.org/en/list/",
+    "questions": [
+      [
+        "Welche südamerikanische Zivilisation errichtete Machu Picchu?",
+        "Inka|Inkas",
+        "https://whc.unesco.org/en/list/274/"
+      ],
+      [
+        "Welches antike Volk machte Petra zu seiner Felsenhauptstadt?",
+        "Nabatäer|Nabateer|Nabataeer",
+        "https://whc.unesco.org/en/list/326/"
+      ],
+      [
+        "Welches Reich hinterließ die Tempelanlagen von Angkor?",
+        "Khmer-Reich|Khmer|Khmers",
+        "https://whc.unesco.org/en/list/668/"
+      ],
+      [
+        "Welcher Mogulherrscher ließ den Taj Mahal erbauen?",
+        "Shah Jahan|Schah Jahan|Shah Dschahan",
+        "https://whc.unesco.org/en/list/252/"
+      ],
+      [
+        "Welcher Architekt entwarf das Opernhaus von Sydney?",
+        "Jørn Utzon|Jorn Utzon|Utzon",
+        "https://whc.unesco.org/en/list/166/"
+      ]
+    ]
+  },
+  "Mix": {
+    "subcategory": "Alltagsmathematik",
+    "set": "Kopfrechnen am Spieleabend",
+    "source": "https://www.bipm.org/en/measurement-units",
+    "questions": [
+      [
+        "Wie viele Minuten sind zweieinhalb Stunden?",
+        "150"
+      ],
+      [
+        "Wie viele Milliliter sind drei Viertel Liter?",
+        "750"
+      ],
+      [
+        "Wie viele Prozent entspricht der Bruch ein Viertel?",
+        "25|25 %"
+      ],
+      [
+        "Wie viele Meter pro Sekunde entsprechen 36 Kilometern pro Stunde?",
+        "10|10 m/s"
+      ],
+      [
+        "Wie viele Quadratzentimeter hat ein Rechteck mit Seitenlängen 7 und 9 Zentimetern?",
+        "63|63 cm²"
+      ]
+    ]
+  },
+  "Rekorde & Extreme": {
+    "subcategory": "Historische Leichtathletik",
+    "set": "Bolt und Rekordnächte",
+    "source": "https://worldathletics.org/athletes/jamaica/usain-bolt-14201847",
+    "questions": [
+      [
+        "Aus welchem Land stammt Usain Bolt?",
+        "Jamaika"
+      ],
+      [
+        "In welcher Stadt lief Usain Bolt bei der WM 2009 die 100 Meter in 9,58 Sekunden?",
+        "Berlin"
+      ],
+      [
+        "Welche zweite Sprintdistanz außer 100 Metern lief Bolt bei der WM 2009 in Weltrekordzeit?",
+        "200 Meter|200 m|200"
+      ],
+      [
+        "Aus welchem Land stammt der 400-Meter-Olympiasieger von 2016 Wayde van Niekerk?",
+        "Südafrika|Suedafrika|South Africa",
+        "https://worldathletics.org/athletes/south-africa/wayde-van-niekerk-14417677"
+      ],
+      [
+        "Aus welchem Land stammt der 800-Meter-Olympiasieger von 2012 David Rudisha?",
+        "Kenia|Kenya",
+        "https://worldathletics.org/athletes/kenya/david-lekuta-rudisha-14209691"
+      ]
+    ]
+  },
+  "Wissenschaft": {
+    "subcategory": "SI-Basiseinheiten",
+    "set": "Messen und verstehen",
+    "source": "https://www.bipm.org/en/measurement-units",
+    "questions": [
+      [
+        "Welche SI-Basiseinheit verwendet man für die elektrische Stromstärke?",
+        "Ampere|A"
+      ],
+      [
+        "Welche SI-Basiseinheit verwendet man für die thermodynamische Temperatur?",
+        "Kelvin|K"
+      ],
+      [
+        "Welche SI-Basiseinheit verwendet man für die Stoffmenge?",
+        "Mol|mole"
+      ],
+      [
+        "Welche SI-Basiseinheit verwendet man für die Lichtstärke?",
+        "Candela|cd"
+      ],
+      [
+        "Wie viele SI-Basiseinheiten gibt es insgesamt?",
+        "7|sieben"
+      ]
+    ]
+  },
+  "Deutschland": {
+    "subcategory": "Bundesländer & Nachbarn",
+    "set": "Deutschland auf der Karte",
+    "source": "https://www.bundesrat.de/DE/bundesrat/laender/laender-node.html",
+    "questions": [
+      [
+        "Wie viele Bundesländer hat Deutschland?",
+        "16|sechzehn"
+      ],
+      [
+        "Welches deutsche Bundesland hat München als Landeshauptstadt?",
+        "Bayern"
+      ],
+      [
+        "Welches deutsche Bundesland hat Schwerin als Landeshauptstadt?",
+        "Mecklenburg-Vorpommern"
+      ],
+      [
+        "Welches deutsche Bundesland besteht aus den Städten Bremen und Bremerhaven?",
+        "Bremen|Freie Hansestadt Bremen"
+      ],
+      [
+        "Welches Bundesland hat Düsseldorf als Landeshauptstadt?",
+        "Nordrhein-Westfalen|NRW"
+      ]
+    ]
+  },
+  "Sport": {
+    "subcategory": "Olympische Disziplinen",
+    "set": "Mehrkampf & Sportarten",
+    "source": "https://olympics.com/en/sports/",
+    "questions": [
+      [
+        "Wie viele Disziplinen umfasst ein klassischer Leichtathletik-Zehnkampf?",
+        "10|zehn"
+      ],
+      [
+        "Welche drei Sportarten umfasst ein Triathlon in ihrer üblichen Reihenfolge?",
+        "Schwimmen, Radfahren, Laufen|Schwimmen Radfahren Laufen"
+      ],
+      [
+        "Welche Sportart wird in den olympischen Varianten Florett, Degen und Säbel ausgetragen?",
+        "Fechten"
+      ],
+      [
+        "Welche zwei Sportarten kombiniert der Winter-Biathlon?",
+        "Skilanglauf und Schießen|Langlauf und Schießen|Skilanglauf Schiessen"
+      ],
+      [
+        "In welcher Sportart benutzt man eine Stange zum Überspringen einer hohen Latte?",
+        "Stabhochsprung"
+      ]
+    ]
+  },
+  "Champions League": {
+    "subcategory": "Finalgeschichte",
+    "set": "Legendäre Finals",
+    "source": "https://www.uefa.com/uefachampionsleague/history/",
+    "questions": [
+      [
+        "Welcher Verein verlor das Männer-Champions-League-Finale 1999 nach zwei späten Gegentoren gegen Manchester United?",
+        "Bayern München|FC Bayern München|Bayern"
+      ],
+      [
+        "Welcher Verein war Liverpools Gegner beim Männer-Champions-League-Finale 2005 in Istanbul?",
+        "AC Mailand|AC Milan|Milan"
+      ],
+      [
+        "Welcher Verein verlor das Männer-Champions-League-Finale 2012 in der eigenen Münchner Arena gegen Chelsea?",
+        "Bayern München|FC Bayern München|Bayern"
+      ],
+      [
+        "In welcher Stadt fand das Männer-Champions-League-Finale 2005 zwischen Liverpool und Milan statt?",
+        "Istanbul"
+      ],
+      [
+        "Welcher Verein gewann 1997 das Männer-Champions-League-Finale gegen Juventus?",
+        "Borussia Dortmund|Dortmund|BVB"
+      ]
+    ]
+  },
+  "Science-Fiction": {
+    "subcategory": "Star Trek",
+    "set": "Enterprise-Crew",
+    "source": "https://www.startrek.com/en-un/news/",
+    "questions": [
+      [
+        "Wie heißt der Captain der Enterprise in der ursprünglichen Star-Trek-Serie mit vollem Nachnamen?",
+        "James T. Kirk|James Kirk|Kirk",
+        "https://shop.startrek.com/collections/star-trek-the-original-series/Enterprise"
+      ],
+      [
+        "Welche außerirdische Herkunft hat Spocks Vater?",
+        "Vulkanier|Vulcan",
+        "https://www.startrek.com/news/kelvin-timeline-counterparts"
+      ],
+      [
+        "Welche Dienstrolle hat Leonard McCoy auf Kirks Enterprise?",
+        "Arzt|Schiffsarzt|Chefarzt",
+        "https://www.startrek.com/news/star-trek-101-dr-leonard-bones-mccoy"
+      ],
+      [
+        "Wie lautet das Rufzeichen von Kirks Enterprise ohne den späteren Buchstabenzusatz?",
+        "NCC-1701|NCC 1701",
+        "https://shop.startrek.com/collections/star-trek-the-original-series/Enterprise"
+      ],
+      [
+        "Welches Star-Trek-Volk ist besonders mit dem Gruß Lebe lang und in Frieden verbunden?",
+        "Vulkanier|Vulcans",
+        "https://www.startrek.com/news/guest-blog-nimoy-revisits-the-creation-of-the-vulcan-salute"
+      ]
+    ]
+  },
+  "Star Wars": {
+    "subcategory": "Jedi & Planeten",
+    "set": "Die klassische Trilogie",
+    "source": "https://www.starwars.com/databank/",
+    "questions": [
+      [
+        "Auf welchem Sumpfplaneten trainiert Luke Skywalker bei Yoda?",
+        "Dagobah",
+        "https://www.starwars.com/databank/dagobah"
+      ],
+      [
+        "Wie hieß Darth Vader vor seinem Übertritt zur dunklen Seite?",
+        "Anakin Skywalker|Anakin",
+        "https://www.starwars.com/databank/darth-vader"
+      ],
+      [
+        "Auf welchem Eisplaneten befindet sich die Echo-Basis der Rebellen in Episode V?",
+        "Hoth",
+        "https://www.starwars.com/databank/hoth"
+      ],
+      [
+        "Welchen Rang trägt Yoda innerhalb des Jedi-Ordens?",
+        "Jedi-Meister|Jedi Master|Meister",
+        "https://www.starwars.com/databank/yoda"
+      ],
+      [
+        "Wie heißt die Wolkenstadt, die Lando Calrissian in Episode V verwaltet?",
+        "Cloud City|Wolkenstadt",
+        "https://www.starwars.com/databank/cloud-city"
+      ]
+    ]
+  },
+  "Weltraum": {
+    "subcategory": "Monde",
+    "set": "Nachbarn mit Eis und Kratern",
+    "source": "https://science.nasa.gov/moon/facts/",
+    "questions": [
+      [
+        "Welcher Planet wird von unserem Erdmond umkreist?",
+        "Erde"
+      ],
+      [
+        "Welchen Planeten umkreist der Mond Europa?",
+        "Jupiter",
+        "https://science.nasa.gov/jupiter/jupiter-moons/europa/europa-facts/"
+      ],
+      [
+        "Welchen Planeten umkreist der Mond Titan?",
+        "Saturn",
+        "https://science.nasa.gov/saturn/moons/titan/facts/"
+      ],
+      [
+        "Wie heißt die dünne, äußerst verdünnte Atmosphäre des Erdmondes?",
+        "Exosphäre|Exosphaere|Exosphere"
+      ],
+      [
+        "Welcher Prozess sorgt dafür, dass der Erdmond der Erde ungefähr immer dieselbe Seite zuwendet?",
+        "Gebundene Rotation|Synchrone Rotation|Tidal Locking"
+      ]
+    ]
+  },
+  "Videospiele": {
+    "subcategory": "Nintendo",
+    "set": "Pilzkönigreich & Pokémon",
+    "source": "https://www.nintendo.com/en-ca/explore/characters/mario/friends/",
+    "questions": [
+      [
+        "Wie heißt der kleine Pilzbewohner mit weißem, rot gepunktetem Pilzhut aus den Mario-Spielen?",
+        "Toad"
+      ],
+      [
+        "Wie heißt die sportliche Prinzessin von Sarasaland aus dem Mario-Universum?",
+        "Daisy|Prinzessin Daisy"
+      ],
+      [
+        "Wie heißt der starke Gorilla aus Nintendos eigener Spielreihe, der auch Mario gegenübertritt?",
+        "Donkey Kong"
+      ],
+      [
+        "Zu welchem Pokémon entwickelt sich Pikachu mit einem Donnerstein in seiner klassischen Entwicklungsreihe?",
+        "Raichu",
+        "https://www.pokemon.com/us/pokedex/pikachu"
+      ],
+      [
+        "Wie heißt die erste Entwicklung von Bisasam in der deutschen Pokémon-Reihe?",
+        "Bisaknosp|Ivysaur",
+        "https://www.pokemon.com/us/pokedex/bulbasaur"
+      ]
+    ]
+  }
+}

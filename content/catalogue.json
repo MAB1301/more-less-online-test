@@ -205,6 +205,32 @@
         "expansion": 6,
         "notes": "",
         "estimate_question": "Porsche 911 GT3 (PDK, 2025): Wie hoch ist der Wert für „Maximale Motordrehzahl des Verbrennungsmotors“ (U/min)?"
+      },
+      {
+        "category": "Autos",
+        "metric": "Fahrzeuglänge laut Hersteller",
+        "value": 4570,
+        "unit": "mm",
+        "comparison_unit": "mm · Fahrzeuglänge laut Hersteller",
+        "source": "https://newsroom.porsche.com/dam/jcr%3A92acdfd9-962b-4c3c-a40c-050427b42cc3/pag-911-gt3-pdk-de.pdf",
+        "verified": "2026-10-05",
+        "estimate_question": "Wie groß ist bei Porsche 911 GT3 (PDK, 2025) die Fahrzeuglänge laut Hersteller, in Millimetern?",
+        "notes": "Benannte Straßenversion; kein Rennwagen, Spider oder Sondermodell.",
+        "subcategory": "Abmessungen",
+        "expansion": 8
+      },
+      {
+        "category": "Autos",
+        "metric": "Radstand laut Hersteller",
+        "value": 2457,
+        "unit": "mm",
+        "comparison_unit": "mm · Radstand laut Hersteller",
+        "source": "https://newsroom.porsche.com/dam/jcr%3A92acdfd9-962b-4c3c-a40c-050427b42cc3/pag-911-gt3-pdk-de.pdf",
+        "verified": "2026-10-05",
+        "estimate_question": "Wie groß ist bei Porsche 911 GT3 (PDK, 2025) die Radstandlänge laut Hersteller, in Millimetern?",
+        "notes": "Benannte Straßenversion; kein Rennwagen, Spider oder Sondermodell.",
+        "subcategory": "Abmessungen",
+        "expansion": 8
       }
     ]
   },
@@ -287,6 +313,32 @@
         "expansion": 6,
         "notes": "",
         "estimate_question": "Ferrari 296 GTB: Wie hoch ist der Wert für „Maximale Motordrehzahl des Verbrennungsmotors“ (U/min)?"
+      },
+      {
+        "category": "Autos",
+        "metric": "Fahrzeuglänge laut Hersteller",
+        "value": 4565,
+        "unit": "mm",
+        "comparison_unit": "mm · Fahrzeuglänge laut Hersteller",
+        "source": "https://www.ferrari.com/content/dam/ferrari-fcom/old/pdf/CS_296_GTB_final_gbr.pdf",
+        "verified": "2026-10-05",
+        "estimate_question": "Wie groß ist bei Ferrari 296 GTB die Fahrzeuglänge laut Hersteller, in Millimetern?",
+        "notes": "Benannte Straßenversion; kein Rennwagen, Spider oder Sondermodell.",
+        "subcategory": "Abmessungen",
+        "expansion": 8
+      },
+      {
+        "category": "Autos",
+        "metric": "Radstand laut Hersteller",
+        "value": 2600,
+        "unit": "mm",
+        "comparison_unit": "mm · Radstand laut Hersteller",
+        "source": "https://www.ferrari.com/content/dam/ferrari-fcom/old/pdf/CS_296_GTB_final_gbr.pdf",
+        "verified": "2026-10-05",
+        "estimate_question": "Wie groß ist bei Ferrari 296 GTB die Radstandlänge laut Hersteller, in Millimetern?",
+        "notes": "Benannte Straßenversion; kein Rennwagen, Spider oder Sondermodell.",
+        "subcategory": "Abmessungen",
+        "expansion": 8
       }
     ]
   },
@@ -369,6 +421,32 @@
         "expansion": 6,
         "notes": "",
         "estimate_question": "Ferrari SF90 Stradale: Wie hoch ist der Wert für „Maximale Motordrehzahl des Verbrennungsmotors“ (U/min)?"
+      },
+      {
+        "category": "Autos",
+        "metric": "Fahrzeuglänge laut Hersteller",
+        "value": 4710,
+        "unit": "mm",
+        "comparison_unit": "mm · Fahrzeuglänge laut Hersteller",
+        "source": "https://cdn.ferrari.com/cms/network/media/pdf/pr_ferrari_sf90_stradale_gbr.pdf",
+        "verified": "2026-10-05",
+        "estimate_question": "Wie groß ist bei Ferrari SF90 Stradale die Fahrzeuglänge laut Hersteller, in Millimetern?",
+        "notes": "Benannte Straßenversion; kein Rennwagen, Spider oder Sondermodell.",
+        "subcategory": "Abmessungen",
+        "expansion": 8
+      },
+      {
+        "category": "Autos",
+        "metric": "Radstand laut Hersteller",
+        "value": 2650,
+        "unit": "mm",
+        "comparison_unit": "mm · Radstand laut Hersteller",
+        "source": "https://cdn.ferrari.com/cms/network/media/pdf/pr_ferrari_sf90_stradale_gbr.pdf",
+        "verified": "2026-10-05",
+        "estimate_question": "Wie groß ist bei Ferrari SF90 Stradale die Radstandlänge laut Hersteller, in Millimetern?",
+        "notes": "Benannte Straßenversion; kein Rennwagen, Spider oder Sondermodell.",
+        "subcategory": "Abmessungen",
+        "expansion": 8
       }
     ]
   },
@@ -492,6 +570,19 @@
         "verified": "2026-10-04",
         "estimate_question": "Welche Physis-Wertung hat Kylian Mbappé auf der Basiskarte in EA SPORTS FC 27?",
         "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Körpergröße laut Spielerprofil",
+        "value": 178,
+        "unit": "cm",
+        "comparison_unit": "cm · Körpergröße laut Spielerprofil",
+        "source": "https://www.realmadrid.com/en-US/football/first-team/players/kylian-mbappe",
+        "verified": "2026-10-05",
+        "estimate_question": "Welche Körpergröße wird für Kylian Mbappé im Spielerprofil angegeben, in Zentimetern?",
+        "notes": "Gerundete Angabe des verlinkten Spielerprofils.",
+        "subcategory": "Spielerprofile",
+        "expansion": 8
       }
     ]
   },
@@ -614,6 +705,19 @@
         "verified": "2026-10-04",
         "estimate_question": "Welche Physis-Wertung hat Mohamed Salah auf der Basiskarte in EA SPORTS FC 27?",
         "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Körpergröße laut Spielerprofil",
+        "value": 175,
+        "unit": "cm",
+        "comparison_unit": "cm · Körpergröße laut Spielerprofil",
+        "source": "https://www.premierleague.com/players/5178/Mohamed-Salah/overview",
+        "verified": "2026-10-05",
+        "estimate_question": "Welche Körpergröße wird für Mohamed Salah im Spielerprofil angegeben, in Zentimetern?",
+        "notes": "Gerundete Angabe des verlinkten Spielerprofils.",
+        "subcategory": "Spielerprofile",
+        "expansion": 8
       }
     ]
   },
@@ -860,6 +964,19 @@
         "verified": "2026-10-04",
         "estimate_question": "Welche Physis-Wertung hat Jude Bellingham auf der Basiskarte in EA SPORTS FC 27?",
         "notes": "FC 27 Basis-Item zur Veröffentlichung; keine Spezialkarte, kein Live-Form-Update. Quellenstand 4. Oktober 2026. FC 26 bleibt eine eigene Ausgabe."
+      },
+      {
+        "category": "Fußballer",
+        "metric": "Körpergröße laut Spielerprofil",
+        "value": 186,
+        "unit": "cm",
+        "comparison_unit": "cm · Körpergröße laut Spielerprofil",
+        "source": "https://www.realmadrid.com/en-US/football/squad/jude-bellingham",
+        "verified": "2026-10-05",
+        "estimate_question": "Welche Körpergröße wird für Jude Bellingham im Spielerprofil angegeben, in Zentimetern?",
+        "notes": "Gerundete Angabe des verlinkten Spielerprofils.",
+        "subcategory": "Spielerprofile",
+        "expansion": 8
       }
     ]
   },
@@ -891,6 +1008,19 @@
         "expansion": 6,
         "notes": "Telefonvorwahl ohne internationale Verkehrsausscheidungsziffer.",
         "estimate_question": "Österreich: Wie hoch ist der Wert für „Internationale Telefon-Landeskennzahl“ (Zahl nach +)?"
+      },
+      {
+        "category": "Länder",
+        "metric": "Höhe des höchsten natürlichen Gipfels",
+        "value": 3798,
+        "unit": "m",
+        "comparison_unit": "m · Höhe des höchsten natürlichen Gipfels",
+        "source": "https://www.nationalpark.at/en/nationalpark",
+        "verified": "2026-10-05",
+        "estimate_question": "Wie hoch liegt der höchste natürliche Punkt von Österreich, gerundet in Metern über dem Meer?",
+        "notes": "Natürlicher Gipfel; künstliche Plattformen und Türme zählen nicht.",
+        "subcategory": "Gipfel & Landschaften",
+        "expansion": 8
       }
     ],
     "generated": false,
@@ -930,6 +1060,19 @@
         "expansion": 6,
         "notes": "Telefonvorwahl ohne internationale Verkehrsausscheidungsziffer.",
         "estimate_question": "Schweiz: Wie hoch ist der Wert für „Internationale Telefon-Landeskennzahl“ (Zahl nach +)?"
+      },
+      {
+        "category": "Länder",
+        "metric": "Höhe des höchsten natürlichen Gipfels",
+        "value": 4634,
+        "unit": "m",
+        "comparison_unit": "m · Höhe des höchsten natürlichen Gipfels",
+        "source": "https://www.myswitzerland.com/en-ch/destinations/dufourspitze-4634m-asl/",
+        "verified": "2026-10-05",
+        "estimate_question": "Wie hoch liegt der höchste natürliche Punkt von Schweiz, gerundet in Metern über dem Meer?",
+        "notes": "Natürlicher Gipfel; künstliche Plattformen und Türme zählen nicht.",
+        "subcategory": "Gipfel & Landschaften",
+        "expansion": 8
       }
     ],
     "generated": false,
@@ -969,6 +1112,19 @@
         "expansion": 6,
         "notes": "Telefonvorwahl ohne internationale Verkehrsausscheidungsziffer.",
         "estimate_question": "Belgien: Wie hoch ist der Wert für „Internationale Telefon-Landeskennzahl“ (Zahl nach +)?"
+      },
+      {
+        "category": "Länder",
+        "metric": "Höhe des höchsten natürlichen Gipfels",
+        "value": 694,
+        "unit": "m",
+        "comparison_unit": "m · Höhe des höchsten natürlichen Gipfels",
+        "source": "https://www.ostbelgien.eu/media/c7847e15-49c0-4bda-afec-f916adc1f80c.pdf",
+        "verified": "2026-10-05",
+        "estimate_question": "Wie hoch liegt der höchste natürliche Punkt von Belgien, gerundet in Metern über dem Meer?",
+        "notes": "Natürlicher Gipfel; künstliche Plattformen und Türme zählen nicht.",
+        "subcategory": "Gipfel & Landschaften",
+        "expansion": 8
       }
     ],
     "generated": false,
@@ -1008,6 +1164,19 @@
         "expansion": 6,
         "notes": "Berlin: 31.12.2023; Hamburg: gerundeter Behördenwert; Wien: 2025. Verwaltungsfläche einschließlich Wasserflächen.",
         "estimate_question": "Berlin: Wie hoch ist der Wert für „Stadtfläche laut angegebenem Quellenstand“ (km²)?"
+      },
+      {
+        "category": "Städte",
+        "metric": "Stiftungsjahr der benannten Universität",
+        "value": 1810,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Stiftungsjahr der benannten Universität",
+        "source": "https://www.hu-berlin.de/en/about/profile/history",
+        "verified": "2026-10-05",
+        "estimate_question": "In welchem Jahr wurde die Humboldt-Universität in Berlin gegründet?",
+        "notes": "Verglichen wird das Gründungsjahr der Humboldt-Universität, nicht das Gründungsjahr der Stadt.",
+        "subcategory": "Universitäten",
+        "expansion": 8
       }
     ],
     "generated": false,
@@ -1047,6 +1216,19 @@
         "expansion": 6,
         "notes": "Berlin: 31.12.2023; Hamburg: gerundeter Behördenwert; Wien: 2025. Verwaltungsfläche einschließlich Wasserflächen.",
         "estimate_question": "Hamburg: Wie hoch ist der Wert für „Stadtfläche laut angegebenem Quellenstand“ (km²)?"
+      },
+      {
+        "category": "Städte",
+        "metric": "Stiftungsjahr der benannten Universität",
+        "value": 1919,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Stiftungsjahr der benannten Universität",
+        "source": "https://www.uni-hamburg.de/en/uhh/profil/geschichte.html",
+        "verified": "2026-10-05",
+        "estimate_question": "In welchem Jahr wurde die Universität Hamburg in Hamburg gegründet?",
+        "notes": "Verglichen wird das Gründungsjahr der Universität Hamburg, nicht das Gründungsjahr der Stadt.",
+        "subcategory": "Universitäten",
+        "expansion": 8
       }
     ],
     "generated": false,
@@ -1086,6 +1268,19 @@
         "expansion": 6,
         "notes": "Berlin: 31.12.2023; Hamburg: gerundeter Behördenwert; Wien: 2025. Verwaltungsfläche einschließlich Wasserflächen.",
         "estimate_question": "Wien: Wie hoch ist der Wert für „Stadtfläche laut angegebenem Quellenstand“ (km²)?"
+      },
+      {
+        "category": "Städte",
+        "metric": "Stiftungsjahr der benannten Universität",
+        "value": 1365,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Stiftungsjahr der benannten Universität",
+        "source": "https://www.univie.ac.at/en/about-us/",
+        "verified": "2026-10-05",
+        "estimate_question": "In welchem Jahr wurde die Universität Wien in Wien gegründet?",
+        "notes": "Verglichen wird das Gründungsjahr der Universität Wien, nicht das Gründungsjahr der Stadt.",
+        "subcategory": "Universitäten",
+        "expansion": 8
       }
     ],
     "generated": true,
@@ -1125,6 +1320,19 @@
         "expansion": 6,
         "notes": "Momentaufnahme der verlinkten NPS-Statistik; verschiedene ältere NPS-Unterseiten können abweichende Grenzstände enthalten.",
         "estimate_question": "Yellowstone-Nationalpark: Wie hoch ist der Wert für „Parkfläche laut NPS-Statistik“ (Acres)?"
+      },
+      {
+        "category": "Natur",
+        "metric": "Registrierte Freizeitbesuche im Kalenderjahr 2025",
+        "value": 4762988,
+        "unit": "Besuche",
+        "comparison_unit": "Besuche · Registrierte Freizeitbesuche im Kalenderjahr 2025",
+        "source": "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm",
+        "verified": "2026-10-05",
+        "estimate_question": "Wie viele Freizeitbesuche registrierte der Yellowstone-Nationalpark laut NPS im gesamten Kalenderjahr 2025?",
+        "notes": "Gezählt werden Besuche, nicht unterschiedliche Personen; fester Kalenderjahresstand 2025.",
+        "subcategory": "Besucherzahlen 2025",
+        "expansion": 8
       }
     ],
     "generated": true,
@@ -1164,6 +1372,19 @@
         "expansion": 6,
         "notes": "Momentaufnahme der verlinkten NPS-Statistik; verschiedene ältere NPS-Unterseiten können abweichende Grenzstände enthalten.",
         "estimate_question": "Yosemite-Nationalpark: Wie hoch ist der Wert für „Parkfläche laut NPS-Statistik“ (Acres)?"
+      },
+      {
+        "category": "Natur",
+        "metric": "Registrierte Freizeitbesuche im Kalenderjahr 2025",
+        "value": 4278413,
+        "unit": "Besuche",
+        "comparison_unit": "Besuche · Registrierte Freizeitbesuche im Kalenderjahr 2025",
+        "source": "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm",
+        "verified": "2026-10-05",
+        "estimate_question": "Wie viele Freizeitbesuche registrierte der Yosemite-Nationalpark laut NPS im gesamten Kalenderjahr 2025?",
+        "notes": "Gezählt werden Besuche, nicht unterschiedliche Personen; fester Kalenderjahresstand 2025.",
+        "subcategory": "Besucherzahlen 2025",
+        "expansion": 8
       }
     ],
     "generated": true,
@@ -1203,6 +1424,19 @@
         "expansion": 6,
         "notes": "Momentaufnahme der verlinkten NPS-Statistik; verschiedene ältere NPS-Unterseiten können abweichende Grenzstände enthalten.",
         "estimate_question": "Grand-Canyon-Nationalpark: Wie hoch ist der Wert für „Parkfläche laut NPS-Statistik“ (Acres)?"
+      },
+      {
+        "category": "Natur",
+        "metric": "Registrierte Freizeitbesuche im Kalenderjahr 2025",
+        "value": 4430653,
+        "unit": "Besuche",
+        "comparison_unit": "Besuche · Registrierte Freizeitbesuche im Kalenderjahr 2025",
+        "source": "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm",
+        "verified": "2026-10-05",
+        "estimate_question": "Wie viele Freizeitbesuche registrierte der Grand-Canyon-Nationalpark laut NPS im gesamten Kalenderjahr 2025?",
+        "notes": "Gezählt werden Besuche, nicht unterschiedliche Personen; fester Kalenderjahresstand 2025.",
+        "subcategory": "Besucherzahlen 2025",
+        "expansion": 8
       }
     ],
     "generated": true,
@@ -1281,6 +1515,19 @@
         "expansion": 6,
         "notes": "Fußball ohne Nachspielzeit; Basketball nach FIBA, nicht NBA; Handball für mindestens 16-Jährige.",
         "estimate_question": "Basketball: Wie hoch ist der Wert für „Reguläre Spielzeit für Erwachsene ohne Verlängerung“ (Minuten)?"
+      },
+      {
+        "category": "Sport",
+        "metric": "Fläche des regulären Spielfelds ohne Auslauf",
+        "value": 420,
+        "unit": "m²",
+        "comparison_unit": "m² · Fläche des regulären Spielfelds ohne Auslauf",
+        "source": "https://www.fiba.basketball/documents/official-basketball-rules",
+        "verified": "2026-10-05",
+        "estimate_question": "Wie viele Quadratmeter hat das reguläre Basketball-Spielfeld (28 m × 15 m), ohne Auslaufzone?",
+        "notes": "Berechnet aus 28 × 15 m nach dem benannten Regelwerk; keine Sicherheits- oder Freizone.",
+        "subcategory": "Spielfeldmaße",
+        "expansion": 8
       }
     ],
     "generated": false,
@@ -1308,6 +1555,19 @@
         "verified": "2026-10-01",
         "estimate_question": "Wie viele Spieler eines Teams stehen beim Hallenvolleyball gleichzeitig auf dem Feld?",
         "notes": "Keine Ersatzspieler, Beachvolleyball oder 3×3 mitzählen."
+      },
+      {
+        "category": "Sport",
+        "metric": "Fläche des regulären Spielfelds ohne Auslauf",
+        "value": 162,
+        "unit": "m²",
+        "comparison_unit": "m² · Fläche des regulären Spielfelds ohne Auslauf",
+        "source": "https://www.fivb.com/volleyball/the-game/official-volleyball-rules/",
+        "verified": "2026-10-05",
+        "estimate_question": "Wie viele Quadratmeter hat das reguläre Hallenvolleyball-Spielfeld (18 m × 9 m), ohne Auslaufzone?",
+        "notes": "Berechnet aus 18 × 9 m nach dem benannten Regelwerk; keine Sicherheits- oder Freizone.",
+        "subcategory": "Spielfeldmaße",
+        "expansion": 8
       }
     ],
     "generated": false,
@@ -1347,6 +1607,23 @@
         "expansion": 6,
         "notes": "",
         "estimate_question": "Eiffelturm: Wie hoch ist der Wert für „Baubeginn (einschließlich Gründungsarbeiten)“ (Jahr)?"
+      },
+      {
+        "category": "Bauwerke",
+        "metric": "Differenz zwischen Baubeginn- und Eröffnungsjahr",
+        "value": 2,
+        "unit": "Kalenderjahre",
+        "comparison_unit": "Kalenderjahre · Differenz zwischen Baubeginn- und Eröffnungsjahr",
+        "source": "https://www.toureiffel.paris/en/news/history-and-culture/why-does-eiffel-tower-change-size",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Kalenderjahre liegen zwischen dem Baubeginnjahr (1887) und Eröffnungsjahr (1889) von Eiffelturm?",
+        "notes": "Differenz der Jahreszahlen, keine taggenau gemessene Bauzeit.",
+        "subcategory": "Baugeschichte",
+        "expansion": 8,
+        "sources": [
+          "https://www.toureiffel.paris/en/the-monument/history",
+          "https://www.toureiffel.paris/en/news/history-and-culture/why-does-eiffel-tower-change-size"
+        ]
       }
     ],
     "generated": false,
@@ -1386,6 +1663,23 @@
         "expansion": 6,
         "notes": "",
         "estimate_question": "Empire State Building: Wie hoch ist der Wert für „Baubeginn (einschließlich Gründungsarbeiten)“ (Jahr)?"
+      },
+      {
+        "category": "Bauwerke",
+        "metric": "Differenz zwischen Baubeginn- und Eröffnungsjahr",
+        "value": 1,
+        "unit": "Kalenderjahre",
+        "comparison_unit": "Kalenderjahre · Differenz zwischen Baubeginn- und Eröffnungsjahr",
+        "source": "https://www.esbnyc.com/about/history",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Kalenderjahre liegen zwischen dem Baubeginnjahr (1930) und Eröffnungsjahr (1931) von Empire State Building?",
+        "notes": "Differenz der Jahreszahlen, keine taggenau gemessene Bauzeit.",
+        "subcategory": "Baugeschichte",
+        "expansion": 8,
+        "sources": [
+          "https://www.esbnyc.com/about/history",
+          "https://www.esbnyc.com/about/history"
+        ]
       }
     ],
     "generated": false,
@@ -1425,6 +1719,23 @@
         "expansion": 6,
         "notes": "",
         "estimate_question": "Burj Khalifa: Wie hoch ist der Wert für „Baubeginn (einschließlich Gründungsarbeiten)“ (Jahr)?"
+      },
+      {
+        "category": "Bauwerke",
+        "metric": "Differenz zwischen Baubeginn- und Eröffnungsjahr",
+        "value": 6,
+        "unit": "Kalenderjahre",
+        "comparison_unit": "Kalenderjahre · Differenz zwischen Baubeginn- und Eröffnungsjahr",
+        "source": "https://www.emaar.com/en/other-emaar-businesses/burj-khalifa",
+        "verified": "2026-10-01",
+        "estimate_question": "Wie viele Kalenderjahre liegen zwischen dem Baubeginnjahr (2004) und Eröffnungsjahr (2010) von Burj Khalifa?",
+        "notes": "Differenz der Jahreszahlen, keine taggenau gemessene Bauzeit.",
+        "subcategory": "Baugeschichte",
+        "expansion": 8,
+        "sources": [
+          "https://bk.emaar.com/en/assets/FACT-SHEET.pdf",
+          "https://www.emaar.com/en/other-emaar-businesses/burj-khalifa"
+        ]
       }
     ],
     "generated": false,
@@ -1463,6 +1774,19 @@
         "expansion": 6,
         "notes": "Oberes Ende des Zoo-Richtbereichs; beim Löwen einzelner ungefährer Wert. Kein Durchschnitt und kein Rekord.",
         "estimate_question": "Elefant: Wie hoch ist der Wert für „Geburtsgewicht: oberer genannter Richtwert“ (kg)?"
+      },
+      {
+        "category": "Tierwelt",
+        "metric": "Oberer genannter Körpermassenwert ausgewachsener Weibchen",
+        "value": 3600,
+        "unit": "kg",
+        "comparison_unit": "kg · Oberer genannter Körpermassenwert ausgewachsener Weibchen",
+        "source": "https://animals.sandiegozoo.org/animals/elephant",
+        "verified": "2026-10-05",
+        "estimate_question": "Welchen oberen Körpermassenwert nennt der San Diego Zoo für ausgewachsene afrikanische Elefantenweibchen, in Kilogramm?",
+        "notes": "Oberer genannter Richtwert für Weibchen; kein Mittelwert oder individueller Gewichtsrekord.",
+        "subcategory": "Tiergrößen",
+        "expansion": 8
       }
     ],
     "generated": false,
@@ -1501,6 +1825,19 @@
         "expansion": 6,
         "notes": "Oberes Ende des Zoo-Richtbereichs; beim Löwen einzelner ungefährer Wert. Kein Durchschnitt und kein Rekord.",
         "estimate_question": "Giraffe: Wie hoch ist der Wert für „Geburtsgewicht: oberer genannter Richtwert“ (kg)?"
+      },
+      {
+        "category": "Tierwelt",
+        "metric": "Oberer genannter Körpermassenwert ausgewachsener Weibchen",
+        "value": 680,
+        "unit": "kg",
+        "comparison_unit": "kg · Oberer genannter Körpermassenwert ausgewachsener Weibchen",
+        "source": "https://animals.sandiegozoo.org/animals/giraffe",
+        "verified": "2026-10-05",
+        "estimate_question": "Welchen oberen Körpermassenwert nennt der San Diego Zoo für ausgewachsene Giraffenweibchen, in Kilogramm?",
+        "notes": "Oberer genannter Richtwert für Weibchen; kein Mittelwert oder individueller Gewichtsrekord.",
+        "subcategory": "Tiergrößen",
+        "expansion": 8
       }
     ],
     "generated": false,
@@ -1539,6 +1876,19 @@
         "expansion": 6,
         "notes": "Oberes Ende des Zoo-Richtbereichs; beim Löwen einzelner ungefährer Wert. Kein Durchschnitt und kein Rekord.",
         "estimate_question": "Löwe: Wie hoch ist der Wert für „Geburtsgewicht: oberer genannter Richtwert“ (kg)?"
+      },
+      {
+        "category": "Tierwelt",
+        "metric": "Oberer genannter Körpermassenwert ausgewachsener Weibchen",
+        "value": 180,
+        "unit": "kg",
+        "comparison_unit": "kg · Oberer genannter Körpermassenwert ausgewachsener Weibchen",
+        "source": "https://animals.sandiegozoo.org/animals/lion",
+        "verified": "2026-10-05",
+        "estimate_question": "Welchen oberen Körpermassenwert nennt der San Diego Zoo für ausgewachsene Löwinnen, in Kilogramm?",
+        "notes": "Oberer genannter Richtwert für Weibchen; kein Mittelwert oder individueller Gewichtsrekord.",
+        "subcategory": "Tiergrößen",
+        "expansion": 8
       }
     ],
     "generated": true,
@@ -2283,6 +2633,19 @@
         "verified": "2026-10-01",
         "estimate_question": "In welchem Jahr wurde das Hubble-Weltraumteleskop gestartet?",
         "notes": ""
+      },
+      {
+        "category": "Raumfahrt",
+        "metric": "Masse beim Start laut Quelle, ungefähr",
+        "value": 11110,
+        "unit": "kg",
+        "comparison_unit": "kg · Masse beim Start laut Quelle, ungefähr",
+        "source": "https://esahubble.org/about/general/fact_sheet/",
+        "verified": "2026-10-05",
+        "estimate_question": "Welche Masse hatte Hubble-Weltraumteleskop beim Start laut der angegebenen Quelle ungefähr, in Kilogramm?",
+        "notes": "Startmasse der Sonde/des Teleskops; ohne Trägerrakete. Kein heutiger Resttreibstoffstand.",
+        "subcategory": "Sonden & Teleskope",
+        "expansion": 8
       }
     ],
     "generated": false,
@@ -3303,6 +3666,19 @@
         "expansion": 6,
         "notes": "Fußball ohne Nachspielzeit; Basketball nach FIBA, nicht NBA; Handball für mindestens 16-Jährige.",
         "estimate_question": "Hallenhandball: Wie hoch ist der Wert für „Reguläre Spielzeit für Erwachsene ohne Verlängerung“ (Minuten)?"
+      },
+      {
+        "category": "Sport",
+        "metric": "Fläche des regulären Spielfelds ohne Auslauf",
+        "value": 800,
+        "unit": "m²",
+        "comparison_unit": "m² · Fläche des regulären Spielfelds ohne Auslauf",
+        "source": "https://www.ihf.info/regulations-documents/3",
+        "verified": "2026-10-05",
+        "estimate_question": "Wie viele Quadratmeter hat das reguläre Hallenhandball-Spielfeld (40 m × 20 m), ohne Auslaufzone?",
+        "notes": "Berechnet aus 40 × 20 m nach dem benannten Regelwerk; keine Sicherheits- oder Freizone.",
+        "subcategory": "Spielfeldmaße",
+        "expansion": 8
       }
     ]
   },
@@ -3419,6 +3795,19 @@
         "verified": "2026-10-01",
         "estimate_question": "In welchem Jahr startete die Raumfahrtmission Voyager 1?",
         "notes": "Start von der Erde, nicht Ankunft am Zielkörper."
+      },
+      {
+        "category": "Raumfahrt",
+        "metric": "Masse beim Start laut Quelle, ungefähr",
+        "value": 815,
+        "unit": "kg",
+        "comparison_unit": "kg · Masse beim Start laut Quelle, ungefähr",
+        "source": "https://science.nasa.gov/mission/voyager/frequently-asked-questions/",
+        "verified": "2026-10-05",
+        "estimate_question": "Welche Masse hatte Voyager 1 beim Start laut der angegebenen Quelle ungefähr, in Kilogramm?",
+        "notes": "Startmasse der Sonde/des Teleskops; ohne Trägerrakete. Kein heutiger Resttreibstoffstand.",
+        "subcategory": "Sonden & Teleskope",
+        "expansion": 8
       }
     ]
   },
@@ -3471,6 +3860,19 @@
         "verified": "2026-10-01",
         "estimate_question": "In welchem Jahr startete die Raumfahrtmission New Horizons?",
         "notes": "Start von der Erde, nicht Ankunft am Zielkörper."
+      },
+      {
+        "category": "Raumfahrt",
+        "metric": "Masse beim Start laut Quelle, ungefähr",
+        "value": 478,
+        "unit": "kg",
+        "comparison_unit": "kg · Masse beim Start laut Quelle, ungefähr",
+        "source": "https://www.nasa.gov/wp-content/uploads/2015/03/139889main_presskit12_05.pdf",
+        "verified": "2026-10-05",
+        "estimate_question": "Welche Masse hatte New Horizons beim Start laut der angegebenen Quelle ungefähr, in Kilogramm?",
+        "notes": "Startmasse der Sonde/des Teleskops; ohne Trägerrakete. Kein heutiger Resttreibstoffstand.",
+        "subcategory": "Sonden & Teleskope",
+        "expansion": 8
       }
     ]
   },
@@ -4029,6 +4431,19 @@
         "verified": "2026-10-03",
         "estimate_question": "In welchem Jahr wurde die Welterbestätte Machu Picchu erstmals in die UNESCO-Welterbeliste aufgenommen?",
         "notes": "Erste Einschreibung der gesamten Welterbestätte; nicht Baujahr, Entdeckung oder spätere Erweiterung."
+      },
+      {
+        "category": "Weltkultur",
+        "metric": "UNESCO-Kernfläche ohne Pufferzone",
+        "value": 38160.87,
+        "unit": "ha",
+        "comparison_unit": "ha · UNESCO-Kernfläche ohne Pufferzone",
+        "source": "https://whc.unesco.org/en/list/274/",
+        "verified": "2026-10-05",
+        "estimate_question": "Welche Kernfläche ohne Pufferzone nennt die UNESCO für die Welterbestätte Machu Picchu, in Hektar?",
+        "notes": "Fläche der gesamten eingetragenen Welterbestätte; kein einzelnes Gebäude. Quellenstand 5. Oktober 2026.",
+        "subcategory": "UNESCO-Flächen",
+        "expansion": 8
       }
     ]
   },
@@ -4055,6 +4470,19 @@
         "verified": "2026-10-03",
         "estimate_question": "In welchem Jahr wurde die Welterbestätte Petra erstmals in die UNESCO-Welterbeliste aufgenommen?",
         "notes": "Erste Einschreibung der gesamten Welterbestätte; nicht Baujahr, Entdeckung oder spätere Erweiterung."
+      },
+      {
+        "category": "Weltkultur",
+        "metric": "UNESCO-Kernfläche ohne Pufferzone",
+        "value": 26171,
+        "unit": "ha",
+        "comparison_unit": "ha · UNESCO-Kernfläche ohne Pufferzone",
+        "source": "https://whc.unesco.org/en/list/326/",
+        "verified": "2026-10-05",
+        "estimate_question": "Welche Kernfläche ohne Pufferzone nennt die UNESCO für die Welterbestätte Petra, in Hektar?",
+        "notes": "Fläche der gesamten eingetragenen Welterbestätte; kein einzelnes Gebäude. Quellenstand 5. Oktober 2026.",
+        "subcategory": "UNESCO-Flächen",
+        "expansion": 8
       }
     ]
   },
@@ -4081,6 +4509,355 @@
         "verified": "2026-10-03",
         "estimate_question": "In welchem Jahr wurde die Welterbestätte Angkor erstmals in die UNESCO-Welterbeliste aufgenommen?",
         "notes": "Erste Einschreibung der gesamten Welterbestätte; nicht Baujahr, Entdeckung oder spätere Erweiterung."
+      },
+      {
+        "category": "Weltkultur",
+        "metric": "UNESCO-Kernfläche ohne Pufferzone",
+        "value": 40100,
+        "unit": "ha",
+        "comparison_unit": "ha · UNESCO-Kernfläche ohne Pufferzone",
+        "source": "https://whc.unesco.org/en/list/668/",
+        "verified": "2026-10-05",
+        "estimate_question": "Welche Kernfläche ohne Pufferzone nennt die UNESCO für die Welterbestätte Angkor, in Hektar?",
+        "notes": "Fläche der gesamten eingetragenen Welterbestätte; kein einzelnes Gebäude. Quellenstand 5. Oktober 2026.",
+        "subcategory": "UNESCO-Flächen",
+        "expansion": 8
+      }
+    ]
+  },
+  {
+    "id": "e8-moon",
+    "name": "Erdmond",
+    "status": "approved",
+    "image": "../assets/visuals/expansion-8/moon-card.webp",
+    "variants": {
+      "card": "expansion-8/moon-card.webp",
+      "detail": "expansion-8/moon-detail.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/expansion-8/README.md",
+    "image_license": "AI-generated thematic illustration",
+    "facts": [
+      {
+        "category": "Weltraum",
+        "metric": "Mittlerer Mondradius laut NASA",
+        "value": 1737.4,
+        "unit": "km",
+        "comparison_unit": "km · Mittlerer Mondradius laut NASA",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html",
+        "verified": "2026-10-05",
+        "estimate_question": "Welchen mittleren Radius hat Erdmond laut NASA ungefähr, in Kilometern?",
+        "notes": "Radius, nicht Durchmesser; mittlerer Radius des jeweiligen Mondes.",
+        "subcategory": "Monde",
+        "expansion": 8
+      }
+    ]
+  },
+  {
+    "id": "e8-europa",
+    "name": "Europa (Jupitermond)",
+    "status": "approved",
+    "image": "../assets/visuals/expansion-8/europa-card.webp",
+    "variants": {
+      "card": "expansion-8/europa-card.webp",
+      "detail": "expansion-8/europa-detail.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/expansion-8/README.md",
+    "image_license": "AI-generated thematic illustration",
+    "facts": [
+      {
+        "category": "Weltraum",
+        "metric": "Mittlerer Mondradius laut NASA",
+        "value": 1560.8,
+        "unit": "km",
+        "comparison_unit": "km · Mittlerer Mondradius laut NASA",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html",
+        "verified": "2026-10-05",
+        "estimate_question": "Welchen mittleren Radius hat Europa (Jupitermond) laut NASA ungefähr, in Kilometern?",
+        "notes": "Radius, nicht Durchmesser; mittlerer Radius des jeweiligen Mondes.",
+        "subcategory": "Monde",
+        "expansion": 8
+      }
+    ]
+  },
+  {
+    "id": "e8-titan",
+    "name": "Titan (Saturnmond)",
+    "status": "approved",
+    "image": "../assets/visuals/expansion-8/titan-card.webp",
+    "variants": {
+      "card": "expansion-8/titan-card.webp",
+      "detail": "expansion-8/titan-detail.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/expansion-8/README.md",
+    "image_license": "AI-generated thematic illustration",
+    "facts": [
+      {
+        "category": "Weltraum",
+        "metric": "Mittlerer Mondradius laut NASA",
+        "value": 2575,
+        "unit": "km",
+        "comparison_unit": "km · Mittlerer Mondradius laut NASA",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html",
+        "verified": "2026-10-05",
+        "estimate_question": "Welchen mittleren Radius hat Titan (Saturnmond) laut NASA ungefähr, in Kilometern?",
+        "notes": "Radius, nicht Durchmesser; mittlerer Radius des jeweiligen Mondes.",
+        "subcategory": "Monde",
+        "expansion": 8
+      }
+    ]
+  },
+  {
+    "id": "e8-lithium",
+    "name": "Lithium",
+    "status": "approved",
+    "image": "../assets/visuals/expansion-8/lithium-card.svg",
+    "variants": {
+      "card": "expansion-8/lithium-card.svg",
+      "detail": "expansion-8/lithium-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/expansion-8/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 3,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/3/lithium",
+        "verified": "2026-10-05",
+        "estimate_question": "Welche Protonenzahl hat ein Atomkern des Elements Lithium?",
+        "notes": "Die Ordnungszahl entspricht der Protonenzahl; die Grafik verrät nur das Elementsymbol.",
+        "subcategory": "Elemente",
+        "expansion": 8
+      }
+    ]
+  },
+  {
+    "id": "e8-argon",
+    "name": "Argon",
+    "status": "approved",
+    "image": "../assets/visuals/expansion-8/argon-card.svg",
+    "variants": {
+      "card": "expansion-8/argon-card.svg",
+      "detail": "expansion-8/argon-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/expansion-8/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 18,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/18/argon",
+        "verified": "2026-10-05",
+        "estimate_question": "Welche Protonenzahl hat ein Atomkern des Elements Argon?",
+        "notes": "Die Ordnungszahl entspricht der Protonenzahl; die Grafik verrät nur das Elementsymbol.",
+        "subcategory": "Elemente",
+        "expansion": 8
+      }
+    ]
+  },
+  {
+    "id": "e8-nickel",
+    "name": "Nickel",
+    "status": "approved",
+    "image": "../assets/visuals/expansion-8/nickel-card.svg",
+    "variants": {
+      "card": "expansion-8/nickel-card.svg",
+      "detail": "expansion-8/nickel-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/expansion-8/README.md",
+    "image_license": "CC0-1.0 original vector illustration",
+    "facts": [
+      {
+        "category": "Wissenschaft",
+        "metric": "Ordnungszahl",
+        "value": 28,
+        "unit": "Protonen",
+        "comparison_unit": "Protonen",
+        "source": "https://periodic-table.rsc.org/element/28/nickel",
+        "verified": "2026-10-05",
+        "estimate_question": "Welche Protonenzahl hat ein Atomkern des Elements Nickel?",
+        "notes": "Die Ordnungszahl entspricht der Protonenzahl; die Grafik verrät nur das Elementsymbol.",
+        "subcategory": "Elemente",
+        "expansion": 8
+      }
+    ]
+  },
+  {
+    "id": "e8-chess",
+    "name": "Schachbrett",
+    "status": "approved",
+    "image": "../assets/visuals/expansion-8/gaming-card.webp",
+    "variants": {
+      "card": "expansion-8/gaming-card.webp",
+      "detail": "expansion-8/gaming-detail.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/expansion-8/README.md",
+    "image_license": "AI-generated thematic illustration",
+    "facts": [
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Felder im vollständigen Standardspielraster",
+        "value": 64,
+        "unit": "Felder",
+        "comparison_unit": "Felder · Felder im vollständigen Standardspielraster",
+        "source": "https://handbook.fide.com/chapter/E012023",
+        "verified": "2026-10-05",
+        "estimate_question": "Wie viele Felder hat das vollständige Standardraster von Schachbrett?",
+        "notes": "Schach: 8×8; Vier gewinnt: 7 Spalten×6 Reihen; Standard-Sudoku: 9×9. Themenbild, keine Abbildung der Lösung.",
+        "subcategory": "Brettspiele & Rätsel",
+        "expansion": 8
+      }
+    ]
+  },
+  {
+    "id": "e8-connect4",
+    "name": "Vier gewinnt",
+    "status": "approved",
+    "image": "../assets/visuals/expansion-8/gaming-card.webp",
+    "variants": {
+      "card": "expansion-8/gaming-card.webp",
+      "detail": "expansion-8/gaming-detail.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/expansion-8/README.md",
+    "image_license": "AI-generated thematic illustration",
+    "facts": [
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Felder im vollständigen Standardspielraster",
+        "value": 42,
+        "unit": "Felder",
+        "comparison_unit": "Felder · Felder im vollständigen Standardspielraster",
+        "source": "https://instructions.hasbro.com/en-us/instruction/connect-4-game",
+        "verified": "2026-10-05",
+        "estimate_question": "Wie viele Felder hat das vollständige Standardraster von Vier gewinnt?",
+        "notes": "Schach: 8×8; Vier gewinnt: 7 Spalten×6 Reihen; Standard-Sudoku: 9×9. Themenbild, keine Abbildung der Lösung.",
+        "subcategory": "Brettspiele & Rätsel",
+        "expansion": 8
+      }
+    ]
+  },
+  {
+    "id": "e8-sudoku",
+    "name": "Standard-Sudoku",
+    "status": "approved",
+    "image": "../assets/visuals/expansion-8/gaming-card.webp",
+    "variants": {
+      "card": "expansion-8/gaming-card.webp",
+      "detail": "expansion-8/gaming-detail.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/expansion-8/README.md",
+    "image_license": "AI-generated thematic illustration",
+    "facts": [
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Felder im vollständigen Standardspielraster",
+        "value": 81,
+        "unit": "Felder",
+        "comparison_unit": "Felder · Felder im vollständigen Standardspielraster",
+        "source": "https://www.sudoku.com/how-to-play/sudoku-rules-for-complete-beginners/",
+        "verified": "2026-10-05",
+        "estimate_question": "Wie viele Felder hat das vollständige Standardraster von Standard-Sudoku?",
+        "notes": "Schach: 8×8; Vier gewinnt: 7 Spalten×6 Reihen; Standard-Sudoku: 9×9. Themenbild, keine Abbildung der Lösung.",
+        "subcategory": "Brettspiele & Rätsel",
+        "expansion": 8
+      }
+    ]
+  },
+  {
+    "id": "e8-bolt-100",
+    "name": "Bolt – 100 m (WM 2009)",
+    "status": "approved",
+    "image": "../assets/visuals/expansion-8/athletics-card.webp",
+    "variants": {
+      "card": "expansion-8/athletics-card.webp",
+      "detail": "expansion-8/athletics-detail.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/expansion-8/README.md",
+    "image_license": "AI-generated thematic illustration",
+    "facts": [
+      {
+        "category": "Rekorde & Extreme",
+        "metric": "Zeit des benannten historischen Finallaufs",
+        "value": 9.58,
+        "unit": "Sekunden",
+        "comparison_unit": "Sekunden · Zeit des benannten historischen Finallaufs",
+        "source": "https://worldathletics.org/athletes/jamaica/usain-bolt-14201847",
+        "verified": "2026-10-05",
+        "estimate_question": "Welche Zeit lief Bolt – 100 m (WM 2009) im benannten Finale, in Sekunden?",
+        "notes": "Historisches Ergebnis der angegebenen Distanz und Veranstaltung; kein Anspruch auf einen unveränderten heutigen Weltrekord.",
+        "subcategory": "Historische Rennen",
+        "expansion": 8
+      }
+    ]
+  },
+  {
+    "id": "e8-bolt-200",
+    "name": "Bolt – 200 m (WM 2009)",
+    "status": "approved",
+    "image": "../assets/visuals/expansion-8/athletics-card.webp",
+    "variants": {
+      "card": "expansion-8/athletics-card.webp",
+      "detail": "expansion-8/athletics-detail.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/expansion-8/README.md",
+    "image_license": "AI-generated thematic illustration",
+    "facts": [
+      {
+        "category": "Rekorde & Extreme",
+        "metric": "Zeit des benannten historischen Finallaufs",
+        "value": 19.19,
+        "unit": "Sekunden",
+        "comparison_unit": "Sekunden · Zeit des benannten historischen Finallaufs",
+        "source": "https://worldathletics.org/athletes/jamaica/usain-bolt-14201847",
+        "verified": "2026-10-05",
+        "estimate_question": "Welche Zeit lief Bolt – 200 m (WM 2009) im benannten Finale, in Sekunden?",
+        "notes": "Historisches Ergebnis der angegebenen Distanz und Veranstaltung; kein Anspruch auf einen unveränderten heutigen Weltrekord.",
+        "subcategory": "Historische Rennen",
+        "expansion": 8
+      }
+    ]
+  },
+  {
+    "id": "e8-wayde-400",
+    "name": "Van Niekerk – 400 m (Olympia 2016)",
+    "status": "approved",
+    "image": "../assets/visuals/expansion-8/athletics-card.webp",
+    "variants": {
+      "card": "expansion-8/athletics-card.webp",
+      "detail": "expansion-8/athletics-detail.webp"
+    },
+    "generated": true,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/assets/visuals/expansion-8/README.md",
+    "image_license": "AI-generated thematic illustration",
+    "facts": [
+      {
+        "category": "Rekorde & Extreme",
+        "metric": "Zeit des benannten historischen Finallaufs",
+        "value": 43.03,
+        "unit": "Sekunden",
+        "comparison_unit": "Sekunden · Zeit des benannten historischen Finallaufs",
+        "source": "https://worldathletics.org/athletes/south-africa/wayde-van-niekerk-14417677",
+        "verified": "2026-10-05",
+        "estimate_question": "Welche Zeit lief Van Niekerk – 400 m (Olympia 2016) im benannten Finale, in Sekunden?",
+        "notes": "Historisches Ergebnis der angegebenen Distanz und Veranstaltung; kein Anspruch auf einen unveränderten heutigen Weltrekord.",
+        "subcategory": "Historische Rennen",
+        "expansion": 8
       }
     ]
   }
