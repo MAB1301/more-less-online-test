@@ -1,0 +1,10 @@
+{
+  "checked": "2026-10-06",
+  "repository": "MAB1301/more-less-online-test",
+  "base_commit": "0ca6f66d0f1efea5709b7de9f3256413e0a2f5b1",
+  "open_content_prs": [
+    {"pr":122,"title":"Quiz-Datenpaket: 25 geprüfte Entwürfe mit neutralen SVGs","head":"1e830e","themes":["Brücken","Metros","UNESCO-Welterbe","Apollo","US-Schutzgebiete"],"overlap":false},
+    {"pr":126,"title":"Echte Fußballfakten, breitere Videospiele und Wer-ist-das-Jeopardy","head":"10a3a2c6","themes":["Fußball","Videospiele","Nintendo","Pokémon","Who-is-it"],"overlap":false}
+  ],
+  "selected_themes": ["US-Flusslängen","US-Talsperren","Weltraumteleskop-Spiegel","Museumsöffnungen","Großflugzeuglängen"]
+}
