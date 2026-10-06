@@ -1021,6 +1021,20 @@
         "notes": "Natürlicher Gipfel; künstliche Plattformen und Türme zählen nicht.",
         "subcategory": "Gipfel & Landschaften",
         "expansion": 8
+      },
+      {
+        "category": "Länder",
+        "metric": "Beitrittsjahr zur EU beziehungsweise EG",
+        "value": 1995,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Beitrittsjahr zur EU beziehungsweise EG",
+        "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+        "verified": "2026-10-06",
+        "data_year": 1995,
+        "estimate_question": "In welchem Jahr trat Österreich der EU beziehungsweise ihrer Vorgängerin EG bei?",
+        "notes": "Historischer Beitritt, nicht Euro-Einführung oder Schengen-Beitritt.",
+        "subcategory": "Europäische Geschichte",
+        "release": "small-categories-20261006"
       }
     ],
     "generated": false,
@@ -1177,6 +1191,20 @@
         "notes": "Verglichen wird das Gründungsjahr der Humboldt-Universität, nicht das Gründungsjahr der Stadt.",
         "subcategory": "Universitäten",
         "expansion": 8
+      },
+      {
+        "category": "Städte",
+        "metric": "Jahr der ersten regulären Olympischen Sommerspiele als Hauptgastgeber",
+        "value": 1936,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Jahr der ersten regulären Olympischen Sommerspiele als Hauptgastgeber",
+        "source": "https://www.olympics.com.au/games/berlin-1936/",
+        "verified": "2026-10-06",
+        "data_year": 1936,
+        "estimate_question": "In welchem Jahr war Berlin erstmals Hauptgastgeber regulärer Olympischer Sommerspiele?",
+        "notes": "Erste reguläre Sommerspiele als Hauptgastgeber; keine Winter- oder Jugendspiele. Melbourne 1956: Reitsport separat in Stockholm.",
+        "subcategory": "Olympiastädte",
+        "release": "small-categories-20261006"
       }
     ],
     "generated": false,
@@ -1787,6 +1815,20 @@
         "notes": "Oberer genannter Richtwert für Weibchen; kein Mittelwert oder individueller Gewichtsrekord.",
         "subcategory": "Tiergrößen",
         "expansion": 8
+      },
+      {
+        "category": "Tierwelt",
+        "metric": "Oberer gerundeter Tragzeit-Richtwert laut San Diego Zoo",
+        "value": 22,
+        "unit": "Monate",
+        "comparison_unit": "Monate · Oberer gerundeter Tragzeit-Richtwert laut San Diego Zoo",
+        "source": "https://animals.sandiegozoo.org/animals/elephant",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen oberen gerundeten Tragzeit-Richtwert nennt der San Diego Zoo für Elefant, in Monaten?",
+        "notes": "Zoo-Richtwerte: Elefant 20–22 Monate, Giraffe 14 Monate, Löwe fast 4 Monate (hier auf 4 gerundet). Keine exakte individuelle Dauer.",
+        "subcategory": "Fortpflanzung",
+        "release": "small-categories-20261006"
       }
     ],
     "generated": false,
@@ -1838,6 +1880,20 @@
         "notes": "Oberer genannter Richtwert für Weibchen; kein Mittelwert oder individueller Gewichtsrekord.",
         "subcategory": "Tiergrößen",
         "expansion": 8
+      },
+      {
+        "category": "Tierwelt",
+        "metric": "Oberer gerundeter Tragzeit-Richtwert laut San Diego Zoo",
+        "value": 14,
+        "unit": "Monate",
+        "comparison_unit": "Monate · Oberer gerundeter Tragzeit-Richtwert laut San Diego Zoo",
+        "source": "https://animals.sandiegozoo.org/animals/giraffe",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen oberen gerundeten Tragzeit-Richtwert nennt der San Diego Zoo für Giraffe, in Monaten?",
+        "notes": "Zoo-Richtwerte: Elefant 20–22 Monate, Giraffe 14 Monate, Löwe fast 4 Monate (hier auf 4 gerundet). Keine exakte individuelle Dauer.",
+        "subcategory": "Fortpflanzung",
+        "release": "small-categories-20261006"
       }
     ],
     "generated": false,
@@ -1889,6 +1945,20 @@
         "notes": "Oberer genannter Richtwert für Weibchen; kein Mittelwert oder individueller Gewichtsrekord.",
         "subcategory": "Tiergrößen",
         "expansion": 8
+      },
+      {
+        "category": "Tierwelt",
+        "metric": "Oberer gerundeter Tragzeit-Richtwert laut San Diego Zoo",
+        "value": 4,
+        "unit": "Monate",
+        "comparison_unit": "Monate · Oberer gerundeter Tragzeit-Richtwert laut San Diego Zoo",
+        "source": "https://animals.sandiegozoo.org/animals/lion",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen oberen gerundeten Tragzeit-Richtwert nennt der San Diego Zoo für Löwe, in Monaten?",
+        "notes": "Zoo-Richtwerte: Elefant 20–22 Monate, Giraffe 14 Monate, Löwe fast 4 Monate (hier auf 4 gerundet). Keine exakte individuelle Dauer.",
+        "subcategory": "Fortpflanzung",
+        "release": "small-categories-20261006"
       }
     ],
     "generated": true,
@@ -4858,6 +4928,800 @@
         "notes": "Historisches Ergebnis der angegebenen Distanz und Veranstaltung; kein Anspruch auf einen unveränderten heutigen Weltrekord.",
         "subcategory": "Historische Rennen",
         "expansion": 8
+      }
+    ]
+  },
+  {
+    "id": "small-categories-20261006-110",
+    "name": "1-Cent-Münze",
+    "release": "small-categories-20261006",
+    "status": "approved",
+    "image": "../assets/visuals/small-categories/small-categories-20261006-110-card.svg",
+    "variants": {
+      "card": "small-categories/small-categories-20261006-110-card.svg",
+      "detail": "small-categories/small-categories-20261006-110-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/content/research/2026-10-06-small-categories/README.md",
+    "image_license": "CC0-1.0 original thematic vector",
+    "facts": [
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Euro-Umlaufmünze: Durchmesser",
+        "value": 16.25,
+        "unit": "mm",
+        "comparison_unit": "mm · Euro-Umlaufmünze: Durchmesser",
+        "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen Wert hat die 1-Cent-Münze bei „Euro-Umlaufmünze: Durchmesser“, in mm?",
+        "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+        "subcategory": "Euro-Münzmaße",
+        "release": "small-categories-20261006"
+      },
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Euro-Umlaufmünze: Masse",
+        "value": 2.3,
+        "unit": "g",
+        "comparison_unit": "g · Euro-Umlaufmünze: Masse",
+        "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen Wert hat die 1-Cent-Münze bei „Euro-Umlaufmünze: Masse“, in g?",
+        "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+        "subcategory": "Euro-Münzmaße",
+        "release": "small-categories-20261006"
+      },
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Euro-Umlaufmünze: Dicke",
+        "value": 1.67,
+        "unit": "mm",
+        "comparison_unit": "mm · Euro-Umlaufmünze: Dicke",
+        "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen Wert hat die 1-Cent-Münze bei „Euro-Umlaufmünze: Dicke“, in mm?",
+        "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+        "subcategory": "Euro-Münzmaße",
+        "release": "small-categories-20261006"
+      }
+    ]
+  },
+  {
+    "id": "small-categories-20261006-111",
+    "name": "2-Cent-Münze",
+    "release": "small-categories-20261006",
+    "status": "approved",
+    "image": "../assets/visuals/small-categories/small-categories-20261006-111-card.svg",
+    "variants": {
+      "card": "small-categories/small-categories-20261006-111-card.svg",
+      "detail": "small-categories/small-categories-20261006-111-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/content/research/2026-10-06-small-categories/README.md",
+    "image_license": "CC0-1.0 original thematic vector",
+    "facts": [
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Euro-Umlaufmünze: Durchmesser",
+        "value": 18.75,
+        "unit": "mm",
+        "comparison_unit": "mm · Euro-Umlaufmünze: Durchmesser",
+        "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen Wert hat die 2-Cent-Münze bei „Euro-Umlaufmünze: Durchmesser“, in mm?",
+        "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+        "subcategory": "Euro-Münzmaße",
+        "release": "small-categories-20261006"
+      },
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Euro-Umlaufmünze: Masse",
+        "value": 3.06,
+        "unit": "g",
+        "comparison_unit": "g · Euro-Umlaufmünze: Masse",
+        "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen Wert hat die 2-Cent-Münze bei „Euro-Umlaufmünze: Masse“, in g?",
+        "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+        "subcategory": "Euro-Münzmaße",
+        "release": "small-categories-20261006"
+      },
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Euro-Umlaufmünze: Dicke",
+        "value": 1.67,
+        "unit": "mm",
+        "comparison_unit": "mm · Euro-Umlaufmünze: Dicke",
+        "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen Wert hat die 2-Cent-Münze bei „Euro-Umlaufmünze: Dicke“, in mm?",
+        "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+        "subcategory": "Euro-Münzmaße",
+        "release": "small-categories-20261006"
+      }
+    ]
+  },
+  {
+    "id": "small-categories-20261006-112",
+    "name": "5-Cent-Münze",
+    "release": "small-categories-20261006",
+    "status": "approved",
+    "image": "../assets/visuals/small-categories/small-categories-20261006-112-card.svg",
+    "variants": {
+      "card": "small-categories/small-categories-20261006-112-card.svg",
+      "detail": "small-categories/small-categories-20261006-112-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/content/research/2026-10-06-small-categories/README.md",
+    "image_license": "CC0-1.0 original thematic vector",
+    "facts": [
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Euro-Umlaufmünze: Durchmesser",
+        "value": 21.25,
+        "unit": "mm",
+        "comparison_unit": "mm · Euro-Umlaufmünze: Durchmesser",
+        "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen Wert hat die 5-Cent-Münze bei „Euro-Umlaufmünze: Durchmesser“, in mm?",
+        "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+        "subcategory": "Euro-Münzmaße",
+        "release": "small-categories-20261006"
+      },
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Euro-Umlaufmünze: Masse",
+        "value": 3.92,
+        "unit": "g",
+        "comparison_unit": "g · Euro-Umlaufmünze: Masse",
+        "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen Wert hat die 5-Cent-Münze bei „Euro-Umlaufmünze: Masse“, in g?",
+        "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+        "subcategory": "Euro-Münzmaße",
+        "release": "small-categories-20261006"
+      },
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Euro-Umlaufmünze: Dicke",
+        "value": 1.67,
+        "unit": "mm",
+        "comparison_unit": "mm · Euro-Umlaufmünze: Dicke",
+        "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen Wert hat die 5-Cent-Münze bei „Euro-Umlaufmünze: Dicke“, in mm?",
+        "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+        "subcategory": "Euro-Münzmaße",
+        "release": "small-categories-20261006"
+      }
+    ]
+  },
+  {
+    "id": "small-categories-20261006-113",
+    "name": "10-Cent-Münze",
+    "release": "small-categories-20261006",
+    "status": "approved",
+    "image": "../assets/visuals/small-categories/small-categories-20261006-113-card.svg",
+    "variants": {
+      "card": "small-categories/small-categories-20261006-113-card.svg",
+      "detail": "small-categories/small-categories-20261006-113-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/content/research/2026-10-06-small-categories/README.md",
+    "image_license": "CC0-1.0 original thematic vector",
+    "facts": [
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Euro-Umlaufmünze: Durchmesser",
+        "value": 19.75,
+        "unit": "mm",
+        "comparison_unit": "mm · Euro-Umlaufmünze: Durchmesser",
+        "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen Wert hat die 10-Cent-Münze bei „Euro-Umlaufmünze: Durchmesser“, in mm?",
+        "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+        "subcategory": "Euro-Münzmaße",
+        "release": "small-categories-20261006"
+      },
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Euro-Umlaufmünze: Masse",
+        "value": 4.1,
+        "unit": "g",
+        "comparison_unit": "g · Euro-Umlaufmünze: Masse",
+        "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen Wert hat die 10-Cent-Münze bei „Euro-Umlaufmünze: Masse“, in g?",
+        "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+        "subcategory": "Euro-Münzmaße",
+        "release": "small-categories-20261006"
+      },
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Euro-Umlaufmünze: Dicke",
+        "value": 1.93,
+        "unit": "mm",
+        "comparison_unit": "mm · Euro-Umlaufmünze: Dicke",
+        "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen Wert hat die 10-Cent-Münze bei „Euro-Umlaufmünze: Dicke“, in mm?",
+        "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+        "subcategory": "Euro-Münzmaße",
+        "release": "small-categories-20261006"
+      }
+    ]
+  },
+  {
+    "id": "small-categories-20261006-114",
+    "name": "20-Cent-Münze",
+    "release": "small-categories-20261006",
+    "status": "approved",
+    "image": "../assets/visuals/small-categories/small-categories-20261006-114-card.svg",
+    "variants": {
+      "card": "small-categories/small-categories-20261006-114-card.svg",
+      "detail": "small-categories/small-categories-20261006-114-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/content/research/2026-10-06-small-categories/README.md",
+    "image_license": "CC0-1.0 original thematic vector",
+    "facts": [
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Euro-Umlaufmünze: Durchmesser",
+        "value": 22.25,
+        "unit": "mm",
+        "comparison_unit": "mm · Euro-Umlaufmünze: Durchmesser",
+        "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen Wert hat die 20-Cent-Münze bei „Euro-Umlaufmünze: Durchmesser“, in mm?",
+        "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+        "subcategory": "Euro-Münzmaße",
+        "release": "small-categories-20261006"
+      },
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Euro-Umlaufmünze: Masse",
+        "value": 5.74,
+        "unit": "g",
+        "comparison_unit": "g · Euro-Umlaufmünze: Masse",
+        "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen Wert hat die 20-Cent-Münze bei „Euro-Umlaufmünze: Masse“, in g?",
+        "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+        "subcategory": "Euro-Münzmaße",
+        "release": "small-categories-20261006"
+      },
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Euro-Umlaufmünze: Dicke",
+        "value": 2.14,
+        "unit": "mm",
+        "comparison_unit": "mm · Euro-Umlaufmünze: Dicke",
+        "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen Wert hat die 20-Cent-Münze bei „Euro-Umlaufmünze: Dicke“, in mm?",
+        "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+        "subcategory": "Euro-Münzmaße",
+        "release": "small-categories-20261006"
+      }
+    ]
+  },
+  {
+    "id": "small-categories-20261006-115",
+    "name": "50-Cent-Münze",
+    "release": "small-categories-20261006",
+    "status": "approved",
+    "image": "../assets/visuals/small-categories/small-categories-20261006-115-card.svg",
+    "variants": {
+      "card": "small-categories/small-categories-20261006-115-card.svg",
+      "detail": "small-categories/small-categories-20261006-115-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/content/research/2026-10-06-small-categories/README.md",
+    "image_license": "CC0-1.0 original thematic vector",
+    "facts": [
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Euro-Umlaufmünze: Durchmesser",
+        "value": 24.25,
+        "unit": "mm",
+        "comparison_unit": "mm · Euro-Umlaufmünze: Durchmesser",
+        "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen Wert hat die 50-Cent-Münze bei „Euro-Umlaufmünze: Durchmesser“, in mm?",
+        "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+        "subcategory": "Euro-Münzmaße",
+        "release": "small-categories-20261006"
+      },
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Euro-Umlaufmünze: Masse",
+        "value": 7.8,
+        "unit": "g",
+        "comparison_unit": "g · Euro-Umlaufmünze: Masse",
+        "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen Wert hat die 50-Cent-Münze bei „Euro-Umlaufmünze: Masse“, in g?",
+        "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+        "subcategory": "Euro-Münzmaße",
+        "release": "small-categories-20261006"
+      },
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Euro-Umlaufmünze: Dicke",
+        "value": 2.38,
+        "unit": "mm",
+        "comparison_unit": "mm · Euro-Umlaufmünze: Dicke",
+        "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen Wert hat die 50-Cent-Münze bei „Euro-Umlaufmünze: Dicke“, in mm?",
+        "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+        "subcategory": "Euro-Münzmaße",
+        "release": "small-categories-20261006"
+      }
+    ]
+  },
+  {
+    "id": "small-categories-20261006-116",
+    "name": "1-Euro-Münze",
+    "release": "small-categories-20261006",
+    "status": "approved",
+    "image": "../assets/visuals/small-categories/small-categories-20261006-116-card.svg",
+    "variants": {
+      "card": "small-categories/small-categories-20261006-116-card.svg",
+      "detail": "small-categories/small-categories-20261006-116-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/content/research/2026-10-06-small-categories/README.md",
+    "image_license": "CC0-1.0 original thematic vector",
+    "facts": [
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Euro-Umlaufmünze: Durchmesser",
+        "value": 23.25,
+        "unit": "mm",
+        "comparison_unit": "mm · Euro-Umlaufmünze: Durchmesser",
+        "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen Wert hat die 1-Euro-Münze bei „Euro-Umlaufmünze: Durchmesser“, in mm?",
+        "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+        "subcategory": "Euro-Münzmaße",
+        "release": "small-categories-20261006"
+      },
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Euro-Umlaufmünze: Masse",
+        "value": 7.5,
+        "unit": "g",
+        "comparison_unit": "g · Euro-Umlaufmünze: Masse",
+        "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen Wert hat die 1-Euro-Münze bei „Euro-Umlaufmünze: Masse“, in g?",
+        "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+        "subcategory": "Euro-Münzmaße",
+        "release": "small-categories-20261006"
+      },
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Euro-Umlaufmünze: Dicke",
+        "value": 2.33,
+        "unit": "mm",
+        "comparison_unit": "mm · Euro-Umlaufmünze: Dicke",
+        "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen Wert hat die 1-Euro-Münze bei „Euro-Umlaufmünze: Dicke“, in mm?",
+        "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+        "subcategory": "Euro-Münzmaße",
+        "release": "small-categories-20261006"
+      }
+    ]
+  },
+  {
+    "id": "small-categories-20261006-117",
+    "name": "2-Euro-Münze",
+    "release": "small-categories-20261006",
+    "status": "approved",
+    "image": "../assets/visuals/small-categories/small-categories-20261006-117-card.svg",
+    "variants": {
+      "card": "small-categories/small-categories-20261006-117-card.svg",
+      "detail": "small-categories/small-categories-20261006-117-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/content/research/2026-10-06-small-categories/README.md",
+    "image_license": "CC0-1.0 original thematic vector",
+    "facts": [
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Euro-Umlaufmünze: Durchmesser",
+        "value": 25.75,
+        "unit": "mm",
+        "comparison_unit": "mm · Euro-Umlaufmünze: Durchmesser",
+        "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen Wert hat die 2-Euro-Münze bei „Euro-Umlaufmünze: Durchmesser“, in mm?",
+        "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+        "subcategory": "Euro-Münzmaße",
+        "release": "small-categories-20261006"
+      },
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Euro-Umlaufmünze: Masse",
+        "value": 8.5,
+        "unit": "g",
+        "comparison_unit": "g · Euro-Umlaufmünze: Masse",
+        "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen Wert hat die 2-Euro-Münze bei „Euro-Umlaufmünze: Masse“, in g?",
+        "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+        "subcategory": "Euro-Münzmaße",
+        "release": "small-categories-20261006"
+      },
+      {
+        "category": "Allgemeinwissen",
+        "metric": "Euro-Umlaufmünze: Dicke",
+        "value": 2.2,
+        "unit": "mm",
+        "comparison_unit": "mm · Euro-Umlaufmünze: Dicke",
+        "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+        "verified": "2026-10-06",
+        "data_year": 2026,
+        "estimate_question": "Welchen Wert hat die 2-Euro-Münze bei „Euro-Umlaufmünze: Dicke“, in mm?",
+        "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+        "subcategory": "Euro-Münzmaße",
+        "release": "small-categories-20261006"
+      }
+    ]
+  },
+  {
+    "id": "small-categories-20261006-118",
+    "name": "Dänemark",
+    "release": "small-categories-20261006",
+    "status": "approved",
+    "image": "../assets/visuals/small-categories/small-categories-20261006-118-card.svg",
+    "variants": {
+      "card": "small-categories/small-categories-20261006-118-card.svg",
+      "detail": "small-categories/small-categories-20261006-118-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/content/research/2026-10-06-small-categories/README.md",
+    "image_license": "CC0-1.0 original thematic vector",
+    "facts": [
+      {
+        "category": "Länder",
+        "metric": "Beitrittsjahr zur EU beziehungsweise EG",
+        "value": 1973,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Beitrittsjahr zur EU beziehungsweise EG",
+        "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+        "verified": "2026-10-06",
+        "data_year": 1973,
+        "estimate_question": "In welchem Jahr trat Dänemark der EU beziehungsweise ihrer Vorgängerin EG bei?",
+        "notes": "Historischer Beitritt, nicht Euro-Einführung oder Schengen-Beitritt.",
+        "subcategory": "Europäische Geschichte",
+        "release": "small-categories-20261006"
+      }
+    ]
+  },
+  {
+    "id": "small-categories-20261006-119",
+    "name": "Griechenland",
+    "release": "small-categories-20261006",
+    "status": "approved",
+    "image": "../assets/visuals/small-categories/small-categories-20261006-119-card.svg",
+    "variants": {
+      "card": "small-categories/small-categories-20261006-119-card.svg",
+      "detail": "small-categories/small-categories-20261006-119-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/content/research/2026-10-06-small-categories/README.md",
+    "image_license": "CC0-1.0 original thematic vector",
+    "facts": [
+      {
+        "category": "Länder",
+        "metric": "Beitrittsjahr zur EU beziehungsweise EG",
+        "value": 1981,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Beitrittsjahr zur EU beziehungsweise EG",
+        "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+        "verified": "2026-10-06",
+        "data_year": 1981,
+        "estimate_question": "In welchem Jahr trat Griechenland der EU beziehungsweise ihrer Vorgängerin EG bei?",
+        "notes": "Historischer Beitritt, nicht Euro-Einführung oder Schengen-Beitritt.",
+        "subcategory": "Europäische Geschichte",
+        "release": "small-categories-20261006"
+      }
+    ]
+  },
+  {
+    "id": "small-categories-20261006-120",
+    "name": "Spanien",
+    "release": "small-categories-20261006",
+    "status": "approved",
+    "image": "../assets/visuals/small-categories/small-categories-20261006-120-card.svg",
+    "variants": {
+      "card": "small-categories/small-categories-20261006-120-card.svg",
+      "detail": "small-categories/small-categories-20261006-120-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/content/research/2026-10-06-small-categories/README.md",
+    "image_license": "CC0-1.0 original thematic vector",
+    "facts": [
+      {
+        "category": "Länder",
+        "metric": "Beitrittsjahr zur EU beziehungsweise EG",
+        "value": 1986,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Beitrittsjahr zur EU beziehungsweise EG",
+        "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+        "verified": "2026-10-06",
+        "data_year": 1986,
+        "estimate_question": "In welchem Jahr trat Spanien der EU beziehungsweise ihrer Vorgängerin EG bei?",
+        "notes": "Historischer Beitritt, nicht Euro-Einführung oder Schengen-Beitritt.",
+        "subcategory": "Europäische Geschichte",
+        "release": "small-categories-20261006"
+      }
+    ]
+  },
+  {
+    "id": "small-categories-20261006-121",
+    "name": "Polen",
+    "release": "small-categories-20261006",
+    "status": "approved",
+    "image": "../assets/visuals/small-categories/small-categories-20261006-121-card.svg",
+    "variants": {
+      "card": "small-categories/small-categories-20261006-121-card.svg",
+      "detail": "small-categories/small-categories-20261006-121-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/content/research/2026-10-06-small-categories/README.md",
+    "image_license": "CC0-1.0 original thematic vector",
+    "facts": [
+      {
+        "category": "Länder",
+        "metric": "Beitrittsjahr zur EU beziehungsweise EG",
+        "value": 2004,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Beitrittsjahr zur EU beziehungsweise EG",
+        "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+        "verified": "2026-10-06",
+        "data_year": 2004,
+        "estimate_question": "In welchem Jahr trat Polen der EU beziehungsweise ihrer Vorgängerin EG bei?",
+        "notes": "Historischer Beitritt, nicht Euro-Einführung oder Schengen-Beitritt.",
+        "subcategory": "Europäische Geschichte",
+        "release": "small-categories-20261006"
+      }
+    ]
+  },
+  {
+    "id": "small-categories-20261006-122",
+    "name": "Rumänien",
+    "release": "small-categories-20261006",
+    "status": "approved",
+    "image": "../assets/visuals/small-categories/small-categories-20261006-122-card.svg",
+    "variants": {
+      "card": "small-categories/small-categories-20261006-122-card.svg",
+      "detail": "small-categories/small-categories-20261006-122-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/content/research/2026-10-06-small-categories/README.md",
+    "image_license": "CC0-1.0 original thematic vector",
+    "facts": [
+      {
+        "category": "Länder",
+        "metric": "Beitrittsjahr zur EU beziehungsweise EG",
+        "value": 2007,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Beitrittsjahr zur EU beziehungsweise EG",
+        "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+        "verified": "2026-10-06",
+        "data_year": 2007,
+        "estimate_question": "In welchem Jahr trat Rumänien der EU beziehungsweise ihrer Vorgängerin EG bei?",
+        "notes": "Historischer Beitritt, nicht Euro-Einführung oder Schengen-Beitritt.",
+        "subcategory": "Europäische Geschichte",
+        "release": "small-categories-20261006"
+      }
+    ]
+  },
+  {
+    "id": "small-categories-20261006-123",
+    "name": "Kroatien",
+    "release": "small-categories-20261006",
+    "status": "approved",
+    "image": "../assets/visuals/small-categories/small-categories-20261006-123-card.svg",
+    "variants": {
+      "card": "small-categories/small-categories-20261006-123-card.svg",
+      "detail": "small-categories/small-categories-20261006-123-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/content/research/2026-10-06-small-categories/README.md",
+    "image_license": "CC0-1.0 original thematic vector",
+    "facts": [
+      {
+        "category": "Länder",
+        "metric": "Beitrittsjahr zur EU beziehungsweise EG",
+        "value": 2013,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Beitrittsjahr zur EU beziehungsweise EG",
+        "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+        "verified": "2026-10-06",
+        "data_year": 2013,
+        "estimate_question": "In welchem Jahr trat Kroatien der EU beziehungsweise ihrer Vorgängerin EG bei?",
+        "notes": "Historischer Beitritt, nicht Euro-Einführung oder Schengen-Beitritt.",
+        "subcategory": "Europäische Geschichte",
+        "release": "small-categories-20261006"
+      }
+    ]
+  },
+  {
+    "id": "small-categories-20261006-124",
+    "name": "Athen",
+    "release": "small-categories-20261006",
+    "status": "approved",
+    "image": "../assets/visuals/small-categories/small-categories-20261006-124-card.svg",
+    "variants": {
+      "card": "small-categories/small-categories-20261006-124-card.svg",
+      "detail": "small-categories/small-categories-20261006-124-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/content/research/2026-10-06-small-categories/README.md",
+    "image_license": "CC0-1.0 original thematic vector",
+    "facts": [
+      {
+        "category": "Städte",
+        "metric": "Jahr der ersten regulären Olympischen Sommerspiele als Hauptgastgeber",
+        "value": 1896,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Jahr der ersten regulären Olympischen Sommerspiele als Hauptgastgeber",
+        "source": "https://www.olympics.com.au/games/athens-1896/",
+        "verified": "2026-10-06",
+        "data_year": 1896,
+        "estimate_question": "In welchem Jahr war Athen erstmals Hauptgastgeber regulärer Olympischer Sommerspiele?",
+        "notes": "Erste reguläre Sommerspiele als Hauptgastgeber; keine Winter- oder Jugendspiele. Melbourne 1956: Reitsport separat in Stockholm.",
+        "subcategory": "Olympiastädte",
+        "release": "small-categories-20261006"
+      }
+    ]
+  },
+  {
+    "id": "small-categories-20261006-125",
+    "name": "London",
+    "release": "small-categories-20261006",
+    "status": "approved",
+    "image": "../assets/visuals/small-categories/small-categories-20261006-125-card.svg",
+    "variants": {
+      "card": "small-categories/small-categories-20261006-125-card.svg",
+      "detail": "small-categories/small-categories-20261006-125-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/content/research/2026-10-06-small-categories/README.md",
+    "image_license": "CC0-1.0 original thematic vector",
+    "facts": [
+      {
+        "category": "Städte",
+        "metric": "Jahr der ersten regulären Olympischen Sommerspiele als Hauptgastgeber",
+        "value": 1908,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Jahr der ersten regulären Olympischen Sommerspiele als Hauptgastgeber",
+        "source": "https://www.olympics.com.au/games/london-1908/",
+        "verified": "2026-10-06",
+        "data_year": 1908,
+        "estimate_question": "In welchem Jahr war London erstmals Hauptgastgeber regulärer Olympischer Sommerspiele?",
+        "notes": "Erste reguläre Sommerspiele als Hauptgastgeber; keine Winter- oder Jugendspiele. Melbourne 1956: Reitsport separat in Stockholm.",
+        "subcategory": "Olympiastädte",
+        "release": "small-categories-20261006"
+      }
+    ]
+  },
+  {
+    "id": "small-categories-20261006-126",
+    "name": "Stockholm",
+    "release": "small-categories-20261006",
+    "status": "approved",
+    "image": "../assets/visuals/small-categories/small-categories-20261006-126-card.svg",
+    "variants": {
+      "card": "small-categories/small-categories-20261006-126-card.svg",
+      "detail": "small-categories/small-categories-20261006-126-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/content/research/2026-10-06-small-categories/README.md",
+    "image_license": "CC0-1.0 original thematic vector",
+    "facts": [
+      {
+        "category": "Städte",
+        "metric": "Jahr der ersten regulären Olympischen Sommerspiele als Hauptgastgeber",
+        "value": 1912,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Jahr der ersten regulären Olympischen Sommerspiele als Hauptgastgeber",
+        "source": "https://www.olympics.com.au/games/stockholm-1912/",
+        "verified": "2026-10-06",
+        "data_year": 1912,
+        "estimate_question": "In welchem Jahr war Stockholm erstmals Hauptgastgeber regulärer Olympischer Sommerspiele?",
+        "notes": "Erste reguläre Sommerspiele als Hauptgastgeber; keine Winter- oder Jugendspiele. Melbourne 1956: Reitsport separat in Stockholm.",
+        "subcategory": "Olympiastädte",
+        "release": "small-categories-20261006"
+      }
+    ]
+  },
+  {
+    "id": "small-categories-20261006-127",
+    "name": "Helsinki",
+    "release": "small-categories-20261006",
+    "status": "approved",
+    "image": "../assets/visuals/small-categories/small-categories-20261006-127-card.svg",
+    "variants": {
+      "card": "small-categories/small-categories-20261006-127-card.svg",
+      "detail": "small-categories/small-categories-20261006-127-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/content/research/2026-10-06-small-categories/README.md",
+    "image_license": "CC0-1.0 original thematic vector",
+    "facts": [
+      {
+        "category": "Städte",
+        "metric": "Jahr der ersten regulären Olympischen Sommerspiele als Hauptgastgeber",
+        "value": 1952,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Jahr der ersten regulären Olympischen Sommerspiele als Hauptgastgeber",
+        "source": "https://www.olympics.com.au/games/helsinki-1952/",
+        "verified": "2026-10-06",
+        "data_year": 1952,
+        "estimate_question": "In welchem Jahr war Helsinki erstmals Hauptgastgeber regulärer Olympischer Sommerspiele?",
+        "notes": "Erste reguläre Sommerspiele als Hauptgastgeber; keine Winter- oder Jugendspiele. Melbourne 1956: Reitsport separat in Stockholm.",
+        "subcategory": "Olympiastädte",
+        "release": "small-categories-20261006"
+      }
+    ]
+  },
+  {
+    "id": "small-categories-20261006-128",
+    "name": "Melbourne",
+    "release": "small-categories-20261006",
+    "status": "approved",
+    "image": "../assets/visuals/small-categories/small-categories-20261006-128-card.svg",
+    "variants": {
+      "card": "small-categories/small-categories-20261006-128-card.svg",
+      "detail": "small-categories/small-categories-20261006-128-detail.svg"
+    },
+    "generated": false,
+    "image_source": "https://github.com/MAB1301/more-less-online-test/blob/Main/content/research/2026-10-06-small-categories/README.md",
+    "image_license": "CC0-1.0 original thematic vector",
+    "facts": [
+      {
+        "category": "Städte",
+        "metric": "Jahr der ersten regulären Olympischen Sommerspiele als Hauptgastgeber",
+        "value": 1956,
+        "unit": "Jahr",
+        "comparison_unit": "Jahr · Jahr der ersten regulären Olympischen Sommerspiele als Hauptgastgeber",
+        "source": "https://www.olympics.com.au/games/melbourne-1956/",
+        "verified": "2026-10-06",
+        "data_year": 1956,
+        "estimate_question": "In welchem Jahr war Melbourne erstmals Hauptgastgeber regulärer Olympischer Sommerspiele?",
+        "notes": "Erste reguläre Sommerspiele als Hauptgastgeber; keine Winter- oder Jugendspiele. Melbourne 1956: Reitsport separat in Stockholm.",
+        "subcategory": "Olympiastädte",
+        "release": "small-categories-20261006"
       }
     ]
   }

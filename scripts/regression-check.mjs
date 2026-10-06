@@ -125,3 +125,4 @@ await import("./asset-cache-check.mjs");
 await import('./asset-cache-ui-check.mjs');
 
 await import('./xp-levels-check.mjs');
+await import('./small-categories-check.mjs');

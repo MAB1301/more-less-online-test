@@ -79,7 +79,7 @@ def build(catalogue, output, images_dir=OUT, trivia=None):
                 raise ValueError(f"HTTPS derived sources required: {ident}")
             groups.setdefault(key, []).append((name, value, source, fact.get("verified"), fact.get("exclude_with", []), fact))
             if fact.get("estimate_question"):
-                pack["estimate"].append({"q": fact["estimate_question"], "a": value, "u": unit, "subject": name, "cat": cat, "source": source, "verified": fact.get("verified"), "notes": fact.get("notes", ""), **{k:fact[k] for k in ("subcategory","set","expansion","sources") if k in fact}})
+                pack["estimate"].append({"q": fact["estimate_question"], "a": value, "u": unit, "subject": name, "cat": cat, "source": source, "verified": fact.get("verified"), "notes": fact.get("notes", ""), **{k:fact[k] for k in ("subcategory","set","expansion","sources","release","data_year") if k in fact}})
             if fact.get("fact_statement"):
                 if not isinstance(fact.get("fact_answer"), bool) or not fact.get("fact_explanation"):
                     raise ValueError(f"Fact or Fake answer/explanation missing: {ident}")
@@ -99,7 +99,7 @@ def build(catalogue, output, images_dir=OUT, trivia=None):
             left, lv, ls, ld, lx, lf = a
             right, rv, rs, rd, rx, rf = b
             if lv != rv and right not in lx and left not in rx:
-                pack["moreless"].append({"l": left, "r": right, "lv": lv, "rv": rv, "u": comparison_unit, "cat": cat, "metric": metric, "sub": metric, "source": ls, "sources": [ls, rs], "verified": ld if ld == rd else None, **{k:lf[k] for k in ("subcategory","set") if k in lf and lf.get(k)==rf.get(k)}, **({"expansion":8} if lf.get("expansion")==8 or rf.get("expansion")==8 else {})})
+                pack["moreless"].append({"l": left, "r": right, "lv": lv, "rv": rv, "u": comparison_unit, "cat": cat, "metric": metric, "sub": metric, "source": ls, "sources": [ls, rs], "verified": ld if ld == rd else None, **{k:lf[k] for k in ("subcategory","set","release") if k in lf and lf.get(k)==rf.get(k)}, **({"data_years":[lf['data_year'],rf['data_year']]} if 'data_year' in lf and 'data_year' in rf else {}), **({"expansion":8} if lf.get("expansion")==8 or rf.get("expansion")==8 else {})})
     if trivia is not None:
         curated = json.loads(trivia.read_text(encoding="utf-8"))
         if curated.get("status") == "approved":

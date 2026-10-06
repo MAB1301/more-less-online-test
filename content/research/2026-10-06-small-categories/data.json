@@ -1,0 +1,878 @@
+{
+  "verified": "2026-10-06",
+  "sources": {
+    "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html": {
+      "verified": "2026-10-06",
+      "data_years": [
+        2026
+      ],
+      "method": "Primary publisher page retrieved and relevant field read on 2026-10-06."
+    },
+    "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/": {
+      "verified": "2026-10-06",
+      "data_years": [
+        1973,
+        1981,
+        1986,
+        1995,
+        2004,
+        2007,
+        2013
+      ],
+      "method": "Primary publisher page retrieved and relevant field read on 2026-10-06."
+    },
+    "https://www.olympics.com.au/games/athens-1896/": {
+      "verified": "2026-10-06",
+      "data_years": [
+        1896
+      ],
+      "method": "Primary publisher page retrieved and relevant field read on 2026-10-06."
+    },
+    "https://www.olympics.com.au/games/london-1908/": {
+      "verified": "2026-10-06",
+      "data_years": [
+        1908
+      ],
+      "method": "Primary publisher page retrieved and relevant field read on 2026-10-06."
+    },
+    "https://www.olympics.com.au/games/stockholm-1912/": {
+      "verified": "2026-10-06",
+      "data_years": [
+        1912
+      ],
+      "method": "Primary publisher page retrieved and relevant field read on 2026-10-06."
+    },
+    "https://www.olympics.com.au/games/berlin-1936/": {
+      "verified": "2026-10-06",
+      "data_years": [
+        1936
+      ],
+      "method": "Primary publisher page retrieved and relevant field read on 2026-10-06."
+    },
+    "https://www.olympics.com.au/games/helsinki-1952/": {
+      "verified": "2026-10-06",
+      "data_years": [
+        1952
+      ],
+      "method": "Primary publisher page retrieved and relevant field read on 2026-10-06."
+    },
+    "https://www.olympics.com.au/games/melbourne-1956/": {
+      "verified": "2026-10-06",
+      "data_years": [
+        1956
+      ],
+      "method": "Primary publisher page retrieved and relevant field read on 2026-10-06."
+    },
+    "https://animals.sandiegozoo.org/animals/elephant": {
+      "verified": "2026-10-06",
+      "data_years": [
+        2026
+      ],
+      "method": "Primary publisher page retrieved and relevant field read on 2026-10-06."
+    },
+    "https://animals.sandiegozoo.org/animals/giraffe": {
+      "verified": "2026-10-06",
+      "data_years": [
+        2026
+      ],
+      "method": "Primary publisher page retrieved and relevant field read on 2026-10-06."
+    },
+    "https://animals.sandiegozoo.org/animals/lion": {
+      "verified": "2026-10-06",
+      "data_years": [
+        2026
+      ],
+      "method": "Primary publisher page retrieved and relevant field read on 2026-10-06."
+    }
+  },
+  "numeric": [
+    {
+      "subject": "1-Cent-Münze",
+      "category": "Allgemeinwissen",
+      "metric": "Euro-Umlaufmünze: Durchmesser",
+      "value": 16.25,
+      "unit": "mm",
+      "comparison_unit": "mm · Euro-Umlaufmünze: Durchmesser",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen Wert hat die 1-Cent-Münze bei „Euro-Umlaufmünze: Durchmesser“, in mm?",
+      "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+      "subcategory": "Euro-Münzmaße",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "1-Cent-Münze",
+      "category": "Allgemeinwissen",
+      "metric": "Euro-Umlaufmünze: Masse",
+      "value": 2.3,
+      "unit": "g",
+      "comparison_unit": "g · Euro-Umlaufmünze: Masse",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen Wert hat die 1-Cent-Münze bei „Euro-Umlaufmünze: Masse“, in g?",
+      "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+      "subcategory": "Euro-Münzmaße",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "1-Cent-Münze",
+      "category": "Allgemeinwissen",
+      "metric": "Euro-Umlaufmünze: Dicke",
+      "value": 1.67,
+      "unit": "mm",
+      "comparison_unit": "mm · Euro-Umlaufmünze: Dicke",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen Wert hat die 1-Cent-Münze bei „Euro-Umlaufmünze: Dicke“, in mm?",
+      "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+      "subcategory": "Euro-Münzmaße",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "2-Cent-Münze",
+      "category": "Allgemeinwissen",
+      "metric": "Euro-Umlaufmünze: Durchmesser",
+      "value": 18.75,
+      "unit": "mm",
+      "comparison_unit": "mm · Euro-Umlaufmünze: Durchmesser",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen Wert hat die 2-Cent-Münze bei „Euro-Umlaufmünze: Durchmesser“, in mm?",
+      "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+      "subcategory": "Euro-Münzmaße",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "2-Cent-Münze",
+      "category": "Allgemeinwissen",
+      "metric": "Euro-Umlaufmünze: Masse",
+      "value": 3.06,
+      "unit": "g",
+      "comparison_unit": "g · Euro-Umlaufmünze: Masse",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen Wert hat die 2-Cent-Münze bei „Euro-Umlaufmünze: Masse“, in g?",
+      "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+      "subcategory": "Euro-Münzmaße",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "2-Cent-Münze",
+      "category": "Allgemeinwissen",
+      "metric": "Euro-Umlaufmünze: Dicke",
+      "value": 1.67,
+      "unit": "mm",
+      "comparison_unit": "mm · Euro-Umlaufmünze: Dicke",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen Wert hat die 2-Cent-Münze bei „Euro-Umlaufmünze: Dicke“, in mm?",
+      "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+      "subcategory": "Euro-Münzmaße",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "5-Cent-Münze",
+      "category": "Allgemeinwissen",
+      "metric": "Euro-Umlaufmünze: Durchmesser",
+      "value": 21.25,
+      "unit": "mm",
+      "comparison_unit": "mm · Euro-Umlaufmünze: Durchmesser",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen Wert hat die 5-Cent-Münze bei „Euro-Umlaufmünze: Durchmesser“, in mm?",
+      "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+      "subcategory": "Euro-Münzmaße",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "5-Cent-Münze",
+      "category": "Allgemeinwissen",
+      "metric": "Euro-Umlaufmünze: Masse",
+      "value": 3.92,
+      "unit": "g",
+      "comparison_unit": "g · Euro-Umlaufmünze: Masse",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen Wert hat die 5-Cent-Münze bei „Euro-Umlaufmünze: Masse“, in g?",
+      "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+      "subcategory": "Euro-Münzmaße",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "5-Cent-Münze",
+      "category": "Allgemeinwissen",
+      "metric": "Euro-Umlaufmünze: Dicke",
+      "value": 1.67,
+      "unit": "mm",
+      "comparison_unit": "mm · Euro-Umlaufmünze: Dicke",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen Wert hat die 5-Cent-Münze bei „Euro-Umlaufmünze: Dicke“, in mm?",
+      "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+      "subcategory": "Euro-Münzmaße",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "10-Cent-Münze",
+      "category": "Allgemeinwissen",
+      "metric": "Euro-Umlaufmünze: Durchmesser",
+      "value": 19.75,
+      "unit": "mm",
+      "comparison_unit": "mm · Euro-Umlaufmünze: Durchmesser",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen Wert hat die 10-Cent-Münze bei „Euro-Umlaufmünze: Durchmesser“, in mm?",
+      "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+      "subcategory": "Euro-Münzmaße",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "10-Cent-Münze",
+      "category": "Allgemeinwissen",
+      "metric": "Euro-Umlaufmünze: Masse",
+      "value": 4.1,
+      "unit": "g",
+      "comparison_unit": "g · Euro-Umlaufmünze: Masse",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen Wert hat die 10-Cent-Münze bei „Euro-Umlaufmünze: Masse“, in g?",
+      "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+      "subcategory": "Euro-Münzmaße",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "10-Cent-Münze",
+      "category": "Allgemeinwissen",
+      "metric": "Euro-Umlaufmünze: Dicke",
+      "value": 1.93,
+      "unit": "mm",
+      "comparison_unit": "mm · Euro-Umlaufmünze: Dicke",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen Wert hat die 10-Cent-Münze bei „Euro-Umlaufmünze: Dicke“, in mm?",
+      "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+      "subcategory": "Euro-Münzmaße",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "20-Cent-Münze",
+      "category": "Allgemeinwissen",
+      "metric": "Euro-Umlaufmünze: Durchmesser",
+      "value": 22.25,
+      "unit": "mm",
+      "comparison_unit": "mm · Euro-Umlaufmünze: Durchmesser",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen Wert hat die 20-Cent-Münze bei „Euro-Umlaufmünze: Durchmesser“, in mm?",
+      "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+      "subcategory": "Euro-Münzmaße",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "20-Cent-Münze",
+      "category": "Allgemeinwissen",
+      "metric": "Euro-Umlaufmünze: Masse",
+      "value": 5.74,
+      "unit": "g",
+      "comparison_unit": "g · Euro-Umlaufmünze: Masse",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen Wert hat die 20-Cent-Münze bei „Euro-Umlaufmünze: Masse“, in g?",
+      "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+      "subcategory": "Euro-Münzmaße",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "20-Cent-Münze",
+      "category": "Allgemeinwissen",
+      "metric": "Euro-Umlaufmünze: Dicke",
+      "value": 2.14,
+      "unit": "mm",
+      "comparison_unit": "mm · Euro-Umlaufmünze: Dicke",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen Wert hat die 20-Cent-Münze bei „Euro-Umlaufmünze: Dicke“, in mm?",
+      "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+      "subcategory": "Euro-Münzmaße",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "50-Cent-Münze",
+      "category": "Allgemeinwissen",
+      "metric": "Euro-Umlaufmünze: Durchmesser",
+      "value": 24.25,
+      "unit": "mm",
+      "comparison_unit": "mm · Euro-Umlaufmünze: Durchmesser",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen Wert hat die 50-Cent-Münze bei „Euro-Umlaufmünze: Durchmesser“, in mm?",
+      "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+      "subcategory": "Euro-Münzmaße",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "50-Cent-Münze",
+      "category": "Allgemeinwissen",
+      "metric": "Euro-Umlaufmünze: Masse",
+      "value": 7.8,
+      "unit": "g",
+      "comparison_unit": "g · Euro-Umlaufmünze: Masse",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen Wert hat die 50-Cent-Münze bei „Euro-Umlaufmünze: Masse“, in g?",
+      "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+      "subcategory": "Euro-Münzmaße",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "50-Cent-Münze",
+      "category": "Allgemeinwissen",
+      "metric": "Euro-Umlaufmünze: Dicke",
+      "value": 2.38,
+      "unit": "mm",
+      "comparison_unit": "mm · Euro-Umlaufmünze: Dicke",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen Wert hat die 50-Cent-Münze bei „Euro-Umlaufmünze: Dicke“, in mm?",
+      "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+      "subcategory": "Euro-Münzmaße",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "1-Euro-Münze",
+      "category": "Allgemeinwissen",
+      "metric": "Euro-Umlaufmünze: Durchmesser",
+      "value": 23.25,
+      "unit": "mm",
+      "comparison_unit": "mm · Euro-Umlaufmünze: Durchmesser",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen Wert hat die 1-Euro-Münze bei „Euro-Umlaufmünze: Durchmesser“, in mm?",
+      "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+      "subcategory": "Euro-Münzmaße",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "1-Euro-Münze",
+      "category": "Allgemeinwissen",
+      "metric": "Euro-Umlaufmünze: Masse",
+      "value": 7.5,
+      "unit": "g",
+      "comparison_unit": "g · Euro-Umlaufmünze: Masse",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen Wert hat die 1-Euro-Münze bei „Euro-Umlaufmünze: Masse“, in g?",
+      "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+      "subcategory": "Euro-Münzmaße",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "1-Euro-Münze",
+      "category": "Allgemeinwissen",
+      "metric": "Euro-Umlaufmünze: Dicke",
+      "value": 2.33,
+      "unit": "mm",
+      "comparison_unit": "mm · Euro-Umlaufmünze: Dicke",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen Wert hat die 1-Euro-Münze bei „Euro-Umlaufmünze: Dicke“, in mm?",
+      "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+      "subcategory": "Euro-Münzmaße",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "2-Euro-Münze",
+      "category": "Allgemeinwissen",
+      "metric": "Euro-Umlaufmünze: Durchmesser",
+      "value": 25.75,
+      "unit": "mm",
+      "comparison_unit": "mm · Euro-Umlaufmünze: Durchmesser",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen Wert hat die 2-Euro-Münze bei „Euro-Umlaufmünze: Durchmesser“, in mm?",
+      "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+      "subcategory": "Euro-Münzmaße",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "2-Euro-Münze",
+      "category": "Allgemeinwissen",
+      "metric": "Euro-Umlaufmünze: Masse",
+      "value": 8.5,
+      "unit": "g",
+      "comparison_unit": "g · Euro-Umlaufmünze: Masse",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen Wert hat die 2-Euro-Münze bei „Euro-Umlaufmünze: Masse“, in g?",
+      "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+      "subcategory": "Euro-Münzmaße",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "2-Euro-Münze",
+      "category": "Allgemeinwissen",
+      "metric": "Euro-Umlaufmünze: Dicke",
+      "value": 2.2,
+      "unit": "mm",
+      "comparison_unit": "mm · Euro-Umlaufmünze: Dicke",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen Wert hat die 2-Euro-Münze bei „Euro-Umlaufmünze: Dicke“, in mm?",
+      "notes": "Technische Sollgröße der regulären Euro-Umlaufmünze laut EZB; keine Sammlermünze.",
+      "subcategory": "Euro-Münzmaße",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "Dänemark",
+      "category": "Länder",
+      "metric": "Beitrittsjahr zur EU beziehungsweise EG",
+      "value": 1973,
+      "unit": "Jahr",
+      "comparison_unit": "Jahr · Beitrittsjahr zur EU beziehungsweise EG",
+      "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+      "verified": "2026-10-06",
+      "data_year": 1973,
+      "estimate_question": "In welchem Jahr trat Dänemark der EU beziehungsweise ihrer Vorgängerin EG bei?",
+      "notes": "Historischer Beitritt, nicht Euro-Einführung oder Schengen-Beitritt.",
+      "subcategory": "Europäische Geschichte",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "Griechenland",
+      "category": "Länder",
+      "metric": "Beitrittsjahr zur EU beziehungsweise EG",
+      "value": 1981,
+      "unit": "Jahr",
+      "comparison_unit": "Jahr · Beitrittsjahr zur EU beziehungsweise EG",
+      "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+      "verified": "2026-10-06",
+      "data_year": 1981,
+      "estimate_question": "In welchem Jahr trat Griechenland der EU beziehungsweise ihrer Vorgängerin EG bei?",
+      "notes": "Historischer Beitritt, nicht Euro-Einführung oder Schengen-Beitritt.",
+      "subcategory": "Europäische Geschichte",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "Spanien",
+      "category": "Länder",
+      "metric": "Beitrittsjahr zur EU beziehungsweise EG",
+      "value": 1986,
+      "unit": "Jahr",
+      "comparison_unit": "Jahr · Beitrittsjahr zur EU beziehungsweise EG",
+      "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+      "verified": "2026-10-06",
+      "data_year": 1986,
+      "estimate_question": "In welchem Jahr trat Spanien der EU beziehungsweise ihrer Vorgängerin EG bei?",
+      "notes": "Historischer Beitritt, nicht Euro-Einführung oder Schengen-Beitritt.",
+      "subcategory": "Europäische Geschichte",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "Österreich",
+      "category": "Länder",
+      "metric": "Beitrittsjahr zur EU beziehungsweise EG",
+      "value": 1995,
+      "unit": "Jahr",
+      "comparison_unit": "Jahr · Beitrittsjahr zur EU beziehungsweise EG",
+      "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+      "verified": "2026-10-06",
+      "data_year": 1995,
+      "estimate_question": "In welchem Jahr trat Österreich der EU beziehungsweise ihrer Vorgängerin EG bei?",
+      "notes": "Historischer Beitritt, nicht Euro-Einführung oder Schengen-Beitritt.",
+      "subcategory": "Europäische Geschichte",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "Polen",
+      "category": "Länder",
+      "metric": "Beitrittsjahr zur EU beziehungsweise EG",
+      "value": 2004,
+      "unit": "Jahr",
+      "comparison_unit": "Jahr · Beitrittsjahr zur EU beziehungsweise EG",
+      "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+      "verified": "2026-10-06",
+      "data_year": 2004,
+      "estimate_question": "In welchem Jahr trat Polen der EU beziehungsweise ihrer Vorgängerin EG bei?",
+      "notes": "Historischer Beitritt, nicht Euro-Einführung oder Schengen-Beitritt.",
+      "subcategory": "Europäische Geschichte",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "Rumänien",
+      "category": "Länder",
+      "metric": "Beitrittsjahr zur EU beziehungsweise EG",
+      "value": 2007,
+      "unit": "Jahr",
+      "comparison_unit": "Jahr · Beitrittsjahr zur EU beziehungsweise EG",
+      "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+      "verified": "2026-10-06",
+      "data_year": 2007,
+      "estimate_question": "In welchem Jahr trat Rumänien der EU beziehungsweise ihrer Vorgängerin EG bei?",
+      "notes": "Historischer Beitritt, nicht Euro-Einführung oder Schengen-Beitritt.",
+      "subcategory": "Europäische Geschichte",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "Kroatien",
+      "category": "Länder",
+      "metric": "Beitrittsjahr zur EU beziehungsweise EG",
+      "value": 2013,
+      "unit": "Jahr",
+      "comparison_unit": "Jahr · Beitrittsjahr zur EU beziehungsweise EG",
+      "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+      "verified": "2026-10-06",
+      "data_year": 2013,
+      "estimate_question": "In welchem Jahr trat Kroatien der EU beziehungsweise ihrer Vorgängerin EG bei?",
+      "notes": "Historischer Beitritt, nicht Euro-Einführung oder Schengen-Beitritt.",
+      "subcategory": "Europäische Geschichte",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "Athen",
+      "category": "Städte",
+      "metric": "Jahr der ersten regulären Olympischen Sommerspiele als Hauptgastgeber",
+      "value": 1896,
+      "unit": "Jahr",
+      "comparison_unit": "Jahr · Jahr der ersten regulären Olympischen Sommerspiele als Hauptgastgeber",
+      "source": "https://www.olympics.com.au/games/athens-1896/",
+      "verified": "2026-10-06",
+      "data_year": 1896,
+      "estimate_question": "In welchem Jahr war Athen erstmals Hauptgastgeber regulärer Olympischer Sommerspiele?",
+      "notes": "Erste reguläre Sommerspiele als Hauptgastgeber; keine Winter- oder Jugendspiele. Melbourne 1956: Reitsport separat in Stockholm.",
+      "subcategory": "Olympiastädte",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "London",
+      "category": "Städte",
+      "metric": "Jahr der ersten regulären Olympischen Sommerspiele als Hauptgastgeber",
+      "value": 1908,
+      "unit": "Jahr",
+      "comparison_unit": "Jahr · Jahr der ersten regulären Olympischen Sommerspiele als Hauptgastgeber",
+      "source": "https://www.olympics.com.au/games/london-1908/",
+      "verified": "2026-10-06",
+      "data_year": 1908,
+      "estimate_question": "In welchem Jahr war London erstmals Hauptgastgeber regulärer Olympischer Sommerspiele?",
+      "notes": "Erste reguläre Sommerspiele als Hauptgastgeber; keine Winter- oder Jugendspiele. Melbourne 1956: Reitsport separat in Stockholm.",
+      "subcategory": "Olympiastädte",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "Stockholm",
+      "category": "Städte",
+      "metric": "Jahr der ersten regulären Olympischen Sommerspiele als Hauptgastgeber",
+      "value": 1912,
+      "unit": "Jahr",
+      "comparison_unit": "Jahr · Jahr der ersten regulären Olympischen Sommerspiele als Hauptgastgeber",
+      "source": "https://www.olympics.com.au/games/stockholm-1912/",
+      "verified": "2026-10-06",
+      "data_year": 1912,
+      "estimate_question": "In welchem Jahr war Stockholm erstmals Hauptgastgeber regulärer Olympischer Sommerspiele?",
+      "notes": "Erste reguläre Sommerspiele als Hauptgastgeber; keine Winter- oder Jugendspiele. Melbourne 1956: Reitsport separat in Stockholm.",
+      "subcategory": "Olympiastädte",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "Berlin",
+      "category": "Städte",
+      "metric": "Jahr der ersten regulären Olympischen Sommerspiele als Hauptgastgeber",
+      "value": 1936,
+      "unit": "Jahr",
+      "comparison_unit": "Jahr · Jahr der ersten regulären Olympischen Sommerspiele als Hauptgastgeber",
+      "source": "https://www.olympics.com.au/games/berlin-1936/",
+      "verified": "2026-10-06",
+      "data_year": 1936,
+      "estimate_question": "In welchem Jahr war Berlin erstmals Hauptgastgeber regulärer Olympischer Sommerspiele?",
+      "notes": "Erste reguläre Sommerspiele als Hauptgastgeber; keine Winter- oder Jugendspiele. Melbourne 1956: Reitsport separat in Stockholm.",
+      "subcategory": "Olympiastädte",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "Helsinki",
+      "category": "Städte",
+      "metric": "Jahr der ersten regulären Olympischen Sommerspiele als Hauptgastgeber",
+      "value": 1952,
+      "unit": "Jahr",
+      "comparison_unit": "Jahr · Jahr der ersten regulären Olympischen Sommerspiele als Hauptgastgeber",
+      "source": "https://www.olympics.com.au/games/helsinki-1952/",
+      "verified": "2026-10-06",
+      "data_year": 1952,
+      "estimate_question": "In welchem Jahr war Helsinki erstmals Hauptgastgeber regulärer Olympischer Sommerspiele?",
+      "notes": "Erste reguläre Sommerspiele als Hauptgastgeber; keine Winter- oder Jugendspiele. Melbourne 1956: Reitsport separat in Stockholm.",
+      "subcategory": "Olympiastädte",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "Melbourne",
+      "category": "Städte",
+      "metric": "Jahr der ersten regulären Olympischen Sommerspiele als Hauptgastgeber",
+      "value": 1956,
+      "unit": "Jahr",
+      "comparison_unit": "Jahr · Jahr der ersten regulären Olympischen Sommerspiele als Hauptgastgeber",
+      "source": "https://www.olympics.com.au/games/melbourne-1956/",
+      "verified": "2026-10-06",
+      "data_year": 1956,
+      "estimate_question": "In welchem Jahr war Melbourne erstmals Hauptgastgeber regulärer Olympischer Sommerspiele?",
+      "notes": "Erste reguläre Sommerspiele als Hauptgastgeber; keine Winter- oder Jugendspiele. Melbourne 1956: Reitsport separat in Stockholm.",
+      "subcategory": "Olympiastädte",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "Elefant",
+      "category": "Tierwelt",
+      "metric": "Oberer gerundeter Tragzeit-Richtwert laut San Diego Zoo",
+      "value": 22,
+      "unit": "Monate",
+      "comparison_unit": "Monate · Oberer gerundeter Tragzeit-Richtwert laut San Diego Zoo",
+      "source": "https://animals.sandiegozoo.org/animals/elephant",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen oberen gerundeten Tragzeit-Richtwert nennt der San Diego Zoo für Elefant, in Monaten?",
+      "notes": "Zoo-Richtwerte: Elefant 20–22 Monate, Giraffe 14 Monate, Löwe fast 4 Monate (hier auf 4 gerundet). Keine exakte individuelle Dauer.",
+      "subcategory": "Fortpflanzung",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "Giraffe",
+      "category": "Tierwelt",
+      "metric": "Oberer gerundeter Tragzeit-Richtwert laut San Diego Zoo",
+      "value": 14,
+      "unit": "Monate",
+      "comparison_unit": "Monate · Oberer gerundeter Tragzeit-Richtwert laut San Diego Zoo",
+      "source": "https://animals.sandiegozoo.org/animals/giraffe",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen oberen gerundeten Tragzeit-Richtwert nennt der San Diego Zoo für Giraffe, in Monaten?",
+      "notes": "Zoo-Richtwerte: Elefant 20–22 Monate, Giraffe 14 Monate, Löwe fast 4 Monate (hier auf 4 gerundet). Keine exakte individuelle Dauer.",
+      "subcategory": "Fortpflanzung",
+      "release": "small-categories-20261006"
+    },
+    {
+      "subject": "Löwe",
+      "category": "Tierwelt",
+      "metric": "Oberer gerundeter Tragzeit-Richtwert laut San Diego Zoo",
+      "value": 4,
+      "unit": "Monate",
+      "comparison_unit": "Monate · Oberer gerundeter Tragzeit-Richtwert laut San Diego Zoo",
+      "source": "https://animals.sandiegozoo.org/animals/lion",
+      "verified": "2026-10-06",
+      "data_year": 2026,
+      "estimate_question": "Welchen oberen gerundeten Tragzeit-Richtwert nennt der San Diego Zoo für Löwe, in Monaten?",
+      "notes": "Zoo-Richtwerte: Elefant 20–22 Monate, Giraffe 14 Monate, Löwe fast 4 Monate (hier auf 4 gerundet). Keine exakte individuelle Dauer.",
+      "subcategory": "Fortpflanzung",
+      "release": "small-categories-20261006"
+    }
+  ],
+  "facts": [
+    {
+      "s": "Die 50-Cent-Münze hat einen größeren Durchmesser als die 1-Euro-Münze.",
+      "a": true,
+      "e": "24,25 mm gegenüber 23,25 mm.",
+      "cat": "Allgemeinwissen",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "sources": [
+        "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html"
+      ],
+      "verified": "2026-10-06",
+      "difficulty": "medium",
+      "release": "small-categories-20261006"
+    },
+    {
+      "s": "Die 2-Euro-Münze ist dicker als die 50-Cent-Münze.",
+      "a": false,
+      "e": "2,20 mm gegenüber 2,38 mm.",
+      "cat": "Allgemeinwissen",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "sources": [
+        "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html"
+      ],
+      "verified": "2026-10-06",
+      "difficulty": "medium",
+      "release": "small-categories-20261006"
+    },
+    {
+      "s": "Dänemark trat der EG vor Österreichs EU-Beitritt bei.",
+      "a": true,
+      "e": "Dänemark 1973; Österreich 1995.",
+      "cat": "Länder",
+      "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+      "sources": [
+        "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+        "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+      ],
+      "verified": "2026-10-06",
+      "difficulty": "medium",
+      "release": "small-categories-20261006"
+    },
+    {
+      "s": "Kroatien trat der EU im selben Jahr wie Polen bei.",
+      "a": false,
+      "e": "Kroatien 2013; Polen 2004.",
+      "cat": "Länder",
+      "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+      "sources": [
+        "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+        "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+      ],
+      "verified": "2026-10-06",
+      "difficulty": "medium",
+      "release": "small-categories-20261006"
+    },
+    {
+      "s": "Stockholm war vor Helsinki erstmals Hauptgastgeber regulärer Sommerspiele.",
+      "a": true,
+      "e": "Stockholm 1912; Helsinki 1952.",
+      "cat": "Städte",
+      "source": "https://www.olympics.com.au/games/stockholm-1912/",
+      "sources": [
+        "https://www.olympics.com.au/games/stockholm-1912/",
+        "https://www.olympics.com.au/games/helsinki-1952/",
+        "https://www.olympics.com.au/games/london-1908/"
+      ],
+      "verified": "2026-10-06",
+      "difficulty": "medium",
+      "release": "small-categories-20261006"
+    },
+    {
+      "s": "Berlin war vor London erstmals Hauptgastgeber regulärer Sommerspiele.",
+      "a": false,
+      "e": "Berlin 1936; London 1908.",
+      "cat": "Städte",
+      "source": "https://www.olympics.com.au/games/berlin-1936/",
+      "sources": [
+        "https://www.olympics.com.au/games/berlin-1936/",
+        "https://www.olympics.com.au/games/helsinki-1952/",
+        "https://www.olympics.com.au/games/london-1908/"
+      ],
+      "verified": "2026-10-06",
+      "difficulty": "medium",
+      "release": "small-categories-20261006"
+    },
+    {
+      "s": "Der obere gerundete Tragzeit-Richtwert des Zoos ist für Elefanten länger als für Giraffen.",
+      "a": true,
+      "e": "22 gegenüber 14 Monaten.",
+      "cat": "Tierwelt",
+      "source": "https://animals.sandiegozoo.org/animals/elephant",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/elephant",
+        "https://animals.sandiegozoo.org/animals/giraffe"
+      ],
+      "verified": "2026-10-06",
+      "difficulty": "medium",
+      "release": "small-categories-20261006"
+    },
+    {
+      "s": "Der San Diego Zoo nennt für Löwen eine Tragzeit von 14 Monaten.",
+      "a": false,
+      "e": "Fast 4 Monate; 14 Monate gilt auf der Zoo-Seite für Giraffen.",
+      "cat": "Tierwelt",
+      "source": "https://animals.sandiegozoo.org/animals/lion",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/lion",
+        "https://animals.sandiegozoo.org/animals/giraffe"
+      ],
+      "verified": "2026-10-06",
+      "difficulty": "medium",
+      "release": "small-categories-20261006"
+    }
+  ],
+  "jeopardy": [
+    {
+      "q": "Welche Euro-Umlaufmünze wiegt laut EZB 8,50 Gramm?",
+      "a": "2-Euro-Münze|2 Euro",
+      "cat": "Allgemeinwissen",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "difficulty": 2,
+      "release": "small-categories-20261006"
+    },
+    {
+      "q": "Welche Euro-Umlaufmünze hat die charakteristische Form „Spanische Blume“?",
+      "a": "20-Cent-Münze|20 Cent",
+      "cat": "Allgemeinwissen",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "difficulty": 2,
+      "release": "small-categories-20261006"
+    },
+    {
+      "q": "Welcher Balkanstaat trat am 1. Juli 2013 der EU bei?",
+      "a": "Kroatien",
+      "cat": "Geografie",
+      "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+      "verified": "2026-10-06",
+      "difficulty": 2,
+      "release": "small-categories-20261006"
+    },
+    {
+      "q": "Welcher Staat mit der Hauptstadt Wien trat 1995 der EU bei?",
+      "a": "Österreich|Oesterreich",
+      "cat": "Geografie",
+      "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+      "verified": "2026-10-06",
+      "difficulty": 2,
+      "release": "small-categories-20261006"
+    },
+    {
+      "q": "Welche Stadt wurde Hauptgastgeber der Sommerspiele 1908, nachdem Rom zurückgezogen hatte?",
+      "a": "London",
+      "cat": "Geschichte",
+      "source": "https://www.olympics.com.au/games/london-1908/",
+      "verified": "2026-10-06",
+      "difficulty": 2,
+      "release": "small-categories-20261006"
+    },
+    {
+      "q": "Welche australische Stadt war Hauptgastgeber der Sommerspiele 1956?",
+      "a": "Melbourne",
+      "cat": "Geografie",
+      "source": "https://www.olympics.com.au/games/melbourne-1956/",
+      "verified": "2026-10-06",
+      "difficulty": 2,
+      "release": "small-categories-20261006"
+    },
+    {
+      "q": "Bei welchem Tier nennt der San Diego Zoo eine Tragzeit von 20 bis 22 Monaten?",
+      "a": "Elefant|Elefanten",
+      "cat": "Allgemeinwissen",
+      "source": "https://animals.sandiegozoo.org/animals/elephant",
+      "verified": "2026-10-06",
+      "difficulty": 2,
+      "release": "small-categories-20261006"
+    },
+    {
+      "q": "Welches besonders langhalsige Tier hat laut San Diego Zoo eine Tragzeit von 14 Monaten?",
+      "a": "Giraffe",
+      "cat": "Allgemeinwissen",
+      "source": "https://animals.sandiegozoo.org/animals/giraffe",
+      "verified": "2026-10-06",
+      "difficulty": 2,
+      "release": "small-categories-20261006"
+    }
+  ]
+}
