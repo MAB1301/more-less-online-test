@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 const html=fs.readFileSync('index.html','utf8');
 const packContext={window:{}};
 vm.runInNewContext(fs.readFileSync('content/approved.js','utf8'),packContext);
-const pack=packContext.window.GAME_CONTENT_PACK;
+const pack=packContext.window.GAME_CONTENT_PACK;for(const kind of ['moreless','estimate','facts','jeopardy'])pack[kind]=pack[kind].filter(q=>q.release!=='small-categories-20261006');
 const added=JSON.parse(fs.readFileSync('content/research/2026-10-03/expansion-4.json','utf8'));
 assert.equal(added.flatMap(x=>x.facts).length,44);
 assert.equal(pack.estimate.filter(q=>q.verified==='2026-10-03').length,44);

@@ -6102,6 +6102,78 @@
       "subcategory": "Nintendo",
       "set": "Pilzkönigreich & Pokémon",
       "expansion": 8
+    },
+    {
+      "q": "Welche Euro-Umlaufmünze wiegt laut EZB 8,50 Gramm?",
+      "a": "2-Euro-Münze|2 Euro",
+      "cat": "Allgemeinwissen",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "difficulty": 2,
+      "release": "small-categories-20261006"
+    },
+    {
+      "q": "Welche Euro-Umlaufmünze hat die charakteristische Form „Spanische Blume“?",
+      "a": "20-Cent-Münze|20 Cent",
+      "cat": "Allgemeinwissen",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "verified": "2026-10-06",
+      "difficulty": 2,
+      "release": "small-categories-20261006"
+    },
+    {
+      "q": "Welcher Balkanstaat trat am 1. Juli 2013 der EU bei?",
+      "a": "Kroatien",
+      "cat": "Geografie",
+      "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+      "verified": "2026-10-06",
+      "difficulty": 2,
+      "release": "small-categories-20261006"
+    },
+    {
+      "q": "Welcher Staat mit der Hauptstadt Wien trat 1995 der EU bei?",
+      "a": "Österreich|Oesterreich",
+      "cat": "Geografie",
+      "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+      "verified": "2026-10-06",
+      "difficulty": 2,
+      "release": "small-categories-20261006"
+    },
+    {
+      "q": "Welche Stadt wurde Hauptgastgeber der Sommerspiele 1908, nachdem Rom zurückgezogen hatte?",
+      "a": "London",
+      "cat": "Geschichte",
+      "source": "https://www.olympics.com.au/games/london-1908/",
+      "verified": "2026-10-06",
+      "difficulty": 2,
+      "release": "small-categories-20261006"
+    },
+    {
+      "q": "Welche australische Stadt war Hauptgastgeber der Sommerspiele 1956?",
+      "a": "Melbourne",
+      "cat": "Geografie",
+      "source": "https://www.olympics.com.au/games/melbourne-1956/",
+      "verified": "2026-10-06",
+      "difficulty": 2,
+      "release": "small-categories-20261006"
+    },
+    {
+      "q": "Bei welchem Tier nennt der San Diego Zoo eine Tragzeit von 20 bis 22 Monaten?",
+      "a": "Elefant|Elefanten",
+      "cat": "Allgemeinwissen",
+      "source": "https://animals.sandiegozoo.org/animals/elephant",
+      "verified": "2026-10-06",
+      "difficulty": 2,
+      "release": "small-categories-20261006"
+    },
+    {
+      "q": "Welches besonders langhalsige Tier hat laut San Diego Zoo eine Tragzeit von 14 Monaten?",
+      "a": "Giraffe",
+      "cat": "Allgemeinwissen",
+      "source": "https://animals.sandiegozoo.org/animals/giraffe",
+      "verified": "2026-10-06",
+      "difficulty": 2,
+      "release": "small-categories-20261006"
     }
   ],
   "facts": [
@@ -8359,6 +8431,118 @@
       "difficulty": "hard",
       "subcategory": "Sonden & Teleskope",
       "expansion": 8
+    },
+    {
+      "s": "Die 50-Cent-Münze hat einen größeren Durchmesser als die 1-Euro-Münze.",
+      "a": true,
+      "e": "24,25 mm gegenüber 23,25 mm.",
+      "cat": "Allgemeinwissen",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "sources": [
+        "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html"
+      ],
+      "verified": "2026-10-06",
+      "difficulty": "medium",
+      "release": "small-categories-20261006"
+    },
+    {
+      "s": "Die 2-Euro-Münze ist dicker als die 50-Cent-Münze.",
+      "a": false,
+      "e": "2,20 mm gegenüber 2,38 mm.",
+      "cat": "Allgemeinwissen",
+      "source": "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html",
+      "sources": [
+        "https://www.ecb.europa.eu/euro/coins/common/html/index.de.html"
+      ],
+      "verified": "2026-10-06",
+      "difficulty": "medium",
+      "release": "small-categories-20261006"
+    },
+    {
+      "s": "Dänemark trat der EG vor Österreichs EU-Beitritt bei.",
+      "a": true,
+      "e": "Dänemark 1973; Österreich 1995.",
+      "cat": "Länder",
+      "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+      "sources": [
+        "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+        "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+      ],
+      "verified": "2026-10-06",
+      "difficulty": "medium",
+      "release": "small-categories-20261006"
+    },
+    {
+      "s": "Kroatien trat der EU im selben Jahr wie Polen bei.",
+      "a": false,
+      "e": "Kroatien 2013; Polen 2004.",
+      "cat": "Länder",
+      "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+      "sources": [
+        "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+        "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+      ],
+      "verified": "2026-10-06",
+      "difficulty": "medium",
+      "release": "small-categories-20261006"
+    },
+    {
+      "s": "Stockholm war vor Helsinki erstmals Hauptgastgeber regulärer Sommerspiele.",
+      "a": true,
+      "e": "Stockholm 1912; Helsinki 1952.",
+      "cat": "Städte",
+      "source": "https://www.olympics.com.au/games/stockholm-1912/",
+      "sources": [
+        "https://www.olympics.com.au/games/stockholm-1912/",
+        "https://www.olympics.com.au/games/helsinki-1952/",
+        "https://www.olympics.com.au/games/london-1908/"
+      ],
+      "verified": "2026-10-06",
+      "difficulty": "medium",
+      "release": "small-categories-20261006"
+    },
+    {
+      "s": "Berlin war vor London erstmals Hauptgastgeber regulärer Sommerspiele.",
+      "a": false,
+      "e": "Berlin 1936; London 1908.",
+      "cat": "Städte",
+      "source": "https://www.olympics.com.au/games/berlin-1936/",
+      "sources": [
+        "https://www.olympics.com.au/games/berlin-1936/",
+        "https://www.olympics.com.au/games/helsinki-1952/",
+        "https://www.olympics.com.au/games/london-1908/"
+      ],
+      "verified": "2026-10-06",
+      "difficulty": "medium",
+      "release": "small-categories-20261006"
+    },
+    {
+      "s": "Der obere gerundete Tragzeit-Richtwert des Zoos ist für Elefanten länger als für Giraffen.",
+      "a": true,
+      "e": "22 gegenüber 14 Monaten.",
+      "cat": "Tierwelt",
+      "source": "https://animals.sandiegozoo.org/animals/elephant",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/elephant",
+        "https://animals.sandiegozoo.org/animals/giraffe"
+      ],
+      "verified": "2026-10-06",
+      "difficulty": "medium",
+      "release": "small-categories-20261006"
+    },
+    {
+      "s": "Der San Diego Zoo nennt für Löwen eine Tragzeit von 14 Monaten.",
+      "a": false,
+      "e": "Fast 4 Monate; 14 Monate gilt auf der Zoo-Seite für Giraffen.",
+      "cat": "Tierwelt",
+      "source": "https://animals.sandiegozoo.org/animals/lion",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/lion",
+        "https://animals.sandiegozoo.org/animals/giraffe"
+      ],
+      "verified": "2026-10-06",
+      "difficulty": "medium",
+      "release": "small-categories-20261006"
     }
   ],
   "estimate": [

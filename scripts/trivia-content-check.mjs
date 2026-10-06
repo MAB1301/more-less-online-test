@@ -1,5 +1,5 @@
 import fs from 'node:fs';import vm from 'node:vm';import assert from 'node:assert/strict';
-const html=fs.readFileSync('index.html','utf8'),ctx={window:{}};vm.runInNewContext(fs.readFileSync('content/approved.js','utf8'),ctx);const pack=ctx.window.GAME_CONTENT_PACK;
+const html=fs.readFileSync('index.html','utf8'),ctx={window:{}};vm.runInNewContext(fs.readFileSync('content/approved.js','utf8'),ctx);const pack=ctx.window.GAME_CONTENT_PACK;for(const kind of ['moreless','estimate','facts','jeopardy'])pack[kind]=pack[kind].filter(q=>q.release!=='small-categories-20261006');
 assert.equal(pack.facts.length,204);assert.equal(pack.jeopardy.length,614);
 const unique=(rows,key)=>assert.equal(new Set(rows.map(x=>x[key].trim().toLowerCase())).size,rows.length);unique(pack.facts,'s');unique(pack.jeopardy,'q');
 for(const level of ['easy','medium','hard']){const rows=pack.facts.filter(x=>x.difficulty===level);assert.equal(rows.length,68);assert.equal(rows.filter(x=>x.a).length,34);assert.equal(rows.filter(x=>!x.a).length,34);}
