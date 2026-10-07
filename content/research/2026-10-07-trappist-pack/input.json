@@ -1,0 +1,26 @@
+{
+  "status": "draft",
+  "verified": "2026-10-07",
+  "base_commit": "0ca6f66d0f1efea5709b7de9f3256413e0a2f5b1",
+  "planets": [
+    {"key":"b","name":"TRAPPIST-1 b","period_days":1.5,"radius_earth":1.116,"mass_earth":1.374,"discovery_year":2016,"orbital_radius_au":0.01154,"source_ref":"nasa_b"},
+    {"key":"c","name":"TRAPPIST-1 c","period_days":2.4,"radius_earth":1.097,"mass_earth":1.308,"discovery_year":2016,"orbital_radius_au":0.0158,"source_ref":"nasa_c"},
+    {"key":"d","name":"TRAPPIST-1 d","period_days":4.0,"radius_earth":0.788,"mass_earth":0.388,"discovery_year":2016,"orbital_radius_au":0.02227,"source_ref":"nasa_d"},
+    {"key":"e","name":"TRAPPIST-1 e","period_days":6.1,"radius_earth":0.92,"mass_earth":0.692,"discovery_year":2017,"orbital_radius_au":0.02925,"source_ref":"nasa_e"},
+    {"key":"f","name":"TRAPPIST-1 f","period_days":9.2,"radius_earth":1.045,"mass_earth":1.039,"discovery_year":2017,"orbital_radius_au":0.03849,"source_ref":"nasa_f"}
+  ],
+  "facts": [
+    {"id":"trappist-fact-b-radius","s":"TRAPPIST-1 b hat laut NASA einen etwas größeren Radius als die Erde.","a":true,"e":"NASA nennt 1,116 Erdradien.","difficulty":"easy","source_refs":["nasa_b"]},
+    {"id":"trappist-fact-c-mass","s":"TRAPPIST-1 c hat laut NASA eine geringere Masse als TRAPPIST-1 b.","a":true,"e":"NASA nennt 1,308 Erdmassen für c und 1,374 für b.","difficulty":"medium","source_refs":["nasa_b","nasa_c"]},
+    {"id":"trappist-fact-d-radius","s":"TRAPPIST-1 d hat laut NASA einen größeren Radius als die Erde.","a":false,"e":"NASA nennt nur 0,788 Erdradien.","difficulty":"easy","source_refs":["nasa_d"]},
+    {"id":"trappist-fact-e-discovery","s":"Die Entdeckung von TRAPPIST-1 e wurde laut NASA bereits 2016 bekanntgegeben.","a":false,"e":"Der NASA-Katalog nennt 2017 als Entdeckungsjahr.","difficulty":"medium","source_refs":["nasa_e"]},
+    {"id":"trappist-fact-f-period","s":"TRAPPIST-1 f benötigt laut NASA länger für einen Umlauf als TRAPPIST-1 e.","a":true,"e":"NASA nennt 9,2 Tage für f und 6,1 Tage für e.","difficulty":"easy","source_refs":["nasa_e","nasa_f"]}
+  ],
+  "jeopardy": [
+    {"id":"trappist-jeopardy-b","q":"Welcher der Planeten b bis f umläuft TRAPPIST-1 laut NASA in ungefähr 1,5 Tagen?","a":"TRAPPIST-1 b","difficulty":1,"source_refs":["nasa_b"]},
+    {"id":"trappist-jeopardy-d","q":"Welcher TRAPPIST-1-Planet hat laut NASA einen Radius von 0,788 Erdradien?","a":"TRAPPIST-1 d","difficulty":2,"source_refs":["nasa_d"]},
+    {"id":"trappist-jeopardy-e","q":"Welcher 2017 bekanntgegebene TRAPPIST-1-Planet benötigt laut NASA ungefähr 6,1 Tage pro Umlauf?","a":"TRAPPIST-1 e","difficulty":2,"source_refs":["nasa_e"]},
+    {"id":"trappist-jeopardy-c","q":"Welcher TRAPPIST-1-Planet umkreist seinen Stern laut NASA in 0,0158 Astronomischen Einheiten Abstand?","a":"TRAPPIST-1 c","difficulty":3,"source_refs":["nasa_c"]},
+    {"id":"trappist-jeopardy-f","q":"Welcher TRAPPIST-1-Planet besitzt laut NASA eine Masse von 1,039 Erdmassen?","a":"TRAPPIST-1 f","difficulty":3,"source_refs":["nasa_f"]}
+  ]
+}

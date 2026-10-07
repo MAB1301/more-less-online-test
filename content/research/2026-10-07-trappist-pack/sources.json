@@ -1,0 +1,7 @@
+{
+  "nasa_b":{"publisher":"NASA","url":"https://science.nasa.gov/exoplanet-catalog/trappist-1-b/","verified":"2026-10-07","data_years":[2025],"page_updated":"2025-07-07","evidence":"Radius 1.116 Erden; Masse 1.374 Erden; Entdeckung 2016; Bahnradius 0.01154 AU; Umlaufzeit 1.5 Tage."},
+  "nasa_c":{"publisher":"NASA","url":"https://science.nasa.gov/exoplanet-catalog/trappist-1-c/","verified":"2026-10-07","data_years":[2025],"page_updated":"2025-07-07","evidence":"Radius 1.097 Erden; Masse 1.308 Erden; Entdeckung 2016; Bahnradius 0.0158 AU; Umlaufzeit 2.4 Tage."},
+  "nasa_d":{"publisher":"NASA","url":"https://science.nasa.gov/exoplanet-catalog/trappist-1-d/","verified":"2026-10-07","data_years":[2025],"page_updated":"2025-06-25","evidence":"Radius 0.788 Erden; Masse 0.388 Erden; Entdeckung 2016; Bahnradius 0.02227 AU; Umlaufzeit 4 Tage."},
+  "nasa_e":{"publisher":"NASA","url":"https://science.nasa.gov/exoplanet-catalog/trappist-1-e/","verified":"2026-10-07","data_years":[2025],"page_updated":"2025-07-07","evidence":"Radius 0.92 Erden; Masse 0.692 Erden; Entdeckung 2017; Bahnradius 0.02925 AU; Umlaufzeit 6.1 Tage."},
+  "nasa_f":{"publisher":"NASA","url":"https://science.nasa.gov/exoplanet-catalog/trappist-1-f/","verified":"2026-10-07","data_years":[2025],"page_updated":"2025-07-07","evidence":"Radius 1.045 Erden; Masse 1.039 Erden; Entdeckung 2017; Bahnradius 0.03849 AU; Umlaufzeit 9.2 Tage."}
+}

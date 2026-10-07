@@ -1,0 +1,737 @@
+{
+  "status": "review-only",
+  "verified": "2026-10-07",
+  "base_commit": "0ca6f66d0f1efea5709b7de9f3256413e0a2f5b1",
+  "images": {
+    "trappist-system": {
+      "license": "CC0-1.0",
+      "generated": false,
+      "answer_neutral": true,
+      "description": "Originale schematische Themenillustration ohne Zahlen oder Planetenbezeichnungen.",
+      "card": "visuals/trappist-system-card.svg",
+      "detail": "visuals/trappist-system-detail.svg"
+    }
+  },
+  "moreless": [
+    {
+      "id": "trappist-period-b-c",
+      "l": "TRAPPIST-1 b",
+      "r": "TRAPPIST-1 c",
+      "lv": 1.5,
+      "rv": 2.4,
+      "u": "Tage · Umlaufzeit laut NASA-Exoplanetenkatalog (auf eine Dezimalstelle)",
+      "metric": "Umlaufzeit um TRAPPIST-1",
+      "sub": "Umlaufzeit um TRAPPIST-1",
+      "prompt": "Welcher Planet benötigt länger für einen Umlauf um TRAPPIST-1?",
+      "source_refs": [
+        "nasa_b",
+        "nasa_c"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "visual": "trappist-system",
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-b/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-b/",
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-c/"
+      ],
+      "verified": "2026-10-07",
+      "correct": "right"
+    },
+    {
+      "id": "trappist-period-b-d",
+      "l": "TRAPPIST-1 b",
+      "r": "TRAPPIST-1 d",
+      "lv": 1.5,
+      "rv": 4.0,
+      "u": "Tage · Umlaufzeit laut NASA-Exoplanetenkatalog (auf eine Dezimalstelle)",
+      "metric": "Umlaufzeit um TRAPPIST-1",
+      "sub": "Umlaufzeit um TRAPPIST-1",
+      "prompt": "Welcher Planet benötigt länger für einen Umlauf um TRAPPIST-1?",
+      "source_refs": [
+        "nasa_b",
+        "nasa_d"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "visual": "trappist-system",
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-b/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-b/",
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-d/"
+      ],
+      "verified": "2026-10-07",
+      "correct": "right"
+    },
+    {
+      "id": "trappist-period-b-e",
+      "l": "TRAPPIST-1 b",
+      "r": "TRAPPIST-1 e",
+      "lv": 1.5,
+      "rv": 6.1,
+      "u": "Tage · Umlaufzeit laut NASA-Exoplanetenkatalog (auf eine Dezimalstelle)",
+      "metric": "Umlaufzeit um TRAPPIST-1",
+      "sub": "Umlaufzeit um TRAPPIST-1",
+      "prompt": "Welcher Planet benötigt länger für einen Umlauf um TRAPPIST-1?",
+      "source_refs": [
+        "nasa_b",
+        "nasa_e"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "visual": "trappist-system",
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-b/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-b/",
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-e/"
+      ],
+      "verified": "2026-10-07",
+      "correct": "right"
+    },
+    {
+      "id": "trappist-period-b-f",
+      "l": "TRAPPIST-1 b",
+      "r": "TRAPPIST-1 f",
+      "lv": 1.5,
+      "rv": 9.2,
+      "u": "Tage · Umlaufzeit laut NASA-Exoplanetenkatalog (auf eine Dezimalstelle)",
+      "metric": "Umlaufzeit um TRAPPIST-1",
+      "sub": "Umlaufzeit um TRAPPIST-1",
+      "prompt": "Welcher Planet benötigt länger für einen Umlauf um TRAPPIST-1?",
+      "source_refs": [
+        "nasa_b",
+        "nasa_f"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "visual": "trappist-system",
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-b/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-b/",
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-f/"
+      ],
+      "verified": "2026-10-07",
+      "correct": "right"
+    },
+    {
+      "id": "trappist-period-c-d",
+      "l": "TRAPPIST-1 c",
+      "r": "TRAPPIST-1 d",
+      "lv": 2.4,
+      "rv": 4.0,
+      "u": "Tage · Umlaufzeit laut NASA-Exoplanetenkatalog (auf eine Dezimalstelle)",
+      "metric": "Umlaufzeit um TRAPPIST-1",
+      "sub": "Umlaufzeit um TRAPPIST-1",
+      "prompt": "Welcher Planet benötigt länger für einen Umlauf um TRAPPIST-1?",
+      "source_refs": [
+        "nasa_c",
+        "nasa_d"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "visual": "trappist-system",
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-c/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-c/",
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-d/"
+      ],
+      "verified": "2026-10-07",
+      "correct": "right"
+    },
+    {
+      "id": "trappist-period-c-e",
+      "l": "TRAPPIST-1 c",
+      "r": "TRAPPIST-1 e",
+      "lv": 2.4,
+      "rv": 6.1,
+      "u": "Tage · Umlaufzeit laut NASA-Exoplanetenkatalog (auf eine Dezimalstelle)",
+      "metric": "Umlaufzeit um TRAPPIST-1",
+      "sub": "Umlaufzeit um TRAPPIST-1",
+      "prompt": "Welcher Planet benötigt länger für einen Umlauf um TRAPPIST-1?",
+      "source_refs": [
+        "nasa_c",
+        "nasa_e"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "visual": "trappist-system",
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-c/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-c/",
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-e/"
+      ],
+      "verified": "2026-10-07",
+      "correct": "right"
+    },
+    {
+      "id": "trappist-period-c-f",
+      "l": "TRAPPIST-1 c",
+      "r": "TRAPPIST-1 f",
+      "lv": 2.4,
+      "rv": 9.2,
+      "u": "Tage · Umlaufzeit laut NASA-Exoplanetenkatalog (auf eine Dezimalstelle)",
+      "metric": "Umlaufzeit um TRAPPIST-1",
+      "sub": "Umlaufzeit um TRAPPIST-1",
+      "prompt": "Welcher Planet benötigt länger für einen Umlauf um TRAPPIST-1?",
+      "source_refs": [
+        "nasa_c",
+        "nasa_f"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "visual": "trappist-system",
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-c/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-c/",
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-f/"
+      ],
+      "verified": "2026-10-07",
+      "correct": "right"
+    },
+    {
+      "id": "trappist-period-d-e",
+      "l": "TRAPPIST-1 d",
+      "r": "TRAPPIST-1 e",
+      "lv": 4.0,
+      "rv": 6.1,
+      "u": "Tage · Umlaufzeit laut NASA-Exoplanetenkatalog (auf eine Dezimalstelle)",
+      "metric": "Umlaufzeit um TRAPPIST-1",
+      "sub": "Umlaufzeit um TRAPPIST-1",
+      "prompt": "Welcher Planet benötigt länger für einen Umlauf um TRAPPIST-1?",
+      "source_refs": [
+        "nasa_d",
+        "nasa_e"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "visual": "trappist-system",
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-d/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-d/",
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-e/"
+      ],
+      "verified": "2026-10-07",
+      "correct": "right"
+    },
+    {
+      "id": "trappist-period-d-f",
+      "l": "TRAPPIST-1 d",
+      "r": "TRAPPIST-1 f",
+      "lv": 4.0,
+      "rv": 9.2,
+      "u": "Tage · Umlaufzeit laut NASA-Exoplanetenkatalog (auf eine Dezimalstelle)",
+      "metric": "Umlaufzeit um TRAPPIST-1",
+      "sub": "Umlaufzeit um TRAPPIST-1",
+      "prompt": "Welcher Planet benötigt länger für einen Umlauf um TRAPPIST-1?",
+      "source_refs": [
+        "nasa_d",
+        "nasa_f"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "visual": "trappist-system",
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-d/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-d/",
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-f/"
+      ],
+      "verified": "2026-10-07",
+      "correct": "right"
+    },
+    {
+      "id": "trappist-period-e-f",
+      "l": "TRAPPIST-1 e",
+      "r": "TRAPPIST-1 f",
+      "lv": 6.1,
+      "rv": 9.2,
+      "u": "Tage · Umlaufzeit laut NASA-Exoplanetenkatalog (auf eine Dezimalstelle)",
+      "metric": "Umlaufzeit um TRAPPIST-1",
+      "sub": "Umlaufzeit um TRAPPIST-1",
+      "prompt": "Welcher Planet benötigt länger für einen Umlauf um TRAPPIST-1?",
+      "source_refs": [
+        "nasa_e",
+        "nasa_f"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "visual": "trappist-system",
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-e/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-e/",
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-f/"
+      ],
+      "verified": "2026-10-07",
+      "correct": "right"
+    }
+  ],
+  "estimate": [
+    {
+      "id": "trappist-estimate-period-b",
+      "q": "Wie viele Erdtage benötigt TRAPPIST-1 b laut NASA ungefähr für einen Umlauf?",
+      "a": 1.5,
+      "u": "Erdtage",
+      "subject": "TRAPPIST-1 b",
+      "source_refs": [
+        "nasa_b"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "visual": "trappist-system",
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-b/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-b/"
+      ],
+      "verified": "2026-10-07"
+    },
+    {
+      "id": "trappist-estimate-period-c",
+      "q": "Wie viele Erdtage benötigt TRAPPIST-1 c laut NASA ungefähr für einen Umlauf?",
+      "a": 2.4,
+      "u": "Erdtage",
+      "subject": "TRAPPIST-1 c",
+      "source_refs": [
+        "nasa_c"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "visual": "trappist-system",
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-c/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-c/"
+      ],
+      "verified": "2026-10-07"
+    },
+    {
+      "id": "trappist-estimate-period-d",
+      "q": "Wie viele Erdtage benötigt TRAPPIST-1 d laut NASA ungefähr für einen Umlauf?",
+      "a": 4.0,
+      "u": "Erdtage",
+      "subject": "TRAPPIST-1 d",
+      "source_refs": [
+        "nasa_d"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "visual": "trappist-system",
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-d/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-d/"
+      ],
+      "verified": "2026-10-07"
+    },
+    {
+      "id": "trappist-estimate-period-e",
+      "q": "Wie viele Erdtage benötigt TRAPPIST-1 e laut NASA ungefähr für einen Umlauf?",
+      "a": 6.1,
+      "u": "Erdtage",
+      "subject": "TRAPPIST-1 e",
+      "source_refs": [
+        "nasa_e"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "visual": "trappist-system",
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-e/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-e/"
+      ],
+      "verified": "2026-10-07"
+    },
+    {
+      "id": "trappist-estimate-period-f",
+      "q": "Wie viele Erdtage benötigt TRAPPIST-1 f laut NASA ungefähr für einen Umlauf?",
+      "a": 9.2,
+      "u": "Erdtage",
+      "subject": "TRAPPIST-1 f",
+      "source_refs": [
+        "nasa_f"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "visual": "trappist-system",
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-f/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-f/"
+      ],
+      "verified": "2026-10-07"
+    }
+  ],
+  "facts": [
+    {
+      "id": "trappist-fact-b-radius",
+      "s": "TRAPPIST-1 b hat laut NASA einen etwas größeren Radius als die Erde.",
+      "a": true,
+      "e": "NASA nennt 1,116 Erdradien.",
+      "difficulty": "easy",
+      "source_refs": [
+        "nasa_b"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "visual": "trappist-system",
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-b/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-b/"
+      ],
+      "verified": "2026-10-07"
+    },
+    {
+      "id": "trappist-fact-c-mass",
+      "s": "TRAPPIST-1 c hat laut NASA eine geringere Masse als TRAPPIST-1 b.",
+      "a": true,
+      "e": "NASA nennt 1,308 Erdmassen für c und 1,374 für b.",
+      "difficulty": "medium",
+      "source_refs": [
+        "nasa_b",
+        "nasa_c"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "visual": "trappist-system",
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-b/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-b/",
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-c/"
+      ],
+      "verified": "2026-10-07"
+    },
+    {
+      "id": "trappist-fact-d-radius",
+      "s": "TRAPPIST-1 d hat laut NASA einen größeren Radius als die Erde.",
+      "a": false,
+      "e": "NASA nennt nur 0,788 Erdradien.",
+      "difficulty": "easy",
+      "source_refs": [
+        "nasa_d"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "visual": "trappist-system",
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-d/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-d/"
+      ],
+      "verified": "2026-10-07"
+    },
+    {
+      "id": "trappist-fact-e-discovery",
+      "s": "Die Entdeckung von TRAPPIST-1 e wurde laut NASA bereits 2016 bekanntgegeben.",
+      "a": false,
+      "e": "Der NASA-Katalog nennt 2017 als Entdeckungsjahr.",
+      "difficulty": "medium",
+      "source_refs": [
+        "nasa_e"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "visual": "trappist-system",
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-e/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-e/"
+      ],
+      "verified": "2026-10-07"
+    },
+    {
+      "id": "trappist-fact-f-period",
+      "s": "TRAPPIST-1 f benötigt laut NASA länger für einen Umlauf als TRAPPIST-1 e.",
+      "a": true,
+      "e": "NASA nennt 9,2 Tage für f und 6,1 Tage für e.",
+      "difficulty": "easy",
+      "source_refs": [
+        "nasa_e",
+        "nasa_f"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "visual": "trappist-system",
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-e/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-e/",
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-f/"
+      ],
+      "verified": "2026-10-07"
+    }
+  ],
+  "jeopardy": [
+    {
+      "id": "trappist-jeopardy-b",
+      "q": "Welcher der Planeten b bis f umläuft TRAPPIST-1 laut NASA in ungefähr 1,5 Tagen?",
+      "a": "TRAPPIST-1 b",
+      "difficulty": 1,
+      "source_refs": [
+        "nasa_b"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-b/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-b/"
+      ],
+      "verified": "2026-10-07"
+    },
+    {
+      "id": "trappist-jeopardy-d",
+      "q": "Welcher TRAPPIST-1-Planet hat laut NASA einen Radius von 0,788 Erdradien?",
+      "a": "TRAPPIST-1 d",
+      "difficulty": 2,
+      "source_refs": [
+        "nasa_d"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-d/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-d/"
+      ],
+      "verified": "2026-10-07"
+    },
+    {
+      "id": "trappist-jeopardy-e",
+      "q": "Welcher 2017 bekanntgegebene TRAPPIST-1-Planet benötigt laut NASA ungefähr 6,1 Tage pro Umlauf?",
+      "a": "TRAPPIST-1 e",
+      "difficulty": 2,
+      "source_refs": [
+        "nasa_e"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-e/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-e/"
+      ],
+      "verified": "2026-10-07"
+    },
+    {
+      "id": "trappist-jeopardy-c",
+      "q": "Welcher TRAPPIST-1-Planet umkreist seinen Stern laut NASA in 0,0158 Astronomischen Einheiten Abstand?",
+      "a": "TRAPPIST-1 c",
+      "difficulty": 3,
+      "source_refs": [
+        "nasa_c"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-c/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-c/"
+      ],
+      "verified": "2026-10-07"
+    },
+    {
+      "id": "trappist-jeopardy-f",
+      "q": "Welcher TRAPPIST-1-Planet besitzt laut NASA eine Masse von 1,039 Erdmassen?",
+      "a": "TRAPPIST-1 f",
+      "difficulty": 3,
+      "source_refs": [
+        "nasa_f"
+      ],
+      "cat": "Weltraum",
+      "subcategory": "Exoplaneten",
+      "sets": [
+        "Exoplaneten · TRAPPIST-1 · Entwurf"
+      ],
+      "data_years": [
+        2025
+      ],
+      "time_dependent": false,
+      "status": "draft",
+      "source": "https://science.nasa.gov/exoplanet-catalog/trappist-1-f/",
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-f/"
+      ],
+      "verified": "2026-10-07"
+    }
+  ]
+}
