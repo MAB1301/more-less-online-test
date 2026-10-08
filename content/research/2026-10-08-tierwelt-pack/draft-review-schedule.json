@@ -1,0 +1,165 @@
+{
+  "policy": "Changing values: 90 days; stable and historical facts: 365 days. Dates are review deadlines, not automatic approval. Fixed edition/year values retain their stated edition.",
+  "records": [
+    {
+      "id": "tierwelt-forefoot-toes",
+      "verified": "2026-10-08",
+      "next_review": "2027-10-08",
+      "time_dependent": false,
+      "review_status": "draft_not_approved",
+      "review_interval_days": 365
+    },
+    {
+      "id": "tierwelt-tail-upper",
+      "verified": "2026-10-08",
+      "next_review": "2027-10-08",
+      "time_dependent": false,
+      "review_status": "draft_not_approved",
+      "review_interval_days": 365
+    },
+    {
+      "id": "tierwelt-capybara-submerge",
+      "verified": "2026-10-08",
+      "next_review": "2027-10-08",
+      "time_dependent": false,
+      "review_status": "draft_not_approved",
+      "review_interval_days": 365
+    },
+    {
+      "id": "tierwelt-anteater-tongue",
+      "verified": "2026-10-08",
+      "next_review": "2027-10-08",
+      "time_dependent": false,
+      "review_status": "draft_not_approved",
+      "review_interval_days": 365
+    },
+    {
+      "id": "tierwelt-red-panda-description",
+      "verified": "2026-10-08",
+      "next_review": "2027-10-08",
+      "time_dependent": false,
+      "review_status": "draft_not_approved",
+      "review_interval_days": 365
+    },
+    {
+      "id": "tierwelt-sloth-claws",
+      "verified": "2026-10-08",
+      "next_review": "2027-10-08",
+      "time_dependent": false,
+      "review_status": "draft_not_approved",
+      "review_interval_days": 365
+    },
+    {
+      "id": "tierwelt-capybara-teeth",
+      "verified": "2026-10-08",
+      "next_review": "2027-10-08",
+      "time_dependent": false,
+      "review_status": "draft_not_approved",
+      "review_interval_days": 365
+    },
+    {
+      "id": "tierwelt-sloth-swimming",
+      "verified": "2026-10-08",
+      "next_review": "2027-10-08",
+      "time_dependent": false,
+      "review_status": "draft_not_approved",
+      "review_interval_days": 365
+    },
+    {
+      "id": "tierwelt-tapir-relatives",
+      "verified": "2026-10-08",
+      "next_review": "2027-10-08",
+      "time_dependent": false,
+      "review_status": "draft_not_approved",
+      "review_interval_days": 365
+    },
+    {
+      "id": "tierwelt-anteater-teeth",
+      "verified": "2026-10-08",
+      "next_review": "2027-10-08",
+      "time_dependent": false,
+      "review_status": "draft_not_approved",
+      "review_interval_days": 365
+    },
+    {
+      "id": "tierwelt-red-panda-exclusive-diet",
+      "verified": "2026-10-08",
+      "next_review": "2027-10-08",
+      "time_dependent": false,
+      "review_status": "draft_not_approved",
+      "review_interval_days": 365
+    },
+    {
+      "id": "tierwelt-capybara-americas",
+      "verified": "2026-10-08",
+      "next_review": "2027-10-08",
+      "time_dependent": false,
+      "review_status": "draft_not_approved",
+      "review_interval_days": 365
+    },
+    {
+      "id": "tierwelt-largest-rodent",
+      "verified": "2026-10-08",
+      "next_review": "2027-10-08",
+      "time_dependent": false,
+      "review_status": "draft_not_approved",
+      "review_interval_days": 365
+    },
+    {
+      "id": "tierwelt-sloth-fur-direction",
+      "verified": "2026-10-08",
+      "next_review": "2027-10-08",
+      "time_dependent": false,
+      "review_status": "draft_not_approved",
+      "review_interval_days": 365
+    },
+    {
+      "id": "tierwelt-tapir-snout-parts",
+      "verified": "2026-10-08",
+      "next_review": "2027-10-08",
+      "time_dependent": false,
+      "review_status": "draft_not_approved",
+      "review_interval_days": 365
+    },
+    {
+      "id": "tierwelt-tapir-asia",
+      "verified": "2026-10-08",
+      "next_review": "2027-10-08",
+      "time_dependent": false,
+      "review_status": "draft_not_approved",
+      "review_interval_days": 365
+    },
+    {
+      "id": "tierwelt-anteater-young",
+      "verified": "2026-10-08",
+      "next_review": "2027-10-08",
+      "time_dependent": false,
+      "review_status": "draft_not_approved",
+      "review_interval_days": 365
+    },
+    {
+      "id": "tierwelt-anteater-walking",
+      "verified": "2026-10-08",
+      "next_review": "2027-10-08",
+      "time_dependent": false,
+      "review_status": "draft_not_approved",
+      "review_interval_days": 365
+    },
+    {
+      "id": "tierwelt-red-panda-thumb",
+      "verified": "2026-10-08",
+      "next_review": "2027-10-08",
+      "time_dependent": false,
+      "review_status": "draft_not_approved",
+      "review_interval_days": 365
+    },
+    {
+      "id": "tierwelt-red-panda-family",
+      "verified": "2026-10-08",
+      "next_review": "2027-10-08",
+      "time_dependent": false,
+      "review_status": "draft_not_approved",
+      "review_interval_days": 365
+    }
+  ]
+}

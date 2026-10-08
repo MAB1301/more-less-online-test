@@ -1,0 +1,52 @@
+{
+  "capybara": {
+    "publisher": "San Diego Zoo Wildlife Alliance",
+    "url": "https://animals.sandiegozoo.org/animals/capybara",
+    "verified": "2026-10-08",
+    "data_year": null,
+    "data_year_note": "Undatierte Artenübersicht; das Abrufjahr ist kein Messjahr.",
+    "evidence": "Vorderfuß 4 Zehen; maximal 5 Minuten unter Wasser; ständig wachsende Schneidezähne; größtes lebendes Nagetier; Zentral- und Südamerika.",
+    "limits": "Schulterhöhe widersprüchlich (50/60 cm): ausgeschlossen. Keine geschlechtsabhängigen Gewichtswerte.",
+    "rounding": "Anatomische Anzahlen/Jahreszahl unverändert; Richtwerte und Bereichsgrenzen ausdrücklich bezeichnet."
+  },
+  "tapir": {
+    "publisher": "San Diego Zoo Wildlife Alliance",
+    "url": "https://animals.sandiegozoo.org/animals/tapir",
+    "verified": "2026-10-08",
+    "data_year": null,
+    "data_year_note": "Undatierte Artenübersicht; das Abrufjahr ist kein Messjahr.",
+    "evidence": "Rüssel aus Oberlippe und Nase; Pferde und Nashörner nahe Verwandte; Schabrackentapir asiatisch.",
+    "limits": "Artenzahl und umstrittener Kabomani-Tapir ausgeschlossen; Tragzeiten bereits im Daily-Katalog.",
+    "rounding": "Anatomische Anzahlen/Jahreszahl unverändert; Richtwerte und Bereichsgrenzen ausdrücklich bezeichnet."
+  },
+  "sloth": {
+    "publisher": "San Diego Zoo Wildlife Alliance",
+    "url": "https://animals.sandiegozoo.org/animals/two-toed-sloth",
+    "verified": "2026-10-08",
+    "data_year": null,
+    "data_year_note": "Undatierte Artenübersicht; das Abrufjahr ist kein Messjahr.",
+    "evidence": "Vorderfuß 2 Zehen; Krallen 8–10 cm; schwimmen; Fell von Bauch Richtung Rücken, Regen läuft ab.",
+    "limits": "Gattung Choloepus, nicht alle Faultiere. Unsichere Schlaf- und Lebensdauerangaben ausgeschlossen.",
+    "rounding": "Anatomische Anzahlen/Jahreszahl unverändert; Richtwerte und Bereichsgrenzen ausdrücklich bezeichnet."
+  },
+  "anteater": {
+    "publisher": "San Diego Zoo Wildlife Alliance",
+    "url": "https://animals.sandiegozoo.org/animals/giant-anteater",
+    "verified": "2026-10-08",
+    "data_year": null,
+    "data_year_note": "Undatierte Artenübersicht; das Abrufjahr ist kein Messjahr.",
+    "evidence": "Zunge etwa 60 cm; Schwanz 70–90 cm; keine Zähne; Junges auf Rücken; läuft mit eingeklappten Krallen auf Fäusten.",
+    "limits": "Fehlerhafte Gewichtseinheit der Quelle, unbezifferte Populationsschätzung und veraltete Taxonomie ausgeschlossen.",
+    "rounding": "Anatomische Anzahlen/Jahreszahl unverändert; Richtwerte und Bereichsgrenzen ausdrücklich bezeichnet."
+  },
+  "red-panda": {
+    "publisher": "San Diego Zoo Wildlife Alliance",
+    "url": "https://animals.sandiegozoo.org/animals/red-panda",
+    "verified": "2026-10-08",
+    "data_year": null,
+    "data_year_note": "Undatierte Artenübersicht; das Abrufjahr ist kein Messjahr.",
+    "evidence": "Schwanz 28–49 cm; Erstbeschreibung westlicher Roter Panda 1825 durch Cuvier; frisst gelegentlich Eier/Vögel/Nagetiere; Pseudodaumen Handwurzelknochen; Familie Ailuridae.",
+    "limits": "Aktuelle Arten-/Unterartentaxonomie und veränderliche Bestandsschätzungen ausgeschlossen.",
+    "rounding": "Anatomische Anzahlen/Jahreszahl unverändert; Richtwerte und Bereichsgrenzen ausdrücklich bezeichnet."
+  }
+}

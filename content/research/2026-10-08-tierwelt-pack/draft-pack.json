@@ -1,0 +1,546 @@
+{
+  "status": "review-only",
+  "verified": "2026-10-08",
+  "base_commit": "0ca6f66d0f1efea5709b7de9f3256413e0a2f5b1",
+  "images": {
+    "forest": {
+      "card": "visuals/tierwelt-card.svg",
+      "detail": "visuals/tierwelt-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 24,
+      "description": "Wald und Gewässer, ohne Tiere, Messzahlen, anatomische Merkmale oder Antwortbeschriftungen. Bei Jeopardy deaktiviert."
+    }
+  },
+  "moreless": [
+    {
+      "cat": "Tierwelt",
+      "status": "draft",
+      "time_dependent": false,
+      "id": "tierwelt-forefoot-toes",
+      "l": "Capybara",
+      "r": "Zweifingerfaultier (Choloepus)",
+      "lv": 4,
+      "rv": 2,
+      "u": "Zehen je Vorderfuß",
+      "metric": "Anatomische Zehenzahl",
+      "subcategory": "Körperbau",
+      "source_refs": [
+        "capybara",
+        "sloth"
+      ],
+      "notes": "Vorderfuß, nicht Hinterfuß; keine Darstellung abzählbarer Zehen.",
+      "semantic_key": "forefoot-toes",
+      "visual": "forest",
+      "source": "https://animals.sandiegozoo.org/animals/capybara",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/capybara",
+        "https://animals.sandiegozoo.org/animals/two-toed-sloth"
+      ],
+      "verified": "2026-10-08",
+      "data_year": null,
+      "data_year_note": "Undatierte biologische Artenübersicht; kein erfundenes Messjahr.",
+      "sets": [
+        "Tierwelt · geprüfter Entwurf"
+      ]
+    },
+    {
+      "cat": "Tierwelt",
+      "status": "draft",
+      "time_dependent": false,
+      "id": "tierwelt-tail-upper",
+      "l": "Großer Ameisenbär",
+      "r": "Roter Panda",
+      "lv": 90,
+      "rv": 49,
+      "u": "cm · obere Schwanzlängen-Grenze in der Zoo-Artenübersicht",
+      "metric": "Oberes Ende des Schwanzlängenbereichs",
+      "subcategory": "Körperbau",
+      "source_refs": [
+        "anteater",
+        "red-panda"
+      ],
+      "notes": "Vergleich der angegebenen Bereichsobergrenzen (70–90 bzw. 28–49 cm), kein Vergleich jedes Individuums; Geschlechter nicht getrennt.",
+      "semantic_key": "tail-upper",
+      "visual": "forest",
+      "source": "https://animals.sandiegozoo.org/animals/giant-anteater",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/giant-anteater",
+        "https://animals.sandiegozoo.org/animals/red-panda"
+      ],
+      "verified": "2026-10-08",
+      "data_year": null,
+      "data_year_note": "Undatierte biologische Artenübersicht; kein erfundenes Messjahr.",
+      "sets": [
+        "Tierwelt · geprüfter Entwurf"
+      ]
+    }
+  ],
+  "estimate": [
+    {
+      "cat": "Tierwelt",
+      "status": "draft",
+      "time_dependent": false,
+      "id": "tierwelt-capybara-submerge",
+      "q": "Bis zu wie viele Minuten kann ein Capybara laut San Diego Zoo unter Wasser bleiben?",
+      "a": 5,
+      "u": "Minuten · Quellenobergrenze",
+      "subcategory": "Verhalten",
+      "source_refs": [
+        "capybara"
+      ],
+      "notes": "Bis-zu-Richtwert, keine garantierte Dauer.",
+      "semantic_key": "capybara-submerge",
+      "visual": "forest",
+      "source": "https://animals.sandiegozoo.org/animals/capybara",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/capybara"
+      ],
+      "verified": "2026-10-08",
+      "data_year": null,
+      "data_year_note": "Undatierte biologische Artenübersicht; kein erfundenes Messjahr.",
+      "sets": [
+        "Tierwelt · geprüfter Entwurf"
+      ]
+    },
+    {
+      "cat": "Tierwelt",
+      "status": "draft",
+      "time_dependent": false,
+      "id": "tierwelt-anteater-tongue",
+      "q": "Wie lang ist die Zunge des Großen Ameisenbären laut San Diego Zoo ungefähr?",
+      "a": 60,
+      "u": "cm ungefähr",
+      "subcategory": "Körperbau",
+      "source_refs": [
+        "anteater"
+      ],
+      "notes": "Gerundeter Quellenrichtwert.",
+      "semantic_key": "anteater-tongue",
+      "visual": "forest",
+      "source": "https://animals.sandiegozoo.org/animals/giant-anteater",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/giant-anteater"
+      ],
+      "verified": "2026-10-08",
+      "data_year": null,
+      "data_year_note": "Undatierte biologische Artenübersicht; kein erfundenes Messjahr.",
+      "sets": [
+        "Tierwelt · geprüfter Entwurf"
+      ]
+    },
+    {
+      "cat": "Tierwelt",
+      "status": "draft",
+      "time_dependent": false,
+      "id": "tierwelt-red-panda-description",
+      "q": "In welchem Jahr beschrieb Frédéric Cuvier den westlichen Roten Panda wissenschaftlich erstmals?",
+      "a": 1825,
+      "u": "Jahr",
+      "subcategory": "Forschungsgeschichte",
+      "source_refs": [
+        "red-panda"
+      ],
+      "data_year": 1825,
+      "notes": "Historische Erstbeschreibung des westlichen Roten Pandas; nicht Entdeckung aller heutigen Taxa.",
+      "semantic_key": "red-panda-description",
+      "visual": "forest",
+      "source": "https://animals.sandiegozoo.org/animals/red-panda",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/red-panda"
+      ],
+      "verified": "2026-10-08",
+      "data_year_note": "Historisches Ereignisjahr",
+      "sets": [
+        "Tierwelt · geprüfter Entwurf"
+      ]
+    },
+    {
+      "cat": "Tierwelt",
+      "status": "draft",
+      "time_dependent": false,
+      "id": "tierwelt-sloth-claws",
+      "q": "Welches obere Ende nennt San Diego Zoo für die Krallenlänge von Zweifingerfaultieren?",
+      "a": 10,
+      "u": "cm · Bereichsobergrenze",
+      "subcategory": "Körperbau",
+      "source_refs": [
+        "sloth"
+      ],
+      "notes": "Quellenbereich 8–10 cm; kein exakter Individualwert.",
+      "semantic_key": "sloth-claws",
+      "visual": "forest",
+      "source": "https://animals.sandiegozoo.org/animals/two-toed-sloth",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/two-toed-sloth"
+      ],
+      "verified": "2026-10-08",
+      "data_year": null,
+      "data_year_note": "Undatierte biologische Artenübersicht; kein erfundenes Messjahr.",
+      "sets": [
+        "Tierwelt · geprüfter Entwurf"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "cat": "Tierwelt",
+      "status": "draft",
+      "time_dependent": false,
+      "id": "tierwelt-capybara-teeth",
+      "s": "Die Schneidezähne eines Capybaras wachsen ständig nach.",
+      "a": true,
+      "e": "Als Nagetier besitzt es ständig wachsende vordere Zähne.",
+      "difficulty": "easy",
+      "subcategory": "Ernährung",
+      "source_refs": [
+        "capybara"
+      ],
+      "semantic_key": "capybara-teeth",
+      "visual": "forest",
+      "source": "https://animals.sandiegozoo.org/animals/capybara",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/capybara"
+      ],
+      "verified": "2026-10-08",
+      "data_year": null,
+      "data_year_note": "Undatierte biologische Artenübersicht; kein erfundenes Messjahr.",
+      "sets": [
+        "Tierwelt · geprüfter Entwurf"
+      ]
+    },
+    {
+      "cat": "Tierwelt",
+      "status": "draft",
+      "time_dependent": false,
+      "id": "tierwelt-sloth-swimming",
+      "s": "Zweifingerfaultiere können schwimmen.",
+      "a": true,
+      "e": "Sie können Flüsse durchqueren und bei Überschwemmungen schwimmend andere Bäume erreichen.",
+      "difficulty": "medium",
+      "subcategory": "Verhalten",
+      "source_refs": [
+        "sloth"
+      ],
+      "semantic_key": "sloth-swimming",
+      "visual": "forest",
+      "source": "https://animals.sandiegozoo.org/animals/two-toed-sloth",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/two-toed-sloth"
+      ],
+      "verified": "2026-10-08",
+      "data_year": null,
+      "data_year_note": "Undatierte biologische Artenübersicht; kein erfundenes Messjahr.",
+      "sets": [
+        "Tierwelt · geprüfter Entwurf"
+      ]
+    },
+    {
+      "cat": "Tierwelt",
+      "status": "draft",
+      "time_dependent": false,
+      "id": "tierwelt-tapir-relatives",
+      "s": "Tapire sind näher mit Schweinen als mit Pferden und Nashörnern verwandt.",
+      "a": false,
+      "e": "Ihre nahen Verwandten sind Pferde und Nashörner; die äußere Ähnlichkeit mit Schweinen täuscht.",
+      "difficulty": "easy",
+      "subcategory": "Verwandtschaft",
+      "source_refs": [
+        "tapir"
+      ],
+      "semantic_key": "tapir-relatives",
+      "visual": "forest",
+      "source": "https://animals.sandiegozoo.org/animals/tapir",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/tapir"
+      ],
+      "verified": "2026-10-08",
+      "data_year": null,
+      "data_year_note": "Undatierte biologische Artenübersicht; kein erfundenes Messjahr.",
+      "sets": [
+        "Tierwelt · geprüfter Entwurf"
+      ]
+    },
+    {
+      "cat": "Tierwelt",
+      "status": "draft",
+      "time_dependent": false,
+      "id": "tierwelt-anteater-teeth",
+      "s": "Große Ameisenbären zerkauen ihre Beute mit Backenzähnen.",
+      "a": false,
+      "e": "Sie haben keine Zähne; Gaumen und muskulöser Magen helfen bei der Verarbeitung der Nahrung.",
+      "difficulty": "medium",
+      "subcategory": "Ernährung",
+      "source_refs": [
+        "anteater"
+      ],
+      "semantic_key": "anteater-teeth",
+      "visual": "forest",
+      "source": "https://animals.sandiegozoo.org/animals/giant-anteater",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/giant-anteater"
+      ],
+      "verified": "2026-10-08",
+      "data_year": null,
+      "data_year_note": "Undatierte biologische Artenübersicht; kein erfundenes Messjahr.",
+      "sets": [
+        "Tierwelt · geprüfter Entwurf"
+      ]
+    },
+    {
+      "cat": "Tierwelt",
+      "status": "draft",
+      "time_dependent": false,
+      "id": "tierwelt-red-panda-exclusive-diet",
+      "s": "Rote Pandas fressen ausschließlich Pflanzen.",
+      "a": false,
+      "e": "Neben überwiegend pflanzlicher Nahrung können sie auch Eier, kleine Vögel und Nagetiere fressen.",
+      "difficulty": "hard",
+      "subcategory": "Ernährung",
+      "source_refs": [
+        "red-panda"
+      ],
+      "semantic_key": "red-panda-exclusive-diet",
+      "visual": "forest",
+      "source": "https://animals.sandiegozoo.org/animals/red-panda",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/red-panda"
+      ],
+      "verified": "2026-10-08",
+      "data_year": null,
+      "data_year_note": "Undatierte biologische Artenübersicht; kein erfundenes Messjahr.",
+      "sets": [
+        "Tierwelt · geprüfter Entwurf"
+      ]
+    },
+    {
+      "cat": "Tierwelt",
+      "status": "draft",
+      "time_dependent": false,
+      "id": "tierwelt-capybara-americas",
+      "s": "Capybaras kommen natürlicherweise in Zentral- und Südamerika vor.",
+      "a": true,
+      "e": "Dort leben sie vor allem in Gewässernähe; die Angabe beschreibt das natürliche Verbreitungsgebiet.",
+      "difficulty": "hard",
+      "subcategory": "Lebensräume",
+      "source_refs": [
+        "capybara"
+      ],
+      "semantic_key": "capybara-americas",
+      "visual": "forest",
+      "source": "https://animals.sandiegozoo.org/animals/capybara",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/capybara"
+      ],
+      "verified": "2026-10-08",
+      "data_year": null,
+      "data_year_note": "Undatierte biologische Artenübersicht; kein erfundenes Messjahr.",
+      "sets": [
+        "Tierwelt · geprüfter Entwurf"
+      ]
+    }
+  ],
+  "jeopardy": [
+    {
+      "cat": "Tierwelt",
+      "status": "draft",
+      "time_dependent": false,
+      "id": "tierwelt-largest-rodent",
+      "q": "Welches heute lebende Nagetier gilt als das größte der Welt?",
+      "a": "Capybara|Wasserschwein",
+      "difficulty": 1,
+      "subcategory": "Körperbau",
+      "source_refs": [
+        "capybara"
+      ],
+      "semantic_key": "largest-rodent",
+      "visual": null,
+      "source": "https://animals.sandiegozoo.org/animals/capybara",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/capybara"
+      ],
+      "verified": "2026-10-08",
+      "data_year": null,
+      "data_year_note": "Undatierte biologische Artenübersicht; kein erfundenes Messjahr.",
+      "sets": [
+        "Tierwelt · geprüfter Entwurf"
+      ]
+    },
+    {
+      "cat": "Tierwelt",
+      "status": "draft",
+      "time_dependent": false,
+      "id": "tierwelt-sloth-fur-direction",
+      "q": "In welche Richtung wächst das Körperfell bei Zweifingerfaultieren vom Bauch aus, sodass Regen im Hängen ablaufen kann?",
+      "a": "Zum Rücken|In Richtung Rücken|Vom Bauch zum Rücken",
+      "difficulty": 4,
+      "subcategory": "Verhalten",
+      "source_refs": [
+        "sloth"
+      ],
+      "semantic_key": "sloth-fur-direction",
+      "visual": null,
+      "source": "https://animals.sandiegozoo.org/animals/two-toed-sloth",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/two-toed-sloth"
+      ],
+      "verified": "2026-10-08",
+      "data_year": null,
+      "data_year_note": "Undatierte biologische Artenübersicht; kein erfundenes Messjahr.",
+      "sets": [
+        "Tierwelt · geprüfter Entwurf"
+      ]
+    },
+    {
+      "cat": "Tierwelt",
+      "status": "draft",
+      "time_dependent": false,
+      "id": "tierwelt-tapir-snout-parts",
+      "q": "Aus welchen beiden Gesichtsteilen besteht der bewegliche Rüssel eines Tapirs?",
+      "a": "Nase und Oberlippe|Oberlippe und Nase",
+      "difficulty": 3,
+      "subcategory": "Körperbau",
+      "source_refs": [
+        "tapir"
+      ],
+      "semantic_key": "tapir-snout-parts",
+      "visual": null,
+      "source": "https://animals.sandiegozoo.org/animals/tapir",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/tapir"
+      ],
+      "verified": "2026-10-08",
+      "data_year": null,
+      "data_year_note": "Undatierte biologische Artenübersicht; kein erfundenes Messjahr.",
+      "sets": [
+        "Tierwelt · geprüfter Entwurf"
+      ]
+    },
+    {
+      "cat": "Tierwelt",
+      "status": "draft",
+      "time_dependent": false,
+      "id": "tierwelt-tapir-asia",
+      "q": "Welcher Tapir lebt natürlicherweise in Asien und trägt ein auffälliges schwarz-weißes Fell?",
+      "a": "Schabrackentapir|Malaiischer Tapir|Malayan tapir",
+      "difficulty": 2,
+      "subcategory": "Lebensräume",
+      "source_refs": [
+        "tapir"
+      ],
+      "semantic_key": "tapir-asia",
+      "visual": null,
+      "source": "https://animals.sandiegozoo.org/animals/tapir",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/tapir"
+      ],
+      "verified": "2026-10-08",
+      "data_year": null,
+      "data_year_note": "Undatierte biologische Artenübersicht; kein erfundenes Messjahr.",
+      "sets": [
+        "Tierwelt · geprüfter Entwurf"
+      ]
+    },
+    {
+      "cat": "Tierwelt",
+      "status": "draft",
+      "time_dependent": false,
+      "id": "tierwelt-anteater-young",
+      "q": "Auf welchem Körperteil der Mutter werden junge Große Ameisenbären häufig getragen?",
+      "a": "Rücken|Auf dem Rücken",
+      "difficulty": 1,
+      "subcategory": "Verhalten",
+      "source_refs": [
+        "anteater"
+      ],
+      "semantic_key": "anteater-young",
+      "visual": null,
+      "source": "https://animals.sandiegozoo.org/animals/giant-anteater",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/giant-anteater"
+      ],
+      "verified": "2026-10-08",
+      "data_year": null,
+      "data_year_note": "Undatierte biologische Artenübersicht; kein erfundenes Messjahr.",
+      "sets": [
+        "Tierwelt · geprüfter Entwurf"
+      ]
+    },
+    {
+      "cat": "Tierwelt",
+      "status": "draft",
+      "time_dependent": false,
+      "id": "tierwelt-anteater-walking",
+      "q": "Auf welchen eingerollten Teilen der Vordergliedmaßen läuft ein Großer Ameisenbär, um seine Krallen zu schonen?",
+      "a": "Fäusten|Auf den Fäusten|Faust",
+      "difficulty": 3,
+      "subcategory": "Körperbau",
+      "source_refs": [
+        "anteater"
+      ],
+      "semantic_key": "anteater-walking",
+      "visual": null,
+      "source": "https://animals.sandiegozoo.org/animals/giant-anteater",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/giant-anteater"
+      ],
+      "verified": "2026-10-08",
+      "data_year": null,
+      "data_year_note": "Undatierte biologische Artenübersicht; kein erfundenes Messjahr.",
+      "sets": [
+        "Tierwelt · geprüfter Entwurf"
+      ]
+    },
+    {
+      "cat": "Tierwelt",
+      "status": "draft",
+      "time_dependent": false,
+      "id": "tierwelt-red-panda-thumb",
+      "q": "Aus welchem Knochenbereich stammt der Pseudodaumen des Roten Pandas zum Greifen von Bambus?",
+      "a": "Handwurzelknochen|Handwurzel|Vergrößerter Handwurzelknochen",
+      "difficulty": 4,
+      "subcategory": "Körperbau",
+      "source_refs": [
+        "red-panda"
+      ],
+      "semantic_key": "red-panda-thumb",
+      "visual": null,
+      "source": "https://animals.sandiegozoo.org/animals/red-panda",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/red-panda"
+      ],
+      "verified": "2026-10-08",
+      "data_year": null,
+      "data_year_note": "Undatierte biologische Artenübersicht; kein erfundenes Messjahr.",
+      "sets": [
+        "Tierwelt · geprüfter Entwurf"
+      ]
+    },
+    {
+      "cat": "Tierwelt",
+      "status": "draft",
+      "time_dependent": false,
+      "id": "tierwelt-red-panda-family",
+      "q": "Wie heißt die eigene zoologische Familie des Roten Pandas?",
+      "a": "Ailuridae|Katzenbären",
+      "difficulty": 5,
+      "subcategory": "Verwandtschaft",
+      "source_refs": [
+        "red-panda"
+      ],
+      "semantic_key": "red-panda-family",
+      "visual": null,
+      "source": "https://animals.sandiegozoo.org/animals/red-panda",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/red-panda"
+      ],
+      "verified": "2026-10-08",
+      "data_year": null,
+      "data_year_note": "Undatierte biologische Artenübersicht; kein erfundenes Messjahr.",
+      "sets": [
+        "Tierwelt · geprüfter Entwurf"
+      ]
+    }
+  ]
+}

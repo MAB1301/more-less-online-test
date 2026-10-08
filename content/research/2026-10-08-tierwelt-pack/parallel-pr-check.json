@@ -1,0 +1,417 @@
+{
+  "checked": "2026-10-08",
+  "main": "0ca6f66d0f1efea5709b7de9f3256413e0a2f5b1",
+  "open_prs": [
+    {
+      "pr": 130,
+      "title": "Draft: 25 geprüfte Element-Quizfragen vom 8. Oktober",
+      "draft": true,
+      "url": "https://github.com/MAB1301/more-less-online-test/pull/130"
+    },
+    {
+      "pr": 129,
+      "title": "Draft: 25 geprüfte TRAPPIST-1-Quizfragen vom 7. Oktober",
+      "draft": true,
+      "url": "https://github.com/MAB1301/more-less-online-test/pull/129"
+    },
+    {
+      "pr": 128,
+      "title": "Fix avatar overlay and add 176 sourced quiz questions",
+      "draft": true,
+      "url": "https://github.com/MAB1301/more-less-online-test/pull/128"
+    },
+    {
+      "pr": 127,
+      "title": "Draft: 25 geprüfte Quiz-Inhalte vom 6. Oktober",
+      "draft": true,
+      "url": "https://github.com/MAB1301/more-less-online-test/pull/127"
+    },
+    {
+      "pr": 126,
+      "title": "Echte Fußballfakten, breitere Videospiele und „Wer ist das?“-Jeopardy",
+      "draft": false,
+      "url": "https://github.com/MAB1301/more-less-online-test/pull/126"
+    },
+    {
+      "pr": 122,
+      "title": "Draft: 25 geprüfte Quiz-Inhalte mit neutralen SVGs und Quellenpipeline",
+      "draft": true,
+      "url": "https://github.com/MAB1301/more-less-online-test/pull/122"
+    },
+    {
+      "pr": 109,
+      "title": "Improve settings and profiles; add music collection, rewards and online stats",
+      "draft": true,
+      "url": "https://github.com/MAB1301/more-less-online-test/pull/109"
+    },
+    {
+      "pr": 57,
+      "title": "Jeopardy: Gastantworten speichern und Host-Wertung synchronisieren",
+      "draft": false,
+      "url": "https://github.com/MAB1301/more-less-online-test/pull/57"
+    }
+  ],
+  "checks": [
+    {
+      "pr": 122,
+      "files": [
+        {
+          "path": "content/research/2026-10-05-small-pack/README.md",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-05-small-pack/daily-identities.json",
+          "patch_available": false,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-05-small-pack/draft-pack.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-05-small-pack/draft-review-schedule.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-05-small-pack/input.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-05-small-pack/sources.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-05-small-pack/validation.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-05-small-pack/visuals/bridges-card.svg",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-05-small-pack/visuals/bridges-detail.svg",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-05-small-pack/visuals/heritage-card.svg",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-05-small-pack/visuals/heritage-detail.svg",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-05-small-pack/visuals/metro-card.svg",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-05-small-pack/visuals/metro-detail.svg",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-05-small-pack/visuals/nature-card.svg",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-05-small-pack/visuals/nature-detail.svg",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-05-small-pack/visuals/space-card.svg",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-05-small-pack/visuals/space-detail.svg",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        }
+      ],
+      "semantic_review": "Neue Inhalte behandeln andere Objekte/Kriterien; keine neue Kandidatenfrage gefunden. Fehlende Großdatei-Patches durch Inhaltsquellen und Build-Eingaben, nicht durch Annahme eines leeren Diffs beurteilt."
+    },
+    {
+      "pr": 126,
+      "files": [
+        {
+          "path": "content/approved.js",
+          "patch_available": false,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/catalogue.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/criteria.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/trivia.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        }
+      ],
+      "semantic_review": "Neue Inhalte behandeln andere Objekte/Kriterien; keine neue Kandidatenfrage gefunden. Fehlende Großdatei-Patches durch Inhaltsquellen und Build-Eingaben, nicht durch Annahme eines leeren Diffs beurteilt."
+    },
+    {
+      "pr": 127,
+      "files": [
+        {
+          "path": "content/research/2026-10-06-small-pack/README.md",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-06-small-pack/daily-catalogue-check.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-06-small-pack/draft-pack.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-06-small-pack/draft-review-schedule.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-06-small-pack/input.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-06-small-pack/parallel-pr-check.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-06-small-pack/sources.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-06-small-pack/validation.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-06-small-pack/visuals/aircraft-card.svg",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-06-small-pack/visuals/aircraft-detail.svg",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-06-small-pack/visuals/dams-card.svg",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-06-small-pack/visuals/dams-detail.svg",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-06-small-pack/visuals/museums-card.svg",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-06-small-pack/visuals/museums-detail.svg",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-06-small-pack/visuals/rivers-card.svg",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-06-small-pack/visuals/rivers-detail.svg",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-06-small-pack/visuals/telescopes-card.svg",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-06-small-pack/visuals/telescopes-detail.svg",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        }
+      ],
+      "semantic_review": "Neue Inhalte behandeln andere Objekte/Kriterien; keine neue Kandidatenfrage gefunden. Fehlende Großdatei-Patches durch Inhaltsquellen und Build-Eingaben, nicht durch Annahme eines leeren Diffs beurteilt."
+    },
+    {
+      "pr": 128,
+      "files": [
+        {
+          "path": "content/approved.js",
+          "patch_available": false,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/catalogue.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-06-small-categories/README.md",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-06-small-categories/data.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/review-schedule.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/trivia.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        }
+      ],
+      "semantic_review": "Neue Inhalte behandeln andere Objekte/Kriterien; keine neue Kandidatenfrage gefunden. Fehlende Großdatei-Patches durch Inhaltsquellen und Build-Eingaben, nicht durch Annahme eines leeren Diffs beurteilt."
+    },
+    {
+      "pr": 129,
+      "files": [
+        {
+          "path": "content/research/2026-10-07-trappist-pack/README.md",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-07-trappist-pack/daily-catalogue-check.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-07-trappist-pack/draft-pack.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-07-trappist-pack/draft-review-schedule.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-07-trappist-pack/input.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-07-trappist-pack/parallel-pr-check.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-07-trappist-pack/sources.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-07-trappist-pack/validation.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-07-trappist-pack/visuals/trappist-system-card.svg",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-07-trappist-pack/visuals/trappist-system-detail.svg",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        }
+      ],
+      "semantic_review": "Neue Inhalte behandeln andere Objekte/Kriterien; keine neue Kandidatenfrage gefunden. Fehlende Großdatei-Patches durch Inhaltsquellen und Build-Eingaben, nicht durch Annahme eines leeren Diffs beurteilt."
+    },
+    {
+      "pr": 130,
+      "files": [
+        {
+          "path": "content/research/2026-10-08-rare-elements-pack/README.md",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-08-rare-elements-pack/daily-catalogue-check.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-08-rare-elements-pack/draft-pack.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-08-rare-elements-pack/draft-review-schedule.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-08-rare-elements-pack/input.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-08-rare-elements-pack/parallel-pr-check.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-08-rare-elements-pack/sources.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-08-rare-elements-pack/validation.json",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-08-rare-elements-pack/visuals/rare-elements-card.svg",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        },
+        {
+          "path": "content/research/2026-10-08-rare-elements-pack/visuals/rare-elements-detail.svg",
+          "patch_available": true,
+          "relevant_candidate_terms_in_patch": 0
+        }
+      ],
+      "semantic_review": "Neue Inhalte behandeln andere Objekte/Kriterien; keine neue Kandidatenfrage gefunden. Fehlende Großdatei-Patches durch Inhaltsquellen und Build-Eingaben, nicht durch Annahme eines leeren Diffs beurteilt."
+    }
+  ]
+}

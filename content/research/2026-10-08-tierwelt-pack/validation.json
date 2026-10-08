@@ -1,0 +1,34 @@
+{
+  "checked": "2026-10-08",
+  "counts": {
+    "moreless": 2,
+    "estimate": 4,
+    "facts": 6,
+    "jeopardy": 8
+  },
+  "tierwelt_main_before": {
+    "moreless": 14,
+    "estimate": 9,
+    "facts": 6,
+    "jeopardy": 0
+  },
+  "tierwelt_main_plus_this_draft": {
+    "moreless": 16,
+    "estimate": 13,
+    "facts": 12,
+    "jeopardy": 8
+  },
+  "due_baseline_records": 0,
+  "baseline_review_sha256": "33786f9a09db58157222aef46604e50e879768400b9711c8b10dc9dbf8b3c4e5",
+  "sources_checked": 5,
+  "database_writes": false,
+  "publication": false,
+  "existing_image_repairs": 0,
+  "new_vector_variants": 2,
+  "limitations": [
+    "20 Fragen nur für Tierwelt; übrige Kategorien erhalten in diesem Entwurf 0 neue Fragen.",
+    "Strukturelle Eindeutigkeit plus dokumentierte semantische Prüfung; keine automatische Garantie für sinngleiche Fragen.",
+    "Thematische Illustration ersetzt keine Tierfotografie.",
+    "Noch keine Freigabe oder Integration in spielbare Kataloge."
+  ]
+}
