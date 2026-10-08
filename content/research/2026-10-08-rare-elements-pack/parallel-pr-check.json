@@ -1,0 +1,13 @@
+{
+  "checked":"2026-10-08",
+  "base_commit":"0ca6f66d0f1efea5709b7de9f3256413e0a2f5b1",
+  "open_content_prs":[
+    {"pr":122,"themes":"Brücken, Metro, UNESCO, Apollo und Schutzgebiete","overlap":false},
+    {"pr":126,"themes":"Fußball, Videospiele, Pokémon und Identifikationsfragen","overlap":false},
+    {"pr":127,"themes":"US-Flüsse, Talsperren, Weltraumteleskope, Museen und Großflugzeuge","overlap":false},
+    {"pr":128,"themes":"Euro-Münzen, EU-Beitritte, Olympia-Gastgeber und Tragzeiten","overlap":false},
+    {"pr":129,"themes":"TRAPPIST-1-Planeten","overlap":false}
+  ],
+  "selected_theme":"Seltene Elemente und Ordnungszahlen",
+  "overlap_found":false
+}

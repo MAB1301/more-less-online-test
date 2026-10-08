@@ -18,3 +18,6 @@ jobs:
       - name: Static game regression checks
         run: |
           node scripts/regression-check.mjs
+      - name: Verify isolated rare-elements quiz draft
+        run: |
+          python3 scripts/build-draft-quiz-pack-20261008.py --check
