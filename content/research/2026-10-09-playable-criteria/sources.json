@@ -1,0 +1,92 @@
+{
+  "boeing-787-20261009": {
+    "publisher": "Boeing", "url": "https://www.boeing.com/commercial/787", "verified": "2026-10-09", "data_year": null,
+    "data_year_note": "Undatierte technische Produkttabelle; Abrufdatum ist kein Modell-/Messjahr.",
+    "evidence": "787-8 Spannweite 60,1 m; 787-9 maximales Startgewicht 259220 kg; 787-10 Reichweite bis zu 13890 km.",
+    "rounding": "Veröffentlichte SI-Werte unverändert.", "limits": "Konkrete Variante, Produkttabellen-Auslegung; Reichweite nicht bei kontrolliert identischer Nutzlast. Review 90 Tage."
+  },
+  "boeing-777-20261009": {
+    "publisher": "Boeing", "url": "https://www.boeing.com/Commercial/777", "verified": "2026-10-09", "data_year": null,
+    "data_year_note": "Undatierte technische Produkttabelle; Abrufdatum ist kein Modell-/Messjahr.",
+    "evidence": "777-200ER Spannweite 60,9 m und maximales Startgewicht 297550 kg; 777-200LR Reichweite bis zu 15740 km.",
+    "rounding": "Veröffentlichte SI-Werte unverändert.", "limits": "Kein 777X/Freighter; Reichweite ist bis-zu-Produktangabe. Review 90 Tage."
+  },
+  "golden-gate-20261009": {
+    "publisher": "Golden Gate Bridge, Highway and Transportation District", "url": "https://www.goldengate.org/exhibits/facts-and-figures-about-the-bridge/", "verified": "2026-10-09", "data_year": 1937,
+    "evidence": "Hauptspannweite 4200 ft / 1280 m; Verkehrsöffnung 1937.", "rounding": "Gerundete 1280 m der Betreiberseite, nicht Rückumrechnung.", "limits": "Hauptspannweite statt Gesamtlänge; historische Konstruktion."
+  },
+  "forth-road-20261009": {
+    "publisher": "Transport Scotland / Forth Bridges", "url": "https://www.theforthbridges.org/about-the-forth-bridges/forth-road-bridge/", "verified": "2026-10-09", "data_year": 1964,
+    "evidence": "1006 m zwischen den zwei Haupttürmen; geöffnet 4. September 1964.", "rounding": "1006 m unverändert.", "limits": "Forth Road Bridge, nicht Forth Railway Bridge oder Queensferry Crossing."
+  },
+  "2026-10-08-capybara": {
+    "publisher": "San Diego Zoo Wildlife Alliance",
+    "url": "https://animals.sandiegozoo.org/animals/capybara",
+    "verified": "2026-10-08",
+    "data_year": null,
+    "data_year_note": "Undatierte Artenübersicht; das Abrufjahr ist kein Messjahr.",
+    "evidence": "Vorderfuß 4 Zehen; maximal 5 Minuten unter Wasser; ständig wachsende Schneidezähne; größtes lebendes Nagetier; Zentral- und Südamerika.",
+    "limits": "Schulterhöhe widersprüchlich (50/60 cm): ausgeschlossen. Keine geschlechtsabhängigen Gewichtswerte.",
+    "rounding": "Anatomische Anzahlen/Jahreszahl unverändert; Richtwerte und Bereichsgrenzen ausdrücklich bezeichnet."
+  },
+  "2026-10-08-sloth": {
+    "publisher": "San Diego Zoo Wildlife Alliance",
+    "url": "https://animals.sandiegozoo.org/animals/two-toed-sloth",
+    "verified": "2026-10-08",
+    "data_year": null,
+    "data_year_note": "Undatierte Artenübersicht; das Abrufjahr ist kein Messjahr.",
+    "evidence": "Vorderfuß 2 Zehen; Krallen 8–10 cm; schwimmen; Fell von Bauch Richtung Rücken, Regen läuft ab.",
+    "limits": "Gattung Choloepus, nicht alle Faultiere. Unsichere Schlaf- und Lebensdauerangaben ausgeschlossen.",
+    "rounding": "Anatomische Anzahlen/Jahreszahl unverändert; Richtwerte und Bereichsgrenzen ausdrücklich bezeichnet."
+  },
+  "2026-10-08-anteater": {
+    "publisher": "San Diego Zoo Wildlife Alliance",
+    "url": "https://animals.sandiegozoo.org/animals/giant-anteater",
+    "verified": "2026-10-08",
+    "data_year": null,
+    "data_year_note": "Undatierte Artenübersicht; das Abrufjahr ist kein Messjahr.",
+    "evidence": "Zunge etwa 60 cm; Schwanz 70–90 cm; keine Zähne; Junges auf Rücken; läuft mit eingeklappten Krallen auf Fäusten.",
+    "limits": "Fehlerhafte Gewichtseinheit der Quelle, unbezifferte Populationsschätzung und veraltete Taxonomie ausgeschlossen.",
+    "rounding": "Anatomische Anzahlen/Jahreszahl unverändert; Richtwerte und Bereichsgrenzen ausdrücklich bezeichnet."
+  },
+  "2026-10-08-red-panda": {
+    "publisher": "San Diego Zoo Wildlife Alliance",
+    "url": "https://animals.sandiegozoo.org/animals/red-panda",
+    "verified": "2026-10-08",
+    "data_year": null,
+    "data_year_note": "Undatierte Artenübersicht; das Abrufjahr ist kein Messjahr.",
+    "evidence": "Schwanz 28–49 cm; Erstbeschreibung westlicher Roter Panda 1825 durch Cuvier; frisst gelegentlich Eier/Vögel/Nagetiere; Pseudodaumen Handwurzelknochen; Familie Ailuridae.",
+    "limits": "Aktuelle Arten-/Unterartentaxonomie und veränderliche Bestandsschätzungen ausgeschlossen.",
+    "rounding": "Anatomische Anzahlen/Jahreszahl unverändert; Richtwerte und Bereichsgrenzen ausdrücklich bezeichnet."
+  },
+  "2026-10-09-table2025": {
+    "publisher": "World Meteorological Organization",
+    "url": "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+    "verified": "2026-10-09",
+    "publication_date": "2025-07-25",
+    "data_year_note": "Jeder Inhalt führt das jeweilige Ereignisjahr; 2025 ist nur der Tabellenstand.",
+    "evidence": "WMO-Gesamttabelle der Wetter- und Klimaextreme mit Wert, Datum, Ort, Messreihe und Definition.",
+    "rounding": "Werte werden in der publizierten Präzision übernommen.",
+    "limits": "Lebendes Archiv; potentielle, noch nicht abgeschlossene Rekordprüfungen sind nicht enthalten. Review nach 90 Tagen."
+  },
+  "2026-10-09-wind-barrow": {
+    "publisher": "World Meteorological Organization",
+    "url": "https://wmo.int/asu-map?map=Wind_028",
+    "verified": "2026-10-09",
+    "publication_date": null,
+    "data_year_note": "Rekordereignis 1996; formale WMO-Prüfung 2012.",
+    "evidence": "Maximaler Drei-Sekunden-Windstoß 113,2 m/s auf Barrow Island während Zyklon Olivia.",
+    "rounding": "113,2 m/s laut aktueller WMO-Seite.",
+    "limits": "Drei-Sekunden-Böe; nicht mit anhaltender Windgeschwindigkeit vergleichen."
+  },
+  "2026-10-09-rain24": {
+    "publisher": "World Meteorological Organization",
+    "url": "https://wmo.int/asu-map?book=21486&map=Rain_081&original_nid=21824",
+    "verified": "2026-10-09",
+    "publication_date": null,
+    "data_year_note": "Rekordereignis 1966; Seite und Archiv am Prüftag gelesen.",
+    "evidence": "1.825 mm in 24 Stunden in Foc-Foc; 1.870 mm in Cilaos ausdrücklich als alter Fehler bezeichnet.",
+    "rounding": "WMO-Wert in Millimetern.",
+    "limits": "Genaues 24-Stunden-Fenster; nicht mit Tageskalender- oder Mehrtageswerten vermischen."
+  }
+}

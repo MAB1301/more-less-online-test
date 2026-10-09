@@ -1,0 +1,300 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 100,
+    "total": 18,
+    "sourceid": "2",
+    "lastupdated": "2026-10-08"
+  },
+  [
+    {
+      "indicator": {
+        "id": "AG.LND.FRST.ZS",
+        "value": "Forest area (% of land area)"
+      },
+      "country": {
+        "id": "AT",
+        "value": "Austria"
+      },
+      "countryiso3code": "AUT",
+      "date": "2023",
+      "value": 47.2403053805138,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "AG.LND.FRST.ZS",
+        "value": "Forest area (% of land area)"
+      },
+      "country": {
+        "id": "BE",
+        "value": "Belgium"
+      },
+      "countryiso3code": "BEL",
+      "date": "2023",
+      "value": 21.9885879189349,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "AG.LND.FRST.ZS",
+        "value": "Forest area (% of land area)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "2023",
+      "value": 38.2322514546639,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "AG.LND.FRST.ZS",
+        "value": "Forest area (% of land area)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2023",
+      "value": 32.830037489626,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "AG.LND.FRST.ZS",
+        "value": "Forest area (% of land area)"
+      },
+      "country": {
+        "id": "DK",
+        "value": "Denmark"
+      },
+      "countryiso3code": "DNK",
+      "date": "2023",
+      "value": 15.9655,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "AG.LND.FRST.ZS",
+        "value": "Forest area (% of land area)"
+      },
+      "country": {
+        "id": "ES",
+        "value": "Spain"
+      },
+      "countryiso3code": "ESP",
+      "date": "2023",
+      "value": 38.1680793216054,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "AG.LND.FRST.ZS",
+        "value": "Forest area (% of land area)"
+      },
+      "country": {
+        "id": "FI",
+        "value": "Finland"
+      },
+      "countryiso3code": "FIN",
+      "date": "2023",
+      "value": 74.16436373207,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "AG.LND.FRST.ZS",
+        "value": "Forest area (% of land area)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2023",
+      "value": 32.6861489934131,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "AG.LND.FRST.ZS",
+        "value": "Forest area (% of land area)"
+      },
+      "country": {
+        "id": "HR",
+        "value": "Croatia"
+      },
+      "countryiso3code": "HRV",
+      "date": "2023",
+      "value": 34.7312365975697,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "AG.LND.FRST.ZS",
+        "value": "Forest area (% of land area)"
+      },
+      "country": {
+        "id": "HU",
+        "value": "Hungary"
+      },
+      "countryiso3code": "HUN",
+      "date": "2023",
+      "value": 22.7396449704142,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "AG.LND.FRST.ZS",
+        "value": "Forest area (% of land area)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2023",
+      "value": 31.7766130123089,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "AG.LND.FRST.ZS",
+        "value": "Forest area (% of land area)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2023",
+      "value": 10.9423819423819,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "AG.LND.FRST.ZS",
+        "value": "Forest area (% of land area)"
+      },
+      "country": {
+        "id": "NO",
+        "value": "Norway"
+      },
+      "countryiso3code": "NOR",
+      "date": "2023",
+      "value": 33.2542070442254,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "AG.LND.FRST.ZS",
+        "value": "Forest area (% of land area)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "2023",
+      "value": 30.9618310640938,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "AG.LND.FRST.ZS",
+        "value": "Forest area (% of land area)"
+      },
+      "country": {
+        "id": "PT",
+        "value": "Portugal"
+      },
+      "countryiso3code": "PRT",
+      "date": "2023",
+      "value": 36.5843354554743,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "AG.LND.FRST.ZS",
+        "value": "Forest area (% of land area)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2023",
+      "value": 40.2824459234609,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "AG.LND.FRST.ZS",
+        "value": "Forest area (% of land area)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2023",
+      "value": 61.7676128038938,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "AG.LND.FRST.ZS",
+        "value": "Forest area (% of land area)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2023",
+      "value": 68.5884057259312,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ]
+]

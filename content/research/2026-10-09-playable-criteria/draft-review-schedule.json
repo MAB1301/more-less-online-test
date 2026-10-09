@@ -1,0 +1,2586 @@
+{
+  "policy": "Changing values: 90 days; stable and historical facts: 365 days. Dates are review deadlines, not automatic approval. Fixed edition/year values retain their stated edition.",
+  "records": [
+    {
+      "id": "criteria-aircraft-wingspan",
+      "metric": "Flugzeug-Spannweite",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.boeing.com/commercial/787",
+        "https://www.boeing.com/Commercial/777"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "criteria-aircraft-mtow",
+      "metric": "Maximales Startgewicht",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.boeing.com/commercial/787",
+        "https://www.boeing.com/Commercial/777"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "criteria-aircraft-range",
+      "metric": "Hersteller-Reichweite (bis zu)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.boeing.com/commercial/787",
+        "https://www.boeing.com/Commercial/777"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "criteria-bridge-main-span",
+      "metric": "Brücken-Hauptspannweite",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.goldengate.org/exhibits/facts-and-figures-about-the-bridge/",
+        "https://www.theforthbridges.org/about-the-forth-bridges/forth-road-bridge/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "tierwelt-forefoot-toes",
+      "metric": "Anatomische Zehenzahl",
+      "verified": "2026-10-08",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/capybara",
+        "https://animals.sandiegozoo.org/animals/two-toed-sloth"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-08",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "tierwelt-tail-upper",
+      "metric": "Oberes Ende des Schwanzlängenbereichs",
+      "verified": "2026-10-08",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/giant-anteater",
+        "https://animals.sandiegozoo.org/animals/red-panda"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-08",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "weather-gust-hemisphere",
+      "metric": "Maximaler Windstoß",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+        "https://wmo.int/asu-map?map=Wind_028"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "weather-rain-24h-hemisphere",
+      "metric": "24-Stunden-Niederschlag",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+        "https://wmo.int/asu-map?book=21486&map=Rain_081&original_nid=21824"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-incubation",
+      "metric": "Brutdauer-Obergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/ostrich",
+        "https://animals.sandiegozoo.org/animals/cassowary"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-clutch",
+      "metric": "Gelegegröße-Obergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/bald-eagle",
+        "https://animals.sandiegozoo.org/animals/ostrich"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-platform-tokyo",
+      "metric": "Aussichtsebenen-Höhe",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.cntower.ca/explore-the-tower",
+        "https://www.tobu.co.jp/en/cp/tokyoskytreetown/skytree/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-platform-paris",
+      "metric": "Aussichtsebenen-Höhe",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.toureiffel.paris/fr/decouvrir/sommet",
+        "https://www.cntower.ca/explore-the-tower"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-metro-stations",
+      "metric": "U-Bahn-Stationsbestand",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.bvg.de/de/unternehmen/ueber-uns",
+        "https://www.hochbahn.de/de/betrieb/u-bahn-streckennetz"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-metro-lines",
+      "metric": "U-Bahn-Linienzahl",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.bvg.de/de/unternehmen/ueber-uns",
+        "https://www.hochbahn.de/de/betrieb/u-bahn-streckennetz"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-peak-si-de",
+      "metric": "Höchster nationaler Gipfel",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.slovenia.info/en/stories/triglav-tips-for-a-safe-and-responsible-ascent",
+        "https://zugspitze.de/en/Our-mountain-worlds/The-areas/Zugspitze"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-peak-at-de",
+      "metric": "Höchster nationaler Gipfel",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://zugspitze.de/en/Our-mountain-worlds/The-areas/Zugspitze",
+        "https://www.grossglockner.at/en/for-your-visit/FAQ"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-falls-nevada",
+      "metric": "Einzelwasserfall-Höhe",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.nps.gov/yose/planyourvisit/waterfalls.htm"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-falls-vernal",
+      "metric": "Einzelwasserfall-Höhe",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.nps.gov/yose/planyourvisit/waterfalls.htm"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-ball-resin",
+      "metric": "Norm-Ballgewichtsobergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.theifab.com/laws/2025-26/the-ball/",
+        "https://www.ihf.info/sites/default/files/2025-02/09A%20-%20Rules%20of%20the%20Game_Indoor%20Handball_E.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-ball-noresin",
+      "metric": "Norm-Ballgewichtsobergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.theifab.com/laws/2025-26/the-ball/",
+        "https://www.ihf.info/sites/default/files/2025-02/09A%20-%20Rules%20of%20the%20Game_Indoor%20Handball_E.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-car-turn",
+      "metric": "Wendekreis",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.skoda-storyboard.com/de/modelle-de/smarte-cityflitzer-von-skoda/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-car-boot",
+      "metric": "Standard-Kofferraumvolumen",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.skoda-storyboard.com/de/modelle-de/smarte-cityflitzer-von-skoda/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-film-cars",
+      "metric": "Disney-Katalogfilmlaufzeit",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://movies.disney.com/cars",
+        "https://movies.disney.com/ratatouille"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-film-monsters",
+      "metric": "Disney-Katalogfilmlaufzeit",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://movies.disney.com/ratatouille",
+        "https://movies.disney.com/monsters-inc"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-board-catan",
+      "metric": "Verlags-Spielzeitobergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.catan.com/catan",
+        "https://www.daysofwonder.com/de/game/ticket-to-ride/"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-board-azul",
+      "metric": "Verlags-Spielzeitobergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.daysofwonder.com/de/game/ticket-to-ride/",
+        "https://www.nextmove-games.com/de/azul/azul-game/"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-span-eu-na",
+      "metric": "Kontinentale Rekordtemperaturspanne",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-span-na-sa",
+      "metric": "Kontinentale Rekordtemperaturspanne",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-bird-inc-01",
+      "metric": "Brutdauer-Obergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/flamingo",
+        "https://animals.sandiegozoo.org/animals/peafowl"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-bird-inc-02",
+      "metric": "Brutdauer-Obergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/crane",
+        "https://animals.sandiegozoo.org/animals/stork"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-bird-inc-03",
+      "metric": "Brutdauer-Obergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/stork",
+        "https://animals.sandiegozoo.org/animals/ostrich"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-bird-inc-04",
+      "metric": "Brutdauer-Obergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/cassowary",
+        "https://animals.sandiegozoo.org/animals/kiwi"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-bird-inc-05",
+      "metric": "Brutdauer-Obergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/secretary-bird",
+        "https://animals.sandiegozoo.org/animals/flamingo"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-bird-inc-06",
+      "metric": "Brutdauer-Obergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/kiwi",
+        "https://animals.sandiegozoo.org/animals/ostrich"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-bird-inc-07",
+      "metric": "Brutdauer-Obergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/crane",
+        "https://animals.sandiegozoo.org/animals/peafowl"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-bird-inc-08",
+      "metric": "Brutdauer-Obergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/crane",
+        "https://animals.sandiegozoo.org/animals/cassowary"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-bird-inc-09",
+      "metric": "Brutdauer-Obergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/peafowl",
+        "https://animals.sandiegozoo.org/animals/kiwi"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-bird-clutch-01",
+      "metric": "Gelegegröße-Obergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/emu",
+        "https://animals.sandiegozoo.org/animals/ostrich"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-bird-clutch-02",
+      "metric": "Gelegegröße-Obergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/cassowary",
+        "https://animals.sandiegozoo.org/animals/peafowl"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-bird-clutch-03",
+      "metric": "Gelegegröße-Obergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/crane",
+        "https://animals.sandiegozoo.org/animals/stork"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-bird-clutch-04",
+      "metric": "Gelegegröße-Obergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/bald-eagle",
+        "https://animals.sandiegozoo.org/animals/kiwi"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-bird-clutch-05",
+      "metric": "Gelegegröße-Obergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/secretary-bird",
+        "https://animals.sandiegozoo.org/animals/crane"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-bird-clutch-06",
+      "metric": "Gelegegröße-Obergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/peafowl",
+        "https://animals.sandiegozoo.org/animals/ostrich"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-bird-clutch-07",
+      "metric": "Gelegegröße-Obergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/emu",
+        "https://animals.sandiegozoo.org/animals/cassowary"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-bird-clutch-08",
+      "metric": "Gelegegröße-Obergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/kiwi",
+        "https://animals.sandiegozoo.org/animals/stork"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-bird-clutch-09",
+      "metric": "Gelegegröße-Obergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/peafowl",
+        "https://animals.sandiegozoo.org/animals/secretary-bird"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-architecture-01",
+      "metric": "Architekturhöhe (CVU-Tabellenwert)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.skyscrapercenter.com/buildings"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-architecture-02",
+      "metric": "Architekturhöhe (CVU-Tabellenwert)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.skyscrapercenter.com/buildings"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-architecture-03",
+      "metric": "Architekturhöhe (CVU-Tabellenwert)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.skyscrapercenter.com/buildings"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-architecture-04",
+      "metric": "Architekturhöhe (CVU-Tabellenwert)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.skyscrapercenter.com/buildings"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-architecture-05",
+      "metric": "Architekturhöhe (CVU-Tabellenwert)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.skyscrapercenter.com/buildings"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-architecture-06",
+      "metric": "Architekturhöhe (CVU-Tabellenwert)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.skyscrapercenter.com/buildings"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-architecture-07",
+      "metric": "Architekturhöhe (CVU-Tabellenwert)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.skyscrapercenter.com/buildings"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-architecture-08",
+      "metric": "Architekturhöhe (CVU-Tabellenwert)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.skyscrapercenter.com/buildings"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-architecture-09",
+      "metric": "Architekturhöhe (CVU-Tabellenwert)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.skyscrapercenter.com/buildings"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-architecture-10",
+      "metric": "Architekturhöhe (CVU-Tabellenwert)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.skyscrapercenter.com/buildings"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-architecture-11",
+      "metric": "Architekturhöhe (CVU-Tabellenwert)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.skyscrapercenter.com/buildings"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-architecture-12",
+      "metric": "Architekturhöhe (CVU-Tabellenwert)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.skyscrapercenter.com/buildings"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-architecture-13",
+      "metric": "Architekturhöhe (CVU-Tabellenwert)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.skyscrapercenter.com/buildings"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-architecture-14",
+      "metric": "Architekturhöhe (CVU-Tabellenwert)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.skyscrapercenter.com/buildings"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-architecture-15",
+      "metric": "Architekturhöhe (CVU-Tabellenwert)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.skyscrapercenter.com/buildings"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-architecture-16",
+      "metric": "Architekturhöhe (CVU-Tabellenwert)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.skyscrapercenter.com/buildings"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-architecture-17",
+      "metric": "Architekturhöhe (CVU-Tabellenwert)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.skyscrapercenter.com/buildings"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-architecture-18",
+      "metric": "Architekturhöhe (CVU-Tabellenwert)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.skyscrapercenter.com/buildings"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-airport-passengers-01",
+      "metric": "Flughafen-Passagieraufkommen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://aci.aero/resources/busiest-airports-in-the-world/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-airport-passengers-02",
+      "metric": "Flughafen-Passagieraufkommen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://aci.aero/resources/busiest-airports-in-the-world/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-airport-passengers-03",
+      "metric": "Flughafen-Passagieraufkommen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://aci.aero/resources/busiest-airports-in-the-world/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-airport-passengers-04",
+      "metric": "Flughafen-Passagieraufkommen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://aci.aero/resources/busiest-airports-in-the-world/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-airport-passengers-05",
+      "metric": "Flughafen-Passagieraufkommen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://aci.aero/resources/busiest-airports-in-the-world/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-airport-passengers-06",
+      "metric": "Flughafen-Passagieraufkommen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://aci.aero/resources/busiest-airports-in-the-world/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-airport-passengers-07",
+      "metric": "Flughafen-Passagieraufkommen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://aci.aero/resources/busiest-airports-in-the-world/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-airport-passengers-08",
+      "metric": "Flughafen-Passagieraufkommen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://aci.aero/resources/busiest-airports-in-the-world/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-airport-passengers-09",
+      "metric": "Flughafen-Passagieraufkommen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://aci.aero/resources/busiest-airports-in-the-world/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-airport-movements-01",
+      "metric": "Flughafen-Flugbewegungen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://aci.aero/resources/busiest-airports-in-the-world/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-airport-movements-02",
+      "metric": "Flughafen-Flugbewegungen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://aci.aero/resources/busiest-airports-in-the-world/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-airport-movements-03",
+      "metric": "Flughafen-Flugbewegungen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://aci.aero/resources/busiest-airports-in-the-world/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-airport-movements-04",
+      "metric": "Flughafen-Flugbewegungen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://aci.aero/resources/busiest-airports-in-the-world/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-airport-movements-05",
+      "metric": "Flughafen-Flugbewegungen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://aci.aero/resources/busiest-airports-in-the-world/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-airport-movements-06",
+      "metric": "Flughafen-Flugbewegungen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://aci.aero/resources/busiest-airports-in-the-world/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-airport-movements-07",
+      "metric": "Flughafen-Flugbewegungen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://aci.aero/resources/busiest-airports-in-the-world/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-airport-movements-08",
+      "metric": "Flughafen-Flugbewegungen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://aci.aero/resources/busiest-airports-in-the-world/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-airport-movements-09",
+      "metric": "Flughafen-Flugbewegungen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://aci.aero/resources/busiest-airports-in-the-world/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-country-forest-01",
+      "metric": "Waldanteil 2023",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://api.worldbank.org/v2/country/DEU;AUT;FRA;ITA;ESP;PRT;NLD;BEL;POL;CZE;SVK;HUN;SVN;HRV;SWE;NOR;FIN;DNK/indicator/AG.LND.FRST.ZS?date=2023&format=json&per_page=100"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-country-forest-02",
+      "metric": "Waldanteil 2023",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://api.worldbank.org/v2/country/DEU;AUT;FRA;ITA;ESP;PRT;NLD;BEL;POL;CZE;SVK;HUN;SVN;HRV;SWE;NOR;FIN;DNK/indicator/AG.LND.FRST.ZS?date=2023&format=json&per_page=100"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-country-forest-03",
+      "metric": "Waldanteil 2023",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://api.worldbank.org/v2/country/DEU;AUT;FRA;ITA;ESP;PRT;NLD;BEL;POL;CZE;SVK;HUN;SVN;HRV;SWE;NOR;FIN;DNK/indicator/AG.LND.FRST.ZS?date=2023&format=json&per_page=100"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-country-forest-04",
+      "metric": "Waldanteil 2023",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://api.worldbank.org/v2/country/DEU;AUT;FRA;ITA;ESP;PRT;NLD;BEL;POL;CZE;SVK;HUN;SVN;HRV;SWE;NOR;FIN;DNK/indicator/AG.LND.FRST.ZS?date=2023&format=json&per_page=100"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-country-forest-05",
+      "metric": "Waldanteil 2023",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://api.worldbank.org/v2/country/DEU;AUT;FRA;ITA;ESP;PRT;NLD;BEL;POL;CZE;SVK;HUN;SVN;HRV;SWE;NOR;FIN;DNK/indicator/AG.LND.FRST.ZS?date=2023&format=json&per_page=100"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-country-forest-06",
+      "metric": "Waldanteil 2023",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://api.worldbank.org/v2/country/DEU;AUT;FRA;ITA;ESP;PRT;NLD;BEL;POL;CZE;SVK;HUN;SVN;HRV;SWE;NOR;FIN;DNK/indicator/AG.LND.FRST.ZS?date=2023&format=json&per_page=100"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-country-forest-07",
+      "metric": "Waldanteil 2023",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://api.worldbank.org/v2/country/DEU;AUT;FRA;ITA;ESP;PRT;NLD;BEL;POL;CZE;SVK;HUN;SVN;HRV;SWE;NOR;FIN;DNK/indicator/AG.LND.FRST.ZS?date=2023&format=json&per_page=100"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-country-forest-08",
+      "metric": "Waldanteil 2023",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://api.worldbank.org/v2/country/DEU;AUT;FRA;ITA;ESP;PRT;NLD;BEL;POL;CZE;SVK;HUN;SVN;HRV;SWE;NOR;FIN;DNK/indicator/AG.LND.FRST.ZS?date=2023&format=json&per_page=100"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-country-forest-09",
+      "metric": "Waldanteil 2023",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://api.worldbank.org/v2/country/DEU;AUT;FRA;ITA;ESP;PRT;NLD;BEL;POL;CZE;SVK;HUN;SVN;HRV;SWE;NOR;FIN;DNK/indicator/AG.LND.FRST.ZS?date=2023&format=json&per_page=100"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-country-life-01",
+      "metric": "Lebenserwartung bei Geburt 2023",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://api.worldbank.org/v2/country/DEU;AUT;FRA;ITA;ESP;PRT;NLD;BEL;POL;CZE;SVK;HUN;SVN;HRV;SWE;NOR;FIN;DNK/indicator/SP.DYN.LE00.IN?date=2023&format=json&per_page=100"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-country-life-02",
+      "metric": "Lebenserwartung bei Geburt 2023",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://api.worldbank.org/v2/country/DEU;AUT;FRA;ITA;ESP;PRT;NLD;BEL;POL;CZE;SVK;HUN;SVN;HRV;SWE;NOR;FIN;DNK/indicator/SP.DYN.LE00.IN?date=2023&format=json&per_page=100"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-country-life-03",
+      "metric": "Lebenserwartung bei Geburt 2023",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://api.worldbank.org/v2/country/DEU;AUT;FRA;ITA;ESP;PRT;NLD;BEL;POL;CZE;SVK;HUN;SVN;HRV;SWE;NOR;FIN;DNK/indicator/SP.DYN.LE00.IN?date=2023&format=json&per_page=100"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-country-life-04",
+      "metric": "Lebenserwartung bei Geburt 2023",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://api.worldbank.org/v2/country/DEU;AUT;FRA;ITA;ESP;PRT;NLD;BEL;POL;CZE;SVK;HUN;SVN;HRV;SWE;NOR;FIN;DNK/indicator/SP.DYN.LE00.IN?date=2023&format=json&per_page=100"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-country-life-05",
+      "metric": "Lebenserwartung bei Geburt 2023",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://api.worldbank.org/v2/country/DEU;AUT;FRA;ITA;ESP;PRT;NLD;BEL;POL;CZE;SVK;HUN;SVN;HRV;SWE;NOR;FIN;DNK/indicator/SP.DYN.LE00.IN?date=2023&format=json&per_page=100"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-country-life-06",
+      "metric": "Lebenserwartung bei Geburt 2023",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://api.worldbank.org/v2/country/DEU;AUT;FRA;ITA;ESP;PRT;NLD;BEL;POL;CZE;SVK;HUN;SVN;HRV;SWE;NOR;FIN;DNK/indicator/SP.DYN.LE00.IN?date=2023&format=json&per_page=100"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-country-life-07",
+      "metric": "Lebenserwartung bei Geburt 2023",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://api.worldbank.org/v2/country/DEU;AUT;FRA;ITA;ESP;PRT;NLD;BEL;POL;CZE;SVK;HUN;SVN;HRV;SWE;NOR;FIN;DNK/indicator/SP.DYN.LE00.IN?date=2023&format=json&per_page=100"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-country-life-08",
+      "metric": "Lebenserwartung bei Geburt 2023",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://api.worldbank.org/v2/country/DEU;AUT;FRA;ITA;ESP;PRT;NLD;BEL;POL;CZE;SVK;HUN;SVN;HRV;SWE;NOR;FIN;DNK/indicator/SP.DYN.LE00.IN?date=2023&format=json&per_page=100"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-country-life-09",
+      "metric": "Lebenserwartung bei Geburt 2023",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://api.worldbank.org/v2/country/DEU;AUT;FRA;ITA;ESP;PRT;NLD;BEL;POL;CZE;SVK;HUN;SVN;HRV;SWE;NOR;FIN;DNK/indicator/SP.DYN.LE00.IN?date=2023&format=json&per_page=100"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-park-visits-01",
+      "metric": "Nationalpark-Besuche 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-park-visits-02",
+      "metric": "Nationalpark-Besuche 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-park-visits-03",
+      "metric": "Nationalpark-Besuche 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-park-visits-04",
+      "metric": "Nationalpark-Besuche 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-park-visits-05",
+      "metric": "Nationalpark-Besuche 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-park-visits-06",
+      "metric": "Nationalpark-Besuche 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-park-visits-07",
+      "metric": "Nationalpark-Besuche 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-park-visits-08",
+      "metric": "Nationalpark-Besuche 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-park-visits-09",
+      "metric": "Nationalpark-Besuche 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-park-change-01",
+      "metric": "Änderung der Parkbesuche 2024–2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm",
+        "https://npshistory.com/publications/visitation/annual-park-ranking/2024.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-park-change-02",
+      "metric": "Änderung der Parkbesuche 2024–2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm",
+        "https://npshistory.com/publications/visitation/annual-park-ranking/2024.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-park-change-03",
+      "metric": "Änderung der Parkbesuche 2024–2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm",
+        "https://npshistory.com/publications/visitation/annual-park-ranking/2024.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-park-change-04",
+      "metric": "Änderung der Parkbesuche 2024–2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm",
+        "https://npshistory.com/publications/visitation/annual-park-ranking/2024.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-park-change-05",
+      "metric": "Änderung der Parkbesuche 2024–2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm",
+        "https://npshistory.com/publications/visitation/annual-park-ranking/2024.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-park-change-06",
+      "metric": "Änderung der Parkbesuche 2024–2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm",
+        "https://npshistory.com/publications/visitation/annual-park-ranking/2024.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-park-change-07",
+      "metric": "Änderung der Parkbesuche 2024–2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm",
+        "https://npshistory.com/publications/visitation/annual-park-ranking/2024.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-park-change-08",
+      "metric": "Änderung der Parkbesuche 2024–2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm",
+        "https://npshistory.com/publications/visitation/annual-park-ranking/2024.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-park-change-09",
+      "metric": "Änderung der Parkbesuche 2024–2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm",
+        "https://npshistory.com/publications/visitation/annual-park-ranking/2024.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-league-goals-01",
+      "metric": "Bundesliga-Tore 2024/25",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.bundesliga.com/en/bundesliga/table/2024-2025"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-league-goals-02",
+      "metric": "Bundesliga-Tore 2024/25",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.bundesliga.com/en/bundesliga/table/2024-2025"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-league-goals-03",
+      "metric": "Bundesliga-Tore 2024/25",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.bundesliga.com/en/bundesliga/table/2024-2025"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-league-goals-04",
+      "metric": "Bundesliga-Tore 2024/25",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.bundesliga.com/en/bundesliga/table/2024-2025"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-league-goals-05",
+      "metric": "Bundesliga-Tore 2024/25",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.bundesliga.com/en/bundesliga/table/2024-2025"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-league-goals-06",
+      "metric": "Bundesliga-Tore 2024/25",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.bundesliga.com/en/bundesliga/table/2024-2025"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-league-conceded-01",
+      "metric": "Bundesliga-Gegentore 2024/25",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.bundesliga.com/en/bundesliga/table/2024-2025"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-league-conceded-02",
+      "metric": "Bundesliga-Gegentore 2024/25",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.bundesliga.com/en/bundesliga/table/2024-2025"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-league-conceded-03",
+      "metric": "Bundesliga-Gegentore 2024/25",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.bundesliga.com/en/bundesliga/table/2024-2025"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-league-conceded-04",
+      "metric": "Bundesliga-Gegentore 2024/25",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.bundesliga.com/en/bundesliga/table/2024-2025"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-league-conceded-05",
+      "metric": "Bundesliga-Gegentore 2024/25",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.bundesliga.com/en/bundesliga/table/2024-2025"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-league-conceded-06",
+      "metric": "Bundesliga-Gegentore 2024/25",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.bundesliga.com/en/bundesliga/table/2024-2025"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-league-wins-01",
+      "metric": "Bundesliga-Siege 2024/25",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.bundesliga.com/en/bundesliga/table/2024-2025"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-league-wins-02",
+      "metric": "Bundesliga-Siege 2024/25",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.bundesliga.com/en/bundesliga/table/2024-2025"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-league-wins-03",
+      "metric": "Bundesliga-Siege 2024/25",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.bundesliga.com/en/bundesliga/table/2024-2025"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-league-wins-04",
+      "metric": "Bundesliga-Siege 2024/25",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.bundesliga.com/en/bundesliga/table/2024-2025"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-league-wins-05",
+      "metric": "Bundesliga-Siege 2024/25",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.bundesliga.com/en/bundesliga/table/2024-2025"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-league-wins-06",
+      "metric": "Bundesliga-Siege 2024/25",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.bundesliga.com/en/bundesliga/table/2024-2025"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-car-production-01",
+      "metric": "Škoda-Modellproduktion 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://reporting.skoda-auto.com/production/worldwide"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-car-production-02",
+      "metric": "Škoda-Modellproduktion 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://reporting.skoda-auto.com/production/worldwide"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-car-production-03",
+      "metric": "Škoda-Modellproduktion 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://reporting.skoda-auto.com/production/worldwide"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-car-production-04",
+      "metric": "Škoda-Modellproduktion 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://reporting.skoda-auto.com/production/worldwide"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-car-production-05",
+      "metric": "Škoda-Modellproduktion 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://reporting.skoda-auto.com/production/worldwide"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-car-production-06",
+      "metric": "Škoda-Modellproduktion 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://reporting.skoda-auto.com/production/worldwide"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-car-production-07",
+      "metric": "Škoda-Modellproduktion 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://reporting.skoda-auto.com/production/worldwide"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-car-production-08",
+      "metric": "Škoda-Modellproduktion 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://reporting.skoda-auto.com/production/worldwide"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-car-production-09",
+      "metric": "Škoda-Modellproduktion 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://reporting.skoda-auto.com/production/worldwide"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-car-delivery-01",
+      "metric": "Škoda-Kundenauslieferungen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://reporting.skoda-auto.com/marketing"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-car-delivery-02",
+      "metric": "Škoda-Kundenauslieferungen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://reporting.skoda-auto.com/marketing"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-car-delivery-03",
+      "metric": "Škoda-Kundenauslieferungen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://reporting.skoda-auto.com/marketing"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-car-delivery-04",
+      "metric": "Škoda-Kundenauslieferungen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://reporting.skoda-auto.com/marketing"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-car-delivery-05",
+      "metric": "Škoda-Kundenauslieferungen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://reporting.skoda-auto.com/marketing"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-car-delivery-06",
+      "metric": "Škoda-Kundenauslieferungen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://reporting.skoda-auto.com/marketing"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-car-delivery-07",
+      "metric": "Škoda-Kundenauslieferungen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://reporting.skoda-auto.com/marketing"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-car-delivery-08",
+      "metric": "Škoda-Kundenauslieferungen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://reporting.skoda-auto.com/marketing"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-car-delivery-09",
+      "metric": "Škoda-Kundenauslieferungen 2025",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://reporting.skoda-auto.com/marketing"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-film-runtime-01",
+      "metric": "Disney-Katalog-Laufzeit",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://movies.disney.com/toy-story",
+        "https://movies.disney.com/brave"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-film-runtime-02",
+      "metric": "Disney-Katalog-Laufzeit",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://movies.disney.com/inside-out",
+        "https://movies.disney.com/brave"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-film-runtime-03",
+      "metric": "Disney-Katalog-Laufzeit",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://movies.disney.com/inside-out",
+        "https://movies.disney.com/encanto"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-film-runtime-04",
+      "metric": "Disney-Katalog-Laufzeit",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://movies.disney.com/coco",
+        "https://movies.disney.com/encanto"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-film-runtime-05",
+      "metric": "Disney-Katalog-Laufzeit",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://movies.disney.com/coco",
+        "https://movies.disney.com/moana"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-film-runtime-06",
+      "metric": "Disney-Katalog-Laufzeit",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://movies.disney.com/zootopia",
+        "https://movies.disney.com/moana"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-film-runtime-07",
+      "metric": "Disney-Katalog-Laufzeit",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://movies.disney.com/zootopia",
+        "https://movies.disney.com/the-incredibles"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-film-runtime-08",
+      "metric": "Disney-Katalog-Laufzeit",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://movies.disney.com/coco",
+        "https://movies.disney.com/toy-story-4"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-film-runtime-09",
+      "metric": "Disney-Katalog-Laufzeit",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://movies.disney.com/soul",
+        "https://movies.disney.com/brave"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-film-year-01",
+      "metric": "Disney-Katalog-Veröffentlichungsjahr",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://movies.disney.com/toy-story",
+        "https://movies.disney.com/the-incredibles"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-film-year-02",
+      "metric": "Disney-Katalog-Veröffentlichungsjahr",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://movies.disney.com/tangled",
+        "https://movies.disney.com/the-incredibles"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-film-year-03",
+      "metric": "Disney-Katalog-Veröffentlichungsjahr",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://movies.disney.com/tangled",
+        "https://movies.disney.com/brave"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-film-year-04",
+      "metric": "Disney-Katalog-Veröffentlichungsjahr",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://movies.disney.com/inside-out",
+        "https://movies.disney.com/brave"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-film-year-05",
+      "metric": "Disney-Katalog-Veröffentlichungsjahr",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://movies.disney.com/inside-out",
+        "https://movies.disney.com/moana"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-film-year-06",
+      "metric": "Disney-Katalog-Veröffentlichungsjahr",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://movies.disney.com/coco",
+        "https://movies.disney.com/moana"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-film-year-07",
+      "metric": "Disney-Katalog-Veröffentlichungsjahr",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://movies.disney.com/coco",
+        "https://movies.disney.com/toy-story-4"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-film-year-08",
+      "metric": "Disney-Katalog-Veröffentlichungsjahr",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://movies.disney.com/soul",
+        "https://movies.disney.com/toy-story-4"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-film-year-09",
+      "metric": "Disney-Katalog-Veröffentlichungsjahr",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://movies.disney.com/soul",
+        "https://movies.disney.com/encanto"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-board-duration-01",
+      "metric": "Verlags-Spielzeitangabe",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.rprod.com/en/games/7-wonders",
+        "https://www.hans-im-glueck.de/unsere-spiele/familienspiele/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-board-duration-02",
+      "metric": "Verlags-Spielzeitangabe",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.nextmove-games.com/de/azul/azul-game/",
+        "https://www.spacecowboys-games.com/game/splendor/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-board-duration-03",
+      "metric": "Verlags-Spielzeitangabe",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.zmangames.com/game/pandemic/",
+        "https://www.daysofwonder.com/de/game/ticket-to-ride/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-board-duration-04",
+      "metric": "Verlags-Spielzeitangabe",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.daysofwonder.com/de/game/ticket-to-ride/",
+        "https://www.hans-im-glueck.de/unsere-spiele/familienspiele/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-board-duration-05",
+      "metric": "Verlags-Spielzeitangabe",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.hans-im-glueck.de/unsere-spiele/familienspiele/",
+        "https://www.nextmove-games.com/de/azul/azul-game/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-board-duration-06",
+      "metric": "Verlags-Spielzeitangabe",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.catan.com/catan",
+        "https://www.zmangames.com/game/pandemic/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-board-players-01",
+      "metric": "Grundspiel-Spielerzahlobergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.rprod.com/en/games/7-wonders",
+        "https://www.libellud.com/game/dixit/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-board-players-02",
+      "metric": "Grundspiel-Spielerzahlobergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.daysofwonder.com/de/game/ticket-to-ride/",
+        "https://www.libellud.com/game/dixit/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-board-players-03",
+      "metric": "Grundspiel-Spielerzahlobergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.catan.com/catan",
+        "https://www.hans-im-glueck.de/unsere-spiele/familienspiele/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-board-players-04",
+      "metric": "Grundspiel-Spielerzahlobergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://store.stonemaiergames.com/products/wingspan",
+        "https://www.nextmove-games.com/de/azul/azul-game/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-board-players-05",
+      "metric": "Grundspiel-Spielerzahlobergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.spacecowboys-games.com/game/splendor/",
+        "https://www.rprod.com/en/games/7-wonders"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-board-players-06",
+      "metric": "Grundspiel-Spielerzahlobergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.daysofwonder.com/de/game/ticket-to-ride/",
+        "https://www.zmangames.com/game/pandemic/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-board-age-01",
+      "metric": "Verlags-Altersempfehlung",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.hans-im-glueck.de/unsere-spiele/familienspiele/",
+        "https://www.daysofwonder.com/de/game/ticket-to-ride/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-board-age-02",
+      "metric": "Verlags-Altersempfehlung",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.catan.com/catan",
+        "https://www.hans-im-glueck.de/unsere-spiele/familienspiele/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-board-age-03",
+      "metric": "Verlags-Altersempfehlung",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.spacecowboys-games.com/game/splendor/",
+        "https://www.libellud.com/game/dixit/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-board-age-04",
+      "metric": "Verlags-Altersempfehlung",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.nextmove-games.com/de/azul/azul-game/",
+        "https://www.rprod.com/en/games/7-wonders"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-board-age-05",
+      "metric": "Verlags-Altersempfehlung",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.zmangames.com/game/pandemic/",
+        "https://www.catan.com/catan"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-board-age-06",
+      "metric": "Verlags-Altersempfehlung",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.spacecowboys-games.com/game/splendor/",
+        "https://www.daysofwonder.com/de/game/ticket-to-ride/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-wmo-max-01",
+      "metric": "WMO-Regionalrekord Höchsttemperatur (Archiv 2025)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-wmo-max-02",
+      "metric": "WMO-Regionalrekord Höchsttemperatur (Archiv 2025)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-wmo-max-03",
+      "metric": "WMO-Regionalrekord Höchsttemperatur (Archiv 2025)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-wmo-max-04",
+      "metric": "WMO-Regionalrekord Höchsttemperatur (Archiv 2025)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-wmo-max-05",
+      "metric": "WMO-Regionalrekord Höchsttemperatur (Archiv 2025)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-wmo-max-06",
+      "metric": "WMO-Regionalrekord Höchsttemperatur (Archiv 2025)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-wmo-max-07",
+      "metric": "WMO-Regionalrekord Höchsttemperatur (Archiv 2025)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-wmo-max-08",
+      "metric": "WMO-Regionalrekord Höchsttemperatur (Archiv 2025)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-wmo-max-09",
+      "metric": "WMO-Regionalrekord Höchsttemperatur (Archiv 2025)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-wmo-min-01",
+      "metric": "WMO-Regionalrekord Tiefsttemperatur (Archiv 2025)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-wmo-min-02",
+      "metric": "WMO-Regionalrekord Tiefsttemperatur (Archiv 2025)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-wmo-min-03",
+      "metric": "WMO-Regionalrekord Tiefsttemperatur (Archiv 2025)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-wmo-min-04",
+      "metric": "WMO-Regionalrekord Tiefsttemperatur (Archiv 2025)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-wmo-min-05",
+      "metric": "WMO-Regionalrekord Tiefsttemperatur (Archiv 2025)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-wmo-min-06",
+      "metric": "WMO-Regionalrekord Tiefsttemperatur (Archiv 2025)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-wmo-min-07",
+      "metric": "WMO-Regionalrekord Tiefsttemperatur (Archiv 2025)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-wmo-min-08",
+      "metric": "WMO-Regionalrekord Tiefsttemperatur (Archiv 2025)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "quota-wmo-min-09",
+      "metric": "WMO-Regionalrekord Tiefsttemperatur (Archiv 2025)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    }
+  ]
+}

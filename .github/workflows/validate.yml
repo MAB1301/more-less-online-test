@@ -18,3 +18,8 @@ jobs:
       - name: Static game regression checks
         run: |
           node scripts/regression-check.mjs
+      - name: Playable comparison criteria
+        run: |
+          node scripts/build-playable-criteria.mjs --check
+          node scripts/build-category-criteria-visuals.mjs --check
+          node scripts/playable-criteria-check.mjs

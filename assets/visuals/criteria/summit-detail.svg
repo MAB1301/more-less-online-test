@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Antwortneutrale Themenillustration: Gipfel">
+<metadata>Original artwork; CC0-1.0; thematic illustration, not a scaled depiction or answer hint. No third-party photos or logos.</metadata>
+<defs><radialGradient id="bg"><stop stop-color="#29395a"/><stop offset="1" stop-color="#0b1226"/></radialGradient><linearGradient id="ink" x2="1" y2="1"><stop stop-color="#b2c2ff"/><stop offset="1" stop-color="#7162bf"/></linearGradient><filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="12"/></filter></defs>
+<rect width="960" height="540" rx="28" fill="url(#bg)"/><rect x="22" y="22" width="916" height="496" rx="22" fill="none" stroke="#b2c2ff" stroke-opacity=".25" stroke-width="2"/>
+<ellipse cx="480" cy="270" rx="225" ry="180" fill="#b2c2ff" opacity=".07" filter="url(#glow)"/>
+<g transform="translate(480 257)" fill="url(#ink)" stroke="#b2c2ff" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"><path d="M-190 105L-72-80L-20-20L55-145L195 105Z"/><path d="M15-78L55-145L104-58L66-78L46-60Z" fill="#f4f5ff"/><path d="M-106-27L-72-80L-38-39L-66-52L-80-37Z" fill="#f4f5ff"/></g>
+<text x="480" y="478" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#edf0ff">Gipfel</text>
+</svg>

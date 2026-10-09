@@ -1,0 +1,118 @@
+{
+  "status": "review-ready",
+  "base_commit": "0ca6f66d0f1efea5709b7de9f3256413e0a2f5b1",
+  "moreless": [
+    {
+      "id": "criteria-aircraft-wingspan", "l": "Boeing 787-8", "r": "Boeing 777-200ER", "lv": 60.1, "rv": 60.9,
+      "u": "m · Flugzeug-Spannweite laut Hersteller", "metric": "Flugzeug-Spannweite", "subcategory": "Verkehrsflugzeuge", "cat": "Allgemeinwissen",
+      "source_refs": ["boeing-787-20261009", "boeing-777-20261009"], "verified": "2026-10-09", "data_year": null, "time_dependent": true, "review_after_days": 90, "illustration": "aircraft",
+      "notes": "Benannte Varianten; Hersteller-Meterwerte ohne zusätzliche Rundung. Keine skalierte Flugzeugdarstellung. Technische Daten der undatierten Produktseiten, abgerufen 2026-10-09; kein behauptetes Messjahr."
+    },
+    {
+      "id": "criteria-aircraft-mtow", "l": "Boeing 787-9", "r": "Boeing 777-200ER", "lv": 259220, "rv": 297550,
+      "u": "kg · maximales Startgewicht laut Hersteller", "metric": "Maximales Startgewicht", "subcategory": "Verkehrsflugzeuge", "cat": "Allgemeinwissen",
+      "source_refs": ["boeing-787-20261009", "boeing-777-20261009"], "verified": "2026-10-09", "data_year": null, "time_dependent": true, "review_after_days": 90, "illustration": "aircraft",
+      "notes": "Benannte Varianten und auf der Produktseite veröffentlichte Gewichtsauslegung; nicht Leergewicht, Nutzlast oder tatsächliches Gewicht eines Fluges. Kein gemeinsames Serien-/Produktionsjahr behauptet."
+    },
+    {
+      "id": "criteria-aircraft-range", "l": "Boeing 787-10", "r": "Boeing 777-200LR", "lv": 13890, "rv": 15740,
+      "u": "km · bis zu Reichweite laut Hersteller", "metric": "Hersteller-Reichweite (bis zu)", "subcategory": "Verkehrsflugzeuge", "cat": "Allgemeinwissen",
+      "source_refs": ["boeing-787-20261009", "boeing-777-20261009"], "verified": "2026-10-09", "data_year": null, "time_dependent": true, "review_after_days": 90, "illustration": "aircraft",
+      "notes": "Vergleich veröffentlichter bis-zu-Produktangaben, kein garantierter Flugrekord oder Vergleich bei identischer Nutzlast/Wetterlage. Kilometerwerte unverändert; Flugbedingungen und Betreiberkonfiguration beeinflussen reale Reichweite."
+    },
+    {
+      "id": "criteria-bridge-main-span", "l": "Golden Gate Bridge", "r": "Forth Road Bridge", "lv": 1280, "rv": 1006,
+      "u": "m · Hauptspannweite zwischen den Haupttürmen", "metric": "Brücken-Hauptspannweite", "subcategory": "Brücken", "cat": "Bauwerke",
+      "source_refs": ["golden-gate-20261009", "forth-road-20261009"], "verified": "2026-10-09", "data_years": [1937, 1964], "time_dependent": false, "illustration": "bridge",
+      "notes": "Nur Hauptöffnung, nicht Gesamtlänge mit Zufahrten. Golden Gate: gerundete Betreiberangabe 1280 m; nicht die genauere Umrechnung 1280,16 m aus 4200 ft. #122 nutzt dasselbe Kriterium mit einem anderen Paar; diese Frage ist nicht dessen Umkehrung."
+    },
+    {
+      "cat": "Tierwelt",
+      "status": "draft",
+      "time_dependent": false,
+      "id": "tierwelt-forefoot-toes",
+      "l": "Capybara",
+      "r": "Zweifingerfaultier (Choloepus)",
+      "lv": 4,
+      "rv": 2,
+      "u": "Zehen je Vorderfuß",
+      "metric": "Anatomische Zehenzahl",
+      "subcategory": "Körperbau",
+      "source_refs": [
+        "2026-10-08-capybara",
+        "2026-10-08-sloth"
+      ],
+      "notes": "Vorderfuß, nicht Hinterfuß; keine Darstellung abzählbarer Zehen.",
+      "semantic_key": "forefoot-toes",
+      "visual": "forest",
+      "verified": "2026-10-08",
+      "illustration": "tierwelt"
+    },
+    {
+      "cat": "Tierwelt",
+      "status": "draft",
+      "time_dependent": false,
+      "id": "tierwelt-tail-upper",
+      "l": "Großer Ameisenbär",
+      "r": "Roter Panda",
+      "lv": 90,
+      "rv": 49,
+      "u": "cm · obere Schwanzlängen-Grenze in der Zoo-Artenübersicht",
+      "metric": "Oberes Ende des Schwanzlängenbereichs",
+      "subcategory": "Körperbau",
+      "source_refs": [
+        "2026-10-08-anteater",
+        "2026-10-08-red-panda"
+      ],
+      "notes": "Vergleich der angegebenen Bereichsobergrenzen (70–90 bzw. 28–49 cm), kein Vergleich jedes Individuums; Geschlechter nicht getrennt.",
+      "semantic_key": "tail-upper",
+      "visual": "forest",
+      "verified": "2026-10-08",
+      "illustration": "tierwelt"
+    },
+    {
+      "id": "weather-gust-hemisphere",
+      "l": "Barrow Island (Südhalbkugel)",
+      "r": "Mount Washington (Nordhalbkugel)",
+      "lv": 113.2,
+      "rv": 103.3,
+      "u": "m/s · von der WMO geführter maximaler Windstoß je Hemisphäre",
+      "metric": "Maximaler Windstoß",
+      "subcategory": "Wetterrekorde",
+      "source_refs": [
+        "2026-10-09-table2025",
+        "2026-10-09-wind-barrow"
+      ],
+      "data_years": [
+        1996,
+        1934
+      ],
+      "notes": "Vergleich derselben WMO-Rekordklasse. Historische Messsysteme und Mittelungsdetails unterscheiden sich; keine Aussage über typische Windverhältnisse.",
+      "cat": "Rekorde & Extreme",
+      "verified": "2026-10-09",
+      "illustration": "weather"
+    },
+    {
+      "id": "weather-rain-24h-hemisphere",
+      "l": "Foc-Foc (Südhalbkugel)",
+      "r": "Isla Mujeres (Nordhalbkugel)",
+      "lv": 1825,
+      "rv": 1633.98,
+      "u": "mm · 24-Stunden-Niederschlagsrekord je Hemisphäre",
+      "metric": "24-Stunden-Niederschlag",
+      "subcategory": "Wetterrekorde",
+      "source_refs": [
+        "2026-10-09-table2025",
+        "2026-10-09-rain24"
+      ],
+      "data_years": [
+        1966,
+        2005
+      ],
+      "notes": "Identisches 24-Stunden-Fenster laut WMO. Werte werden in der veröffentlichten Genauigkeit verglichen; keine Umrechnung aus kürzeren Zeiträumen.",
+      "cat": "Rekorde & Extreme",
+      "verified": "2026-10-09",
+      "illustration": "weather"
+    }
+  ]
+}
