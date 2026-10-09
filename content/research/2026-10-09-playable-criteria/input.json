@@ -1,0 +1,94 @@
+{
+  "status": "review-ready",
+  "base_commit": "0ca6f66d0f1efea5709b7de9f3256413e0a2f5b1",
+  "moreless": [
+    {
+      "cat": "Tierwelt",
+      "status": "draft",
+      "time_dependent": false,
+      "id": "tierwelt-forefoot-toes",
+      "l": "Capybara",
+      "r": "Zweifingerfaultier (Choloepus)",
+      "lv": 4,
+      "rv": 2,
+      "u": "Zehen je Vorderfuß",
+      "metric": "Anatomische Zehenzahl",
+      "subcategory": "Körperbau",
+      "source_refs": [
+        "2026-10-08-capybara",
+        "2026-10-08-sloth"
+      ],
+      "notes": "Vorderfuß, nicht Hinterfuß; keine Darstellung abzählbarer Zehen.",
+      "semantic_key": "forefoot-toes",
+      "visual": "forest",
+      "verified": "2026-10-08",
+      "illustration": "tierwelt"
+    },
+    {
+      "cat": "Tierwelt",
+      "status": "draft",
+      "time_dependent": false,
+      "id": "tierwelt-tail-upper",
+      "l": "Großer Ameisenbär",
+      "r": "Roter Panda",
+      "lv": 90,
+      "rv": 49,
+      "u": "cm · obere Schwanzlängen-Grenze in der Zoo-Artenübersicht",
+      "metric": "Oberes Ende des Schwanzlängenbereichs",
+      "subcategory": "Körperbau",
+      "source_refs": [
+        "2026-10-08-anteater",
+        "2026-10-08-red-panda"
+      ],
+      "notes": "Vergleich der angegebenen Bereichsobergrenzen (70–90 bzw. 28–49 cm), kein Vergleich jedes Individuums; Geschlechter nicht getrennt.",
+      "semantic_key": "tail-upper",
+      "visual": "forest",
+      "verified": "2026-10-08",
+      "illustration": "tierwelt"
+    },
+    {
+      "id": "weather-gust-hemisphere",
+      "l": "Barrow Island (Südhalbkugel)",
+      "r": "Mount Washington (Nordhalbkugel)",
+      "lv": 113.2,
+      "rv": 103.3,
+      "u": "m/s · von der WMO geführter maximaler Windstoß je Hemisphäre",
+      "metric": "Maximaler Windstoß",
+      "subcategory": "Wetterrekorde",
+      "source_refs": [
+        "2026-10-09-table2025",
+        "2026-10-09-wind-barrow"
+      ],
+      "data_years": [
+        1996,
+        1934
+      ],
+      "notes": "Vergleich derselben WMO-Rekordklasse. Historische Messsysteme und Mittelungsdetails unterscheiden sich; keine Aussage über typische Windverhältnisse.",
+      "cat": "Rekorde & Extreme",
+      "verified": "2026-10-09",
+      "illustration": "weather"
+    },
+    {
+      "id": "weather-rain-24h-hemisphere",
+      "l": "Foc-Foc (Südhalbkugel)",
+      "r": "Isla Mujeres (Nordhalbkugel)",
+      "lv": 1825,
+      "rv": 1633.98,
+      "u": "mm · 24-Stunden-Niederschlagsrekord je Hemisphäre",
+      "metric": "24-Stunden-Niederschlag",
+      "subcategory": "Wetterrekorde",
+      "source_refs": [
+        "2026-10-09-table2025",
+        "2026-10-09-rain24"
+      ],
+      "data_years": [
+        1966,
+        2005
+      ],
+      "notes": "Identisches 24-Stunden-Fenster laut WMO. Werte werden in der veröffentlichten Genauigkeit verglichen; keine Umrechnung aus kürzeren Zeiträumen.",
+      "cat": "Rekorde & Extreme",
+      "verified": "2026-10-09",
+      "illustration": "weather"
+    }
+  ]
+}
