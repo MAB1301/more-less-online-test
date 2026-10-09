@@ -25,10 +25,19 @@ function applyContentPublication(data){
   else{const pool={moreless:SOLO_Q,estimate:ESTIMATE_Q,facts:FACT_Q}[entry.game],i=pool.findIndex(x=>x.content_id===entry.id);if(i>=0){if(entry.disabled)pool.splice(i,1);else pool[i]=q}else if(!entry.disabled)pool.push(q)}
  }
 }
-async function loadContentPublication(){
- let timer;try{applyContentPublication(JSON.parse(localStorage.getItem('ml_content_publication_v1')||'null'))}catch{}
- try{const request=(async()=>{await window.accountReady;if(!window.gameAccount)return null;await window.gameAccount.guest();return window.gameAccount.authorized('/rest/v1/rpc/ml_content_published',{})})();const data=await Promise.race([request,new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error('content offline')),2500)})]);if(data){applyContentPublication(data);try{localStorage.setItem('ml_content_publication_v1',JSON.stringify(data))}catch{}}}catch{}finally{clearTimeout(timer)}
+let CONTENT_PENDING=null,CONTENT_HAS_BASELINE=false;
+async function checkContentPublication(){
+ await window.accountReady;if(!window.gameAccount||navigator.onLine===false)return;
+ await window.gameAccount.guest();const data=await window.gameAccount.authorized('/rest/v1/rpc/ml_content_published',{});
+ if(!data||!Array.isArray(data.entries))return;
+ if(CONTENT_HAS_BASELINE&&data.revision>CONTENT_REGISTRY.publication){CONTENT_PENDING=data;window.dispatchEvent(new CustomEvent('game-content-update',{detail:data}));}
+ return data;
 }
+async function loadContentPublication(){
+ let timer,cached=null;try{cached=JSON.parse(localStorage.getItem('ml_content_publication_v1')||'null');applyContentPublication(cached);CONTENT_HAS_BASELINE=!!cached}catch{}
+ try{const data=await Promise.race([checkContentPublication(),new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error('content offline')),2500)})]);if(data&&!cached){applyContentPublication(data);CONTENT_PENDING=null;CONTENT_HAS_BASELINE=true;try{localStorage.setItem('ml_content_publication_v1',JSON.stringify(data))}catch{}}}catch{}finally{clearTimeout(timer)}
+}
+if(typeof window!=='undefined')window.gameContentUpdates={check:checkContentPublication,pending:()=>CONTENT_PENDING,save:()=>{if(CONTENT_PENDING)localStorage.setItem('ml_content_publication_v1',JSON.stringify(CONTENT_PENDING))}};
 
 function visualAssetURL(path){return /^https:\/\//.test(path||'')?path:VISUAL_BASE+path}
 function initContentRegistry(){refreshContentRegistry();CONTENT_REGISTRY.ready=loadContentPublication();for(const name of ['playSolo','startEstimateSolo','startFactCheck','startJeopardy','createRoom']){const original=window[name];window[name]=async function(...args){await CONTENT_REGISTRY.ready;return original.apply(this,args)}}const estimateRender=renderEstimate;renderEstimate=function(...args){const result=estimateRender.apply(this,args);const q=EST.questions?.[EST.i];contentAppendSource('estimateReveal',q);const stamp=contentAsOf(q);if(stamp)el('estimateQuestion').textContent=q.q+' · '+stamp;return result};const factRender=renderFact;renderFact=function(...args){const result=factRender.apply(this,args),q=FACT.q?.[FACT.i],stamp=contentAsOf(q);if(stamp)el('factStatement').textContent=q.s+' · '+stamp;return result};}
