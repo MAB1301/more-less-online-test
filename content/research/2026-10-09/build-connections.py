@@ -23,7 +23,8 @@ row('Tierwelt','Gepard',zoo,[('gestation','Tragzeit, ungefähr','Monate'),('birt
 # WWF page estimates: access date is explicit, not misrepresented as a census year.
 for name,slug,weight,stock,length in [('Tiger','tiger','99,8–299,4','ca. 5.700','1,83–3,05'),('Eisbär','polar-bear','362,9–589,7','ca. 26.000','1,83–2,74'),('Schneeleopard','snow-leopard','27,2–54,4','4.000–6.500','0,61–1,52')]:
  source='https://www.worldwildlife.org/species/'+slug+'/'
- row('Tierwelt',name,source,[('weight','Körpergewicht laut WWF','kg'),('animal_stock','Bestand in freier Wildbahn','Tiere'),('animal_length','Länge laut WWF','m')],[weight,stock,length],'WWF-Seitenstand 09.10.2026; Schätzwerte'+('; Männchen' if slug=='polar-bear' else ''))
+ row('Tierwelt',name,source,[('weight','Körpergewicht laut WWF','kg'),('animal_stock','Bestand in freier Wildbahn','Tiere'),('animal_length','Länge laut WWF','m')],[weight,stock,length],'WWF-Seitenstand 09.10.2026; Schätzwerte')
+ if slug=='polar-bear':subjects[-1]['facts'][0]['scope']+='; Männchen'
 row('Tierwelt','Großer Panda','https://www.worldwildlife.org/species/giant-panda/',[('weight','Körpergewicht laut WWF','kg'),('animal_stock','Bestand in freier Wildbahn','Tiere'),('daily_food','Tägliche Bambusmenge laut WWF','kg')],['99,8–149,7',1864,'11,8–38,1'],'WWF-Seitenstand 09.10.2026; Schätzwerte')
 # Conversion of lb to kg / ft to m is rounded to the displayed precision.
 for name,slug,clutch,egg_length,egg_width,incubation in [('Stockente','Mallard','1–13','5,3–6,4','3,9–4,5','23–30'),('Brautente','Wood_Duck','6–16','4,6–6,1','3,5–4,2','28–37')]:
