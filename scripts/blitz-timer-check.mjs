@@ -35,6 +35,7 @@ now+=5000;tick();assert.equal(timeouts,2);assert.equal(el('a').disabled,true);
 context.S.reviewMode=true;tick();assert.equal(tick,null,'review stops live timer');
 console.log('OK: 5–15 second range, solo timeout, server clock countdown, and timer cleanup');
 
+vm.runInContext(html.split('\n').find(line=>line.startsWith('function comparisonValue(')),context);
 const pick=html.split('\n').find(line=>line.startsWith('function soloPick('));
 context.SOLO={on:true,locked:false,mode:'BLITZ',deadline:now-1,i:0,total:0,score:0,history:[],questions:[{l:'A',r:'B',lv:100,rv:50,u:'m'}]};
 context.S.joker=null;context.setTimeout=()=>{};

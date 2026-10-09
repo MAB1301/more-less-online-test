@@ -1,0 +1,47 @@
+/* Shared dialog chrome; individual engines retain their close/cancel behavior. */
+html{scrollbar-gutter:stable}
+html:has(dialog[open]){overflow:hidden}
+body:has(dialog[open]){overflow:hidden}
+dialog{--dialog-surface:#111a2e;--dialog-border:#68749b;box-sizing:border-box;color:#f3f5ff}
+dialog::backdrop{background:#030817c9!important;backdrop-filter:blur(5px)!important}
+dialog:not(#accountMenu){border-radius:22px;border-color:var(--dialog-border);max-height:calc(100dvh - 32px);overscroll-behavior:contain}
+dialog header,dialog .modalHead,dialog .modeInfoHeader{gap:16px}
+dialog header>button:last-child,dialog .modalHead>.close,dialog .modeInfoClose,dialog .friendlyClose{min-width:44px;min-height:44px;border:1px solid #56617c;border-radius:12px;background:#202b42;color:#f3f5ff;font-size:22px;padding:6px 10px}
+#comfortClose,#factConnections header button{font-size:14px}
+#accountMenu .accountMenuPanel>header,#friendlySettings>header,#modeInfoDialog>.modeInfoHeader,#factConnections>header{position:sticky;top:0;z-index:3;background:var(--dialog-surface);padding:16px 0;margin-top:0}
+#accountMenu .accountMenuPanel{padding-top:0}
+#accountMenu .gamePreferences,#accountMenu .accountPreferences{display:none}
+.accountScopeDetails{margin:12px 0;color:#ced6ed}
+.accountScopeDetails summary{min-height:44px;display:flex;align-items:center;gap:8px;cursor:pointer}
+.accountScopeDetails summary:before{content:'›';font-size:22px}
+.accountScopeDetails[open] summary:before{transform:rotate(90deg)}
+#accountMenu .siteAccountScope{margin-top:0;font-size:14px;line-height:1.6}
+.accountPreferencesShortcut{width:100%;min-height:44px;margin:10px 0 16px;text-align:left}
+#friendlySettings .friendlyFooter{position:sticky;bottom:-28px;margin-bottom:-28px;padding:16px 0 28px;background:var(--dialog-surface);z-index:2}
+.cosmeticPurchaseHint{min-height:20px;line-height:1.4;color:#e2c9ff!important}
+.cosmeticPurchaseHint:empty{display:none}
+#homeScreen .homeImageDownload{width:auto;display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px 14px;text-align:left;margin:8px auto 14px;max-width:520px}
+#homeScreen .homeImageDownloadButton{min-height:44px;width:auto;font-size:14px;padding:10px 16px;background:#19243b;border-color:#637393;box-shadow:none;grid-row:span 2}
+#homeScreen .homeImageDownload>p{font-size:12px;align-self:end}
+#homeScreen .homeDownloadInstructions{font-size:12px;color:#ccd5eb}
+#homeScreen .homeDownloadInstructions summary{cursor:pointer;padding:4px 0}
+#homeScreen .homeDownloadInstructions p{text-align:left;margin:6px 0;max-width:300px}
+#homeScreen .homeImageDownload progress{grid-column:1/-1}
+.uxHome .siteNav{display:none!important}
+.uxRoundActive .siteNav>button:not(#siteRoundControl):not(#questionReportOpen){display:none}
+html:not(.uxRoundActive) #siteRoundControl,html:not(.uxRoundActive) #questionReportOpen{display:none}
+.uxRoundActive #soloExit{display:none!important}
+#dailyLeaderboardChooser{width:min(440px,calc(100vw - 32px));padding:24px;background:var(--dialog-surface)}
+#dailyLeaderboardChooser header{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+#dailyLeaderboardChooser h2{font-size:24px;margin:0}
+.dailyLeaderboardChoices{display:grid;gap:12px}
+.dailyLeaderboardChoices button{min-height:54px;text-align:left;padding:14px 16px;border-radius:14px}
+@media(max-width:600px){
+ dialog:not(#accountMenu){max-height:calc(100dvh - 16px);border-radius:18px}
+ #homeScreen .homeImageDownload{grid-template-columns:1fr;justify-items:center;gap:5px}
+ #homeScreen .homeImageDownloadButton{grid-row:auto}
+ #homeScreen .homeDownloadInstructions p{text-align:center}
+ #friendlySettings .friendlyFooter{bottom:-18px;margin-bottom:-18px;padding-bottom:18px}
+ #accountMenu .accountMenuPanel>header,#friendlySettings>header,#modeInfoDialog>.modeInfoHeader,#factConnections>header{padding:12px 0}
+}
+@media(prefers-reduced-motion:reduce){dialog::backdrop{backdrop-filter:none!important}}
