@@ -46,7 +46,7 @@ function nameArt(card){
  const art=window.FACT_CONNECTIONS_VISUALS?.[card.value];if(!art)return null;
  const frame=el('span','fc-art');frame.setAttribute('aria-hidden','true');
  if(art.atlas!==undefined){
-  frame.classList.add('fc-portrait');frame.style.backgroundImage=`url("${art.src}")`;
+  frame.classList.add('fc-portrait');if(/gesamte Marke$/.test(card.value))frame.classList.add('fc-car-art');frame.style.backgroundImage=`url("${art.src}")`;
   const cols=art.columns||4,rows=art.rows||3;frame.style.backgroundSize=`${cols*100}% ${rows*100}%`;
   frame.style.backgroundPosition=`${(art.atlas%cols)*100/(cols-1)}% ${Math.floor(art.atlas/cols)*100/(rows-1)}%`;
  }else{
