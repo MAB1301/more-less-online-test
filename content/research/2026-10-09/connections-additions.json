@@ -1,0 +1,842 @@
+[
+  {
+    "category": "Länder",
+    "name": "Deutschland",
+    "facts": [
+      {
+        "criterion": "population",
+        "label": "Einwohnerzahl",
+        "value": 83516593,
+        "unit": "Menschen",
+        "source": "https://api.worldbank.org/v2/country/DEU;FRA;JPN;BRA/indicator/SP.POP.TOTL?date=2024&format=json&per_page=100",
+        "scope": "Weltbank · 2024 · Gebietsdefinition laut Quelle"
+      },
+      {
+        "criterion": "country_area",
+        "label": "Gesamtfläche",
+        "value": 357680,
+        "unit": "km²",
+        "source": "https://api.worldbank.org/v2/country/DEU;FRA;JPN;BRA/indicator/AG.SRF.TOTL.K2?date=2024&format=json&per_page=100",
+        "scope": "Weltbank · 2024 · Gebietsdefinition laut Quelle"
+      },
+      {
+        "criterion": "gdp",
+        "label": "BIP pro Kopf, laufende US-Dollar",
+        "value": 56103.73,
+        "unit": "US$",
+        "source": "https://api.worldbank.org/v2/country/DEU;FRA;JPN;BRA/indicator/NY.GDP.PCAP.CD?date=2024&format=json&per_page=100",
+        "scope": "Weltbank · 2024 · Gebietsdefinition laut Quelle"
+      },
+      {
+        "criterion": "forest",
+        "label": "Waldanteil an der Landfläche",
+        "value": 32.83,
+        "unit": "%",
+        "source": "https://api.worldbank.org/v2/country/DEU;FRA;JPN;BRA/indicator/AG.LND.FRST.ZS?date=2023&format=json&per_page=100",
+        "scope": "Weltbank · 2023 · Gebietsdefinition laut Quelle"
+      },
+      {
+        "criterion": "population_density",
+        "label": "Bevölkerungsdichte (Landfläche)",
+        "value": 239.01,
+        "unit": "Einw./km²",
+        "source": "https://api.worldbank.org/v2/country/DEU;FRA;JPN;BRA/indicator/EN.POP.DNST?date=2024&format=json&per_page=100",
+        "scope": "Weltbank · 2024 · Gebietsdefinition laut Quelle"
+      }
+    ]
+  },
+  {
+    "category": "Länder",
+    "name": "Frankreich",
+    "facts": [
+      {
+        "criterion": "population",
+        "label": "Einwohnerzahl",
+        "value": 68551653,
+        "unit": "Menschen",
+        "source": "https://api.worldbank.org/v2/country/DEU;FRA;JPN;BRA/indicator/SP.POP.TOTL?date=2024&format=json&per_page=100",
+        "scope": "Weltbank · 2024 · Gebietsdefinition laut Quelle"
+      },
+      {
+        "criterion": "country_area",
+        "label": "Gesamtfläche",
+        "value": 606410,
+        "unit": "km²",
+        "source": "https://api.worldbank.org/v2/country/DEU;FRA;JPN;BRA/indicator/AG.SRF.TOTL.K2?date=2024&format=json&per_page=100",
+        "scope": "Weltbank · 2024 · Gebietsdefinition laut Quelle"
+      },
+      {
+        "criterion": "gdp",
+        "label": "BIP pro Kopf, laufende US-Dollar",
+        "value": 46103.08,
+        "unit": "US$",
+        "source": "https://api.worldbank.org/v2/country/DEU;FRA;JPN;BRA/indicator/NY.GDP.PCAP.CD?date=2024&format=json&per_page=100",
+        "scope": "Weltbank · 2024 · Gebietsdefinition laut Quelle"
+      },
+      {
+        "criterion": "forest",
+        "label": "Waldanteil an der Landfläche",
+        "value": 32.69,
+        "unit": "%",
+        "source": "https://api.worldbank.org/v2/country/DEU;FRA;JPN;BRA/indicator/AG.LND.FRST.ZS?date=2023&format=json&per_page=100",
+        "scope": "Weltbank · 2023 · Gebietsdefinition laut Quelle"
+      },
+      {
+        "criterion": "population_density",
+        "label": "Bevölkerungsdichte (Landfläche)",
+        "value": 127.19,
+        "unit": "Einw./km²",
+        "source": "https://api.worldbank.org/v2/country/DEU;FRA;JPN;BRA/indicator/EN.POP.DNST?date=2024&format=json&per_page=100",
+        "scope": "Weltbank · 2024 · Gebietsdefinition laut Quelle"
+      }
+    ]
+  },
+  {
+    "category": "Länder",
+    "name": "Japan",
+    "facts": [
+      {
+        "criterion": "population",
+        "label": "Einwohnerzahl",
+        "value": 123975371,
+        "unit": "Menschen",
+        "source": "https://api.worldbank.org/v2/country/DEU;FRA;JPN;BRA/indicator/SP.POP.TOTL?date=2024&format=json&per_page=100",
+        "scope": "Weltbank · 2024 · Gebietsdefinition laut Quelle"
+      },
+      {
+        "criterion": "country_area",
+        "label": "Gesamtfläche",
+        "value": 377974.71,
+        "unit": "km²",
+        "source": "https://api.worldbank.org/v2/country/DEU;FRA;JPN;BRA/indicator/AG.SRF.TOTL.K2?date=2024&format=json&per_page=100",
+        "scope": "Weltbank · 2024 · Gebietsdefinition laut Quelle"
+      },
+      {
+        "criterion": "gdp",
+        "label": "BIP pro Kopf, laufende US-Dollar",
+        "value": 33797.1,
+        "unit": "US$",
+        "source": "https://api.worldbank.org/v2/country/DEU;FRA;JPN;BRA/indicator/NY.GDP.PCAP.CD?date=2024&format=json&per_page=100",
+        "scope": "Weltbank · 2024 · Gebietsdefinition laut Quelle"
+      },
+      {
+        "criterion": "forest",
+        "label": "Waldanteil an der Landfläche",
+        "value": 68.35,
+        "unit": "%",
+        "source": "https://api.worldbank.org/v2/country/DEU;FRA;JPN;BRA/indicator/AG.LND.FRST.ZS?date=2023&format=json&per_page=100",
+        "scope": "Weltbank · 2023 · Gebietsdefinition laut Quelle"
+      },
+      {
+        "criterion": "population_density",
+        "label": "Bevölkerungsdichte (Landfläche)",
+        "value": 340.12,
+        "unit": "Einw./km²",
+        "source": "https://api.worldbank.org/v2/country/DEU;FRA;JPN;BRA/indicator/EN.POP.DNST?date=2024&format=json&per_page=100",
+        "scope": "Weltbank · 2024 · Gebietsdefinition laut Quelle"
+      }
+    ]
+  },
+  {
+    "category": "Länder",
+    "name": "Brasilien",
+    "facts": [
+      {
+        "criterion": "population",
+        "label": "Einwohnerzahl",
+        "value": 211998573,
+        "unit": "Menschen",
+        "source": "https://api.worldbank.org/v2/country/DEU;FRA;JPN;BRA/indicator/SP.POP.TOTL?date=2024&format=json&per_page=100",
+        "scope": "Weltbank · 2024 · Gebietsdefinition laut Quelle"
+      },
+      {
+        "criterion": "country_area",
+        "label": "Gesamtfläche",
+        "value": 8510420,
+        "unit": "km²",
+        "source": "https://api.worldbank.org/v2/country/DEU;FRA;JPN;BRA/indicator/AG.SRF.TOTL.K2?date=2024&format=json&per_page=100",
+        "scope": "Weltbank · 2024 · Gebietsdefinition laut Quelle"
+      },
+      {
+        "criterion": "gdp",
+        "label": "BIP pro Kopf, laufende US-Dollar",
+        "value": 10310.55,
+        "unit": "US$",
+        "source": "https://api.worldbank.org/v2/country/DEU;FRA;JPN;BRA/indicator/NY.GDP.PCAP.CD?date=2024&format=json&per_page=100",
+        "scope": "Weltbank · 2024 · Gebietsdefinition laut Quelle"
+      },
+      {
+        "criterion": "forest",
+        "label": "Waldanteil an der Landfläche",
+        "value": 58.94,
+        "unit": "%",
+        "source": "https://api.worldbank.org/v2/country/DEU;FRA;JPN;BRA/indicator/AG.LND.FRST.ZS?date=2023&format=json&per_page=100",
+        "scope": "Weltbank · 2023 · Gebietsdefinition laut Quelle"
+      },
+      {
+        "criterion": "population_density",
+        "label": "Bevölkerungsdichte (Landfläche)",
+        "value": 25.36,
+        "unit": "Einw./km²",
+        "source": "https://api.worldbank.org/v2/country/DEU;FRA;JPN;BRA/indicator/EN.POP.DNST?date=2024&format=json&per_page=100",
+        "scope": "Weltbank · 2024 · Gebietsdefinition laut Quelle"
+      }
+    ]
+  },
+  {
+    "category": "Städte",
+    "name": "Berlin",
+    "facts": [
+      {
+        "criterion": "population",
+        "label": "Registrierte Einwohnerzahl",
+        "value": 3897145,
+        "unit": "Menschen",
+        "source": "https://download.statistik-berlin-brandenburg.de/9673209d56d43e64/bd35b2b2f78d/SB_A01-16-00_2024h02_BE.pdf",
+        "scope": "Einwohnerregister · 31.12.2024"
+      },
+      {
+        "criterion": "city_density",
+        "label": "Bevölkerungsdichte, berechnet",
+        "value": 4373,
+        "unit": "Einw./km²",
+        "source": "https://download.statistik-berlin-brandenburg.de/9673209d56d43e64/bd35b2b2f78d/SB_A01-16-00_2024h02_BE.pdf",
+        "scope": "Einwohnerregister · 31.12.2024 · Einwohner / 891.1 km²"
+      }
+    ]
+  },
+  {
+    "category": "Städte",
+    "name": "Hamburg",
+    "facts": [
+      {
+        "criterion": "population",
+        "label": "Registrierte Einwohnerzahl",
+        "value": 1973896,
+        "unit": "Menschen",
+        "source": "https://www.statistik-nord.de/fileadmin/Dokumente/A_I_S_1_j24.pdf",
+        "scope": "Melderegister · 31.12.2024"
+      },
+      {
+        "criterion": "city_density",
+        "label": "Bevölkerungsdichte, berechnet",
+        "value": 2614,
+        "unit": "Einw./km²",
+        "source": "https://www.statistik-nord.de/fileadmin/Dokumente/A_I_S_1_j24.pdf",
+        "scope": "Melderegister · 31.12.2024 · Einwohner / 755 km²"
+      }
+    ]
+  },
+  {
+    "category": "Städte",
+    "name": "Wien",
+    "facts": [
+      {
+        "criterion": "population",
+        "label": "Registrierte Einwohnerzahl",
+        "value": 2028289,
+        "unit": "Menschen",
+        "source": "https://www.wien.gv.at/spezial/migration-integration-jugendliche/daten-zur-wiener-bevolkerung/gesamtbevolkerung-wiens-2025/",
+        "scope": "01.01.2025"
+      },
+      {
+        "criterion": "city_density",
+        "label": "Bevölkerungsdichte, berechnet",
+        "value": 4889,
+        "unit": "Einw./km²",
+        "source": "https://www.wien.gv.at/spezial/migration-integration-jugendliche/daten-zur-wiener-bevolkerung/gesamtbevolkerung-wiens-2025/",
+        "scope": "01.01.2025 · Einwohner / 414.9 km²"
+      }
+    ]
+  },
+  {
+    "category": "Städte",
+    "name": "München",
+    "facts": [
+      {
+        "criterion": "population",
+        "label": "Registrierte Einwohnerzahl",
+        "value": 1603776,
+        "unit": "Menschen",
+        "source": "https://stadt.muenchen.de/dam/jcr%3Aa520e26a-2650-469e-9cc0-837cebc2807b/2025-07-16_DemografieberichtTeil1A2025_Web.pdf",
+        "scope": "Hauptwohnsitze · 31.12.2024"
+      },
+      {
+        "criterion": "city_density",
+        "label": "Bevölkerungsdichte, berechnet",
+        "value": 5161,
+        "unit": "Einw./km²",
+        "source": "https://stadt.muenchen.de/dam/jcr%3Aa520e26a-2650-469e-9cc0-837cebc2807b/2025-07-16_DemografieberichtTeil1A2025_Web.pdf",
+        "scope": "Hauptwohnsitze · 31.12.2024 · Einwohner / 310.73 km²"
+      },
+      {
+        "criterion": "city_area",
+        "label": "Stadtfläche",
+        "value": 310.73,
+        "unit": "km²",
+        "source": "https://www.muenchen.de/sehenswuerdigkeiten/muenchen-zahlen-interessante-fakten-ueber-die-stadt",
+        "scope": ""
+      },
+      {
+        "criterion": "boroughs",
+        "label": "Stadtbezirke",
+        "value": 25,
+        "unit": "",
+        "source": "https://stadt.muenchen.de/dam/jcr%3Ac6eefa3d-b28b-4609-8277-e3445398cae5/mb260102.pdf",
+        "scope": ""
+      }
+    ]
+  },
+  {
+    "category": "Städte",
+    "name": "Berlin",
+    "facts": [
+      {
+        "criterion": "metro_length",
+        "label": "U-Bahn-Netzlänge, gerundet",
+        "value": 155,
+        "unit": "km",
+        "source": "https://www.berlin.de/tourismus/infos/nahverkehr/1742343-1721041-ubahn.html",
+        "scope": "Quellenstand 09.10.2026; Hamburg Bericht 2024"
+      },
+      {
+        "criterion": "stations",
+        "label": "U-Bahn-Stationen",
+        "value": 175,
+        "unit": "",
+        "source": "https://www.berlin.de/tourismus/infos/nahverkehr/1742343-1721041-ubahn.html",
+        "scope": "Quellenstand 09.10.2026; Hamburg Bericht 2024"
+      }
+    ]
+  },
+  {
+    "category": "Städte",
+    "name": "Hamburg",
+    "facts": [
+      {
+        "criterion": "metro_length",
+        "label": "U-Bahn-Netzlänge, gerundet",
+        "value": 106,
+        "unit": "km",
+        "source": "https://www.hochbahn.de/resource/blob/107306/44774c8aec49a343d4f6cd1749f4be56/ub2024-group-management-report-2024-data.pdf",
+        "scope": "Quellenstand 09.10.2026; Hamburg Bericht 2024"
+      },
+      {
+        "criterion": "stations",
+        "label": "U-Bahn-Stationen",
+        "value": 93,
+        "unit": "",
+        "source": "https://www.hochbahn.de/resource/blob/107306/44774c8aec49a343d4f6cd1749f4be56/ub2024-group-management-report-2024-data.pdf",
+        "scope": "Quellenstand 09.10.2026; Hamburg Bericht 2024"
+      }
+    ]
+  },
+  {
+    "category": "Städte",
+    "name": "Wien",
+    "facts": [
+      {
+        "criterion": "metro_length",
+        "label": "U-Bahn-Netzlänge, gerundet",
+        "value": 83,
+        "unit": "km",
+        "source": "https://www.wienerlinien.at/die-wiener-oeffis-in-zahlen",
+        "scope": "Quellenstand 09.10.2026; Hamburg Bericht 2024"
+      },
+      {
+        "criterion": "stations",
+        "label": "U-Bahn-Stationen",
+        "value": 109,
+        "unit": "",
+        "source": "https://www.wienerlinien.at/die-wiener-oeffis-in-zahlen",
+        "scope": "Quellenstand 09.10.2026; Hamburg Bericht 2024"
+      }
+    ]
+  },
+  {
+    "category": "Städte",
+    "name": "München",
+    "facts": [
+      {
+        "criterion": "metro_length",
+        "label": "U-Bahn-Netzlänge, gerundet",
+        "value": 95,
+        "unit": "km",
+        "source": "https://www.muenchen.de/verkehr/oeffentlicher-nahverkehr/u-bahn-muenchen-strecken-linien-tickets",
+        "scope": "Quellenstand 09.10.2026; Hamburg Bericht 2024"
+      },
+      {
+        "criterion": "stations",
+        "label": "U-Bahn-Stationen",
+        "value": 100,
+        "unit": "",
+        "source": "https://www.muenchen.de/verkehr/oeffentlicher-nahverkehr/u-bahn-muenchen-strecken-linien-tickets",
+        "scope": "Quellenstand 09.10.2026; Hamburg Bericht 2024"
+      }
+    ]
+  },
+  {
+    "category": "Natur",
+    "name": "Rocky-Mountain-Nationalpark",
+    "facts": [
+      {
+        "criterion": "park_area",
+        "label": "Parkfläche laut NPS",
+        "value": 265807,
+        "unit": "Acres",
+        "source": "https://www.nps.gov/romo/",
+        "scope": ""
+      },
+      {
+        "criterion": "visits",
+        "label": "Freizeitbesuche",
+        "value": 4171431,
+        "unit": "Besuche",
+        "source": "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm",
+        "scope": "Kalenderjahr 2025"
+      }
+    ]
+  },
+  {
+    "category": "Natur",
+    "name": "Lake Superior",
+    "facts": [
+      {
+        "criterion": "lake_area",
+        "label": "Seeoberfläche",
+        "value": 82100,
+        "unit": "km²",
+        "source": "https://www.nps.gov/piro/learn/nature/lake-superior.htm",
+        "scope": ""
+      },
+      {
+        "criterion": "lake_depth",
+        "label": "Maximale Seetiefe",
+        "value": 406,
+        "unit": "m",
+        "source": "https://www.nps.gov/piro/learn/nature/lake-superior.htm",
+        "scope": ""
+      },
+      {
+        "criterion": "lake_length",
+        "label": "Seelänge",
+        "value": 560,
+        "unit": "km",
+        "source": "https://www.nps.gov/piro/learn/nature/lake-superior.htm",
+        "scope": ""
+      }
+    ]
+  },
+  {
+    "category": "Natur",
+    "name": "Yellowstone Lake",
+    "facts": [
+      {
+        "criterion": "lake_area",
+        "label": "Seeoberfläche",
+        "value": 342,
+        "unit": "km²",
+        "source": "https://www.nps.gov/yell/learn/nature/yellowstone-lake.htm",
+        "scope": ""
+      },
+      {
+        "criterion": "lake_length",
+        "label": "Seelänge",
+        "value": 32.2,
+        "unit": "km",
+        "source": "https://www.nps.gov/yell/learn/nature/yellowstone-lake.htm",
+        "scope": ""
+      },
+      {
+        "criterion": "lake_elevation",
+        "label": "Höhe über dem Meeresspiegel",
+        "value": 2357,
+        "unit": "m",
+        "source": "https://www.nps.gov/yell/learn/nature/yellowstone-lake.htm",
+        "scope": ""
+      }
+    ]
+  },
+  {
+    "category": "Natur",
+    "name": "Yosemite Falls",
+    "facts": [
+      {
+        "criterion": "waterfall_height",
+        "label": "Gesamthöhe des Wasserfalls",
+        "value": 740,
+        "unit": "m",
+        "source": "https://www.nps.gov/yose/planyourvisit/waterfalls.htm",
+        "scope": "NPS, gerundet"
+      },
+      {
+        "criterion": "upper_fall",
+        "label": "Höhe des oberen Falls",
+        "value": 1430,
+        "unit": "ft",
+        "source": "https://www.nps.gov/yose/planyourvisit/waterfalls.htm",
+        "scope": ""
+      },
+      {
+        "criterion": "lower_fall",
+        "label": "Höhe des unteren Falls",
+        "value": 320,
+        "unit": "ft",
+        "source": "https://www.nps.gov/yose/planyourvisit/waterfalls.htm",
+        "scope": ""
+      }
+    ]
+  },
+  {
+    "category": "Tierwelt",
+    "name": "Weißkopfseeadler",
+    "facts": [
+      {
+        "criterion": "clutch",
+        "label": "Gelegegröße",
+        "value": "1–3",
+        "unit": "Eier",
+        "source": "https://www.allaboutbirds.org/guide/Bald_Eagle/lifehistory",
+        "scope": ""
+      },
+      {
+        "criterion": "egg_length",
+        "label": "Eilänge",
+        "value": "5,8–8,4",
+        "unit": "cm",
+        "source": "https://www.allaboutbirds.org/guide/Bald_Eagle/lifehistory",
+        "scope": ""
+      },
+      {
+        "criterion": "egg_width",
+        "label": "Eibreite",
+        "value": "4,7–6,3",
+        "unit": "cm",
+        "source": "https://www.allaboutbirds.org/guide/Bald_Eagle/lifehistory",
+        "scope": ""
+      },
+      {
+        "criterion": "incubation",
+        "label": "Brutdauer",
+        "value": "34–36",
+        "unit": "Tage",
+        "source": "https://www.allaboutbirds.org/guide/Bald_Eagle/lifehistory",
+        "scope": ""
+      }
+    ]
+  },
+  {
+    "category": "Tierwelt",
+    "name": "Wanderdrossel",
+    "facts": [
+      {
+        "criterion": "clutch",
+        "label": "Gelegegröße",
+        "value": "3–5",
+        "unit": "Eier",
+        "source": "https://www.allaboutbirds.org/guide/American_Robin/lifehistory",
+        "scope": ""
+      },
+      {
+        "criterion": "egg_length",
+        "label": "Eilänge",
+        "value": "2,8–3,0",
+        "unit": "cm",
+        "source": "https://www.allaboutbirds.org/guide/American_Robin/lifehistory",
+        "scope": ""
+      },
+      {
+        "criterion": "egg_width",
+        "label": "Eibreite",
+        "value": "2,1",
+        "unit": "cm",
+        "source": "https://www.allaboutbirds.org/guide/American_Robin/lifehistory",
+        "scope": ""
+      },
+      {
+        "criterion": "incubation",
+        "label": "Brutdauer",
+        "value": "12–14",
+        "unit": "Tage",
+        "source": "https://www.allaboutbirds.org/guide/American_Robin/lifehistory",
+        "scope": ""
+      }
+    ]
+  },
+  {
+    "category": "Sport",
+    "name": "Handball Männer (Harz)",
+    "facts": [
+      {
+        "criterion": "ball_weight",
+        "label": "Regelkonformes Ballgewicht",
+        "value": "425–475",
+        "unit": "g",
+        "source": "https://www.ihf.info/sites/default/files/2025-07/09A%20-%20Rules%20of%20the%20Game_Indoor%20Handball_E.pdf",
+        "scope": "IHF 2025 · Erwachsene · Ballgröße 3 mit Harz"
+      },
+      {
+        "criterion": "pitch_length",
+        "label": "Spielfeldlänge",
+        "value": 40,
+        "unit": "m",
+        "source": "https://www.ihf.info/sites/default/files/2025-07/09A%20-%20Rules%20of%20the%20Game_Indoor%20Handball_E.pdf",
+        "scope": "IHF 2025 · Erwachsene · Ballgröße 3 mit Harz"
+      },
+      {
+        "criterion": "net_height",
+        "label": "Netz- bzw. Torhöhe",
+        "value": 2,
+        "unit": "m",
+        "source": "https://www.ihf.info/sites/default/files/2025-07/09A%20-%20Rules%20of%20the%20Game_Indoor%20Handball_E.pdf",
+        "scope": "IHF 2025 · Erwachsene · Ballgröße 3 mit Harz"
+      }
+    ]
+  },
+  {
+    "category": "Sport",
+    "name": "Volleyball Männer",
+    "facts": [
+      {
+        "criterion": "ball_weight",
+        "label": "Regelkonformes Ballgewicht",
+        "value": "260–280",
+        "unit": "g",
+        "source": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf",
+        "scope": "FIVB 2025–2028 · Halle · Männer"
+      },
+      {
+        "criterion": "pitch_length",
+        "label": "Spielfeldlänge",
+        "value": 18,
+        "unit": "m",
+        "source": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf",
+        "scope": "FIVB 2025–2028 · Halle · Männer"
+      },
+      {
+        "criterion": "net_height",
+        "label": "Netz- bzw. Torhöhe",
+        "value": 2.43,
+        "unit": "m",
+        "source": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf",
+        "scope": "FIVB 2025–2028 · Halle · Männer"
+      }
+    ]
+  },
+  {
+    "category": "Sport",
+    "name": "Beachvolleyball Männer",
+    "facts": [
+      {
+        "criterion": "ball_weight",
+        "label": "Regelkonformes Ballgewicht",
+        "value": "260–280",
+        "unit": "g",
+        "source": "https://www.fivb.com/wp-content/uploads/2025/02/FIVB-BeachVolleyball_Rules2025_2028-EN-v01.pdf",
+        "scope": "FIVB 2025–2028 · Männer"
+      },
+      {
+        "criterion": "pitch_length",
+        "label": "Spielfeldlänge",
+        "value": 16,
+        "unit": "m",
+        "source": "https://www.fivb.com/wp-content/uploads/2025/02/FIVB-BeachVolleyball_Rules2025_2028-EN-v01.pdf",
+        "scope": "FIVB 2025–2028 · Männer"
+      },
+      {
+        "criterion": "net_height",
+        "label": "Netz- bzw. Torhöhe",
+        "value": 2.43,
+        "unit": "m",
+        "source": "https://www.fivb.com/wp-content/uploads/2025/02/FIVB-BeachVolleyball_Rules2025_2028-EN-v01.pdf",
+        "scope": "FIVB 2025–2028 · Männer"
+      }
+    ]
+  },
+  {
+    "category": "Sport",
+    "name": "Fußball (international)",
+    "facts": [
+      {
+        "criterion": "ball_weight",
+        "label": "Regelkonformes Ballgewicht",
+        "value": "410–450",
+        "unit": "g",
+        "source": "https://www.thefa.com/football-rules-governance/lawsandrules/laws/football-11-11/law-2---the-ball",
+        "scope": "IFAB 2026/27 · bei Spielbeginn"
+      },
+      {
+        "criterion": "pitch_length",
+        "label": "Erlaubte Spielfeldlänge",
+        "value": "100–110",
+        "unit": "m",
+        "source": "https://www.theifab.com/laws/latest/the-field-of-play/",
+        "scope": "Internationales Spiel"
+      },
+      {
+        "criterion": "net_height",
+        "label": "Netz- bzw. Torhöhe",
+        "value": 2.44,
+        "unit": "m",
+        "source": "https://www.theifab.com/laws/latest/the-field-of-play/",
+        "scope": "Tor-Innenhöhe"
+      }
+    ]
+  },
+  {
+    "category": "Sport",
+    "name": "Allianz Arena",
+    "facts": [
+      {
+        "criterion": "capacity",
+        "label": "Stadionkapazität",
+        "value": 75024,
+        "unit": "Plätze",
+        "source": "https://allianz-arena.com/en/arena/facts/general-information",
+        "scope": "Gesamtkapazität · Quellenstand 09.10.2026"
+      },
+      {
+        "criterion": "opening",
+        "label": "Stadion-Eröffnungsjahr",
+        "value": 2005,
+        "unit": "",
+        "source": "https://allianz-arena.com/en/arena/facts/general-information",
+        "scope": ""
+      },
+      {
+        "criterion": "pitch_length",
+        "label": "Spielfeldlänge",
+        "value": 105,
+        "unit": "m",
+        "source": "https://allianz-arena.com/en/arena/facts/general-information",
+        "scope": ""
+      }
+    ]
+  },
+  {
+    "category": "Videospiele",
+    "name": "The Legend of Zelda: Breath of the Wild",
+    "facts": [
+      {
+        "criterion": "expansions",
+        "label": "DLC-Pakete im Erweiterungspass",
+        "value": 2,
+        "unit": "Pakete",
+        "source": "https://www.nintendo.com/au/games/nintendo-switch/the-legend-of-zelda-breath-of-the-wild/",
+        "scope": "Switch · The Master Trials und The Champions’ Ballad"
+      }
+    ]
+  },
+  {
+    "category": "Raumfahrt",
+    "name": "Hubble-Weltraumteleskop",
+    "facts": [
+      {
+        "criterion": "mirror",
+        "label": "Hauptspiegeldurchmesser",
+        "value": 2.4,
+        "unit": "m",
+        "source": "https://esahubble.org/about/general/fact_sheet/",
+        "scope": ""
+      }
+    ]
+  },
+  {
+    "category": "Raumfahrt",
+    "name": "James-Webb-Weltraumteleskop",
+    "facts": [
+      {
+        "criterion": "mirror",
+        "label": "Hauptspiegeldurchmesser",
+        "value": 6.5,
+        "unit": "m",
+        "source": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_factsheet",
+        "scope": ""
+      }
+    ]
+  },
+  {
+    "category": "Raumfahrt",
+    "name": "Voyager 1",
+    "facts": [
+      {
+        "criterion": "antenna",
+        "label": "Durchmesser der Hauptantenne",
+        "value": 3.7,
+        "unit": "m",
+        "source": "https://science.nasa.gov/mission/voyager/frequently-asked-questions/",
+        "scope": ""
+      }
+    ]
+  },
+  {
+    "category": "Raumfahrt",
+    "name": "Explorer 1",
+    "facts": [
+      {
+        "criterion": "satellite_length",
+        "label": "Satellitenlänge",
+        "value": 203,
+        "unit": "cm",
+        "source": "https://www.nasa.gov/missions/explorer/explorer-1-fast-facts/",
+        "scope": ""
+      }
+    ]
+  },
+  {
+    "category": "Weltkultur",
+    "name": "Aachener Dom",
+    "facts": [
+      {
+        "criterion": "heritage_criteria",
+        "label": "UNESCO-Aufnahmekriterien",
+        "value": 4,
+        "unit": "Kriterien",
+        "source": "https://whc.unesco.org/en/list/3/",
+        "scope": "Anzahl laut UNESCO-Eintrag"
+      }
+    ]
+  },
+  {
+    "category": "Weltkultur",
+    "name": "Opernhaus Sydney",
+    "facts": [
+      {
+        "criterion": "heritage_criteria",
+        "label": "UNESCO-Aufnahmekriterien",
+        "value": 1,
+        "unit": "Kriterien",
+        "source": "https://whc.unesco.org/en/list/166/",
+        "scope": "Anzahl laut UNESCO-Eintrag"
+      }
+    ]
+  },
+  {
+    "category": "Weltkultur",
+    "name": "Kölner Dom",
+    "facts": [
+      {
+        "criterion": "heritage_criteria",
+        "label": "UNESCO-Aufnahmekriterien",
+        "value": 3,
+        "unit": "Kriterien",
+        "source": "https://whc.unesco.org/en/list/292/",
+        "scope": "Anzahl laut UNESCO-Eintrag"
+      }
+    ]
+  },
+  {
+    "category": "Weltkultur",
+    "name": "Petra",
+    "facts": [
+      {
+        "criterion": "heritage_criteria",
+        "label": "UNESCO-Aufnahmekriterien",
+        "value": 3,
+        "unit": "Kriterien",
+        "source": "https://whc.unesco.org/en/list/326/",
+        "scope": "Anzahl laut UNESCO-Eintrag"
+      }
+    ]
+  }
+]
