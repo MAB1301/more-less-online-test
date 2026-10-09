@@ -1,0 +1,54 @@
+{
+  "verified": "2026-10-09",
+  "main": "071d6dcfffb9a1e5d8fb08613f9b76322d19af8f",
+  "draft_pr": 134,
+  "remote_head_before": "0758f1b052c7975e22b4dee32c811d6c9dcf9212",
+  "open_prs_checked": [
+    134,
+    132,
+    131,
+    130,
+    129,
+    128,
+    127,
+    126,
+    122,
+    109,
+    57
+  ],
+  "pending_metric_matches": [
+    {
+      "pr": 131,
+      "file": "content/research/2026-10-08-tierwelt-pack/sources.json",
+      "line": "+    \"evidence\": \"Schwanz 28–49 cm; Erstbeschreibung westlicher Roter Panda 1825 durch Cuvier; frisst gelegentlich Eier/Vögel/Nagetiere; Pseudodaumen Handwurzelknochen; Familie Ailuridae.\","
+    },
+    {
+      "pr": 126,
+      "file": "content/criteria.json",
+      "line": "+  \"Länder\": [\"Küstenlänge\", \"Lebenserwartung\", \"Waldanteil\", \"Nachbarländer\"],"
+    },
+    {
+      "pr": 126,
+      "file": "content/criteria.json",
+      "line": "+  \"Tierwelt\": [\"Körperlänge\", \"Flügelspannweite\", \"Lebenserwartung\", \"Wurfgröße\"],"
+    }
+  ],
+  "daily": {
+    "project": "rnwsbgzdrttqtivrwnxo",
+    "read_only": true,
+    "matching_metric": "Reguläre Spielzeit für Erwachsene ohne Verlängerung",
+    "assessment": "Sport-Spielzeit bestehend, keine Grundspiel-Spielzeiten. Kein Treffer für neue Kriterien; Nationalpark-Gründungsjahre sind ein anderes Kriterium als Besuche."
+  },
+  "excluded": [
+    "Wingspan-Spielzeit: widersprüchliche Verlagsspannen 40–70 / 40–90",
+    "Škoda-Gesamtsummen: widersprüchlich; nur Modell-Kacheln",
+    "USGS-Flussdaten: nicht zuverlässig abrufbar",
+    "Asien 53,9 ±0,1 °C gegen WMO-VI 54,0 °C: überlappende Unsicherheit",
+    "Unbestimmte Einzel-Brutdauern: keine behaupteten Bereichsobergrenzen"
+  ],
+  "source_count": 40,
+  "question_count_added_this_update": 180,
+  "package_count": 200,
+  "full_pr_extension_count": 208,
+  "live_mutations": 0
+}

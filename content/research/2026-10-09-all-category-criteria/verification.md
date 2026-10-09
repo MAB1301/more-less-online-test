@@ -1,5 +1,7 @@
 # Verification — 2026-10-09
 
+Historical initial 20-row stage. Superseded by `../2026-10-09-twenty-per-category/README.md`: 200 package rows, 20 per category, and 208 full PR extension rows; latest Main merged and all checks rerun. Counts below describe the earlier stage only.
+
 - Main inspected: e29818b965841ab046b2ba0efdfdbda9eead82e5. Open PRs through #137 inspected; no conflicting new question rows found. Menu work in #137 is preserved and not incorporated without its review.
 - Daily catalogue: read-only targeted metric/unit scan in Marc returned zero matching More/Less rows. No SQL mutation.
 - `node scripts/build-playable-criteria.mjs --check`: passed, 28 rows total including earlier eight; 20 new, exactly two for each of ten categories. All source dates and card/detail paths valid.

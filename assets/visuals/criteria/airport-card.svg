@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="540" viewBox="0 0 720 540" role="img" aria-label="Antwortneutrale Themenillustration: Flughafen">
+<metadata>Original artwork; CC0-1.0; thematic illustration, not a scaled depiction or answer hint. No third-party photos or logos.</metadata>
+<defs><radialGradient id="bg"><stop stop-color="#29395a"/><stop offset="1" stop-color="#0b1226"/></radialGradient><linearGradient id="ink" x2="1" y2="1"><stop stop-color="#9bd8ff"/><stop offset="1" stop-color="#7162bf"/></linearGradient><filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="12"/></filter></defs>
+<rect width="720" height="540" rx="28" fill="url(#bg)"/><rect x="22" y="22" width="676" height="496" rx="22" fill="none" stroke="#9bd8ff" stroke-opacity=".25" stroke-width="2"/>
+<ellipse cx="360" cy="270" rx="225" ry="180" fill="#9bd8ff" opacity=".07" filter="url(#glow)"/>
+<g transform="translate(360 257)" fill="url(#ink)" stroke="#9bd8ff" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"><path d="M-180 95H180V40H-180Z"/><path d="M-115 40V-65H-45V40M-130-65H-30V-100H-130Z"/><path d="M45 10V-120M45-110L-35-40L45-60L125-40ZM45-5L15 22L45 10L75 22Z"/><path d="M-155 65H-115M-85 65H-45M-15 65H25M55 65H95M125 65H155" fill="none" stroke="#182942"/></g>
+<text x="360" y="478" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#edf0ff">Flughafen</text>
+</svg>

@@ -1,6 +1,12 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 const themes={
+ airport:{title:'Flughafen',accent:'#9bd8ff',art:'<path d="M-180 95H180V40H-180Z"/><path d="M-115 40V-65H-45V40M-130-65H-30V-100H-130Z"/><path d="M45 10V-120M45-110L-35-40L45-60L125-40ZM45-5L15 22L45 10L75 22Z"/><path d="M-155 65H-115M-85 65H-45M-15 65H25M55 65H95M125 65H155" fill="none" stroke="#182942"/>'},
+ forest:{title:'Wald',accent:'#9de7b7',art:'<path d="M-155 70L-95-75L-35 70ZM-70 95L10-125L90 95ZM60 75L125-65L190 75Z"/><path d="M-95 70V120M10 95V135M125 75V120" fill="none"/>'},
+ wellbeing:{title:'Lebenserwartung',accent:'#efadd7',art:'<circle cx="-105" cy="-58" r="38"/><path d="M-166 100V28Q-105-30-44 28V100Z"/><path d="M28-52Q58-98 94-57Q135-98 163-52Q190-8 94 68Q0-8 28-52Z"/><path d="M18 117H160" fill="none"/>'},
+ skyline:{title:'Architektur',accent:'#b6c7ff',art:'<path d="M-175 125V-30H-90V125M-58 125V-135H38V125M70 125V-75H170V125Z"/><path d="M-15-135V-165M-145 0H-115M-145 40H-115M-145 80H-115M-28-100H8M-28-55H8M-28-10H8M-28 35H8M-28 80H8M100-40H140M100 5H140M100 50H140M100 95H140" fill="none"/>'},
+ park:{title:'Nationalparks',accent:'#a4dfc4',art:'<path d="M-190 85L-90-100L20 85L100-125L195 85Z" fill="#334969"/><path d="M-190 95Q-80 5 15 100Q95 25 190 105V145H-190Z"/><path d="M-130 70L-93-18L-56 70ZM100 75L135-5L170 75Z" fill="#155951"/><path d="M-93 70V110M135 75V115" fill="none"/>'},
+ football:{title:'Bundesliga',accent:'#c1e5b0',art:'<rect x="-185" y="-118" width="370" height="236" rx="10" fill="#214d48"/><path d="M0-118V118M-185-62H-130V62H-185M185-62H130V62H185" fill="none"/><circle r="50" fill="none"/><circle r="20"/><path d="M-150-85H-165V-100M150 85H165V100" fill="none"/>'},
  birds:{title:'Vögel',accent:'#a2e6c0',art:'<path d="M-180 55 Q-110-110 0-15 Q110-110 180 55 Q100 5 55 65 Q0 105-55 65 Q-100 5-180 55Z"/><path d="M0-15V110M-90 22L-38 48M90 22L38 48" fill="none"/>'},
  observation:{title:'Aussicht',accent:'#e6b7ff',art:'<path d="M-52 100L-30-65H30L52 100Z"/><path d="M-100-65H100V-25H-100ZM-60-95H60V-65H-60Z"/><path d="M0-95V-135M-28 100V15H28V100" fill="none"/><path d="M-170 25Q-150-5-115 8M115 8Q150-5 170 25" fill="none"/>'},
  metro:{title:'U-Bahn',accent:'#98caff',art:'<rect x="-108" y="-110" width="216" height="220" rx="40"/><path d="M-75-72H75V15H-75Z" fill="#102848"/><path d="M0-72V15M-65 130L-100 165M65 130L100 165" fill="none"/><circle cx="-58" cy="62" r="14" fill="#102848"/><circle cx="58" cy="62" r="14" fill="#102848"/><path d="M-32-128H32" fill="none"/>'},
@@ -23,4 +29,4 @@ for(const [name,t] of Object.entries(themes))for(const kind of ['card','detail']
  const path='assets/visuals/criteria/'+name+'-'+kind+'.svg';
  if(process.argv.includes('--check'))assert.equal(fs.readFileSync(path,'utf8'),svg);else fs.writeFileSync(path,svg);
 }
-console.log('PASS: 18 deterministic original neutral illustrations, 4:3 cards / 16:9 details');
+console.log('PASS: 30 deterministic original neutral illustrations, 4:3 cards / 16:9 details');

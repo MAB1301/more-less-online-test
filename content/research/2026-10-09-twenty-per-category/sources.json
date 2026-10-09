@@ -1,0 +1,322 @@
+{
+  "zoo-ostrich": {
+    "publisher": "San Diego Zoo Wildlife Alliance",
+    "url": "https://animals.sandiegozoo.org/animals/ostrich",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Veröffentlichte Bereichsobergrenzen; Zoo-Übersichten teils über mehrere Arten. Übliche Gelegegrößen, keine garantierten biologischen Maxima.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "zoo-cassowary": {
+    "publisher": "San Diego Zoo Wildlife Alliance",
+    "url": "https://animals.sandiegozoo.org/animals/cassowary",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Veröffentlichte Bereichsobergrenzen; Zoo-Übersichten teils über mehrere Arten. Übliche Gelegegrößen, keine garantierten biologischen Maxima.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "zoo-flamingo": {
+    "publisher": "San Diego Zoo Wildlife Alliance",
+    "url": "https://animals.sandiegozoo.org/animals/flamingo",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Veröffentlichte Bereichsobergrenzen; Zoo-Übersichten teils über mehrere Arten. Übliche Gelegegrößen, keine garantierten biologischen Maxima.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "zoo-peafowl": {
+    "publisher": "San Diego Zoo Wildlife Alliance",
+    "url": "https://animals.sandiegozoo.org/animals/peafowl",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Veröffentlichte Bereichsobergrenzen; Zoo-Übersichten teils über mehrere Arten. Übliche Gelegegrößen, keine garantierten biologischen Maxima.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "zoo-crane": {
+    "publisher": "San Diego Zoo Wildlife Alliance",
+    "url": "https://animals.sandiegozoo.org/animals/crane",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Veröffentlichte Bereichsobergrenzen; Zoo-Übersichten teils über mehrere Arten. Übliche Gelegegrößen, keine garantierten biologischen Maxima.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "zoo-stork": {
+    "publisher": "San Diego Zoo Wildlife Alliance",
+    "url": "https://animals.sandiegozoo.org/animals/stork",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Veröffentlichte Bereichsobergrenzen; Zoo-Übersichten teils über mehrere Arten. Übliche Gelegegrößen, keine garantierten biologischen Maxima.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "zoo-kiwi": {
+    "publisher": "San Diego Zoo Wildlife Alliance",
+    "url": "https://animals.sandiegozoo.org/animals/kiwi",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Veröffentlichte Bereichsobergrenzen; Zoo-Übersichten teils über mehrere Arten. Übliche Gelegegrößen, keine garantierten biologischen Maxima.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "zoo-secretary-bird": {
+    "publisher": "San Diego Zoo Wildlife Alliance",
+    "url": "https://animals.sandiegozoo.org/animals/secretary-bird",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Veröffentlichte Bereichsobergrenzen; Zoo-Übersichten teils über mehrere Arten. Übliche Gelegegrößen, keine garantierten biologischen Maxima.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "zoo-emu": {
+    "publisher": "San Diego Zoo Wildlife Alliance",
+    "url": "https://animals.sandiegozoo.org/animals/emu",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Veröffentlichte Bereichsobergrenzen; Zoo-Übersichten teils über mehrere Arten. Übliche Gelegegrößen, keine garantierten biologischen Maxima.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "zoo-bald-eagle": {
+    "publisher": "San Diego Zoo Wildlife Alliance",
+    "url": "https://animals.sandiegozoo.org/animals/bald-eagle",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Veröffentlichte Bereichsobergrenzen; Zoo-Übersichten teils über mehrere Arten. Übliche Gelegegrößen, keine garantierten biologischen Maxima.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "cvu": {
+    "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+    "url": "https://www.skyscrapercenter.com/buildings",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Fertiggestellte Gebäude; Architekturhöhe inkl. Spitzen, ohne technische Antennen. Gerundete Meter der Tabelle am 09.10.2026, keine exakten Messwerte.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "aci2025": {
+    "publisher": "Airports Council International World",
+    "url": "https://aci.aero/resources/busiest-airports-in-the-world/",
+    "verified": "2026-10-09",
+    "data_year": 2025,
+    "limits": "Bestätigte Jahresstatistik 2025. Passagiere: ankommend+abfliegend, Transit einmal. Bewegungen: Start/Landung. Einzelner benannter Flughafen, keine Stadtgesamtsumme.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "wb-forest": {
+    "publisher": "World Bank / World Development Indicators",
+    "url": "https://api.worldbank.org/v2/country/DEU;AUT;FRA;ITA;ESP;PRT;NLD;BEL;POL;CZE;SVK;HUN;SVN;HRV;SWE;NOR;FIN;DNK/indicator/AG.LND.FRST.ZS?date=2023&format=json&per_page=100",
+    "verified": "2026-10-09",
+    "data_year": 2023,
+    "limits": "Waldanteil an Landfläche, FAO/WDI-Definition; kein Anteil der Gesamtfläche inkl. Binnengewässer.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "wb-life": {
+    "publisher": "World Bank / World Development Indicators",
+    "url": "https://api.worldbank.org/v2/country/DEU;AUT;FRA;ITA;ESP;PRT;NLD;BEL;POL;CZE;SVK;HUN;SVN;HRV;SWE;NOR;FIN;DNK/indicator/SP.DYN.LE00.IN?date=2023&format=json&per_page=100",
+    "verified": "2026-10-09",
+    "data_year": 2023,
+    "limits": "Lebenserwartung bei Geburt, beide Geschlechter zusammen. Periodenindikator, keine individuelle Lebensprognose.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "nps2025": {
+    "publisher": "U.S. National Park Service",
+    "url": "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm",
+    "verified": "2026-10-09",
+    "data_year": 2025,
+    "limits": "Recreation visits, keine eindeutigen Personen. Nur National Parks der veröffentlichten Top-10.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "nps2024": {
+    "publisher": "U.S. National Park Service (Originalbericht, archiviert bei NPSHistory)",
+    "url": "https://npshistory.com/publications/visitation/annual-park-ranking/2024.pdf",
+    "verified": "2026-10-09",
+    "data_year": 2024,
+    "limits": "Annual Park Ranking Report: Recreation Visits 2024, Seite 1. Primärdokument über Archivspiegel; Original-IRMA-Link nicht zuverlässig abrufbar.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "bundesliga2425": {
+    "publisher": "Bundesliga / DFL",
+    "url": "https://www.bundesliga.com/en/bundesliga/table/2024-2025",
+    "verified": "2026-10-09",
+    "data_year": "2024/25",
+    "limits": "Abgeschlossene Bundesliga-Saison, 34 Spiele je Verein, offizielle Tabelle inklusive administrativer Wertung Union–Bochum (0:2). Kein Frauen/Männer- oder Distanzvergleich.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "skoda-prod": {
+    "publisher": "Škoda Auto Annual Report 2025",
+    "url": "https://reporting.skoda-auto.com/production/worldwide",
+    "verified": "2026-10-09",
+    "data_year": 2025,
+    "limits": "Einzelne Modell-Kacheln, weltweite Produktion. Widersprüchliche Gesamtsummen der Webseite nicht verwendet. Enyaq und Coupé getrennt; Octavia ohne Pro, Kamiq ohne GT.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "skoda-sales": {
+    "publisher": "Škoda Auto Annual Report 2025",
+    "url": "https://reporting.skoda-auto.com/marketing",
+    "verified": "2026-10-09",
+    "data_year": 2025,
+    "limits": "Einzelne Modell-Kacheln, weltweite Kundenauslieferungen. Octavia ohne separat aufgeführtes Pro; Kamiq ohne GT. Auslieferung ist nicht Produktion.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "disney-toy-story": {
+    "publisher": "Disney Movies (offizieller englischsprachiger Filmkatalog)",
+    "url": "https://movies.disney.com/toy-story",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Runtime und Release Date dieser Katalogseite; kein länderübergreifender Kinostartvergleich, keine Extended/TV-Version.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "disney-toy-story-4": {
+    "publisher": "Disney Movies (offizieller englischsprachiger Filmkatalog)",
+    "url": "https://movies.disney.com/toy-story-4",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Runtime und Release Date dieser Katalogseite; kein länderübergreifender Kinostartvergleich, keine Extended/TV-Version.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "disney-inside-out": {
+    "publisher": "Disney Movies (offizieller englischsprachiger Filmkatalog)",
+    "url": "https://movies.disney.com/inside-out",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Runtime und Release Date dieser Katalogseite; kein länderübergreifender Kinostartvergleich, keine Extended/TV-Version.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "disney-coco": {
+    "publisher": "Disney Movies (offizieller englischsprachiger Filmkatalog)",
+    "url": "https://movies.disney.com/coco",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Runtime und Release Date dieser Katalogseite; kein länderübergreifender Kinostartvergleich, keine Extended/TV-Version.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "disney-soul": {
+    "publisher": "Disney Movies (offizieller englischsprachiger Filmkatalog)",
+    "url": "https://movies.disney.com/soul",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Runtime und Release Date dieser Katalogseite; kein länderübergreifender Kinostartvergleich, keine Extended/TV-Version.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "disney-encanto": {
+    "publisher": "Disney Movies (offizieller englischsprachiger Filmkatalog)",
+    "url": "https://movies.disney.com/encanto",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Runtime und Release Date dieser Katalogseite; kein länderübergreifender Kinostartvergleich, keine Extended/TV-Version.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "disney-brave": {
+    "publisher": "Disney Movies (offizieller englischsprachiger Filmkatalog)",
+    "url": "https://movies.disney.com/brave",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Runtime und Release Date dieser Katalogseite; kein länderübergreifender Kinostartvergleich, keine Extended/TV-Version.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "disney-moana": {
+    "publisher": "Disney Movies (offizieller englischsprachiger Filmkatalog)",
+    "url": "https://movies.disney.com/moana",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Runtime und Release Date dieser Katalogseite; kein länderübergreifender Kinostartvergleich, keine Extended/TV-Version.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "disney-zootopia": {
+    "publisher": "Disney Movies (offizieller englischsprachiger Filmkatalog)",
+    "url": "https://movies.disney.com/zootopia",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Runtime und Release Date dieser Katalogseite; kein länderübergreifender Kinostartvergleich, keine Extended/TV-Version.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "disney-tangled": {
+    "publisher": "Disney Movies (offizieller englischsprachiger Filmkatalog)",
+    "url": "https://movies.disney.com/tangled",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Runtime und Release Date dieser Katalogseite; kein länderübergreifender Kinostartvergleich, keine Extended/TV-Version.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "disney-the-incredibles": {
+    "publisher": "Disney Movies (offizieller englischsprachiger Filmkatalog)",
+    "url": "https://movies.disney.com/the-incredibles",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Runtime und Release Date dieser Katalogseite; kein länderübergreifender Kinostartvergleich, keine Extended/TV-Version.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "game-catan": {
+    "publisher": "Offizieller Spieleverlag",
+    "url": "https://www.catan.com/catan",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Grundspiel der angegebenen aktuellen Verlagsseite; keine Erweiterung. Alter ist Verlagsempfehlung, keine gesetzliche Freigabe.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "game-ticket": {
+    "publisher": "Offizieller Spieleverlag",
+    "url": "https://www.daysofwonder.com/de/game/ticket-to-ride/",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Grundspiel der angegebenen aktuellen Verlagsseite; keine Erweiterung. Alter ist Verlagsempfehlung, keine gesetzliche Freigabe.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "game-azul": {
+    "publisher": "Offizieller Spieleverlag",
+    "url": "https://www.nextmove-games.com/de/azul/azul-game/",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Grundspiel der angegebenen aktuellen Verlagsseite; keine Erweiterung. Alter ist Verlagsempfehlung, keine gesetzliche Freigabe.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "game-splendor": {
+    "publisher": "Offizieller Spieleverlag",
+    "url": "https://www.spacecowboys-games.com/game/splendor/",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Grundspiel der angegebenen aktuellen Verlagsseite; keine Erweiterung. Alter ist Verlagsempfehlung, keine gesetzliche Freigabe.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "game-dixit": {
+    "publisher": "Offizieller Spieleverlag",
+    "url": "https://www.libellud.com/game/dixit/",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Grundspiel der angegebenen aktuellen Verlagsseite; keine Erweiterung. Alter ist Verlagsempfehlung, keine gesetzliche Freigabe.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "game-7wonders": {
+    "publisher": "Offizieller Spieleverlag",
+    "url": "https://www.rprod.com/en/games/7-wonders",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Grundspiel der angegebenen aktuellen Verlagsseite; keine Erweiterung. Alter ist Verlagsempfehlung, keine gesetzliche Freigabe.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "game-carcassonne": {
+    "publisher": "Offizieller Spieleverlag",
+    "url": "https://www.hans-im-glueck.de/unsere-spiele/familienspiele/",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Grundspiel der angegebenen aktuellen Verlagsseite; keine Erweiterung. Alter ist Verlagsempfehlung, keine gesetzliche Freigabe.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "game-pandemic": {
+    "publisher": "Offizieller Spieleverlag",
+    "url": "https://www.zmangames.com/game/pandemic/",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Grundspiel der angegebenen aktuellen Verlagsseite; keine Erweiterung. Alter ist Verlagsempfehlung, keine gesetzliche Freigabe.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "game-wingspan": {
+    "publisher": "Offizieller Spieleverlag",
+    "url": "https://store.stonemaiergames.com/products/wingspan",
+    "verified": "2026-10-09",
+    "data_year": null,
+    "limits": "Nur Spielerzahl: widersprüchliche Spielzeit 40–70/40–90 nicht verwendet.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  },
+  "wmo-regions": {
+    "publisher": "World Meteorological Organization",
+    "url": "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+    "verified": "2026-10-09",
+    "data_year": 2025,
+    "limits": "Feste Archiv-Ausgabe mit Tabellenkopf 31.07.2025; historische Einzelereignisse mit verschiedenen Jahren, kein aktueller Klimamittelwert. WMO-Regionen und Europa kontinental ausdrücklich getrennt.",
+    "rounding": "Siehe kriterienspezifische Rundungsregel im Datensatz."
+  }
+}
