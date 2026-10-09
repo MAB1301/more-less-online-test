@@ -104,6 +104,260 @@
       "review_interval_days": 90,
       "next_review": "2027-01-07",
       "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-incubation",
+      "metric": "Brutdauer-Obergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/ostrich",
+        "https://animals.sandiegozoo.org/animals/cassowary"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-clutch",
+      "metric": "Gelegegröße-Obergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/bald-eagle",
+        "https://animals.sandiegozoo.org/animals/ostrich"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-platform-tokyo",
+      "metric": "Aussichtsebenen-Höhe",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.cntower.ca/explore-the-tower",
+        "https://www.tobu.co.jp/en/cp/tokyoskytreetown/skytree/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-platform-paris",
+      "metric": "Aussichtsebenen-Höhe",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.toureiffel.paris/fr/decouvrir/sommet",
+        "https://www.cntower.ca/explore-the-tower"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-metro-stations",
+      "metric": "U-Bahn-Stationsbestand",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.bvg.de/de/unternehmen/ueber-uns",
+        "https://www.hochbahn.de/de/betrieb/u-bahn-streckennetz"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-metro-lines",
+      "metric": "U-Bahn-Linienzahl",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.bvg.de/de/unternehmen/ueber-uns",
+        "https://www.hochbahn.de/de/betrieb/u-bahn-streckennetz"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-peak-si-de",
+      "metric": "Höchster nationaler Gipfel",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.slovenia.info/en/stories/triglav-tips-for-a-safe-and-responsible-ascent",
+        "https://zugspitze.de/en/Our-mountain-worlds/The-areas/Zugspitze"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-peak-at-de",
+      "metric": "Höchster nationaler Gipfel",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://zugspitze.de/en/Our-mountain-worlds/The-areas/Zugspitze",
+        "https://www.grossglockner.at/en/for-your-visit/FAQ"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-falls-nevada",
+      "metric": "Einzelwasserfall-Höhe",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.nps.gov/yose/planyourvisit/waterfalls.htm"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-falls-vernal",
+      "metric": "Einzelwasserfall-Höhe",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.nps.gov/yose/planyourvisit/waterfalls.htm"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-ball-resin",
+      "metric": "Norm-Ballgewichtsobergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.theifab.com/laws/2025-26/the-ball/",
+        "https://www.ihf.info/sites/default/files/2025-02/09A%20-%20Rules%20of%20the%20Game_Indoor%20Handball_E.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-ball-noresin",
+      "metric": "Norm-Ballgewichtsobergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.theifab.com/laws/2025-26/the-ball/",
+        "https://www.ihf.info/sites/default/files/2025-02/09A%20-%20Rules%20of%20the%20Game_Indoor%20Handball_E.pdf"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-car-turn",
+      "metric": "Wendekreis",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.skoda-storyboard.com/de/modelle-de/smarte-cityflitzer-von-skoda/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-car-boot",
+      "metric": "Standard-Kofferraumvolumen",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.skoda-storyboard.com/de/modelle-de/smarte-cityflitzer-von-skoda/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-film-cars",
+      "metric": "Disney-Katalogfilmlaufzeit",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://movies.disney.com/cars",
+        "https://movies.disney.com/ratatouille"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-film-monsters",
+      "metric": "Disney-Katalogfilmlaufzeit",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://movies.disney.com/ratatouille",
+        "https://movies.disney.com/monsters-inc"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-board-catan",
+      "metric": "Verlags-Spielzeitobergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.catan.com/catan",
+        "https://www.daysofwonder.com/de/game/ticket-to-ride/"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-board-azul",
+      "metric": "Verlags-Spielzeitobergrenze",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.daysofwonder.com/de/game/ticket-to-ride/",
+        "https://www.nextmove-games.com/de/azul/azul-game/"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-span-eu-na",
+      "metric": "Kontinentale Rekordtemperaturspanne",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "allcat-span-na-sa",
+      "metric": "Kontinentale Rekordtemperaturspanne",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
     }
   ]
 }

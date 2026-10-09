@@ -1,0 +1,41 @@
+{
+  "checked": "2026-10-09",
+  "main": "e29818b965841ab046b2ba0efdfdbda9eead82e5",
+  "open_prs": [
+    137,
+    134,
+    132,
+    131,
+    130,
+    129,
+    128,
+    127,
+    126,
+    122,
+    109,
+    57
+  ],
+  "pending_check": "Added question rows screened for metric/subject pairs in all open PR patches. New #137 also checked: menu/layout only, no new question rows. #126 has criterion templates, not duplicate question rows. National summit height already exists in Main for different country pairs; these are two new pairs, not a newly invented metric.",
+  "daily_check": "Read-only ml_private.daily_catalogue in Marc rnwsbgzdrttqtivrwnxo: targeted More/Less metric/unit scan returned zero rows.",
+  "review_schedule": "No records overdue at 2026-10-09.",
+  "scope": "Exactly two new comparisons in each of ten categories; not the earlier 20-per-category quota.",
+  "excluded": [
+    {
+      "topic": "Seetiefe",
+      "reason": "USGS lake surveys from different years; same-reference waterfall heights preferred."
+    },
+    {
+      "topic": "Schweizer Gipfelhöhe",
+      "reason": "Official published elevations conflicted (4634/4636 m); excluded."
+    },
+    {
+      "topic": "Vienna metro counts",
+      "reason": "Full statistical PDF could not be read reliably; no question from its search-only count."
+    }
+  ],
+  "uncertainties": [
+    "Skytree English detail page 403: TOBU parent operator read, official search excerpt corroborates height.",
+    "Undated operator and publisher snapshots have no invented statistical measurement year.",
+    "Disney catalogue runtimes intentionally differ from commonly cited original cinema runtimes."
+  ]
+}

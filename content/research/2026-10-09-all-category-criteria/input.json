@@ -1,0 +1,442 @@
+{
+  "status": "review-ready",
+  "base_commit": "e29818b965841ab046b2ba0efdfdbda9eead82e5",
+  "moreless": [
+    {
+      "id": "allcat-incubation",
+      "cat": "Tierwelt",
+      "l": "Strauß (Brutdauer-Spanne)",
+      "r": "Kasuar (Zoo-Artenübersicht)",
+      "lv": 46,
+      "rv": 56,
+      "u": "Tage · obere Brutdauergrenze laut Zoo-Artenübersicht",
+      "metric": "Brutdauer-Obergrenze",
+      "subcategory": "Brutdauer-Obergrenze",
+      "source_refs": [
+        "ostrich",
+        "cassowary"
+      ],
+      "verified": "2026-10-09",
+      "data_year": null,
+      "time_dependent": false,
+      "illustration": "birds",
+      "notes": "Bereichsobergrenzen 42–46 bzw. 49–56 Tage; nicht Durchschnitt oder exakte Dauer jedes Geleges.",
+      "prompt": "Welches Tier hat die höhere obere Brutdauergrenze in der Zoo-Übersicht?"
+    },
+    {
+      "id": "allcat-clutch",
+      "cat": "Tierwelt",
+      "l": "Weißkopfseeadler (Gelege)",
+      "r": "Strauß (Eier je Weibchen)",
+      "lv": 3,
+      "rv": 10,
+      "u": "Eier · obere Gelegegrenze je Weibchen laut Zoo",
+      "metric": "Gelegegröße-Obergrenze",
+      "subcategory": "Gelegegröße-Obergrenze",
+      "source_refs": [
+        "eagle",
+        "ostrich"
+      ],
+      "verified": "2026-10-09",
+      "data_year": null,
+      "time_dependent": false,
+      "illustration": "birds",
+      "notes": "Bereiche 1–3 bzw. 7–10 Eier; nicht 60 Eier im gemeinschaftlichen Straußennest.",
+      "prompt": "Welches Tier hat die höhere obere Eierzahl je Weibchen und Gelege?"
+    },
+    {
+      "id": "allcat-platform-tokyo",
+      "cat": "Bauwerke",
+      "l": "CN Tower – The Top",
+      "r": "Tokyo Skytree – Tembo Galleria Floor 450",
+      "lv": 447,
+      "rv": 450,
+      "u": "m · Höhe benannter Aussichtsebenen über dem Boden",
+      "metric": "Aussichtsebenen-Höhe",
+      "subcategory": "Aussichtsebenen-Höhe",
+      "source_refs": [
+        "cntower",
+        "skytree"
+      ],
+      "verified": "2026-10-09",
+      "data_year": null,
+      "time_dependent": false,
+      "illustration": "observation",
+      "notes": "Benannte Betreiber-Aussichtsebenen, nicht Gesamthöhe der Bauwerke. Skytree-Zahl direkt bei Betreibergruppe und durch offiziellen Suchauszug belegt.",
+      "prompt": "Welche benannte Aussichtsebene liegt höher über dem Boden?"
+    },
+    {
+      "id": "allcat-platform-paris",
+      "cat": "Bauwerke",
+      "l": "Eiffelturm – Sommet",
+      "r": "CN Tower – The Top",
+      "lv": 276,
+      "rv": 447,
+      "u": "m · Höhe benannter Aussichtsebenen über dem Boden",
+      "metric": "Aussichtsebenen-Höhe",
+      "subcategory": "Aussichtsebenen-Höhe",
+      "source_refs": [
+        "eiffel",
+        "cntower"
+      ],
+      "verified": "2026-10-09",
+      "data_year": null,
+      "time_dependent": false,
+      "illustration": "observation",
+      "notes": "Betreiberangaben für benannte Ebenen; keine Antennenhöhe.",
+      "prompt": "Welche benannte Aussichtsebene liegt höher über dem Boden?"
+    },
+    {
+      "id": "allcat-metro-stations",
+      "cat": "Städte",
+      "l": "BVG Berlin (gesamtes U-Bahn-Netz)",
+      "r": "Hochbahn Hamburg (gesamtes U-Bahn-Netz)",
+      "lv": 175,
+      "rv": 93,
+      "u": "Stationen · gesamtes U-Bahn-Betreibernetz (Abruf 09.10.2026)",
+      "metric": "U-Bahn-Stationsbestand",
+      "subcategory": "U-Bahn-Stationsbestand",
+      "source_refs": [
+        "bvg",
+        "hochbahn"
+      ],
+      "verified": "2026-10-09",
+      "data_year": null,
+      "time_dependent": true,
+      "illustration": "metro",
+      "notes": "Bestand laut Betreiber; nicht innerhalb kommunaler Grenzen und nicht Summe mehrfach gezählter Umsteigehalte.",
+      "as_of": "2026-10-09",
+      "prompt": "Welches gesamte U-Bahn-Betreibernetz hat mehr Stationen?"
+    },
+    {
+      "id": "allcat-metro-lines",
+      "cat": "Städte",
+      "l": "BVG Berlin (U-Bahn-Linien)",
+      "r": "Hochbahn Hamburg (U-Bahn-Linien)",
+      "lv": 9,
+      "rv": 4,
+      "u": "Linien · U-Bahn-Betreibernetz (Abruf 09.10.2026)",
+      "metric": "U-Bahn-Linienzahl",
+      "subcategory": "U-Bahn-Linienzahl",
+      "source_refs": [
+        "bvg",
+        "hochbahn"
+      ],
+      "verified": "2026-10-09",
+      "data_year": null,
+      "time_dependent": true,
+      "illustration": "metro",
+      "notes": "Benannte U-Bahn-Linien; keine S-Bahn, Straßenbahn oder Baustellen-Sonderlinie.",
+      "as_of": "2026-10-09",
+      "prompt": "Welches U-Bahn-Betreibernetz hat mehr Linien?"
+    },
+    {
+      "id": "allcat-peak-si-de",
+      "cat": "Länder",
+      "l": "Slowenien (Triglav, höchster Gipfel)",
+      "r": "Deutschland (Zugspitze, höchster Gipfel)",
+      "lv": 2864,
+      "rv": 2962,
+      "u": "m · höchster nationaler Gipfel laut offizieller Landes-/Betreiberseite",
+      "metric": "Höchster nationaler Gipfel",
+      "subcategory": "Höchster nationaler Gipfel",
+      "source_refs": [
+        "triglav",
+        "zugspitze"
+      ],
+      "verified": "2026-10-09",
+      "data_year": null,
+      "time_dependent": false,
+      "illustration": "summit",
+      "notes": "Ganze veröffentlichte Meter über Meer; kein submeter-genauer Vergleich identischer nationaler Höhendatums-Systeme.",
+      "prompt": "Welches Land hat den höheren höchsten Gipfel?"
+    },
+    {
+      "id": "allcat-peak-at-de",
+      "cat": "Länder",
+      "l": "Deutschland (Zugspitze, höchster Gipfel)",
+      "r": "Österreich (Großglockner, höchster Gipfel)",
+      "lv": 2962,
+      "rv": 3798,
+      "u": "m · höchster nationaler Gipfel laut offizieller Landes-/Betreiberseite",
+      "metric": "Höchster nationaler Gipfel",
+      "subcategory": "Höchster nationaler Gipfel",
+      "source_refs": [
+        "zugspitze",
+        "glockner"
+      ],
+      "verified": "2026-10-09",
+      "data_year": null,
+      "time_dependent": false,
+      "illustration": "summit",
+      "notes": "Ganze veröffentlichte Meter über Meer; nicht höchster Gipfel ausschließlich innerhalb der Landesgrenze.",
+      "prompt": "Welches Land hat den höheren höchsten Gipfel?"
+    },
+    {
+      "id": "allcat-falls-nevada",
+      "cat": "Natur",
+      "l": "Nevada Fall (einzelner Wasserfall)",
+      "r": "Bridalveil Fall (einzelner Wasserfall)",
+      "lv": 594,
+      "rv": 620,
+      "u": "ft · Höhe einzelner Wasserfälle laut NPS (Stand 12.05.2026)",
+      "metric": "Einzelwasserfall-Höhe",
+      "subcategory": "Einzelwasserfall-Höhe",
+      "source_refs": [
+        "waterfalls"
+      ],
+      "verified": "2026-10-09",
+      "data_year": null,
+      "time_dependent": false,
+      "illustration": "waterfall",
+      "notes": "Original-Fußangaben derselben NPS-Übersicht; nicht gerundete Meterwerte.",
+      "as_of": "2026-05-12",
+      "prompt": "Welcher einzelne Wasserfall ist laut NPS höher?"
+    },
+    {
+      "id": "allcat-falls-vernal",
+      "cat": "Natur",
+      "l": "Lower Yosemite Fall (nur unterer Fall)",
+      "r": "Vernal Fall (einzelner Wasserfall)",
+      "lv": 320,
+      "rv": 317,
+      "u": "ft · Höhe einzelner Wasserfälle laut NPS (Stand 12.05.2026)",
+      "metric": "Einzelwasserfall-Höhe",
+      "subcategory": "Einzelwasserfall-Höhe",
+      "source_refs": [
+        "waterfalls"
+      ],
+      "verified": "2026-10-09",
+      "data_year": null,
+      "time_dependent": false,
+      "illustration": "waterfall",
+      "notes": "Lower Yosemite 320 ft ist nicht die gesamte mehrstufige Yosemite-Falls-Kaskade; Vergleich gleicher einzelnen Fallhöhen.",
+      "as_of": "2026-05-12",
+      "prompt": "Welcher einzelne Wasserfall ist laut NPS höher?"
+    },
+    {
+      "id": "allcat-ball-resin",
+      "cat": "Sport",
+      "l": "Fußball (IFAB 2025/26)",
+      "r": "Hallenhandball Größe 3 mit Harz (IHF 2025)",
+      "lv": 450,
+      "rv": 475,
+      "u": "g · zulässige Ballgewichtsobergrenze (Regelausgaben 2025)",
+      "metric": "Norm-Ballgewichtsobergrenze",
+      "subcategory": "Norm-Ballgewichtsobergrenze",
+      "source_refs": [
+        "ifab",
+        "ihf"
+      ],
+      "verified": "2026-10-09",
+      "data_year": 2025,
+      "time_dependent": false,
+      "illustration": "balls",
+      "notes": "Norm-Obergrenzen zu Spielbeginn; überlappende zulässige Massenbereiche. Handball männliche Senioren, kein Frauen/Männer-Leistungsvergleich.",
+      "prompt": "Welche benannte Ballnorm erlaubt die höhere Gewichtsobergrenze?"
+    },
+    {
+      "id": "allcat-ball-noresin",
+      "cat": "Sport",
+      "l": "Fußball (IFAB 2025/26)",
+      "r": "Hallenhandball Größe 3 ohne Harz (IHF 2025)",
+      "lv": 450,
+      "rv": 425,
+      "u": "g · zulässige Ballgewichtsobergrenze (Regelausgaben 2025)",
+      "metric": "Norm-Ballgewichtsobergrenze",
+      "subcategory": "Norm-Ballgewichtsobergrenze",
+      "source_refs": [
+        "ifab",
+        "ihf"
+      ],
+      "verified": "2026-10-09",
+      "data_year": 2025,
+      "time_dependent": false,
+      "illustration": "balls",
+      "notes": "Mit/ohne Harz sind unterschiedliche ausdrücklich benannte IHF-Ballnormen; nicht typische oder gemessene Masse jedes Balls.",
+      "prompt": "Welche benannte Ballnorm erlaubt die höhere Gewichtsobergrenze?"
+    },
+    {
+      "id": "allcat-car-turn",
+      "cat": "Autos",
+      "l": "Škoda Fabia (Herstellerübersicht 2021)",
+      "r": "Škoda Scala (Herstellerübersicht 2021)",
+      "lv": 10.4,
+      "rv": 10.9,
+      "u": "m · Wendekreis laut Škoda-Herstellerübersicht 16.12.2021",
+      "metric": "Wendekreis",
+      "subcategory": "Wendekreis",
+      "source_refs": [
+        "skoda"
+      ],
+      "verified": "2026-10-09",
+      "data_year": 2021,
+      "time_dependent": false,
+      "illustration": "car",
+      "notes": "Gleiche historische Übersicht; nicht aktuelle Facelifts, kein Wenderadius.",
+      "prompt": "Welches Auto hat laut Herstellerübersicht 2021 den größeren Wendekreis?"
+    },
+    {
+      "id": "allcat-car-boot",
+      "cat": "Autos",
+      "l": "Škoda Kamiq (Standard-Kofferraum, Übersicht 2021)",
+      "r": "Škoda Scala (Standard-Kofferraum, Übersicht 2021)",
+      "lv": 400,
+      "rv": 467,
+      "u": "l · Standard-Kofferraum laut Škoda-Übersicht 16.12.2021",
+      "metric": "Standard-Kofferraumvolumen",
+      "subcategory": "Standard-Kofferraumvolumen",
+      "source_refs": [
+        "skoda"
+      ],
+      "verified": "2026-10-09",
+      "data_year": 2021,
+      "time_dependent": false,
+      "illustration": "car",
+      "notes": "Veröffentlichter Grund-Kofferraum mit aufgestellten Rücksitzen; keine umgeklappten Sitze. Kein VDA-Messverfahren aus ungenannter Quelle behauptet; keine Gas-/Sondervarianten.",
+      "prompt": "Welches Auto hat laut Herstellerübersicht 2021 das größere Standard-Kofferraumvolumen?"
+    },
+    {
+      "id": "allcat-film-cars",
+      "cat": "Weltkultur",
+      "l": "Cars (US-Disney-Katalogfassung)",
+      "r": "Ratatouille (US-Disney-Katalogfassung)",
+      "lv": 118,
+      "rv": 111,
+      "u": "min · Laufzeit laut US-Disney-Webkatalog (Abruf 09.10.2026)",
+      "metric": "Disney-Katalogfilmlaufzeit",
+      "subcategory": "Disney-Katalogfilmlaufzeit",
+      "source_refs": [
+        "cars",
+        "ratatouille"
+      ],
+      "verified": "2026-10-09",
+      "data_year": null,
+      "time_dependent": true,
+      "illustration": "film",
+      "notes": "Jeweils aktuelle US-Katalogangabe, nicht ursprüngliche Kinofassung. Cars 1 h 58, Ratatouille 1 h 51.",
+      "as_of": "2026-10-09",
+      "prompt": "Welcher Film hat im benannten US-Disney-Katalog die längere Laufzeit?"
+    },
+    {
+      "id": "allcat-film-monsters",
+      "cat": "Weltkultur",
+      "l": "Ratatouille (US-Disney-Katalogfassung)",
+      "r": "Die Monster AG (US-Disney-Katalogfassung)",
+      "lv": 111,
+      "rv": 95,
+      "u": "min · Laufzeit laut US-Disney-Webkatalog (Abruf 09.10.2026)",
+      "metric": "Disney-Katalogfilmlaufzeit",
+      "subcategory": "Disney-Katalogfilmlaufzeit",
+      "source_refs": [
+        "ratatouille",
+        "monsters"
+      ],
+      "verified": "2026-10-09",
+      "data_year": null,
+      "time_dependent": true,
+      "illustration": "film",
+      "notes": "Disney listet Monsters, Inc. mit 1 h 35 und Wiederveröffentlichungsdatum 2012; nicht oft zitierte 92 min der ursprünglichen Fassung.",
+      "as_of": "2026-10-09",
+      "prompt": "Welcher Film hat im benannten US-Disney-Katalog die längere Laufzeit?"
+    },
+    {
+      "id": "allcat-board-catan",
+      "cat": "Allgemeinwissen",
+      "l": "CATAN (Grundspiel, Verlagsangabe)",
+      "r": "Zug um Zug (US-Grundspiel, Verlagsangabe)",
+      "lv": 90,
+      "rv": 60,
+      "u": "min · obere Verlags-Spielzeitangabe des Grundspiels (Abruf 09.10.2026)",
+      "metric": "Verlags-Spielzeitobergrenze",
+      "subcategory": "Verlags-Spielzeitobergrenze",
+      "source_refs": [
+        "catan",
+        "ticket"
+      ],
+      "verified": "2026-10-09",
+      "data_year": null,
+      "time_dependent": true,
+      "illustration": "board",
+      "notes": "Verlagsbereiche 60–90 bzw. 30–60 Minuten. Obere Schätzbereichsgrenze, kein Rekord und keine absolute Maximaldauer; Spielerzahlen nicht normalisiert.",
+      "as_of": "2026-10-09",
+      "prompt": "Welches Grundspiel hat die höhere obere Verlags-Spielzeitangabe?"
+    },
+    {
+      "id": "allcat-board-azul",
+      "cat": "Allgemeinwissen",
+      "l": "Zug um Zug (US-Grundspiel, Verlagsangabe)",
+      "r": "Azul (Grundspiel, Verlagsangabe)",
+      "lv": 60,
+      "rv": 45,
+      "u": "min · obere Verlags-Spielzeitangabe des Grundspiels (Abruf 09.10.2026)",
+      "metric": "Verlags-Spielzeitobergrenze",
+      "subcategory": "Verlags-Spielzeitobergrenze",
+      "source_refs": [
+        "ticket",
+        "azul"
+      ],
+      "verified": "2026-10-09",
+      "data_year": null,
+      "time_dependent": true,
+      "illustration": "board",
+      "notes": "Verlagsbereiche 30–60 bzw. 30–45 Minuten; keine Erweiterungen, keine Behauptung gleich vieler Spieler oder gleicher realer Partielängen.",
+      "as_of": "2026-10-09",
+      "prompt": "Welches Grundspiel hat die höhere obere Verlags-Spielzeitangabe?"
+    },
+    {
+      "id": "allcat-span-eu-na",
+      "cat": "Rekorde & Extreme",
+      "l": "Kontinentales Europa (WMO-Rekordspanne)",
+      "r": "Nordamerika (WMO-Rekordspanne)",
+      "lv": 106.9,
+      "rv": 119.7,
+      "u": "K · Spanne kontinentaler Temperaturrekorde (WMO-Archiv 31.07.2025)",
+      "metric": "Kontinentale Rekordtemperaturspanne",
+      "subcategory": "Kontinentale Rekordtemperaturspanne",
+      "source_refs": [
+        "wmo-span"
+      ],
+      "verified": "2026-10-09",
+      "data_year": null,
+      "time_dependent": false,
+      "illustration": "weather",
+      "notes": "Europa 48,8−(−58,1); Nordamerika 56,7−(−63). Rekorde verschiedener Orte und Jahre, keine jährliche Klimaschwankung. Europa ohne erweiterte WMO-Region VI.",
+      "data_years": [
+        2021,
+        1978,
+        1913,
+        1947
+      ],
+      "as_of": "2025-07-31",
+      "prompt": "Welche Kontinentalregion hat die größere Spanne zwischen WMO-Temperaturmaximum und -minimum?"
+    },
+    {
+      "id": "allcat-span-na-sa",
+      "cat": "Rekorde & Extreme",
+      "l": "Nordamerika (WMO-Rekordspanne)",
+      "r": "Südamerika (WMO-Rekordspanne)",
+      "lv": 119.7,
+      "rv": 81.7,
+      "u": "K · Spanne kontinentaler Temperaturrekorde (WMO-Archiv 31.07.2025)",
+      "metric": "Kontinentale Rekordtemperaturspanne",
+      "subcategory": "Kontinentale Rekordtemperaturspanne",
+      "source_refs": [
+        "wmo-span"
+      ],
+      "verified": "2026-10-09",
+      "data_year": null,
+      "time_dependent": false,
+      "illustration": "weather",
+      "notes": "Nordamerika 56,7−(−63); Südamerika 48,9−(−32,8). Fester WMO-Archivstand, nicht automatisch neuester Rekordstand 2026.",
+      "data_years": [
+        1913,
+        1947,
+        1905,
+        1907
+      ],
+      "as_of": "2025-07-31",
+      "prompt": "Welche Kontinentalregion hat die größere Spanne zwischen WMO-Temperaturmaximum und -minimum?"
+    }
+  ]
+}

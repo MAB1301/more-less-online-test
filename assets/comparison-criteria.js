@@ -3,7 +3,10 @@
  const pack=window.GAME_COMPARISON_EXTENSION;if(!pack)return;
  const key=q=>JSON.stringify([q.u,...[q.l,q.r].sort()]),seen=new Set(SOLO_Q.map(key));
  for(const q of pack.moreless)if(!seen.has(key(q))){SOLO_Q.push(q);seen.add(key(q))}
+ const catalogue=window.GAME_CONTENT_PACK?.moreless;if(catalogue){const catalogued=new Set(catalogue.map(key));for(const q of pack.moreless)if(!catalogued.has(key(q))){catalogue.push(q);catalogued.add(key(q))}}
+ const prompts=new Map(pack.moreless.filter(q=>q.prompt).map(q=>[q.u,q.prompt]));if(typeof moreLessPrompt==='function'){const basePrompt=moreLessPrompt;moreLessPrompt=function(left,right,unit,metric=''){return prompts.get(unit)||basePrompt(left,right,unit,metric)}}
  for(const [subject,image]of Object.entries(pack.images)){VISUAL_IMG[subject]=image.card;VISUAL_DETAIL[subject]=image.detail}
+ if(window.GAME_CONTENT_PACK?.images)Object.assign(window.GAME_CONTENT_PACK.images,pack.images);
  let preferred='';try{preferred=localStorage.getItem('ml_preferred_criterion_v1')||''}catch{}
  const baseFilter=contentFilterPool;contentFilterPool=function(game,pool){const usable=typeof S!=='undefined'&&S.room?pool.filter(q=>!q.frontend_only):pool;return baseFilter(game,usable)};
  const baseSelect=selectComparisonQuestions;selectComparisonQuestions=function(pool,count,...args){

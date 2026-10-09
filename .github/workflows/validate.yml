@@ -21,4 +21,5 @@ jobs:
       - name: Playable comparison criteria
         run: |
           node scripts/build-playable-criteria.mjs --check
+          node scripts/build-category-criteria-visuals.mjs --check
           node scripts/playable-criteria-check.mjs

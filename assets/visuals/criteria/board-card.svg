@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="540" viewBox="0 0 720 540" role="img" aria-label="Antwortneutrale Themenillustration: Brettspiele">
+<metadata>Original artwork; CC0-1.0; thematic illustration, not a scaled depiction or answer hint. No third-party photos or logos.</metadata>
+<defs><radialGradient id="bg"><stop stop-color="#29395a"/><stop offset="1" stop-color="#0b1226"/></radialGradient><linearGradient id="ink" x2="1" y2="1"><stop stop-color="#f2c3a7"/><stop offset="1" stop-color="#7162bf"/></linearGradient><filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="12"/></filter></defs>
+<rect width="720" height="540" rx="28" fill="url(#bg)"/><rect x="22" y="22" width="676" height="496" rx="22" fill="none" stroke="#f2c3a7" stroke-opacity=".25" stroke-width="2"/>
+<ellipse cx="360" cy="270" rx="225" ry="180" fill="#f2c3a7" opacity=".07" filter="url(#glow)"/>
+<g transform="translate(360 257)" fill="url(#ink)" stroke="#f2c3a7" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"><path d="M-180 75L0-30L180 75L0 170Z" fill="#3b365e"/><path d="M-140 75L0-6L140 75L0 148Z" fill="none"/><path d="M-35 25L-30-45H30L35 25Z"/><circle cy="-67" r="34"/><path d="M-100 90L0 32L100 90M-70 118L70 35" fill="none" opacity=".45"/></g>
+<text x="360" y="478" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#edf0ff">Brettspiele</text>
+</svg>
