@@ -68,3 +68,8 @@
 .friendlyFactPills button{border:0;background:none;min-height:46px;padding:10px 22px;color:#d8e0fa}
 .friendlyFactPills button[aria-pressed=true]{background:linear-gradient(120deg,#75fbe1,#20bfb6);color:#08262a;border-radius:15px}
 @media(min-width:651px){#worldMenu.friendlyMenu[data-world=estimate] #playType>.gameModes>.modeInfoWrap:nth-child(n+4){transform:translateX(50%)}}
+
+/* The setup summary replaces the old read-only round details. */
+#worldMenu.friendlyMenu .entrySettings{display:none!important}
+#friendlySettings .challengeConfig{margin:16px 0}
+#friendlySettings .challengeConfig p{font-size:13px;line-height:1.5}
