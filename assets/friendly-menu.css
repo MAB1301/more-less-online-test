@@ -73,3 +73,11 @@
 #worldMenu.friendlyMenu .entrySettings{display:none!important}
 #friendlySettings .challengeConfig{margin:16px 0}
 #friendlySettings .challengeConfig p{font-size:13px;line-height:1.5}
+
+/* Final menu geometry wins over legacy board-specific selectors. */
+#worldMenu.friendlyMenu #jeopardyIntro>.gameModes{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+#worldMenu.friendlyMenu .selectionLabel,#worldMenu.friendlyMenu .gameModeTag{display:none!important}
+#worldMenu.friendlyMenu .gameMode b{font-size:25px!important;margin:0!important}
+#worldMenu.friendlyMenu .gameMode small{font-size:14px!important;margin:0!important}
+#worldMenu.friendlyMenu .friendlyCardArt{mask-image:linear-gradient(to bottom,#000 0 76%,transparent 88%)}
+@media(max-width:650px){#worldMenu.friendlyMenu #jeopardyIntro>.gameModes{grid-template-columns:repeat(2,minmax(0,1fr))!important}#worldMenu.friendlyMenu .gameMode b{font-size:21px!important}}
