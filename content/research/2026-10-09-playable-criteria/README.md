@@ -1,5 +1,15 @@
 # Spielbare Vergleichskriterien, 9. Oktober 2026
 
+## Ergänzung: vier weitere spielbare Vergleiche
+
+Flugzeug-Spannweite (787-8 / 777-200ER), maximales Startgewicht (787-9 / 777-200ER), bis-zu-Herstellerreichweite (787-10 / 777-200LR) und Brücken-Hauptspannweite (Golden Gate / Forth Road) sind jetzt Teil derselben Solo-Integration. Acht Vergleiche insgesamt; vier davon neue Fragen, vier aus #131/#132 übernommen. Das Brücken-Kriterium existiert bereits als Forschungsentwurf in #122 mit einem anderen Paar und ist nicht als völlig neue Kennzahl gezählt.
+
+Vier zusätzliche CC0-Themen-SVGs in 4:3 und 16:9 zeigen ein generisches Flugzeug bzw. eine generische Brücke. Identisches Motiv für beide Seiten, keine Skalierung oder eingeblendeten Lösungszahlen. Unterkategorien Verkehrsflugzeuge / Brücken; Kategorien Allgemeinwissen / Bauwerke.
+
+Vier Primärseiten am 2026-10-09 gelesen. Boeing-Seiten undatiert, Datenjahr null; Brücken-Bezugsjahre 1937 / 1964. Drei Boeing-Wertevergleiche mit 90-Tage-Review; Herstellerkonfiguration und bis-zu-Reichweite ausdrücklich begrenzt. Reichweite ist kein Vergleich unter kontrolliert identischen Flugbedingungen. Offene Inhalts-PRs #57, #109, #122, #126–#132 sowie #134 geprüft; #127 enthält andere Flugzeugvarianten und Gesamtlänge, #122 anderes Brückenpaar. Daily-Katalog lesend auf Boeing/Forth Road/Golden Gate geprüft: keine Treffer. Main-Änderungen #133/#135 aufgenommen, ohne deren Features zu überschreiben. Keine Live-Datenbankänderung oder Veröffentlichung.
+
+Diese Ergänzung erfüllt weiterhin nicht den Gesamtauftrag von 20 Fragen in jeder kleinen Kategorie.
+
 Dies ist die Frontend-Integration von vier bereits belegten Vergleichsfragen aus den getrennten Entwürfen #131 und #132. Sie sind **nicht vier weitere eigenständige Fragen** zusätzlich zu diesen Entwürfen. Kein Merge, keine Veröffentlichung und keine Live-Datenbankänderung.
 
 | Kategorie | Neues spielbares Kriterium | Vergleichsrahmen |

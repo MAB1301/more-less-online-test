@@ -1,0 +1,109 @@
+{
+  "policy": "Changing values: 90 days; stable and historical facts: 365 days. Dates are review deadlines, not automatic approval. Fixed edition/year values retain their stated edition.",
+  "records": [
+    {
+      "id": "criteria-aircraft-wingspan",
+      "metric": "Flugzeug-Spannweite",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.boeing.com/commercial/787",
+        "https://www.boeing.com/Commercial/777"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "criteria-aircraft-mtow",
+      "metric": "Maximales Startgewicht",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.boeing.com/commercial/787",
+        "https://www.boeing.com/Commercial/777"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "criteria-aircraft-range",
+      "metric": "Hersteller-Reichweite (bis zu)",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.boeing.com/commercial/787",
+        "https://www.boeing.com/Commercial/777"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "criteria-bridge-main-span",
+      "metric": "Brücken-Hauptspannweite",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://www.goldengate.org/exhibits/facts-and-figures-about-the-bridge/",
+        "https://www.theforthbridges.org/about-the-forth-bridges/forth-road-bridge/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-09",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "tierwelt-forefoot-toes",
+      "metric": "Anatomische Zehenzahl",
+      "verified": "2026-10-08",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/capybara",
+        "https://animals.sandiegozoo.org/animals/two-toed-sloth"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-08",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "tierwelt-tail-upper",
+      "metric": "Oberes Ende des Schwanzlängenbereichs",
+      "verified": "2026-10-08",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/giant-anteater",
+        "https://animals.sandiegozoo.org/animals/red-panda"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-08",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "weather-gust-hemisphere",
+      "metric": "Maximaler Windstoß",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+        "https://wmo.int/asu-map?map=Wind_028"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    },
+    {
+      "id": "weather-rain-24h-hemisphere",
+      "metric": "24-Stunden-Niederschlag",
+      "verified": "2026-10-09",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+        "https://wmo.int/asu-map?book=21486&map=Rain_081&original_nid=21824"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-07",
+      "review_status": "draft-scheduled"
+    }
+  ]
+}

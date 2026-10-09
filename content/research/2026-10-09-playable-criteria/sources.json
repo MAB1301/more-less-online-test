@@ -1,4 +1,24 @@
 {
+  "boeing-787-20261009": {
+    "publisher": "Boeing", "url": "https://www.boeing.com/commercial/787", "verified": "2026-10-09", "data_year": null,
+    "data_year_note": "Undatierte technische Produkttabelle; Abrufdatum ist kein Modell-/Messjahr.",
+    "evidence": "787-8 Spannweite 60,1 m; 787-9 maximales Startgewicht 259220 kg; 787-10 Reichweite bis zu 13890 km.",
+    "rounding": "Veröffentlichte SI-Werte unverändert.", "limits": "Konkrete Variante, Produkttabellen-Auslegung; Reichweite nicht bei kontrolliert identischer Nutzlast. Review 90 Tage."
+  },
+  "boeing-777-20261009": {
+    "publisher": "Boeing", "url": "https://www.boeing.com/Commercial/777", "verified": "2026-10-09", "data_year": null,
+    "data_year_note": "Undatierte technische Produkttabelle; Abrufdatum ist kein Modell-/Messjahr.",
+    "evidence": "777-200ER Spannweite 60,9 m und maximales Startgewicht 297550 kg; 777-200LR Reichweite bis zu 15740 km.",
+    "rounding": "Veröffentlichte SI-Werte unverändert.", "limits": "Kein 777X/Freighter; Reichweite ist bis-zu-Produktangabe. Review 90 Tage."
+  },
+  "golden-gate-20261009": {
+    "publisher": "Golden Gate Bridge, Highway and Transportation District", "url": "https://www.goldengate.org/exhibits/facts-and-figures-about-the-bridge/", "verified": "2026-10-09", "data_year": 1937,
+    "evidence": "Hauptspannweite 4200 ft / 1280 m; Verkehrsöffnung 1937.", "rounding": "Gerundete 1280 m der Betreiberseite, nicht Rückumrechnung.", "limits": "Hauptspannweite statt Gesamtlänge; historische Konstruktion."
+  },
+  "forth-road-20261009": {
+    "publisher": "Transport Scotland / Forth Bridges", "url": "https://www.theforthbridges.org/about-the-forth-bridges/forth-road-bridge/", "verified": "2026-10-09", "data_year": 1964,
+    "evidence": "1006 m zwischen den zwei Haupttürmen; geöffnet 4. September 1964.", "rounding": "1006 m unverändert.", "limits": "Forth Road Bridge, nicht Forth Railway Bridge oder Queensferry Crossing."
+  },
   "2026-10-08-capybara": {
     "publisher": "San Diego Zoo Wildlife Alliance",
     "url": "https://animals.sandiegozoo.org/animals/capybara",

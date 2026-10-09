@@ -3,6 +3,30 @@
   "base_commit": "0ca6f66d0f1efea5709b7de9f3256413e0a2f5b1",
   "moreless": [
     {
+      "id": "criteria-aircraft-wingspan", "l": "Boeing 787-8", "r": "Boeing 777-200ER", "lv": 60.1, "rv": 60.9,
+      "u": "m · Flugzeug-Spannweite laut Hersteller", "metric": "Flugzeug-Spannweite", "subcategory": "Verkehrsflugzeuge", "cat": "Allgemeinwissen",
+      "source_refs": ["boeing-787-20261009", "boeing-777-20261009"], "verified": "2026-10-09", "data_year": null, "time_dependent": true, "review_after_days": 90, "illustration": "aircraft",
+      "notes": "Benannte Varianten; Hersteller-Meterwerte ohne zusätzliche Rundung. Keine skalierte Flugzeugdarstellung. Technische Daten der undatierten Produktseiten, abgerufen 2026-10-09; kein behauptetes Messjahr."
+    },
+    {
+      "id": "criteria-aircraft-mtow", "l": "Boeing 787-9", "r": "Boeing 777-200ER", "lv": 259220, "rv": 297550,
+      "u": "kg · maximales Startgewicht laut Hersteller", "metric": "Maximales Startgewicht", "subcategory": "Verkehrsflugzeuge", "cat": "Allgemeinwissen",
+      "source_refs": ["boeing-787-20261009", "boeing-777-20261009"], "verified": "2026-10-09", "data_year": null, "time_dependent": true, "review_after_days": 90, "illustration": "aircraft",
+      "notes": "Benannte Varianten und auf der Produktseite veröffentlichte Gewichtsauslegung; nicht Leergewicht, Nutzlast oder tatsächliches Gewicht eines Fluges. Kein gemeinsames Serien-/Produktionsjahr behauptet."
+    },
+    {
+      "id": "criteria-aircraft-range", "l": "Boeing 787-10", "r": "Boeing 777-200LR", "lv": 13890, "rv": 15740,
+      "u": "km · bis zu Reichweite laut Hersteller", "metric": "Hersteller-Reichweite (bis zu)", "subcategory": "Verkehrsflugzeuge", "cat": "Allgemeinwissen",
+      "source_refs": ["boeing-787-20261009", "boeing-777-20261009"], "verified": "2026-10-09", "data_year": null, "time_dependent": true, "review_after_days": 90, "illustration": "aircraft",
+      "notes": "Vergleich veröffentlichter bis-zu-Produktangaben, kein garantierter Flugrekord oder Vergleich bei identischer Nutzlast/Wetterlage. Kilometerwerte unverändert; Flugbedingungen und Betreiberkonfiguration beeinflussen reale Reichweite."
+    },
+    {
+      "id": "criteria-bridge-main-span", "l": "Golden Gate Bridge", "r": "Forth Road Bridge", "lv": 1280, "rv": 1006,
+      "u": "m · Hauptspannweite zwischen den Haupttürmen", "metric": "Brücken-Hauptspannweite", "subcategory": "Brücken", "cat": "Bauwerke",
+      "source_refs": ["golden-gate-20261009", "forth-road-20261009"], "verified": "2026-10-09", "data_years": [1937, 1964], "time_dependent": false, "illustration": "bridge",
+      "notes": "Nur Hauptöffnung, nicht Gesamtlänge mit Zufahrten. Golden Gate: gerundete Betreiberangabe 1280 m; nicht die genauere Umrechnung 1280,16 m aus 4200 ft. #122 nutzt dasselbe Kriterium mit einem anderen Paar; diese Frage ist nicht dessen Umkehrung."
+    },
+    {
       "cat": "Tierwelt",
       "status": "draft",
       "time_dependent": false,
