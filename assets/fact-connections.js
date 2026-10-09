@@ -45,9 +45,10 @@ function reveal(g,level){
 function nameArt(card){
  const art=window.FACT_CONNECTIONS_VISUALS?.[card.value];if(!art)return null;
  const frame=el('span','fc-art');frame.setAttribute('aria-hidden','true');
- if(art.type==='portrait'){
+ if(art.atlas!==undefined){
   frame.classList.add('fc-portrait');frame.style.backgroundImage=`url("${art.src}")`;
-  frame.style.backgroundPosition=`${(art.atlas%4)*100/3}% ${Math.floor(art.atlas/4)*50}%`;
+  const cols=art.columns||4,rows=art.rows||3;frame.style.backgroundSize=`${cols*100}% ${rows*100}%`;
+  frame.style.backgroundPosition=`${(art.atlas%cols)*100/(cols-1)}% ${Math.floor(art.atlas/cols)*100/(rows-1)}%`;
  }else{
   const image=el('img');image.src=art.src;image.alt='';image.decoding='async';
   image.addEventListener('error',()=>frame.remove(),{once:true});frame.append(image);
@@ -95,12 +96,12 @@ function init(){
  const status=el('p','fc-note');status.id='fcAvailability';status.setAttribute('role','status');settings.append(status);
  settings.append(el('p','fc-note','Pro Name werden drei verfügbare Kriterien gemischt. Zeiträume, Messbedingungen und Schätzungen stehen auf den Karten.'));
  const startButton=button('Runde starten',start,'fc-primary');startButton.id='fcStart';settings.append(startButton);dialog.append(settings);
- const play=el('section','fc-hidden');play.id='fcPlay';const hud=el('div','fc-hud');const cat=el('b');cat.id='fcRoundCategory';const count=el('span');count.id='fcHud';hud.append(cat,count);play.append(hud);
+ const play=el('section','fc-hidden');play.id='fcPlay';const hud=el('div','fc-hud');const cat=el('b');cat.id='fcRoundCategory';const count=el('span');count.id='fcHud';hud.append(cat,button('Spiel anpassen',setup,'fc-adjust'),count);play.append(hud);
  const solved=el('div');solved.id='fcSolved';play.append(solved);const grid=el('div','fc-grid');grid.id='fcGrid';grid.setAttribute('role','group');grid.setAttribute('aria-label','Faktenkarten');play.append(grid);
  const msg=el('div','fc-message');msg.id='fcMessage';msg.setAttribute('role','status');msg.setAttribute('aria-live','polite');play.append(msg);
  const selection=el('div','fc-note');selection.id='fcSelection';play.append(selection);
  const actions=el('div','fc-actions');const shuffle=button('Mischen',()=>{round.cards=E.shuffle(round.cards);render();});shuffle.id='fcShuffle';const clear=button('Abwählen',()=>{round.selected=[];render();});clear.id='fcClear';const send=button('Abschicken',submit,'fc-primary');send.id='fcSubmit';actions.append(shuffle,clear,send);play.append(actions);
- const next=button('Nächste Runde',start,'fc-primary fc-hidden');next.id='fcNext';play.append(next,button('Spiel anpassen',setup));dialog.append(play);document.body.append(dialog);
+ const next=button('Nächste Runde',start,'fc-primary fc-hidden');next.id='fcNext';play.append(next);dialog.append(play);document.body.append(dialog);
  dialog.addEventListener('close',()=>{if(opener?.isConnected)opener.focus();});
  const tile=button('',()=>{opener=tile;setup();dialog.showModal();},'worldCard fc-home-button');tile.dataset.game='connections';tile.append(el('span','fc-home-icon','▦'),el('b','','FAKTEN ZUORDNEN'),el('small','','Ein Name. Drei Fakten. Was gehört zusammen?'),el('small','','16 Karten · 4 Gruppen · 4 Fehlversuche'),el('span','fc-home-action','Spiel wählen →'));
  document.querySelector('.worldStrip.worldTabs')?.append(tile);

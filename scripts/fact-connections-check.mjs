@@ -39,4 +39,6 @@ const visuals=ctx.window.FACT_CONNECTIONS_VISUALS;
 for(const subject of p.subjects){const art=visuals[subject.name];assert(art,subject.name);assert(fs.existsSync(art.src),art.src);}
 const animals=p.subjects.filter(s=>s.category==='Tierwelt').map(s=>visuals[s.name]);
 assert.equal(animals.length,12);assert(animals.every(a=>a.type==='portrait'));assert.equal(new Set(animals.map(a=>a.atlas)).size,12);
+const brands=['VW – gesamte Marke','BMW – gesamte Marke','Mercedes – gesamte Marke','Porsche – gesamte Marke','Audi – gesamte Marke'].map(n=>visuals[n]);
+assert(brands.every(a=>a.type==='motif'));assert.equal(new Set(brands.map(a=>a.atlas)).size,5);
 console.log(`PASS: ${cats.length} categories, ${criteria.length} criteria, ${p.subjects.length} subjects; 520 solvable rounds, win/loss/repeat and shared-card equivalence`);
