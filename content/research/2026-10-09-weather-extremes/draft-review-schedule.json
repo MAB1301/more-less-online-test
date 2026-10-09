@@ -1,0 +1,299 @@
+{
+  "policy": "Changing values: 90 days; stable and historical facts: 365 days. Dates are review deadlines, not automatic approval. Fixed edition/year values retain their stated edition.",
+  "records": [
+    {
+      "id": "weather-gust-hemisphere",
+      "verified": "2026-10-09",
+      "data_years": [
+        1996,
+        1934
+      ],
+      "next_review": "2027-01-07",
+      "review_interval_days": 90,
+      "time_dependent": true,
+      "review_status": "draft_not_approved",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+        "https://wmo.int/asu-map?map=Wind_028"
+      ]
+    },
+    {
+      "id": "weather-rain-24h-hemisphere",
+      "verified": "2026-10-09",
+      "data_years": [
+        1966,
+        2005
+      ],
+      "next_review": "2027-01-07",
+      "review_interval_days": 90,
+      "time_dependent": true,
+      "review_status": "draft_not_approved",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+        "https://wmo.int/asu-map?book=21486&map=Rain_081&original_nid=21824"
+      ]
+    },
+    {
+      "id": "weather-lightning-distance",
+      "verified": "2026-10-09",
+      "data_years": [
+        2020
+      ],
+      "next_review": "2027-01-07",
+      "review_interval_days": 90,
+      "time_dependent": true,
+      "review_status": "draft_not_approved",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+        "https://wmo.int/news/media-centre/wmo-certifies-megaflash-lightning-record-usa"
+      ]
+    },
+    {
+      "id": "weather-lightning-duration",
+      "verified": "2026-10-09",
+      "data_years": [
+        2020
+      ],
+      "next_review": "2027-01-07",
+      "review_interval_days": 90,
+      "time_dependent": true,
+      "review_status": "draft_not_approved",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+        "https://wmo.int/news/media-centre/wmo-certifies-megaflash-lightning-record-usa"
+      ]
+    },
+    {
+      "id": "weather-pressure-high",
+      "verified": "2026-10-09",
+      "data_years": [
+        1968
+      ],
+      "next_review": "2027-01-07",
+      "review_interval_days": 90,
+      "time_dependent": true,
+      "review_status": "draft_not_approved",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ]
+    },
+    {
+      "id": "weather-pressure-low",
+      "verified": "2026-10-09",
+      "data_years": [
+        1979
+      ],
+      "next_review": "2027-01-07",
+      "review_interval_days": 90,
+      "time_dependent": true,
+      "review_status": "draft_not_approved",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ]
+    },
+    {
+      "id": "weather-fact-hot",
+      "verified": "2026-10-09",
+      "data_years": [
+        1913
+      ],
+      "next_review": "2027-01-07",
+      "review_interval_days": 90,
+      "time_dependent": true,
+      "review_status": "draft_not_approved",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ]
+    },
+    {
+      "id": "weather-fact-rain60-false",
+      "verified": "2026-10-09",
+      "data_years": [
+        1956,
+        1947
+      ],
+      "next_review": "2027-01-07",
+      "review_interval_days": 90,
+      "time_dependent": true,
+      "review_status": "draft_not_approved",
+      "sources": [
+        "https://wmo.int/es/asu-map?map=Rain_031",
+        "https://wmo.int/fr/asu-map?map=rain_030"
+      ]
+    },
+    {
+      "id": "weather-fact-cold",
+      "verified": "2026-10-09",
+      "data_years": [
+        1983
+      ],
+      "next_review": "2027-01-07",
+      "review_interval_days": 90,
+      "time_dependent": true,
+      "review_status": "draft_not_approved",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ]
+    },
+    {
+      "id": "weather-fact-rain1-false",
+      "verified": "2026-10-09",
+      "data_years": [
+        1956,
+        1947
+      ],
+      "next_review": "2027-01-07",
+      "review_interval_days": 90,
+      "time_dependent": true,
+      "review_status": "draft_not_approved",
+      "sources": [
+        "https://wmo.int/es/asu-map?map=Rain_031",
+        "https://wmo.int/fr/asu-map?map=rain_030"
+      ]
+    },
+    {
+      "id": "weather-fact-europe",
+      "verified": "2026-10-09",
+      "data_years": [
+        2021
+      ],
+      "next_review": "2027-01-07",
+      "review_interval_days": 90,
+      "time_dependent": true,
+      "review_status": "draft_not_approved",
+      "sources": [
+        "https://wmo.int/media/news/wmo-confirms-verification-of-new-continental-european-temperature-record",
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ]
+    },
+    {
+      "id": "weather-fact-foc-old-error",
+      "verified": "2026-10-09",
+      "data_years": [
+        1966
+      ],
+      "next_review": "2027-01-07",
+      "review_interval_days": 90,
+      "time_dependent": true,
+      "review_status": "draft_not_approved",
+      "sources": [
+        "https://wmo.int/asu-map?book=21486&map=Rain_081&original_nid=21824"
+      ]
+    },
+    {
+      "id": "weather-jeop-hot-place",
+      "verified": "2026-10-09",
+      "data_years": [
+        1913
+      ],
+      "next_review": "2027-01-07",
+      "review_interval_days": 90,
+      "time_dependent": true,
+      "review_status": "draft_not_approved",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ]
+    },
+    {
+      "id": "weather-jeop-cold-place",
+      "verified": "2026-10-09",
+      "data_years": [
+        1983
+      ],
+      "next_review": "2027-01-07",
+      "review_interval_days": 90,
+      "time_dependent": true,
+      "review_status": "draft_not_approved",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ]
+    },
+    {
+      "id": "weather-jeop-rain24-place",
+      "verified": "2026-10-09",
+      "data_years": [
+        1966
+      ],
+      "next_review": "2027-01-07",
+      "review_interval_days": 90,
+      "time_dependent": true,
+      "review_status": "draft_not_approved",
+      "sources": [
+        "https://wmo.int/asu-map?book=21486&map=Rain_081&original_nid=21824"
+      ]
+    },
+    {
+      "id": "weather-jeop-wind-place",
+      "verified": "2026-10-09",
+      "data_years": [
+        1996
+      ],
+      "next_review": "2027-01-07",
+      "review_interval_days": 90,
+      "time_dependent": true,
+      "review_status": "draft_not_approved",
+      "sources": [
+        "https://wmo.int/asu-map?map=Wind_028",
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ]
+    },
+    {
+      "id": "weather-jeop-rain1-place",
+      "verified": "2026-10-09",
+      "data_years": [
+        1956
+      ],
+      "next_review": "2027-01-07",
+      "review_interval_days": 90,
+      "time_dependent": true,
+      "review_status": "draft_not_approved",
+      "sources": [
+        "https://wmo.int/es/asu-map?map=Rain_031"
+      ]
+    },
+    {
+      "id": "weather-jeop-rain60-place",
+      "verified": "2026-10-09",
+      "data_years": [
+        1947
+      ],
+      "next_review": "2027-01-07",
+      "review_interval_days": 90,
+      "time_dependent": true,
+      "review_status": "draft_not_approved",
+      "sources": [
+        "https://wmo.int/fr/asu-map?map=rain_030"
+      ]
+    },
+    {
+      "id": "weather-jeop-lightning-distance-area",
+      "verified": "2026-10-09",
+      "data_years": [
+        2020
+      ],
+      "next_review": "2027-01-07",
+      "review_interval_days": 90,
+      "time_dependent": true,
+      "review_status": "draft_not_approved",
+      "sources": [
+        "https://wmo.int/news/media-centre/wmo-certifies-megaflash-lightning-record-usa",
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ]
+    },
+    {
+      "id": "weather-jeop-lightning-duration-area",
+      "verified": "2026-10-09",
+      "data_years": [
+        2020
+      ],
+      "next_review": "2027-01-07",
+      "review_interval_days": 90,
+      "time_dependent": true,
+      "review_status": "draft_not_approved",
+      "sources": [
+        "https://wmo.int/news/media-centre/wmo-certifies-megaflash-lightning-record-usa",
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ]
+    }
+  ]
+}

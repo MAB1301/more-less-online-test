@@ -1,0 +1,72 @@
+{
+  "table2025": {
+    "publisher": "World Meteorological Organization",
+    "url": "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+    "verified": "2026-10-09",
+    "publication_date": "2025-07-25",
+    "data_year_note": "Jeder Inhalt führt das jeweilige Ereignisjahr; 2025 ist nur der Tabellenstand.",
+    "evidence": "WMO-Gesamttabelle der Wetter- und Klimaextreme mit Wert, Datum, Ort, Messreihe und Definition.",
+    "rounding": "Werte werden in der publizierten Präzision übernommen.",
+    "limits": "Lebendes Archiv; potentielle, noch nicht abgeschlossene Rekordprüfungen sind nicht enthalten. Review nach 90 Tagen."
+  },
+  "lightning2025": {
+    "publisher": "World Meteorological Organization",
+    "url": "https://wmo.int/news/media-centre/wmo-certifies-megaflash-lightning-record-usa",
+    "verified": "2026-10-09",
+    "publication_date": "2025-07-31",
+    "data_year_note": "Die beiden verwendeten Blitze wurden 2020 beobachtet.",
+    "evidence": "829 ± 8 km über Texas–Missouri und 17,102 ± 0,002 s über Argentinien–Uruguay.",
+    "rounding": "Zentralwert plus veröffentlichte Messunsicherheit.",
+    "limits": "Satellitenbasierte Einzelblitz-Rekorde; keine Blitzaktivität eines ganzen Gewitters."
+  },
+  "rain24": {
+    "publisher": "World Meteorological Organization",
+    "url": "https://wmo.int/asu-map?book=21486&map=Rain_081&original_nid=21824",
+    "verified": "2026-10-09",
+    "publication_date": null,
+    "data_year_note": "Rekordereignis 1966; Seite und Archiv am Prüftag gelesen.",
+    "evidence": "1.825 mm in 24 Stunden in Foc-Foc; 1.870 mm in Cilaos ausdrücklich als alter Fehler bezeichnet.",
+    "rounding": "WMO-Wert in Millimetern.",
+    "limits": "Genaues 24-Stunden-Fenster; nicht mit Tageskalender- oder Mehrtageswerten vermischen."
+  },
+  "wind-barrow": {
+    "publisher": "World Meteorological Organization",
+    "url": "https://wmo.int/asu-map?map=Wind_028",
+    "verified": "2026-10-09",
+    "publication_date": null,
+    "data_year_note": "Rekordereignis 1996; formale WMO-Prüfung 2012.",
+    "evidence": "Maximaler Drei-Sekunden-Windstoß 113,2 m/s auf Barrow Island während Zyklon Olivia.",
+    "rounding": "113,2 m/s laut aktueller WMO-Seite.",
+    "limits": "Drei-Sekunden-Böe; nicht mit anhaltender Windgeschwindigkeit vergleichen."
+  },
+  "rain1": {
+    "publisher": "World Meteorological Organization",
+    "url": "https://wmo.int/es/asu-map?map=Rain_031",
+    "verified": "2026-10-09",
+    "publication_date": null,
+    "data_year_note": "Rekordereignis 1956.",
+    "evidence": "31,2 mm in einer Minute in Unionville, Maryland.",
+    "rounding": "31,2 mm laut WMO.",
+    "limits": "Geschätztes Zeitintervall von einer Minute oder weniger; eigener WMO-Rekordtyp."
+  },
+  "rain60": {
+    "publisher": "World Meteorological Organization",
+    "url": "https://wmo.int/fr/asu-map?map=rain_030",
+    "verified": "2026-10-09",
+    "publication_date": null,
+    "data_year_note": "Rekordereignis 1947.",
+    "evidence": "305 mm in 60 Minuten in Holt, Missouri.",
+    "rounding": "305 mm laut WMO.",
+    "limits": "60-Minuten-Rekord; nicht mit dem 42-minütigen Kernereignis oder dem Ein-Minuten-Rekord vermischen."
+  },
+  "europe2024": {
+    "publisher": "World Meteorological Organization",
+    "url": "https://wmo.int/media/news/wmo-confirms-verification-of-new-continental-european-temperature-record",
+    "verified": "2026-10-09",
+    "publication_date": "2024-01-30",
+    "data_year_note": "Messung 2021; WMO-Bestätigung 2024.",
+    "evidence": "48,8 °C in Syrakus/Sizilien als bestätigter Rekord für Kontinentaleuropa.",
+    "rounding": "Eine Dezimalstelle wie veröffentlicht.",
+    "limits": "Kontinentaleuropa ist enger als die gesamte WMO-Region VI."
+  }
+}

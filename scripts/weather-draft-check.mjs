@@ -1,0 +1,12 @@
+import fs from 'node:fs';import vm from 'node:vm';import assert from 'node:assert/strict';
+const folder='content/research/2026-10-09-weather-extremes/',draft=JSON.parse(fs.readFileSync(folder+'draft-pack.json')),ctx={window:{}};vm.runInNewContext(fs.readFileSync('content/approved.js','utf8'),ctx);
+const norm=s=>String(s||'').normalize('NFKC').toLowerCase().replace(/\s+/g,' ').trim(),identity=(g,q)=>g==='moreless'?JSON.stringify([norm(q.u),...[q.l,q.r].map(norm).sort()]):norm(q[g==='facts'?'s':'q']);
+for(const g of ['moreless','estimate','facts','jeopardy']){const seen=new Set(ctx.window.GAME_CONTENT_PACK[g].map(q=>identity(g,q)));for(const q of draft[g]){assert(!seen.has(identity(g,q)),q.id);seen.add(identity(g,q));assert.equal(q.cat,'Rekorde & Extreme');assert(q.sources.every(x=>x.startsWith('https://wmo.int/')))}}
+for(const level of ['easy','medium','hard']){const rows=draft.facts.filter(q=>q.difficulty===level);assert.equal(rows.length,2);assert.equal(rows.filter(q=>q.a).length,1)}
+for(const q of draft.moreless){assert.notEqual(q.lv,q.rv);assert(q.metric&&q.notes);assert(!/(frau|mann|400.?m|800.?m)/i.test(q.l+' '+q.r+' '+q.u))}
+assert(draft.jeopardy.every(q=>q.visual===null&&!q.subject));
+const html=fs.readFileSync('index.html','utf8'),start=html.indexOf('(function mergeReviewedContent(){'),end=html.indexOf('})();',start)+5,context=vm.createContext({window:{GAME_CONTENT_PACK:draft},VISUAL_IMG:{},VISUAL_DETAIL:{},GENERATED_SUBJECTS:new Set(),SOLO_Q:[],ESTIMATE_Q:[],FACT_Q:[],JEOP_CATS:[['Rekorde & Extreme',[]]]});vm.runInContext(html.slice(start,end),context);
+assert.equal(context.SOLO_Q.length,2);assert.equal(context.ESTIMATE_Q.length,4);assert.equal(context.FACT_Q.length,6);assert.equal(context.JEOP_CATS[0][1].length,8);
+for(const [kind,w,h] of [['card',720,540],['detail',960,540]]){const svg=fs.readFileSync(folder+draft.images['weather-extremes'][kind],'utf8');assert(svg.includes(`width="${w}" height="${h}"`));assert(!/<image|foreignObject|<script/.test(svg));assert.equal((svg.match(/<text /g)||[]).length,1);assert(svg.includes('>Wetterrekorde</text>'))}
+const validation=JSON.parse(fs.readFileSync(folder+'validation.json'));assert.equal(validation.due_baseline_records,0);assert.equal(validation.database_writes,false);assert.equal(validation.existing_image_repairs,0);
+console.log('PASS: 20 isolated WMO questions, mirror/main duplicate checks, equal-metric comparisons, balanced levels, playable import and neutral 4:3/16:9 vectors');

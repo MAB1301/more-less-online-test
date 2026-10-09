@@ -1,0 +1,46 @@
+{
+  "checked": "2026-10-09",
+  "counts": {
+    "moreless": 2,
+    "estimate": 4,
+    "facts": 6,
+    "jeopardy": 8
+  },
+  "records_main_before": {
+    "moreless": 13,
+    "estimate": 14,
+    "facts": 6,
+    "jeopardy": 14
+  },
+  "records_main_plus_this_draft": {
+    "moreless": 15,
+    "estimate": 18,
+    "facts": 12,
+    "jeopardy": 22
+  },
+  "due_baseline_records": 0,
+  "sources_checked": 7,
+  "daily_hits": 0,
+  "open_prs_checked": [
+    131,
+    130,
+    129,
+    128,
+    127,
+    126,
+    122,
+    109,
+    57
+  ],
+  "database_writes": false,
+  "publication": false,
+  "existing_image_repairs": 0,
+  "new_vector_variants": 2,
+  "limitations": [
+    "20 Fragen nur für Rekorde & Extreme; übrige Kategorien erhalten in diesem Entwurf 0.",
+    "WMO-Archiv ist lebend; neue Zertifizierungen können Rekorde ändern, daher 90-Tage-Review.",
+    "Historische Messverfahren unterscheiden sich; Vergleiche nutzen nur dieselbe von WMO geführte Rekordklasse.",
+    "Keine Freigabe oder Integration in spielbare Kataloge."
+  ],
+  "baseline_review_sha256": "33786f9a09db58157222aef46604e50e879768400b9711c8b10dc9dbf8b3c4e5"
+}

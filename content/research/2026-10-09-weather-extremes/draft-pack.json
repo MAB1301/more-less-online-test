@@ -1,0 +1,569 @@
+{
+  "status": "review-only",
+  "verified": "2026-10-09",
+  "base_commit": "0ca6f66d0f1efea5709b7de9f3256413e0a2f5b1",
+  "images": {
+    "weather-extremes": {
+      "card": "visuals/weather-extremes-card.svg",
+      "detail": "visuals/weather-extremes-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "generated": false,
+      "answer_neutral": true,
+      "safe_margin_px": 28,
+      "description": "Abstrakte Wolke, Regen, Windlinien und Blitz ohne Orte, Zahlen, Rekordhalter oder Antwortwerte; Jeopardy-Bilder deaktiviert."
+    }
+  },
+  "moreless": [
+    {
+      "id": "weather-gust-hemisphere",
+      "l": "Barrow Island (Südhalbkugel)",
+      "r": "Mount Washington (Nordhalbkugel)",
+      "lv": 113.2,
+      "rv": 103.3,
+      "u": "m/s · von der WMO geführter maximaler Windstoß je Hemisphäre",
+      "metric": "Maximaler Windstoß",
+      "subcategory": "Wetterrekorde",
+      "source_refs": [
+        "table2025",
+        "wind-barrow"
+      ],
+      "data_years": [
+        1996,
+        1934
+      ],
+      "notes": "Vergleich derselben WMO-Rekordklasse. Historische Messsysteme und Mittelungsdetails unterscheiden sich; keine Aussage über typische Windverhältnisse.",
+      "cat": "Rekorde & Extreme",
+      "source": "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+        "https://wmo.int/asu-map?map=Wind_028"
+      ],
+      "verified": "2026-10-09",
+      "status": "draft",
+      "time_dependent": true,
+      "sets": [
+        "Wetterrekorde · geprüfter Entwurf"
+      ],
+      "correct": "left",
+      "visual": "weather-extremes"
+    },
+    {
+      "id": "weather-rain-24h-hemisphere",
+      "l": "Foc-Foc (Südhalbkugel)",
+      "r": "Isla Mujeres (Nordhalbkugel)",
+      "lv": 1825,
+      "rv": 1633.98,
+      "u": "mm · 24-Stunden-Niederschlagsrekord je Hemisphäre",
+      "metric": "24-Stunden-Niederschlag",
+      "subcategory": "Wetterrekorde",
+      "source_refs": [
+        "table2025",
+        "rain24"
+      ],
+      "data_years": [
+        1966,
+        2005
+      ],
+      "notes": "Identisches 24-Stunden-Fenster laut WMO. Werte werden in der veröffentlichten Genauigkeit verglichen; keine Umrechnung aus kürzeren Zeiträumen.",
+      "cat": "Rekorde & Extreme",
+      "source": "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+        "https://wmo.int/asu-map?book=21486&map=Rain_081&original_nid=21824"
+      ],
+      "verified": "2026-10-09",
+      "status": "draft",
+      "time_dependent": true,
+      "sets": [
+        "Wetterrekorde · geprüfter Entwurf"
+      ],
+      "correct": "left",
+      "visual": "weather-extremes"
+    }
+  ],
+  "estimate": [
+    {
+      "id": "weather-lightning-distance",
+      "q": "Wie lang war der von der WMO bestätigte längste einzelne Blitz ungefähr?",
+      "a": 829,
+      "u": "km · ± 8 km",
+      "subcategory": "Blitzrekorde",
+      "source_refs": [
+        "table2025",
+        "lightning2025"
+      ],
+      "data_years": [
+        2020
+      ],
+      "notes": "829 ± 8 km; Spielwert ist der zentrale veröffentlichte Messwert.",
+      "cat": "Rekorde & Extreme",
+      "source": "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+        "https://wmo.int/news/media-centre/wmo-certifies-megaflash-lightning-record-usa"
+      ],
+      "verified": "2026-10-09",
+      "status": "draft",
+      "time_dependent": true,
+      "sets": [
+        "Wetterrekorde · geprüfter Entwurf"
+      ],
+      "visual": "weather-extremes"
+    },
+    {
+      "id": "weather-lightning-duration",
+      "q": "Wie lange dauerte der von der WMO geführte längste einzelne Blitz?",
+      "a": 17.102,
+      "u": "Sekunden · ± 0,002 s",
+      "subcategory": "Blitzrekorde",
+      "source_refs": [
+        "table2025",
+        "lightning2025"
+      ],
+      "data_years": [
+        2020
+      ],
+      "notes": "17,102 ± 0,002 Sekunden; Dezimalpunkt im Datensatz, deutsche Darstellung im Spiel.",
+      "cat": "Rekorde & Extreme",
+      "source": "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+        "https://wmo.int/news/media-centre/wmo-certifies-megaflash-lightning-record-usa"
+      ],
+      "verified": "2026-10-09",
+      "status": "draft",
+      "time_dependent": true,
+      "sets": [
+        "Wetterrekorde · geprüfter Entwurf"
+      ],
+      "visual": "weather-extremes"
+    },
+    {
+      "id": "weather-pressure-high",
+      "q": "Welchen höchsten auf Meereshöhe reduzierten Luftdruck unterhalb 750 m führt die WMO?",
+      "a": 1083.8,
+      "u": "hPa",
+      "subcategory": "Druckrekorde",
+      "source_refs": [
+        "table2025"
+      ],
+      "data_years": [
+        1968
+      ],
+      "notes": "Eigene WMO-Klasse für Messorte unter 750 m; nicht mit der Klasse oberhalb 750 m vermischen.",
+      "cat": "Rekorde & Extreme",
+      "source": "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "verified": "2026-10-09",
+      "status": "draft",
+      "time_dependent": true,
+      "sets": [
+        "Wetterrekorde · geprüfter Entwurf"
+      ],
+      "visual": "weather-extremes"
+    },
+    {
+      "id": "weather-pressure-low",
+      "q": "Welchen niedrigsten auf Meereshöhe reduzierten Luftdruck außerhalb von Tornados führt die WMO?",
+      "a": 870,
+      "u": "hPa",
+      "subcategory": "Druckrekorde",
+      "source_refs": [
+        "table2025"
+      ],
+      "data_years": [
+        1979
+      ],
+      "notes": "Tornado-Messungen sind laut Rekorddefinition ausgeschlossen; Wert im Auge von Taifun Tip.",
+      "cat": "Rekorde & Extreme",
+      "source": "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "verified": "2026-10-09",
+      "status": "draft",
+      "time_dependent": true,
+      "sets": [
+        "Wetterrekorde · geprüfter Entwurf"
+      ],
+      "visual": "weather-extremes"
+    }
+  ],
+  "facts": [
+    {
+      "id": "weather-fact-hot",
+      "s": "Den globalen WMO-Hitzerekord hält Furnace Creek mit 56,7 °C.",
+      "a": true,
+      "e": "Die WMO-Tabelle führt 56,7 °C vom 10. Juli 1913 in Furnace Creek, Kalifornien.",
+      "difficulty": "easy",
+      "subcategory": "Temperaturrekorde",
+      "source_refs": [
+        "table2025"
+      ],
+      "data_years": [
+        1913
+      ],
+      "cat": "Rekorde & Extreme",
+      "source": "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "verified": "2026-10-09",
+      "status": "draft",
+      "time_dependent": true,
+      "sets": [
+        "Wetterrekorde · geprüfter Entwurf"
+      ],
+      "visual": "weather-extremes"
+    },
+    {
+      "id": "weather-fact-rain60-false",
+      "s": "Der globale 60-Minuten-Niederschlagsrekord der WMO beträgt 31,2 mm.",
+      "a": false,
+      "e": "31,2 mm ist der Ein-Minuten-Rekord. Für 60 Minuten führt die WMO 305 mm in Holt, Missouri.",
+      "difficulty": "easy",
+      "subcategory": "Niederschlagsrekorde",
+      "source_refs": [
+        "rain1",
+        "rain60"
+      ],
+      "data_years": [
+        1956,
+        1947
+      ],
+      "cat": "Rekorde & Extreme",
+      "source": "https://wmo.int/es/asu-map?map=Rain_031",
+      "sources": [
+        "https://wmo.int/es/asu-map?map=Rain_031",
+        "https://wmo.int/fr/asu-map?map=rain_030"
+      ],
+      "verified": "2026-10-09",
+      "status": "draft",
+      "time_dependent": true,
+      "sets": [
+        "Wetterrekorde · geprüfter Entwurf"
+      ],
+      "visual": "weather-extremes"
+    },
+    {
+      "id": "weather-fact-cold",
+      "s": "Der globale WMO-Kälterekord wurde an der Wostok-Station in der Antarktis gemessen.",
+      "a": true,
+      "e": "Die WMO führt dort −89,2 °C vom 21. Juli 1983.",
+      "difficulty": "medium",
+      "subcategory": "Temperaturrekorde",
+      "source_refs": [
+        "table2025"
+      ],
+      "data_years": [
+        1983
+      ],
+      "cat": "Rekorde & Extreme",
+      "source": "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "verified": "2026-10-09",
+      "status": "draft",
+      "time_dependent": true,
+      "sets": [
+        "Wetterrekorde · geprüfter Entwurf"
+      ],
+      "visual": "weather-extremes"
+    },
+    {
+      "id": "weather-fact-rain1-false",
+      "s": "Der globale Ein-Minuten-Niederschlagsrekord der WMO beträgt 305 mm.",
+      "a": false,
+      "e": "305 mm gehören zum 60-Minuten-Rekord. Der Ein-Minuten-Rekord beträgt 31,2 mm in Unionville.",
+      "difficulty": "medium",
+      "subcategory": "Niederschlagsrekorde",
+      "source_refs": [
+        "rain1",
+        "rain60"
+      ],
+      "data_years": [
+        1956,
+        1947
+      ],
+      "cat": "Rekorde & Extreme",
+      "source": "https://wmo.int/es/asu-map?map=Rain_031",
+      "sources": [
+        "https://wmo.int/es/asu-map?map=Rain_031",
+        "https://wmo.int/fr/asu-map?map=rain_030"
+      ],
+      "verified": "2026-10-09",
+      "status": "draft",
+      "time_dependent": true,
+      "sets": [
+        "Wetterrekorde · geprüfter Entwurf"
+      ],
+      "visual": "weather-extremes"
+    },
+    {
+      "id": "weather-fact-europe",
+      "s": "Die WMO bestätigte 48,8 °C in Syrakus als Temperaturrekord für Kontinentaleuropa.",
+      "a": true,
+      "e": "Die Messung stammt vom 11. August 2021 auf Sizilien und wurde von der WMO bestätigt.",
+      "difficulty": "hard",
+      "subcategory": "Temperaturrekorde",
+      "source_refs": [
+        "europe2024",
+        "table2025"
+      ],
+      "data_years": [
+        2021
+      ],
+      "cat": "Rekorde & Extreme",
+      "source": "https://wmo.int/media/news/wmo-confirms-verification-of-new-continental-european-temperature-record",
+      "sources": [
+        "https://wmo.int/media/news/wmo-confirms-verification-of-new-continental-european-temperature-record",
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "verified": "2026-10-09",
+      "status": "draft",
+      "time_dependent": true,
+      "sets": [
+        "Wetterrekorde · geprüfter Entwurf"
+      ],
+      "visual": "weather-extremes"
+    },
+    {
+      "id": "weather-fact-foc-old-error",
+      "s": "Die WMO führt 1.870 mm in Cilaos als gültigen 24-Stunden-Niederschlagsweltrekord.",
+      "a": false,
+      "e": "Die WMO kennzeichnet den Cilaos-Wert als alten Fehler. Der gültige Rekord beträgt 1.825 mm in Foc-Foc.",
+      "difficulty": "hard",
+      "subcategory": "Niederschlagsrekorde",
+      "source_refs": [
+        "rain24"
+      ],
+      "data_years": [
+        1966
+      ],
+      "cat": "Rekorde & Extreme",
+      "source": "https://wmo.int/asu-map?book=21486&map=Rain_081&original_nid=21824",
+      "sources": [
+        "https://wmo.int/asu-map?book=21486&map=Rain_081&original_nid=21824"
+      ],
+      "verified": "2026-10-09",
+      "status": "draft",
+      "time_dependent": true,
+      "sets": [
+        "Wetterrekorde · geprüfter Entwurf"
+      ],
+      "visual": "weather-extremes"
+    }
+  ],
+  "jeopardy": [
+    {
+      "id": "weather-jeop-hot-place",
+      "q": "Welcher Ort in Kalifornien hält laut WMO mit 56,7 °C den globalen Hitzerekord?",
+      "a": "Furnace Creek|Greenland Ranch|Furnace Creek (Greenland Ranch)",
+      "difficulty": 1,
+      "subcategory": "Temperaturrekorde",
+      "source_refs": [
+        "table2025"
+      ],
+      "data_years": [
+        1913
+      ],
+      "cat": "Rekorde & Extreme",
+      "source": "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "verified": "2026-10-09",
+      "status": "draft",
+      "time_dependent": true,
+      "sets": [
+        "Wetterrekorde · geprüfter Entwurf"
+      ],
+      "visual": null
+    },
+    {
+      "id": "weather-jeop-cold-place",
+      "q": "Welche antarktische Forschungsstation hält laut WMO mit −89,2 °C den globalen Kälterekord?",
+      "a": "Wostok|Vostok|Wostok-Station|Vostok Station",
+      "difficulty": 1,
+      "subcategory": "Temperaturrekorde",
+      "source_refs": [
+        "table2025"
+      ],
+      "data_years": [
+        1983
+      ],
+      "cat": "Rekorde & Extreme",
+      "source": "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf",
+      "sources": [
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "verified": "2026-10-09",
+      "status": "draft",
+      "time_dependent": true,
+      "sets": [
+        "Wetterrekorde · geprüfter Entwurf"
+      ],
+      "visual": null
+    },
+    {
+      "id": "weather-jeop-rain24-place",
+      "q": "Welcher Ort auf La Réunion hält laut WMO den globalen 24-Stunden-Niederschlagsrekord?",
+      "a": "Foc-Foc|Foc Foc",
+      "difficulty": 2,
+      "subcategory": "Niederschlagsrekorde",
+      "source_refs": [
+        "rain24"
+      ],
+      "data_years": [
+        1966
+      ],
+      "cat": "Rekorde & Extreme",
+      "source": "https://wmo.int/asu-map?book=21486&map=Rain_081&original_nid=21824",
+      "sources": [
+        "https://wmo.int/asu-map?book=21486&map=Rain_081&original_nid=21824"
+      ],
+      "verified": "2026-10-09",
+      "status": "draft",
+      "time_dependent": true,
+      "sets": [
+        "Wetterrekorde · geprüfter Entwurf"
+      ],
+      "visual": null
+    },
+    {
+      "id": "weather-jeop-wind-place",
+      "q": "Auf welcher australischen Insel wurde der von der WMO geführte Windstoß von 113,2 m/s gemessen?",
+      "a": "Barrow Island|Barrow-Insel",
+      "difficulty": 2,
+      "subcategory": "Windrekorde",
+      "source_refs": [
+        "wind-barrow",
+        "table2025"
+      ],
+      "data_years": [
+        1996
+      ],
+      "cat": "Rekorde & Extreme",
+      "source": "https://wmo.int/asu-map?map=Wind_028",
+      "sources": [
+        "https://wmo.int/asu-map?map=Wind_028",
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "verified": "2026-10-09",
+      "status": "draft",
+      "time_dependent": true,
+      "sets": [
+        "Wetterrekorde · geprüfter Entwurf"
+      ],
+      "visual": null
+    },
+    {
+      "id": "weather-jeop-rain1-place",
+      "q": "Welcher Ort in Maryland hält laut WMO mit 31,2 mm den globalen Ein-Minuten-Niederschlagsrekord?",
+      "a": "Unionville|Unionville, Maryland",
+      "difficulty": 3,
+      "subcategory": "Niederschlagsrekorde",
+      "source_refs": [
+        "rain1"
+      ],
+      "data_years": [
+        1956
+      ],
+      "cat": "Rekorde & Extreme",
+      "source": "https://wmo.int/es/asu-map?map=Rain_031",
+      "sources": [
+        "https://wmo.int/es/asu-map?map=Rain_031"
+      ],
+      "verified": "2026-10-09",
+      "status": "draft",
+      "time_dependent": true,
+      "sets": [
+        "Wetterrekorde · geprüfter Entwurf"
+      ],
+      "visual": null
+    },
+    {
+      "id": "weather-jeop-rain60-place",
+      "q": "Welcher Ort in Missouri hält laut WMO mit 305 mm den globalen 60-Minuten-Niederschlagsrekord?",
+      "a": "Holt|Holt, Missouri",
+      "difficulty": 3,
+      "subcategory": "Niederschlagsrekorde",
+      "source_refs": [
+        "rain60"
+      ],
+      "data_years": [
+        1947
+      ],
+      "cat": "Rekorde & Extreme",
+      "source": "https://wmo.int/fr/asu-map?map=rain_030",
+      "sources": [
+        "https://wmo.int/fr/asu-map?map=rain_030"
+      ],
+      "verified": "2026-10-09",
+      "status": "draft",
+      "time_dependent": true,
+      "sets": [
+        "Wetterrekorde · geprüfter Entwurf"
+      ],
+      "visual": null
+    },
+    {
+      "id": "weather-jeop-lightning-distance-area",
+      "q": "Zwischen welchen zwei US-Bundesstaaten erstreckte sich der von der WMO bestätigte 829-km-Megablitz?",
+      "a": "Texas und Missouri|Missouri und Texas|Texas–Missouri",
+      "difficulty": 4,
+      "subcategory": "Blitzrekorde",
+      "source_refs": [
+        "lightning2025",
+        "table2025"
+      ],
+      "data_years": [
+        2020
+      ],
+      "cat": "Rekorde & Extreme",
+      "source": "https://wmo.int/news/media-centre/wmo-certifies-megaflash-lightning-record-usa",
+      "sources": [
+        "https://wmo.int/news/media-centre/wmo-certifies-megaflash-lightning-record-usa",
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "verified": "2026-10-09",
+      "status": "draft",
+      "time_dependent": true,
+      "sets": [
+        "Wetterrekorde · geprüfter Entwurf"
+      ],
+      "visual": null
+    },
+    {
+      "id": "weather-jeop-lightning-duration-area",
+      "q": "Über welchen beiden südamerikanischen Staaten erstreckte sich der 17,102 Sekunden dauernde WMO-Rekordblitz?",
+      "a": "Argentinien und Uruguay|Uruguay und Argentinien|Argentina and Uruguay",
+      "difficulty": 5,
+      "subcategory": "Blitzrekorde",
+      "source_refs": [
+        "lightning2025",
+        "table2025"
+      ],
+      "data_years": [
+        2020
+      ],
+      "cat": "Rekorde & Extreme",
+      "source": "https://wmo.int/news/media-centre/wmo-certifies-megaflash-lightning-record-usa",
+      "sources": [
+        "https://wmo.int/news/media-centre/wmo-certifies-megaflash-lightning-record-usa",
+        "https://wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+      ],
+      "verified": "2026-10-09",
+      "status": "draft",
+      "time_dependent": true,
+      "sets": [
+        "Wetterrekorde · geprüfter Entwurf"
+      ],
+      "visual": null
+    }
+  ]
+}
