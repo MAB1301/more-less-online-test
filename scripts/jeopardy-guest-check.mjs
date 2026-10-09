@@ -16,7 +16,7 @@ function fixture(host){
     return elements.get(id);
   };
   const button={classList:{add:()=>{}},dataset:{col:'0',row:'0'}};
-  const ctx=vm.createContext({S:{room:'room',host},JEOP:{data:[['Test',[['Frage?','Au']]]],scores:[0,0]},el,req:async()=>[shared],document:{querySelector:()=>button},setQuestionVisual:()=>{},jeopTheme:()=>'',setTimeout:()=>{},endJeopardy:()=>{}});
+  const ctx=vm.createContext({S:{room:'room',host},JEOP:{data:[['Test',[['Frage?','Au']]]],scores:[0,0]},el,req:async()=>[shared],rpc:async(fn)=>{assert.equal(fn,'ml_jeopardy_state');return {...shared,selected_answer:host?shared.selected_answer:null}},document:{querySelector:()=>button},setQuestionVisual:()=>{},jeopTheme:()=>'',setTimeout:()=>{},endJeopardy:()=>{}});
   vm.runInContext('let JEOP_SYNC_BUSY=false,JEOP_SYNC_REV=-1;'+source,ctx);
   return {ctx,el};
 }
@@ -25,6 +25,7 @@ for(const host of [true,false]){
   await vm.runInContext('jeopSyncState()',ctx);
   assert.equal(el('jeopScoreA').textContent,200);
   assert.equal(el('jeopScoreB').textContent,100);
+  if(!host)assert(!el('jeopAnswer').textContent.includes('Au'),'guest never falls back to local solution');
   assert.equal(el('jeopJudge').classList.contains('hide'),!host,'only host receives verdict controls');
 }
 console.log('OK: Jeopardy host and guest show the same score; only host judges a guest buzz');
