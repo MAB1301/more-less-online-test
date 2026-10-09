@@ -42,6 +42,19 @@ function reveal(g,level){
   const a=el('a','','Quelle');a.href=c.source;a.target='_blank';a.rel='noopener noreferrer';li.append(a);list.append(li);
  });details.append(list);return details;
 }
+function nameArt(card){
+ const art=window.FACT_CONNECTIONS_VISUALS?.[card.value];if(!art)return null;
+ const frame=el('span','fc-art');frame.setAttribute('aria-hidden','true');
+ if(art.type==='portrait'){
+  frame.classList.add('fc-portrait');frame.style.backgroundImage=`url("${art.src}")`;
+  frame.style.backgroundPosition=`${(art.atlas%4)*100/3}% ${Math.floor(art.atlas/4)*50}%`;
+ }else{
+  const image=el('img');image.src=art.src;image.alt='';image.decoding='async';
+  image.addEventListener('error',()=>frame.remove(),{once:true});frame.append(image);
+  if(art.type==='category')frame.classList.add('fc-category-art');
+ }
+ return frame;
+}
 function render(){
  const grid=dialog.querySelector('#fcGrid');grid.replaceChildren();
  if(!round.finished){for(const c of round.cards){
@@ -51,7 +64,11 @@ function render(){
    else {message('Vier Karten sind ausgewählt. Wähle erst eine ab.');return;}
    n.setAttribute('aria-pressed',String(round.selected.includes(c.id)));update();
   },'fc-card');n.dataset.cardId=c.id;n.setAttribute('aria-pressed',String(round.selected.includes(c.id)));
-  n.append(el('small','',c.label),el('b','',format(c)));if(c.scope)n.append(el('small','',c.scope));grid.append(n);
+  if(c.kind==='name'){
+   n.classList.add('fc-name-card');const art=nameArt(c);if(art)n.append(art);
+   n.append(el('b','fc-name',format(c)));
+  }else{n.append(el('small','fc-metric',c.label),el('b','fc-value',format(c)));if(c.scope)n.append(el('small','fc-scope',c.scope));}
+  grid.append(n);
  }}
  const solved=dialog.querySelector('#fcSolved');solved.replaceChildren();
  (round.finished?round.groups:round.solved.map(id=>round.groups.find(g=>g.id===id))).forEach((g,i)=>solved.append(reveal(g,i)));
@@ -71,7 +88,7 @@ function submit(){
 }
 function init(){
  dialog=el('dialog');dialog.id='factConnections';dialog.setAttribute('aria-labelledby','fcTitle');
- const head=el('div','fc-head');const titleWrap=el('div');titleWrap.append(el('div','fc-eyebrow','ZAHLEN. FAKTEN. VERBINDUNGEN.'));const title=el('h2','','Fakten zuordnen');title.id='fcTitle';titleWrap.append(title);head.append(titleWrap,button('Schließen',()=>dialog.close()));dialog.append(head);
+ const head=el('div','fc-head');const titleWrap=el('div');titleWrap.append(el('div','fc-eyebrow','ZAHLEN. FAKTEN. VERBINDUNGEN.'));const title=el('h2','','Fakten zuordnen');title.id='fcTitle';titleWrap.append(title,el('p','fc-subtitle','Ein Name. Drei Fakten.'));head.append(titleWrap,button('Schließen',()=>dialog.close()));dialog.append(head);
  const help=el('details','fc-help');help.append(el('summary','','So funktioniert’s'),el('p','','16 gemischte Karten: vier Namen und zwölf Zahlenfakten. Wähle jeweils einen Namen und genau die drei zugehörigen Fakten. Du hast vier Fehlversuche. Identische Fakten sind austauschbar. Gelöste Gruppen zeigen die Quellen.'));dialog.append(help);
  const settings=el('section','fc-controls');settings.id='fcSetup';const label=el('label','','Kategorie');const select=el('select');select.id='fcCategory';select.append(new Option('Bunter Mix – eine Kategorie pro Runde',''),...categories.map(c=>new Option(c,c)));select.addEventListener('change',()=>{category=select.value;criteria=fields().map(f=>f.id);choices();});label.append(select);settings.append(label);
  const adjust=el('details','fc-help');adjust.append(el('summary','','Kriterien anpassen'));const checks=el('div','fc-criteria');checks.setAttribute('role','group');checks.setAttribute('aria-label','Kriterien auswählen');adjust.append(checks);settings.append(adjust);

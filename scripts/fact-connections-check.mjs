@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
 const ctx=vm.createContext({window:{}});
-for(const path of ['assets/fact-connections-data.js','assets/fact-connections-engine.js'])vm.runInContext(fs.readFileSync(path,'utf8'),ctx,{filename:path});
+for(const path of ['assets/fact-connections-data.js','assets/fact-connections-engine.js','assets/fact-connections-visuals.js'])vm.runInContext(fs.readFileSync(path,'utf8'),ctx,{filename:path});
 const p=ctx.window.FACT_CONNECTIONS_PACK,E=ctx.window.FactConnectionsEngine;
 const cats=[...new Set(p.subjects.map(s=>s.category))],criteria=Object.keys(p.criteria);
 assert(cats.length>=13);
@@ -34,4 +34,9 @@ const shared={criteria:{a:'A',b:'B',c:'C'},subjects:[0,1,2,3].map(i=>({name:`N${
 const t=E.createRound(shared,'Test',['a','b','c'],()=>.7),g=t.groups[0];
 t.selected=g.cards.map(want=>t.cards.find(c=>E.signature(c)===E.signature(want)&&(want.label!=='A'||Math.floor(c.id/4)!==g.id)).id);
 assert.equal(E.submit(t).status,'correct');
+// Every name has local art; twelve distinct portrait cells cover the entire animal category.
+const visuals=ctx.window.FACT_CONNECTIONS_VISUALS;
+for(const subject of p.subjects){const art=visuals[subject.name];assert(art,subject.name);assert(fs.existsSync(art.src),art.src);}
+const animals=p.subjects.filter(s=>s.category==='Tierwelt').map(s=>visuals[s.name]);
+assert.equal(animals.length,12);assert(animals.every(a=>a.type==='portrait'));assert.equal(new Set(animals.map(a=>a.atlas)).size,12);
 console.log(`PASS: ${cats.length} categories, ${criteria.length} criteria, ${p.subjects.length} subjects; 520 solvable rounds, win/loss/repeat and shared-card equivalence`);
