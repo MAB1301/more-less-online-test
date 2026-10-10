@@ -1,0 +1,106 @@
+{
+  "usgs_rivers": {
+    "url": "https://www.usgs.gov/water-science-school/science/rivers-world-worlds-longest-rivers",
+    "publisher": "U.S. Geological Survey",
+    "verified": "2026-10-06",
+    "data_years": [2007],
+    "evidence": "USGS list and source-to-mouth method: Missouri 2,540 miles, Mississippi 2,340 miles, Colorado 1,450 miles; the page attributes the table to the 2007 Water Encyclopedia.",
+    "method": "Primary government page retrieved; wording and units preserved, evidence paraphrased."
+  },
+  "hoover": {
+    "url": "https://www.usbr.gov/lc/hooverdam/faqs/damfaqs.html",
+    "publisher": "U.S. Bureau of Reclamation",
+    "verified": "2026-10-06",
+    "data_years": [1936],
+    "evidence": "Hoover Dam height is 726.4 ft from foundation rock to the roadway on the crest.",
+    "method": "Primary government engineering FAQ retrieved and relevant field read."
+  },
+  "glen_canyon": {
+    "url": "https://www.usbr.gov/uc/rm/crsp/gc/index.html",
+    "publisher": "U.S. Bureau of Reclamation",
+    "verified": "2026-10-06",
+    "data_years": [1964],
+    "evidence": "Glen Canyon Dam height is 710 ft above bedrock; construction was completed in 1964.",
+    "method": "Primary government project page retrieved and relevant field read."
+  },
+  "grand_coulee": {
+    "url": "https://www.usbr.gov/projects/index.php?id=155",
+    "publisher": "U.S. Bureau of Reclamation",
+    "verified": "2026-10-06",
+    "data_years": [1942],
+    "evidence": "Grand Coulee Dam structural height is 550 ft.",
+    "method": "Primary government project page retrieved and relevant field read."
+  },
+  "webb": {
+    "url": "https://science.nasa.gov/mission/webb/webbs-mirrors/",
+    "publisher": "NASA",
+    "verified": "2026-10-06",
+    "data_years": [2021],
+    "evidence": "Webb's primary mirror is 6.5 m in diameter and consists of 18 hexagonal segments.",
+    "method": "Primary mission page retrieved and relevant statement read."
+  },
+  "hubble": {
+    "url": "https://science.nasa.gov/mission/hubble/observatory/hubble-vs-webb/",
+    "publisher": "NASA",
+    "verified": "2026-10-06",
+    "data_years": [1990],
+    "evidence": "NASA's comparison gives Hubble a 2.4 m primary mirror and Webb a 6.5 m primary mirror.",
+    "method": "Primary mission comparison retrieved and relevant statement read."
+  },
+  "spitzer": {
+    "url": "https://science.nasa.gov/mission/spitzer/",
+    "publisher": "NASA",
+    "verified": "2026-10-06",
+    "data_years": [2003],
+    "evidence": "Spitzer used an 85 cm (34 in) telescope; represented here as a 0.85 m primary mirror diameter.",
+    "method": "Primary mission page retrieved; centimetres converted exactly to metres."
+  },
+  "british_museum": {
+    "url": "https://www.britishmuseum.org/about-us/british-museum-story/history",
+    "publisher": "British Museum",
+    "verified": "2026-10-06",
+    "data_years": [1759],
+    "evidence": "The museum opened its doors to the public in 1759.",
+    "method": "Official museum history page retrieved and relevant statement read."
+  },
+  "louvre": {
+    "url": "https://www.louvre.fr/en/explore/the-palace/italian-painting-in-perspective",
+    "publisher": "Musée du Louvre",
+    "verified": "2026-10-06",
+    "data_years": [1793],
+    "evidence": "The Muséum central des arts was created and opened to the public on 10 August 1793.",
+    "method": "Official museum history page retrieved and relevant statement read."
+  },
+  "prado": {
+    "url": "https://www.museodelprado.es/en/bicentenary",
+    "publisher": "Museo Nacional del Prado",
+    "verified": "2026-10-06",
+    "data_years": [1819],
+    "evidence": "The Prado opened to the public on 19 November 1819 as the Royal Museum of Painting and Sculpture.",
+    "method": "Official museum bicentenary page retrieved and relevant statement read."
+  },
+  "boeing_747_8": {
+    "url": "https://investors.boeing.com/investors/news/press-release-details/2022/Final-Boeing-747-Airplane-Leaves-Everett-Factory/default.aspx",
+    "publisher": "Boeing",
+    "verified": "2026-10-06",
+    "data_years": [2022],
+    "evidence": "Boeing gives the 747-8 length as 250 ft 2 in (76.2 m) and identifies the type as the Queen of the Skies.",
+    "method": "Primary manufacturer release retrieved and relevant specification read."
+  },
+  "airbus_a350_1000": {
+    "url": "https://www.aircraft.airbus.com/en/aircraft/a350/a350-1000",
+    "publisher": "Airbus",
+    "verified": "2026-10-06",
+    "data_years": [2026],
+    "evidence": "Airbus key figures give the A350-1000 an overall length of 73.78 m.",
+    "method": "Primary manufacturer product page retrieved and current specification read."
+  },
+  "airbus_a380": {
+    "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a380",
+    "publisher": "Airbus",
+    "verified": "2026-10-06",
+    "data_years": [2026],
+    "evidence": "Airbus describes the A380 as 73 m long; the comparison uses the published rounded figure.",
+    "method": "Primary manufacturer product page retrieved and current rounded specification read."
+  }
+}

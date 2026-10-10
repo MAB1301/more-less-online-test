@@ -1,0 +1,377 @@
+{
+  "policy": "Changing values: 90 days; stable and historical facts: 365 days. Dates are review deadlines, not automatic approval. Fixed edition/year values retain their stated edition.",
+  "records": [
+    {
+      "id": "small-20261006-moreless-01",
+      "verified": "2026-10-06",
+      "data_years": [
+        2007
+      ],
+      "sources": [
+        "https://www.usgs.gov/water-science-school/science/rivers-world-worlds-longest-rivers"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-06",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261006-moreless-02",
+      "verified": "2026-10-06",
+      "data_years": [
+        2007
+      ],
+      "sources": [
+        "https://www.usgs.gov/water-science-school/science/rivers-world-worlds-longest-rivers"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-06",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261006-moreless-03",
+      "verified": "2026-10-06",
+      "data_years": [
+        1936,
+        1964
+      ],
+      "sources": [
+        "https://www.usbr.gov/lc/hooverdam/faqs/damfaqs.html",
+        "https://www.usbr.gov/uc/rm/crsp/gc/index.html"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-06",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261006-moreless-04",
+      "verified": "2026-10-06",
+      "data_years": [
+        1964,
+        1942
+      ],
+      "sources": [
+        "https://www.usbr.gov/uc/rm/crsp/gc/index.html",
+        "https://www.usbr.gov/projects/index.php?id=155"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-06",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261006-moreless-05",
+      "verified": "2026-10-06",
+      "data_years": [
+        2021,
+        1990
+      ],
+      "sources": [
+        "https://science.nasa.gov/mission/webb/webbs-mirrors/",
+        "https://science.nasa.gov/mission/hubble/observatory/hubble-vs-webb/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-06",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261006-moreless-06",
+      "verified": "2026-10-06",
+      "data_years": [
+        1990,
+        2003
+      ],
+      "sources": [
+        "https://science.nasa.gov/mission/hubble/observatory/hubble-vs-webb/",
+        "https://science.nasa.gov/mission/spitzer/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-06",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261006-moreless-07",
+      "verified": "2026-10-06",
+      "data_years": [
+        1759,
+        1793
+      ],
+      "sources": [
+        "https://www.britishmuseum.org/about-us/british-museum-story/history",
+        "https://www.louvre.fr/en/explore/the-palace/italian-painting-in-perspective"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-06",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261006-moreless-08",
+      "verified": "2026-10-06",
+      "data_years": [
+        1793,
+        1819
+      ],
+      "sources": [
+        "https://www.louvre.fr/en/explore/the-palace/italian-painting-in-perspective",
+        "https://www.museodelprado.es/en/bicentenary"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-06",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261006-moreless-09",
+      "verified": "2026-10-06",
+      "data_years": [
+        2022,
+        2026
+      ],
+      "sources": [
+        "https://investors.boeing.com/investors/news/press-release-details/2022/Final-Boeing-747-Airplane-Leaves-Everett-Factory/default.aspx",
+        "https://www.aircraft.airbus.com/en/aircraft/a350/a350-1000"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-04",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261006-moreless-10",
+      "verified": "2026-10-06",
+      "data_years": [
+        2026
+      ],
+      "sources": [
+        "https://www.aircraft.airbus.com/en/aircraft/a350/a350-1000",
+        "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a380"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-04",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261006-estimate-01",
+      "verified": "2026-10-06",
+      "data_years": [
+        2007
+      ],
+      "sources": [
+        "https://www.usgs.gov/water-science-school/science/rivers-world-worlds-longest-rivers"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-06",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261006-estimate-02",
+      "verified": "2026-10-06",
+      "data_years": [
+        1936
+      ],
+      "sources": [
+        "https://www.usbr.gov/lc/hooverdam/faqs/damfaqs.html"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-06",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261006-estimate-03",
+      "verified": "2026-10-06",
+      "data_years": [
+        2003
+      ],
+      "sources": [
+        "https://science.nasa.gov/mission/spitzer/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-06",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261006-estimate-04",
+      "verified": "2026-10-06",
+      "data_years": [
+        1819
+      ],
+      "sources": [
+        "https://www.museodelprado.es/en/bicentenary"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-06",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261006-estimate-05",
+      "verified": "2026-10-06",
+      "data_years": [
+        2026
+      ],
+      "sources": [
+        "https://www.aircraft.airbus.com/en/aircraft/a350/a350-1000"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-04",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261006-facts-01",
+      "verified": "2026-10-06",
+      "data_years": [
+        2007
+      ],
+      "sources": [
+        "https://www.usgs.gov/water-science-school/science/rivers-world-worlds-longest-rivers"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-06",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261006-facts-02",
+      "verified": "2026-10-06",
+      "data_years": [
+        1964,
+        1936
+      ],
+      "sources": [
+        "https://www.usbr.gov/uc/rm/crsp/gc/index.html",
+        "https://www.usbr.gov/lc/hooverdam/faqs/damfaqs.html"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-06",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261006-facts-03",
+      "verified": "2026-10-06",
+      "data_years": [
+        2003,
+        1990
+      ],
+      "sources": [
+        "https://science.nasa.gov/mission/spitzer/",
+        "https://science.nasa.gov/mission/hubble/observatory/hubble-vs-webb/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-06",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261006-facts-04",
+      "verified": "2026-10-06",
+      "data_years": [
+        1759,
+        1793
+      ],
+      "sources": [
+        "https://www.britishmuseum.org/about-us/british-museum-story/history",
+        "https://www.louvre.fr/en/explore/the-palace/italian-painting-in-perspective"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-06",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261006-facts-05",
+      "verified": "2026-10-06",
+      "data_years": [
+        2026
+      ],
+      "sources": [
+        "https://www.aircraft.airbus.com/en/aircraft/a350/a350-1000",
+        "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a380"
+      ],
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-04",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261006-jeopardy-01",
+      "verified": "2026-10-06",
+      "data_years": [
+        2007
+      ],
+      "sources": [
+        "https://www.usgs.gov/water-science-school/science/rivers-world-worlds-longest-rivers"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-06",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261006-jeopardy-02",
+      "verified": "2026-10-06",
+      "data_years": [
+        1936
+      ],
+      "sources": [
+        "https://www.usbr.gov/lc/hooverdam/faqs/damfaqs.html"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-06",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261006-jeopardy-03",
+      "verified": "2026-10-06",
+      "data_years": [
+        2021
+      ],
+      "sources": [
+        "https://science.nasa.gov/mission/webb/webbs-mirrors/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-06",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261006-jeopardy-04",
+      "verified": "2026-10-06",
+      "data_years": [
+        1819
+      ],
+      "sources": [
+        "https://www.museodelprado.es/en/bicentenary"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-06",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "small-20261006-jeopardy-05",
+      "verified": "2026-10-06",
+      "data_years": [
+        2022
+      ],
+      "sources": [
+        "https://investors.boeing.com/investors/news/press-release-details/2022/Final-Boeing-747-Airplane-Leaves-Everett-Factory/default.aspx"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-06",
+      "review_status": "draft_not_approved"
+    }
+  ]
+}
