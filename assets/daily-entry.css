@@ -1,0 +1,41 @@
+/* Daily entry follows the same Game Night card language across all three games. */
+#dailyOverlay{--daily-accent:#b48aff;--daily-soft:#7d48cc26}
+#dailyOverlay[data-game=estimate]{--daily-accent:#64dfed;--daily-soft:#1a9ab826}
+#dailyOverlay[data-game=facts]{--daily-accent:#ff91ae;--daily-soft:#bd476b26}
+#dailyOverlay:not(.dailyShowingScores) .modal{width:min(980px,94vw);padding:28px;background:radial-gradient(ellipse at 10% 0%,var(--daily-soft),transparent 65%),#0b1020;border:1px solid #65708b70;box-shadow:0 24px 90px #0008;border-radius:28px}
+#dailyOverlay .dailyEntryEyebrow{display:block;font-size:11px;font-weight:800;letter-spacing:.16em;color:var(--daily-accent)}
+#dailyOverlay:not(.dailyShowingScores) .dailyHead{margin-bottom:16px;align-items:center}
+#dailyOverlay:not(.dailyShowingScores) .dailyHead h2{margin:8px 0 0;font-size:clamp(27px,3.6vw,40px);letter-spacing:-.04em;text-shadow:none}
+#dailyOverlay:not(.dailyShowingScores) .dailyHead p{font-size:14px;margin:6px 0 0}
+#dailyOverlay .dailyHeadTools>button{min-height:48px}
+#dailyOverlay .dailyDateButton{border-color:#66708b!important;background:#192239!important}
+#dailyOverlay .dailyIdentity{font-size:12px;color:#bdc6dd;margin:12px 0;line-height:1.5}
+#dailyOverlay .dailyGameNavigation{margin-top:12px;gap:8px}
+#dailyOverlay .dailyGameNavigation button{min-height:44px;border-radius:12px;font-size:13px}
+#dailyOverlay .dailyGameNavigation .dailyTabs{gap:6px}
+#dailyOverlay:not(.dailyShowingScores) #dailyRules{padding:12px 15px;border:1px solid #53607855;border-radius:12px;background:#131c2c;color:#c7d0e3;font-size:13px;line-height:1.6;margin-top:14px}
+#dailyOverlay #dailyPlayPanel{padding:24px;background:linear-gradient(135deg,var(--daily-soft),#151c2e 70%);border:1px solid #72809b55;border-radius:22px;box-shadow:0 12px 35px #0003}
+.dailyEntryIntro{display:flex;align-items:center;gap:20px;margin-bottom:20px}
+#dailyOverlay .dailyEntryIntro h3{font-size:clamp(24px,3vw,32px);letter-spacing:-.03em;margin:7px 0 6px;line-height:1.2}
+.dailyEntryIntro p{font-size:14px;color:#bac5dc;margin:0;line-height:1.5}
+.dailyEntryArt{flex:0 0 112px;height:94px;display:grid;place-items:center;background:radial-gradient(ellipse,var(--daily-soft),transparent 75%)}
+.dailyEntryArt img{display:none;width:130px;height:100px;object-fit:contain;filter:drop-shadow(0 5px 14px #0004)}
+#dailyOverlay[data-game=moreless] .dailyEntryArt .moreless,#dailyOverlay[data-game=estimate] .dailyEntryArt .estimate,#dailyOverlay[data-game=facts] .dailyEntryArt .facts{display:block}
+.dailyEntryBrief{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-bottom:24px}
+.dailyEntryBrief>div{padding:13px 15px;border:1px solid #6c789b40;border-radius:13px;background:#0c132380}
+.dailyEntryBrief span{display:block;color:#aab5ce;font-size:10px;font-weight:750;letter-spacing:.08em;margin-bottom:7px}
+.dailyEntryBrief b{display:block;font-size:14px;line-height:1.45;color:#f2efff}
+.dailyEntryBrief small{display:block;font-size:11px;color:#aab5ce;margin-top:3px}
+#dailyOverlay #dailyPlayDetails{grid-template-columns:minmax(0,1fr) auto;gap:10px 14px}
+#dailyOverlay #dailyPlayDetails label{font-size:13px;color:#dce3f4;margin:0}
+#dailyOverlay #dailyName{min-height:54px;padding:14px 16px;border:1px solid #677797;background:#0c1425;border-radius:13px;font-size:16px;color:#f1f4ff}
+#dailyOverlay #dailyName:focus-visible{outline:3px solid var(--daily-accent);outline-offset:3px}
+#dailyOverlay #dailyStart{min-height:54px;padding:14px 24px;background:linear-gradient(120deg,#8b43ed,#6940c9);border:1px solid #c098ff;border-radius:13px;box-shadow:0 5px 20px #733ec733;color:#fff;font-weight:800;font-size:16px}
+#dailyOverlay #dailyPlayDetails .tiny{font-size:12px;line-height:1.5;color:#acb8ce}
+#dailyOverlay #dailyMine:empty{display:none}
+#dailyOverlay #dailyPlayPanel details{border-top:1px solid #6c789b40;margin-top:20px;padding-top:15px;font-size:12px;line-height:1.6}
+#dailyOverlay #dailyPlayPanel summary{cursor:pointer;min-height:28px;color:#bbc7e0}
+#dailyOverlay #dailyStatus:empty{display:none}
+.dailyShowingScores .dailyEntryEyebrow{display:none!important}
+@media(max-width:700px){#dailyOverlay:not(.dailyShowingScores) .modal{padding:18px;border-radius:22px}.dailyEntryIntro{gap:12px}.dailyEntryArt{flex-basis:70px;height:75px}.dailyEntryArt img{width:85px;height:75px}.dailyEntryBrief{gap:7px}.dailyEntryBrief>div{padding:11px 9px}.dailyEntryBrief b{font-size:12px}#dailyOverlay #dailyPlayPanel{padding:18px}#dailyOverlay #dailyPlayDetails{grid-template-columns:1fr}#dailyOverlay #dailyPlayDetails .tiny{grid-row:auto}#dailyOverlay #dailyStart{width:100%}#dailyOverlay .dailyHeadTools{flex-wrap:nowrap}#dailyOverlay:not(.dailyShowingScores) .dailyHead{align-items:flex-start}#dailyOverlay .dailyGameNavigation .dailyTabs{width:100%;display:flex}#dailyOverlay .dailyGameNavigation .dailyTabs button{flex:1;padding:10px 6px;font-size:12px}}
+@media(max-width:400px){#dailyOverlay:not(.dailyShowingScores) .dailyHead{flex-wrap:wrap}.dailyEntryBrief{grid-template-columns:1fr}.dailyEntryBrief>div{display:flex;align-items:center;flex-wrap:wrap;gap:6px 12px}.dailyEntryBrief span{margin:0;min-width:92px}.dailyEntryIntro .dailyEntryEyebrow{font-size:9px}}
