@@ -1,0 +1,114 @@
+{
+  "checked": "2026-10-10",
+  "all_open_prs": [
+    {
+      "pr": 138,
+      "branch": "ui/overlay-polish",
+      "sha": "f5aa58edc4e6e4cbe5af9376f4e009806fc1c88f",
+      "title": "Polish overlays, quick access, shop and audio settings",
+      "unique_pending_delta": 0,
+      "already_main_or_repeated": 0,
+      "content_examined": false
+    },
+    {
+      "pr": 134,
+      "branch": "codex/playable-comparison-criteria-20261009",
+      "sha": "61b0f7b26fec96ad1d31dbd2d5837111a91fd606",
+      "title": "200 neue More/Less-Vergleiche: 20 je Kategorie, geprüfte Kriterien und Grafiken",
+      "unique_pending_delta": 208,
+      "already_main_or_repeated": 0,
+      "content_examined": true
+    },
+    {
+      "pr": 132,
+      "branch": "codex/quiz-weather-extremes-20261009",
+      "sha": "34e5cfcab8d7a405a938f771782da285d4993424",
+      "title": "Draft: 20 geprüfte WMO-Fragen für Rekorde & Extreme",
+      "unique_pending_delta": 18,
+      "already_main_or_repeated": 0,
+      "content_examined": true
+    },
+    {
+      "pr": 131,
+      "branch": "codex/quiz-category-growth-20261008-evening",
+      "sha": "2d6b597117d6c7afbaf1366f2b7bcffa141dc358",
+      "title": "Draft: 20 eigenständige Tierwelt-Fragen, Bestandsprüfung und neutrale Grafiken",
+      "unique_pending_delta": 18,
+      "already_main_or_repeated": 0,
+      "content_examined": true
+    },
+    {
+      "pr": 130,
+      "branch": "codex/quiz-draft-20261008-elements",
+      "sha": "e69d31400f884935634ebe21c73c423d3dfbda54",
+      "title": "Draft: 25 geprüfte Element-Quizfragen vom 8. Oktober",
+      "unique_pending_delta": 25,
+      "already_main_or_repeated": 0,
+      "content_examined": true
+    },
+    {
+      "pr": 129,
+      "branch": "codex/quiz-draft-20261007-trappist",
+      "sha": "54cfbd02ad9225c66d6b7e17f8326f354fac22ad",
+      "title": "Draft: 25 geprüfte TRAPPIST-1-Quizfragen vom 7. Oktober",
+      "unique_pending_delta": 25,
+      "already_main_or_repeated": 0,
+      "content_examined": true
+    },
+    {
+      "pr": 128,
+      "branch": "codex/avatar-overlay-small-categories",
+      "sha": "8b5b498fdc52102053916fb883298e6490a531f7",
+      "title": "Fix avatar overlay and add 176 sourced quiz questions",
+      "unique_pending_delta": 176,
+      "already_main_or_repeated": 1938,
+      "content_examined": true
+    },
+    {
+      "pr": 127,
+      "branch": "codex/quiz-draft-20261006-small",
+      "sha": "d85f65d11c03ec8dac76e778c843917252074d08",
+      "title": "Draft: 25 geprüfte Quiz-Inhalte vom 6. Oktober",
+      "unique_pending_delta": 25,
+      "already_main_or_repeated": 0,
+      "content_examined": true
+    },
+    {
+      "pr": 126,
+      "branch": "codex/football-videogames-identity-20261005",
+      "sha": "10a3a2c6fda6df16e3006ebe97e2bfc3a58bb114",
+      "title": "Echte Fußballfakten, breitere Videospiele und „Wer ist das?“-Jeopardy",
+      "unique_pending_delta": 240,
+      "already_main_or_repeated": 1938,
+      "content_examined": true
+    },
+    {
+      "pr": 122,
+      "branch": "codex/quiz-draft-20261005-small",
+      "sha": "1e830e15a0e644a04a496ab5439a50f67206f0fb",
+      "title": "Draft: 25 geprüfte Quiz-Inhalte mit neutralen SVGs und Quellenpipeline",
+      "unique_pending_delta": 25,
+      "already_main_or_repeated": 0,
+      "content_examined": true
+    },
+    {
+      "pr": 109,
+      "branch": "codex/settings-achievements-20261005",
+      "sha": "664f212cf1eb298ab08b5511fa7ab716f0a4eaf4",
+      "title": "Improve settings and profiles; add music collection, rewards and online stats",
+      "unique_pending_delta": 0,
+      "already_main_or_repeated": 0,
+      "content_examined": false
+    },
+    {
+      "pr": 57,
+      "branch": "fix-jeopardy-guest-answer-sync",
+      "sha": "19a59ad124a7dc98fb7b2a11af8ad7adb7a17e71",
+      "title": "Jeopardy: Gastantworten speichern und Host-Wertung synchronisieren",
+      "unique_pending_delta": 0,
+      "already_main_or_repeated": 0,
+      "content_examined": false
+    }
+  ],
+  "definition": "Each snapshotted content head/input was inspected. Pending union uses runtime identity, excludes Main and repeated pending keys. Approval/content registration are not assumed from this inventory."
+}

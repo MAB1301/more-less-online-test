@@ -1,0 +1,107 @@
+{
+  "New York": {
+    "GEOID": "3651000",
+    "state": "NY",
+    "land_m2": 778165283,
+    "water_m2": 445421632,
+    "internal_latitude_deg": 40.662712
+  },
+  "Chicago": {
+    "GEOID": "1714000",
+    "state": "IL",
+    "land_m2": 589818463,
+    "water_m2": 17621529,
+    "internal_latitude_deg": 41.837045
+  },
+  "Seattle": {
+    "GEOID": "5363000",
+    "state": "WA",
+    "land_m2": 217119656,
+    "water_m2": 150846139,
+    "internal_latitude_deg": 47.619339
+  },
+  "Portland (Oregon)": {
+    "GEOID": "4159000",
+    "state": "OR",
+    "land_m2": 345633415,
+    "water_m2": 29873529,
+    "internal_latitude_deg": 45.536951
+  },
+  "Miami": {
+    "GEOID": "1245000",
+    "state": "FL",
+    "land_m2": 93228401,
+    "water_m2": 52000009,
+    "internal_latitude_deg": 25.775163
+  },
+  "Atlanta": {
+    "GEOID": "1304000",
+    "state": "GA",
+    "land_m2": 350456124,
+    "water_m2": 2585706,
+    "internal_latitude_deg": 33.762909
+  },
+  "San Diego": {
+    "GEOID": "0666000",
+    "state": "CA",
+    "land_m2": 844036546,
+    "water_m2": 120533495,
+    "internal_latitude_deg": 32.814977
+  },
+  "Denver": {
+    "GEOID": "0820000",
+    "state": "CO",
+    "land_m2": 396463432,
+    "water_m2": 4275563,
+    "internal_latitude_deg": 39.76185
+  },
+  "San Francisco": {
+    "GEOID": "0667000",
+    "state": "CA",
+    "land_m2": 121507089,
+    "water_m2": 479146790,
+    "internal_latitude_deg": 37.727239
+  },
+  "Boston": {
+    "GEOID": "2507000",
+    "state": "MA",
+    "land_m2": 125201979,
+    "water_m2": 106897277,
+    "internal_latitude_deg": 42.338551
+  },
+  "Baltimore": {
+    "GEOID": "2404000",
+    "state": "MD",
+    "land_m2": 209649327,
+    "water_m2": 28758743,
+    "internal_latitude_deg": 39.300032
+  },
+  "Washington, D.C.": {
+    "GEOID": "1150000",
+    "state": "DC",
+    "land_m2": 158316124,
+    "water_m2": 18709762,
+    "internal_latitude_deg": 38.904247
+  },
+  "Detroit": {
+    "GEOID": "2622000",
+    "state": "MI",
+    "land_m2": 359311024,
+    "water_m2": 10781269,
+    "internal_latitude_deg": 42.383037
+  },
+  "New Orleans": {
+    "GEOID": "2255000",
+    "state": "LA",
+    "land_m2": 438975285,
+    "water_m2": 467122070,
+    "internal_latitude_deg": 30.05342
+  },
+  "Phoenix": {
+    "GEOID": "0455000",
+    "state": "AZ",
+    "land_m2": 1341601620,
+    "water_m2": 2925264,
+    "internal_latitude_deg": 33.572154
+  }
+}

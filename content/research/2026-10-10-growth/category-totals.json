@@ -1,0 +1,1116 @@
+{
+  "checked": "2026-10-10",
+  "definition": "Per-game identities, summed across games for counts; different game prompts are not asserted to be semantically independent baseline facts. Complete actual category labels, no inferred Jeopardy recategorization. Pending union in PR order; shared rows attributed once.",
+  "categories": [
+    {
+      "category": "Allgemeinwissen",
+      "before": {
+        "moreless": 12,
+        "estimate": 20,
+        "facts": 8,
+        "jeopardy": 21
+      },
+      "open_drafts": {
+        "moreless": 106,
+        "estimate": 25,
+        "facts": 3,
+        "jeopardy": 4
+      },
+      "added": {
+        "moreless": 2,
+        "estimate": 4,
+        "facts": 6,
+        "jeopardy": 8
+      },
+      "after_with_open_drafts": {
+        "moreless": 120,
+        "estimate": 49,
+        "facts": 17,
+        "jeopardy": 33
+      },
+      "before_total": 61,
+      "added_total": 20,
+      "missing_to_run_goal": 0
+    },
+    {
+      "category": "Arbeitswelt",
+      "before": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 4,
+        "jeopardy": 0
+      },
+      "open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 4,
+        "jeopardy": 0
+      },
+      "before_total": 4,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Autos",
+      "before": {
+        "moreless": 26,
+        "estimate": 25,
+        "facts": 16,
+        "jeopardy": 0
+      },
+      "open_drafts": {
+        "moreless": 20,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 46,
+        "estimate": 25,
+        "facts": 16,
+        "jeopardy": 0
+      },
+      "before_total": 67,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Autotechnik",
+      "before": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 26
+      },
+      "open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 26
+      },
+      "before_total": 26,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Bauwerke",
+      "before": {
+        "moreless": 14,
+        "estimate": 18,
+        "facts": 15,
+        "jeopardy": 0
+      },
+      "open_drafts": {
+        "moreless": 25,
+        "estimate": 2,
+        "facts": 2,
+        "jeopardy": 1
+      },
+      "added": {
+        "moreless": 2,
+        "estimate": 4,
+        "facts": 6,
+        "jeopardy": 8
+      },
+      "after_with_open_drafts": {
+        "moreless": 41,
+        "estimate": 24,
+        "facts": 23,
+        "jeopardy": 9
+      },
+      "before_total": 47,
+      "added_total": 20,
+      "missing_to_run_goal": 0
+    },
+    {
+      "category": "Champions League",
+      "before": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 27
+      },
+      "open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 27
+      },
+      "before_total": 27,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Chemie",
+      "before": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 32
+      },
+      "open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 32
+      },
+      "before_total": 32,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Deutschland",
+      "before": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 26
+      },
+      "open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 26
+      },
+      "before_total": 26,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "FIFA-Ratings",
+      "before": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 57
+      },
+      "open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 57
+      },
+      "before_total": 57,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Fußball",
+      "before": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 42
+      },
+      "open_drafts": {
+        "moreless": 80,
+        "estimate": 42,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 80,
+        "estimate": 42,
+        "facts": 0,
+        "jeopardy": 42
+      },
+      "before_total": 42,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Fußballer",
+      "before": {
+        "moreless": 59,
+        "estimate": 38,
+        "facts": 52,
+        "jeopardy": 0
+      },
+      "open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 59,
+        "estimate": 38,
+        "facts": 52,
+        "jeopardy": 0
+      },
+      "before_total": 149,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Fußballlegenden",
+      "before": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 5
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 5
+      },
+      "before_total": 0,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Geografie",
+      "before": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 30
+      },
+      "open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 5
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 35
+      },
+      "before_total": 30,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Geschichte",
+      "before": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 1,
+        "jeopardy": 30
+      },
+      "open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 2
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 1,
+        "jeopardy": 32
+      },
+      "before_total": 31,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Kultur",
+      "before": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 26
+      },
+      "open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 6
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 32
+      },
+      "before_total": 26,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Länder",
+      "before": {
+        "moreless": 23,
+        "estimate": 22,
+        "facts": 6,
+        "jeopardy": 0
+      },
+      "open_drafts": {
+        "moreless": 41,
+        "estimate": 7,
+        "facts": 2,
+        "jeopardy": 0
+      },
+      "added": {
+        "moreless": 4,
+        "estimate": 6,
+        "facts": 10,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 68,
+        "estimate": 35,
+        "facts": 18,
+        "jeopardy": 0
+      },
+      "before_total": 51,
+      "added_total": 20,
+      "missing_to_run_goal": 0
+    },
+    {
+      "category": "Mix",
+      "before": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 28
+      },
+      "open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 28
+      },
+      "before_total": 28,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Nationalparks",
+      "before": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 22
+      },
+      "open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 1
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 23
+      },
+      "before_total": 22,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Natur",
+      "before": {
+        "moreless": 65,
+        "estimate": 21,
+        "facts": 12,
+        "jeopardy": 0
+      },
+      "open_drafts": {
+        "moreless": 24,
+        "estimate": 2,
+        "facts": 2,
+        "jeopardy": 0
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 89,
+        "estimate": 23,
+        "facts": 14,
+        "jeopardy": 0
+      },
+      "before_total": 98,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Planetenkunde",
+      "before": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 23
+      },
+      "open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 23
+      },
+      "before_total": 23,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Planetenphysik",
+      "before": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 54
+      },
+      "open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 54
+      },
+      "before_total": 54,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Raumfahrt",
+      "before": {
+        "moreless": 75,
+        "estimate": 21,
+        "facts": 12,
+        "jeopardy": 0
+      },
+      "open_drafts": {
+        "moreless": 4,
+        "estimate": 2,
+        "facts": 2,
+        "jeopardy": 0
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 79,
+        "estimate": 23,
+        "facts": 14,
+        "jeopardy": 0
+      },
+      "before_total": 108,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Raumfahrtmissionen",
+      "before": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 22
+      },
+      "open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 2
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 24
+      },
+      "before_total": 22,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Rekorde & Extreme",
+      "before": {
+        "moreless": 13,
+        "estimate": 14,
+        "facts": 6,
+        "jeopardy": 14
+      },
+      "open_drafts": {
+        "moreless": 22,
+        "estimate": 4,
+        "facts": 6,
+        "jeopardy": 8
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 35,
+        "estimate": 18,
+        "facts": 12,
+        "jeopardy": 22
+      },
+      "before_total": 47,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Science-Fiction",
+      "before": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 25
+      },
+      "open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 25
+      },
+      "before_total": 25,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Sport",
+      "before": {
+        "moreless": 25,
+        "estimate": 17,
+        "facts": 12,
+        "jeopardy": 25
+      },
+      "open_drafts": {
+        "moreless": 20,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 45,
+        "estimate": 17,
+        "facts": 12,
+        "jeopardy": 25
+      },
+      "before_total": 79,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Sportregeln",
+      "before": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 20
+      },
+      "open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 20
+      },
+      "before_total": 20,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Star Wars",
+      "before": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 26
+      },
+      "open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 6
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 32
+      },
+      "before_total": 26,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Städte",
+      "before": {
+        "moreless": 14,
+        "estimate": 12,
+        "facts": 8,
+        "jeopardy": 0
+      },
+      "open_drafts": {
+        "moreless": 37,
+        "estimate": 7,
+        "facts": 3,
+        "jeopardy": 0
+      },
+      "added": {
+        "moreless": 4,
+        "estimate": 6,
+        "facts": 10,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 55,
+        "estimate": 25,
+        "facts": 21,
+        "jeopardy": 0
+      },
+      "before_total": 34,
+      "added_total": 20,
+      "missing_to_run_goal": 0
+    },
+    {
+      "category": "Technik",
+      "before": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 1
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 1
+      },
+      "before_total": 0,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Tierwelt",
+      "before": {
+        "moreless": 14,
+        "estimate": 9,
+        "facts": 21,
+        "jeopardy": 0
+      },
+      "open_drafts": {
+        "moreless": 25,
+        "estimate": 7,
+        "facts": 8,
+        "jeopardy": 8
+      },
+      "added": {
+        "moreless": 2,
+        "estimate": 4,
+        "facts": 6,
+        "jeopardy": 8
+      },
+      "after_with_open_drafts": {
+        "moreless": 41,
+        "estimate": 20,
+        "facts": 35,
+        "jeopardy": 16
+      },
+      "before_total": 44,
+      "added_total": 20,
+      "missing_to_run_goal": 0
+    },
+    {
+      "category": "Transfers",
+      "before": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 48
+      },
+      "open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 48
+      },
+      "before_total": 48,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Vereinsstationen",
+      "before": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 18
+      },
+      "open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 18
+      },
+      "before_total": 18,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Videospiele",
+      "before": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 35
+      },
+      "open_drafts": {
+        "moreless": 51,
+        "estimate": 25,
+        "facts": 10,
+        "jeopardy": 15
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 51,
+        "estimate": 25,
+        "facts": 10,
+        "jeopardy": 50
+      },
+      "before_total": 35,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Weltkultur",
+      "before": {
+        "moreless": 47,
+        "estimate": 19,
+        "facts": 12,
+        "jeopardy": 19
+      },
+      "open_drafts": {
+        "moreless": 24,
+        "estimate": 2,
+        "facts": 2,
+        "jeopardy": 2
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 71,
+        "estimate": 21,
+        "facts": 14,
+        "jeopardy": 21
+      },
+      "before_total": 97,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Weltraum",
+      "before": {
+        "moreless": 218,
+        "estimate": 81,
+        "facts": 41,
+        "jeopardy": 26
+      },
+      "open_drafts": {
+        "moreless": 10,
+        "estimate": 5,
+        "facts": 5,
+        "jeopardy": 5
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 228,
+        "estimate": 86,
+        "facts": 46,
+        "jeopardy": 31
+      },
+      "before_total": 366,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    },
+    {
+      "category": "Wissenschaft",
+      "before": {
+        "moreless": 284,
+        "estimate": 34,
+        "facts": 20,
+        "jeopardy": 28
+      },
+      "open_drafts": {
+        "moreless": 10,
+        "estimate": 5,
+        "facts": 5,
+        "jeopardy": 5
+      },
+      "added": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 0
+      },
+      "after_with_open_drafts": {
+        "moreless": 294,
+        "estimate": 39,
+        "facts": 25,
+        "jeopardy": 33
+      },
+      "before_total": 366,
+      "added_total": 0,
+      "missing_to_run_goal": 20
+    }
+  ]
+}

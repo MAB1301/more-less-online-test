@@ -1,0 +1,3470 @@
+{
+  "status": "review-only",
+  "verified": "2026-10-10",
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "images": {
+    "forest": {
+      "card": "visuals/forest-card.svg",
+      "detail": "visuals/forest-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "engineering": {
+      "card": "visuals/engineering-card.svg",
+      "detail": "visuals/engineering-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "design": {
+      "card": "visuals/design-card.svg",
+      "detail": "visuals/design-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "city": {
+      "card": "visuals/city-card.svg",
+      "detail": "visuals/city-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "globe": {
+      "card": "visuals/globe-card.svg",
+      "detail": "visuals/globe-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "Binturong (Kopf-Rumpf, Bereichsobergrenze)": {
+      "card": "visuals/forest-card.svg",
+      "detail": "visuals/forest-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "Fossa (Kopf-Rumpf, Bereichsobergrenze)": {
+      "card": "visuals/forest-card.svg",
+      "detail": "visuals/forest-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "Binturong (Schwanz, Bereichsobergrenze)": {
+      "card": "visuals/forest-card.svg",
+      "detail": "visuals/forest-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "Fossa (Schwanz, Bereichsobergrenze)": {
+      "card": "visuals/forest-card.svg",
+      "detail": "visuals/forest-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "100-Euro-Banknote (Europa-Serie)": {
+      "card": "visuals/design-card.svg",
+      "detail": "visuals/design-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "200-Euro-Banknote (Europa-Serie)": {
+      "card": "visuals/design-card.svg",
+      "detail": "visuals/design-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "5-Euro-Banknote (Europa-Serie)": {
+      "card": "visuals/design-card.svg",
+      "detail": "visuals/design-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "10-Euro-Banknote (Europa-Serie)": {
+      "card": "visuals/design-card.svg",
+      "detail": "visuals/design-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "Forth Bridge (Eröffnung)": {
+      "card": "visuals/engineering-card.svg",
+      "detail": "visuals/engineering-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "Tower Bridge (Eröffnung)": {
+      "card": "visuals/engineering-card.svg",
+      "detail": "visuals/engineering-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "Forth Bridge (Baubeginn)": {
+      "card": "visuals/engineering-card.svg",
+      "detail": "visuals/engineering-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "Tower Bridge (Baubeginn)": {
+      "card": "visuals/engineering-card.svg",
+      "detail": "visuals/engineering-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "New York (Census 2020)": {
+      "card": "visuals/city-card.svg",
+      "detail": "visuals/city-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "Chicago (Census 2020)": {
+      "card": "visuals/city-card.svg",
+      "detail": "visuals/city-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "Seattle (Census 2020)": {
+      "card": "visuals/city-card.svg",
+      "detail": "visuals/city-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "Portland (Oregon) (Census 2020)": {
+      "card": "visuals/city-card.svg",
+      "detail": "visuals/city-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "Miami (interner Census-Punkt)": {
+      "card": "visuals/city-card.svg",
+      "detail": "visuals/city-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "Atlanta (interner Census-Punkt)": {
+      "card": "visuals/city-card.svg",
+      "detail": "visuals/city-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "San Diego (interner Census-Punkt)": {
+      "card": "visuals/city-card.svg",
+      "detail": "visuals/city-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "Denver (interner Census-Punkt)": {
+      "card": "visuals/city-card.svg",
+      "detail": "visuals/city-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "Kuba (WDI 2023)": {
+      "card": "visuals/globe-card.svg",
+      "detail": "visuals/globe-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "Uruguay (WDI 2023)": {
+      "card": "visuals/globe-card.svg",
+      "detail": "visuals/globe-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "Kolumbien (WDI 2023)": {
+      "card": "visuals/globe-card.svg",
+      "detail": "visuals/globe-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "Peru (WDI 2023)": {
+      "card": "visuals/globe-card.svg",
+      "detail": "visuals/globe-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "Australien (WDI 2023)": {
+      "card": "visuals/globe-card.svg",
+      "detail": "visuals/globe-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "Kanada (WDI 2023)": {
+      "card": "visuals/globe-card.svg",
+      "detail": "visuals/globe-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "Japan (WDI 2023)": {
+      "card": "visuals/globe-card.svg",
+      "detail": "visuals/globe-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    },
+    "Mexiko (WDI 2023)": {
+      "card": "visuals/globe-card.svg",
+      "detail": "visuals/globe-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 36,
+      "description": "Thematisches Symbolbild, kein exaktes Gegenstands- oder Zahlenbild. Bei Jeopardy deaktiviert."
+    }
+  },
+  "moreless": [
+    {
+      "cat": "Tierwelt",
+      "id": "growth-20261010-head-body-upper",
+      "semantic_key": "head-body-upper",
+      "source_refs": [
+        "binturong",
+        "fossa"
+      ],
+      "subcategory": "Körperbau",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "Quelle 60–90 bzw. 70–80 cm. Ohne Schwanz, beide Geschlechter; keine Aussage über jedes Individuum.",
+      "evidence": "Kopf-Rumpf: Binturong 60–90 cm; Fossa 70–80 cm.",
+      "l": "Binturong (Kopf-Rumpf, Bereichsobergrenze)",
+      "r": "Fossa (Kopf-Rumpf, Bereichsobergrenze)",
+      "lv": 90,
+      "rv": 80,
+      "u": "cm · obere Bereichsgrenze",
+      "metric": "Obere Kopf-Rumpf-Länge",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://animals.sandiegozoo.org/animals/binturong",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/binturong",
+        "https://animals.sandiegozoo.org/animals/fossa"
+      ],
+      "sets": [
+        "Tierwelt · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "forest"
+    },
+    {
+      "cat": "Tierwelt",
+      "id": "growth-20261010-tail-upper",
+      "semantic_key": "tail-upper",
+      "source_refs": [
+        "binturong",
+        "fossa"
+      ],
+      "subcategory": "Körperbau",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "Quelle 50–84 bzw. 65–70 cm. Anatomisch anderes Kriterium als Kopf-Rumpf.",
+      "evidence": "Schwanz: Binturong 50–84 cm; Fossa 65–70 cm.",
+      "l": "Binturong (Schwanz, Bereichsobergrenze)",
+      "r": "Fossa (Schwanz, Bereichsobergrenze)",
+      "lv": 84,
+      "rv": 70,
+      "u": "cm · obere Bereichsgrenze",
+      "metric": "Obere Schwanzlänge",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://animals.sandiegozoo.org/animals/binturong",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/binturong",
+        "https://animals.sandiegozoo.org/animals/fossa"
+      ],
+      "sets": [
+        "Tierwelt · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "forest"
+    },
+    {
+      "cat": "Allgemeinwissen",
+      "id": "growth-20261010-euro-width-100-200",
+      "semantic_key": "euro-width-100-200",
+      "source_refs": [
+        "bank-dimensions"
+      ],
+      "subcategory": "Geld & Gestaltung",
+      "data_year": 2021,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Europa 100: 147 × 77 mm; 200: 153 × 77 mm.",
+      "l": "100-Euro-Banknote (Europa-Serie)",
+      "r": "200-Euro-Banknote (Europa-Serie)",
+      "lv": 147,
+      "rv": 153,
+      "u": "mm Breite",
+      "metric": "Banknotenbreite",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.bundesbank.de/resource/blob/880774/e92ed6ff8ffd530ba6c3875e40899645/472B63F073F071307366337C94F8C870/2021-11-24-3001-data.pdf",
+      "sources": [
+        "https://www.bundesbank.de/resource/blob/880774/e92ed6ff8ffd530ba6c3875e40899645/472B63F073F071307366337C94F8C870/2021-11-24-3001-data.pdf"
+      ],
+      "sets": [
+        "Allgemeinwissen · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "design"
+    },
+    {
+      "cat": "Allgemeinwissen",
+      "id": "growth-20261010-euro-height-5-10",
+      "semantic_key": "euro-height-5-10",
+      "source_refs": [
+        "bank-dimensions"
+      ],
+      "subcategory": "Geld & Gestaltung",
+      "data_year": 2021,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Europa 5: 120 × 62 mm; 10: 127 × 67 mm.",
+      "l": "5-Euro-Banknote (Europa-Serie)",
+      "r": "10-Euro-Banknote (Europa-Serie)",
+      "lv": 62,
+      "rv": 67,
+      "u": "mm Höhe",
+      "metric": "Banknotenhöhe",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.bundesbank.de/resource/blob/880774/e92ed6ff8ffd530ba6c3875e40899645/472B63F073F071307366337C94F8C870/2021-11-24-3001-data.pdf",
+      "sources": [
+        "https://www.bundesbank.de/resource/blob/880774/e92ed6ff8ffd530ba6c3875e40899645/472B63F073F071307366337C94F8C870/2021-11-24-3001-data.pdf"
+      ],
+      "sets": [
+        "Allgemeinwissen · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "design"
+    },
+    {
+      "cat": "Bauwerke",
+      "id": "growth-20261010-bridge-opening-year",
+      "semantic_key": "bridge-opening-year",
+      "source_refs": [
+        "forth",
+        "tower"
+      ],
+      "subcategory": "Baugeschichte",
+      "data_year": 1894,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "4. März 1890 bzw. 30. Juni 1894; Datenjahre der beiden Ereignisse 1890/1894.",
+      "evidence": "Official opening dates: 4 March 1890, 30 June 1894.",
+      "l": "Forth Bridge (Eröffnung)",
+      "r": "Tower Bridge (Eröffnung)",
+      "lv": 1890,
+      "rv": 1894,
+      "u": "Jahr der offiziellen Eröffnung",
+      "metric": "Eröffnungsjahr",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.theforthbridges.org/about-the-forth-bridges/forth-bridge/forth-bridge-facts-figures/",
+      "sources": [
+        "https://www.theforthbridges.org/about-the-forth-bridges/forth-bridge/forth-bridge-facts-figures/",
+        "https://www.towerbridge.org.uk/stories/timeline-the-construction-of-tower-bridge"
+      ],
+      "sets": [
+        "Bauwerke · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "engineering"
+    },
+    {
+      "cat": "Bauwerke",
+      "id": "growth-20261010-bridge-start-year",
+      "semantic_key": "bridge-start-year",
+      "source_refs": [
+        "forth",
+        "tower"
+      ],
+      "subcategory": "Baugeschichte",
+      "data_year": 1886,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "Bauanfang, nicht Entwurfsfreigabe oder Eröffnung; Ereignisse 1883/1886.",
+      "evidence": "Construction commenced 1883 / 1886.",
+      "l": "Forth Bridge (Baubeginn)",
+      "r": "Tower Bridge (Baubeginn)",
+      "lv": 1883,
+      "rv": 1886,
+      "u": "Jahr des Baubeginns",
+      "metric": "Baubeginn",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.theforthbridges.org/about-the-forth-bridges/forth-bridge/forth-bridge-facts-figures/",
+      "sources": [
+        "https://www.theforthbridges.org/about-the-forth-bridges/forth-bridge/forth-bridge-facts-figures/",
+        "https://www.towerbridge.org.uk/stories/timeline-the-construction-of-tower-bridge"
+      ],
+      "sets": [
+        "Bauwerke · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "engineering"
+    },
+    {
+      "cat": "Städte",
+      "id": "growth-20261010-city-land-0",
+      "semantic_key": "city-land-0",
+      "source_refs": [
+        "census",
+        "census-layout"
+      ],
+      "subcategory": "Flächen & Grenzen",
+      "data_year": 2020,
+      "rounding": "ALAND / 1.000.000; zwei Nachkommastellen.",
+      "notes": "Stadtgrenzen 2020; Wasserflächen ausgeschlossen, keine Metropolflächen.",
+      "evidence": "New York: 778165283 m²; Chicago: 589818463 m².",
+      "l": "New York (Census 2020)",
+      "r": "Chicago (Census 2020)",
+      "lv": 778.17,
+      "rv": 589.82,
+      "u": "km² Landfläche · 2020",
+      "metric": "Administrative Landfläche",
+      "observation_ids": [
+        "3651000:ALAND",
+        "1714000:ALAND"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sources": [
+        "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+        "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts/gaz20-record-layouts.html"
+      ],
+      "sets": [
+        "Städte · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "city"
+    },
+    {
+      "cat": "Städte",
+      "id": "growth-20261010-city-land-1",
+      "semantic_key": "city-land-1",
+      "source_refs": [
+        "census",
+        "census-layout"
+      ],
+      "subcategory": "Flächen & Grenzen",
+      "data_year": 2020,
+      "rounding": "ALAND / 1.000.000; zwei Nachkommastellen.",
+      "notes": "Stadtgrenzen 2020; Wasserflächen ausgeschlossen, keine Metropolflächen.",
+      "evidence": "Seattle: 217119656 m²; Portland (Oregon): 345633415 m².",
+      "l": "Seattle (Census 2020)",
+      "r": "Portland (Oregon) (Census 2020)",
+      "lv": 217.12,
+      "rv": 345.63,
+      "u": "km² Landfläche · 2020",
+      "metric": "Administrative Landfläche",
+      "observation_ids": [
+        "5363000:ALAND",
+        "4159000:ALAND"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sources": [
+        "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+        "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts/gaz20-record-layouts.html"
+      ],
+      "sets": [
+        "Städte · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "city"
+    },
+    {
+      "cat": "Städte",
+      "id": "growth-20261010-city-lat-0",
+      "semantic_key": "city-lat-0",
+      "source_refs": [
+        "census",
+        "census-layout"
+      ],
+      "subcategory": "Geografische Lage",
+      "data_year": 2020,
+      "rounding": "INTPTLAT auf vier Nachkommastellen.",
+      "notes": "Interner statistischer Bezugspunkt; nicht Stadtmittelpunkt oder Ausdehnung nach Norden.",
+      "evidence": "Miami: 25.775163; Atlanta: 33.762909.",
+      "l": "Miami (interner Census-Punkt)",
+      "r": "Atlanta (interner Census-Punkt)",
+      "lv": 25.7752,
+      "rv": 33.7629,
+      "u": "Grad Nord · Census 2020",
+      "metric": "Breitengrad des internen Census-Punkts",
+      "observation_ids": [
+        "1245000:INTPTLAT",
+        "1304000:INTPTLAT"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sources": [
+        "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+        "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts/gaz20-record-layouts.html"
+      ],
+      "sets": [
+        "Städte · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "city"
+    },
+    {
+      "cat": "Städte",
+      "id": "growth-20261010-city-lat-1",
+      "semantic_key": "city-lat-1",
+      "source_refs": [
+        "census",
+        "census-layout"
+      ],
+      "subcategory": "Geografische Lage",
+      "data_year": 2020,
+      "rounding": "INTPTLAT auf vier Nachkommastellen.",
+      "notes": "Interner statistischer Bezugspunkt; nicht Stadtmittelpunkt oder Ausdehnung nach Norden.",
+      "evidence": "San Diego: 32.814977; Denver: 39.76185.",
+      "l": "San Diego (interner Census-Punkt)",
+      "r": "Denver (interner Census-Punkt)",
+      "lv": 32.815,
+      "rv": 39.7619,
+      "u": "Grad Nord · Census 2020",
+      "metric": "Breitengrad des internen Census-Punkts",
+      "observation_ids": [
+        "0666000:INTPTLAT",
+        "0820000:INTPTLAT"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sources": [
+        "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+        "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts/gaz20-record-layouts.html"
+      ],
+      "sets": [
+        "Städte · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "city"
+    },
+    {
+      "cat": "Länder",
+      "id": "growth-20261010-country-age-CUB-URY",
+      "semantic_key": "country-age-CUB-URY",
+      "source_refs": [
+        "wb-age",
+        "wb-age-definition"
+      ],
+      "subcategory": "Altersstruktur",
+      "data_year": 2023,
+      "rounding": "Veröffentlichte Prozentwerte auf zwei Nachkommastellen.",
+      "notes": "Anteil der Bevölkerung ab 65 Jahren, beide Geschlechter, de-facto Wohnbevölkerung; kein Rentner- oder Staatsbürgeranteil. API-Metadatum lastupdated 2026-10-08; archivierter Datenstand, keine Aussage über 2026.",
+      "evidence": "CUB=16.1955286378621; URY=15.8128179067764.",
+      "l": "Kuba (WDI 2023)",
+      "r": "Uruguay (WDI 2023)",
+      "lv": 16.2,
+      "rv": 15.81,
+      "u": "% · WDI 2023",
+      "metric": "Bevölkerungsanteil ab 65 Jahren",
+      "observation_ids": [
+        "age:CUB:2023",
+        "age:URY:2023"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/SP.POP.65UP.TO.ZS?date=2023&format=json&per_page=100",
+      "sources": [
+        "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/SP.POP.65UP.TO.ZS?date=2023&format=json&per_page=100",
+        "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SP.POP.65UP.TO.ZS"
+      ],
+      "sets": [
+        "Länder · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "globe"
+    },
+    {
+      "cat": "Länder",
+      "id": "growth-20261010-country-age-COL-PER",
+      "semantic_key": "country-age-COL-PER",
+      "source_refs": [
+        "wb-age",
+        "wb-age-definition"
+      ],
+      "subcategory": "Altersstruktur",
+      "data_year": 2023,
+      "rounding": "Veröffentlichte Prozentwerte auf zwei Nachkommastellen.",
+      "notes": "Anteil der Bevölkerung ab 65 Jahren, beide Geschlechter, de-facto Wohnbevölkerung; kein Rentner- oder Staatsbürgeranteil. API-Metadatum lastupdated 2026-10-08; archivierter Datenstand, keine Aussage über 2026.",
+      "evidence": "COL=9.37542803553496; PER=8.99256615708912.",
+      "l": "Kolumbien (WDI 2023)",
+      "r": "Peru (WDI 2023)",
+      "lv": 9.38,
+      "rv": 8.99,
+      "u": "% · WDI 2023",
+      "metric": "Bevölkerungsanteil ab 65 Jahren",
+      "observation_ids": [
+        "age:COL:2023",
+        "age:PER:2023"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/SP.POP.65UP.TO.ZS?date=2023&format=json&per_page=100",
+      "sources": [
+        "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/SP.POP.65UP.TO.ZS?date=2023&format=json&per_page=100",
+        "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SP.POP.65UP.TO.ZS"
+      ],
+      "sets": [
+        "Länder · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "globe"
+    },
+    {
+      "cat": "Länder",
+      "id": "growth-20261010-country-arable-AUS-CAN",
+      "semantic_key": "country-arable-AUS-CAN",
+      "source_refs": [
+        "wb-arable",
+        "wb-arable-definition"
+      ],
+      "subcategory": "Landnutzung",
+      "data_year": 2023,
+      "rounding": "Veröffentlichte Prozentwerte auf zwei Nachkommastellen.",
+      "notes": "Ackerlandanteil an Landfläche; umfasst temporäre Kulturen und kurzfristige Brachen, nicht alle landwirtschaftlichen Flächen und nicht potenziell kultivierbare Fläche. API-Metadatum lastupdated 2026-10-08; archivierter Datenstand, keine Aussage über 2026.",
+      "evidence": "AUS=4.0646020161154; CAN=4.34091503862915.",
+      "l": "Australien (WDI 2023)",
+      "r": "Kanada (WDI 2023)",
+      "lv": 4.06,
+      "rv": 4.34,
+      "u": "% · WDI 2023",
+      "metric": "Ackerlandanteil an Landfläche",
+      "observation_ids": [
+        "arable:AUS:2023",
+        "arable:CAN:2023"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+      "sources": [
+        "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+        "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/AG.LND.ARBL.ZS"
+      ],
+      "sets": [
+        "Länder · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "globe"
+    },
+    {
+      "cat": "Länder",
+      "id": "growth-20261010-country-arable-JPN-MEX",
+      "semantic_key": "country-arable-JPN-MEX",
+      "source_refs": [
+        "wb-arable",
+        "wb-arable-definition"
+      ],
+      "subcategory": "Landnutzung",
+      "data_year": 2023,
+      "rounding": "Veröffentlichte Prozentwerte auf zwei Nachkommastellen.",
+      "notes": "Ackerlandanteil an Landfläche; umfasst temporäre Kulturen und kurzfristige Brachen, nicht alle landwirtschaftlichen Flächen und nicht potenziell kultivierbare Fläche. API-Metadatum lastupdated 2026-10-08; archivierter Datenstand, keine Aussage über 2026.",
+      "evidence": "JPN=11.0946502057613; MEX=10.3004679132694.",
+      "l": "Japan (WDI 2023)",
+      "r": "Mexiko (WDI 2023)",
+      "lv": 11.09,
+      "rv": 10.3,
+      "u": "% · WDI 2023",
+      "metric": "Ackerlandanteil an Landfläche",
+      "observation_ids": [
+        "arable:JPN:2023",
+        "arable:MEX:2023"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+      "sources": [
+        "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+        "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/AG.LND.ARBL.ZS"
+      ],
+      "sets": [
+        "Länder · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "globe"
+    }
+  ],
+  "estimate": [
+    {
+      "cat": "Tierwelt",
+      "id": "growth-20261010-binturong-ankle",
+      "semantic_key": "binturong-ankle",
+      "source_refs": [
+        "binturong"
+      ],
+      "subcategory": "Beweglichkeit",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Ankles can rotate 180 degrees.",
+      "q": "Um wie viele Grad kann ein Binturong laut San Diego Zoo seine Fußgelenke drehen?",
+      "a": 180,
+      "u": "Grad",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://animals.sandiegozoo.org/animals/binturong",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/binturong"
+      ],
+      "sets": [
+        "Tierwelt · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "forest",
+      "subject": "forest"
+    },
+    {
+      "cat": "Tierwelt",
+      "id": "growth-20261010-wombat-burrow",
+      "semantic_key": "wombat-burrow",
+      "source_refs": [
+        "wombat"
+      ],
+      "subcategory": "Lebensraum",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "Bis-zu-Länge eines Tunnelbaus, keine Körperlänge.",
+      "evidence": "Tunnels up to 200 metres.",
+      "q": "Bis zu wie viele Meter können Wombat-Bautunnel laut San Diego Zoo lang sein?",
+      "a": 200,
+      "u": "m · Quellenobergrenze",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://animals.sandiegozoo.org/animals/wombat",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/wombat"
+      ],
+      "sets": [
+        "Tierwelt · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "forest",
+      "subject": "forest"
+    },
+    {
+      "cat": "Tierwelt",
+      "id": "growth-20261010-fossa-daily-roam",
+      "semantic_key": "fossa-daily-roam",
+      "source_refs": [
+        "fossa"
+      ],
+      "subcategory": "Verhalten",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Roam up to 26 kilometres a day.",
+      "q": "Bis zu wie viele Kilometer kann eine Fossa laut San Diego Zoo an einem Tag durch ihr Revier streifen?",
+      "a": 26,
+      "u": "km pro Tag · Quellenobergrenze",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://animals.sandiegozoo.org/animals/fossa",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/fossa"
+      ],
+      "sets": [
+        "Tierwelt · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "forest",
+      "subject": "forest"
+    },
+    {
+      "cat": "Tierwelt",
+      "id": "growth-20261010-okapi-first-defecation",
+      "semantic_key": "okapi-first-defecation",
+      "source_refs": [
+        "okapi"
+      ],
+      "subcategory": "Entwicklung",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "Angegebener Bereich ein bis zwei Monate, nicht für jedes Kalb identisch.",
+      "evidence": "First defecation after one to two months.",
+      "q": "Bis zu wie viele Monate verzögert ein Okapi-Kalb laut San Diego Zoo seinen ersten Kotabsatz?",
+      "a": 2,
+      "u": "Monate · obere Bereichsgrenze",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://animals.sandiegozoo.org/animals/okapi",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/okapi"
+      ],
+      "sets": [
+        "Tierwelt · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "forest",
+      "subject": "forest"
+    },
+    {
+      "cat": "Allgemeinwissen",
+      "id": "growth-20261010-euro5-width",
+      "semantic_key": "euro5-width",
+      "source_refs": [
+        "bank-dimensions"
+      ],
+      "subcategory": "Geld & Gestaltung",
+      "data_year": 2021,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Maßtabelle Europa-Serie; 50 Euro: 140 × 77 mm.",
+      "q": "Wie breit ist eine 5-Euro-Banknote der Europa-Serie?",
+      "a": 120,
+      "u": "mm",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.bundesbank.de/resource/blob/880774/e92ed6ff8ffd530ba6c3875e40899645/472B63F073F071307366337C94F8C870/2021-11-24-3001-data.pdf",
+      "sources": [
+        "https://www.bundesbank.de/resource/blob/880774/e92ed6ff8ffd530ba6c3875e40899645/472B63F073F071307366337C94F8C870/2021-11-24-3001-data.pdf"
+      ],
+      "sets": [
+        "Allgemeinwissen · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "design",
+      "subject": "design"
+    },
+    {
+      "cat": "Allgemeinwissen",
+      "id": "growth-20261010-euro10-width",
+      "semantic_key": "euro10-width",
+      "source_refs": [
+        "bank-dimensions"
+      ],
+      "subcategory": "Geld & Gestaltung",
+      "data_year": 2021,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Maßtabelle Europa-Serie; 50 Euro: 140 × 77 mm.",
+      "q": "Wie breit ist eine 10-Euro-Banknote der Europa-Serie?",
+      "a": 127,
+      "u": "mm",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.bundesbank.de/resource/blob/880774/e92ed6ff8ffd530ba6c3875e40899645/472B63F073F071307366337C94F8C870/2021-11-24-3001-data.pdf",
+      "sources": [
+        "https://www.bundesbank.de/resource/blob/880774/e92ed6ff8ffd530ba6c3875e40899645/472B63F073F071307366337C94F8C870/2021-11-24-3001-data.pdf"
+      ],
+      "sets": [
+        "Allgemeinwissen · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "design",
+      "subject": "design"
+    },
+    {
+      "cat": "Allgemeinwissen",
+      "id": "growth-20261010-euro20-height",
+      "semantic_key": "euro20-height",
+      "source_refs": [
+        "bank-dimensions"
+      ],
+      "subcategory": "Geld & Gestaltung",
+      "data_year": 2021,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Maßtabelle Europa-Serie; 50 Euro: 140 × 77 mm.",
+      "q": "Wie hoch ist eine 20-Euro-Banknote der Europa-Serie?",
+      "a": 72,
+      "u": "mm",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.bundesbank.de/resource/blob/880774/e92ed6ff8ffd530ba6c3875e40899645/472B63F073F071307366337C94F8C870/2021-11-24-3001-data.pdf",
+      "sources": [
+        "https://www.bundesbank.de/resource/blob/880774/e92ed6ff8ffd530ba6c3875e40899645/472B63F073F071307366337C94F8C870/2021-11-24-3001-data.pdf"
+      ],
+      "sets": [
+        "Allgemeinwissen · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "design",
+      "subject": "design"
+    },
+    {
+      "cat": "Allgemeinwissen",
+      "id": "growth-20261010-euro50-surface",
+      "semantic_key": "euro50-surface",
+      "source_refs": [
+        "bank-dimensions"
+      ],
+      "subcategory": "Geld & Gestaltung",
+      "data_year": 2021,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "140 × 77 / 100 = 107,8 cm². Geometrische Rechteckfläche, nicht bedruckte Fläche.",
+      "evidence": "Maßtabelle Europa-Serie; 50 Euro: 140 × 77 mm.",
+      "q": "Welche rechteckige Fläche hat eine 50-Euro-Banknote der Europa-Serie in Quadratzentimetern?",
+      "a": 107.8,
+      "u": "cm²",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.bundesbank.de/resource/blob/880774/e92ed6ff8ffd530ba6c3875e40899645/472B63F073F071307366337C94F8C870/2021-11-24-3001-data.pdf",
+      "sources": [
+        "https://www.bundesbank.de/resource/blob/880774/e92ed6ff8ffd530ba6c3875e40899645/472B63F073F071307366337C94F8C870/2021-11-24-3001-data.pdf"
+      ],
+      "sets": [
+        "Allgemeinwissen · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "design",
+      "subject": "design"
+    },
+    {
+      "cat": "Bauwerke",
+      "id": "growth-20261010-iron-span",
+      "semantic_key": "iron-span",
+      "source_refs": [
+        "iron"
+      ],
+      "subcategory": "Tragwerk",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "Gerundete Betreiberangabe; keine Gesamtlänge der Zufahrten.",
+      "evidence": "Arch spans 30 metres.",
+      "q": "Welche ungefähre Spannweite hat der Hauptbogen der historischen Iron Bridge über den Severn?",
+      "a": 30,
+      "u": "m",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.english-heritage.org.uk/visit/places/iron-bridge/history/",
+      "sources": [
+        "https://www.english-heritage.org.uk/visit/places/iron-bridge/history/"
+      ],
+      "sets": [
+        "Bauwerke · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "engineering",
+      "subject": "engineering"
+    },
+    {
+      "cat": "Bauwerke",
+      "id": "growth-20261010-forth-steel",
+      "semantic_key": "forth-steel",
+      "source_refs": [
+        "forth"
+      ],
+      "subcategory": "Materialien",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "53,000 tonnes of steel.",
+      "q": "Wie viele metrische Tonnen Stahl wurden laut offizieller Faktenübersicht für die Forth Bridge verwendet?",
+      "a": 53000,
+      "u": "t",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.theforthbridges.org/about-the-forth-bridges/forth-bridge/forth-bridge-facts-figures/",
+      "sources": [
+        "https://www.theforthbridges.org/about-the-forth-bridges/forth-bridge/forth-bridge-facts-figures/"
+      ],
+      "sets": [
+        "Bauwerke · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "engineering",
+      "subject": "engineering"
+    },
+    {
+      "cat": "Bauwerke",
+      "id": "growth-20261010-tunnel-drainage",
+      "semantic_key": "tunnel-drainage",
+      "source_refs": [
+        "tunnel"
+      ],
+      "subcategory": "Tunneltechnik",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Six drainage stations.",
+      "q": "Wie viele Entwässerungsstationen nennt LeShuttle für den Kanaltunnel?",
+      "a": 6,
+      "u": "Stationen",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.leshuttle.com/de-de/entdecken/warum-leshuttle/konstruktion/der-eurotunnel",
+      "sources": [
+        "https://www.leshuttle.com/de-de/entdecken/warum-leshuttle/konstruktion/der-eurotunnel"
+      ],
+      "sets": [
+        "Bauwerke · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "engineering",
+      "subject": "engineering"
+    },
+    {
+      "cat": "Bauwerke",
+      "id": "growth-20261010-queensferry-towers",
+      "semantic_key": "queensferry-towers",
+      "source_refs": [
+        "queensferry"
+      ],
+      "subcategory": "Tragwerk",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Three-tower cable-stayed structure.",
+      "q": "Wie viele tragende Türme hat die Queensferry Crossing?",
+      "a": 3,
+      "u": "Türme",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.theforthbridges.org/about-the-forth-bridges/queensferry-crossing/",
+      "sources": [
+        "https://www.theforthbridges.org/about-the-forth-bridges/queensferry-crossing/"
+      ],
+      "sets": [
+        "Bauwerke · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "engineering",
+      "subject": "engineering"
+    },
+    {
+      "cat": "Städte",
+      "id": "growth-20261010-city-est-0667000",
+      "semantic_key": "city-est-0667000",
+      "source_refs": [
+        "census",
+        "census-layout"
+      ],
+      "subcategory": "Flächen & Grenzen",
+      "data_year": 2020,
+      "rounding": "ALAND / 1.000.000; zwei Nachkommastellen.",
+      "notes": "Ohne Wasserfläche und ohne Umland.",
+      "evidence": "121507089 m²",
+      "q": "Wie groß ist die Landfläche von San Francisco innerhalb der Census-Stadtgrenzen 2020?",
+      "a": 121.51,
+      "u": "km²",
+      "observation_ids": [
+        "0667000:ALAND"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sources": [
+        "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+        "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts/gaz20-record-layouts.html"
+      ],
+      "sets": [
+        "Städte · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "city",
+      "subject": "city"
+    },
+    {
+      "cat": "Städte",
+      "id": "growth-20261010-city-est-2507000",
+      "semantic_key": "city-est-2507000",
+      "source_refs": [
+        "census",
+        "census-layout"
+      ],
+      "subcategory": "Flächen & Grenzen",
+      "data_year": 2020,
+      "rounding": "ALAND / 1.000.000; zwei Nachkommastellen.",
+      "notes": "Ohne Wasserfläche und ohne Umland.",
+      "evidence": "125201979 m²",
+      "q": "Wie groß ist die Landfläche von Boston innerhalb der Census-Stadtgrenzen 2020?",
+      "a": 125.2,
+      "u": "km²",
+      "observation_ids": [
+        "2507000:ALAND"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sources": [
+        "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+        "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts/gaz20-record-layouts.html"
+      ],
+      "sets": [
+        "Städte · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "city",
+      "subject": "city"
+    },
+    {
+      "cat": "Städte",
+      "id": "growth-20261010-city-est-2404000",
+      "semantic_key": "city-est-2404000",
+      "source_refs": [
+        "census",
+        "census-layout"
+      ],
+      "subcategory": "Flächen & Grenzen",
+      "data_year": 2020,
+      "rounding": "ALAND / 1.000.000; zwei Nachkommastellen.",
+      "notes": "Ohne Wasserfläche und ohne Umland.",
+      "evidence": "209649327 m²",
+      "q": "Wie groß ist die Landfläche von Baltimore innerhalb der Census-Stadtgrenzen 2020?",
+      "a": 209.65,
+      "u": "km²",
+      "observation_ids": [
+        "2404000:ALAND"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sources": [
+        "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+        "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts/gaz20-record-layouts.html"
+      ],
+      "sets": [
+        "Städte · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "city",
+      "subject": "city"
+    },
+    {
+      "cat": "Städte",
+      "id": "growth-20261010-city-est-1150000",
+      "semantic_key": "city-est-1150000",
+      "source_refs": [
+        "census",
+        "census-layout"
+      ],
+      "subcategory": "Flächen & Grenzen",
+      "data_year": 2020,
+      "rounding": "ALAND / 1.000.000; zwei Nachkommastellen.",
+      "notes": "Ohne Wasserfläche und ohne Umland.",
+      "evidence": "158316124 m²",
+      "q": "Wie groß ist die Landfläche von Washington, D.C. innerhalb der Census-Stadtgrenzen 2020?",
+      "a": 158.32,
+      "u": "km²",
+      "observation_ids": [
+        "1150000:ALAND"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sources": [
+        "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+        "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts/gaz20-record-layouts.html"
+      ],
+      "sets": [
+        "Städte · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "city",
+      "subject": "city"
+    },
+    {
+      "cat": "Städte",
+      "id": "growth-20261010-city-est-2622000",
+      "semantic_key": "city-est-2622000",
+      "source_refs": [
+        "census",
+        "census-layout"
+      ],
+      "subcategory": "Flächen & Grenzen",
+      "data_year": 2020,
+      "rounding": "ALAND / 1.000.000; zwei Nachkommastellen.",
+      "notes": "Ohne Wasserfläche und ohne Umland.",
+      "evidence": "359311024 m²",
+      "q": "Wie groß ist die Landfläche von Detroit innerhalb der Census-Stadtgrenzen 2020?",
+      "a": 359.31,
+      "u": "km²",
+      "observation_ids": [
+        "2622000:ALAND"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sources": [
+        "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+        "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts/gaz20-record-layouts.html"
+      ],
+      "sets": [
+        "Städte · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "city",
+      "subject": "city"
+    },
+    {
+      "cat": "Städte",
+      "id": "growth-20261010-city-est-2255000",
+      "semantic_key": "city-est-2255000",
+      "source_refs": [
+        "census",
+        "census-layout"
+      ],
+      "subcategory": "Flächen & Grenzen",
+      "data_year": 2020,
+      "rounding": "ALAND / 1.000.000; zwei Nachkommastellen.",
+      "notes": "Ohne Wasserfläche und ohne Umland.",
+      "evidence": "438975285 m²",
+      "q": "Wie groß ist die Landfläche von New Orleans innerhalb der Census-Stadtgrenzen 2020?",
+      "a": 438.98,
+      "u": "km²",
+      "observation_ids": [
+        "2255000:ALAND"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sources": [
+        "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+        "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts/gaz20-record-layouts.html"
+      ],
+      "sets": [
+        "Städte · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "city",
+      "subject": "city"
+    },
+    {
+      "cat": "Länder",
+      "id": "growth-20261010-country-age-JPN",
+      "semantic_key": "country-age-JPN",
+      "source_refs": [
+        "wb-age",
+        "wb-age-definition"
+      ],
+      "subcategory": "Altersstruktur",
+      "data_year": 2023,
+      "rounding": "Zwei Nachkommastellen.",
+      "notes": "Anteil der Bevölkerung ab 65 Jahren, beide Geschlechter, de-facto Wohnbevölkerung; kein Rentner- oder Staatsbürgeranteil. API-Metadatum lastupdated 2026-10-08; archivierter Datenstand, keine Aussage über 2026.",
+      "evidence": "29.5618100807812",
+      "q": "Wie viel Prozent der Bevölkerung von Japan waren laut WDI im Jahr 2023 mindestens 65 Jahre alt?",
+      "a": 29.56,
+      "u": "%",
+      "observation_ids": [
+        "age:JPN:2023"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/SP.POP.65UP.TO.ZS?date=2023&format=json&per_page=100",
+      "sources": [
+        "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/SP.POP.65UP.TO.ZS?date=2023&format=json&per_page=100",
+        "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SP.POP.65UP.TO.ZS"
+      ],
+      "sets": [
+        "Länder · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "globe",
+      "subject": "globe"
+    },
+    {
+      "cat": "Länder",
+      "id": "growth-20261010-country-age-KOR",
+      "semantic_key": "country-age-KOR",
+      "source_refs": [
+        "wb-age",
+        "wb-age-definition"
+      ],
+      "subcategory": "Altersstruktur",
+      "data_year": 2023,
+      "rounding": "Zwei Nachkommastellen.",
+      "notes": "Anteil der Bevölkerung ab 65 Jahren, beide Geschlechter, de-facto Wohnbevölkerung; kein Rentner- oder Staatsbürgeranteil. API-Metadatum lastupdated 2026-10-08; archivierter Datenstand, keine Aussage über 2026.",
+      "evidence": "18.3350235838597",
+      "q": "Wie viel Prozent der Bevölkerung von Südkorea waren laut WDI im Jahr 2023 mindestens 65 Jahre alt?",
+      "a": 18.34,
+      "u": "%",
+      "observation_ids": [
+        "age:KOR:2023"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/SP.POP.65UP.TO.ZS?date=2023&format=json&per_page=100",
+      "sources": [
+        "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/SP.POP.65UP.TO.ZS?date=2023&format=json&per_page=100",
+        "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SP.POP.65UP.TO.ZS"
+      ],
+      "sets": [
+        "Länder · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "globe",
+      "subject": "globe"
+    },
+    {
+      "cat": "Länder",
+      "id": "growth-20261010-country-urban-est-CAN",
+      "semantic_key": "country-urban-est-CAN",
+      "source_refs": [
+        "wb-urban",
+        "wb-urban-definition"
+      ],
+      "subcategory": "Urbanisierung",
+      "data_year": 2023,
+      "rounding": "Zwei Nachkommastellen.",
+      "notes": "Urbaner Anteil nach nationalen Definitionen; kein international einheitlich abgegrenzter Stadtraum. Knappes Ranking nur der publizierten Punktwerte, keine Signifikanzbehauptung. API-Metadatum lastupdated 2026-10-08; archivierter Datenstand, keine Aussage über 2026.",
+      "evidence": "82.5250564408346",
+      "q": "Wie viel Prozent der Bevölkerung von Kanada lebten laut dem WDI-Indikator 2023 in national als urban definierten Gebieten?",
+      "a": 82.53,
+      "u": "%",
+      "observation_ids": [
+        "urban:CAN:2023"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/SP.URB.TOTL.IN.ZS?date=2023&format=json&per_page=100",
+      "sources": [
+        "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/SP.URB.TOTL.IN.ZS?date=2023&format=json&per_page=100",
+        "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SP.URB.TOTL.IN.ZS"
+      ],
+      "sets": [
+        "Länder · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "globe",
+      "subject": "globe"
+    },
+    {
+      "cat": "Länder",
+      "id": "growth-20261010-country-urban-est-NZL",
+      "semantic_key": "country-urban-est-NZL",
+      "source_refs": [
+        "wb-urban",
+        "wb-urban-definition"
+      ],
+      "subcategory": "Urbanisierung",
+      "data_year": 2023,
+      "rounding": "Zwei Nachkommastellen.",
+      "notes": "Urbaner Anteil nach nationalen Definitionen; kein international einheitlich abgegrenzter Stadtraum. Knappes Ranking nur der publizierten Punktwerte, keine Signifikanzbehauptung. API-Metadatum lastupdated 2026-10-08; archivierter Datenstand, keine Aussage über 2026.",
+      "evidence": "83.8898991461229",
+      "q": "Wie viel Prozent der Bevölkerung von Neuseeland lebten laut dem WDI-Indikator 2023 in national als urban definierten Gebieten?",
+      "a": 83.89,
+      "u": "%",
+      "observation_ids": [
+        "urban:NZL:2023"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/SP.URB.TOTL.IN.ZS?date=2023&format=json&per_page=100",
+      "sources": [
+        "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/SP.URB.TOTL.IN.ZS?date=2023&format=json&per_page=100",
+        "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SP.URB.TOTL.IN.ZS"
+      ],
+      "sets": [
+        "Länder · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "globe",
+      "subject": "globe"
+    },
+    {
+      "cat": "Länder",
+      "id": "growth-20261010-country-age-CRI",
+      "semantic_key": "country-age-CRI",
+      "source_refs": [
+        "wb-age",
+        "wb-age-definition"
+      ],
+      "subcategory": "Altersstruktur",
+      "data_year": 2023,
+      "rounding": "Zwei Nachkommastellen.",
+      "notes": "Anteil der Bevölkerung ab 65 Jahren, beide Geschlechter, de-facto Wohnbevölkerung; kein Rentner- oder Staatsbürgeranteil. API-Metadatum lastupdated 2026-10-08; archivierter Datenstand, keine Aussage über 2026.",
+      "evidence": "11.7188426539051",
+      "q": "Wie viel Prozent der Bevölkerung von Costa Rica waren laut WDI im Jahr 2023 mindestens 65 Jahre alt?",
+      "a": 11.72,
+      "u": "%",
+      "observation_ids": [
+        "age:CRI:2023"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/SP.POP.65UP.TO.ZS?date=2023&format=json&per_page=100",
+      "sources": [
+        "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/SP.POP.65UP.TO.ZS?date=2023&format=json&per_page=100",
+        "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SP.POP.65UP.TO.ZS"
+      ],
+      "sets": [
+        "Länder · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "globe",
+      "subject": "globe"
+    },
+    {
+      "cat": "Länder",
+      "id": "growth-20261010-country-age-IND",
+      "semantic_key": "country-age-IND",
+      "source_refs": [
+        "wb-age",
+        "wb-age-definition"
+      ],
+      "subcategory": "Altersstruktur",
+      "data_year": 2023,
+      "rounding": "Zwei Nachkommastellen.",
+      "notes": "Anteil der Bevölkerung ab 65 Jahren, beide Geschlechter, de-facto Wohnbevölkerung; kein Rentner- oder Staatsbürgeranteil. API-Metadatum lastupdated 2026-10-08; archivierter Datenstand, keine Aussage über 2026.",
+      "evidence": "6.92184330138637",
+      "q": "Wie viel Prozent der Bevölkerung von Indien waren laut WDI im Jahr 2023 mindestens 65 Jahre alt?",
+      "a": 6.92,
+      "u": "%",
+      "observation_ids": [
+        "age:IND:2023"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/SP.POP.65UP.TO.ZS?date=2023&format=json&per_page=100",
+      "sources": [
+        "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/SP.POP.65UP.TO.ZS?date=2023&format=json&per_page=100",
+        "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SP.POP.65UP.TO.ZS"
+      ],
+      "sets": [
+        "Länder · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "globe",
+      "subject": "globe"
+    }
+  ],
+  "facts": [
+    {
+      "cat": "Tierwelt",
+      "id": "growth-20261010-binturong-diet",
+      "semantic_key": "binturong-diet",
+      "source_refs": [
+        "binturong"
+      ],
+      "subcategory": "Ernährung",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Carnivora; mostly fruit.",
+      "s": "Binturongs gehören zur Ordnung der Raubtiere, ernähren sich aber hauptsächlich von Früchten.",
+      "a": true,
+      "e": "Die zoologische Ordnung Carnivora legt keine ausschließlich fleischliche Nahrung fest.",
+      "difficulty": "easy",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://animals.sandiegozoo.org/animals/binturong",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/binturong"
+      ],
+      "sets": [
+        "Tierwelt · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "forest",
+      "subject": "forest"
+    },
+    {
+      "cat": "Tierwelt",
+      "id": "growth-20261010-fossa-family",
+      "semantic_key": "fossa-family",
+      "source_refs": [
+        "fossa"
+      ],
+      "subcategory": "Verwandtschaft",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Family Eupleridae, not Felidae.",
+      "s": "Die Fossa gehört zoologisch zur Katzenfamilie Felidae.",
+      "a": false,
+      "e": "Sie gehört zur Familie Eupleridae, den Madagassischen Raubtieren.",
+      "difficulty": "easy",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://animals.sandiegozoo.org/animals/fossa",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/fossa"
+      ],
+      "sets": [
+        "Tierwelt · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "forest",
+      "subject": "forest"
+    },
+    {
+      "cat": "Tierwelt",
+      "id": "growth-20261010-okapi-scent",
+      "semantic_key": "okapi-scent",
+      "source_refs": [
+        "okapi"
+      ],
+      "subcategory": "Verhalten",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Scent glands on feet.",
+      "s": "Okapis haben Duftdrüsen an ihren Füßen.",
+      "a": true,
+      "e": "Die Fußdrüsen hinterlassen Duftspuren.",
+      "difficulty": "medium",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://animals.sandiegozoo.org/animals/okapi",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/okapi"
+      ],
+      "sets": [
+        "Tierwelt · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "forest",
+      "subject": "forest"
+    },
+    {
+      "cat": "Tierwelt",
+      "id": "growth-20261010-wombat-pouch",
+      "semantic_key": "wombat-pouch",
+      "source_refs": [
+        "wombat"
+      ],
+      "subcategory": "Körperbau",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Backward-opening pouch.",
+      "s": "Der Beutel eines Wombats öffnet sich nach vorn zum Kopf.",
+      "a": false,
+      "e": "Der Beutel öffnet sich nach hinten; beim Graben gelangt so weniger Erde hinein.",
+      "difficulty": "medium",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://animals.sandiegozoo.org/animals/wombat",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/wombat"
+      ],
+      "sets": [
+        "Tierwelt · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "forest",
+      "subject": "forest"
+    },
+    {
+      "cat": "Tierwelt",
+      "id": "growth-20261010-fossa-newborn",
+      "semantic_key": "fossa-newborn",
+      "source_refs": [
+        "fossa"
+      ],
+      "subcategory": "Entwicklung",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Born toothless with eyes closed.",
+      "s": "Fossa-Junge kommen zahnlos und mit geschlossenen Augen zur Welt.",
+      "a": true,
+      "e": "Der Zoo nennt beide Merkmale neugeborener Jungtiere.",
+      "difficulty": "hard",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://animals.sandiegozoo.org/animals/fossa",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/fossa"
+      ],
+      "sets": [
+        "Tierwelt · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "forest",
+      "subject": "forest"
+    },
+    {
+      "cat": "Tierwelt",
+      "id": "growth-20261010-okapi-stomach",
+      "semantic_key": "okapi-stomach",
+      "source_refs": [
+        "okapi"
+      ],
+      "subcategory": "Ernährung",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Multi-chambered ruminant stomach.",
+      "s": "Okapis besitzen zur Verdauung der Pflanzen nur eine einzige Magenkammer.",
+      "a": false,
+      "e": "Okapis sind Wiederkäuer mit einem mehrkammerigen Magen.",
+      "difficulty": "hard",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://animals.sandiegozoo.org/animals/okapi",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/okapi"
+      ],
+      "sets": [
+        "Tierwelt · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "forest",
+      "subject": "forest"
+    },
+    {
+      "cat": "Allgemeinwissen",
+      "id": "growth-20261010-euro-fictional",
+      "semantic_key": "euro-fictional",
+      "source_refs": [
+        "bank-design"
+      ],
+      "subcategory": "Geld & Gestaltung",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Stylised architecture; not actual monuments.",
+      "s": "Die Brückenmotive der Euro-Banknoten wurden als stilisierte Beispiele gestaltet, nicht als Porträts bestimmter bestehender Brücken.",
+      "a": true,
+      "e": "Später gebaute Nachbildungen ändern nicht die ursprüngliche Gestaltungsidee.",
+      "difficulty": "easy",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.ecb.europa.eu/euro/banknotes/current/design/html/index.en.html",
+      "sources": [
+        "https://www.ecb.europa.eu/euro/banknotes/current/design/html/index.en.html"
+      ],
+      "sets": [
+        "Allgemeinwissen · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "design",
+      "subject": "design"
+    },
+    {
+      "cat": "Allgemeinwissen",
+      "id": "growth-20261010-euro-first-invalid",
+      "semantic_key": "euro-first-invalid",
+      "source_refs": [
+        "bank-current"
+      ],
+      "subcategory": "Geld & Gestaltung",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "First series remains legal tender and retains value.",
+      "s": "Banknoten der ersten Euro-Serie haben ihren Wert verloren und sind nicht mehr gesetzliches Zahlungsmittel.",
+      "a": false,
+      "e": "Laut EZB behalten sie ihren Wert und bleiben gesetzliches Zahlungsmittel. Stand der Prüfung: 10.10.2026.",
+      "difficulty": "easy",
+      "time_dependent": true,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.ecb.europa.eu/euro/banknotes/current/html/index.en.html",
+      "sources": [
+        "https://www.ecb.europa.eu/euro/banknotes/current/html/index.en.html"
+      ],
+      "sets": [
+        "Allgemeinwissen · geprüfter Entwurf 10.10.2026"
+      ],
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "design",
+      "subject": "design"
+    },
+    {
+      "cat": "Allgemeinwissen",
+      "id": "growth-20261010-euro-cotton",
+      "semantic_key": "euro-cotton",
+      "source_refs": [
+        "bank-cotton"
+      ],
+      "subcategory": "Materialien",
+      "data_year": 2023,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Euro banknotes are made of cotton.",
+      "s": "Das Papier von Euro-Banknoten besteht aus Baumwollfasern.",
+      "a": true,
+      "e": "Der EZB-Blog beschreibt Baumwolle als Material der Euro-Banknoten.",
+      "difficulty": "medium",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.ecb.europa.eu/press/blog/date/2023/html/ecb.blog230824~362178a805.en.html",
+      "sources": [
+        "https://www.ecb.europa.eu/press/blog/date/2023/html/ecb.blog230824~362178a805.en.html"
+      ],
+      "sets": [
+        "Allgemeinwissen · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "design",
+      "subject": "design"
+    },
+    {
+      "cat": "Allgemeinwissen",
+      "id": "growth-20261010-euro10-purple",
+      "semantic_key": "euro10-purple",
+      "source_refs": [
+        "bank-design"
+      ],
+      "subcategory": "Geld & Gestaltung",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "10 Euro: red.",
+      "s": "Die vorherrschende Farbe der 10-Euro-Banknote der Europa-Serie ist Violett.",
+      "a": false,
+      "e": "Die 10-Euro-Banknote ist vorherrschend rot.",
+      "difficulty": "medium",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.ecb.europa.eu/euro/banknotes/current/design/html/index.en.html",
+      "sources": [
+        "https://www.ecb.europa.eu/euro/banknotes/current/design/html/index.en.html"
+      ],
+      "sets": [
+        "Allgemeinwissen · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "design",
+      "subject": "design"
+    },
+    {
+      "cat": "Allgemeinwissen",
+      "id": "growth-20261010-euro-serial-printer",
+      "semantic_key": "euro-serial-printer",
+      "source_refs": [
+        "bank-design"
+      ],
+      "subcategory": "Geld & Gestaltung",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "First letter of horizontal serial number identifies printing works.",
+      "s": "Bei der Europa-Serie kennzeichnet der erste Buchstabe der horizontalen Seriennummer die Druckerei.",
+      "a": true,
+      "e": "Dies ist eine Druckereikennung, keine pauschale Länderkennung für den späteren Umlauf.",
+      "difficulty": "hard",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.ecb.europa.eu/euro/banknotes/current/design/html/index.en.html",
+      "sources": [
+        "https://www.ecb.europa.eu/euro/banknotes/current/design/html/index.en.html"
+      ],
+      "sets": [
+        "Allgemeinwissen · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "design",
+      "subject": "design"
+    },
+    {
+      "cat": "Allgemeinwissen",
+      "id": "growth-20261010-euro500-europa",
+      "semantic_key": "euro500-europa",
+      "source_refs": [
+        "bank-current"
+      ],
+      "subcategory": "Geld & Gestaltung",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Europa series six denominations, excludes 500.",
+      "s": "Zur Europa-Serie gehört eine 500-Euro-Banknote.",
+      "a": false,
+      "e": "Diese Serie hat sechs Stückelungen von 5 bis 200 Euro; 500 Euro gehört nur zur ersten Serie.",
+      "difficulty": "hard",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.ecb.europa.eu/euro/banknotes/current/html/index.en.html",
+      "sources": [
+        "https://www.ecb.europa.eu/euro/banknotes/current/html/index.en.html"
+      ],
+      "sets": [
+        "Allgemeinwissen · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "design",
+      "subject": "design"
+    },
+    {
+      "cat": "Bauwerke",
+      "id": "growth-20261010-tower-cladding",
+      "semantic_key": "tower-cladding",
+      "source_refs": [
+        "tower"
+      ],
+      "subcategory": "Materialien",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Steel clad in Cornish granite and Portland stone.",
+      "s": "Das Stahltragwerk der Tower Bridge wurde mit Stein verkleidet.",
+      "a": true,
+      "e": "Der Betreiber nennt Granit aus Cornwall und Portland-Stein.",
+      "difficulty": "easy",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.towerbridge.org.uk/stories/timeline-the-construction-of-tower-bridge",
+      "sources": [
+        "https://www.towerbridge.org.uk/stories/timeline-the-construction-of-tower-bridge"
+      ],
+      "sets": [
+        "Bauwerke · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "engineering",
+      "subject": "engineering"
+    },
+    {
+      "cat": "Bauwerke",
+      "id": "growth-20261010-forth-rivets",
+      "semantic_key": "forth-rivets",
+      "source_refs": [
+        "forth"
+      ],
+      "subcategory": "Verkehr",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "6.5 million rivets.",
+      "s": "Die Stahlteile der Forth Bridge wurden ausschließlich verschweißt, ohne Nieten.",
+      "a": false,
+      "e": "Die offizielle Faktenübersicht nennt rund 6,5 Millionen Nieten.",
+      "difficulty": "easy",
+      "time_dependent": false,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.theforthbridges.org/about-the-forth-bridges/forth-bridge/forth-bridge-facts-figures/",
+      "sources": [
+        "https://www.theforthbridges.org/about-the-forth-bridges/forth-bridge/forth-bridge-facts-figures/"
+      ],
+      "sets": [
+        "Bauwerke · geprüfter Entwurf 10.10.2026"
+      ],
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "engineering",
+      "subject": "engineering"
+    },
+    {
+      "cat": "Bauwerke",
+      "id": "growth-20261010-iron-cast",
+      "semantic_key": "iron-cast",
+      "source_refs": [
+        "iron"
+      ],
+      "subcategory": "Materialien",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Cast-iron bridge.",
+      "s": "Die historische Iron Bridge über den Severn wurde aus Gusseisen gebaut.",
+      "a": true,
+      "e": "English Heritage beschreibt sie als Gusseisenbrücke.",
+      "difficulty": "medium",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.english-heritage.org.uk/visit/places/iron-bridge/history/",
+      "sources": [
+        "https://www.english-heritage.org.uk/visit/places/iron-bridge/history/"
+      ],
+      "sets": [
+        "Bauwerke · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "engineering",
+      "subject": "engineering"
+    },
+    {
+      "cat": "Bauwerke",
+      "id": "growth-20261010-tunnel-sea-view",
+      "semantic_key": "tunnel-sea-view",
+      "source_refs": [
+        "tunnel"
+      ],
+      "subcategory": "Tunneltechnik",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Passengers cannot see sea; tunnels beneath seabed.",
+      "s": "Durch Fenster der Tunnelröhren sieht man im Kanaltunnel während der Fahrt das Meer.",
+      "a": false,
+      "e": "Die Röhren liegen im Gestein unter dem Meeresboden, nicht als verglaste Unterwasserpassage.",
+      "difficulty": "medium",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.leshuttle.com/de-de/entdecken/warum-leshuttle/konstruktion/der-eurotunnel",
+      "sources": [
+        "https://www.leshuttle.com/de-de/entdecken/warum-leshuttle/konstruktion/der-eurotunnel"
+      ],
+      "sets": [
+        "Bauwerke · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "engineering",
+      "subject": "engineering"
+    },
+    {
+      "cat": "Bauwerke",
+      "id": "growth-20261010-tunnel-tubes",
+      "semantic_key": "tunnel-tubes",
+      "source_refs": [
+        "tunnel"
+      ],
+      "subcategory": "Tunneltechnik",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Two railway tunnels, one service tunnel.",
+      "s": "Der Kanaltunnel besteht aus zwei Bahntunneln und einem dazwischenliegenden Servicetunnel.",
+      "a": true,
+      "e": "Das sind drei parallele Tunnelröhren mit verschiedenen Aufgaben.",
+      "difficulty": "hard",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.leshuttle.com/de-de/entdecken/warum-leshuttle/konstruktion/der-eurotunnel",
+      "sources": [
+        "https://www.leshuttle.com/de-de/entdecken/warum-leshuttle/konstruktion/der-eurotunnel"
+      ],
+      "sets": [
+        "Bauwerke · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "engineering",
+      "subject": "engineering"
+    },
+    {
+      "cat": "Bauwerke",
+      "id": "growth-20261010-queensferry-rail",
+      "semantic_key": "queensferry-rail",
+      "source_refs": [
+        "queensferry"
+      ],
+      "subcategory": "Verkehr",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Motorway bridge.",
+      "s": "Die Queensferry Crossing ist ausschließlich eine Eisenbahnbrücke.",
+      "a": false,
+      "e": "Sie führt die Autobahn M90; sie ist eine Straßenbrücke.",
+      "difficulty": "hard",
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.theforthbridges.org/about-the-forth-bridges/queensferry-crossing/",
+      "sources": [
+        "https://www.theforthbridges.org/about-the-forth-bridges/queensferry-crossing/"
+      ],
+      "sets": [
+        "Bauwerke · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": "engineering",
+      "subject": "engineering"
+    },
+    {
+      "cat": "Städte",
+      "id": "growth-20261010-city-water-3651000",
+      "semantic_key": "city-water-3651000",
+      "source_refs": [
+        "census",
+        "census-layout"
+      ],
+      "subcategory": "Gewässer & Grenzen",
+      "data_year": 2020,
+      "rounding": "100 × AWATER / (ALAND + AWATER), zwei Nachkommastellen.",
+      "notes": "",
+      "evidence": "ALAND=778165283; AWATER=445421632.",
+      "s": "Wasser macht laut Census Gazetteer 2020 mehr als 30 % der Gesamtfläche innerhalb der Stadtgrenzen von New York aus.",
+      "a": true,
+      "e": "Der berechnete Wasseranteil beträgt 36.40 %. Gemeint ist AWATER / (ALAND + AWATER), nicht der Anteil am Ballungsraum.",
+      "difficulty": "easy",
+      "observation_ids": [
+        "3651000:water-share"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sources": [
+        "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+        "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts/gaz20-record-layouts.html"
+      ],
+      "sets": [
+        "Städte · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "city",
+      "subject": "city"
+    },
+    {
+      "cat": "Städte",
+      "id": "growth-20261010-city-water-1245000",
+      "semantic_key": "city-water-1245000",
+      "source_refs": [
+        "census",
+        "census-layout"
+      ],
+      "subcategory": "Gewässer & Grenzen",
+      "data_year": 2020,
+      "rounding": "100 × AWATER / (ALAND + AWATER), zwei Nachkommastellen.",
+      "notes": "",
+      "evidence": "ALAND=93228401; AWATER=52000009.",
+      "s": "Wasser macht laut Census Gazetteer 2020 mehr als 50 % der Gesamtfläche innerhalb der Stadtgrenzen von Miami aus.",
+      "a": false,
+      "e": "Der berechnete Wasseranteil beträgt 35.81 %. Gemeint ist AWATER / (ALAND + AWATER), nicht der Anteil am Ballungsraum.",
+      "difficulty": "easy",
+      "observation_ids": [
+        "1245000:water-share"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sources": [
+        "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+        "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts/gaz20-record-layouts.html"
+      ],
+      "sets": [
+        "Städte · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "city",
+      "subject": "city"
+    },
+    {
+      "cat": "Städte",
+      "id": "growth-20261010-city-water-5363000",
+      "semantic_key": "city-water-5363000",
+      "source_refs": [
+        "census",
+        "census-layout"
+      ],
+      "subcategory": "Gewässer & Grenzen",
+      "data_year": 2020,
+      "rounding": "100 × AWATER / (ALAND + AWATER), zwei Nachkommastellen.",
+      "notes": "",
+      "evidence": "ALAND=217119656; AWATER=150846139.",
+      "s": "Wasser macht laut Census Gazetteer 2020 mehr als 30 % der Gesamtfläche innerhalb der Stadtgrenzen von Seattle aus.",
+      "a": true,
+      "e": "Der berechnete Wasseranteil beträgt 40.99 %. Gemeint ist AWATER / (ALAND + AWATER), nicht der Anteil am Ballungsraum.",
+      "difficulty": "easy",
+      "observation_ids": [
+        "5363000:water-share"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sources": [
+        "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+        "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts/gaz20-record-layouts.html"
+      ],
+      "sets": [
+        "Städte · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "city",
+      "subject": "city"
+    },
+    {
+      "cat": "Städte",
+      "id": "growth-20261010-city-water-1714000",
+      "semantic_key": "city-water-1714000",
+      "source_refs": [
+        "census",
+        "census-layout"
+      ],
+      "subcategory": "Gewässer & Grenzen",
+      "data_year": 2020,
+      "rounding": "100 × AWATER / (ALAND + AWATER), zwei Nachkommastellen.",
+      "notes": "",
+      "evidence": "ALAND=589818463; AWATER=17621529.",
+      "s": "Wasser macht laut Census Gazetteer 2020 mehr als 10 % der Gesamtfläche innerhalb der Stadtgrenzen von Chicago aus.",
+      "a": false,
+      "e": "Der berechnete Wasseranteil beträgt 2.90 %. Gemeint ist AWATER / (ALAND + AWATER), nicht der Anteil am Ballungsraum.",
+      "difficulty": "easy",
+      "observation_ids": [
+        "1714000:water-share"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sources": [
+        "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+        "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts/gaz20-record-layouts.html"
+      ],
+      "sets": [
+        "Städte · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "city",
+      "subject": "city"
+    },
+    {
+      "cat": "Städte",
+      "id": "growth-20261010-city-water-0667000",
+      "semantic_key": "city-water-0667000",
+      "source_refs": [
+        "census",
+        "census-layout"
+      ],
+      "subcategory": "Gewässer & Grenzen",
+      "data_year": 2020,
+      "rounding": "100 × AWATER / (ALAND + AWATER), zwei Nachkommastellen.",
+      "notes": "",
+      "evidence": "ALAND=121507089; AWATER=479146790.",
+      "s": "Wasser macht laut Census Gazetteer 2020 mehr als 70 % der Gesamtfläche innerhalb der Stadtgrenzen von San Francisco aus.",
+      "a": true,
+      "e": "Der berechnete Wasseranteil beträgt 79.77 %. Gemeint ist AWATER / (ALAND + AWATER), nicht der Anteil am Ballungsraum.",
+      "difficulty": "medium",
+      "observation_ids": [
+        "0667000:water-share"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sources": [
+        "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+        "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts/gaz20-record-layouts.html"
+      ],
+      "sets": [
+        "Städte · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "city",
+      "subject": "city"
+    },
+    {
+      "cat": "Städte",
+      "id": "growth-20261010-city-water-4159000",
+      "semantic_key": "city-water-4159000",
+      "source_refs": [
+        "census",
+        "census-layout"
+      ],
+      "subcategory": "Gewässer & Grenzen",
+      "data_year": 2020,
+      "rounding": "100 × AWATER / (ALAND + AWATER), zwei Nachkommastellen.",
+      "notes": "",
+      "evidence": "ALAND=345633415; AWATER=29873529.",
+      "s": "Wasser macht laut Census Gazetteer 2020 mehr als 20 % der Gesamtfläche innerhalb der Stadtgrenzen von Portland (Oregon) aus.",
+      "a": false,
+      "e": "Der berechnete Wasseranteil beträgt 7.96 %. Gemeint ist AWATER / (ALAND + AWATER), nicht der Anteil am Ballungsraum.",
+      "difficulty": "medium",
+      "observation_ids": [
+        "4159000:water-share"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sources": [
+        "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+        "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts/gaz20-record-layouts.html"
+      ],
+      "sets": [
+        "Städte · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "city",
+      "subject": "city"
+    },
+    {
+      "cat": "Städte",
+      "id": "growth-20261010-city-water-2507000",
+      "semantic_key": "city-water-2507000",
+      "source_refs": [
+        "census",
+        "census-layout"
+      ],
+      "subcategory": "Gewässer & Grenzen",
+      "data_year": 2020,
+      "rounding": "100 × AWATER / (ALAND + AWATER), zwei Nachkommastellen.",
+      "notes": "",
+      "evidence": "ALAND=125201979; AWATER=106897277.",
+      "s": "Wasser macht laut Census Gazetteer 2020 mehr als 40 % der Gesamtfläche innerhalb der Stadtgrenzen von Boston aus.",
+      "a": true,
+      "e": "Der berechnete Wasseranteil beträgt 46.06 %. Gemeint ist AWATER / (ALAND + AWATER), nicht der Anteil am Ballungsraum.",
+      "difficulty": "medium",
+      "observation_ids": [
+        "2507000:water-share"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sources": [
+        "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+        "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts/gaz20-record-layouts.html"
+      ],
+      "sets": [
+        "Städte · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "city",
+      "subject": "city"
+    },
+    {
+      "cat": "Städte",
+      "id": "growth-20261010-city-water-1304000",
+      "semantic_key": "city-water-1304000",
+      "source_refs": [
+        "census",
+        "census-layout"
+      ],
+      "subcategory": "Gewässer & Grenzen",
+      "data_year": 2020,
+      "rounding": "100 × AWATER / (ALAND + AWATER), zwei Nachkommastellen.",
+      "notes": "",
+      "evidence": "ALAND=350456124; AWATER=2585706.",
+      "s": "Wasser macht laut Census Gazetteer 2020 mehr als 5 % der Gesamtfläche innerhalb der Stadtgrenzen von Atlanta aus.",
+      "a": false,
+      "e": "Der berechnete Wasseranteil beträgt 0.73 %. Gemeint ist AWATER / (ALAND + AWATER), nicht der Anteil am Ballungsraum.",
+      "difficulty": "medium",
+      "observation_ids": [
+        "1304000:water-share"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sources": [
+        "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+        "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts/gaz20-record-layouts.html"
+      ],
+      "sets": [
+        "Städte · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "city",
+      "subject": "city"
+    },
+    {
+      "cat": "Städte",
+      "id": "growth-20261010-city-water-2255000",
+      "semantic_key": "city-water-2255000",
+      "source_refs": [
+        "census",
+        "census-layout"
+      ],
+      "subcategory": "Gewässer & Grenzen",
+      "data_year": 2020,
+      "rounding": "100 × AWATER / (ALAND + AWATER), zwei Nachkommastellen.",
+      "notes": "",
+      "evidence": "ALAND=438975285; AWATER=467122070.",
+      "s": "Wasser macht laut Census Gazetteer 2020 mehr als 50 % der Gesamtfläche innerhalb der Stadtgrenzen von New Orleans aus.",
+      "a": true,
+      "e": "Der berechnete Wasseranteil beträgt 51.55 %. Gemeint ist AWATER / (ALAND + AWATER), nicht der Anteil am Ballungsraum.",
+      "difficulty": "hard",
+      "observation_ids": [
+        "2255000:water-share"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sources": [
+        "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+        "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts/gaz20-record-layouts.html"
+      ],
+      "sets": [
+        "Städte · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "city",
+      "subject": "city"
+    },
+    {
+      "cat": "Städte",
+      "id": "growth-20261010-city-water-0455000",
+      "semantic_key": "city-water-0455000",
+      "source_refs": [
+        "census",
+        "census-layout"
+      ],
+      "subcategory": "Gewässer & Grenzen",
+      "data_year": 2020,
+      "rounding": "100 × AWATER / (ALAND + AWATER), zwei Nachkommastellen.",
+      "notes": "",
+      "evidence": "ALAND=1341601620; AWATER=2925264.",
+      "s": "Wasser macht laut Census Gazetteer 2020 mehr als 5 % der Gesamtfläche innerhalb der Stadtgrenzen von Phoenix aus.",
+      "a": false,
+      "e": "Der berechnete Wasseranteil beträgt 0.22 %. Gemeint ist AWATER / (ALAND + AWATER), nicht der Anteil am Ballungsraum.",
+      "difficulty": "hard",
+      "observation_ids": [
+        "0455000:water-share"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sources": [
+        "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+        "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts/gaz20-record-layouts.html"
+      ],
+      "sets": [
+        "Städte · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "city",
+      "subject": "city"
+    },
+    {
+      "cat": "Länder",
+      "id": "growth-20261010-country-arable-ARG",
+      "semantic_key": "country-arable-ARG",
+      "source_refs": [
+        "wb-arable",
+        "wb-arable-definition"
+      ],
+      "subcategory": "Landnutzung",
+      "data_year": 2023,
+      "rounding": "Zwei Nachkommastellen.",
+      "notes": "Ackerlandanteil an Landfläche; umfasst temporäre Kulturen und kurzfristige Brachen, nicht alle landwirtschaftlichen Flächen und nicht potenziell kultivierbare Fläche. API-Metadatum lastupdated 2026-10-08; archivierter Datenstand, keine Aussage über 2026.",
+      "evidence": "16.8834168283583",
+      "s": "In Argentinien lag der Ackerlandanteil an der Landfläche laut WDI 2023 über 15 %.",
+      "a": true,
+      "e": "Der veröffentlichte Wert beträgt 16.88 %. Ackerland ist eine engere Kennzahl als sämtliche landwirtschaftlich genutzten Flächen.",
+      "difficulty": "easy",
+      "observation_ids": [
+        "arable:ARG:2023"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+      "sources": [
+        "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+        "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/AG.LND.ARBL.ZS"
+      ],
+      "sets": [
+        "Länder · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "globe",
+      "subject": "globe"
+    },
+    {
+      "cat": "Länder",
+      "id": "growth-20261010-country-arable-CHL",
+      "semantic_key": "country-arable-CHL",
+      "source_refs": [
+        "wb-arable",
+        "wb-arable-definition"
+      ],
+      "subcategory": "Landnutzung",
+      "data_year": 2023,
+      "rounding": "Zwei Nachkommastellen.",
+      "notes": "Ackerlandanteil an Landfläche; umfasst temporäre Kulturen und kurzfristige Brachen, nicht alle landwirtschaftlichen Flächen und nicht potenziell kultivierbare Fläche. API-Metadatum lastupdated 2026-10-08; archivierter Datenstand, keine Aussage über 2026.",
+      "evidence": "1.89396886756197",
+      "s": "In Chile lag der Ackerlandanteil an der Landfläche laut WDI 2023 über 5 %.",
+      "a": false,
+      "e": "Der veröffentlichte Wert beträgt 1.89 %. Ackerland ist eine engere Kennzahl als sämtliche landwirtschaftlich genutzten Flächen.",
+      "difficulty": "easy",
+      "observation_ids": [
+        "arable:CHL:2023"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+      "sources": [
+        "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+        "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/AG.LND.ARBL.ZS"
+      ],
+      "sets": [
+        "Länder · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "globe",
+      "subject": "globe"
+    },
+    {
+      "cat": "Länder",
+      "id": "growth-20261010-country-arable-BRA",
+      "semantic_key": "country-arable-BRA",
+      "source_refs": [
+        "wb-arable",
+        "wb-arable-definition"
+      ],
+      "subcategory": "Landnutzung",
+      "data_year": 2023,
+      "rounding": "Zwei Nachkommastellen.",
+      "notes": "Ackerlandanteil an Landfläche; umfasst temporäre Kulturen und kurzfristige Brachen, nicht alle landwirtschaftlichen Flächen und nicht potenziell kultivierbare Fläche. API-Metadatum lastupdated 2026-10-08; archivierter Datenstand, keine Aussage über 2026.",
+      "evidence": "6.65722277923079",
+      "s": "In Brasilien lag der Ackerlandanteil an der Landfläche laut WDI 2023 über 5 %.",
+      "a": true,
+      "e": "Der veröffentlichte Wert beträgt 6.66 %. Ackerland ist eine engere Kennzahl als sämtliche landwirtschaftlich genutzten Flächen.",
+      "difficulty": "easy",
+      "observation_ids": [
+        "arable:BRA:2023"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+      "sources": [
+        "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+        "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/AG.LND.ARBL.ZS"
+      ],
+      "sets": [
+        "Länder · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "globe",
+      "subject": "globe"
+    },
+    {
+      "cat": "Länder",
+      "id": "growth-20261010-country-arable-COL",
+      "semantic_key": "country-arable-COL",
+      "source_refs": [
+        "wb-arable",
+        "wb-arable-definition"
+      ],
+      "subcategory": "Landnutzung",
+      "data_year": 2023,
+      "rounding": "Zwei Nachkommastellen.",
+      "notes": "Ackerlandanteil an Landfläche; umfasst temporäre Kulturen und kurzfristige Brachen, nicht alle landwirtschaftlichen Flächen und nicht potenziell kultivierbare Fläche. API-Metadatum lastupdated 2026-10-08; archivierter Datenstand, keine Aussage über 2026.",
+      "evidence": "2.29780081117621",
+      "s": "In Kolumbien lag der Ackerlandanteil an der Landfläche laut WDI 2023 über 10 %.",
+      "a": false,
+      "e": "Der veröffentlichte Wert beträgt 2.30 %. Ackerland ist eine engere Kennzahl als sämtliche landwirtschaftlich genutzten Flächen.",
+      "difficulty": "easy",
+      "observation_ids": [
+        "arable:COL:2023"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+      "sources": [
+        "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+        "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/AG.LND.ARBL.ZS"
+      ],
+      "sets": [
+        "Länder · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "globe",
+      "subject": "globe"
+    },
+    {
+      "cat": "Länder",
+      "id": "growth-20261010-country-arable-CUB",
+      "semantic_key": "country-arable-CUB",
+      "source_refs": [
+        "wb-arable",
+        "wb-arable-definition"
+      ],
+      "subcategory": "Landnutzung",
+      "data_year": 2023,
+      "rounding": "Zwei Nachkommastellen.",
+      "notes": "Ackerlandanteil an Landfläche; umfasst temporäre Kulturen und kurzfristige Brachen, nicht alle landwirtschaftlichen Flächen und nicht potenziell kultivierbare Fläche. API-Metadatum lastupdated 2026-10-08; archivierter Datenstand, keine Aussage über 2026.",
+      "evidence": "28.0211946050096",
+      "s": "In Kuba lag der Ackerlandanteil an der Landfläche laut WDI 2023 über 25 %.",
+      "a": true,
+      "e": "Der veröffentlichte Wert beträgt 28.02 %. Ackerland ist eine engere Kennzahl als sämtliche landwirtschaftlich genutzten Flächen.",
+      "difficulty": "medium",
+      "observation_ids": [
+        "arable:CUB:2023"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+      "sources": [
+        "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+        "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/AG.LND.ARBL.ZS"
+      ],
+      "sets": [
+        "Länder · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "globe",
+      "subject": "globe"
+    },
+    {
+      "cat": "Länder",
+      "id": "growth-20261010-country-arable-CRI",
+      "semantic_key": "country-arable-CRI",
+      "source_refs": [
+        "wb-arable",
+        "wb-arable-definition"
+      ],
+      "subcategory": "Landnutzung",
+      "data_year": 2023,
+      "rounding": "Zwei Nachkommastellen.",
+      "notes": "Ackerlandanteil an Landfläche; umfasst temporäre Kulturen und kurzfristige Brachen, nicht alle landwirtschaftlichen Flächen und nicht potenziell kultivierbare Fläche. API-Metadatum lastupdated 2026-10-08; archivierter Datenstand, keine Aussage über 2026.",
+      "evidence": "3.30564477848101",
+      "s": "In Costa Rica lag der Ackerlandanteil an der Landfläche laut WDI 2023 über 8 %.",
+      "a": false,
+      "e": "Der veröffentlichte Wert beträgt 3.31 %. Ackerland ist eine engere Kennzahl als sämtliche landwirtschaftlich genutzten Flächen.",
+      "difficulty": "medium",
+      "observation_ids": [
+        "arable:CRI:2023"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+      "sources": [
+        "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+        "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/AG.LND.ARBL.ZS"
+      ],
+      "sets": [
+        "Länder · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "globe",
+      "subject": "globe"
+    },
+    {
+      "cat": "Länder",
+      "id": "growth-20261010-country-arable-IND",
+      "semantic_key": "country-arable-IND",
+      "source_refs": [
+        "wb-arable",
+        "wb-arable-definition"
+      ],
+      "subcategory": "Landnutzung",
+      "data_year": 2023,
+      "rounding": "Zwei Nachkommastellen.",
+      "notes": "Ackerlandanteil an Landfläche; umfasst temporäre Kulturen und kurzfristige Brachen, nicht alle landwirtschaftlichen Flächen und nicht potenziell kultivierbare Fläche. API-Metadatum lastupdated 2026-10-08; archivierter Datenstand, keine Aussage über 2026.",
+      "evidence": "51.8482501959175",
+      "s": "In Indien lag der Ackerlandanteil an der Landfläche laut WDI 2023 über 50 %.",
+      "a": true,
+      "e": "Der veröffentlichte Wert beträgt 51.85 %. Ackerland ist eine engere Kennzahl als sämtliche landwirtschaftlich genutzten Flächen.",
+      "difficulty": "medium",
+      "observation_ids": [
+        "arable:IND:2023"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+      "sources": [
+        "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+        "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/AG.LND.ARBL.ZS"
+      ],
+      "sets": [
+        "Länder · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "globe",
+      "subject": "globe"
+    },
+    {
+      "cat": "Länder",
+      "id": "growth-20261010-country-arable-NZL",
+      "semantic_key": "country-arable-NZL",
+      "source_refs": [
+        "wb-arable",
+        "wb-arable-definition"
+      ],
+      "subcategory": "Landnutzung",
+      "data_year": 2023,
+      "rounding": "Zwei Nachkommastellen.",
+      "notes": "Ackerlandanteil an Landfläche; umfasst temporäre Kulturen und kurzfristige Brachen, nicht alle landwirtschaftlichen Flächen und nicht potenziell kultivierbare Fläche. API-Metadatum lastupdated 2026-10-08; archivierter Datenstand, keine Aussage über 2026.",
+      "evidence": "1.97485853176864",
+      "s": "In Neuseeland lag der Ackerlandanteil an der Landfläche laut WDI 2023 über 5 %.",
+      "a": false,
+      "e": "Der veröffentlichte Wert beträgt 1.97 %. Ackerland ist eine engere Kennzahl als sämtliche landwirtschaftlich genutzten Flächen.",
+      "difficulty": "medium",
+      "observation_ids": [
+        "arable:NZL:2023"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+      "sources": [
+        "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+        "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/AG.LND.ARBL.ZS"
+      ],
+      "sets": [
+        "Länder · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "globe",
+      "subject": "globe"
+    },
+    {
+      "cat": "Länder",
+      "id": "growth-20261010-country-arable-URY",
+      "semantic_key": "country-arable-URY",
+      "source_refs": [
+        "wb-arable",
+        "wb-arable-definition"
+      ],
+      "subcategory": "Landnutzung",
+      "data_year": 2023,
+      "rounding": "Zwei Nachkommastellen.",
+      "notes": "Ackerlandanteil an Landfläche; umfasst temporäre Kulturen und kurzfristige Brachen, nicht alle landwirtschaftlichen Flächen und nicht potenziell kultivierbare Fläche. API-Metadatum lastupdated 2026-10-08; archivierter Datenstand, keine Aussage über 2026.",
+      "evidence": "13.1483544737744",
+      "s": "In Uruguay lag der Ackerlandanteil an der Landfläche laut WDI 2023 über 10 %.",
+      "a": true,
+      "e": "Der veröffentlichte Wert beträgt 13.15 %. Ackerland ist eine engere Kennzahl als sämtliche landwirtschaftlich genutzten Flächen.",
+      "difficulty": "hard",
+      "observation_ids": [
+        "arable:URY:2023"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+      "sources": [
+        "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+        "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/AG.LND.ARBL.ZS"
+      ],
+      "sets": [
+        "Länder · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "globe",
+      "subject": "globe"
+    },
+    {
+      "cat": "Länder",
+      "id": "growth-20261010-country-arable-PER",
+      "semantic_key": "country-arable-PER",
+      "source_refs": [
+        "wb-arable",
+        "wb-arable-definition"
+      ],
+      "subcategory": "Landnutzung",
+      "data_year": 2023,
+      "rounding": "Zwei Nachkommastellen.",
+      "notes": "Ackerlandanteil an Landfläche; umfasst temporäre Kulturen und kurzfristige Brachen, nicht alle landwirtschaftlichen Flächen und nicht potenziell kultivierbare Fläche. API-Metadatum lastupdated 2026-10-08; archivierter Datenstand, keine Aussage über 2026.",
+      "evidence": "3.06065625",
+      "s": "In Peru lag der Ackerlandanteil an der Landfläche laut WDI 2023 über 8 %.",
+      "a": false,
+      "e": "Der veröffentlichte Wert beträgt 3.06 %. Ackerland ist eine engere Kennzahl als sämtliche landwirtschaftlich genutzten Flächen.",
+      "difficulty": "hard",
+      "observation_ids": [
+        "arable:PER:2023"
+      ],
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+      "sources": [
+        "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+        "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/AG.LND.ARBL.ZS"
+      ],
+      "sets": [
+        "Länder · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": "globe",
+      "subject": "globe"
+    }
+  ],
+  "jeopardy": [
+    {
+      "cat": "Tierwelt",
+      "id": "growth-20261010-binturong-odor",
+      "semantic_key": "binturong-odor",
+      "source_refs": [
+        "binturong"
+      ],
+      "subcategory": "Artenwissen",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Popcorn",
+      "q": "An welchen frisch zubereiteten Mais-Snack erinnert der charakteristische Geruch eines Binturongs?",
+      "a": "Popcorn",
+      "difficulty": 1,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://animals.sandiegozoo.org/animals/binturong",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/binturong"
+      ],
+      "sets": [
+        "Tierwelt · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "cat": "Tierwelt",
+      "id": "growth-20261010-binturong-family",
+      "semantic_key": "binturong-family",
+      "source_refs": [
+        "binturong"
+      ],
+      "subcategory": "Artenwissen",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Schleichkatzen",
+      "q": "Zu welcher zoologischen Familie gehört der Binturong?",
+      "a": "Schleichkatzen|Viverridae",
+      "difficulty": 4,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://animals.sandiegozoo.org/animals/binturong",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/binturong"
+      ],
+      "sets": [
+        "Tierwelt · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "cat": "Tierwelt",
+      "id": "growth-20261010-fossa-island",
+      "semantic_key": "fossa-island",
+      "source_refs": [
+        "fossa"
+      ],
+      "subcategory": "Artenwissen",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Madagaskar",
+      "q": "Auf welcher großen Insel lebt die Fossa natürlicherweise endemisch?",
+      "a": "Madagaskar",
+      "difficulty": 1,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://animals.sandiegozoo.org/animals/fossa",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/fossa"
+      ],
+      "sets": [
+        "Tierwelt · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "cat": "Tierwelt",
+      "id": "growth-20261010-fossa-prey",
+      "semantic_key": "fossa-prey",
+      "source_refs": [
+        "fossa"
+      ],
+      "subcategory": "Artenwissen",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Lemuren",
+      "q": "Welche madagassischen Primaten bilden die wichtigste Beute der Fossa?",
+      "a": "Lemuren|Lemur",
+      "difficulty": 2,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://animals.sandiegozoo.org/animals/fossa",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/fossa"
+      ],
+      "sets": [
+        "Tierwelt · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "cat": "Tierwelt",
+      "id": "growth-20261010-okapi-range",
+      "semantic_key": "okapi-range",
+      "source_refs": [
+        "okapi"
+      ],
+      "subcategory": "Artenwissen",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Demokratische Republik Kongo",
+      "q": "In welchem heutigen Staat liegt das natürliche Verbreitungsgebiet des Okapis?",
+      "a": "Demokratische Republik Kongo|DR Kongo|DRK|DRC",
+      "difficulty": 3,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://animals.sandiegozoo.org/animals/okapi",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/okapi"
+      ],
+      "sets": [
+        "Tierwelt · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "cat": "Tierwelt",
+      "id": "growth-20261010-okapi-relative",
+      "semantic_key": "okapi-relative",
+      "source_refs": [
+        "okapi"
+      ],
+      "subcategory": "Artenwissen",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Giraffe",
+      "q": "Welches heute lebende Tier ist der nächste Verwandte des Okapis?",
+      "a": "Giraffe|Giraffen",
+      "difficulty": 2,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://animals.sandiegozoo.org/animals/okapi",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/okapi"
+      ],
+      "sets": [
+        "Tierwelt · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "cat": "Tierwelt",
+      "id": "growth-20261010-wombat-young-term",
+      "semantic_key": "wombat-young-term",
+      "source_refs": [
+        "wombat"
+      ],
+      "subcategory": "Artenwissen",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Joey",
+      "q": "Welcher englische Sammelbegriff für ein Beuteltierjunges wird auch für ein junges Wombat verwendet?",
+      "a": "Joey",
+      "difficulty": 4,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://animals.sandiegozoo.org/animals/wombat",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/wombat"
+      ],
+      "sets": [
+        "Tierwelt · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "cat": "Tierwelt",
+      "id": "growth-20261010-wombat-digestion",
+      "semantic_key": "wombat-digestion",
+      "source_refs": [
+        "wombat"
+      ],
+      "subcategory": "Artenwissen",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "Bis-zu-Angabe der Quelle, kein fester Wert für jede Mahlzeit.",
+      "evidence": "14",
+      "q": "Bis zu wie viele Tage kann die Verarbeitung einer Mahlzeit im langsamen Verdauungssystem eines Wombats laut San Diego Zoo dauern?",
+      "a": "14|Vierzehn|14 Tage|Vierzehn Tage",
+      "difficulty": 5,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://animals.sandiegozoo.org/animals/wombat",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/wombat"
+      ],
+      "sets": [
+        "Tierwelt · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "cat": "Allgemeinwissen",
+      "id": "growth-20261010-coin-common-designer",
+      "semantic_key": "coin-common-designer",
+      "source_refs": [
+        "coin-designer"
+      ],
+      "subcategory": "Geld & Gestaltung",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Luc Luycx",
+      "q": "Wer gestaltete die gemeinsame europäische Seite der Euro-Münzen?",
+      "a": "Luc Luycx|Luycx",
+      "difficulty": 4,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.ecb.europa.eu/euro/coins/html/index.en.html",
+      "sources": [
+        "https://www.ecb.europa.eu/euro/coins/html/index.en.html"
+      ],
+      "sets": [
+        "Allgemeinwissen · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "cat": "Allgemeinwissen",
+      "id": "growth-20261010-euro-redesigner",
+      "semantic_key": "euro-redesigner",
+      "source_refs": [
+        "bank-design"
+      ],
+      "subcategory": "Geld & Gestaltung",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Reinhold Gerstetter",
+      "q": "Welcher Banknotengestalter überarbeitete das Design für die Europa-Serie?",
+      "a": "Reinhold Gerstetter|Gerstetter",
+      "difficulty": 5,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.ecb.europa.eu/euro/banknotes/current/design/html/index.en.html",
+      "sources": [
+        "https://www.ecb.europa.eu/euro/banknotes/current/design/html/index.en.html"
+      ],
+      "sets": [
+        "Allgemeinwissen · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "cat": "Allgemeinwissen",
+      "id": "growth-20261010-euro-myth",
+      "semantic_key": "euro-myth",
+      "source_refs": [
+        "bank-current"
+      ],
+      "subcategory": "Geld & Gestaltung",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Europa",
+      "q": "Welche Gestalt der griechischen Mythologie gibt der zweiten Euro-Banknotenserie ihren Namen?",
+      "a": "Europa|Prinzessin Europa",
+      "difficulty": 1,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.ecb.europa.eu/euro/banknotes/current/html/index.en.html",
+      "sources": [
+        "https://www.ecb.europa.eu/euro/banknotes/current/html/index.en.html"
+      ],
+      "sets": [
+        "Allgemeinwissen · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "cat": "Allgemeinwissen",
+      "id": "growth-20261010-euro10-style",
+      "semantic_key": "euro10-style",
+      "source_refs": [
+        "bank-design"
+      ],
+      "subcategory": "Geld & Gestaltung",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Romanik",
+      "q": "Welcher Baustil wird auf der 10-Euro-Banknote der Europa-Serie dargestellt?",
+      "a": "Romanik|Romanisch|Romanesque",
+      "difficulty": 2,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.ecb.europa.eu/euro/banknotes/current/design/html/index.en.html",
+      "sources": [
+        "https://www.ecb.europa.eu/euro/banknotes/current/design/html/index.en.html"
+      ],
+      "sets": [
+        "Allgemeinwissen · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "cat": "Allgemeinwissen",
+      "id": "growth-20261010-euro50-style",
+      "semantic_key": "euro50-style",
+      "source_refs": [
+        "bank-design"
+      ],
+      "subcategory": "Geld & Gestaltung",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Renaissance",
+      "q": "Welcher Baustil wird auf der 50-Euro-Banknote der Europa-Serie dargestellt?",
+      "a": "Renaissance",
+      "difficulty": 2,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.ecb.europa.eu/euro/banknotes/current/design/html/index.en.html",
+      "sources": [
+        "https://www.ecb.europa.eu/euro/banknotes/current/design/html/index.en.html"
+      ],
+      "sets": [
+        "Allgemeinwissen · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "cat": "Allgemeinwissen",
+      "id": "growth-20261010-euro100-style",
+      "semantic_key": "euro100-style",
+      "source_refs": [
+        "bank-design"
+      ],
+      "subcategory": "Geld & Gestaltung",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Barock und Rokoko",
+      "q": "Welche zwei eng verwandten Baustile repräsentiert die 100-Euro-Banknote der Europa-Serie?",
+      "a": "Barock und Rokoko|Barock & Rokoko|Baroque and Rococo",
+      "difficulty": 3,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.ecb.europa.eu/euro/banknotes/current/design/html/index.en.html",
+      "sources": [
+        "https://www.ecb.europa.eu/euro/banknotes/current/design/html/index.en.html"
+      ],
+      "sets": [
+        "Allgemeinwissen · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "cat": "Allgemeinwissen",
+      "id": "growth-20261010-euro-alphabet",
+      "semantic_key": "euro-alphabet",
+      "source_refs": [
+        "bank-design"
+      ],
+      "subcategory": "Geld & Gestaltung",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Kyrillisch",
+      "q": "Welches zusätzliche Alphabet erscheint wegen Bulgariens EU-Beitritt bei der Währungsbezeichnung auf der Europa-Serie?",
+      "a": "Kyrillisch|Kyrillisches Alphabet|Kyrillische Schrift",
+      "difficulty": 3,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.ecb.europa.eu/euro/banknotes/current/design/html/index.en.html",
+      "sources": [
+        "https://www.ecb.europa.eu/euro/banknotes/current/design/html/index.en.html"
+      ],
+      "sets": [
+        "Allgemeinwissen · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "cat": "Allgemeinwissen",
+      "id": "growth-20261010-euro-first-year",
+      "semantic_key": "euro-first-year",
+      "source_refs": [
+        "bank-current"
+      ],
+      "subcategory": "Geld & Gestaltung",
+      "data_year": 2002,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "2002",
+      "q": "In welchem Jahr wurde die erste Euro-Banknotenserie in Umlauf gebracht?",
+      "a": "2002|Zweitausendzwei",
+      "difficulty": 1,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.ecb.europa.eu/euro/banknotes/current/html/index.en.html",
+      "sources": [
+        "https://www.ecb.europa.eu/euro/banknotes/current/html/index.en.html"
+      ],
+      "sets": [
+        "Allgemeinwissen · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Explizit benanntes Daten-/Quellenjahr; kein aktueller Live-Wert.",
+      "visual": null
+    },
+    {
+      "cat": "Bauwerke",
+      "id": "growth-20261010-iron-designer",
+      "semantic_key": "iron-designer",
+      "source_refs": [
+        "iron"
+      ],
+      "subcategory": "Baugeschichte",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Thomas Farnolls Pritchard",
+      "q": "Welcher Architekt schlug den Entwurf für die historische Iron Bridge über den Severn vor?",
+      "a": "Thomas Farnolls Pritchard|Thomas Pritchard|Pritchard",
+      "difficulty": 3,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.english-heritage.org.uk/visit/places/iron-bridge/history/",
+      "sources": [
+        "https://www.english-heritage.org.uk/visit/places/iron-bridge/history/"
+      ],
+      "sets": [
+        "Bauwerke · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "cat": "Bauwerke",
+      "id": "growth-20261010-iron-builder",
+      "semantic_key": "iron-builder",
+      "source_refs": [
+        "iron"
+      ],
+      "subcategory": "Baugeschichte",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Abraham Darby III",
+      "q": "Welcher Eisenunternehmer führte den Bau der Iron Bridge nach Pritchards Tod weiter?",
+      "a": "Abraham Darby III|Abraham Darby der Dritte|Darby III",
+      "difficulty": 4,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.english-heritage.org.uk/visit/places/iron-bridge/history/",
+      "sources": [
+        "https://www.english-heritage.org.uk/visit/places/iron-bridge/history/"
+      ],
+      "sets": [
+        "Bauwerke · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "cat": "Bauwerke",
+      "id": "growth-20261010-tower-engineer",
+      "semantic_key": "tower-engineer",
+      "source_refs": [
+        "tower"
+      ],
+      "subcategory": "Baugeschichte",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "John Wolfe Barry",
+      "q": "Wie hieß der leitende Ingenieur der Tower Bridge?",
+      "a": "John Wolfe Barry|Wolfe Barry",
+      "difficulty": 3,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.towerbridge.org.uk/stories/timeline-the-construction-of-tower-bridge",
+      "sources": [
+        "https://www.towerbridge.org.uk/stories/timeline-the-construction-of-tower-bridge"
+      ],
+      "sets": [
+        "Bauwerke · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "cat": "Bauwerke",
+      "id": "growth-20261010-tunnel-proposer",
+      "semantic_key": "tunnel-proposer",
+      "source_refs": [
+        "tunnel"
+      ],
+      "subcategory": "Baugeschichte",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Albert Mathieu Favier",
+      "q": "Welcher französische Bergbauingenieur unterbreitete Napoleon einen frühen Vorschlag für einen Tunnel unter dem Ärmelkanal?",
+      "a": "Albert Mathieu Favier|Mathieu Favier|Albert Mathieu-Favier",
+      "difficulty": 5,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.leshuttle.com/de-de/entdecken/warum-leshuttle/konstruktion/der-eurotunnel",
+      "sources": [
+        "https://www.leshuttle.com/de-de/entdecken/warum-leshuttle/konstruktion/der-eurotunnel"
+      ],
+      "sets": [
+        "Bauwerke · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "cat": "Bauwerke",
+      "id": "growth-20261010-tunnel-terminal",
+      "semantic_key": "tunnel-terminal",
+      "source_refs": [
+        "tunnel"
+      ],
+      "subcategory": "Baugeschichte",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Folkestone",
+      "q": "In welcher englischen Stadt befindet sich das britische LeShuttle-Terminal?",
+      "a": "Folkestone",
+      "difficulty": 2,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.leshuttle.com/de-de/entdecken/warum-leshuttle/konstruktion/der-eurotunnel",
+      "sources": [
+        "https://www.leshuttle.com/de-de/entdecken/warum-leshuttle/konstruktion/der-eurotunnel"
+      ],
+      "sets": [
+        "Bauwerke · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "cat": "Bauwerke",
+      "id": "growth-20261010-forth-designers",
+      "semantic_key": "forth-designers",
+      "source_refs": [
+        "forth"
+      ],
+      "subcategory": "Baugeschichte",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "Beide Ingenieure erforderlich.",
+      "evidence": "John Fowler und Benjamin Baker",
+      "q": "Welche beiden Ingenieure entwarfen die Forth Bridge?",
+      "a": "John Fowler und Benjamin Baker|Fowler und Baker|Fowler & Baker|Benjamin Baker und John Fowler|Baker und Fowler",
+      "difficulty": 4,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.theforthbridges.org/about-the-forth-bridges/forth-bridge/forth-bridge-facts-figures/",
+      "sources": [
+        "https://www.theforthbridges.org/about-the-forth-bridges/forth-bridge/forth-bridge-facts-figures/"
+      ],
+      "sets": [
+        "Bauwerke · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "cat": "Bauwerke",
+      "id": "growth-20261010-queensferry-road",
+      "semantic_key": "queensferry-road",
+      "source_refs": [
+        "queensferry"
+      ],
+      "subcategory": "Baugeschichte",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "M90",
+      "q": "Welche britische Autobahn führt über die Queensferry Crossing?",
+      "a": "M90|M 90",
+      "difficulty": 1,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.theforthbridges.org/about-the-forth-bridges/queensferry-crossing/",
+      "sources": [
+        "https://www.theforthbridges.org/about-the-forth-bridges/queensferry-crossing/"
+      ],
+      "sets": [
+        "Bauwerke · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "cat": "Bauwerke",
+      "id": "growth-20261010-iron-river",
+      "semantic_key": "iron-river",
+      "source_refs": [
+        "iron"
+      ],
+      "subcategory": "Baugeschichte",
+      "data_year": null,
+      "rounding": "Keine zusätzliche Rundung; Quellenwert.",
+      "notes": "",
+      "evidence": "Severn",
+      "q": "Welchen Fluss überspannt die historische Iron Bridge bei Ironbridge in England?",
+      "a": "Severn|River Severn",
+      "difficulty": 1,
+      "status": "draft",
+      "verified": "2026-10-10",
+      "source": "https://www.english-heritage.org.uk/visit/places/iron-bridge/history/",
+      "sources": [
+        "https://www.english-heritage.org.uk/visit/places/iron-bridge/history/"
+      ],
+      "sets": [
+        "Bauwerke · geprüfter Entwurf 10.10.2026"
+      ],
+      "time_dependent": false,
+      "data_year_note": "Undatierte Sachübersicht; kein erfundenes Erhebungsjahr.",
+      "visual": null
+    }
+  ]
+}
