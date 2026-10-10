@@ -1,0 +1,91 @@
+{
+  "checked": "2026-10-09",
+  "main": "0ca6f66d0f1efea5709b7de9f3256413e0a2f5b1",
+  "open_prs": [
+    {
+      "pr": 131,
+      "title": "Draft: 20 eigenständige Tierwelt-Fragen, Bestandsprüfung und neutrale Grafiken",
+      "draft": true,
+      "head": "2d6b597117d6c7afbaf1366f2b7bcffa141dc358",
+      "url": "https://github.com/MAB1301/more-less-online-test/pull/131"
+    },
+    {
+      "pr": 130,
+      "title": "Draft: 25 geprüfte Element-Quizfragen vom 8. Oktober",
+      "draft": true,
+      "head": "e69d31400f884935634ebe21c73c423d3dfbda54",
+      "url": "https://github.com/MAB1301/more-less-online-test/pull/130"
+    },
+    {
+      "pr": 129,
+      "title": "Draft: 25 geprüfte TRAPPIST-1-Quizfragen vom 7. Oktober",
+      "draft": true,
+      "head": "54cfbd02ad9225c66d6b7e17f8326f354fac22ad",
+      "url": "https://github.com/MAB1301/more-less-online-test/pull/129"
+    },
+    {
+      "pr": 128,
+      "title": "Fix avatar overlay and add 176 sourced quiz questions",
+      "draft": true,
+      "head": "8b5b498fdc52102053916fb883298e6490a531f7",
+      "url": "https://github.com/MAB1301/more-less-online-test/pull/128"
+    },
+    {
+      "pr": 127,
+      "title": "Draft: 25 geprüfte Quiz-Inhalte vom 6. Oktober",
+      "draft": true,
+      "head": "d85f65d11c03ec8dac76e778c843917252074d08",
+      "url": "https://github.com/MAB1301/more-less-online-test/pull/127"
+    },
+    {
+      "pr": 126,
+      "title": "Echte Fußballfakten, breitere Videospiele und „Wer ist das?“-Jeopardy",
+      "draft": false,
+      "head": "10a3a2c6fda6df16e3006ebe97e2bfc3a58bb114",
+      "url": "https://github.com/MAB1301/more-less-online-test/pull/126"
+    },
+    {
+      "pr": 122,
+      "title": "Draft: 25 geprüfte Quiz-Inhalte mit neutralen SVGs und Quellenpipeline",
+      "draft": true,
+      "head": "1e830e15a0e644a04a496ab5439a50f67206f0fb",
+      "url": "https://github.com/MAB1301/more-less-online-test/pull/122"
+    },
+    {
+      "pr": 109,
+      "title": "Improve settings and profiles; add music collection, rewards and online stats",
+      "draft": true,
+      "head": "664f212cf1eb298ab08b5511fa7ab716f0a4eaf4",
+      "url": "https://github.com/MAB1301/more-less-online-test/pull/109"
+    },
+    {
+      "pr": 57,
+      "title": "Jeopardy: Gastantworten speichern und Host-Wertung synchronisieren",
+      "draft": false,
+      "head": "19a59ad124a7dc98fb7b2a11af8ad7adb7a17e71",
+      "url": "https://github.com/MAB1301/more-less-online-test/pull/57"
+    }
+  ],
+  "candidate_terms": [
+    "furnace creek",
+    "vostok",
+    "foc-foc",
+    "barrow island",
+    "unionville",
+    "typhoon tip",
+    "siracusa",
+    "syracuse",
+    "megaflash",
+    "17.102"
+  ],
+  "result": "All current patches checked. No candidate term occurs in any open PR patch. Generic weather wording in unrelated UI/audio changes was not treated as content overlap.",
+  "content_prs": [
+    122,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131
+  ]
+}

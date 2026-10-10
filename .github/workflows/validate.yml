@@ -18,3 +18,13 @@ jobs:
       - name: Static game regression checks
         run: |
           node scripts/regression-check.mjs
+      - name: Review-only weather-extremes package
+        run: |
+          node scripts/inventory-weather-draft.mjs
+          git diff --exit-code -- content/research/2026-10-09-weather-extremes/main-inventory.json
+          python3 scripts/build-weather-draft.py --check
+          node scripts/weather-draft-check.mjs
+      - name: Offline build and regression
+        run: |
+          npm run pwa:build
+          npm run test:pwa

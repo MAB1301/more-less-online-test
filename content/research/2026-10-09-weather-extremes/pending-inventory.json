@@ -1,0 +1,17 @@
+{
+  "checked": "2026-10-09",
+  "category": "Rekorde & Extreme",
+  "open_content_prs": [122, 126, 127, 128, 129, 130, 131],
+  "pending_additions": {
+    "moreless": 0,
+    "estimate": 0,
+    "facts": 0,
+    "jeopardy": 0
+  },
+  "method": "Complete draft packages and available patches were searched for candidate terms and category labels. PR #128 documents additions only for Allgemeinwissen, Länder, Städte and Tierwelt; PR #126 documents Football/Videogames/Culture additions. The other isolated packs use bridges/metro/heritage/space, rivers/dams/telescopes/museums/aircraft, TRAPPIST-1, elements and Tierwelt.",
+  "limitations": [
+    "Counts describe proposed question additions, not UI/refactor PRs #57 and #109.",
+    "No open draft currently adds a question categorized as Rekorde & Extreme.",
+    "Main and Daily are separate inventories and are never summed."
+  ]
+}

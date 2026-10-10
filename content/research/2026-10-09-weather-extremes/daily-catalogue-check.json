@@ -1,0 +1,28 @@
+{
+  "checked": "2026-10-09",
+  "project": "rnwsbgzdrttqtivrwnxo",
+  "read_only": true,
+  "counts": {
+    "total": 7187,
+    "moreless": 4228,
+    "estimate": 1507,
+    "facts": 1452,
+    "jeopardy": 0
+  },
+  "search_terms": [
+    "furnace creek",
+    "vostok",
+    "foc-foc",
+    "barrow island",
+    "unionville",
+    "holt",
+    "typhoon tip",
+    "siracusa",
+    "syracuse",
+    "megaflash",
+    "829 km",
+    "17.102"
+  ],
+  "hit_count": 0,
+  "decision": "No matching Daily candidate. Search is a candidate filter; local and PR semantic review remains separate."
+}
