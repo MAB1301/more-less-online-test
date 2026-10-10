@@ -29,8 +29,8 @@ for(const cat of cats){
 const r=E.createRound(p,'Weltraum',criteria,()=>.4);
 r.selected=[r.groups[0].id*4,r.groups[1].id*4,r.groups[2].id*4,r.groups[3].id*4];
 assert.equal(E.submit(r).status,'wrong');assert.equal(r.mistakes,1);assert.equal(E.submit(r).status,'repeat');assert.equal(r.mistakes,1);
-for(let i=0;i<3;i++){r.selected=[r.groups[0].id*4+i+1,r.groups[1].id*4,r.groups[2].id*4,r.groups[3].id*4];assert.equal(E.submit(r).status,i===2?'lost':'wrong');}
-assert(r.finished);assert.equal(r.mistakes,4);assert.equal(E.submit(r).status,'incomplete');
+for(let i=0;i<2;i++){r.selected=[r.groups[0].id*4+i+1,r.groups[1].id*4,r.groups[2].id*4,r.groups[3].id*4];assert.equal(E.submit(r).status,i===1?'lost':'wrong');}
+assert(r.finished);assert.equal(r.mistakes,3);assert.equal(E.submit(r).status,'incomplete');
 assert.throws(()=>E.createRound(p,'Autos',['car_stock']));
 const two=E.createRound(p,'Autos',['car_stock','stock_share'],()=>.4);assert.equal(two.cards.length,16);assert.equal(two.cards.filter(c=>c.kind==='image').length,4);
 const one=two.groups[0],other=two.groups[1];two.selected=[other.id*4,one.id*4+1,one.id*4+2,one.id*4+3];assert.equal(E.submit(two).status,'wrong');
@@ -48,3 +48,9 @@ assert.equal(animals.length,12);assert(animals.every(a=>a.type==='portrait'));as
 const brands=['VW – gesamte Marke','BMW – gesamte Marke','Mercedes – gesamte Marke','Porsche – gesamte Marke','Audi – gesamte Marke'].map(n=>visuals[n]);
 assert(brands.every(a=>a.type==='motif'));assert.equal(new Set(brands.map(a=>a.atlas)).size,5);
 console.log(`PASS: ${cats.length} categories, ${criteria.length} criteria, ${p.subjects.length} subjects; 520 solvable rounds, win/loss/repeat and shared-card equivalence`);
+
+// Three matching visible cards give a near hint; successes do not consume attempts.
+const near=E.createRound(p,'Weltraum',criteria,()=>.4);const target=near.groups[0],foreign=near.groups[1];near.selected=[target.id*4,target.id*4+1,target.id*4+2,foreign.id*4];let outcome=E.submit(near);assert.equal(outcome.status,'wrong');assert.equal(outcome.near,true);assert.equal(outcome.matched,3);assert.equal(near.mistakes,1);assert.equal(E.submit(near).status,'repeat');assert.equal(near.mistakes,1);near.selected=target.cards.map(w=>near.cards.find(c=>E.signature(c)===E.signature(w)).id);assert.equal(E.submit(near).status,'correct');assert.equal(near.mistakes,1);
+// A matching duplicate signature counts at most as often as present in a group.
+const dup=E.createRound(shared,'Test',['a','b','c'],()=>.7);const dg=dup.groups[0];const aCards=dup.cards.filter(c=>c.label==='A');dup.selected=[dg.id*4,aCards[0].id,aCards[1].id,aCards[2].id];if(new Set(dup.selected).size===4){outcome=E.submit(dup);assert.equal(outcome.near,false);assert.equal(outcome.matched,2)}
+console.log('PASS: three-error limit, visible three-of-four near hint, repeated attempts and interchangeable fact multiplicity');
