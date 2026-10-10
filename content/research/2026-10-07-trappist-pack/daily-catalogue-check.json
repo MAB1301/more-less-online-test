@@ -1,0 +1,12 @@
+{
+  "checked":"2026-10-07",
+  "project":"rnwsbgzdrttqtivrwnxo",
+  "account":"Marc",
+  "table":"ml_private.daily_catalogue",
+  "read_only":true,
+  "counts":{"total":7187,"moreless":4228,"estimate":1507,"facts":1452,"jeopardy":0},
+  "search_term":"trappist",
+  "normalization":"case-insensitive search over payload::text",
+  "hit_count":0,
+  "database_writes":false
+}

@@ -1,0 +1,367 @@
+{
+  "policy": "Changing values: 90 days; stable and historical facts: 365 days. Dates are review deadlines, not automatic approval. Fixed edition/year values retain their stated edition.",
+  "records": [
+    {
+      "id": "trappist-period-b-c",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-b/",
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-c/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "trappist-period-b-d",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-b/",
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-d/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "trappist-period-b-e",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-b/",
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-e/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "trappist-period-b-f",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-b/",
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-f/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "trappist-period-c-d",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-c/",
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-d/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "trappist-period-c-e",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-c/",
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-e/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "trappist-period-c-f",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-c/",
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-f/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "trappist-period-d-e",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-d/",
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-e/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "trappist-period-d-f",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-d/",
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-f/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "trappist-period-e-f",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-e/",
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-f/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "trappist-estimate-period-b",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-b/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "trappist-estimate-period-c",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-c/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "trappist-estimate-period-d",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-d/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "trappist-estimate-period-e",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-e/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "trappist-estimate-period-f",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-f/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "trappist-fact-b-radius",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-b/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "trappist-fact-c-mass",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-b/",
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-c/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "trappist-fact-d-radius",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-d/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "trappist-fact-e-discovery",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-e/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "trappist-fact-f-period",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-e/",
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-f/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "trappist-jeopardy-b",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-b/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "trappist-jeopardy-d",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-d/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "trappist-jeopardy-e",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-e/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "trappist-jeopardy-c",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-c/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "trappist-jeopardy-f",
+      "verified": "2026-10-07",
+      "data_years": [
+        2025
+      ],
+      "sources": [
+        "https://science.nasa.gov/exoplanet-catalog/trappist-1-f/"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-07",
+      "review_status": "draft_not_approved"
+    }
+  ]
+}
