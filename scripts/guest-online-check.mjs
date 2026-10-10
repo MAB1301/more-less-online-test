@@ -62,7 +62,7 @@ function device(uid,host){
     moreLessPrompt:(left,right)=>left+' oder '+right,scheduleAutoNext:()=>{},showFinish:()=>{},setTimeout:()=>{},clearInterval:()=>{},
     msg:message=>{throw Error(message)}});
   vm.runInContext(html.match(/^function escapeHTML.*$/m)[0],context);
-  vm.runInContext(['onlineTotalQuestions','setOnlineAnswerState','showQ','showReveal','sync','answer'].map(source).join('\n'),context);
+  vm.runInContext(['comparisonValue','onlineTotalQuestions','setOnlineAnswerState','showQ','showReveal','sync','answer'].map(source).join('\n'),context);
   return {context,S,el,run:code=>vm.runInContext(code,context)};
 }
 const host=device('host',true),guest=device('guest',false);
