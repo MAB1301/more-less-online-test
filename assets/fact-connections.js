@@ -3,36 +3,39 @@
 const pack=window.FACT_CONNECTIONS_PACK,E=window.FactConnectionsEngine;
 if(!pack||!E)return;
 const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;};
-let dialog,round,category='',criteria=[],opener;
+let dialog,round,criteria=[],opener,drawTimer=null,drawGeneration=0,drawing=false,drawnCategory=null;
+const assetBase=new URL('.',document.currentScript?.src||location.href).href;
 const MAX_MISTAKES=3;
 const categories=[...new Set(pack.subjects.map(s=>s.category))];
+const themeImages={'Autos':'autotechnik','Länder':'geografie','Städte':'deutschland','Natur':'nationalparks','Tierwelt':'wissenschaft','Raumfahrt':'raumfahrtmissionen','Weltkultur':'weltkultur','Wissenschaft':'wissenschaft','Weltraum':'weltraum','Bauwerke':'geschichte','Fußballer':'fussball','Videospiele':'videospiele','Sport':'sport'};
 const format=c=>c.kind==='name'?c.value:(typeof c.value==='number'?new Intl.NumberFormat('de-DE',{maximumFractionDigits:4,useGrouping:true}).format(c.value):c.value)+(c.unit?' '+c.unit:'');
 function button(text,fn,cls){const n=el('button',cls,text);n.type='button';n.addEventListener('click',fn);return n;}
-function fields(){
- return [...new Map(pack.subjects.filter(s=>!category||s.category===category).flatMap(s=>s.facts).map(f=>[f.criterion,{id:f.criterion,label:pack.criteria[f.criterion]||f.label}])).values()];
-}
-function choices(){
- const area=dialog.querySelector('.fc-criteria');area.replaceChildren();
- for(const f of fields()){
-  const label=el('label');const input=el('input');input.type='checkbox';input.value=f.id;input.checked=criteria.includes(f.id);
-  input.addEventListener('change',()=>{criteria=[...area.querySelectorAll('input:checked')].map(n=>n.value);availability();});label.append(input,document.createTextNode(f.label));area.append(label);
- }
- availability();
-}
-function availableCats(){return categories.filter(c=>(!category||category===c)&&E.eligible(pack,c,criteria).length>=4);}
-function availability(){
- const ready=availableCats();const start=dialog.querySelector('#fcStart');start.disabled=!ready.length;
- dialog.querySelector('#fcAvailability').textContent=ready.length?'16 Karten · 4 Gruppen · 3 Fehlversuche':'Wähle weitere Kriterien: Autos brauchen zwei, andere Kategorien drei Fakten pro Name.';
-}
+function availableCats(){return categories.filter(c=>E.eligible(pack,c,criteria).length>=4);}
+function cancelDraw(){drawGeneration++;clearTimeout(drawTimer);drawTimer=null;drawing=false;drawnCategory=null;if(dialog){dialog.classList.remove('fc-drawing');dialog.querySelector('#fcStart').disabled=false;dialog.querySelector('#fcSkip').classList.add('fc-hidden');}}
 function setup(){
- dialog.dataset.view='setup';round=null;dialog.querySelector('#fcSetup').classList.remove('fc-hidden');dialog.querySelector('#fcPlay').classList.add('fc-hidden');
+ cancelDraw();dialog.dataset.view='setup';round=null;dialog.querySelector('#fcSetup').classList.remove('fc-hidden');dialog.querySelector('#fcPlay').classList.add('fc-hidden');dialog.querySelector('#fcStart').textContent='Kategorie ziehen & starten →';paintSlot('Zufall entscheidet');dialog.querySelector('#fcDrawStatus').textContent='Jede Runde bringt eine zufällige Kategorie.';dialog.scrollTop=0;
 }
-function start(){
- const cats=availableCats();if(!cats.length)return;
- round=E.createRound(pack,E.shuffle(cats)[0],criteria);dialog.dataset.view='play';
+function paintSlot(value){
+ const cats=availableCats(),i=cats.indexOf(value),labels=i<0?['Weltraum',value,'Sport']:[cats[(i+cats.length-1)%cats.length],value,cats[(i+1)%cats.length]];
+ dialog.querySelectorAll('.fc-reel b').forEach((n,j)=>n.textContent=labels[j]);
+ dialog.querySelectorAll('.fc-reel-art').forEach((n,j)=>{n.replaceChildren();const file=themeImages[labels[j]];if(file){const image=el('img');image.src=assetBase+'jeopardy/categories/'+file+'.webp';image.alt='';n.append(image)}else n.textContent='?';});
+}
+function finishDraw(){
+ if(!drawing||!dialog.open)return;const chosen=drawnCategory;cancelDraw();
+ round=E.createRound(pack,chosen,criteria);dialog.dataset.view='play';
  dialog.querySelector('#fcSetup').classList.add('fc-hidden');dialog.querySelector('#fcPlay').classList.remove('fc-hidden');
  dialog.querySelector('#fcRoundCategory').textContent=round.groups[0].category;
- message(round.groups[0].category==='Autos'?'Finde ein Auto-Bild, seinen Namen und zwei Fakten.':'Finde einen Namen und seine drei Fakten.');render();dialog.querySelector('#fcSubmit').focus();
+ message(round.groups[0].category==='Autos'?'Finde ein Auto-Bild, seinen Namen und zwei Fakten.':'Finde einen Namen und seine drei Fakten.');render();dialog.scrollTop=0;dialog.querySelector('#fcSubmit').focus();
+}
+function start(){
+ if(drawing)return;const cats=availableCats();if(!cats.length)return;
+ setup();drawnCategory=E.shuffle(cats)[0];drawing=true;const generation=drawGeneration;
+ dialog.querySelector('#fcStart').disabled=true;dialog.querySelector('#fcSkip').classList.remove('fc-hidden');dialog.classList.add('fc-drawing');dialog.querySelector('#fcDrawStatus').textContent='Die Kategorien rollen …';
+ const reduced=window.matchMedia?.('(prefers-reduced-motion: reduce)').matches||document.documentElement.classList.contains('reduceMotion');let step=0;
+ function tick(){if(generation!==drawGeneration||!dialog.open)return;
+ if(reduced||step>=12){paintSlot(drawnCategory);dialog.classList.remove('fc-drawing');dialog.querySelector('#fcDrawStatus').textContent='Deine Kategorie: '+drawnCategory;drawTimer=setTimeout(()=>{if(generation===drawGeneration)finishDraw();},reduced?250:650);return;}
+ paintSlot(cats[step%cats.length]);step++;drawTimer=setTimeout(tick,65+step*13);
+ }tick();
 }
 function message(text){dialog.querySelector('#fcMessage').textContent=text;}
 function reveal(g,level){
@@ -94,24 +97,23 @@ function submit(){
 }
 function init(){
  dialog=el('dialog');dialog.id='factConnections';dialog.setAttribute('aria-labelledby','fcTitle');
- const head=el('div','fc-head');const titleWrap=el('div');titleWrap.append(el('div','fc-eyebrow','ZAHLEN. FAKTEN. VERBINDUNGEN.'));const title=el('h2','','Fakten zuordnen');title.id='fcTitle';titleWrap.append(title,el('p','fc-subtitle','Finde heraus, was zusammengehört.'));head.append(titleWrap,button('Schließen',()=>dialog.close()));dialog.append(head);
- const help=el('details','fc-help');help.append(el('summary','','So funktioniert’s'),el('p','','Autos: Finde jeweils ein Bild, den Namen und zwei zugehörige Zahlenfakten. Logos und Schriftzüge sind verborgen. Andere Kategorien: ein Name mit Bild und drei Fakten. Jede Runde hat 16 gemischte Karten und vier Gruppen. Du hast drei Fehlversuche. Wenn drei Karten zu einer Gruppe passen, bekommst du den Hinweis „Knapp daneben“. Identische Fakten sind austauschbar. Gelöste Gruppen zeigen die Quellen.'));dialog.append(help);
- const settings=el('section','fc-controls');settings.id='fcSetup';const intro=el('div','fc-setup-intro');intro.append(el('span','fc-setup-symbol','▦'),el('h3','','Vier Karten. Ein Zusammenhang.'),el('p','','Wähle vier Karten, die zum selben Namen gehören. Finde alle vier Gruppen, bevor deine drei Fehlversuche aufgebraucht sind.'));settings.append(intro);const chips=el('div','fc-theme-chips');chips.setAttribute('role','group');chips.setAttribute('aria-label','Thema wählen');settings.append(el('h3','fc-theme-title','Worüber möchtest du rätseln?'),chips);const label=el('label','','Kategorie');const select=el('select');select.id='fcCategory';select.append(new Option('Bunter Mix – eine Kategorie pro Runde',''),...categories.map(c=>new Option(c,c)));select.addEventListener('change',()=>{category=select.value;criteria=fields().map(f=>f.id);choices();paintThemes();});label.append(select);const all=el('details','fc-help fc-all-themes');all.append(el('summary','','Alle Themen ansehen'),label);settings.append(all);
- function paintThemes(){chips.replaceChildren();for(const [value,label] of [['','✦ Bunter Mix'],['Tierwelt','🐾 Tiere'],['Sport','⚽ Sport'],['Weltraum','✧ Weltraum'],['Autos','◆ Autos']].filter(([v])=>!v||categories.includes(v))){const b=button(label,()=>{category=value;select.value=value;criteria=fields().map(f=>f.id);choices();paintThemes();});b.setAttribute('aria-pressed',String(category===value));chips.append(b)}}paintThemes();
- const adjust=el('details','fc-help');adjust.append(el('summary','','Spiel anpassen'));const checks=el('div','fc-criteria');checks.setAttribute('role','group');checks.setAttribute('aria-label','Kriterien auswählen');adjust.append(checks);settings.append(adjust);
- const status=el('p','fc-note');status.id='fcAvailability';status.setAttribute('role','status');settings.append(status);
- const preview=el('div','fc-setup-preview');for(const [icon,text] of [['◇','Name / Bild'],['①','Fakt'],['②','Fakt'],['③','Fakt / Bild']]){const card=el('span');card.append(el('b','',icon),el('small','',text));preview.append(card)}settings.append(preview);
- const startButton=button('Los geht’s →',start,'fc-primary');startButton.id='fcStart';settings.append(startButton);dialog.append(settings);
- const play=el('section','fc-hidden');play.id='fcPlay';const hud=el('div','fc-hud');const cat=el('b');cat.id='fcRoundCategory';const count=el('span');count.id='fcHud';hud.append(cat,button('Spiel anpassen',setup,'fc-adjust'),count);play.append(hud);
+ const head=el('div','fc-head');const titleWrap=el('div');titleWrap.append(el('div','fc-eyebrow','GAME NIGHT · VERBINDUNGEN'));const title=el('h2','','Fakten zuordnen');title.id='fcTitle';titleWrap.append(title,el('p','fc-subtitle','Vier Karten. Ein Zusammenhang.'));head.append(titleWrap,button('Schließen',()=>dialog.close()));dialog.append(head);
+ const settings=el('section','fc-controls');settings.id='fcSetup';
+ const layout=el('div','fc-entry-layout');const machine=el('div','fc-slot-machine');machine.append(el('div','fc-eyebrow','EINE RUNDE. EIN ZUFÄLLIGES THEMA.'),el('h3','','Was zieht ihr heute?'),el('p','','Die Kategorie wird für euch gezogen. Danach findet ihr die vier zusammengehörigen Gruppen.'));
+ const reels=el('div','fc-reels');reels.setAttribute('aria-hidden','true');for(const [icon,text] of [['✦','Weltraum'],['?','Zufall entscheidet'],['⚽','Sport']]){const reel=el('div','fc-reel');reel.append(el('span','fc-reel-art',icon),el('b','',text));reels.append(reel)}machine.append(reels);const drawStatus=el('p','fc-draw-status','Jede Runde bringt eine zufällige Kategorie.');drawStatus.id='fcDrawStatus';drawStatus.setAttribute('role','status');drawStatus.setAttribute('aria-live','polite');machine.append(drawStatus);const skip=button('Animation überspringen →',finishDraw,'fc-hidden');skip.id='fcSkip';machine.append(skip);layout.append(machine);
+ const guide=el('aside','fc-entry-guide');guide.append(el('h3','','So geht’s'));const puzzle=el('div','fc-puzzle');puzzle.setAttribute('aria-hidden','true');for(const icon of ['◇','①','②','③'])puzzle.append(el('span','',icon));guide.append(puzzle);const steps=el('ol');for(const text of ['4 passende Karten wählen','Alle 4 Gruppen finden','3 Fehlversuche frei'])steps.append(el('li','',text));guide.append(steps,el('p','fc-near-note','Knapp daneben? Bei drei passenden Karten bekommst du einen Hinweis.'));const help=el('details','fc-help');help.append(el('summary','','Mehr zur Zuordnung'),el('p','','Autos: ein Bild, der Name und zwei Zahlenfakten. Andere Kategorien: ein Name mit Bild und drei Fakten. Identische Fakten sind austauschbar. Gelöste Gruppen zeigen die Quellen.'));guide.append(help);layout.append(guide);settings.append(layout);
+ const footer=el('div','fc-entry-footer');const status=el('p','fc-note','16 Karten · 4 Gruppen · 3 Fehlversuche');status.id='fcAvailability';footer.append(status);const startButton=button('Kategorie ziehen & starten →',start,'fc-primary');startButton.id='fcStart';footer.append(startButton);settings.append(footer);dialog.append(settings);
+ const play=el('section','fc-hidden');play.id='fcPlay';const hud=el('div','fc-hud');const cat=el('b');cat.id='fcRoundCategory';const count=el('span');count.id='fcHud';hud.append(cat,button('Zur Übersicht',setup,'fc-adjust'),count);play.append(hud);
  const solved=el('div');solved.id='fcSolved';play.append(solved);const grid=el('div','fc-grid');grid.id='fcGrid';grid.setAttribute('role','group');grid.setAttribute('aria-label','Faktenkarten');play.append(grid);
  const msg=el('div','fc-message');msg.id='fcMessage';msg.setAttribute('role','status');msg.setAttribute('aria-live','polite');play.append(msg);
  const selection=el('div','fc-note');selection.id='fcSelection';play.append(selection);
  const actions=el('div','fc-actions');const shuffle=button('Mischen',()=>{round.cards=E.shuffle(round.cards);render();});shuffle.id='fcShuffle';const clear=button('Abwählen',()=>{round.selected=[];render();});clear.id='fcClear';const send=button('Gruppe prüfen',submit,'fc-primary');send.id='fcSubmit';actions.append(shuffle,clear,send);play.append(actions);
  const next=button('Nächste Runde',start,'fc-primary fc-hidden');next.id='fcNext';play.append(next);dialog.append(play);document.body.append(dialog);
- dialog.addEventListener('close',()=>{if(opener?.isConnected)opener.focus();});
+ dialog.addEventListener('close',()=>{cancelDraw();if(opener?.isConnected)opener.focus();});
+ dialog.addEventListener('cancel',cancelDraw);
  const tile=button('',()=>{opener=tile;setup();dialog.showModal();},'worldCard fc-home-button');tile.dataset.game='connections';tile.append(el('span','fc-home-icon','▦'),el('b','','FAKTEN ZUORDNEN'),el('small','','Bilder. Namen. Zahlenfakten. Was gehört zusammen?'),el('small','','16 Karten · 4 Gruppen · 3 Fehlversuche'),el('span','fc-home-action','Spiel wählen →'));
  document.querySelector('.worldStrip.worldTabs')?.append(tile);
- criteria=fields().map(f=>f.id);choices();
+ criteria=Object.keys(pack.criteria);setup();
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();

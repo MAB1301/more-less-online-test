@@ -38,3 +38,43 @@
 #factConnections .fc-actions{justify-content:center;gap:12px}#factConnections .fc-actions button{min-height:50px}#factConnections #fcSubmit{margin-left:auto;min-width:170px}
 @media(max-width:600px){#factConnections{padding:18px 12px}.fc-theme-chips{gap:8px}#factConnections .fc-theme-chips button{padding:12px 14px;flex:1}.fc-setup-intro p{font-size:14px}.fc-attempt-label{font-size:11px}#factConnections .fc-hud{padding:10px}#factConnections .fc-message{font-size:14px}#factConnections #fcSubmit{min-width:0}.fc-setup-preview{gap:6px}}
 @media(prefers-reduced-motion:reduce){#factConnections::backdrop{backdrop-filter:none}}
+
+/* Single random-category game: compact slot machine and an always reachable start. */
+#factConnections{padding:0;width:min(1100px,calc(100vw - 24px));max-height:calc(100dvh - 24px);background:radial-gradient(ellipse at 20% 0,#56249033,transparent 65%),#0b1021;border-color:#9276dd70;overflow:auto;scroll-padding-top:110px}
+#factConnections .fc-head{position:sticky;top:0;z-index:3;margin:0;padding:20px 26px;background:#10152cf5;border-bottom:1px solid #8068be66;align-items:center}
+#factConnections .fc-head h2{font-size:clamp(23px,3vw,34px);color:#f6eeff;letter-spacing:-.04em}
+#factConnections .fc-controls{display:block;margin:0}
+.fc-entry-layout{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(260px,1fr);gap:20px;padding:24px}
+.fc-slot-machine,.fc-entry-guide{min-width:0;border:1px solid #626c9255;border-radius:22px;background:linear-gradient(145deg,#23173c88,#101d32);padding:22px}
+#factConnections .fc-slot-machine h3{font-size:28px;letter-spacing:-.035em;margin:10px 0}
+#factConnections .fc-slot-machine>p{font-size:14px;line-height:1.6;max-width:420px}
+.fc-reels{position:relative;display:grid;grid-template-columns:1fr 1.25fr 1fr;gap:8px;margin:24px 0 12px;padding:13px;border-radius:20px;border:1px solid #a076e2;background:linear-gradient(135deg,#48226c,#122b40);box-shadow:0 0 25px #833fea33,inset 0 0 15px #0006}
+.fc-reels:before{content:'DEINE KATEGORIE';position:absolute;top:-10px;left:50%;transform:translateX(-50%);font-size:9px;font-weight:800;letter-spacing:.1em;background:#3d2262;padding:4px 9px;border-radius:8px;color:#ddcbff;white-space:nowrap}
+.fc-reel{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:13px;min-height:190px;background:linear-gradient(#15223a,#092032);border:1px solid #7385b266;border-radius:12px;text-align:center;overflow:hidden;padding:10px}
+.fc-reel:first-child,.fc-reel:last-child{opacity:.5}
+.fc-reel:nth-child(2){border:2px solid #74e7e4;box-shadow:0 0 17px #35cfc955}
+.fc-reel-art{font-size:48px;color:#9aeae9;line-height:1.2;text-shadow:0 0 25px #53e5e766}
+.fc-reel b{font-size:clamp(12px,1.8vw,17px);line-height:1.4;overflow-wrap:anywhere}
+.fc-drawing .fc-reel b{animation:fcRoll .15s ease-out infinite}
+@keyframes fcRoll{from{transform:translateY(-14px);opacity:.3}to{transform:translateY(5px);opacity:1}}
+#factConnections .fc-draw-status{min-height:42px;text-align:center;color:#a0e9df;margin:12px 0 0;font-size:13px}
+#factConnections #fcSkip{display:block;margin:8px auto 0;background:transparent;font-size:12px}
+#factConnections .fc-entry-guide h3{font-size:22px;margin:0 0 16px}
+.fc-puzzle{display:grid;grid-template-columns:repeat(2,65px);gap:8px;justify-content:center;margin:16px 0 20px;transform:rotate(-5deg)}
+.fc-puzzle span{display:grid;place-items:center;height:65px;border-radius:14px;background:linear-gradient(140deg,#9e52f0,#4e20a0);border:1px solid #c99ef9;color:white;font-size:29px;box-shadow:0 5px 15px #0004}
+.fc-puzzle span:nth-child(2),.fc-puzzle span:nth-child(3){background:linear-gradient(140deg,#3adad8,#14759d);border-color:#a1f8f1}
+.fc-entry-guide ol{list-style:none;counter-reset:steps;padding:0;margin:20px 0;display:grid;gap:14px;font-size:14px;color:#e6e7f5}
+.fc-entry-guide li{counter-increment:steps;display:flex;gap:10px;align-items:center}
+.fc-entry-guide li:before{content:counter(steps);display:grid;place-items:center;flex:0 0 29px;height:29px;border-radius:50%;background:#7043c5;border:1px solid #b591ff;font-weight:800}
+#factConnections .fc-near-note{font-size:12px;padding:12px;border:1px solid #51d4d377;border-radius:13px;background:#13404455;color:#a4f5ed;margin:16px 0}
+#factConnections .fc-entry-guide .fc-help{font-size:12px;padding:10px 12px;background:transparent}
+#factConnections .fc-entry-guide summary{font-size:12px}
+.fc-entry-footer{position:sticky;bottom:0;z-index:2;display:flex;justify-content:space-between;align-items:center;gap:14px;padding:18px 24px;border-top:1px solid #8268bd66;background:#10172bf7}
+#factConnections #fcStart{min-height:54px;margin:0;font-size:16px;padding:14px 24px;border-radius:15px}
+#factConnections #fcAvailability{font-size:13px;color:#cccee9;text-align:left;margin:0}
+#factConnections #fcPlay{padding:16px 24px 24px}
+@media(max-width:700px){#factConnections .fc-head{padding:16px}.fc-entry-layout{grid-template-columns:1fr;padding:16px;gap:14px}.fc-slot-machine,.fc-entry-guide{padding:18px}.fc-reel{min-height:140px;padding:7px}.fc-reel-art{font-size:36px}.fc-entry-guide .fc-puzzle{display:none}.fc-entry-guide ol{margin:14px 0;gap:10px}.fc-entry-footer{padding:14px 16px;flex-direction:column;gap:10px}#factConnections #fcStart{width:100%;font-size:15px}#factConnections #fcPlay{padding:12px}.fc-entry-footer #fcAvailability{text-align:center}}
+@media(prefers-reduced-motion:reduce){.fc-drawing .fc-reel b{animation:none}}
+.reduceMotion .fc-drawing .fc-reel b{animation:none}
+.fc-reel-art{display:grid;place-items:center;width:100%;height:100px}.fc-reel-art img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 4px 14px #63dfe433)}
+@media(max-width:700px){.fc-reel-art{height:75px}}
