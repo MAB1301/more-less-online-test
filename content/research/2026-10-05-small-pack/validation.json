@@ -1,0 +1,24 @@
+{
+  "verified": "2026-10-05",
+  "counts": {
+    "moreless": 10,
+    "estimate": 5,
+    "facts": 5,
+    "jeopardy": 5
+  },
+  "unique_primary_sources": 16,
+  "daily_counts": {
+    "moreless": 891,
+    "estimate": 343,
+    "facts": 246
+  },
+  "duplicates": 0,
+  "due_baseline_records": 0,
+  "baseline_review_sha256": "33786f9a09db58157222aef46604e50e879768400b9711c8b10dc9dbf8b3c4e5",
+  "baseline_pack_sha256": "1b640cc0bd636b77d2401018a2d7dc8a74e58db1f875e132a17705b90dfba74b",
+  "release_blockers": [
+    "Editorial acceptance of difficulty levels and wording",
+    "Promote through approved catalogue pipeline after review; current export is intentionally not loaded by the app"
+  ],
+  "database_writes": false
+}
