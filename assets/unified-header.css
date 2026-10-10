@@ -38,3 +38,5 @@
 .unifiedHeader .dailyTabs button{display:flex;align-items:center;justify-content:center;gap:9px;border:1px solid transparent;border-radius:13px;background:transparent;color:#bbc1dd;font-weight:750}
 .unifiedHeader .dailyTabs button.active{background:#5930bc;border-color:#9367f5;color:#fff}
 .unifiedHeader .dailyTabs svg{width:23px;height:23px;flex-shrink:0}
+#worldMenu.friendlyMenu .unifiedHeader~.worldBack{position:static;display:block;width:max-content;margin:0 0 12px}
+#worldMenu.friendlyMenu .unifiedHeader~.homeBadge{position:static;width:max-content;margin:0 0 12px auto}
