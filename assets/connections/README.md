@@ -32,3 +32,16 @@ Row 3: Allianz Arena, Lake Superior, Yellowstone Lake, Yosemite Falls.
 Prompt: twelve individual recognizable object and landscape motifs in equal
 4x3 square cells, transparent gutters, restrained cyan rim light, premium
 realistic treatment, no labels, numbers, grid or UI. Generated on 2026-10-09.
+
+## Anonymous auto images and separate names
+
+Auto rounds now contain four image clues, four separate names and eight facts:
+match one image, one name and two selected numerical criteria. Brand/model
+captions and identifying alt text do not appear on unsolved image cards. Other
+categories retain their name-and-three-facts layout.
+
+The generated 4x4 masked atlas removes visible grille/hood brand emblems and
+lettering and adds four referenced sports-car silhouettes in the last row.
+Only auto mappings use it; the original nature/architecture atlas is preserved.
+Rows 1–3 retain the old ordering, row 4: Porsche GT3, Ferrari 296, SF90, 12Cilindri.
+Audi uses a vertical display offset to keep its wheels inside the crop.

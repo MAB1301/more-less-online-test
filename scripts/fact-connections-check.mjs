@@ -17,6 +17,9 @@ for(const cat of cats){
   let state=seed;const rng=()=>{state=(1664525*state+1013904223)>>>0;return state/2**32;};
   const r=E.createRound(p,cat,criteria,rng);assert.equal(r.cards.length,16);assert.equal(new Set(r.groups.map(g=>g.name)).size,4);
   for(const g of r.groups){
+   assert.equal(g.cards.filter(c=>c.kind==='name').length,1);
+   assert.equal(g.cards.filter(c=>c.kind==='image').length,cat==='Autos'?1:0);
+   assert.equal(g.cards.filter(c=>c.kind==='fact').length,cat==='Autos'?2:3);
    const candidates=r.cards.slice();r.selected=g.cards.map(want=>{const i=candidates.findIndex(c=>E.signature(c)===E.signature(want));assert(i>=0);return candidates.splice(i,1)[0].id;});
    assert(['correct','won'].includes(E.submit(r).status),cat);
   }
@@ -29,6 +32,9 @@ assert.equal(E.submit(r).status,'wrong');assert.equal(r.mistakes,1);assert.equal
 for(let i=0;i<3;i++){r.selected=[r.groups[0].id*4+i+1,r.groups[1].id*4,r.groups[2].id*4,r.groups[3].id*4];assert.equal(E.submit(r).status,i===2?'lost':'wrong');}
 assert(r.finished);assert.equal(r.mistakes,4);assert.equal(E.submit(r).status,'incomplete');
 assert.throws(()=>E.createRound(p,'Autos',['car_stock']));
+const two=E.createRound(p,'Autos',['car_stock','stock_share'],()=>.4);assert.equal(two.cards.length,16);assert.equal(two.cards.filter(c=>c.kind==='image').length,4);
+const one=two.groups[0],other=two.groups[1];two.selected=[other.id*4,one.id*4+1,one.id*4+2,one.id*4+3];assert.equal(E.submit(two).status,'wrong');
+two.selected=one.cards.map(c=>two.cards.find(x=>E.signature(x)===E.signature(c)).id);assert.equal(E.submit(two).status,'correct');
 // Shared fact cards are interchangeable: correctness depends on visible facts, not hidden ownership.
 const shared={criteria:{a:'A',b:'B',c:'C'},subjects:[0,1,2,3].map(i=>({name:`N${i}`,category:'Test',facts:[{criterion:'a',label:'A',value:1,unit:''},{criterion:'b',label:'B',value:i+10,unit:''},{criterion:'c',label:'C',value:i+20,unit:''}]}))};
 const t=E.createRound(shared,'Test',['a','b','c'],()=>.7),g=t.groups[0];

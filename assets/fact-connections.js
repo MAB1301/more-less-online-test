@@ -21,7 +21,7 @@ function choices(){
 function availableCats(){return categories.filter(c=>(!category||category===c)&&E.eligible(pack,c,criteria).length>=4);}
 function availability(){
  const ready=availableCats();const start=dialog.querySelector('#fcStart');start.disabled=!ready.length;
- dialog.querySelector('#fcAvailability').textContent=ready.length?`${criteria.length} Kriterien · ${ready.length} spielbare ${ready.length===1?'Kategorie':'Kategorien'} · 16 Karten pro Runde`:'Wähle weitere Kriterien. Vier Namen brauchen jeweils drei passende Fakten.';
+ dialog.querySelector('#fcAvailability').textContent=ready.length?`${criteria.length} Kriterien · ${ready.length} spielbare ${ready.length===1?'Kategorie':'Kategorien'} · 16 Karten pro Runde`:'Wähle weitere Kriterien: Autos brauchen zwei, andere Kategorien drei Fakten pro Name.';
 }
 function setup(){
  round=null;dialog.querySelector('#fcSetup').classList.remove('fc-hidden');dialog.querySelector('#fcPlay').classList.add('fc-hidden');
@@ -31,7 +31,7 @@ function start(){
  round=E.createRound(pack,E.shuffle(cats)[0],criteria);
  dialog.querySelector('#fcSetup').classList.add('fc-hidden');dialog.querySelector('#fcPlay').classList.remove('fc-hidden');
  dialog.querySelector('#fcRoundCategory').textContent=round.groups[0].category;
- message('Finde einen Namen und seine drei Fakten.');render();dialog.querySelector('#fcSubmit').focus();
+ message(round.groups[0].category==='Autos'?'Finde ein Auto-Bild, seinen Namen und zwei Fakten.':'Finde einen Namen und seine drei Fakten.');render();dialog.querySelector('#fcSubmit').focus();
 }
 function message(text){dialog.querySelector('#fcMessage').textContent=text;}
 function reveal(g,level){
@@ -48,7 +48,7 @@ function nameArt(card){
  if(art.atlas!==undefined){
   frame.classList.add('fc-portrait');if(/gesamte Marke$/.test(card.value))frame.classList.add('fc-car-art');frame.style.backgroundImage=`url("${art.src}")`;
   const cols=art.columns||4,rows=art.rows||3;frame.style.backgroundSize=`${cols*100}% ${rows*100}%`;
-  frame.style.backgroundPosition=`${(art.atlas%cols)*100/(cols-1)}% ${Math.floor(art.atlas/cols)*100/(rows-1)}%`;
+  frame.style.backgroundPosition=`${(art.atlas%cols)*100/(cols-1)}% ${art.offsetY??Math.floor(art.atlas/cols)*100/(rows-1)}%`;
  }else{
   const image=el('img');image.src=art.src;image.alt='';image.decoding='async';
   image.addEventListener('error',()=>frame.remove(),{once:true});frame.append(image);
@@ -65,8 +65,12 @@ function render(){
    else {message('Vier Karten sind ausgewählt. Wähle erst eine ab.');return;}
    n.setAttribute('aria-pressed',String(round.selected.includes(c.id)));update();
   },'fc-card');n.dataset.cardId=c.id;n.setAttribute('aria-pressed',String(round.selected.includes(c.id)));
-  if(c.kind==='name'){
-   n.classList.add('fc-name-card');const art=nameArt(c);if(art)n.append(art);
+  if(c.kind==='image'){
+   n.classList.add('fc-name-card','fc-image-card');n.setAttribute('aria-label','Auto-Bild '+(Math.floor(c.id/4)+1));
+   const art=nameArt(c);if(art)n.append(art);n.append(el('small','','Bild'));
+  }else if(c.kind==='name'){
+   if(round.groups[0].category!=='Autos'){n.classList.add('fc-name-card');const art=nameArt(c);if(art)n.append(art);}
+   else n.append(el('small','','Name'));
    n.append(el('b','fc-name',format(c)));
   }else{n.append(el('small','fc-metric',c.label),el('b','fc-value',format(c)));if(c.scope)n.append(el('small','fc-scope',c.scope));}
   grid.append(n);
@@ -89,12 +93,12 @@ function submit(){
 }
 function init(){
  dialog=el('dialog');dialog.id='factConnections';dialog.setAttribute('aria-labelledby','fcTitle');
- const head=el('div','fc-head');const titleWrap=el('div');titleWrap.append(el('div','fc-eyebrow','ZAHLEN. FAKTEN. VERBINDUNGEN.'));const title=el('h2','','Fakten zuordnen');title.id='fcTitle';titleWrap.append(title,el('p','fc-subtitle','Ein Name. Drei Fakten.'));head.append(titleWrap,button('Schließen',()=>dialog.close()));dialog.append(head);
- const help=el('details','fc-help');help.append(el('summary','','So funktioniert’s'),el('p','','16 gemischte Karten: vier Namen und zwölf Zahlenfakten. Wähle jeweils einen Namen und genau die drei zugehörigen Fakten. Du hast vier Fehlversuche. Identische Fakten sind austauschbar. Gelöste Gruppen zeigen die Quellen.'));dialog.append(help);
+ const head=el('div','fc-head');const titleWrap=el('div');titleWrap.append(el('div','fc-eyebrow','ZAHLEN. FAKTEN. VERBINDUNGEN.'));const title=el('h2','','Fakten zuordnen');title.id='fcTitle';titleWrap.append(title,el('p','fc-subtitle','Bilder. Namen. Zahlenfakten.'));head.append(titleWrap,button('Schließen',()=>dialog.close()));dialog.append(head);
+ const help=el('details','fc-help');help.append(el('summary','','So funktioniert’s'),el('p','','Autos: Finde jeweils ein Bild, den Namen und zwei zugehörige Zahlenfakten. Logos und Schriftzüge sind verborgen. Andere Kategorien: ein Name mit Bild und drei Fakten. Jede Runde hat 16 gemischte Karten und vier Gruppen. Du hast vier Fehlversuche. Identische Fakten sind austauschbar. Gelöste Gruppen zeigen die Quellen.'));dialog.append(help);
  const settings=el('section','fc-controls');settings.id='fcSetup';const label=el('label','','Kategorie');const select=el('select');select.id='fcCategory';select.append(new Option('Bunter Mix – eine Kategorie pro Runde',''),...categories.map(c=>new Option(c,c)));select.addEventListener('change',()=>{category=select.value;criteria=fields().map(f=>f.id);choices();});label.append(select);settings.append(label);
  const adjust=el('details','fc-help');adjust.append(el('summary','','Kriterien anpassen'));const checks=el('div','fc-criteria');checks.setAttribute('role','group');checks.setAttribute('aria-label','Kriterien auswählen');adjust.append(checks);settings.append(adjust);
  const status=el('p','fc-note');status.id='fcAvailability';status.setAttribute('role','status');settings.append(status);
- settings.append(el('p','fc-note','Pro Name werden drei verfügbare Kriterien gemischt. Zeiträume, Messbedingungen und Schätzungen stehen auf den Karten.'));
+ settings.append(el('p','fc-note','Autos: Bild + Name + zwei wechselnde Fakten. Andere Kategorien: Name mit Bild + drei Fakten. Zeiträume und Messbedingungen stehen auf den Karten.'));
  const startButton=button('Runde starten',start,'fc-primary');startButton.id='fcStart';settings.append(startButton);dialog.append(settings);
  const play=el('section','fc-hidden');play.id='fcPlay';const hud=el('div','fc-hud');const cat=el('b');cat.id='fcRoundCategory';const count=el('span');count.id='fcHud';hud.append(cat,button('Spiel anpassen',setup,'fc-adjust'),count);play.append(hud);
  const solved=el('div');solved.id='fcSolved';play.append(solved);const grid=el('div','fc-grid');grid.id='fcGrid';grid.setAttribute('role','group');grid.setAttribute('aria-label','Faktenkarten');play.append(grid);
@@ -103,7 +107,7 @@ function init(){
  const actions=el('div','fc-actions');const shuffle=button('Mischen',()=>{round.cards=E.shuffle(round.cards);render();});shuffle.id='fcShuffle';const clear=button('Abwählen',()=>{round.selected=[];render();});clear.id='fcClear';const send=button('Abschicken',submit,'fc-primary');send.id='fcSubmit';actions.append(shuffle,clear,send);play.append(actions);
  const next=button('Nächste Runde',start,'fc-primary fc-hidden');next.id='fcNext';play.append(next);dialog.append(play);document.body.append(dialog);
  dialog.addEventListener('close',()=>{if(opener?.isConnected)opener.focus();});
- const tile=button('',()=>{opener=tile;setup();dialog.showModal();},'worldCard fc-home-button');tile.dataset.game='connections';tile.append(el('span','fc-home-icon','▦'),el('b','','FAKTEN ZUORDNEN'),el('small','','Ein Name. Drei Fakten. Was gehört zusammen?'),el('small','','16 Karten · 4 Gruppen · 4 Fehlversuche'),el('span','fc-home-action','Spiel wählen →'));
+ const tile=button('',()=>{opener=tile;setup();dialog.showModal();},'worldCard fc-home-button');tile.dataset.game='connections';tile.append(el('span','fc-home-icon','▦'),el('b','','FAKTEN ZUORDNEN'),el('small','','Bilder. Namen. Zahlenfakten. Was gehört zusammen?'),el('small','','16 Karten · 4 Gruppen · 4 Fehlversuche'),el('span','fc-home-action','Spiel wählen →'));
  document.querySelector('.worldStrip.worldTabs')?.append(tile);
  criteria=fields().map(f=>f.id);choices();
 }

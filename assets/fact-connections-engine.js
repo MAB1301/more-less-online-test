@@ -3,11 +3,11 @@
   'use strict';
   const shuffle=(items,rng=Math.random)=>{const out=items.slice();for(let i=out.length-1;i>0;i--){const j=Math.floor(rng()*(i+1));[out[i],out[j]]=[out[j],out[i]];}return out;};
   const signature=card=>JSON.stringify([card.kind,card.label,card.value,card.unit,card.scope||'']);
-  const eligible=(pack,category,criteria)=>pack.subjects.filter(s=>(!category||s.category===category)&&s.facts.filter(f=>criteria.includes(f.criterion)).length>=3);
+  const eligible=(pack,category,criteria)=>pack.subjects.filter(s=>(!category||s.category===category)&&s.facts.filter(f=>criteria.includes(f.criterion)).length>=(s.category==='Autos'?2:3));
   function createRound(pack,category,criteria,rng=Math.random){
     const pool=eligible(pack,category,criteria);
-    if(pool.length<4)throw new Error('Wähle weitere Kriterien: Für eine Runde brauchen vier Gegenstände jeweils drei passende Fakten.');
-    const groups=shuffle(pool,rng).slice(0,4).map((s,i)=>({id:i,name:s.name,category:s.category,cards:[{kind:'name',label:'Name',value:s.name,unit:''},...shuffle(s.facts.filter(f=>criteria.includes(f.criterion)),rng).slice(0,3).map(f=>({kind:'fact',...f}))]}));
+    if(pool.length<4)throw new Error('Wähle weitere Kriterien: Für eine Runde brauchen vier Gegenstände je zwei (Autos) bzw. drei passende Fakten.');
+    const groups=shuffle(pool,rng).slice(0,4).map((s,i)=>({id:i,name:s.name,category:s.category,cards:[...(s.category==='Autos'?[{kind:'image',label:'Bild',value:s.name,unit:''}]:[]),{kind:'name',label:'Name',value:s.name,unit:''},...shuffle(s.facts.filter(f=>criteria.includes(f.criterion)),rng).slice(0,s.category==='Autos'?2:3).map(f=>({kind:'fact',...f}))]}));
     const cards=shuffle(groups.flatMap(g=>g.cards.map((c,i)=>({...c,id:g.id*4+i}))),rng);
     return {groups,cards,selected:[],solved:[],mistakes:0,attempts:[],finished:false};
   }
