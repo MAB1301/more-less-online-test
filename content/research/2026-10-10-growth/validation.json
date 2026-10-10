@@ -1,0 +1,45 @@
+{
+  "checked": "2026-10-10",
+  "questions": 100,
+  "counts": {
+    "Tierwelt": {
+      "moreless": 2,
+      "estimate": 4,
+      "facts": 6,
+      "jeopardy": 8
+    },
+    "Allgemeinwissen": {
+      "moreless": 2,
+      "estimate": 4,
+      "facts": 6,
+      "jeopardy": 8
+    },
+    "Bauwerke": {
+      "moreless": 2,
+      "estimate": 4,
+      "facts": 6,
+      "jeopardy": 8
+    },
+    "Städte": {
+      "moreless": 4,
+      "estimate": 6,
+      "facts": 10,
+      "jeopardy": 0
+    },
+    "Länder": {
+      "moreless": 4,
+      "estimate": 6,
+      "facts": 10,
+      "jeopardy": 0
+    }
+  },
+  "sources": 22,
+  "original_svg_variants": 10,
+  "main_review_schedule_records": 941,
+  "due_records": [],
+  "numeric_raw_data_validation": "passed",
+  "balanced_facts_per_category_and_difficulty": "passed",
+  "repeated_observations_across_games": 0,
+  "review_only": true,
+  "live_database_writes": 0
+}

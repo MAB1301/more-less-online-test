@@ -1,0 +1,178 @@
+{
+  "binturong": {
+    "url": "https://animals.sandiegozoo.org/animals/binturong",
+    "publisher": "San Diego Zoo Wildlife Alliance",
+    "checked": "2026-10-10",
+    "data_year": null,
+    "limitations": "Undatierte Artenübersicht; Bereiche und Bis-zu-Werte, keine individuellen Rekorde. Keine Populationszahlen übernommen.",
+    "primary": true
+  },
+  "fossa": {
+    "url": "https://animals.sandiegozoo.org/animals/fossa",
+    "publisher": "San Diego Zoo Wildlife Alliance",
+    "checked": "2026-10-10",
+    "data_year": null,
+    "limitations": "Undatierte Artenübersicht; Bereiche und Bis-zu-Werte, keine individuellen Rekorde. Keine Populationszahlen übernommen.",
+    "primary": true
+  },
+  "okapi": {
+    "url": "https://animals.sandiegozoo.org/animals/okapi",
+    "publisher": "San Diego Zoo Wildlife Alliance",
+    "checked": "2026-10-10",
+    "data_year": null,
+    "limitations": "Undatierte Artenübersicht; Bereiche und Bis-zu-Werte, keine individuellen Rekorde. Keine Populationszahlen übernommen.",
+    "primary": true
+  },
+  "wombat": {
+    "url": "https://animals.sandiegozoo.org/animals/wombat",
+    "publisher": "San Diego Zoo Wildlife Alliance",
+    "checked": "2026-10-10",
+    "data_year": null,
+    "limitations": "Undatierte Artenübersicht; Bereiche und Bis-zu-Werte, keine individuellen Rekorde. Keine Populationszahlen übernommen.",
+    "primary": true
+  },
+  "bank-dimensions": {
+    "url": "https://www.bundesbank.de/resource/blob/880774/e92ed6ff8ffd530ba6c3875e40899645/472B63F073F071307366337C94F8C870/2021-11-24-3001-data.pdf",
+    "publisher": "Deutsche Bundesbank, Mitteilung 3001/2021, Tabelle Seite 2",
+    "checked": "2026-10-10",
+    "data_year": 2021,
+    "limitations": "Maße der ausdrücklich benannten Europa-Serie; kein Banknotennachbildungsverfahren.",
+    "primary": true
+  },
+  "bank-current": {
+    "url": "https://www.ecb.europa.eu/euro/banknotes/current/html/index.en.html",
+    "publisher": "Europäische Zentralbank",
+    "checked": "2026-10-10",
+    "data_year": null,
+    "limitations": "Bestehende Serien; historische Einführung und aktuell angegebener Status getrennt.",
+    "primary": true
+  },
+  "bank-design": {
+    "url": "https://www.ecb.europa.eu/euro/banknotes/current/design/html/index.en.html",
+    "publisher": "Europäische Zentralbank",
+    "checked": "2026-10-10",
+    "data_year": null,
+    "limitations": "Europa-Serie, nicht die Länderkennungen der ersten Serie. Abgebildete Architektur ist stilisiert; spätere reale Nachbauten ändern das ursprüngliche Design nicht.",
+    "primary": true
+  },
+  "bank-cotton": {
+    "url": "https://www.ecb.europa.eu/press/blog/date/2023/html/ecb.blog230824~362178a805.en.html",
+    "publisher": "Europäische Zentralbank, Blog vom 24.08.2023",
+    "checked": "2026-10-10",
+    "data_year": 2023,
+    "limitations": "Materialaussage übernommen, keine Vorhersage über nachhaltige Produktion als bereits bewiesen dargestellt.",
+    "primary": true
+  },
+  "coin-designer": {
+    "url": "https://www.ecb.europa.eu/euro/coins/html/index.en.html",
+    "publisher": "Europäische Zentralbank",
+    "checked": "2026-10-10",
+    "data_year": null,
+    "limitations": "Nur Urheber der gemeinsamen Münzseite; keine erneut verwendeten Münzmaße aus PR #128.",
+    "primary": true
+  },
+  "tower": {
+    "url": "https://www.towerbridge.org.uk/stories/timeline-the-construction-of-tower-bridge",
+    "publisher": "Tower Bridge, offizieller Betreiber",
+    "checked": "2026-10-10",
+    "data_year": null,
+    "limitations": "Baubeginn 1886, Eröffnung 1894. Keine unklaren historischen tons in metrische Tonnen umgerechnet.",
+    "primary": true
+  },
+  "iron": {
+    "url": "https://www.english-heritage.org.uk/visit/places/iron-bridge/history/",
+    "publisher": "English Heritage",
+    "checked": "2026-10-10",
+    "data_year": null,
+    "limitations": "Fertigstellung 1779 und Verkehrsöffnung 1781 unterscheiden; Spannweite rund 30 m.",
+    "primary": true
+  },
+  "tunnel": {
+    "url": "https://www.leshuttle.com/de-de/entdecken/warum-leshuttle/konstruktion/der-eurotunnel",
+    "publisher": "LeShuttle, Tunnelbetreiber",
+    "checked": "2026-10-10",
+    "data_year": null,
+    "limitations": "Bauangaben; strittiger Tiefenbezug und laufende Passagierzahlen nicht übernommen.",
+    "primary": true
+  },
+  "forth": {
+    "url": "https://www.theforthbridges.org/about-the-forth-bridges/forth-bridge/forth-bridge-facts-figures/",
+    "publisher": "Forth Bridges, offizielles Portal",
+    "checked": "2026-10-10",
+    "data_year": null,
+    "limitations": "Forth Bridge: Eisenbahnbrücke. Steel quantity explicitly tonnes; Bau 1883, Eröffnung 1890.",
+    "primary": true
+  },
+  "queensferry": {
+    "url": "https://www.theforthbridges.org/about-the-forth-bridges/queensferry-crossing/",
+    "publisher": "Forth Bridges, offizielles Portal",
+    "checked": "2026-10-10",
+    "data_year": null,
+    "limitations": "Queensferry Crossing: separate Straßenbrücke, nicht Forth Bridge. Drei Türme, M90.",
+    "primary": true
+  },
+  "census": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+    "publisher": "US Census Bureau, 2020 Gazetteer places",
+    "checked": "2026-10-10",
+    "data_year": 2020,
+    "limitations": "Gemeindegrenzen von 2020, keine Ballungsräume. GEOID statt Namensgleichheit; ALAND/AWATER in m². Wasseranteil ist AWATER/(ALAND+AWATER).",
+    "primary": true
+  },
+  "census-layout": {
+    "url": "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts/gaz20-record-layouts.html",
+    "publisher": "US Census Bureau, Felddefinitionen",
+    "checked": "2026-10-10",
+    "data_year": 2020,
+    "limitations": "INTPTLAT bezeichnet den internen statistischen Bezugspunkt und nicht zwingend das Zentrum oder Rathaus.",
+    "primary": true
+  },
+  "wb-urban": {
+    "url": "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/SP.URB.TOTL.IN.ZS?date=2023&format=json&per_page=100",
+    "publisher": "World Bank, World Development Indicators (UN/FAO Ursprungsdaten)",
+    "checked": "2026-10-10",
+    "data_year": 2023,
+    "limitations": "Urbaner Anteil nach nationalen Definitionen; kein international einheitlich abgegrenzter Stadtraum. Knappes Ranking nur der publizierten Punktwerte, keine Signifikanzbehauptung. API-Metadatum lastupdated 2026-10-08; archivierter Datenstand, keine Aussage über 2026.",
+    "primary": true
+  },
+  "wb-urban-definition": {
+    "url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SP.URB.TOTL.IN.ZS",
+    "publisher": "World Bank, WDI Metadatenglossar",
+    "checked": "2026-10-10",
+    "data_year": 2023,
+    "limitations": "Urbaner Anteil nach nationalen Definitionen; kein international einheitlich abgegrenzter Stadtraum. Knappes Ranking nur der publizierten Punktwerte, keine Signifikanzbehauptung.",
+    "primary": true
+  },
+  "wb-arable": {
+    "url": "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/AG.LND.ARBL.ZS?date=2023&format=json&per_page=100",
+    "publisher": "World Bank, World Development Indicators (UN/FAO Ursprungsdaten)",
+    "checked": "2026-10-10",
+    "data_year": 2023,
+    "limitations": "Ackerlandanteil an Landfläche; umfasst temporäre Kulturen und kurzfristige Brachen, nicht alle landwirtschaftlichen Flächen und nicht potenziell kultivierbare Fläche. API-Metadatum lastupdated 2026-10-08; archivierter Datenstand, keine Aussage über 2026.",
+    "primary": true
+  },
+  "wb-arable-definition": {
+    "url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/AG.LND.ARBL.ZS",
+    "publisher": "World Bank, WDI Metadatenglossar",
+    "checked": "2026-10-10",
+    "data_year": 2023,
+    "limitations": "Ackerlandanteil an Landfläche; umfasst temporäre Kulturen und kurzfristige Brachen, nicht alle landwirtschaftlichen Flächen und nicht potenziell kultivierbare Fläche.",
+    "primary": true
+  },
+  "wb-age": {
+    "url": "https://api.worldbank.org/v2/country/ARG;AUS;BRA;CAN;CHL;COL;CRI;CUB;JPN;KOR;MEX;NZL;PER;URY;ZAF;IND/indicator/SP.POP.65UP.TO.ZS?date=2023&format=json&per_page=100",
+    "publisher": "World Bank, World Development Indicators (UN/FAO Ursprungsdaten)",
+    "checked": "2026-10-10",
+    "data_year": 2023,
+    "limitations": "Anteil der Bevölkerung ab 65 Jahren, beide Geschlechter, de-facto Wohnbevölkerung; kein Rentner- oder Staatsbürgeranteil. API-Metadatum lastupdated 2026-10-08; archivierter Datenstand, keine Aussage über 2026.",
+    "primary": true
+  },
+  "wb-age-definition": {
+    "url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SP.POP.65UP.TO.ZS",
+    "publisher": "World Bank, WDI Metadatenglossar",
+    "checked": "2026-10-10",
+    "data_year": 2023,
+    "limitations": "Anteil der Bevölkerung ab 65 Jahren, beide Geschlechter, de-facto Wohnbevölkerung; kein Rentner- oder Staatsbürgeranteil.",
+    "primary": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "checked": "2026-10-10",
+  "account": "Marc",
+  "project_id": "rnwsbgzdrttqtivrwnxo",
+  "read_only": true,
+  "rows_total": 7187,
+  "game_counts": {
+    "moreless": 4228,
+    "estimate": 1507,
+    "facts": 1452
+  },
+  "matching_rows": 0,
+  "query": "select game, payload from ml_private.daily_catalogue where concat(payload->>'q',' ',payload->>'s',' ',payload->>'l',' ',payload->>'r') ~* '(binturong|okapi|fossa|wombat|banknot|geldschein|tower bridge|forth bridge|queensferry|iron bridge|kanaltunnel|channel tunnel|eurotunnel|ackerland|arable|wasseranteil|wasserfläche|breitengrad|census|urbaner|urbanisiert|65 jahre|65-jähr)'",
+  "limitations": "Read-only subject/metric search on all rows; catalogue has three games, no Jeopardy. No write or publication."
+}
