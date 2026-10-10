@@ -1,0 +1,365 @@
+{
+  "policy": "Changing values: 90 days; stable and historical facts: 365 days. Dates are review deadlines, not automatic approval. Fixed edition/year values retain their stated edition.",
+  "records": [
+    {
+      "id": "rare-elements-atomic-hf-re",
+      "verified": "2026-10-08",
+      "data_years": [
+        2015
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/72/hafnium",
+        "https://periodic-table.rsc.org/element/75/rhenium"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "rare-elements-atomic-hf-ir",
+      "verified": "2026-10-08",
+      "data_years": [
+        2015
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/72/hafnium",
+        "https://periodic-table.rsc.org/element/77/iridium"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "rare-elements-atomic-hf-tl",
+      "verified": "2026-10-08",
+      "data_years": [
+        2015
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/72/hafnium",
+        "https://periodic-table.rsc.org/element/81/thallium"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "rare-elements-atomic-hf-bi",
+      "verified": "2026-10-08",
+      "data_years": [
+        2015
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/72/hafnium",
+        "https://periodic-table.rsc.org/element/83/bismuth"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "rare-elements-atomic-re-ir",
+      "verified": "2026-10-08",
+      "data_years": [
+        2015
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/75/rhenium",
+        "https://periodic-table.rsc.org/element/77/iridium"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "rare-elements-atomic-re-tl",
+      "verified": "2026-10-08",
+      "data_years": [
+        2015
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/75/rhenium",
+        "https://periodic-table.rsc.org/element/81/thallium"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "rare-elements-atomic-re-bi",
+      "verified": "2026-10-08",
+      "data_years": [
+        2015
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/75/rhenium",
+        "https://periodic-table.rsc.org/element/83/bismuth"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "rare-elements-atomic-ir-tl",
+      "verified": "2026-10-08",
+      "data_years": [
+        2015
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/77/iridium",
+        "https://periodic-table.rsc.org/element/81/thallium"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "rare-elements-atomic-ir-bi",
+      "verified": "2026-10-08",
+      "data_years": [
+        2015
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/77/iridium",
+        "https://periodic-table.rsc.org/element/83/bismuth"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "rare-elements-atomic-tl-bi",
+      "verified": "2026-10-08",
+      "data_years": [
+        2015
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/81/thallium",
+        "https://periodic-table.rsc.org/element/83/bismuth"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "rare-elements-estimate-hf",
+      "verified": "2026-10-08",
+      "data_years": [
+        2015
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/72/hafnium"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "rare-elements-estimate-re",
+      "verified": "2026-10-08",
+      "data_years": [
+        2015
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/75/rhenium"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "rare-elements-estimate-ir",
+      "verified": "2026-10-08",
+      "data_years": [
+        2015
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/77/iridium"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "rare-elements-estimate-tl",
+      "verified": "2026-10-08",
+      "data_years": [
+        2015
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/81/thallium"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "rare-elements-estimate-bi",
+      "verified": "2026-10-08",
+      "data_years": [
+        2015
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/83/bismuth"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "rare-elements-fact-hf-melting",
+      "verified": "2026-10-08",
+      "data_years": [
+        2015
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/72/hafnium"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "rare-elements-fact-re-melting",
+      "verified": "2026-10-08",
+      "data_years": [
+        2015
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/75/rhenium"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "rare-elements-fact-ir-metre",
+      "verified": "2026-10-08",
+      "data_years": [
+        2011
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/77/iridium"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "rare-elements-fact-tl-toxic",
+      "verified": "2026-10-08",
+      "data_years": [
+        2011
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/81/thallium"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "rare-elements-fact-bi-melting",
+      "verified": "2026-10-08",
+      "data_years": [
+        2015
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/83/bismuth"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "rare-elements-jeopardy-hf",
+      "verified": "2026-10-08",
+      "data_years": [
+        2012
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/72/hafnium"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "rare-elements-jeopardy-re",
+      "verified": "2026-10-08",
+      "data_years": [
+        2012
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/75/rhenium"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "rare-elements-jeopardy-ir",
+      "verified": "2026-10-08",
+      "data_years": [
+        2011
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/77/iridium"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "rare-elements-jeopardy-tl",
+      "verified": "2026-10-08",
+      "data_years": [
+        2015
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/81/thallium"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    },
+    {
+      "id": "rare-elements-jeopardy-bi",
+      "verified": "2026-10-08",
+      "data_years": [
+        2015
+      ],
+      "sources": [
+        "https://periodic-table.rsc.org/element/83/bismuth"
+      ],
+      "time_dependent": false,
+      "review_interval_days": 730,
+      "next_review": "2028-10-07",
+      "review_status": "draft_not_approved"
+    }
+  ]
+}

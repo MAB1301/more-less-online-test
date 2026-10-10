@@ -1,0 +1,26 @@
+{
+  "status":"draft",
+  "verified":"2026-10-08",
+  "base_commit":"0ca6f66d0f1efea5709b7de9f3256413e0a2f5b1",
+  "elements":[
+    {"key":"hf","name":"Hafnium","atomic_number":72,"source_ref":"rsc_hafnium"},
+    {"key":"re","name":"Rhenium","atomic_number":75,"source_ref":"rsc_rhenium"},
+    {"key":"ir","name":"Iridium","atomic_number":77,"source_ref":"rsc_iridium"},
+    {"key":"tl","name":"Thallium","atomic_number":81,"source_ref":"rsc_thallium"},
+    {"key":"bi","name":"Bismut","atomic_number":83,"source_ref":"rsc_bismuth"}
+  ],
+  "facts":[
+    {"id":"rare-elements-fact-hf-melting","s":"Hafnium schmilzt laut RSC erst oberhalb von 2.000 °C.","a":true,"e":"Die RSC gibt 2.233 °C an.","difficulty":"medium","source_refs":["rsc_hafnium"],"data_years":[2015]},
+    {"id":"rare-elements-fact-re-melting","s":"Unter den metallischen Elementen hat laut RSC nur Wolfram einen höheren Schmelzpunkt als Rhenium.","a":true,"e":"Die RSC beschreibt Rhenium genau so und nennt 3.185 °C.","difficulty":"hard","source_refs":["rsc_rhenium"],"data_years":[2015]},
+    {"id":"rare-elements-fact-ir-metre","s":"Die historische Standard-Meterstange bestand laut RSC aus einer Legierung mit zehn Prozent Iridium.","a":true,"e":"Genannt werden 90 % Platin und 10 % Iridium.","difficulty":"hard","source_refs":["rsc_iridium"],"data_years":[2011]},
+    {"id":"rare-elements-fact-tl-toxic","s":"Thallium gilt laut RSC als ungiftiges Element.","a":false,"e":"Die RSC bezeichnet Thallium als sehr giftig.","difficulty":"easy","source_refs":["rsc_thallium"],"data_years":[2011]},
+    {"id":"rare-elements-fact-bi-melting","s":"Bismut hat laut RSC einen Schmelzpunkt von mehr als 1.000 °C.","a":false,"e":"Die RSC nennt 271,406 °C.","difficulty":"medium","source_refs":["rsc_bismuth"],"data_years":[2015]}
+  ],
+  "jeopardy":[
+    {"id":"rare-elements-jeopardy-hf","q":"Welches Element mit der Ordnungszahl 72 wurde nach dem lateinischen Namen Kopenhagens benannt?","a":"Hafnium","difficulty":3,"source_refs":["rsc_hafnium"],"data_years":[2012]},
+    {"id":"rare-elements-jeopardy-re","q":"Welches Element mit der Ordnungszahl 75 wurde 1925 von Walter Noddack und Ida Tacke isoliert?","a":"Rhenium","difficulty":4,"source_refs":["rsc_rhenium"],"data_years":[2012]},
+    {"id":"rare-elements-jeopardy-ir","q":"Welches Element beschreibt die RSC als das korrosionsbeständigste bekannte Material?","a":"Iridium","difficulty":3,"source_refs":["rsc_iridium"],"data_years":[2011]},
+    {"id":"rare-elements-jeopardy-tl","q":"Welches giftige Element trägt das Symbol Tl und die Ordnungszahl 81?","a":"Thallium","difficulty":2,"source_refs":["rsc_thallium"],"data_years":[2015]},
+    {"id":"rare-elements-jeopardy-bi","q":"Welches silbrige, rosa getönte Metall besitzt die Ordnungszahl 83?","a":"Bismut|Bismuth","difficulty":2,"source_refs":["rsc_bismuth"],"data_years":[2015]}
+  ]
+}

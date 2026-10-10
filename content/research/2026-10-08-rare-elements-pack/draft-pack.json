@@ -1,0 +1,733 @@
+{
+  "status": "review-only",
+  "verified": "2026-10-08",
+  "base_commit": "0ca6f66d0f1efea5709b7de9f3256413e0a2f5b1",
+  "images": {
+    "rare-elements": {
+      "license": "CC0-1.0",
+      "generated": false,
+      "answer_neutral": true,
+      "description": "Originale Atom- und Tabellensilhouette ohne Elementsymbole, Zahlen oder Lösungswerte.",
+      "card": "visuals/rare-elements-card.svg",
+      "detail": "visuals/rare-elements-detail.svg"
+    }
+  },
+  "moreless": [
+    {
+      "id": "rare-elements-atomic-hf-re",
+      "l": "Hafnium",
+      "r": "Rhenium",
+      "lv": 72,
+      "rv": 75,
+      "u": "Ordnungszahl · Protonenzahl laut RSC-Periodensystem",
+      "metric": "Ordnungszahl",
+      "sub": "Ordnungszahl",
+      "prompt": "Welches Element hat die höhere Ordnungszahl?",
+      "source_refs": [
+        "rsc_hafnium",
+        "rsc_rhenium"
+      ],
+      "data_years": [
+        2015
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "visual": "rare-elements",
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/72/hafnium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/72/hafnium",
+        "https://periodic-table.rsc.org/element/75/rhenium"
+      ],
+      "verified": "2026-10-08",
+      "correct": "right"
+    },
+    {
+      "id": "rare-elements-atomic-hf-ir",
+      "l": "Hafnium",
+      "r": "Iridium",
+      "lv": 72,
+      "rv": 77,
+      "u": "Ordnungszahl · Protonenzahl laut RSC-Periodensystem",
+      "metric": "Ordnungszahl",
+      "sub": "Ordnungszahl",
+      "prompt": "Welches Element hat die höhere Ordnungszahl?",
+      "source_refs": [
+        "rsc_hafnium",
+        "rsc_iridium"
+      ],
+      "data_years": [
+        2015
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "visual": "rare-elements",
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/72/hafnium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/72/hafnium",
+        "https://periodic-table.rsc.org/element/77/iridium"
+      ],
+      "verified": "2026-10-08",
+      "correct": "right"
+    },
+    {
+      "id": "rare-elements-atomic-hf-tl",
+      "l": "Hafnium",
+      "r": "Thallium",
+      "lv": 72,
+      "rv": 81,
+      "u": "Ordnungszahl · Protonenzahl laut RSC-Periodensystem",
+      "metric": "Ordnungszahl",
+      "sub": "Ordnungszahl",
+      "prompt": "Welches Element hat die höhere Ordnungszahl?",
+      "source_refs": [
+        "rsc_hafnium",
+        "rsc_thallium"
+      ],
+      "data_years": [
+        2015
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "visual": "rare-elements",
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/72/hafnium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/72/hafnium",
+        "https://periodic-table.rsc.org/element/81/thallium"
+      ],
+      "verified": "2026-10-08",
+      "correct": "right"
+    },
+    {
+      "id": "rare-elements-atomic-hf-bi",
+      "l": "Hafnium",
+      "r": "Bismut",
+      "lv": 72,
+      "rv": 83,
+      "u": "Ordnungszahl · Protonenzahl laut RSC-Periodensystem",
+      "metric": "Ordnungszahl",
+      "sub": "Ordnungszahl",
+      "prompt": "Welches Element hat die höhere Ordnungszahl?",
+      "source_refs": [
+        "rsc_hafnium",
+        "rsc_bismuth"
+      ],
+      "data_years": [
+        2015
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "visual": "rare-elements",
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/72/hafnium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/72/hafnium",
+        "https://periodic-table.rsc.org/element/83/bismuth"
+      ],
+      "verified": "2026-10-08",
+      "correct": "right"
+    },
+    {
+      "id": "rare-elements-atomic-re-ir",
+      "l": "Rhenium",
+      "r": "Iridium",
+      "lv": 75,
+      "rv": 77,
+      "u": "Ordnungszahl · Protonenzahl laut RSC-Periodensystem",
+      "metric": "Ordnungszahl",
+      "sub": "Ordnungszahl",
+      "prompt": "Welches Element hat die höhere Ordnungszahl?",
+      "source_refs": [
+        "rsc_rhenium",
+        "rsc_iridium"
+      ],
+      "data_years": [
+        2015
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "visual": "rare-elements",
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/75/rhenium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/75/rhenium",
+        "https://periodic-table.rsc.org/element/77/iridium"
+      ],
+      "verified": "2026-10-08",
+      "correct": "right"
+    },
+    {
+      "id": "rare-elements-atomic-re-tl",
+      "l": "Rhenium",
+      "r": "Thallium",
+      "lv": 75,
+      "rv": 81,
+      "u": "Ordnungszahl · Protonenzahl laut RSC-Periodensystem",
+      "metric": "Ordnungszahl",
+      "sub": "Ordnungszahl",
+      "prompt": "Welches Element hat die höhere Ordnungszahl?",
+      "source_refs": [
+        "rsc_rhenium",
+        "rsc_thallium"
+      ],
+      "data_years": [
+        2015
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "visual": "rare-elements",
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/75/rhenium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/75/rhenium",
+        "https://periodic-table.rsc.org/element/81/thallium"
+      ],
+      "verified": "2026-10-08",
+      "correct": "right"
+    },
+    {
+      "id": "rare-elements-atomic-re-bi",
+      "l": "Rhenium",
+      "r": "Bismut",
+      "lv": 75,
+      "rv": 83,
+      "u": "Ordnungszahl · Protonenzahl laut RSC-Periodensystem",
+      "metric": "Ordnungszahl",
+      "sub": "Ordnungszahl",
+      "prompt": "Welches Element hat die höhere Ordnungszahl?",
+      "source_refs": [
+        "rsc_rhenium",
+        "rsc_bismuth"
+      ],
+      "data_years": [
+        2015
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "visual": "rare-elements",
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/75/rhenium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/75/rhenium",
+        "https://periodic-table.rsc.org/element/83/bismuth"
+      ],
+      "verified": "2026-10-08",
+      "correct": "right"
+    },
+    {
+      "id": "rare-elements-atomic-ir-tl",
+      "l": "Iridium",
+      "r": "Thallium",
+      "lv": 77,
+      "rv": 81,
+      "u": "Ordnungszahl · Protonenzahl laut RSC-Periodensystem",
+      "metric": "Ordnungszahl",
+      "sub": "Ordnungszahl",
+      "prompt": "Welches Element hat die höhere Ordnungszahl?",
+      "source_refs": [
+        "rsc_iridium",
+        "rsc_thallium"
+      ],
+      "data_years": [
+        2015
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "visual": "rare-elements",
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/77/iridium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/77/iridium",
+        "https://periodic-table.rsc.org/element/81/thallium"
+      ],
+      "verified": "2026-10-08",
+      "correct": "right"
+    },
+    {
+      "id": "rare-elements-atomic-ir-bi",
+      "l": "Iridium",
+      "r": "Bismut",
+      "lv": 77,
+      "rv": 83,
+      "u": "Ordnungszahl · Protonenzahl laut RSC-Periodensystem",
+      "metric": "Ordnungszahl",
+      "sub": "Ordnungszahl",
+      "prompt": "Welches Element hat die höhere Ordnungszahl?",
+      "source_refs": [
+        "rsc_iridium",
+        "rsc_bismuth"
+      ],
+      "data_years": [
+        2015
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "visual": "rare-elements",
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/77/iridium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/77/iridium",
+        "https://periodic-table.rsc.org/element/83/bismuth"
+      ],
+      "verified": "2026-10-08",
+      "correct": "right"
+    },
+    {
+      "id": "rare-elements-atomic-tl-bi",
+      "l": "Thallium",
+      "r": "Bismut",
+      "lv": 81,
+      "rv": 83,
+      "u": "Ordnungszahl · Protonenzahl laut RSC-Periodensystem",
+      "metric": "Ordnungszahl",
+      "sub": "Ordnungszahl",
+      "prompt": "Welches Element hat die höhere Ordnungszahl?",
+      "source_refs": [
+        "rsc_thallium",
+        "rsc_bismuth"
+      ],
+      "data_years": [
+        2015
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "visual": "rare-elements",
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/81/thallium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/81/thallium",
+        "https://periodic-table.rsc.org/element/83/bismuth"
+      ],
+      "verified": "2026-10-08",
+      "correct": "right"
+    }
+  ],
+  "estimate": [
+    {
+      "id": "rare-elements-estimate-hf",
+      "q": "Welche Ordnungszahl hat Hafnium laut RSC?",
+      "a": 72,
+      "u": "Ordnungszahl",
+      "subject": "Hafnium",
+      "source_refs": [
+        "rsc_hafnium"
+      ],
+      "data_years": [
+        2015
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "visual": "rare-elements",
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/72/hafnium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/72/hafnium"
+      ],
+      "verified": "2026-10-08"
+    },
+    {
+      "id": "rare-elements-estimate-re",
+      "q": "Welche Ordnungszahl hat Rhenium laut RSC?",
+      "a": 75,
+      "u": "Ordnungszahl",
+      "subject": "Rhenium",
+      "source_refs": [
+        "rsc_rhenium"
+      ],
+      "data_years": [
+        2015
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "visual": "rare-elements",
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/75/rhenium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/75/rhenium"
+      ],
+      "verified": "2026-10-08"
+    },
+    {
+      "id": "rare-elements-estimate-ir",
+      "q": "Welche Ordnungszahl hat Iridium laut RSC?",
+      "a": 77,
+      "u": "Ordnungszahl",
+      "subject": "Iridium",
+      "source_refs": [
+        "rsc_iridium"
+      ],
+      "data_years": [
+        2015
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "visual": "rare-elements",
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/77/iridium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/77/iridium"
+      ],
+      "verified": "2026-10-08"
+    },
+    {
+      "id": "rare-elements-estimate-tl",
+      "q": "Welche Ordnungszahl hat Thallium laut RSC?",
+      "a": 81,
+      "u": "Ordnungszahl",
+      "subject": "Thallium",
+      "source_refs": [
+        "rsc_thallium"
+      ],
+      "data_years": [
+        2015
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "visual": "rare-elements",
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/81/thallium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/81/thallium"
+      ],
+      "verified": "2026-10-08"
+    },
+    {
+      "id": "rare-elements-estimate-bi",
+      "q": "Welche Ordnungszahl hat Bismut laut RSC?",
+      "a": 83,
+      "u": "Ordnungszahl",
+      "subject": "Bismut",
+      "source_refs": [
+        "rsc_bismuth"
+      ],
+      "data_years": [
+        2015
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "visual": "rare-elements",
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/83/bismuth",
+      "sources": [
+        "https://periodic-table.rsc.org/element/83/bismuth"
+      ],
+      "verified": "2026-10-08"
+    }
+  ],
+  "facts": [
+    {
+      "id": "rare-elements-fact-hf-melting",
+      "s": "Hafnium schmilzt laut RSC erst oberhalb von 2.000 °C.",
+      "a": true,
+      "e": "Die RSC gibt 2.233 °C an.",
+      "difficulty": "medium",
+      "source_refs": [
+        "rsc_hafnium"
+      ],
+      "data_years": [
+        2015
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "visual": "rare-elements",
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/72/hafnium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/72/hafnium"
+      ],
+      "verified": "2026-10-08"
+    },
+    {
+      "id": "rare-elements-fact-re-melting",
+      "s": "Unter den metallischen Elementen hat laut RSC nur Wolfram einen höheren Schmelzpunkt als Rhenium.",
+      "a": true,
+      "e": "Die RSC beschreibt Rhenium genau so und nennt 3.185 °C.",
+      "difficulty": "hard",
+      "source_refs": [
+        "rsc_rhenium"
+      ],
+      "data_years": [
+        2015
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "visual": "rare-elements",
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/75/rhenium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/75/rhenium"
+      ],
+      "verified": "2026-10-08"
+    },
+    {
+      "id": "rare-elements-fact-ir-metre",
+      "s": "Die historische Standard-Meterstange bestand laut RSC aus einer Legierung mit zehn Prozent Iridium.",
+      "a": true,
+      "e": "Genannt werden 90 % Platin und 10 % Iridium.",
+      "difficulty": "hard",
+      "source_refs": [
+        "rsc_iridium"
+      ],
+      "data_years": [
+        2011
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "visual": "rare-elements",
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/77/iridium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/77/iridium"
+      ],
+      "verified": "2026-10-08"
+    },
+    {
+      "id": "rare-elements-fact-tl-toxic",
+      "s": "Thallium gilt laut RSC als ungiftiges Element.",
+      "a": false,
+      "e": "Die RSC bezeichnet Thallium als sehr giftig.",
+      "difficulty": "easy",
+      "source_refs": [
+        "rsc_thallium"
+      ],
+      "data_years": [
+        2011
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "visual": "rare-elements",
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/81/thallium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/81/thallium"
+      ],
+      "verified": "2026-10-08"
+    },
+    {
+      "id": "rare-elements-fact-bi-melting",
+      "s": "Bismut hat laut RSC einen Schmelzpunkt von mehr als 1.000 °C.",
+      "a": false,
+      "e": "Die RSC nennt 271,406 °C.",
+      "difficulty": "medium",
+      "source_refs": [
+        "rsc_bismuth"
+      ],
+      "data_years": [
+        2015
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "visual": "rare-elements",
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/83/bismuth",
+      "sources": [
+        "https://periodic-table.rsc.org/element/83/bismuth"
+      ],
+      "verified": "2026-10-08"
+    }
+  ],
+  "jeopardy": [
+    {
+      "id": "rare-elements-jeopardy-hf",
+      "q": "Welches Element mit der Ordnungszahl 72 wurde nach dem lateinischen Namen Kopenhagens benannt?",
+      "a": "Hafnium",
+      "difficulty": 3,
+      "source_refs": [
+        "rsc_hafnium"
+      ],
+      "data_years": [
+        2012
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/72/hafnium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/72/hafnium"
+      ],
+      "verified": "2026-10-08"
+    },
+    {
+      "id": "rare-elements-jeopardy-re",
+      "q": "Welches Element mit der Ordnungszahl 75 wurde 1925 von Walter Noddack und Ida Tacke isoliert?",
+      "a": "Rhenium",
+      "difficulty": 4,
+      "source_refs": [
+        "rsc_rhenium"
+      ],
+      "data_years": [
+        2012
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/75/rhenium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/75/rhenium"
+      ],
+      "verified": "2026-10-08"
+    },
+    {
+      "id": "rare-elements-jeopardy-ir",
+      "q": "Welches Element beschreibt die RSC als das korrosionsbeständigste bekannte Material?",
+      "a": "Iridium",
+      "difficulty": 3,
+      "source_refs": [
+        "rsc_iridium"
+      ],
+      "data_years": [
+        2011
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/77/iridium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/77/iridium"
+      ],
+      "verified": "2026-10-08"
+    },
+    {
+      "id": "rare-elements-jeopardy-tl",
+      "q": "Welches giftige Element trägt das Symbol Tl und die Ordnungszahl 81?",
+      "a": "Thallium",
+      "difficulty": 2,
+      "source_refs": [
+        "rsc_thallium"
+      ],
+      "data_years": [
+        2015
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/81/thallium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/81/thallium"
+      ],
+      "verified": "2026-10-08"
+    },
+    {
+      "id": "rare-elements-jeopardy-bi",
+      "q": "Welches silbrige, rosa getönte Metall besitzt die Ordnungszahl 83?",
+      "a": "Bismut|Bismuth",
+      "difficulty": 2,
+      "source_refs": [
+        "rsc_bismuth"
+      ],
+      "data_years": [
+        2015
+      ],
+      "cat": "Wissenschaft",
+      "subcategory": "Elemente",
+      "sets": [
+        "Seltene Elemente · Entwurf"
+      ],
+      "status": "draft",
+      "time_dependent": false,
+      "source": "https://periodic-table.rsc.org/element/83/bismuth",
+      "sources": [
+        "https://periodic-table.rsc.org/element/83/bismuth"
+      ],
+      "verified": "2026-10-08"
+    }
+  ]
+}
