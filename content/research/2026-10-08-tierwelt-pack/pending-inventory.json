@@ -1,0 +1,148 @@
+{
+  "checked": "2026-10-08",
+  "method": "PR 122/127/129/130: complete draft JSON from current GitHub patches. PR128: normalized identities compared with Main. PR126: reported net additions from checked PR description and docs; recategorization is separate and not a deduplicated combined union.",
+  "drafts": {
+    "122": {
+      "moreless": {
+        "Bauwerke": 2,
+        "Städte": 2,
+        "Weltkultur": 2,
+        "Raumfahrt": 2,
+        "Natur": 2
+      },
+      "estimate": {
+        "Bauwerke": 1,
+        "Städte": 1,
+        "Weltkultur": 1,
+        "Raumfahrt": 1,
+        "Natur": 1
+      },
+      "facts": {
+        "Bauwerke": 1,
+        "Städte": 1,
+        "Weltkultur": 1,
+        "Raumfahrt": 1,
+        "Natur": 1
+      },
+      "jeopardy": {
+        "Geschichte": 1,
+        "Geografie": 1,
+        "Weltkultur": 1,
+        "Raumfahrtmissionen": 1,
+        "Nationalparks": 1
+      }
+    },
+    "127": {
+      "moreless": {
+        "Natur": 2,
+        "Bauwerke": 2,
+        "Raumfahrt": 2,
+        "Weltkultur": 2,
+        "Allgemeinwissen": 2
+      },
+      "estimate": {
+        "Natur": 1,
+        "Bauwerke": 1,
+        "Raumfahrt": 1,
+        "Weltkultur": 1,
+        "Allgemeinwissen": 1
+      },
+      "facts": {
+        "Natur": 1,
+        "Bauwerke": 1,
+        "Raumfahrt": 1,
+        "Weltkultur": 1,
+        "Allgemeinwissen": 1
+      },
+      "jeopardy": {
+        "Geografie": 1,
+        "Bauwerke": 1,
+        "Raumfahrtmissionen": 1,
+        "Weltkultur": 1,
+        "Technik": 1
+      }
+    },
+    "129": {
+      "moreless": {
+        "Weltraum": 10
+      },
+      "estimate": {
+        "Weltraum": 5
+      },
+      "facts": {
+        "Weltraum": 5
+      },
+      "jeopardy": {
+        "Weltraum": 5
+      }
+    },
+    "130": {
+      "moreless": {
+        "Wissenschaft": 10
+      },
+      "estimate": {
+        "Wissenschaft": 5
+      },
+      "facts": {
+        "Wissenschaft": 5
+      },
+      "jeopardy": {
+        "Wissenschaft": 5
+      }
+    }
+  },
+  "pr128": {
+    "moreless": {
+      "Länder": 21,
+      "Städte": 15,
+      "Tierwelt": 3,
+      "Allgemeinwissen": 81
+    },
+    "estimate": {
+      "Länder": 7,
+      "Städte": 6,
+      "Tierwelt": 3,
+      "Allgemeinwissen": 24
+    },
+    "facts": {
+      "Allgemeinwissen": 2,
+      "Länder": 2,
+      "Städte": 2,
+      "Tierwelt": 2
+    },
+    "jeopardy": {
+      "Allgemeinwissen": 4,
+      "Geografie": 3,
+      "Geschichte": 1
+    }
+  },
+  "pr126_reported": {
+    "moreless": {
+      "Fußball": 80,
+      "Videospiele": 51
+    },
+    "estimate": {
+      "Fußball": 42,
+      "Videospiele": 25
+    },
+    "facts": {
+      "Videospiele": 10
+    },
+    "jeopardy": {
+      "Fußball": 5,
+      "Videospiele": 15,
+      "Kultur / Star Wars": 12
+    }
+  },
+  "tierwelt_pending_unique": {
+    "moreless": 3,
+    "estimate": 3,
+    "facts": 2,
+    "jeopardy": 0
+  },
+  "limitations": [
+    "PR126 changes category names and existing rows; complete merged before/after union across all categories is not asserted. Tierwelt pending totals are verified separately.",
+    "Main inventory deduplicates normalized literal identities. Semantic equivalence and legacy data quality can reduce a future reviewed total.",
+    "Daily has a separate inventory; never sum Daily and frontend rows."
+  ]
+}

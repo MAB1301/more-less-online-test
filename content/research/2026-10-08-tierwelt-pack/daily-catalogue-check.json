@@ -1,0 +1,888 @@
+{
+  "checked": "2026-10-08",
+  "project": "rnwsbgzdrttqtivrwnxo",
+  "read_only": true,
+  "search_terms": [
+    "capybara",
+    "wasserschwein",
+    "tapir",
+    "faultier",
+    "ameisenbär",
+    "anteater",
+    "sloth",
+    "panda",
+    "pangolin",
+    "schuppentier"
+  ],
+  "rows": [
+    {
+      "game": "facts",
+      "payload": {
+        "a": true,
+        "e": "Bambus macht den größten Teil ihrer Nahrung aus.",
+        "s": "Riesenpandas ernähren sich überwiegend von Bambus.",
+        "cat": "Tierwelt",
+        "source": "https://nationalzoo.si.edu/animals/giant-panda",
+        "difficulty": "easy"
+      }
+    },
+    {
+      "game": "facts",
+      "payload": {
+        "a": true,
+        "e": "Dieser sogenannte Pseudodaumen hilft beim Greifen von Bambus.",
+        "s": "Der „Daumen“ des Riesenpandas entsteht aus einem vergrößerten Handwurzelknochen.",
+        "cat": "Tierwelt",
+        "source": "https://nationalzoo.si.edu/animals/giant-panda",
+        "difficulty": "medium"
+      }
+    },
+    {
+      "game": "facts",
+      "payload": {
+        "a": false,
+        "e": "Er ist ein umgebildeter Handwurzelknochen und kein zusätzlicher Finger.",
+        "s": "Der Pseudodaumen des Riesenpandas ist ein zusätzlicher echter Finger.",
+        "cat": "Tierwelt",
+        "source": "https://nationalzoo.si.edu/animals/giant-panda",
+        "difficulty": "hard"
+      }
+    },
+    {
+      "game": "moreless",
+      "payload": {
+        "l": "Hauskatze",
+        "r": "Tapir",
+        "u": "Tage · Tragzeit-Richtwert nach Merck in Tagen",
+        "lv": 65,
+        "rv": 390,
+        "cat": "Tierwelt",
+        "sub": "Tragzeit-Richtwert nach Merck in Tagen",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 3"
+        ],
+        "metric": "Tragzeit-Richtwert nach Merck in Tagen",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "moreless",
+      "payload": {
+        "l": "Esel",
+        "r": "Tapir",
+        "u": "Tage · Tragzeit-Richtwert nach Merck in Tagen",
+        "lv": 365,
+        "rv": 390,
+        "cat": "Tierwelt",
+        "sub": "Tragzeit-Richtwert nach Merck in Tagen",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 5"
+        ],
+        "metric": "Tragzeit-Richtwert nach Merck in Tagen",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "moreless",
+      "payload": {
+        "l": "Hausziege",
+        "r": "Tapir",
+        "u": "Tage · Tragzeit-Richtwert nach Merck in Tagen",
+        "lv": 150,
+        "rv": 390,
+        "cat": "Tierwelt",
+        "sub": "Tragzeit-Richtwert nach Merck in Tagen",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 7"
+        ],
+        "metric": "Tragzeit-Richtwert nach Merck in Tagen",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "moreless",
+      "payload": {
+        "l": "Hausschwein",
+        "r": "Tapir",
+        "u": "Tage · Tragzeit-Richtwert nach Merck in Tagen",
+        "lv": 114,
+        "rv": 390,
+        "cat": "Tierwelt",
+        "sub": "Tragzeit-Richtwert nach Merck in Tagen",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 9"
+        ],
+        "metric": "Tragzeit-Richtwert nach Merck in Tagen",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "moreless",
+      "payload": {
+        "l": "Kaninchen",
+        "r": "Tapir",
+        "u": "Tage · Tragzeit-Richtwert nach Merck in Tagen",
+        "lv": 31,
+        "rv": 390,
+        "cat": "Tierwelt",
+        "sub": "Tragzeit-Richtwert nach Merck in Tagen",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 11"
+        ],
+        "metric": "Tragzeit-Richtwert nach Merck in Tagen",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "moreless",
+      "payload": {
+        "l": "Amerikanischer Schwarzbär",
+        "r": "Tapir",
+        "u": "Tage · Tragzeit-Richtwert nach Merck in Tagen",
+        "lv": 210,
+        "rv": 390,
+        "cat": "Tierwelt",
+        "sub": "Tragzeit-Richtwert nach Merck in Tagen",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 13"
+        ],
+        "metric": "Tragzeit-Richtwert nach Merck in Tagen",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "moreless",
+      "payload": {
+        "l": "Bison",
+        "r": "Tapir",
+        "u": "Tage · Tragzeit-Richtwert nach Merck in Tagen",
+        "lv": 280,
+        "rv": 390,
+        "cat": "Tierwelt",
+        "sub": "Tragzeit-Richtwert nach Merck in Tagen",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 15"
+        ],
+        "metric": "Tragzeit-Richtwert nach Merck in Tagen",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "moreless",
+      "payload": {
+        "l": "Schimpanse",
+        "r": "Tapir",
+        "u": "Tage · Tragzeit-Richtwert nach Merck in Tagen",
+        "lv": 236,
+        "rv": 390,
+        "cat": "Tierwelt",
+        "sub": "Tragzeit-Richtwert nach Merck in Tagen",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 17"
+        ],
+        "metric": "Tragzeit-Richtwert nach Merck in Tagen",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "moreless",
+      "payload": {
+        "l": "Kojote",
+        "r": "Tapir",
+        "u": "Tage · Tragzeit-Richtwert nach Merck in Tagen",
+        "lv": 63,
+        "rv": 390,
+        "cat": "Tierwelt",
+        "sub": "Tragzeit-Richtwert nach Merck in Tagen",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 18"
+        ],
+        "metric": "Tragzeit-Richtwert nach Merck in Tagen",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "moreless",
+      "payload": {
+        "l": "Weißwedelhirsch",
+        "r": "Tapir",
+        "u": "Tage · Tragzeit-Richtwert nach Merck in Tagen",
+        "lv": 200,
+        "rv": 390,
+        "cat": "Tierwelt",
+        "sub": "Tragzeit-Richtwert nach Merck in Tagen",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 20"
+        ],
+        "metric": "Tragzeit-Richtwert nach Merck in Tagen",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "moreless",
+      "payload": {
+        "l": "Wapiti",
+        "r": "Tapir",
+        "u": "Tage · Tragzeit-Richtwert nach Merck in Tagen",
+        "lv": 255,
+        "rv": 390,
+        "cat": "Tierwelt",
+        "sub": "Tragzeit-Richtwert nach Merck in Tagen",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 21"
+        ],
+        "metric": "Tragzeit-Richtwert nach Merck in Tagen",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "moreless",
+      "payload": {
+        "l": "Gorilla",
+        "r": "Tapir",
+        "u": "Tage · Tragzeit-Richtwert nach Merck in Tagen",
+        "lv": 270,
+        "rv": 390,
+        "cat": "Tierwelt",
+        "sub": "Tragzeit-Richtwert nach Merck in Tagen",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 23"
+        ],
+        "metric": "Tragzeit-Richtwert nach Merck in Tagen",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "moreless",
+      "payload": {
+        "l": "Hase",
+        "r": "Tapir",
+        "u": "Tage · Tragzeit-Richtwert nach Merck in Tagen",
+        "lv": 36,
+        "rv": 390,
+        "cat": "Tierwelt",
+        "sub": "Tragzeit-Richtwert nach Merck in Tagen",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 24"
+        ],
+        "metric": "Tragzeit-Richtwert nach Merck in Tagen",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "moreless",
+      "payload": {
+        "l": "Flusspferd",
+        "r": "Tapir",
+        "u": "Tage · Tragzeit-Richtwert nach Merck in Tagen",
+        "lv": 240,
+        "rv": 390,
+        "cat": "Tierwelt",
+        "sub": "Tragzeit-Richtwert nach Merck in Tagen",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 25"
+        ],
+        "metric": "Tragzeit-Richtwert nach Merck in Tagen",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "moreless",
+      "payload": {
+        "l": "Leopard",
+        "r": "Tapir",
+        "u": "Tage · Tragzeit-Richtwert nach Merck in Tagen",
+        "lv": 95,
+        "rv": 390,
+        "cat": "Tierwelt",
+        "sub": "Tragzeit-Richtwert nach Merck in Tagen",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 26"
+        ],
+        "metric": "Tragzeit-Richtwert nach Merck in Tagen",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "moreless",
+      "payload": {
+        "l": "Makak",
+        "r": "Tapir",
+        "u": "Tage · Tragzeit-Richtwert nach Merck in Tagen",
+        "lv": 180,
+        "rv": 390,
+        "cat": "Tierwelt",
+        "sub": "Tragzeit-Richtwert nach Merck in Tagen",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 27"
+        ],
+        "metric": "Tragzeit-Richtwert nach Merck in Tagen",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "moreless",
+      "payload": {
+        "l": "Elch",
+        "r": "Tapir",
+        "u": "Tage · Tragzeit-Richtwert nach Merck in Tagen",
+        "lv": 235,
+        "rv": 390,
+        "cat": "Tierwelt",
+        "sub": "Tragzeit-Richtwert nach Merck in Tagen",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 28"
+        ],
+        "metric": "Tragzeit-Richtwert nach Merck in Tagen",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "moreless",
+      "payload": {
+        "l": "Bisamratte",
+        "r": "Tapir",
+        "u": "Tage · Tragzeit-Richtwert nach Merck in Tagen",
+        "lv": 29,
+        "rv": 390,
+        "cat": "Tierwelt",
+        "sub": "Tragzeit-Richtwert nach Merck in Tagen",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 28"
+        ],
+        "metric": "Tragzeit-Richtwert nach Merck in Tagen",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "moreless",
+      "payload": {
+        "l": "Nutria",
+        "r": "Tapir",
+        "u": "Tage · Tragzeit-Richtwert nach Merck in Tagen",
+        "lv": 130,
+        "rv": 390,
+        "cat": "Tierwelt",
+        "sub": "Tragzeit-Richtwert nach Merck in Tagen",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 29"
+        ],
+        "metric": "Tragzeit-Richtwert nach Merck in Tagen",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "moreless",
+      "payload": {
+        "l": "Waschbär",
+        "r": "Tapir",
+        "u": "Tage · Tragzeit-Richtwert nach Merck in Tagen",
+        "lv": 63,
+        "rv": 390,
+        "cat": "Tierwelt",
+        "sub": "Tragzeit-Richtwert nach Merck in Tagen",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 29"
+        ],
+        "metric": "Tragzeit-Richtwert nach Merck in Tagen",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "moreless",
+      "payload": {
+        "l": "Rentier",
+        "r": "Tapir",
+        "u": "Tage · Tragzeit-Richtwert nach Merck in Tagen",
+        "lv": 225,
+        "rv": 390,
+        "cat": "Tierwelt",
+        "sub": "Tragzeit-Richtwert nach Merck in Tagen",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 30"
+        ],
+        "metric": "Tragzeit-Richtwert nach Merck in Tagen",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "moreless",
+      "payload": {
+        "l": "Tapir",
+        "r": "Tiger",
+        "u": "Tage · Tragzeit-Richtwert nach Merck in Tagen",
+        "lv": 390,
+        "rv": 103,
+        "cat": "Tierwelt",
+        "sub": "Tragzeit-Richtwert nach Merck in Tagen",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 30"
+        ],
+        "metric": "Tragzeit-Richtwert nach Merck in Tagen",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "moreless",
+      "payload": {
+        "l": "Tapir",
+        "r": "Chinchilla",
+        "u": "Tage · Tragzeit-Richtwert nach Merck in Tagen",
+        "lv": 390,
+        "rv": 111,
+        "cat": "Tierwelt",
+        "sub": "Tragzeit-Richtwert nach Merck in Tagen",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 30"
+        ],
+        "metric": "Tragzeit-Richtwert nach Merck in Tagen",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "moreless",
+      "payload": {
+        "l": "Tapir",
+        "r": "Frettchen",
+        "u": "Tage · Tragzeit-Richtwert nach Merck in Tagen",
+        "lv": 390,
+        "rv": 42,
+        "cat": "Tierwelt",
+        "sub": "Tragzeit-Richtwert nach Merck in Tagen",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 30"
+        ],
+        "metric": "Tragzeit-Richtwert nach Merck in Tagen",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "estimate",
+      "payload": {
+        "a": 390,
+        "q": "Welchen ungefähren Tragzeit-Richtwert nennt Merck für Tapir, in Tagen?",
+        "u": "Tage",
+        "cat": "Tierwelt",
+        "sets": [
+          "Tragzeiten & Tierfamilien · Set 3"
+        ],
+        "notes": "Ungefähre Spielrichtwerte der Merck-Tabelle, keine exakten Werte jedes Individuums. Nur Einträge mit einem in Tagen angegebenen Wert; keine Umrechnung von Monaten oder unbenannte Walarten.",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "subject": "Tapir",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Tragzeiten & Tierfamilien"
+      }
+    },
+    {
+      "game": "estimate",
+      "payload": {
+        "a": 276,
+        "q": "Wie groß ist die Differenz zwischen Hausschwein und Tapir bei „Tragzeit-Richtwert nach Merck in Tagen“ (größerer minus kleinerer Wert), in Tage?",
+        "u": "Tage",
+        "cat": "Tierwelt",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 4"
+        ],
+        "notes": "Berechnete Differenz zweier Quellenwerte; kein eigenständig gemessener Wert.",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "subject": "Hausschwein",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "estimate",
+      "payload": {
+        "a": 190,
+        "q": "Wie groß ist die Differenz zwischen Weißwedelhirsch und Tapir bei „Tragzeit-Richtwert nach Merck in Tagen“ (größerer minus kleinerer Wert), in Tage?",
+        "u": "Tage",
+        "cat": "Tierwelt",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 4"
+        ],
+        "notes": "Berechnete Differenz zweier Quellenwerte; kein eigenständig gemessener Wert.",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "subject": "Weißwedelhirsch",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "estimate",
+      "payload": {
+        "a": 327,
+        "q": "Wie groß ist die Differenz zwischen Kojote und Tapir bei „Tragzeit-Richtwert nach Merck in Tagen“ (größerer minus kleinerer Wert), in Tage?",
+        "u": "Tage",
+        "cat": "Tierwelt",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 5"
+        ],
+        "notes": "Berechnete Differenz zweier Quellenwerte; kein eigenständig gemessener Wert.",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "subject": "Kojote",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "estimate",
+      "payload": {
+        "a": 165,
+        "q": "Wie groß ist die Differenz zwischen Rentier und Tapir bei „Tragzeit-Richtwert nach Merck in Tagen“ (größerer minus kleinerer Wert), in Tage?",
+        "u": "Tage",
+        "cat": "Tierwelt",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 6"
+        ],
+        "notes": "Berechnete Differenz zweier Quellenwerte; kein eigenständig gemessener Wert.",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "subject": "Rentier",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "estimate",
+      "payload": {
+        "a": 135,
+        "q": "Wie groß ist die Differenz zwischen Wapiti und Tapir bei „Tragzeit-Richtwert nach Merck in Tagen“ (größerer minus kleinerer Wert), in Tage?",
+        "u": "Tage",
+        "cat": "Tierwelt",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 6"
+        ],
+        "notes": "Berechnete Differenz zweier Quellenwerte; kein eigenständig gemessener Wert.",
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "subject": "Wapiti",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "facts",
+      "payload": {
+        "a": true,
+        "e": "Für „Tragzeit-Richtwert nach Merck in Tagen“ nennt die Quelle 390 Tage. Ungefähre Spielrichtwerte der Merck-Tabelle, keine exakten Werte jedes Individuums. Nur Einträge mit einem in Tagen angegebenen Wert; keine Umrechnung von Monaten oder unbenannte Walarten.",
+        "s": "Tapir: Der Quellenwert für „Tragzeit-Richtwert nach Merck in Tagen“ beträgt 390 Tage.",
+        "cat": "Tierwelt",
+        "sets": [
+          "Tragzeiten & Tierfamilien · Set 3"
+        ],
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "subject": "Tapir",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "difficulty": "easy",
+        "subcategory": "Tragzeiten & Tierfamilien"
+      }
+    },
+    {
+      "game": "facts",
+      "payload": {
+        "a": true,
+        "e": "Wapiti: 255; Tapir: 390 (Tage · Tragzeit-Richtwert nach Merck in Tagen). Tragzeit-Richtwert nach Merck in Tagen",
+        "s": "Beim Wert „Tragzeit-Richtwert nach Merck in Tagen“ liegt Tapir über Wapiti.",
+        "cat": "Tierwelt",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 6"
+        ],
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "subject": "Wapiti",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "difficulty": "hard",
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "facts",
+      "payload": {
+        "a": false,
+        "e": "Rentier: 225; Tapir: 390 (Tage · Tragzeit-Richtwert nach Merck in Tagen). Tragzeit-Richtwert nach Merck in Tagen",
+        "s": "Beim Wert „Tragzeit-Richtwert nach Merck in Tagen“ liegt Rentier über Tapir.",
+        "cat": "Tierwelt",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 5"
+        ],
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "subject": "Rentier",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "difficulty": "medium",
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "facts",
+      "payload": {
+        "a": false,
+        "e": "Kojote: 63; Tapir: 390 (Tage · Tragzeit-Richtwert nach Merck in Tagen). Tragzeit-Richtwert nach Merck in Tagen",
+        "s": "Beim Wert „Tragzeit-Richtwert nach Merck in Tagen“ liegt Kojote über Tapir.",
+        "cat": "Tierwelt",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 5"
+        ],
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "subject": "Kojote",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "difficulty": "hard",
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "facts",
+      "payload": {
+        "a": true,
+        "e": "Weißwedelhirsch: 200; Tapir: 390 (Tage · Tragzeit-Richtwert nach Merck in Tagen). Tragzeit-Richtwert nach Merck in Tagen",
+        "s": "Beim Wert „Tragzeit-Richtwert nach Merck in Tagen“ liegt Tapir über Weißwedelhirsch.",
+        "cat": "Tierwelt",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 4"
+        ],
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "subject": "Weißwedelhirsch",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "difficulty": "easy",
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    },
+    {
+      "game": "facts",
+      "payload": {
+        "a": true,
+        "e": "Hausschwein: 114; Tapir: 390 (Tage · Tragzeit-Richtwert nach Merck in Tagen). Tragzeit-Richtwert nach Merck in Tagen",
+        "s": "Beim Wert „Tragzeit-Richtwert nach Merck in Tagen“ liegt Tapir über Hausschwein.",
+        "cat": "Tierwelt",
+        "sets": [
+          "Überblick & neue Perspektiven · Set 4"
+        ],
+        "source": "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+        "sources": [
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods",
+          "https://www.merckvetmanual.com/multimedia/table/approximate-gestation-periods"
+        ],
+        "subject": "Hausschwein",
+        "verified": "2026-10-05",
+        "expansion": 9,
+        "difficulty": "medium",
+        "subcategory": "Überblick & neue Perspektiven"
+      }
+    }
+  ],
+  "decision": "39 Kandidatentreffer: Tapir-Tragzeiten und Riesenpanda-Nahrung/Daumen ausgeschlossen. Roter Panda ist ausdrücklich eine andere Art; keine Umformulierung vorhandener Riesenpanda-Fragen."
+}

@@ -18,3 +18,13 @@ jobs:
       - name: Static game regression checks
         run: |
           node scripts/regression-check.mjs
+      - name: Review-only Tierwelt package
+        run: |
+          node scripts/inventory-quiz-draft.mjs
+          git diff --exit-code -- content/research/2026-10-08-tierwelt-pack/main-inventory.json
+          python3 scripts/build-tierwelt-draft.py --check
+          node scripts/tierwelt-draft-check.mjs
+      - name: Offline build and regression
+        run: |
+          npm run pwa:build
+          npm run test:pwa
