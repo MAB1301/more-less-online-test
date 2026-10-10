@@ -1,0 +1,11 @@
+# Lobby, results and atmosphere
+
+The shared lobby adds per-member ready confirmation. The host can start after all members are ready and connected, and can change games while keeping the same room and roster. Changes to room settings, teams, or a rematch invalidate confirmations. Disconnected members can be removed by the host while the room is still a lobby. Members can rejoin using the existing room code.
+
+`ml_lobby_ready`, `ml_lobby_setup` and `ml_lobby_remove` expose member/host-checked private implementations through invoker RPC wrappers. Readiness records have RLS enabled and no client table grants. A room transition trigger checks readiness atomically. Legacy rooms opt into the server gate when a member first confirms readiness or the host changes the game. Fact/Fake now marks its room as playing when inserting a match, using the same transition guard. Apply `supabase/lobby-experience.sql`, `supabase/lobby-remove.sql`, then `supabase/fact-lobby-start.sql`; these are already installed in the connected project.
+
+The results view retains the engines' scores and reveal timing. Estimate results show all submitted tips on a shared scale and personal answer details in the final recap. Fact/Fake results use the match's real ranking and show the individual's answer history instead of treating player totals as questions.
+
+Shop profile previews can be reset to the equipped look and include the profile level. Designs are free device-local preferences under `ml_night_theme_v1`; they do not spend currency or unlock music. Spuknacht is available in Shop → Designs and Settings → Display → Atmosphere. It respects reduced motion, contrast and data-saving preferences. Existing music controls remain independent.
+
+Validation: `npm run pwa:build`, `npm test`, and the transactional `scripts/lobby-experience-server-check.sql` (rolls back synthetic users/rooms). The server check covers all four online game starts, non-member/guest restrictions, readiness invalidation and disconnected-member removal. iPad visual validation remains outstanding. Existing security advisor warnings are outside this change; the new readiness table's no-policy informational notice is intentional deny-by-default for private storage.
