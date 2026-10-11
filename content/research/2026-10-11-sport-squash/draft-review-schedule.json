@@ -1,0 +1,225 @@
+{
+  "policy": "Regelausgabe explizit; 90-Tage-Review auf Folgeausgabe. Keine automatische Freigabe.",
+  "records": [
+    {
+      "id": "squash-20261011-standard-intervals",
+      "game": "moreless",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "verified": "2026-10-11",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-09",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "squash-20261011-self-inflicted-recovery",
+      "game": "moreless",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "verified": "2026-10-11",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-09",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "squash-20261011-normal-game-target",
+      "game": "estimate",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "verified": "2026-10-11",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-09",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "squash-20261011-warmup-limit",
+      "game": "estimate",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "verified": "2026-10-11",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-09",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "squash-20261011-normal-match-format",
+      "game": "estimate",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "verified": "2026-10-11",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-09",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "squash-20261011-equipment-change",
+      "game": "estimate",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "verified": "2026-10-11",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-09",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "squash-20261011-rally-winner",
+      "game": "facts",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "verified": "2026-10-11",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-09",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "squash-20261011-second-serve",
+      "game": "facts",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "verified": "2026-10-11",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-09",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "squash-20261011-alternate-boxes",
+      "game": "facts",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "verified": "2026-10-11",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-09",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "squash-20261011-return-direct-only",
+      "game": "facts",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "verified": "2026-10-11",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-09",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "squash-20261011-serve-volley",
+      "game": "facts",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "verified": "2026-10-11",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-09",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "squash-20261011-ten-all-next-point",
+      "game": "facts",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "verified": "2026-10-11",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-09",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "squash-20261011-marker-name",
+      "game": "jeopardy",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "verified": "2026-10-11",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-09",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "squash-20261011-let-name",
+      "game": "jeopardy",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "verified": "2026-10-11",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-09",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "squash-20261011-tin-name",
+      "game": "jeopardy",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "verified": "2026-10-11",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-09",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "squash-20261011-hand-out-name",
+      "game": "jeopardy",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "verified": "2026-10-11",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-09",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "squash-20261011-not-up-name",
+      "game": "jeopardy",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "verified": "2026-10-11",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-09",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "squash-20261011-initial-serve-choice",
+      "game": "jeopardy",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "verified": "2026-10-11",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-09",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "squash-20261011-address-name",
+      "game": "jeopardy",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "verified": "2026-10-11",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-09",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "squash-20261011-junior-protection",
+      "game": "jeopardy",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "verified": "2026-10-11",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-09",
+      "review_status": "draft-review-required"
+    }
+  ]
+}

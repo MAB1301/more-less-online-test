@@ -1,0 +1,706 @@
+{
+  "status": "review-only",
+  "verified": "2026-10-11",
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "images": {
+    "squash-neutral": {
+      "card": "visuals/squash-neutral-card.svg",
+      "detail": "visuals/squash-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstraktes Schlägersportmotiv; kein Courtplan, keine abzählbaren Zeiten, keine Brille oder Amtssymbole. Bei Jeopardy deaktiviert."
+    },
+    "Squash: Pause nach dem Aufwärmen (WSF 2025)": {
+      "card": "visuals/squash-neutral-card.svg",
+      "detail": "visuals/squash-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstraktes Schlägersportmotiv; kein Courtplan, keine abzählbaren Zeiten, keine Brille oder Amtssymbole. Bei Jeopardy deaktiviert."
+    },
+    "Squash: Pause zwischen Sätzen (WSF 2025)": {
+      "card": "visuals/squash-neutral-card.svg",
+      "detail": "visuals/squash-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstraktes Schlägersportmotiv; kein Courtplan, keine abzählbaren Zeiten, keine Brille oder Amtssymbole. Bei Jeopardy deaktiviert."
+    },
+    "Squash: erste selbstverursachte Verletzung ohne Blutung (WSF 2025)": {
+      "card": "visuals/squash-neutral-card.svg",
+      "detail": "visuals/squash-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstraktes Schlägersportmotiv; kein Courtplan, keine abzählbaren Zeiten, keine Brille oder Amtssymbole. Bei Jeopardy deaktiviert."
+    },
+    "Squash: erste selbstverursachte Blutverletzung (WSF 2025)": {
+      "card": "visuals/squash-neutral-card.svg",
+      "detail": "visuals/squash-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstraktes Schlägersportmotiv; kein Courtplan, keine abzählbaren Zeiten, keine Brille oder Amtssymbole. Bei Jeopardy deaktiviert."
+    }
+  },
+  "moreless": [
+    {
+      "id": "squash-20261011-standard-intervals",
+      "semantic_key": "standard-intervals",
+      "cat": "Sport",
+      "subcategory": "Squash · Regeln 2025",
+      "source_refs": [
+        "rules"
+      ],
+      "section": "7.1",
+      "observation_keys": [
+        "7.1-after-warmup",
+        "7.1-between-games"
+      ],
+      "data_year": 2025,
+      "rounding": "Minuten × 60, exakt.",
+      "notes": "1 bzw. 2 Minuten × 60. Beide können früher enden, wenn beide Spieler zustimmen (7.2). Keine Aufwärmdauer oder Verletzungspause.",
+      "l": "Squash: Pause nach dem Aufwärmen (WSF 2025)",
+      "r": "Squash: Pause zwischen Sätzen (WSF 2025)",
+      "lv": 60,
+      "rv": 120,
+      "u": "Sekunden · maximale Regelpause",
+      "metric": "Maximal zulässige Pause je Spielphase",
+      "status": "draft",
+      "verified": "2026-10-11",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "sources": [
+        "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf"
+      ],
+      "sets": [
+        "Sport · Squash · Regeln 2025"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2025 bezeichnet die Regelausgabe, nicht ein Leistungs- oder Erhebungsjahr.",
+      "visual": "squash-neutral",
+      "subject": "squash-neutral"
+    },
+    {
+      "id": "squash-20261011-self-inflicted-recovery",
+      "semantic_key": "self-inflicted-recovery",
+      "cat": "Sport",
+      "subcategory": "Squash · Regeln 2025",
+      "source_refs": [
+        "rules"
+      ],
+      "section": "13.2.4.1; 13.3.1.2",
+      "observation_keys": [
+        "13.2.4.1-initial-recovery",
+        "13.3.1.2-initial-blood-recovery"
+      ],
+      "data_year": 2025,
+      "rounding": "Minuten × 60, exakt.",
+      "notes": "3 bzw. 5 Minuten × 60. Echter erster Fall, keine wiederkehrende Verletzung/alte offene Wunde; zusätzliche Satzpause nach Satzaufgabe nicht enthalten. Bei Blutung bezeichnet die Zeit Blutstillung/Abdeckung, nicht allgemeine Heilung.",
+      "l": "Squash: erste selbstverursachte Verletzung ohne Blutung (WSF 2025)",
+      "r": "Squash: erste selbstverursachte Blutverletzung (WSF 2025)",
+      "lv": 180,
+      "rv": 300,
+      "u": "Sekunden · erste ausdrücklich gewährte Regelzeit",
+      "metric": "Erste Regelzeit bei selbstverursachter Verletzung",
+      "status": "draft",
+      "verified": "2026-10-11",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "sources": [
+        "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf"
+      ],
+      "sets": [
+        "Sport · Squash · Regeln 2025"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2025 bezeichnet die Regelausgabe, nicht ein Leistungs- oder Erhebungsjahr.",
+      "visual": "squash-neutral",
+      "subject": "squash-neutral"
+    }
+  ],
+  "estimate": [
+    {
+      "id": "squash-20261011-normal-game-target",
+      "semantic_key": "normal-game-target",
+      "cat": "Sport",
+      "subcategory": "Squash · Regeln 2025",
+      "source_refs": [
+        "rules"
+      ],
+      "section": "2.2",
+      "observation_keys": [
+        "2.2-normal-target"
+      ],
+      "data_year": 2025,
+      "rounding": "Unveränderter Regelwert; keine Messschätzung.",
+      "notes": "",
+      "q": "Wie viele Punkte benötigt man im Squash normalerweise zum Satzgewinn, ohne Verlängerung bei 10:10 (WSF 2025)?",
+      "a": 11,
+      "u": "Punkte",
+      "status": "draft",
+      "verified": "2026-10-11",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "sources": [
+        "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf"
+      ],
+      "sets": [
+        "Sport · Squash · Regeln 2025"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2025 bezeichnet die Regelausgabe, nicht ein Leistungs- oder Erhebungsjahr.",
+      "visual": "squash-neutral",
+      "subject": "squash-neutral"
+    },
+    {
+      "id": "squash-20261011-warmup-limit",
+      "semantic_key": "warmup-limit",
+      "cat": "Sport",
+      "subcategory": "Squash · Regeln 2025",
+      "source_refs": [
+        "rules"
+      ],
+      "section": "4.1",
+      "observation_keys": [
+        "4.1-total-warmup"
+      ],
+      "data_year": 2025,
+      "rounding": "Unveränderter Regelwert; keine Messschätzung.",
+      "notes": "",
+      "q": "Wie viele Minuten dauert das gemeinsame Ball-Aufwärmen vor einem Squash-Match höchstens (WSF 2025)?",
+      "a": 4,
+      "u": "Minuten",
+      "status": "draft",
+      "verified": "2026-10-11",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "sources": [
+        "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf"
+      ],
+      "sets": [
+        "Sport · Squash · Regeln 2025"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2025 bezeichnet die Regelausgabe, nicht ein Leistungs- oder Erhebungsjahr.",
+      "visual": "squash-neutral",
+      "subject": "squash-neutral"
+    },
+    {
+      "id": "squash-20261011-normal-match-format",
+      "semantic_key": "normal-match-format",
+      "cat": "Sport",
+      "subcategory": "Squash · Regeln 2025",
+      "source_refs": [
+        "rules"
+      ],
+      "section": "2.3",
+      "observation_keys": [
+        "2.3-normal-format"
+      ],
+      "data_year": 2025,
+      "rounding": "Unveränderter Regelwert; keine Messschätzung.",
+      "notes": "Alternativ ist auch Best of Three zulässig; gefragt ist das normale Format.",
+      "q": "Über höchstens wie viele Sätze geht ein reguläres Best-of-Format im Squash normalerweise (WSF 2025)?",
+      "a": 5,
+      "u": "Sätze · normalerweise Best of Five",
+      "status": "draft",
+      "verified": "2026-10-11",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "sources": [
+        "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf"
+      ],
+      "sets": [
+        "Sport · Squash · Regeln 2025"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2025 bezeichnet die Regelausgabe, nicht ein Leistungs- oder Erhebungsjahr.",
+      "visual": "squash-neutral",
+      "subject": "squash-neutral"
+    },
+    {
+      "id": "squash-20261011-equipment-change",
+      "semantic_key": "equipment-change",
+      "cat": "Sport",
+      "subcategory": "Squash · Regeln 2025",
+      "source_refs": [
+        "rules"
+      ],
+      "section": "7.3",
+      "observation_keys": [
+        "7.3-equipment-change"
+      ],
+      "data_year": 2025,
+      "rounding": "Unveränderter Regelwert; keine Messschätzung.",
+      "notes": "",
+      "q": "Wie viele Minuten sind für den Austausch beschädigter Ausrüstung im Squash höchstens vorgesehen (WSF 2025)?",
+      "a": 2,
+      "u": "Minuten",
+      "status": "draft",
+      "verified": "2026-10-11",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "sources": [
+        "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf"
+      ],
+      "sets": [
+        "Sport · Squash · Regeln 2025"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2025 bezeichnet die Regelausgabe, nicht ein Leistungs- oder Erhebungsjahr.",
+      "visual": "squash-neutral",
+      "subject": "squash-neutral"
+    }
+  ],
+  "facts": [
+    {
+      "id": "squash-20261011-rally-winner",
+      "semantic_key": "rally-winner",
+      "cat": "Sport",
+      "subcategory": "Squash · Regeln 2025",
+      "source_refs": [
+        "rules"
+      ],
+      "section": "2.1",
+      "observation_keys": [
+        "2.1-rally-winner"
+      ],
+      "data_year": 2025,
+      "rounding": "Unveränderter Regelwert; keine Messschätzung.",
+      "notes": "",
+      "s": "Im Squash erhält der Gewinner eines Ballwechsels einen Punkt und schlägt danach auf (WSF 2025).",
+      "a": true,
+      "e": "Das Rally-Point-System vergibt Punkt und nächsten Aufschlag an den Ballwechselgewinner.",
+      "difficulty": "easy",
+      "status": "draft",
+      "verified": "2026-10-11",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "sources": [
+        "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf"
+      ],
+      "sets": [
+        "Sport · Squash · Regeln 2025"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2025 bezeichnet die Regelausgabe, nicht ein Leistungs- oder Erhebungsjahr.",
+      "visual": "squash-neutral",
+      "subject": "squash-neutral"
+    },
+    {
+      "id": "squash-20261011-second-serve",
+      "semantic_key": "second-serve",
+      "cat": "Sport",
+      "subcategory": "Squash · Regeln 2025",
+      "source_refs": [
+        "rules"
+      ],
+      "section": "5.8",
+      "observation_keys": [
+        "5.8-fault"
+      ],
+      "data_year": 2025,
+      "rounding": "Unveränderter Regelwert; keine Messschätzung.",
+      "notes": "",
+      "s": "Nach einem regelwidrigen Squash-Aufschlag erhält der Aufschläger einen zweiten Aufschlagversuch wie im Tennis (WSF 2025).",
+      "a": false,
+      "e": "Ein regelwidrig ausgeführter Aufschlag ist ein Fault; der Rückschläger gewinnt den Ballwechsel. Ein fallen gelassener Ball ohne Schlagversuch ist ein anderer Fall.",
+      "difficulty": "easy",
+      "status": "draft",
+      "verified": "2026-10-11",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "sources": [
+        "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf"
+      ],
+      "sets": [
+        "Sport · Squash · Regeln 2025"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2025 bezeichnet die Regelausgabe, nicht ein Leistungs- oder Erhebungsjahr.",
+      "visual": "squash-neutral",
+      "subject": "squash-neutral"
+    },
+    {
+      "id": "squash-20261011-alternate-boxes",
+      "semantic_key": "alternate-boxes",
+      "cat": "Sport",
+      "subcategory": "Squash · Regeln 2025",
+      "source_refs": [
+        "rules"
+      ],
+      "section": "5.2",
+      "observation_keys": [
+        "5.2-alternate-boxes"
+      ],
+      "data_year": 2025,
+      "rounding": "Unveränderter Regelwert; keine Messschätzung.",
+      "notes": "",
+      "s": "Solange ein Squash-Spieler den Aufschlag behält, wechselt er zwischen den beiden Aufschlagfeldern (WSF 2025).",
+      "a": true,
+      "e": "Nach jedem weiter gewonnenen Ballwechsel wird aus dem anderen Aufschlagfeld aufgeschlagen.",
+      "difficulty": "medium",
+      "status": "draft",
+      "verified": "2026-10-11",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "sources": [
+        "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf"
+      ],
+      "sets": [
+        "Sport · Squash · Regeln 2025"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2025 bezeichnet die Regelausgabe, nicht ein Leistungs- oder Erhebungsjahr.",
+      "visual": "squash-neutral",
+      "subject": "squash-neutral"
+    },
+    {
+      "id": "squash-20261011-return-direct-only",
+      "semantic_key": "return-direct-only",
+      "cat": "Sport",
+      "subcategory": "Squash · Regeln 2025",
+      "source_refs": [
+        "rules"
+      ],
+      "section": "6.2.2",
+      "observation_keys": [
+        "6.2.2-other-walls"
+      ],
+      "data_year": 2025,
+      "rounding": "Unveränderter Regelwert; keine Messschätzung.",
+      "notes": "",
+      "s": "Ein gültiger Squash-Rückschlag muss die Frontwand stets direkt treffen, ohne vorher eine andere Wand zu berühren (WSF 2025).",
+      "a": false,
+      "e": "Auch vorherige Kontakte mit anderen Wänden sind erlaubt, sofern alle weiteren Bedingungen eines gültigen Rückschlags eingehalten werden.",
+      "difficulty": "medium",
+      "status": "draft",
+      "verified": "2026-10-11",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "sources": [
+        "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf"
+      ],
+      "sets": [
+        "Sport · Squash · Regeln 2025"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2025 bezeichnet die Regelausgabe, nicht ein Leistungs- oder Erhebungsjahr.",
+      "visual": "squash-neutral",
+      "subject": "squash-neutral"
+    },
+    {
+      "id": "squash-20261011-serve-volley",
+      "semantic_key": "serve-volley",
+      "cat": "Sport",
+      "subcategory": "Squash · Regeln 2025",
+      "source_refs": [
+        "rules"
+      ],
+      "section": "5.7.4",
+      "observation_keys": [
+        "5.7.4-receiver-volley"
+      ],
+      "data_year": 2025,
+      "rounding": "Unveränderter Regelwert; keine Messschätzung.",
+      "notes": "",
+      "s": "Ein Squash-Aufschlag darf vom Rückschläger volley genommen werden, bevor er den Boden berührt (WSF 2025).",
+      "a": true,
+      "e": "Die vorgeschriebene erste Bodenlandung im gegenüberliegenden Viertel gilt, wenn der Rückschläger keinen Volley spielt.",
+      "difficulty": "hard",
+      "status": "draft",
+      "verified": "2026-10-11",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "sources": [
+        "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf"
+      ],
+      "sets": [
+        "Sport · Squash · Regeln 2025"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2025 bezeichnet die Regelausgabe, nicht ein Leistungs- oder Erhebungsjahr.",
+      "visual": "squash-neutral",
+      "subject": "squash-neutral"
+    },
+    {
+      "id": "squash-20261011-ten-all-next-point",
+      "semantic_key": "ten-all-next-point",
+      "cat": "Sport",
+      "subcategory": "Squash · Regeln 2025",
+      "source_refs": [
+        "rules"
+      ],
+      "section": "2.2",
+      "observation_keys": [
+        "2.2-ten-all-extension"
+      ],
+      "data_year": 2025,
+      "rounding": "Unveränderter Regelwert; keine Messschätzung.",
+      "notes": "",
+      "s": "Bei 10:10 im Squash gewinnt bereits der Spieler, der den nächsten einzelnen Punkt erzielt (WSF 2025).",
+      "a": false,
+      "e": "Ab 10:10 ist ein Vorsprung von zwei Punkten notwendig.",
+      "difficulty": "hard",
+      "status": "draft",
+      "verified": "2026-10-11",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "sources": [
+        "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf"
+      ],
+      "sets": [
+        "Sport · Squash · Regeln 2025"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2025 bezeichnet die Regelausgabe, nicht ein Leistungs- oder Erhebungsjahr.",
+      "visual": "squash-neutral",
+      "subject": "squash-neutral"
+    }
+  ],
+  "jeopardy": [
+    {
+      "id": "squash-20261011-marker-name",
+      "semantic_key": "marker-name",
+      "cat": "Sport",
+      "subcategory": "Squash · Regeln 2025",
+      "source_refs": [
+        "rules"
+      ],
+      "section": "3.5",
+      "observation_keys": [
+        "3.5-role-name"
+      ],
+      "data_year": 2025,
+      "rounding": "Unveränderter Regelwert; keine Messschätzung.",
+      "notes": "",
+      "q": "Wie heißt der Squash-Offizielle, der unter anderem Spielstand und Ballfehler ausruft (WSF 2025)?",
+      "a": "Marker|Zähler|Punktezähler",
+      "difficulty": 2,
+      "status": "draft",
+      "verified": "2026-10-11",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "sources": [
+        "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf"
+      ],
+      "sets": [
+        "Sport · Squash · Regeln 2025"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2025 bezeichnet die Regelausgabe, nicht ein Leistungs- oder Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "id": "squash-20261011-let-name",
+      "semantic_key": "let-name",
+      "cat": "Sport",
+      "subcategory": "Squash · Regeln 2025",
+      "source_refs": [
+        "rules"
+      ],
+      "section": "Appendix 1: LET",
+      "observation_keys": [
+        "appendix1-let-term"
+      ],
+      "data_year": 2025,
+      "rounding": "Unveränderter Regelwert; keine Messschätzung.",
+      "notes": "",
+      "q": "Wie heißt im Squash ein unentschiedener Ballwechsel, der wiederholt wird (WSF 2025)?",
+      "a": "Let",
+      "difficulty": 1,
+      "status": "draft",
+      "verified": "2026-10-11",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "sources": [
+        "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf"
+      ],
+      "sets": [
+        "Sport · Squash · Regeln 2025"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2025 bezeichnet die Regelausgabe, nicht ein Leistungs- oder Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "id": "squash-20261011-tin-name",
+      "semantic_key": "tin-name",
+      "cat": "Sport",
+      "subcategory": "Squash · Regeln 2025",
+      "source_refs": [
+        "rules"
+      ],
+      "section": "Appendix 1: TIN",
+      "observation_keys": [
+        "appendix1-tin-term"
+      ],
+      "data_year": 2025,
+      "rounding": "Unveränderter Regelwert; keine Messschätzung.",
+      "notes": "",
+      "q": "Wie heißt der niedrige Frontwandbereich bis einschließlich zur untersten waagerechten Linie im Squash (WSF 2025)?",
+      "a": "Tin",
+      "difficulty": 2,
+      "status": "draft",
+      "verified": "2026-10-11",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "sources": [
+        "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf"
+      ],
+      "sets": [
+        "Sport · Squash · Regeln 2025"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2025 bezeichnet die Regelausgabe, nicht ein Leistungs- oder Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "id": "squash-20261011-hand-out-name",
+      "semantic_key": "hand-out-name",
+      "cat": "Sport",
+      "subcategory": "Squash · Regeln 2025",
+      "source_refs": [
+        "rules"
+      ],
+      "section": "Appendix 1: HAND OUT",
+      "observation_keys": [
+        "appendix1-handout-term"
+      ],
+      "data_year": 2025,
+      "rounding": "Unveränderter Regelwert; keine Messschätzung.",
+      "notes": "",
+      "q": "Welcher englische Squash-Ruf bezeichnet einen Aufschlagwechsel (WSF 2025)?",
+      "a": "Hand out|Hand-out|Handout",
+      "difficulty": 3,
+      "status": "draft",
+      "verified": "2026-10-11",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "sources": [
+        "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf"
+      ],
+      "sets": [
+        "Sport · Squash · Regeln 2025"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2025 bezeichnet die Regelausgabe, nicht ein Leistungs- oder Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "id": "squash-20261011-not-up-name",
+      "semantic_key": "not-up-name",
+      "cat": "Sport",
+      "subcategory": "Squash · Regeln 2025",
+      "source_refs": [
+        "rules"
+      ],
+      "section": "Appendix 2: NOT UP",
+      "observation_keys": [
+        "appendix2-notup-double-bounce"
+      ],
+      "data_year": 2025,
+      "rounding": "Unveränderter Regelwert; keine Messschätzung.",
+      "notes": "",
+      "q": "Welcher Squash-Ruf bezeichnet unter anderem einen erst nach mehr als einem Bodenaufsprung gespielten Rückschlag (WSF 2025)?",
+      "a": "Not up|Not-up|Notup",
+      "difficulty": 3,
+      "status": "draft",
+      "verified": "2026-10-11",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "sources": [
+        "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf"
+      ],
+      "sets": [
+        "Sport · Squash · Regeln 2025"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2025 bezeichnet die Regelausgabe, nicht ein Leistungs- oder Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "id": "squash-20261011-initial-serve-choice",
+      "semantic_key": "initial-serve-choice",
+      "cat": "Sport",
+      "subcategory": "Squash · Regeln 2025",
+      "source_refs": [
+        "rules"
+      ],
+      "section": "5.1",
+      "observation_keys": [
+        "5.1-racket-spin"
+      ],
+      "data_year": 2025,
+      "rounding": "Unveränderter Regelwert; keine Messschätzung.",
+      "notes": "",
+      "q": "Durch welche zufällige Entscheidung mit dem Schläger wird der erste Aufschläger beim Squash bestimmt (WSF 2025)?",
+      "a": "Schlägerdrehen|Schlägerdrehung|Drehen des Schlägers|Racket spin|Spin of a racket",
+      "difficulty": 4,
+      "status": "draft",
+      "verified": "2026-10-11",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "sources": [
+        "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf"
+      ],
+      "sets": [
+        "Sport · Squash · Regeln 2025"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2025 bezeichnet die Regelausgabe, nicht ein Leistungs- oder Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "id": "squash-20261011-address-name",
+      "semantic_key": "address-name",
+      "cat": "Sport",
+      "subcategory": "Squash · Regeln 2025",
+      "source_refs": [
+        "rules"
+      ],
+      "section": "3.4",
+      "observation_keys": [
+        "3.4-player-address"
+      ],
+      "data_year": 2025,
+      "rounding": "Unveränderter Regelwert; keine Messschätzung.",
+      "notes": "",
+      "q": "Welchen Namen sollen Squash-Offizielle beim Ansprechen eines Spielers möglichst verwenden (WSF 2025)?",
+      "a": "Familienname|Nachname",
+      "difficulty": 4,
+      "status": "draft",
+      "verified": "2026-10-11",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "sources": [
+        "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf"
+      ],
+      "sets": [
+        "Sport · Squash · Regeln 2025"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2025 bezeichnet die Regelausgabe, nicht ein Leistungs- oder Erhebungsjahr.",
+      "visual": null
+    },
+    {
+      "id": "squash-20261011-junior-protection",
+      "semantic_key": "junior-protection",
+      "cat": "Sport",
+      "subcategory": "Squash · Regeln 2025",
+      "source_refs": [
+        "rules"
+      ],
+      "section": "Appendix 4",
+      "observation_keys": [
+        "appendix4-junior-eyewear"
+      ],
+      "data_year": 2025,
+      "rounding": "Unveränderter Regelwert; keine Messschätzung.",
+      "notes": "",
+      "q": "Welche Augenschutzausrüstung ist bei WSF-sanktionierten Squash-Juniorenveranstaltungen vorgeschrieben (WSF 2025)?",
+      "a": "Schutzbrille|Augenschutz|Schutzbrillen|Protective eyewear",
+      "difficulty": 5,
+      "status": "draft",
+      "verified": "2026-10-11",
+      "source": "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf",
+      "sources": [
+        "https://worldsquashofficiating.com/wp-content/uploads/2025/08/250901_World-Squash-Rules-of-Singles-Squash-2025-V1.2.2.pdf"
+      ],
+      "sets": [
+        "Sport · Squash · Regeln 2025"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2025 bezeichnet die Regelausgabe, nicht ein Leistungs- oder Erhebungsjahr.",
+      "visual": null
+    }
+  ]
+}

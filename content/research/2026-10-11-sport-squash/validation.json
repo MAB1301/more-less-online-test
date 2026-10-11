@@ -1,0 +1,18 @@
+{
+  "checked": "2026-10-11",
+  "questions": 20,
+  "counts": {
+    "moreless": 2,
+    "estimate": 4,
+    "facts": 6,
+    "jeopardy": 8
+  },
+  "numeric_observations_checked": 8,
+  "unique_observation_keys": 22,
+  "balanced_fact_levels": true,
+  "svg_variants": 2,
+  "main_review_records": 941,
+  "due_records": [],
+  "review_only": true,
+  "database_writes": 0
+}
