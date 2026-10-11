@@ -1,0 +1,15 @@
+{
+  "checked": "2026-10-11",
+  "account": "Marc",
+  "project_id": "rnwsbgzdrttqtivrwnxo",
+  "read_only": true,
+  "rows_total": 7187,
+  "game_counts": {
+    "moreless": 4228,
+    "estimate": 1507,
+    "facts": 1452
+  },
+  "matches": 0,
+  "query": "select game,payload from ml_private.daily_catalogue where concat(payload->>'q',' ',payload->>'s',' ',payload->>'l',' ',payload->>'r',' ',payload->>'source') ~* '(squash|squashofficiating|squashregeln|not up|hand out)'",
+  "limits": "Entire catalogue scanned by subject/terminology; no Jeopardy bank in Daily. No player data read."
+}

@@ -1,0 +1,86 @@
+{
+  "checked": "2026-10-11",
+  "open_prs": [
+    {
+      "pr": 144,
+      "head": "codex/quiz-growth-20261010",
+      "sha": "7038c9d198b42fa051c66520545687e28240f2a3",
+      "title": "Draft: 100 geprüfte Fragen – je 20 in fünf kleinen Themenbereichen"
+    },
+    {
+      "pr": 138,
+      "head": "ui/overlay-polish",
+      "sha": "f5aa58edc4e6e4cbe5af9376f4e009806fc1c88f",
+      "title": "Polish overlays, quick access, shop and audio settings"
+    },
+    {
+      "pr": 134,
+      "head": "codex/playable-comparison-criteria-20261009",
+      "sha": "61b0f7b26fec96ad1d31dbd2d5837111a91fd606",
+      "title": "200 neue More/Less-Vergleiche: 20 je Kategorie, geprüfte Kriterien und Grafiken"
+    },
+    {
+      "pr": 132,
+      "head": "codex/quiz-weather-extremes-20261009",
+      "sha": "34e5cfcab8d7a405a938f771782da285d4993424",
+      "title": "Draft: 20 geprüfte WMO-Fragen für Rekorde & Extreme"
+    },
+    {
+      "pr": 131,
+      "head": "codex/quiz-category-growth-20261008-evening",
+      "sha": "2d6b597117d6c7afbaf1366f2b7bcffa141dc358",
+      "title": "Draft: 20 eigenständige Tierwelt-Fragen, Bestandsprüfung und neutrale Grafiken"
+    },
+    {
+      "pr": 130,
+      "head": "codex/quiz-draft-20261008-elements",
+      "sha": "e69d31400f884935634ebe21c73c423d3dfbda54",
+      "title": "Draft: 25 geprüfte Element-Quizfragen vom 8. Oktober"
+    },
+    {
+      "pr": 129,
+      "head": "codex/quiz-draft-20261007-trappist",
+      "sha": "54cfbd02ad9225c66d6b7e17f8326f354fac22ad",
+      "title": "Draft: 25 geprüfte TRAPPIST-1-Quizfragen vom 7. Oktober"
+    },
+    {
+      "pr": 128,
+      "head": "codex/avatar-overlay-small-categories",
+      "sha": "8b5b498fdc52102053916fb883298e6490a531f7",
+      "title": "Fix avatar overlay and add 176 sourced quiz questions"
+    },
+    {
+      "pr": 127,
+      "head": "codex/quiz-draft-20261006-small",
+      "sha": "d85f65d11c03ec8dac76e778c843917252074d08",
+      "title": "Draft: 25 geprüfte Quiz-Inhalte vom 6. Oktober"
+    },
+    {
+      "pr": 126,
+      "head": "codex/football-videogames-identity-20261005",
+      "sha": "10a3a2c6fda6df16e3006ebe97e2bfc3a58bb114",
+      "title": "Echte Fußballfakten, breitere Videospiele und „Wer ist das?“-Jeopardy"
+    },
+    {
+      "pr": 122,
+      "head": "codex/quiz-draft-20261005-small",
+      "sha": "1e830e15a0e644a04a496ab5439a50f67206f0fb",
+      "title": "Draft: 25 geprüfte Quiz-Inhalte mit neutralen SVGs und Quellenpipeline"
+    },
+    {
+      "pr": 109,
+      "head": "codex/settings-achievements-20261005",
+      "sha": "664f212cf1eb298ab08b5511fa7ab716f0a4eaf4",
+      "title": "Improve settings and profiles; add music collection, rewards and online stats"
+    },
+    {
+      "pr": 57,
+      "head": "fix-jeopardy-guest-answer-sync",
+      "sha": "19a59ad124a7dc98fb7b2a11af8ad7adb7a17e71",
+      "title": "Jeopardy: Gastantworten speichern und Host-Wertung synchronisieren"
+    }
+  ],
+  "all_patches_examined": true,
+  "squash_hits": 0,
+  "method": "All open PR diffs searched for subject/metric terminology; previous full content union reused only after verifying every recorded head SHA unchanged. PR144 has 100 different-category additions."
+}

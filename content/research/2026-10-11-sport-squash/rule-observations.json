@@ -1,0 +1,58 @@
+{
+  "7.1-after-warmup": {
+    "value": 1,
+    "source": "rules",
+    "section": "7.1",
+    "unit": "minutes",
+    "checked": "2026-10-11"
+  },
+  "7.1-between-games": {
+    "value": 2,
+    "source": "rules",
+    "section": "7.1",
+    "unit": "minutes",
+    "checked": "2026-10-11"
+  },
+  "13.2.4.1-initial-recovery": {
+    "value": 3,
+    "source": "rules",
+    "section": "13.2.4.1",
+    "unit": "minutes",
+    "checked": "2026-10-11"
+  },
+  "13.3.1.2-initial-blood-recovery": {
+    "value": 5,
+    "source": "rules",
+    "section": "13.3.1.2",
+    "unit": "minutes",
+    "checked": "2026-10-11"
+  },
+  "2.2-normal-target": {
+    "value": 11,
+    "source": "rules",
+    "section": "2.2",
+    "unit": "points",
+    "checked": "2026-10-11"
+  },
+  "4.1-total-warmup": {
+    "value": 4,
+    "source": "rules",
+    "section": "4.1",
+    "unit": "minutes",
+    "checked": "2026-10-11"
+  },
+  "2.3-normal-format": {
+    "value": 5,
+    "source": "rules",
+    "section": "2.3",
+    "unit": "games",
+    "checked": "2026-10-11"
+  },
+  "7.3-equipment-change": {
+    "value": 2,
+    "source": "rules",
+    "section": "7.3",
+    "unit": "minutes",
+    "checked": "2026-10-11"
+  }
+}
