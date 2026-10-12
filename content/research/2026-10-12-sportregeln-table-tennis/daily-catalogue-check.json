@@ -1,0 +1,11 @@
+{
+  "checked": "2026-10-12",
+  "account": "Marc",
+  "project_id": "rnwsbgzdrttqtivrwnxo",
+  "read_only": true,
+  "rows_total": 7187,
+  "game_counts": {"moreless": 4228, "estimate": 1507, "facts": 1452},
+  "matches": 0,
+  "query": "select game,count(*),count(*) filter (where concat(payload->>'q',' ',payload->>'s',' ',payload->>'l',' ',payload->>'r',' ',payload->>'source') ~* '(tischtennis|table tennis|ittf|aufschlag.*16|beschleunigungsregel)') from ml_private.daily_catalogue group by game",
+  "limits": "Gesamter Daily-Katalog über Fragen-, Aussagen-, Paar- und Quellenfelder thematisch durchsucht. Daily enthält keinen Jeopardy-Katalog. Keine Spieler-, Antwort- oder Profildaten gelesen; keine Schreiboperation."
+}

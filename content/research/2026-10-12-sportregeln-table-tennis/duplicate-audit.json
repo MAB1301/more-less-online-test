@@ -1,0 +1,8 @@
+{
+  "checked": "2026-10-12",
+  "main_unique_keys": 2236,
+  "draft_unique_keys": 20,
+  "exact_or_reversed_conflicts": [],
+  "semantic_review": "All 20 observation keys/cases manually separated; the two More/Less pairs use different dimensions and are unordered-pair checked. All 14 open PR diffs have zero bounded Tischtennis/ITTF subject hits.",
+  "limits": "Normalization catches exact prompts and reversed More/Less pairs, not every possible paraphrase; observation-key and targeted subject review cover the new rule cases."
+}

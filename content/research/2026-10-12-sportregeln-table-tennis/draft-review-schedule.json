@@ -1,0 +1,225 @@
+{
+  "policy": "Regelausgabe explizit; 90-Tage-Prüfung auf Folgeausgabe/Übergangsänderung. Keine automatische Freigabe.",
+  "records": [
+    {
+      "id": "ittf-20261012-playing-space-length",
+      "game": "moreless",
+      "source": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+      "verified": "2026-10-12",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ittf-20261012-playing-space-width",
+      "game": "moreless",
+      "source": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+      "verified": "2026-10-12",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ittf-20261012-table-length",
+      "game": "estimate",
+      "source": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+      "verified": "2026-10-12",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ittf-20261012-table-width",
+      "game": "estimate",
+      "source": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+      "verified": "2026-10-12",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ittf-20261012-table-height",
+      "game": "estimate",
+      "source": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+      "verified": "2026-10-12",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ittf-20261012-ball-diameter",
+      "game": "estimate",
+      "source": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+      "verified": "2026-10-12",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ittf-20261012-ball-weight",
+      "game": "facts",
+      "source": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+      "verified": "2026-10-12",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ittf-20261012-ball-material",
+      "game": "facts",
+      "source": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+      "verified": "2026-10-12",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ittf-20261012-blade-wood",
+      "game": "facts",
+      "source": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+      "verified": "2026-10-12",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ittf-20261012-net-height",
+      "game": "facts",
+      "source": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+      "verified": "2026-10-12",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ittf-20261012-standard-bounce",
+      "game": "facts",
+      "source": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+      "verified": "2026-10-12",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ittf-20261012-doubles-centre-line",
+      "game": "facts",
+      "source": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+      "verified": "2026-10-12",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ittf-20261012-game-target",
+      "game": "jeopardy",
+      "source": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+      "verified": "2026-10-12",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ittf-20261012-deuce-lead",
+      "game": "jeopardy",
+      "source": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+      "verified": "2026-10-12",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ittf-20261012-service-toss",
+      "game": "jeopardy",
+      "source": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+      "verified": "2026-10-12",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ittf-20261012-service-alternation",
+      "game": "jeopardy",
+      "source": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+      "verified": "2026-10-12",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ittf-20261012-match-games",
+      "game": "jeopardy",
+      "source": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+      "verified": "2026-10-12",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ittf-20261012-expedite-time",
+      "game": "jeopardy",
+      "source": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+      "verified": "2026-10-12",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ittf-20261012-expedite-returns",
+      "game": "jeopardy",
+      "source": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+      "verified": "2026-10-12",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ittf-20261012-between-games-interval",
+      "game": "jeopardy",
+      "source": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+      "verified": "2026-10-12",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-10",
+      "review_status": "draft-review-required"
+    }
+  ]
+}
