@@ -1,0 +1,29 @@
+{
+  "rules": {
+    "url": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+    "publisher": "International Table Tennis Federation (ITTF)",
+    "title": "ITTF Statutes 2026, Division 2: The Laws of Table Tennis",
+    "checked": "2026-10-12",
+    "data_year": 2026,
+    "primary": true,
+    "limits": "Maßgeblich ist die ausdrücklich als ITTF Statutes 2026 bezeichnete konsolidierte Ausgabe. Zahlen sind Regelgrenzen, keine gemessenen Leistungswerte. Die Übergangsseite zur neuen Constitution wird separat dokumentiert."
+  },
+  "document_index": {
+    "url": "https://documents.ittf.sport/document/389",
+    "publisher": "International Table Tennis Federation (ITTF)",
+    "title": "Official document record for ITTF Statutes 2026",
+    "checked": "2026-10-12",
+    "data_year": 2026,
+    "primary": true,
+    "limits": "Offizieller Dokumentdatensatz; inhaltliche Einzelwerte wurden im verlinkten Original-PDF geprüft."
+  },
+  "transition": {
+    "url": "https://www.ittf.com/statutes/",
+    "publisher": "International Table Tennis Federation (ITTF)",
+    "title": "ITTF Statutes transition notice",
+    "checked": "2026-10-12",
+    "data_year": 2026,
+    "primary": true,
+    "limits": "Die Constitution gilt laut ITTF seit 3. Mai 2026 vorrangig; die Statutes 2026 bleiben im Übergang anwendbar, soweit sie nicht ersetzt wurden oder widersprechen. Die verwendeten Spielregeln stehen weiterhin im offiziellen 2026-Dokument; künftige Ausgaben müssen erneut geprüft werden."
+  }
+}

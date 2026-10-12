@@ -1,0 +1,26 @@
+{
+  "checked": "2026-10-12",
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "all_open_pr_diffs_examined": true,
+  "open_pr_count": 14,
+  "pending_questions_considered": 880,
+  "subject_hits": 0,
+  "search": "\\b(ittf|tischtennis)\\b|table tennis|beschleunigungsregel|aufschlag.{0,20}16",
+  "prs": [
+    {"pr":145,"head":"codex/quiz-sport-squash-20261011","sha":"2e0ef40fead4bcf141bdfe255ef8065b115045f4"},
+    {"pr":144,"head":"codex/quiz-growth-20261010","sha":"7038c9d198b42fa051c66520545687e28240f2a3"},
+    {"pr":138,"head":"ui/overlay-polish","sha":"f5aa58edc4e6e4cbe5af9376f4e009806fc1c88f"},
+    {"pr":134,"head":"codex/playable-comparison-criteria-20261009","sha":"61b0f7b26fec96ad1d31dbd2d5837111a91fd606"},
+    {"pr":132,"head":"codex/quiz-weather-extremes-20261009","sha":"34e5cfcab8d7a405a938f771782da285d4993424"},
+    {"pr":131,"head":"codex/quiz-category-growth-20261008-evening","sha":"2d6b597117d6c7afbaf1366f2b7bcffa141dc358"},
+    {"pr":130,"head":"codex/quiz-draft-20261008-elements","sha":"e69d31400f884935634ebe21c73c423d3dfbda54"},
+    {"pr":129,"head":"codex/quiz-draft-20261007-trappist","sha":"54cfbd02ad9225c66d6b7e17f8326f354fac22ad"},
+    {"pr":128,"head":"codex/avatar-overlay-small-categories","sha":"8b5b498fdc52102053916fb883298e6490a531f7"},
+    {"pr":127,"head":"codex/quiz-draft-20261006-small","sha":"d85f65d11c03ec8dac76e778c843917252074d08"},
+    {"pr":126,"head":"codex/football-videogames-identity-20261005","sha":"10a3a2c6fda6df16e3006ebe97e2bfc3a58bb114"},
+    {"pr":122,"head":"codex/quiz-draft-20261005-small","sha":"1e830e15a0e644a04a496ab5439a50f67206f0fb"},
+    {"pr":109,"head":"codex/settings-achievements-20261005","sha":"664f212cf1eb298ab08b5511fa7ab716f0a4eaf4"},
+    {"pr":57,"head":"fix-jeopardy-guest-answer-sync","sha":"19a59ad124a7dc98fb7b2a11af8ad7adb7a17e71"}
+  ],
+  "limits": "Der vollständige normalisierte 860-Fragen-Snapshot des Vortags wurde erst nach erneuter SHA-Bestätigung wiederverwendet; PR #145 ergänzt 20 geprüfte Squash-Fragen. Anschließend wurden alle 14 vollständigen Diffs erneut mit enger Wortgrenze und semantischen Tischtennis-Begriffen geprüft."
+}

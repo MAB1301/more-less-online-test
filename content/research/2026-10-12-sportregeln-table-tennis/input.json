@@ -1,0 +1,67 @@
+{
+  "status": "review-only",
+  "checked": "2026-10-12",
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "questions": [
+    {
+      "game": "moreless", "id": "ittf-20261012-playing-space-length", "semantic_key": "playing-space-minimum-length-by-event", "cat": "Sportregeln", "subcategory": "Tischtennis · ITTF-Regeln 2026", "source_refs": ["rules", "transition"], "section": "3.2.3.1", "observation_keys": ["3.2.3.1-general-length", "3.2.3.1-wheelchair-length"], "data_year": 2026, "rounding": "Originalwerte in Metern, keine Umrechnung oder Rundung.", "notes": "Mindestlänge desselben international geregelten Spielraums; allgemeiner Regelraum gegen ausdrücklich reduzierte Mindestgröße für Rollstuhl-Veranstaltungen. Keine Leistungs-, Geschlechter- oder Disziplinwertung.", "l": "Tischtennis: allgemeiner internationaler Spielraum", "r": "Tischtennis: Spielraum bei Rollstuhl-Veranstaltungen", "lv": 14, "rv": 8, "u": "m · vorgeschriebene Mindestlänge (ITTF 2026)", "metric": "Mindestlänge des Spielraums"
+    },
+    {
+      "game": "moreless", "id": "ittf-20261012-playing-space-width", "semantic_key": "playing-space-minimum-width-by-event", "cat": "Sportregeln", "subcategory": "Tischtennis · ITTF-Regeln 2026", "source_refs": ["rules", "transition"], "section": "3.2.3.1", "observation_keys": ["3.2.3.1-general-width", "3.2.3.1-wheelchair-width"], "data_year": 2026, "rounding": "Originalwerte in Metern, keine Umrechnung oder Rundung.", "notes": "Mindestbreite desselben international geregelten Spielraums; allgemeiner Regelraum gegen ausdrücklich reduzierte Mindestgröße für Rollstuhl-Veranstaltungen. Keine Leistungs-, Geschlechter- oder Disziplinwertung.", "l": "Tischtennis: allgemeiner internationaler Spielraum", "r": "Tischtennis: Spielraum bei Rollstuhl-Veranstaltungen", "lv": 7, "rv": 6, "u": "m · vorgeschriebene Mindestbreite (ITTF 2026)", "metric": "Mindestbreite des Spielraums"
+    },
+    {
+      "game": "estimate", "id": "ittf-20261012-table-length", "semantic_key": "table-length", "cat": "Sportregeln", "subcategory": "Tischtennis · ITTF-Regeln 2026", "source_refs": ["rules", "transition"], "section": "2.1.1", "observation_keys": ["2.1.1-table-length"], "data_year": 2026, "rounding": "Exakter veröffentlichter Meterwert.", "notes": "Länge der rechteckigen Spielfläche, nicht des Spielraums.", "q": "Wie lang ist die Tischtennis-Spielfläche nach den ITTF-Regeln 2026?", "a": 2.74, "u": "m"
+    },
+    {
+      "game": "estimate", "id": "ittf-20261012-table-width", "semantic_key": "table-width", "cat": "Sportregeln", "subcategory": "Tischtennis · ITTF-Regeln 2026", "source_refs": ["rules", "transition"], "section": "2.1.1", "observation_keys": ["2.1.1-table-width"], "data_year": 2026, "rounding": "Exakter veröffentlichter Meterwert.", "notes": "Breite der rechteckigen Spielfläche, nicht des Spielraums.", "q": "Wie breit ist die Tischtennis-Spielfläche nach den ITTF-Regeln 2026?", "a": 1.525, "u": "m"
+    },
+    {
+      "game": "estimate", "id": "ittf-20261012-table-height", "semantic_key": "table-height", "cat": "Sportregeln", "subcategory": "Tischtennis · ITTF-Regeln 2026", "source_refs": ["rules", "transition"], "section": "2.1.1", "observation_keys": ["2.1.1-table-height"], "data_year": 2026, "rounding": "Exakter veröffentlichter Zentimeterwert.", "notes": "Höhe der waagerechten Spielfläche über dem Boden.", "q": "Wie hoch liegt die Tischtennis-Spielfläche nach den ITTF-Regeln 2026 über dem Boden?", "a": 76, "u": "cm"
+    },
+    {
+      "game": "estimate", "id": "ittf-20261012-ball-diameter", "semantic_key": "ball-diameter", "cat": "Sportregeln", "subcategory": "Tischtennis · ITTF-Regeln 2026", "source_refs": ["rules", "transition"], "section": "2.3.1", "observation_keys": ["2.3.1-ball-diameter"], "data_year": 2026, "rounding": "Exakter veröffentlichter Millimeterwert.", "notes": "Durchmesser des kugelförmigen Regelballs.", "q": "Welchen Durchmesser hat ein Tischtennis-Regelball nach ITTF 2026?", "a": 40, "u": "mm"
+    },
+    {
+      "game": "facts", "id": "ittf-20261012-ball-weight", "semantic_key": "ball-weight", "cat": "Sportregeln", "subcategory": "Tischtennis · ITTF-Regeln 2026", "source_refs": ["rules", "transition"], "section": "2.3.2", "observation_keys": ["2.3.2-ball-weight"], "data_year": 2026, "rounding": "Exakter veröffentlichter Grammwert.", "notes": "", "s": "Ein Tischtennis-Regelball wiegt nach ITTF 2026 2,7 Gramm.", "a": true, "e": "Regel 2.3.2 nennt 2,7 g.", "difficulty": "easy"
+    },
+    {
+      "game": "facts", "id": "ittf-20261012-ball-material", "semantic_key": "ball-material", "cat": "Sportregeln", "subcategory": "Tischtennis · ITTF-Regeln 2026", "source_refs": ["rules", "transition"], "section": "2.3.3", "observation_keys": ["2.3.3-plastic-material"], "data_year": 2026, "rounding": "Nicht numerisch.", "notes": "", "s": "Nach den ITTF-Regeln 2026 muss ein Tischtennisball aus Zelluloid bestehen.", "a": false, "e": "Regel 2.3.3 verlangt Kunststoff; Zelluloid wird dort nicht vorgeschrieben.", "difficulty": "easy"
+    },
+    {
+      "game": "facts", "id": "ittf-20261012-blade-wood", "semantic_key": "blade-natural-wood-share", "cat": "Sportregeln", "subcategory": "Tischtennis · ITTF-Regeln 2026", "source_refs": ["rules", "transition"], "section": "2.4.2", "observation_keys": ["2.4.2-natural-wood-share"], "data_year": 2026, "rounding": "Exakte Mindestquote nach Dicke.", "notes": "Bezieht sich auf den Schlägerkörper nach Dicke, nicht auf Masse oder Oberfläche.", "s": "Mindestens 85 Prozent der Dicke eines Tischtennis-Schlägerblatts müssen nach ITTF 2026 aus Naturholz bestehen.", "a": true, "e": "Regel 2.4.2 setzt mindestens 85 % Naturholz nach Dicke fest.", "difficulty": "medium"
+    },
+    {
+      "game": "facts", "id": "ittf-20261012-net-height", "semantic_key": "net-height", "cat": "Sportregeln", "subcategory": "Tischtennis · ITTF-Regeln 2026", "source_refs": ["rules", "transition"], "section": "2.2.3", "observation_keys": ["2.2.3-net-height"], "data_year": 2026, "rounding": "Exakter veröffentlichter Zentimeterwert.", "notes": "", "s": "Die Oberkante des Tischtennisnetzes liegt nach ITTF 2026 genau 10 Zentimeter über der Spielfläche.", "a": false, "e": "Regel 2.2.3 schreibt entlang der gesamten Länge 15,25 cm vor.", "difficulty": "medium"
+    },
+    {
+      "game": "facts", "id": "ittf-20261012-standard-bounce", "semantic_key": "standard-bounce-test", "cat": "Sportregeln", "subcategory": "Tischtennis · ITTF-Regeln 2026", "source_refs": ["rules", "transition"], "section": "2.1.3", "observation_keys": ["2.1.3-drop-and-bounce-test"], "data_year": 2026, "rounding": "ITTF formuliert den Rücksprung mit ungefähr 23 cm.", "notes": "Normtest der Spielfläche, keine Aussage zu jedem Ballwechsel.", "s": "Fällt ein Standardball aus 30 Zentimetern auf die Tischtennis-Spielfläche, soll er nach ITTF 2026 ungefähr 23 Zentimeter hoch zurückspringen.", "a": true, "e": "Regel 2.1.3 definiert genau diesen Gleichmäßigkeits-Test.", "difficulty": "hard"
+    },
+    {
+      "game": "facts", "id": "ittf-20261012-doubles-centre-line", "semantic_key": "doubles-centre-line-width", "cat": "Sportregeln", "subcategory": "Tischtennis · ITTF-Regeln 2026", "source_refs": ["rules", "transition"], "section": "2.1.6", "observation_keys": ["2.1.6-centre-line-width"], "data_year": 2026, "rounding": "Exakter veröffentlichter Millimeterwert.", "notes": "Doppellinie in der Mitte; nicht die 2 cm breiten Seiten- oder Endlinien.", "s": "Die weiße Mittellinie für Tischtennis-Doppel ist nach ITTF 2026 zwei Zentimeter breit.", "a": false, "e": "Regel 2.1.6 nennt 3 mm; 2 cm gelten für Seiten- und Endlinien.", "difficulty": "hard"
+    },
+    {
+      "game": "jeopardy", "id": "ittf-20261012-game-target", "semantic_key": "ordinary-game-target", "cat": "Sportregeln", "subcategory": "Tischtennis · ITTF-Regeln 2026", "source_refs": ["rules", "transition"], "section": "2.11.1", "observation_keys": ["2.11.1-first-to-eleven"], "data_year": 2026, "rounding": "Exakter Regelwert.", "notes": "Ausnahme 10:10 wird in eigener Frage behandelt.", "q": "Bis zu wie vielen Punkten wird ein Tischtennis-Satz normalerweise gespielt, solange es nicht 10:10 steht (ITTF 2026)?", "a": "11|elf", "difficulty": 1
+    },
+    {
+      "game": "jeopardy", "id": "ittf-20261012-deuce-lead", "semantic_key": "ten-all-required-lead", "cat": "Sportregeln", "subcategory": "Tischtennis · ITTF-Regeln 2026", "source_refs": ["rules", "transition"], "section": "2.11.1", "observation_keys": ["2.11.1-two-point-lead"], "data_year": 2026, "rounding": "Exakter Regelwert.", "notes": "Nur Vorsprung nach 10:10, nicht Gesamtpunktzahl.", "q": "Welchen Punktvorsprung braucht man nach 10:10 zum Satzgewinn im Tischtennis (ITTF 2026)?", "a": "2|zwei|zwei Punkte|2 Punkte", "difficulty": 1
+    },
+    {
+      "game": "jeopardy", "id": "ittf-20261012-service-toss", "semantic_key": "service-toss-minimum", "cat": "Sportregeln", "subcategory": "Tischtennis · ITTF-Regeln 2026", "source_refs": ["rules", "transition"], "section": "2.6.2", "observation_keys": ["2.6.2-toss-minimum"], "data_year": 2026, "rounding": "Exakter Mindestwert in Zentimetern.", "notes": "Vertikaler Anstieg nach Verlassen der freien Hand, nicht gesamte Flugbahn.", "q": "Wie hoch muss der Ball beim regelgerechten Tischtennis-Aufschlag mindestens aufsteigen, nachdem er die freie Hand verlassen hat (ITTF 2026)?", "a": "16 cm|16 Zentimeter|sechzehn Zentimeter|16", "difficulty": 2
+    },
+    {
+      "game": "jeopardy", "id": "ittf-20261012-service-alternation", "semantic_key": "ordinary-service-alternation", "cat": "Sportregeln", "subcategory": "Tischtennis · ITTF-Regeln 2026", "source_refs": ["rules", "transition"], "section": "2.13.3", "observation_keys": ["2.13.3-two-points-per-server"], "data_year": 2026, "rounding": "Exakter Regelwert.", "notes": "Normalfall vor 10:10 und ohne Beschleunigungssystem.", "q": "Nach wie vielen erzielten Punkten wechselt im normalen Tischtennis-Satz das Aufschlagrecht (ITTF 2026)?", "a": "2|zwei|zwei Punkten|2 Punkten", "difficulty": 2
+    },
+    {
+      "game": "jeopardy", "id": "ittf-20261012-match-games", "semantic_key": "match-odd-number-games", "cat": "Sportregeln", "subcategory": "Tischtennis · ITTF-Regeln 2026", "source_refs": ["rules", "transition"], "section": "2.12.1", "observation_keys": ["2.12.1-odd-number-games"], "data_year": 2026, "rounding": "Nicht numerisch festgelegt; gefragt ist die Parität.", "notes": "Die konkrete Satzanzahl kann je Wettbewerb variieren.", "q": "Aus einer geraden oder ungeraden Anzahl von Sätzen muss ein Tischtennis-Match im Best-of-Format bestehen (ITTF 2026)?", "a": "ungeraden|ungerade|eine ungerade Anzahl|ungerader Anzahl", "difficulty": 3
+    },
+    {
+      "game": "jeopardy", "id": "ittf-20261012-expedite-time", "semantic_key": "expedite-time-threshold", "cat": "Sportregeln", "subcategory": "Tischtennis · ITTF-Regeln 2026", "source_refs": ["rules", "transition"], "section": "2.15.1–2.15.2", "observation_keys": ["2.15.1-ten-minute-threshold"], "data_year": 2026, "rounding": "Exakter Minutenwert.", "notes": "Gilt nicht, wenn im Satz bereits mindestens 18 Punkte erzielt wurden; außerdem kann das System auf beiderseitigen Antrag früher beginnen.", "q": "Nach wie vielen Minuten Spielzeit setzt im Tischtennis grundsätzlich die Beschleunigungsregel ein, sofern noch keine 18 Punkte gefallen sind (ITTF 2026)?", "a": "10 Minuten|zehn Minuten|10", "difficulty": 3
+    },
+    {
+      "game": "jeopardy", "id": "ittf-20261012-expedite-returns", "semantic_key": "expedite-receiver-returns", "cat": "Sportregeln", "subcategory": "Tischtennis · ITTF-Regeln 2026", "source_refs": ["rules", "transition"], "section": "2.15.4", "observation_keys": ["2.15.4-thirteen-returns"], "data_year": 2026, "rounding": "Exakter Regelwert.", "notes": "Zählt korrekte Rückschläge des Rückschlägers im Ballwechsel unter dem Beschleunigungssystem.", "q": "Nach wie vielen korrekten Rückschlägen in einem Ballwechsel erhält der Rückschläger unter der Tischtennis-Beschleunigungsregel den Punkt (ITTF 2026)?", "a": "13|dreizehn|13 Rückschlägen|dreizehn Rückschlägen", "difficulty": 4
+    },
+    {
+      "game": "jeopardy", "id": "ittf-20261012-between-games-interval", "semantic_key": "between-games-interval", "cat": "Sportregeln", "subcategory": "Tischtennis · ITTF-Regeln 2026", "source_refs": ["rules", "transition"], "section": "3.4.4.1.1", "observation_keys": ["3.4.4.1.1-one-minute-interval"], "data_year": 2026, "rounding": "Exakter Höchstwert in Minuten.", "notes": "Pause zwischen aufeinanderfolgenden Sätzen eines Individualmatches, nicht Time-out oder Verletzungspause.", "q": "Wie lang darf die Pause zwischen zwei aufeinanderfolgenden Sätzen eines Tischtennis-Individualmatches höchstens sein (ITTF 2026)?", "a": "1 Minute|eine Minute|1|60 Sekunden", "difficulty": 4
+    }
+  ]
+}

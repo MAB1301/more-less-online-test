@@ -1,0 +1,14 @@
+{
+  "checked": "2026-10-12",
+  "definition": "Eindeutige per-game-Identitäten im aktuellen Main; Sportregeln ist die tatsächliche Jeopardy-Kategorie und wird nicht nach Sport umbenannt. Draft-Zahlen sind nicht veröffentlicht.",
+  "target": {
+    "category": "Sportregeln",
+    "main_before": {"moreless": 0, "estimate": 0, "facts": 0, "jeopardy": 20, "total": 20},
+    "other_open_drafts": {"moreless": 0, "estimate": 0, "facts": 0, "jeopardy": 0, "total": 0},
+    "added": {"moreless": 2, "estimate": 4, "facts": 6, "jeopardy": 8, "total": 20},
+    "after_main_plus_this_draft": {"moreless": 2, "estimate": 4, "facts": 6, "jeopardy": 28, "total": 40},
+    "after_including_all_drafts": {"moreless": 2, "estimate": 4, "facts": 6, "jeopardy": 28, "total": 40}
+  },
+  "run_target": {"category_labels_in_main_and_open_drafts": 37, "categories_completed_this_run": 1, "categories_with_zero_additions_this_run": 36, "missing_questions_against_20_per_category_run_target": 720},
+  "limits": "Main-Inventar mit allen tatsächlichen Spielbanken und Themenfiltern steht in main-inventory.json. Alte Fragen werden durch Zählen nicht nachträglich sachlich zertifiziert. More/Less und Schätzen benötigen in der App vor einer späteren Veröffentlichung eine bewusste Registrierung der neuen Kategorie/Unterkategorie."
+}
