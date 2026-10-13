@@ -1,0 +1,13 @@
+{
+  "checked": "2026-10-13",
+  "project": "rnwsbgzdrttqtivrwnxo",
+  "account": "Marc",
+  "table": "ml_private.daily_catalogue",
+  "mode": "read-only",
+  "rows_total": 7187,
+  "rows_by_game": {"moreless": 4228, "estimate": 1507, "facts": 1452},
+  "query_terms": ["Arbeitszeitgesetz", "ArbZG", "Bundesurlaubsgesetz", "BUrlG", "Jugendarbeitsschutz", "JArbSchG", "Betriebsrat", "BetrVG", "Berufsbildungsgesetz", "BBiG", "Mindestlohnkommission", "Mutterschutzgesetz", "MuSchG", "Arbeitsschutzgesetz", "Gefährdungsbeurteilung"],
+  "matches": 0,
+  "database_writes": 0,
+  "limitations": "Der Daily-Katalog enthält More/Less, Schätzen und Fakt/Fake, aber keinen Jeopardy-Bestand. Gesucht wurde in den verfügbaren Text- und Quellenfeldern; semantische Dubletten ohne die Begriffe werden zusätzlich gegen Main und Beobachtungsschlüssel geprüft."
+}

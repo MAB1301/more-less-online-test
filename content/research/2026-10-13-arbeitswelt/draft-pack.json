@@ -1,0 +1,708 @@
+{
+  "status": "review-only",
+  "verified": "2026-10-13",
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "images": {
+    "workplace-neutral": {
+      "card": "visuals/workplace-neutral-card.svg",
+      "detail": "visuals/workplace-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstrakter Arbeitsplatz mit Laptop, Dokument, Helm und Pflanze; ohne Zahlen, Paragraphen, Gesetzesnamen oder Lösungshinweise. Jeopardy-Zeilen haben keinen Bildschlüssel."
+    },
+    "Regel-Höchstzeit pro Werktag": {
+      "card": "visuals/workplace-neutral-card.svg",
+      "detail": "visuals/workplace-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstrakter Arbeitsplatz mit Laptop, Dokument, Helm und Pflanze; ohne Zahlen, Paragraphen, Gesetzesnamen oder Lösungshinweise. Jeopardy-Zeilen haben keinen Bildschlüssel."
+    },
+    "Bedingte Verlängerung pro Werktag": {
+      "card": "visuals/workplace-neutral-card.svg",
+      "detail": "visuals/workplace-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstrakter Arbeitsplatz mit Laptop, Dokument, Helm und Pflanze; ohne Zahlen, Paragraphen, Gesetzesnamen oder Lösungshinweise. Jeopardy-Zeilen haben keinen Bildschlüssel."
+    },
+    "Mindesturlaub nach Bundesurlaubsgesetz": {
+      "card": "visuals/workplace-neutral-card.svg",
+      "detail": "visuals/workplace-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstrakter Arbeitsplatz mit Laptop, Dokument, Helm und Pflanze; ohne Zahlen, Paragraphen, Gesetzesnamen oder Lösungshinweise. Jeopardy-Zeilen haben keinen Bildschlüssel."
+    },
+    "Mindesturlaub: zu Jahresbeginn noch unter 16": {
+      "card": "visuals/workplace-neutral-card.svg",
+      "detail": "visuals/workplace-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstrakter Arbeitsplatz mit Laptop, Dokument, Helm und Pflanze; ohne Zahlen, Paragraphen, Gesetzesnamen oder Lösungshinweise. Jeopardy-Zeilen haben keinen Bildschlüssel."
+    }
+  },
+  "moreless": [
+    {
+      "id": "work-20261013-daily-hours",
+      "semantic_key": "arbzg-standard-vs-conditional-daily-hours",
+      "cat": "Arbeitswelt",
+      "subcategory": "Deutsches Arbeitsrecht · Stand 2026",
+      "source_refs": [
+        "arbzg3"
+      ],
+      "section": "ArbZG § 3",
+      "observation_keys": [
+        "arbzg3-standard-day",
+        "arbzg3-conditional-day"
+      ],
+      "data_year": 2026,
+      "rounding": "Gesetzliche Originalwerte in Stunden; keine Rundung.",
+      "notes": "Beide Werte betreffen dieselbe werktägliche Arbeitszeit. Zehn Stunden sind nur bei dem in § 3 genannten Ausgleich zulässig; Sonder- und Tarifregeln bleiben unberührt.",
+      "l": "Regel-Höchstzeit pro Werktag",
+      "r": "Bedingte Verlängerung pro Werktag",
+      "lv": 8,
+      "rv": 10,
+      "u": "Stunden · ArbZG § 3",
+      "metric": "werktägliche Arbeitszeit",
+      "status": "draft",
+      "verified": "2026-10-13",
+      "source": "https://www.gesetze-im-internet.de/arbzg/__3.html",
+      "sources": [
+        "https://www.gesetze-im-internet.de/arbzg/__3.html"
+      ],
+      "sets": [
+        "Arbeitswelt · deutsches Arbeitsrecht · Stand 2026"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2026 bezeichnet den am 13.10.2026 geprüften Gesetzesstand; Änderungen sind möglich.",
+      "visual": "workplace-neutral",
+      "subject": "workplace-neutral"
+    },
+    {
+      "id": "work-20261013-minimum-leave",
+      "semantic_key": "statutory-minimum-leave-workdays",
+      "cat": "Arbeitswelt",
+      "subcategory": "Deutsches Arbeitsrecht · Stand 2026",
+      "source_refs": [
+        "burlg3",
+        "jarbschg19"
+      ],
+      "section": "BUrlG § 3; JArbSchG § 19 Abs. 2 Nr. 1",
+      "observation_keys": [
+        "burlg3-minimum",
+        "jarbschg19-under16"
+      ],
+      "data_year": 2026,
+      "rounding": "Gesetzliche Originalwerte in Werktagen; keine Umrechnung auf eine Fünf-Tage-Woche.",
+      "notes": "Gleiche Einheit Werktage und jährlicher Mindesturlaub. Der Jugendwert gilt, wenn die Person zu Beginn des Kalenderjahres noch nicht 16 Jahre alt ist.",
+      "l": "Mindesturlaub nach Bundesurlaubsgesetz",
+      "r": "Mindesturlaub: zu Jahresbeginn noch unter 16",
+      "lv": 24,
+      "rv": 30,
+      "u": "Werktage pro Jahr",
+      "metric": "gesetzlicher Mindesturlaub",
+      "status": "draft",
+      "verified": "2026-10-13",
+      "source": "https://www.gesetze-im-internet.de/burlg/__3.html",
+      "sources": [
+        "https://www.gesetze-im-internet.de/burlg/__3.html",
+        "https://www.gesetze-im-internet.de/jarbschg/__19.html"
+      ],
+      "sets": [
+        "Arbeitswelt · deutsches Arbeitsrecht · Stand 2026"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2026 bezeichnet den am 13.10.2026 geprüften Gesetzesstand; Änderungen sind möglich.",
+      "visual": "workplace-neutral",
+      "subject": "workplace-neutral"
+    }
+  ],
+  "estimate": [
+    {
+      "id": "work-20261013-rest-hours",
+      "semantic_key": "arbzg-uninterrupted-rest-hours",
+      "cat": "Arbeitswelt",
+      "subcategory": "Deutsches Arbeitsrecht · Stand 2026",
+      "source_refs": [
+        "arbzg5"
+      ],
+      "section": "ArbZG § 5 Abs. 1",
+      "observation_keys": [
+        "arbzg5-rest"
+      ],
+      "data_year": 2026,
+      "rounding": "Gesetzlicher Originalwert in Stunden.",
+      "notes": "Grundsatz; die gesetzlich geregelten Ausnahmen werden nicht abgefragt.",
+      "q": "Wie viele Stunden ununterbrochene Ruhezeit müssen Beschäftigte nach Ende der täglichen Arbeitszeit grundsätzlich mindestens haben?",
+      "a": 11,
+      "u": "Stunden",
+      "status": "draft",
+      "verified": "2026-10-13",
+      "source": "https://www.gesetze-im-internet.de/arbzg/__5.html",
+      "sources": [
+        "https://www.gesetze-im-internet.de/arbzg/__5.html"
+      ],
+      "sets": [
+        "Arbeitswelt · deutsches Arbeitsrecht · Stand 2026"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2026 bezeichnet den am 13.10.2026 geprüften Gesetzesstand; Änderungen sind möglich.",
+      "visual": "workplace-neutral",
+      "subject": "workplace-neutral"
+    },
+    {
+      "id": "work-20261013-break-minutes",
+      "semantic_key": "arbzg-break-over-six-to-nine-hours",
+      "cat": "Arbeitswelt",
+      "subcategory": "Deutsches Arbeitsrecht · Stand 2026",
+      "source_refs": [
+        "arbzg4"
+      ],
+      "section": "ArbZG § 4",
+      "observation_keys": [
+        "arbzg4-break"
+      ],
+      "data_year": 2026,
+      "rounding": "Gesetzlicher Originalwert in Minuten.",
+      "notes": "Gilt bei mehr als sechs bis zu neun Stunden Arbeitszeit; bei mehr als neun Stunden gelten 45 Minuten.",
+      "q": "Wie viele Minuten Ruhepause sind bei mehr als sechs bis zu neun Stunden Arbeitszeit mindestens vorgeschrieben?",
+      "a": 30,
+      "u": "Minuten",
+      "status": "draft",
+      "verified": "2026-10-13",
+      "source": "https://www.gesetze-im-internet.de/arbzg/__4.html",
+      "sources": [
+        "https://www.gesetze-im-internet.de/arbzg/__4.html"
+      ],
+      "sets": [
+        "Arbeitswelt · deutsches Arbeitsrecht · Stand 2026"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2026 bezeichnet den am 13.10.2026 geprüften Gesetzesstand; Änderungen sind möglich.",
+      "visual": "workplace-neutral",
+      "subject": "workplace-neutral"
+    },
+    {
+      "id": "work-20261013-works-council-voting-age",
+      "semantic_key": "betrvg-voting-age",
+      "cat": "Arbeitswelt",
+      "subcategory": "Deutsches Arbeitsrecht · Stand 2026",
+      "source_refs": [
+        "betrvg7"
+      ],
+      "section": "BetrVG § 7",
+      "observation_keys": [
+        "betrvg7-voting-age"
+      ],
+      "data_year": 2026,
+      "rounding": "Gesetzlicher Originalwert als vollendetes Lebensjahr.",
+      "notes": "Bezieht sich auf die Wahlberechtigung zur Betriebsratswahl, nicht auf die Wählbarkeit.",
+      "q": "Ab welchem vollendeten Lebensjahr sind Arbeitnehmer nach dem Betriebsverfassungsgesetz grundsätzlich wahlberechtigt?",
+      "a": 16,
+      "u": "Jahre",
+      "status": "draft",
+      "verified": "2026-10-13",
+      "source": "https://www.gesetze-im-internet.de/betrvg/__7.html",
+      "sources": [
+        "https://www.gesetze-im-internet.de/betrvg/__7.html"
+      ],
+      "sets": [
+        "Arbeitswelt · deutsches Arbeitsrecht · Stand 2026"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2026 bezeichnet den am 13.10.2026 geprüften Gesetzesstand; Änderungen sind möglich.",
+      "visual": "workplace-neutral",
+      "subject": "workplace-neutral"
+    },
+    {
+      "id": "work-20261013-apprentice-probation-max",
+      "semantic_key": "bbig-probation-maximum",
+      "cat": "Arbeitswelt",
+      "subcategory": "Deutsches Arbeitsrecht · Stand 2026",
+      "source_refs": [
+        "bbig20"
+      ],
+      "section": "BBiG § 20",
+      "observation_keys": [
+        "bbig20-probation-max"
+      ],
+      "data_year": 2026,
+      "rounding": "Gesetzlicher Originalwert in Monaten.",
+      "notes": "Höchstdauer im Berufsausbildungsverhältnis; die Mindestdauer beträgt einen Monat.",
+      "q": "Wie viele Monate darf die Probezeit eines Berufsausbildungsverhältnisses höchstens dauern?",
+      "a": 4,
+      "u": "Monate",
+      "status": "draft",
+      "verified": "2026-10-13",
+      "source": "https://www.gesetze-im-internet.de/bbig_2005/__20.html",
+      "sources": [
+        "https://www.gesetze-im-internet.de/bbig_2005/__20.html"
+      ],
+      "sets": [
+        "Arbeitswelt · deutsches Arbeitsrecht · Stand 2026"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2026 bezeichnet den am 13.10.2026 geprüften Gesetzesstand; Änderungen sind möglich.",
+      "visual": "workplace-neutral",
+      "subject": "workplace-neutral"
+    }
+  ],
+  "facts": [
+    {
+      "id": "work-20261013-break-split",
+      "semantic_key": "arbzg-break-block-minimum",
+      "cat": "Arbeitswelt",
+      "subcategory": "Deutsches Arbeitsrecht · Stand 2026",
+      "source_refs": [
+        "arbzg4"
+      ],
+      "section": "ArbZG § 4 Satz 2",
+      "observation_keys": [
+        "arbzg4-split-15"
+      ],
+      "data_year": 2026,
+      "rounding": "Gesetzlicher Originalwert; keine Rundung.",
+      "notes": "Aussage betrifft die Aufteilung vorgeschriebener Ruhepausen.",
+      "s": "Vorgeschriebene Ruhepausen dürfen nach dem Arbeitszeitgesetz in Abschnitte von jeweils mindestens 15 Minuten aufgeteilt werden.",
+      "a": true,
+      "e": "§ 4 ArbZG erlaubt die Aufteilung in Zeitabschnitte von jeweils mindestens 15 Minuten.",
+      "difficulty": "easy",
+      "status": "draft",
+      "verified": "2026-10-13",
+      "source": "https://www.gesetze-im-internet.de/arbzg/__4.html",
+      "sources": [
+        "https://www.gesetze-im-internet.de/arbzg/__4.html"
+      ],
+      "sets": [
+        "Arbeitswelt · deutsches Arbeitsrecht · Stand 2026"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2026 bezeichnet den am 13.10.2026 geprüften Gesetzesstand; Änderungen sind möglich.",
+      "visual": "workplace-neutral",
+      "subject": "workplace-neutral"
+    },
+    {
+      "id": "work-20261013-full-leave-after-three-months",
+      "semantic_key": "burlg-full-leave-waiting-period",
+      "cat": "Arbeitswelt",
+      "subcategory": "Deutsches Arbeitsrecht · Stand 2026",
+      "source_refs": [
+        "burlg4"
+      ],
+      "section": "BUrlG § 4",
+      "observation_keys": [
+        "burlg4-six-month-wait"
+      ],
+      "data_year": 2026,
+      "rounding": "Nicht numerisch gerundet.",
+      "notes": "Gefragt ist der erstmalige volle gesetzliche Urlaubsanspruch, nicht ein möglicher Teilurlaub.",
+      "s": "Der volle gesetzliche Urlaubsanspruch entsteht erstmals nach drei Monaten Beschäftigung.",
+      "a": false,
+      "e": "§ 4 BUrlG nennt sechs Monate, nicht drei.",
+      "difficulty": "easy",
+      "status": "draft",
+      "verified": "2026-10-13",
+      "source": "https://www.gesetze-im-internet.de/burlg/__4.html",
+      "sources": [
+        "https://www.gesetze-im-internet.de/burlg/__4.html"
+      ],
+      "sets": [
+        "Arbeitswelt · deutsches Arbeitsrecht · Stand 2026"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2026 bezeichnet den am 13.10.2026 geprüften Gesetzesstand; Änderungen sind möglich.",
+      "visual": "workplace-neutral",
+      "subject": "workplace-neutral"
+    },
+    {
+      "id": "work-20261013-sunday-ban",
+      "semantic_key": "arbzg-sunday-holiday-general-ban",
+      "cat": "Arbeitswelt",
+      "subcategory": "Deutsches Arbeitsrecht · Stand 2026",
+      "source_refs": [
+        "arbzg9"
+      ],
+      "section": "ArbZG § 9 Abs. 1",
+      "observation_keys": [
+        "arbzg9-general-ban"
+      ],
+      "data_year": 2026,
+      "rounding": "Nicht numerisch.",
+      "notes": "Grundregel; § 10 und weitere Vorschriften enthalten Ausnahmen.",
+      "s": "Nach dem Arbeitszeitgesetz gilt grundsätzlich ein Beschäftigungsverbot an Sonn- und gesetzlichen Feiertagen von 0 bis 24 Uhr.",
+      "a": true,
+      "e": "§ 9 Abs. 1 ArbZG formuliert diese Grundregel; gesetzliche Ausnahmen bleiben möglich.",
+      "difficulty": "medium",
+      "status": "draft",
+      "verified": "2026-10-13",
+      "source": "https://www.gesetze-im-internet.de/arbzg/__9.html",
+      "sources": [
+        "https://www.gesetze-im-internet.de/arbzg/__9.html"
+      ],
+      "sets": [
+        "Arbeitswelt · deutsches Arbeitsrecht · Stand 2026"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2026 bezeichnet den am 13.10.2026 geprüften Gesetzesstand; Änderungen sind möglich.",
+      "visual": "workplace-neutral",
+      "subject": "workplace-neutral"
+    },
+    {
+      "id": "work-20261013-council-meeting-public",
+      "semantic_key": "betrvg-council-meeting-publicity",
+      "cat": "Arbeitswelt",
+      "subcategory": "Deutsches Arbeitsrecht · Stand 2026",
+      "source_refs": [
+        "betrvg30"
+      ],
+      "section": "BetrVG § 30 Abs. 1",
+      "observation_keys": [
+        "betrvg30-non-public"
+      ],
+      "data_year": 2026,
+      "rounding": "Nicht numerisch.",
+      "notes": "Betrifft Betriebsratssitzungen.",
+      "s": "Sitzungen des Betriebsrats sind grundsätzlich öffentlich.",
+      "a": false,
+      "e": "§ 30 Abs. 1 BetrVG bestimmt ausdrücklich, dass Betriebsratssitzungen nicht öffentlich sind.",
+      "difficulty": "medium",
+      "status": "draft",
+      "verified": "2026-10-13",
+      "source": "https://www.gesetze-im-internet.de/betrvg/__30.html",
+      "sources": [
+        "https://www.gesetze-im-internet.de/betrvg/__30.html"
+      ],
+      "sets": [
+        "Arbeitswelt · deutsches Arbeitsrecht · Stand 2026"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2026 bezeichnet den am 13.10.2026 geprüften Gesetzesstand; Änderungen sind möglich.",
+      "visual": "workplace-neutral",
+      "subject": "workplace-neutral"
+    },
+    {
+      "id": "work-20261013-agg-age",
+      "semantic_key": "agg-protected-age",
+      "cat": "Arbeitswelt",
+      "subcategory": "Deutsches Arbeitsrecht · Stand 2026",
+      "source_refs": [
+        "agg1"
+      ],
+      "section": "AGG § 1",
+      "observation_keys": [
+        "agg1-age-ground"
+      ],
+      "data_year": 2026,
+      "rounding": "Nicht numerisch.",
+      "notes": "Gefragt ist der Wortlaut der in § 1 genannten Gründe.",
+      "s": "Das Alter gehört zu den in § 1 AGG ausdrücklich genannten Gründen, wegen derer Benachteiligungen verhindert oder beseitigt werden sollen.",
+      "a": true,
+      "e": "§ 1 AGG nennt unter anderem das Alter.",
+      "difficulty": "hard",
+      "status": "draft",
+      "verified": "2026-10-13",
+      "source": "https://www.gesetze-im-internet.de/agg/__1.html",
+      "sources": [
+        "https://www.gesetze-im-internet.de/agg/__1.html"
+      ],
+      "sets": [
+        "Arbeitswelt · deutsches Arbeitsrecht · Stand 2026"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2026 bezeichnet den am 13.10.2026 geprüften Gesetzesstand; Änderungen sind möglich.",
+      "visual": "workplace-neutral",
+      "subject": "workplace-neutral"
+    },
+    {
+      "id": "work-20261013-safety-costs",
+      "semantic_key": "arbschg-cost-shifting",
+      "cat": "Arbeitswelt",
+      "subcategory": "Deutsches Arbeitsrecht · Stand 2026",
+      "source_refs": [
+        "arbschg3"
+      ],
+      "section": "ArbSchG § 3 Abs. 3",
+      "observation_keys": [
+        "arbschg3-no-cost-transfer"
+      ],
+      "data_year": 2026,
+      "rounding": "Nicht numerisch.",
+      "notes": "Betrifft Kosten für Maßnahmen nach dem Arbeitsschutzgesetz.",
+      "s": "Arbeitgeber dürfen die Kosten vorgeschriebener Arbeitsschutzmaßnahmen auf die Beschäftigten umlegen.",
+      "a": false,
+      "e": "§ 3 Abs. 3 ArbSchG verbietet, diese Kosten den Beschäftigten aufzuerlegen.",
+      "difficulty": "hard",
+      "status": "draft",
+      "verified": "2026-10-13",
+      "source": "https://www.gesetze-im-internet.de/arbschg/__3.html",
+      "sources": [
+        "https://www.gesetze-im-internet.de/arbschg/__3.html"
+      ],
+      "sets": [
+        "Arbeitswelt · deutsches Arbeitsrecht · Stand 2026"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2026 bezeichnet den am 13.10.2026 geprüften Gesetzesstand; Änderungen sind möglich.",
+      "visual": "workplace-neutral",
+      "subject": "workplace-neutral"
+    }
+  ],
+  "jeopardy": [
+    {
+      "id": "work-20261013-employee-representation",
+      "semantic_key": "betrvg-employee-representation-name",
+      "cat": "Arbeitswelt",
+      "subcategory": "Deutsches Arbeitsrecht · Stand 2026",
+      "source_refs": [
+        "betrvg1"
+      ],
+      "section": "BetrVG § 1",
+      "observation_keys": [
+        "betrvg1-works-council"
+      ],
+      "data_year": 2026,
+      "rounding": "Nicht numerisch.",
+      "notes": "Gesucht ist die betriebliche Interessenvertretung nach dem BetrVG.",
+      "q": "Wie heißt die nach dem Betriebsverfassungsgesetz gewählte Interessenvertretung der Arbeitnehmer im Betrieb?",
+      "a": "Betriebsrat|der Betriebsrat",
+      "difficulty": 1,
+      "status": "draft",
+      "verified": "2026-10-13",
+      "source": "https://www.gesetze-im-internet.de/betrvg/__1.html",
+      "sources": [
+        "https://www.gesetze-im-internet.de/betrvg/__1.html"
+      ],
+      "sets": [
+        "Arbeitswelt · deutsches Arbeitsrecht · Stand 2026"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2026 bezeichnet den am 13.10.2026 geprüften Gesetzesstand; Änderungen sind möglich.",
+      "visual": null
+    },
+    {
+      "id": "work-20261013-risk-assessment",
+      "semantic_key": "arbschg-risk-assessment-term",
+      "cat": "Arbeitswelt",
+      "subcategory": "Deutsches Arbeitsrecht · Stand 2026",
+      "source_refs": [
+        "arbschg5"
+      ],
+      "section": "ArbSchG § 5",
+      "observation_keys": [
+        "arbschg5-risk-assessment"
+      ],
+      "data_year": 2026,
+      "rounding": "Nicht numerisch.",
+      "notes": "Übliche Kurzbezeichnung für die gesetzlich verlangte Beurteilung der Gefährdungen.",
+      "q": "Wie heißt die systematische Beurteilung arbeitsbedingter Gefährdungen nach § 5 ArbSchG?",
+      "a": "Gefährdungsbeurteilung|Beurteilung der Arbeitsbedingungen",
+      "difficulty": 1,
+      "status": "draft",
+      "verified": "2026-10-13",
+      "source": "https://www.gesetze-im-internet.de/arbschg/__5.html",
+      "sources": [
+        "https://www.gesetze-im-internet.de/arbschg/__5.html"
+      ],
+      "sets": [
+        "Arbeitswelt · deutsches Arbeitsrecht · Stand 2026"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2026 bezeichnet den am 13.10.2026 geprüften Gesetzesstand; Änderungen sind möglich.",
+      "visual": null
+    },
+    {
+      "id": "work-20261013-minimum-wage-body",
+      "semantic_key": "milog-adjustment-body",
+      "cat": "Arbeitswelt",
+      "subcategory": "Deutsches Arbeitsrecht · Stand 2026",
+      "source_refs": [
+        "milog9"
+      ],
+      "section": "MiLoG § 9",
+      "observation_keys": [
+        "milog9-commission"
+      ],
+      "data_year": 2026,
+      "rounding": "Nicht numerisch.",
+      "notes": "Gesucht ist das gesetzlich benannte Gremium, nicht die Bundesregierung.",
+      "q": "Welches Gremium beschließt nach dem Mindestlohngesetz über Anpassungen der Mindestlohnhöhe?",
+      "a": "Mindestlohnkommission|die Mindestlohnkommission",
+      "difficulty": 2,
+      "status": "draft",
+      "verified": "2026-10-13",
+      "source": "https://www.gesetze-im-internet.de/milog/__9.html",
+      "sources": [
+        "https://www.gesetze-im-internet.de/milog/__9.html"
+      ],
+      "sets": [
+        "Arbeitswelt · deutsches Arbeitsrecht · Stand 2026"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2026 bezeichnet den am 13.10.2026 geprüften Gesetzesstand; Änderungen sind möglich.",
+      "visual": null
+    },
+    {
+      "id": "work-20261013-bbig-name",
+      "semantic_key": "bbig-full-name",
+      "cat": "Arbeitswelt",
+      "subcategory": "Deutsches Arbeitsrecht · Stand 2026",
+      "source_refs": [
+        "bbig20"
+      ],
+      "section": "BBiG",
+      "observation_keys": [
+        "bbig-full-name"
+      ],
+      "data_year": 2026,
+      "rounding": "Nicht numerisch.",
+      "notes": "Gesucht ist die Langform der amtlichen Abkürzung.",
+      "q": "Wofür steht die Abkürzung BBiG?",
+      "a": "Berufsbildungsgesetz|das Berufsbildungsgesetz",
+      "difficulty": 2,
+      "status": "draft",
+      "verified": "2026-10-13",
+      "source": "https://www.gesetze-im-internet.de/bbig_2005/__20.html",
+      "sources": [
+        "https://www.gesetze-im-internet.de/bbig_2005/__20.html"
+      ],
+      "sets": [
+        "Arbeitswelt · deutsches Arbeitsrecht · Stand 2026"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2026 bezeichnet den am 13.10.2026 geprüften Gesetzesstand; Änderungen sind möglich.",
+      "visual": null
+    },
+    {
+      "id": "work-20261013-youth-workdays",
+      "semantic_key": "jarbschg-five-day-week",
+      "cat": "Arbeitswelt",
+      "subcategory": "Deutsches Arbeitsrecht · Stand 2026",
+      "source_refs": [
+        "jarbschg15"
+      ],
+      "section": "JArbSchG § 15",
+      "observation_keys": [
+        "jarbschg15-five-days"
+      ],
+      "data_year": 2026,
+      "rounding": "Gesetzlicher Originalwert.",
+      "notes": "Grundsatz der Fünf-Tage-Woche; gesetzliche Ausnahmen und Ausgleichsregeln bleiben unberührt.",
+      "q": "An wie vielen Tagen pro Woche dürfen Jugendliche nach § 15 JArbSchG grundsätzlich höchstens beschäftigt werden?",
+      "a": "5|fünf|fünf Tage|5 Tage",
+      "difficulty": 3,
+      "status": "draft",
+      "verified": "2026-10-13",
+      "source": "https://www.gesetze-im-internet.de/jarbschg/__15.html",
+      "sources": [
+        "https://www.gesetze-im-internet.de/jarbschg/__15.html"
+      ],
+      "sets": [
+        "Arbeitswelt · deutsches Arbeitsrecht · Stand 2026"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2026 bezeichnet den am 13.10.2026 geprüften Gesetzesstand; Änderungen sind möglich.",
+      "visual": null
+    },
+    {
+      "id": "work-20261013-maternity-protection",
+      "semantic_key": "muschg-standard-post-birth-period",
+      "cat": "Arbeitswelt",
+      "subcategory": "Deutsches Arbeitsrecht · Stand 2026",
+      "source_refs": [
+        "muschg3"
+      ],
+      "section": "MuSchG § 3 Abs. 2",
+      "observation_keys": [
+        "muschg3-eight-weeks"
+      ],
+      "data_year": 2026,
+      "rounding": "Gesetzlicher Originalwert in Wochen.",
+      "notes": "Gefragt ist die reguläre Schutzfrist; besondere Fälle verlängern sie auf zwölf Wochen.",
+      "q": "Wie viele Wochen beträgt die reguläre Schutzfrist nach der Entbindung nach § 3 MuSchG?",
+      "a": "8|acht|acht Wochen|8 Wochen",
+      "difficulty": 3,
+      "status": "draft",
+      "verified": "2026-10-13",
+      "source": "https://www.gesetze-im-internet.de/muschg_2018/__3.html",
+      "sources": [
+        "https://www.gesetze-im-internet.de/muschg_2018/__3.html"
+      ],
+      "sets": [
+        "Arbeitswelt · deutsches Arbeitsrecht · Stand 2026"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2026 bezeichnet den am 13.10.2026 geprüften Gesetzesstand; Änderungen sind möglich.",
+      "visual": null
+    },
+    {
+      "id": "work-20261013-council-threshold",
+      "semantic_key": "betrvg-minimum-employees",
+      "cat": "Arbeitswelt",
+      "subcategory": "Deutsches Arbeitsrecht · Stand 2026",
+      "source_refs": [
+        "betrvg1"
+      ],
+      "section": "BetrVG § 1 Abs. 1",
+      "observation_keys": [
+        "betrvg1-five-employees"
+      ],
+      "data_year": 2026,
+      "rounding": "Gesetzlicher Originalwert.",
+      "notes": "Mindestens fünf ständige wahlberechtigte Arbeitnehmer; drei von ihnen müssen wählbar sein.",
+      "q": "Wie viele ständige wahlberechtigte Arbeitnehmer muss ein Betrieb nach § 1 BetrVG mindestens haben, damit Betriebsräte gewählt werden können?",
+      "a": "5|fünf|fünf Arbeitnehmer|5 Arbeitnehmer",
+      "difficulty": 4,
+      "status": "draft",
+      "verified": "2026-10-13",
+      "source": "https://www.gesetze-im-internet.de/betrvg/__1.html",
+      "sources": [
+        "https://www.gesetze-im-internet.de/betrvg/__1.html"
+      ],
+      "sets": [
+        "Arbeitswelt · deutsches Arbeitsrecht · Stand 2026"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2026 bezeichnet den am 13.10.2026 geprüften Gesetzesstand; Änderungen sind möglich.",
+      "visual": null
+    },
+    {
+      "id": "work-20261013-agg-ground-count",
+      "semantic_key": "agg-protected-ground-count",
+      "cat": "Arbeitswelt",
+      "subcategory": "Deutsches Arbeitsrecht · Stand 2026",
+      "source_refs": [
+        "agg1"
+      ],
+      "section": "AGG § 1",
+      "observation_keys": [
+        "agg1-six-grounds"
+      ],
+      "data_year": 2026,
+      "rounding": "Gezählt werden die sechs grammatisch abgegrenzten Gruppen in § 1; ‚Rasse oder ethnische Herkunft‘ bildet eine Gruppe.",
+      "notes": "Die Zählweise folgt den sechs im Gesetz als Gruppen aufgezählten Gründen.",
+      "q": "Wie viele Gruppen geschützter Gründe zählt § 1 AGG auf?",
+      "a": "6|sechs|sechs Gruppen|6 Gruppen",
+      "difficulty": 4,
+      "status": "draft",
+      "verified": "2026-10-13",
+      "source": "https://www.gesetze-im-internet.de/agg/__1.html",
+      "sources": [
+        "https://www.gesetze-im-internet.de/agg/__1.html"
+      ],
+      "sets": [
+        "Arbeitswelt · deutsches Arbeitsrecht · Stand 2026"
+      ],
+      "time_dependent": true,
+      "data_year_note": "2026 bezeichnet den am 13.10.2026 geprüften Gesetzesstand; Änderungen sind möglich.",
+      "visual": null
+    }
+  ]
+}

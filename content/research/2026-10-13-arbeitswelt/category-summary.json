@@ -1,0 +1,30 @@
+{
+  "checked": "2026-10-13",
+  "target": {
+    "category": "Arbeitswelt",
+    "main_before": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 4,
+      "jeopardy": 0,
+      "total": 4
+    },
+    "open_drafts_before": {
+      "total": 0,
+      "note": "15 offene PR-Diffs mit begrenzten Arbeitsrechtsbegriffen geprüft; keine Treffer."
+    },
+    "after_including_this_draft": {
+      "moreless": 2,
+      "estimate": 4,
+      "facts": 10,
+      "jeopardy": 8,
+      "total": 24
+    }
+  },
+  "run_target": {
+    "existing_category_labels": 35,
+    "completed_category_labels": 1,
+    "missing_questions_against_20_per_category_run_target": 680,
+    "note": "Dieser belastbare Entwurf erfüllt 20 nur für Arbeitswelt; keine erfundenen Auffüllwerte."
+  }
+}
