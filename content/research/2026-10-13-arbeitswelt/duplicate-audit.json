@@ -1,0 +1,8 @@
+{
+  "checked": "2026-10-13",
+  "main_unique_keys": 2236,
+  "draft_unique_keys": 20,
+  "exact_or_reversed_conflicts": [],
+  "semantic_review": "Alle 20 Fälle besitzen getrennte Beobachtungsschlüssel. Die beiden More/Less-Paare vergleichen identische Kennzahl, Einheit und Rechtsrahmen; keine Geschlechter- oder Distanzvergleiche. Alle 15 offenen PR-Diffs haben null begrenzte Arbeitsrechts-Treffer.",
+  "limits": "Normalisierung findet identische Fragen und umgedrehte More/Less-Paare, nicht jede denkbare Paraphrase. Beobachtungsschlüssel, gezielte Begriffssuche und manuelle Fallprüfung ergänzen die Kontrolle."
+}

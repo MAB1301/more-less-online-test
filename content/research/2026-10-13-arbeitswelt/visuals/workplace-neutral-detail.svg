@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Abstraktes Motiv zur Arbeitswelt">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071d37"/><stop offset="1" stop-color="#241044"/></linearGradient><radialGradient id="glow"><stop stop-color="#62e6ff" stop-opacity=".28"/><stop offset="1" stop-color="#62e6ff" stop-opacity="0"/></radialGradient></defs>
+<rect width="960" height="540" fill="url(#bg)"/><rect x="40" y="40" width="880" height="460" rx="30" fill="none" stroke="#75ddf4" stroke-opacity=".35" stroke-width="2"/>
+<g transform="translate(120,0)"><circle cx="360" cy="245" r="205" fill="url(#glow)"/><rect x="130" y="358" width="460" height="20" rx="10" fill="#4ecde6" opacity=".8"/><path d="M165 378v80M555 378v80" stroke="#90eaff" stroke-width="12" stroke-linecap="round"/>
+<rect x="235" y="165" width="250" height="160" rx="18" fill="#132f57" stroke="#8feafa" stroke-width="6"/><path d="M205 338h310l-28 25H233z" fill="#7056d9" stroke="#c8bcff" stroke-width="5"/><circle cx="360" cy="245" r="25" fill="#ff4f9a" opacity=".9"/>
+<path d="M490 188h78v110h-78z" fill="#f6fbff" opacity=".95"/><path d="M505 215h46M505 238h46M505 261h32" stroke="#557391" stroke-width="7" stroke-linecap="round"/>
+<path d="M150 340q12-85 68-85t68 85" fill="#ffb33b" stroke="#ffd68a" stroke-width="6"/><path d="M142 340h152" stroke="#ffe1a8" stroke-width="12" stroke-linecap="round"/>
+<path d="M565 340v-55M565 310q-42-10-43-48 43 4 43 35M565 292q39-9 42-44-39 2-42 31" fill="none" stroke="#69e8aa" stroke-width="10" stroke-linecap="round"/>
+<text x="360" y="486" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" letter-spacing="2" fill="#c4f4ff">ARBEITSWELT</text></g></svg>

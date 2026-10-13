@@ -1,0 +1,10 @@
+{
+  "arbzg3-standard-day": {"value": 8, "unit": "Stunden", "scope": "werktägliche Regelhöchstzeit"},
+  "arbzg3-conditional-day": {"value": 10, "unit": "Stunden", "scope": "werktägliche bedingte Verlängerung bei Ausgleich"},
+  "burlg3-minimum": {"value": 24, "unit": "Werktage", "scope": "jährlicher Mindesturlaub nach BUrlG"},
+  "jarbschg19-under16": {"value": 30, "unit": "Werktage", "scope": "jährlicher Mindesturlaub bei noch nicht 16 Jahren zu Jahresbeginn"},
+  "arbzg5-rest": {"value": 11, "unit": "Stunden", "scope": "ununterbrochene Ruhezeit im Grundsatz"},
+  "arbzg4-break": {"value": 30, "unit": "Minuten", "scope": "Mindestpause bei mehr als sechs bis zu neun Stunden"},
+  "betrvg7-voting-age": {"value": 16, "unit": "Jahre", "scope": "vollendetes Lebensjahr für Wahlberechtigung"},
+  "bbig20-probation-max": {"value": 4, "unit": "Monate", "scope": "Höchstdauer der Probezeit im Berufsausbildungsverhältnis"}
+}

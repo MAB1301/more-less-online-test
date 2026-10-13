@@ -1,0 +1,225 @@
+{
+  "policy": "Gesetzesstand explizit; 90-Tage-Prüfung auf Änderungen. Keine automatische Freigabe und keine Rechtsberatung.",
+  "records": [
+    {
+      "id": "work-20261013-daily-hours",
+      "game": "moreless",
+      "source": "https://www.gesetze-im-internet.de/arbzg/__3.html",
+      "verified": "2026-10-13",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "work-20261013-minimum-leave",
+      "game": "moreless",
+      "source": "https://www.gesetze-im-internet.de/burlg/__3.html",
+      "verified": "2026-10-13",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "work-20261013-rest-hours",
+      "game": "estimate",
+      "source": "https://www.gesetze-im-internet.de/arbzg/__5.html",
+      "verified": "2026-10-13",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "work-20261013-break-minutes",
+      "game": "estimate",
+      "source": "https://www.gesetze-im-internet.de/arbzg/__4.html",
+      "verified": "2026-10-13",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "work-20261013-works-council-voting-age",
+      "game": "estimate",
+      "source": "https://www.gesetze-im-internet.de/betrvg/__7.html",
+      "verified": "2026-10-13",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "work-20261013-apprentice-probation-max",
+      "game": "estimate",
+      "source": "https://www.gesetze-im-internet.de/bbig_2005/__20.html",
+      "verified": "2026-10-13",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "work-20261013-break-split",
+      "game": "facts",
+      "source": "https://www.gesetze-im-internet.de/arbzg/__4.html",
+      "verified": "2026-10-13",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "work-20261013-full-leave-after-three-months",
+      "game": "facts",
+      "source": "https://www.gesetze-im-internet.de/burlg/__4.html",
+      "verified": "2026-10-13",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "work-20261013-sunday-ban",
+      "game": "facts",
+      "source": "https://www.gesetze-im-internet.de/arbzg/__9.html",
+      "verified": "2026-10-13",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "work-20261013-council-meeting-public",
+      "game": "facts",
+      "source": "https://www.gesetze-im-internet.de/betrvg/__30.html",
+      "verified": "2026-10-13",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "work-20261013-agg-age",
+      "game": "facts",
+      "source": "https://www.gesetze-im-internet.de/agg/__1.html",
+      "verified": "2026-10-13",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "work-20261013-safety-costs",
+      "game": "facts",
+      "source": "https://www.gesetze-im-internet.de/arbschg/__3.html",
+      "verified": "2026-10-13",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "work-20261013-employee-representation",
+      "game": "jeopardy",
+      "source": "https://www.gesetze-im-internet.de/betrvg/__1.html",
+      "verified": "2026-10-13",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "work-20261013-risk-assessment",
+      "game": "jeopardy",
+      "source": "https://www.gesetze-im-internet.de/arbschg/__5.html",
+      "verified": "2026-10-13",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "work-20261013-minimum-wage-body",
+      "game": "jeopardy",
+      "source": "https://www.gesetze-im-internet.de/milog/__9.html",
+      "verified": "2026-10-13",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "work-20261013-bbig-name",
+      "game": "jeopardy",
+      "source": "https://www.gesetze-im-internet.de/bbig_2005/__20.html",
+      "verified": "2026-10-13",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "work-20261013-youth-workdays",
+      "game": "jeopardy",
+      "source": "https://www.gesetze-im-internet.de/jarbschg/__15.html",
+      "verified": "2026-10-13",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "work-20261013-maternity-protection",
+      "game": "jeopardy",
+      "source": "https://www.gesetze-im-internet.de/muschg_2018/__3.html",
+      "verified": "2026-10-13",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "work-20261013-council-threshold",
+      "game": "jeopardy",
+      "source": "https://www.gesetze-im-internet.de/betrvg/__1.html",
+      "verified": "2026-10-13",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "work-20261013-agg-ground-count",
+      "game": "jeopardy",
+      "source": "https://www.gesetze-im-internet.de/agg/__1.html",
+      "verified": "2026-10-13",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-11",
+      "review_status": "draft-review-required"
+    }
+  ]
+}
