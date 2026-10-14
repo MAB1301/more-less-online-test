@@ -1,0 +1,27 @@
+{
+  "checked":"2026-10-14",
+  "base_commit":"dced74bb1385014445e186969a09ccd92c20edb5",
+  "open_pr_count":16,
+  "pending_questions_considered":920,
+  "subject_hits":0,
+  "excluded_baseline_audit_mentions":["In welcher Stadt wurde das Grundgesetz am 23. Mai 1949 verkündet?","Wie heißt der erste Bundeskanzler der Bundesrepublik Deutschland?"],
+  "method":"Alle offenen PRs wurden am aktuellen Head auf gewählte Wahljahre, Personen, Gremium und Ereignisse geprüft. Zwei Auditdateien wiederholen bereits in Main vorhandene Prompts; diese sind keine neuen PR-Inhalte und wurden aus diesem Entwurf ausgeschlossen.",
+  "pull_requests":[
+    {"number":147,"branch":"codex/quiz-arbeitswelt-20261013","head":"35b3a1d"},
+    {"number":146,"branch":"codex/quiz-sportregeln-table-tennis-20261012","head":"4a0d996"},
+    {"number":145,"branch":"codex/quiz-sport-squash-20261011","head":"2e0ef40"},
+    {"number":144,"branch":"codex/quiz-growth-20261010","head":"7038c9d"},
+    {"number":138,"branch":"ui/overlay-polish","head":"f5aa58e"},
+    {"number":134,"branch":"codex/playable-comparison-criteria-20261009","head":"61b0f7b"},
+    {"number":132,"branch":"codex/quiz-weather-extremes-20261009","head":"34e5cfc"},
+    {"number":131,"branch":"codex/quiz-category-growth-20261008-evening","head":"2d6b597"},
+    {"number":130,"branch":"codex/quiz-draft-20261008-elements","head":"e69d314"},
+    {"number":129,"branch":"codex/quiz-draft-20261007-trappist","head":"54cfbd0"},
+    {"number":128,"branch":"codex/avatar-overlay-small-categories","head":"8b5b498"},
+    {"number":127,"branch":"codex/quiz-draft-20261006-small","head":"d85f65d"},
+    {"number":126,"branch":"codex/football-videogames-identity-20261005","head":"10a3a2c"},
+    {"number":122,"branch":"codex/quiz-draft-20261005-small","head":"1e830e1"},
+    {"number":109,"branch":"codex/settings-achievements-20261005","head":"664f212"},
+    {"number":57,"branch":"fix-jeopardy-guest-answer-sync","head":"19a59ad"}
+  ]
+}

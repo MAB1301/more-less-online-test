@@ -1,0 +1,8 @@
+{
+  "checked": "2026-10-14",
+  "main_unique_keys": 2236,
+  "draft_unique_keys": 20,
+  "exact_or_reversed_conflicts": [],
+  "semantic_review": "Adenauer und die Verkündungsstadt Bonn wurden wegen Main-Treffern ausgeschlossen. Alle 20 neuen Fälle besitzen getrennte Beobachtungsschlüssel. More/Less vergleicht nur dieselbe amtliche Wahlkennzahl, Einheit und Gebietsdefinition. 16 offene PRs wurden gegen die gewählten Personen, Daten und Wahlstatistiken geprüft.",
+  "limits": "Normalisierung findet identische Fragen und umgedrehte More/Less-Paare, nicht jede Paraphrase; Beobachtungsschlüssel und gezielte Fachbegriffssuche ergänzen die Kontrolle."
+}

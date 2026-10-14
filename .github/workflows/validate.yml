@@ -17,4 +17,6 @@ jobs:
           node-version: '22'
       - name: Static game regression checks
         run: |
-          node scripts/regression-check.mjs
+          node scripts/check-history-1949-draft-20261014.mjs
+          npm run pwa:build
+          npm test

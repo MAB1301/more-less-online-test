@@ -1,0 +1,13 @@
+{
+  "checked":"2026-10-14",
+  "project":"rnwsbgzdrttqtivrwnxo",
+  "account":"Marc",
+  "table":"ml_private.daily_catalogue",
+  "mode":"read-only",
+  "rows_total":7187,
+  "rows_by_game":{"moreless":4228,"estimate":1507,"facts":1452},
+  "query_terms":["Bundestagswahl 1949","Bundestagswahl 1953","Parlamentarischer Rat","Konrad Adenauer","Theodor Heuss","Bonner Bundeshaus","erster Bundestag","Grundgesetz 1949"],
+  "matches":0,
+  "database_writes":0,
+  "limitations":"Jeopardy ist nicht im Daily-Katalog enthalten. Die Begriffssuche wurde deshalb durch Main- und PR-Inventar, normalisierte Promptprüfung und getrennte Beobachtungsschlüssel ergänzt."
+}
