@@ -1,0 +1,225 @@
+{
+  "policy": "Stabile historische Quellen: 365-Tage-Review auf redaktionelle Präzisierung oder Quellenänderung. Keine automatische Freigabe.",
+  "records": [
+    {
+      "id": "history-20261014-eligible-voters",
+      "game": "moreless",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1949.html",
+      "verified": "2026-10-14",
+      "data_year": "1949/1953",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-14",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "history-20261014-turnout",
+      "game": "moreless",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1949.html",
+      "verified": "2026-10-14",
+      "data_year": "1949/1953",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-14",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "history-20261014-voters-1949",
+      "game": "estimate",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1949.html",
+      "verified": "2026-10-14",
+      "data_year": 1949,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-14",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "history-20261014-spd-seats-1949",
+      "game": "estimate",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1949.html",
+      "verified": "2026-10-14",
+      "data_year": 1949,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-14",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "history-20261014-cdu-seats-1953",
+      "game": "estimate",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1953.html",
+      "verified": "2026-10-14",
+      "data_year": 1953,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-14",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "history-20261014-council-members",
+      "game": "estimate",
+      "source": "https://www.bundestag.de/dokumente/textarchiv/1949-05-23-grundgesetz-641776",
+      "verified": "2026-10-14",
+      "data_year": 1948,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-14",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "history-20261014-one-vote-1949",
+      "game": "facts",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1949.html",
+      "verified": "2026-10-14",
+      "data_year": 1949,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-14",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "history-20261014-one-vote-1953",
+      "game": "facts",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1953.html",
+      "verified": "2026-10-14",
+      "data_year": 1953,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-14",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "history-20261014-bavaria-basic-law",
+      "game": "facts",
+      "source": "https://www.bundestag.de/dokumente/textarchiv/1949-05-23-grundgesetz-641776",
+      "verified": "2026-10-14",
+      "data_year": 1949,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-14",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "history-20261014-first-session-berlin",
+      "game": "facts",
+      "source": "https://dserver.bundestag.de/btp/01/01001.pdf",
+      "verified": "2026-10-14",
+      "data_year": 1949,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-14",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "history-20261014-four-women",
+      "game": "facts",
+      "source": "https://www.bundestag.de/dokumente/textarchiv/1948-08-13-parlamentarischer-rat-565084",
+      "verified": "2026-10-14",
+      "data_year": 1948,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-14",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "history-20261014-unanimous-basic-law",
+      "game": "facts",
+      "source": "https://www.bundestag.de/parlament/geschichte/75jahre/dokumente-archiv-inhalt-973828",
+      "verified": "2026-10-14",
+      "data_year": 1949,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-14",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "history-20261014-election-date",
+      "game": "jeopardy",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1949.html",
+      "verified": "2026-10-14",
+      "data_year": 1949,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-14",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "history-20261014-first-session-date",
+      "game": "jeopardy",
+      "source": "https://dserver.bundestag.de/btp/01/01001.pdf",
+      "verified": "2026-10-14",
+      "data_year": 1949,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-14",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "history-20261014-age-president",
+      "game": "jeopardy",
+      "source": "https://dserver.bundestag.de/btp/01/01001.pdf",
+      "verified": "2026-10-14",
+      "data_year": 1949,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-14",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "history-20261014-first-president",
+      "game": "jeopardy",
+      "source": "https://dserver.bundestag.de/btp/01/01001.pdf",
+      "verified": "2026-10-14",
+      "data_year": 1949,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-14",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "history-20261014-first-federal-president",
+      "game": "jeopardy",
+      "source": "https://dserver.bundestag.de/btp/01/01901.pdf",
+      "verified": "2026-10-14",
+      "data_year": 1949,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-14",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "history-20261014-berlin-delegates",
+      "game": "jeopardy",
+      "source": "https://www.bundestag.de/dokumente/textarchiv/1949-09-07-erster-bundestag-1016014",
+      "verified": "2026-10-14",
+      "data_year": 1949,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-14",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "history-20261014-council-start",
+      "game": "jeopardy",
+      "source": "https://www.bundestag.de/dokumente/textarchiv/1948-08-13-parlamentarischer-rat-565084",
+      "verified": "2026-10-14",
+      "data_year": 1948,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-14",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "history-20261014-body-name",
+      "game": "jeopardy",
+      "source": "https://www.bundestag.de/dokumente/textarchiv/1948-08-13-parlamentarischer-rat-565084",
+      "verified": "2026-10-14",
+      "data_year": "1948/1949",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-14",
+      "review_status": "draft-review-required"
+    }
+  ]
+}

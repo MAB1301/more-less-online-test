@@ -1,0 +1,10 @@
+{
+  "bw1949-eligible":{"value":31207620,"unit":"Personen","scope":"Wahlberechtigte bei der Bundestagswahl 1949"},
+  "bw1953-eligible":{"value":33120940,"unit":"Personen","scope":"Wahlberechtigte bei der Bundestagswahl 1953"},
+  "bw1949-turnout":{"value":78.5,"unit":"Prozent","scope":"Wahlbeteiligung bei der Bundestagswahl 1949"},
+  "bw1953-turnout":{"value":86.0,"unit":"Prozent","scope":"Wahlbeteiligung bei der Bundestagswahl 1953"},
+  "bw1949-voters":{"value":24495614,"unit":"Personen","scope":"Wähler bei der Bundestagswahl 1949"},
+  "bw1949-spd-seats":{"value":136,"unit":"Sitze","scope":"SPD-Sitze einschließlich Berliner Abgeordnete 1949"},
+  "bw1953-cdu-seats":{"value":197,"unit":"Sitze","scope":"CDU-Sitze einschließlich Berliner Abgeordnete 1953"},
+  "council-voting-members":{"value":65,"unit":"Mitglieder","scope":"stimmberechtigte Mitglieder des Parlamentarischen Rates"}
+}
