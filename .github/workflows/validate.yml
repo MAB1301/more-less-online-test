@@ -18,3 +18,8 @@ jobs:
       - name: Static game regression checks
         run: |
           node scripts/regression-check.mjs
+      - name: Champions League draft content checks
+        run: |
+          python3 scripts/build-champions-league-draft-20261015.py --check
+          node scripts/check-champions-league-draft-20261015.mjs
+          npm run pwa:build

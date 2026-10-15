@@ -1,0 +1,8 @@
+{
+  "checked": "2026-10-15",
+  "main_unique_keys": 2236,
+  "draft_unique_keys": 20,
+  "exact_or_reversed_conflicts": [],
+  "semantic_review": "Main enthält 27 Champions-League-Fragen ausschließlich in Jeopardy. Sieger-/Finalstadtfragen, 2023/24-Spielerwerte und Vereinstitel wurden ausgeschlossen. 22 getrennte Beobachtungsschlüssel; More/Less nutzt jeweils dieselbe UEFA-Phase, Kennzahl, Einheit und denselben Quellenstand.",
+  "limits": "Normalisierung findet identische Fragen und umgedrehte More/Less-Paare, nicht jede Paraphrase; Beobachtungsschlüssel sowie gezielte Main-, PR- und Daily-Suche ergänzen die Kontrolle."
+}
