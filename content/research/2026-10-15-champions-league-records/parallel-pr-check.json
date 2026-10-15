@@ -1,0 +1,27 @@
+{
+  "checked": "2026-10-15",
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "open_pr_count": 17,
+  "pending_questions_considered": 940,
+  "subject_hits": 0,
+  "method": "Alle offenen PRs wurden anhand der aktuellen PR-Beschreibung und der dokumentierten Head-Inventare geprüft; die Inhaltsbranches mit Fußball-/Champions-League-Potenzial wurden zusätzlich auf die 22 gewählten Rekordbeobachtungen durchsucht. #126 enthält andere Fußball-/Saisonwerte, #128 andere kleine Kategorien, #134 Vergleichskriterien ohne diese Fragen, #144–#148 andere Themenpakete.",
+  "pull_requests": [
+    {"number":148,"branch":"codex/quiz-geschichte-1949-20261014","head":"2aaa098"},
+    {"number":147,"branch":"codex/quiz-arbeitswelt-20261013","head":"35b3a1d"},
+    {"number":146,"branch":"codex/quiz-sportregeln-table-tennis-20261012","head":"4a0d996"},
+    {"number":145,"branch":"codex/quiz-sport-squash-20261011","head":"2e0ef40"},
+    {"number":144,"branch":"codex/quiz-growth-20261010","head":"7038c9d"},
+    {"number":138,"branch":"ui/overlay-polish","head":"f5aa58e"},
+    {"number":134,"branch":"codex/playable-comparison-criteria-20261009","head":"61b0f7b"},
+    {"number":132,"branch":"codex/quiz-weather-extremes-20261009","head":"34e5cfc"},
+    {"number":131,"branch":"codex/quiz-category-growth-20261008-evening","head":"2d6b597"},
+    {"number":130,"branch":"codex/quiz-draft-20261008-elements","head":"e69d314"},
+    {"number":129,"branch":"codex/quiz-draft-20261007-trappist","head":"54cfbd0"},
+    {"number":128,"branch":"codex/avatar-overlay-small-categories","head":"8b5b498"},
+    {"number":127,"branch":"codex/quiz-draft-20261006-small","head":"d85f65d"},
+    {"number":126,"branch":"codex/football-videogames-identity-20261005","head":"10a3a2c"},
+    {"number":122,"branch":"codex/quiz-draft-20261005-small","head":"1e830e1"},
+    {"number":109,"branch":"codex/settings-achievements-20261005","head":"664f212"},
+    {"number":57,"branch":"fix-jeopardy-guest-answer-sync","head":"19a59ad"}
+  ]
+}

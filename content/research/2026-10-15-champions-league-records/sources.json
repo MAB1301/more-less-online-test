@@ -1,0 +1,57 @@
+{
+  "group_records": {
+    "url": "https://www.uefa.com/uefachampionsleague/news/0257-0e994d4dc7ad-61a6d5d372dd-1000--champions-league-group-stage-league-phase-records-and-stati/",
+    "title": "Champions League group stage/league phase records and statistics",
+    "publisher": "UEFA",
+    "checked": "2026-10-15",
+    "source_updated": "2026-10-12",
+    "data_year": "1992/93–2026/27",
+    "authority": "official",
+    "primary": true,
+    "limits": "UEFA zählt die erste Gruppenphase 1992/93–2023/24 ohne die zweite Gruppenphase 1999/2000–2002/03 sowie die Ligaphase ab 2024/25. Vereinswerte enthalten 2026/27, soweit UEFA dies ausweist."
+  },
+  "fastest_goals": {
+    "url": "https://www.uefa.com/uefachampionsleague/news/0237-0e966468be2a-209986d8dffd-1000--fastest-champions-league-goals-roy-makaay-heads-list-includ/",
+    "title": "Fastest Champions League goals: Roy Makaay heads list",
+    "publisher": "UEFA",
+    "checked": "2026-10-15",
+    "source_updated": "2026-05-31",
+    "data_year": "1992/93–2025/26",
+    "authority": "official",
+    "primary": true,
+    "limits": "Wettbewerb ab Champions-League-Ära; UEFA trennt Gesamt-, Runden-, Gruppen- und Ligaphasenrekorde."
+  },
+  "final_records": {
+    "url": "https://www.uefa.com/uefachampionsleague/news/0252-0e98c715bb79-dea77f56e2bd-1000--champions-league-final-records-and-statistics/",
+    "title": "Champions League final records and statistics",
+    "publisher": "UEFA",
+    "checked": "2026-10-15",
+    "source_updated": "2026-05-30",
+    "data_year": "1955/56–2025/26",
+    "authority": "official",
+    "primary": true,
+    "limits": "Wo ausdrücklich bezeichnet, umfasst die Statistik Europapokal und Champions League; reine Champions-League-Rekorde sind separat markiert."
+  },
+  "perfection": {
+    "url": "https://www.uefa.com/uefachampionsleague/news/0253-0d7f933ba08d-eedf53763db3-1000--champions-league-group-stage-league-phase-perfection-arsen/",
+    "title": "Champions League group stage/league phase perfection: Arsenal make history",
+    "publisher": "UEFA",
+    "checked": "2026-10-15",
+    "source_updated": "2026-01-28",
+    "data_year": "1992/93–2025/26",
+    "authority": "official",
+    "primary": true,
+    "limits": "100-Prozent-Bilanz bedeutet Siege in allen Spielen der jeweiligen Gruppen- oder Ligaphase; die Phasen hatten unterschiedliche Spielzahlen."
+  },
+  "season_2025_26": {
+    "url": "https://www.uefa.com/uefachampionsleague/news/02a5-20a9b1d54074-d4a2c11aa589-1000--champions-league-2025-26-season-in-numbers/",
+    "title": "Champions League: 2025/26 season in numbers",
+    "publisher": "UEFA",
+    "checked": "2026-10-15",
+    "source_updated": "2026-05-30",
+    "data_year": "2025/26",
+    "authority": "official",
+    "primary": true,
+    "limits": "Saisonrückblick; die Hat-trick-Zeit ist die Zeitspanne zwischen erstem und drittem Tor, nicht die Spielminute des dritten Tores."
+  }
+}

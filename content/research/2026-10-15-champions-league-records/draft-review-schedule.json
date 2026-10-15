@@ -1,0 +1,225 @@
+{
+  "policy": "Veränderliche UEFA-Rekordtabellen: 90-Tage-Review; bei neuem Spieltag oder Rekordereignis früher. Keine automatische Freigabe.",
+  "records": [
+    {
+      "id": "ucl-20261015-phase-appearances",
+      "game": "moreless",
+      "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e994d4dc7ad-61a6d5d372dd-1000--champions-league-group-stage-league-phase-records-and-stati/",
+      "verified": "2026-10-15",
+      "data_year": "1992/93–2026/27",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-13",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ucl-20261015-phase-club-goals",
+      "game": "moreless",
+      "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e994d4dc7ad-61a6d5d372dd-1000--champions-league-group-stage-league-phase-records-and-stati/",
+      "verified": "2026-10-15",
+      "data_year": "1992/93–2026/27",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-13",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ucl-20261015-youngest-player",
+      "game": "estimate",
+      "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e994d4dc7ad-61a6d5d372dd-1000--champions-league-group-stage-league-phase-records-and-stati/",
+      "verified": "2026-10-15",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-13",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ucl-20261015-oldest-scorer",
+      "game": "estimate",
+      "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e994d4dc7ad-61a6d5d372dd-1000--champions-league-group-stage-league-phase-records-and-stati/",
+      "verified": "2026-10-15",
+      "data_year": 2023,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-13",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ucl-20261015-phase-season-goals",
+      "game": "estimate",
+      "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e994d4dc7ad-61a6d5d372dd-1000--champions-league-group-stage-league-phase-records-and-stati/",
+      "verified": "2026-10-15",
+      "data_year": "2024/25",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-13",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ucl-20261015-match-total-goals",
+      "game": "estimate",
+      "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e994d4dc7ad-61a6d5d372dd-1000--champions-league-group-stage-league-phase-records-and-stati/",
+      "verified": "2026-10-15",
+      "data_year": 2016,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-13",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ucl-20261015-arsenal-perfect",
+      "game": "facts",
+      "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d7f933ba08d-eedf53763db3-1000--champions-league-group-stage-league-phase-perfection-arsen/",
+      "verified": "2026-10-15",
+      "data_year": "2025/26",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-13",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ucl-20261015-no-perfect-old-group",
+      "game": "facts",
+      "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e994d4dc7ad-61a6d5d372dd-1000--champions-league-group-stage-league-phase-records-and-stati/",
+      "verified": "2026-10-15",
+      "data_year": "1992/93–2023/24",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-13",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ucl-20261015-makaay-fastest",
+      "game": "facts",
+      "source": "https://www.uefa.com/uefachampionsleague/news/0237-0e966468be2a-209986d8dffd-1000--fastest-champions-league-goals-roy-makaay-heads-list-includ/",
+      "verified": "2026-10-15",
+      "data_year": 2007,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-13",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ucl-20261015-jonas-overall",
+      "game": "facts",
+      "source": "https://www.uefa.com/uefachampionsleague/news/0237-0e966468be2a-209986d8dffd-1000--fastest-champions-league-goals-roy-makaay-heads-list-includ/",
+      "verified": "2026-10-15",
+      "data_year": 2011,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-13",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ucl-20261015-largest-final-win",
+      "game": "facts",
+      "source": "https://www.uefa.com/uefachampionsleague/news/0252-0e98c715bb79-dea77f56e2bd-1000--champions-league-final-records-and-statistics/",
+      "verified": "2026-10-15",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-13",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ucl-20261015-replay-penalties",
+      "game": "facts",
+      "source": "https://www.uefa.com/uefachampionsleague/news/0252-0e98c715bb79-dea77f56e2bd-1000--champions-league-final-records-and-statistics/",
+      "verified": "2026-10-15",
+      "data_year": 1974,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-13",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ucl-20261015-fastest-hat-trick",
+      "game": "jeopardy",
+      "source": "https://www.uefa.com/uefachampionsleague/news/02a5-20a9b1d54074-d4a2c11aa589-1000--champions-league-2025-26-season-in-numbers/",
+      "verified": "2026-10-15",
+      "data_year": 2022,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-13",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ucl-20261015-phase-points",
+      "game": "jeopardy",
+      "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e994d4dc7ad-61a6d5d372dd-1000--champions-league-group-stage-league-phase-records-and-stati/",
+      "verified": "2026-10-15",
+      "data_year": "1992/93–2026/27",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-13",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ucl-20261015-consecutive-qualifications",
+      "game": "jeopardy",
+      "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e994d4dc7ad-61a6d5d372dd-1000--champions-league-group-stage-league-phase-records-and-stati/",
+      "verified": "2026-10-15",
+      "data_year": "1997/98–2026/27",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-13",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ucl-20261015-first-place-finishes",
+      "game": "jeopardy",
+      "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e994d4dc7ad-61a6d5d372dd-1000--champions-league-group-stage-league-phase-records-and-stati/",
+      "verified": "2026-10-15",
+      "data_year": "1992/93–2026/27",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-13",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ucl-20261015-fastest-final-goal",
+      "game": "jeopardy",
+      "source": "https://www.uefa.com/uefachampionsleague/news/0237-0e966468be2a-209986d8dffd-1000--fastest-champions-league-goals-roy-makaay-heads-list-includ/",
+      "verified": "2026-10-15",
+      "data_year": 2005,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-13",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ucl-20261015-oldest-final-player",
+      "game": "jeopardy",
+      "source": "https://www.uefa.com/uefachampionsleague/news/0252-0e98c715bb79-dea77f56e2bd-1000--champions-league-final-records-and-statistics/",
+      "verified": "2026-10-15",
+      "data_year": 1983,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-13",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ucl-20261015-highest-scoring-final",
+      "game": "jeopardy",
+      "source": "https://www.uefa.com/uefachampionsleague/news/0252-0e98c715bb79-dea77f56e2bd-1000--champions-league-final-records-and-statistics/",
+      "verified": "2026-10-15",
+      "data_year": 1960,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-13",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ucl-20261015-inter-one-conceded",
+      "game": "jeopardy",
+      "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e994d4dc7ad-61a6d5d372dd-1000--champions-league-group-stage-league-phase-records-and-stati/",
+      "verified": "2026-10-15",
+      "data_year": "2024/25",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-13",
+      "review_status": "draft-review-required"
+    }
+  ]
+}

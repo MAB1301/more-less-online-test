@@ -1,0 +1,30 @@
+{
+  "checked": "2026-10-15",
+  "target": {
+    "category": "Champions League",
+    "main_before": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 27,
+      "total": 27
+    },
+    "open_drafts_before": {
+      "total": 0,
+      "note": "17 offene PRs / 940 ausstehende Fragen geprüft; keine neue der 22 gewählten Rekordbeobachtungen gefunden."
+    },
+    "after_including_this_draft": {
+      "moreless": 2,
+      "estimate": 4,
+      "facts": 6,
+      "jeopardy": 35,
+      "total": 47
+    }
+  },
+  "run_target": {
+    "existing_category_labels": 35,
+    "completed_category_labels": 1,
+    "missing_questions_against_20_per_category_run_target": 680,
+    "note": "Dieser belastbare Entwurf erfüllt 20 nur für Champions League; keine erfundenen Auffüllwerte."
+  }
+}
