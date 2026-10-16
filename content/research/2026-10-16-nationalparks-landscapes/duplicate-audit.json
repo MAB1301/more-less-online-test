@@ -1,0 +1,8 @@
+{
+  "checked": "2026-10-16",
+  "main_unique_keys": 2236,
+  "draft_unique_keys": 20,
+  "exact_or_reversed_conflicts": [],
+  "semantic_review": "Vorhandene Yellowstone-/Yosemite-/Grand-Canyon-Gründungs-, Flächen- und Besuchsfragen sowie NPS-Besuchervergleiche offener Entwürfe ausgeschlossen. 22 getrennte Beobachtungen; beide Vergleiche verwenden gleiche Einheit, Bezugsart und offiziellen NPS-Rahmen.",
+  "limits": "Normalisierung plus Beobachtungsschlüssel und gezielte Main-/PR-/Daily-Suche."
+}

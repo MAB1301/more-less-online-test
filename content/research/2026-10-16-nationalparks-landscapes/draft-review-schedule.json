@@ -1,0 +1,225 @@
+{
+  "policy": "NPS-Grenz-, Mess- und Naturwerte: jährliche Prüfung, bei offizieller Neumessung oder Grenzänderung früher. Keine automatische Freigabe.",
+  "records": [
+    {
+      "id": "parks-20261016-alaska-area",
+      "game": "moreless",
+      "source": "https://www.nps.gov/bibe/learn/management/park_sizes.htm",
+      "verified": "2026-10-16",
+      "data_year": "NPS index page, 2018 update",
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-10-16",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "parks-20261016-volcano-summits",
+      "game": "moreless",
+      "source": "https://www.nps.gov/places/lassen-peak-scenic-vista.htm",
+      "verified": "2026-10-16",
+      "data_year": "2024/2025 NPS pages",
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-10-16",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "parks-20261016-crater-depth",
+      "game": "estimate",
+      "source": "https://www.nps.gov/crla/faqs.htm",
+      "verified": "2026-10-16",
+      "data_year": "NPS page 2024",
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-10-16",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "parks-20261016-star-dune",
+      "game": "estimate",
+      "source": "https://www.nps.gov/places/star-dune.htm",
+      "verified": "2026-10-16",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-10-16",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "parks-20261016-white-sands-area",
+      "game": "estimate",
+      "source": "https://www.nps.gov/whsa/",
+      "verified": "2026-10-16",
+      "data_year": "NPS page 2025",
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-10-16",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "parks-20261016-badwater",
+      "game": "estimate",
+      "source": "https://www.nps.gov/deva/getinvolved/upload/DEVA_FD_2017_508.pdf",
+      "verified": "2026-10-16",
+      "data_year": 2017,
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-10-16",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "parks-20261016-seven-islands",
+      "game": "facts",
+      "source": "https://www.nps.gov/drto/",
+      "verified": "2026-10-16",
+      "data_year": "NPS page 2026",
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-10-16",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "parks-20261016-quartz",
+      "game": "facts",
+      "source": "https://www.nps.gov/whsa/",
+      "verified": "2026-10-16",
+      "data_year": "NPS pages 2024/2025",
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-10-16",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "parks-20261016-four-volcano-types",
+      "game": "facts",
+      "source": "https://www.nps.gov/lavo/learn/management/park-significance.htm",
+      "verified": "2026-10-16",
+      "data_year": "NPS page 2024",
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-10-16",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "parks-20261016-carlsbad-acid",
+      "game": "facts",
+      "source": "https://www.nps.gov/cave/",
+      "verified": "2026-10-16",
+      "data_year": "NPS page 2026",
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-10-16",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "parks-20261016-two-volcanoes",
+      "game": "facts",
+      "source": "https://www.nps.gov/articles/nps-geodiversity-atlas-lake-clark-national-park-alaska.htm",
+      "verified": "2026-10-16",
+      "data_year": "NPS page 2024",
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-10-16",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "parks-20261016-river-inflow",
+      "game": "facts",
+      "source": "https://www.nps.gov/crla/faqs.htm",
+      "verified": "2026-10-16",
+      "data_year": "NPS page 2024",
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-10-16",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "parks-20261016-wizard-island",
+      "game": "jeopardy",
+      "source": "https://www.nps.gov/crla/learn/nature/wizardisland.htm",
+      "verified": "2026-10-16",
+      "data_year": "NPS current page",
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-10-16",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "parks-20261016-fort-jefferson",
+      "game": "jeopardy",
+      "source": "https://www.nps.gov/drto/learn/historyculture/index.htm",
+      "verified": "2026-10-16",
+      "data_year": "NPS current page",
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-10-16",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "parks-20261016-big-room",
+      "game": "jeopardy",
+      "source": "https://www.nps.gov/cave/planyourvisit/selfguided_tours.htm",
+      "verified": "2026-10-16",
+      "data_year": "NPS page 2025",
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-10-16",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "parks-20261016-brooks-camp",
+      "game": "jeopardy",
+      "source": "https://www.nps.gov/katm/planyourvisit/brooks-camp.htm",
+      "verified": "2026-10-16",
+      "data_year": "NPS current page",
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-10-16",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "parks-20261016-bumpass-hell",
+      "game": "jeopardy",
+      "source": "https://www.nps.gov/lavo/",
+      "verified": "2026-10-16",
+      "data_year": "NPS current page",
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-10-16",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "parks-20261016-no-road",
+      "game": "jeopardy",
+      "source": "https://www.nps.gov/lacl/planyourvisit/directions.htm",
+      "verified": "2026-10-16",
+      "data_year": "NPS page 2026",
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-10-16",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "parks-20261016-puuulaula",
+      "game": "jeopardy",
+      "source": "https://www.nps.gov/places/puuulaula.htm",
+      "verified": "2026-10-16",
+      "data_year": "NPS page 2021",
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-10-16",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "parks-20261016-tularosa",
+      "game": "jeopardy",
+      "source": "https://www.nps.gov/whsa/geology.htm",
+      "verified": "2026-10-16",
+      "data_year": "NPS page 2024",
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-10-16",
+      "review_status": "draft-review-required"
+    }
+  ]
+}
