@@ -1,0 +1,710 @@
+{
+  "status": "review-only",
+  "verified": "2026-10-16",
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "images": {
+    "national-park-landscape-neutral": {
+      "card": "visuals/national-park-landscape-neutral-card.svg",
+      "detail": "visuals/national-park-landscape-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstrakte Vulkan-, Dünen-, See- und Höhlenlandschaft ohne Parknamen, Kartenumrisse, Messzahlen oder Lösungshinweise; Jeopardy ohne eigenen Bildschlüssel."
+    },
+    "Katmai National Park & Preserve": {
+      "card": "visuals/national-park-landscape-neutral-card.svg",
+      "detail": "visuals/national-park-landscape-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstrakte Vulkan-, Dünen-, See- und Höhlenlandschaft ohne Parknamen, Kartenumrisse, Messzahlen oder Lösungshinweise; Jeopardy ohne eigenen Bildschlüssel."
+    },
+    "Lake Clark National Park & Preserve": {
+      "card": "visuals/national-park-landscape-neutral-card.svg",
+      "detail": "visuals/national-park-landscape-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstrakte Vulkan-, Dünen-, See- und Höhlenlandschaft ohne Parknamen, Kartenumrisse, Messzahlen oder Lösungshinweise; Jeopardy ohne eigenen Bildschlüssel."
+    },
+    "Lassen Peak": {
+      "card": "visuals/national-park-landscape-neutral-card.svg",
+      "detail": "visuals/national-park-landscape-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstrakte Vulkan-, Dünen-, See- und Höhlenlandschaft ohne Parknamen, Kartenumrisse, Messzahlen oder Lösungshinweise; Jeopardy ohne eigenen Bildschlüssel."
+    },
+    "Haleakalā": {
+      "card": "visuals/national-park-landscape-neutral-card.svg",
+      "detail": "visuals/national-park-landscape-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstrakte Vulkan-, Dünen-, See- und Höhlenlandschaft ohne Parknamen, Kartenumrisse, Messzahlen oder Lösungshinweise; Jeopardy ohne eigenen Bildschlüssel."
+    }
+  },
+  "moreless": [
+    {
+      "id": "parks-20261016-alaska-area",
+      "semantic_key": "katmai-vs-lake-clark-acreage",
+      "cat": "Nationalparks",
+      "subcategory": "USA · Landschaften und Geologie",
+      "source_refs": [
+        "park_sizes"
+      ],
+      "section": "NPS park-size index",
+      "observation_keys": [
+        "katmai-acreage",
+        "lake-clark-acreage"
+      ],
+      "data_year": "NPS index page, 2018 update",
+      "rounding": "Published whole acres; no additional rounding.",
+      "notes": "Both are Alaska national park-and-preserve units in the same NPS index.",
+      "l": "Katmai National Park & Preserve",
+      "r": "Lake Clark National Park & Preserve",
+      "lv": 4093229,
+      "rv": 4030025,
+      "u": "Acres · NPS-Park-und-Preserve-Fläche",
+      "metric": "Park-and-preserve acreage",
+      "status": "draft",
+      "verified": "2026-10-16",
+      "source": "https://www.nps.gov/bibe/learn/management/park_sizes.htm",
+      "sources": [
+        "https://www.nps.gov/bibe/learn/management/park_sizes.htm"
+      ],
+      "sets": [
+        "Nationalparks · USA · Landschaften und Geologie"
+      ],
+      "time_dependent": true,
+      "data_year_note": "NPS-Quellenstand laut Einzelfrage; Grenz-, Mess- und Naturwerte vor Freigabe erneut prüfen.",
+      "visual": "national-park-landscape-neutral",
+      "subject": "national-park-landscape-neutral"
+    },
+    {
+      "id": "parks-20261016-volcano-summits",
+      "semantic_key": "lassen-vs-haleakala-summit-feet",
+      "cat": "Nationalparks",
+      "subcategory": "USA · Landschaften und Geologie",
+      "source_refs": [
+        "lassen_peak",
+        "haleakala_geology"
+      ],
+      "section": "Current summit elevations",
+      "observation_keys": [
+        "lassen-summit",
+        "haleakala-summit"
+      ],
+      "data_year": "2024/2025 NPS pages",
+      "rounding": "NPS whole-foot elevations.",
+      "notes": "Both values are summit elevations above sea level in feet; no historic estimated height used.",
+      "l": "Lassen Peak",
+      "r": "Haleakalā",
+      "lv": 10457,
+      "rv": 10023,
+      "u": "ft Gipfelhöhe über Meeresspiegel · NPS",
+      "metric": "Summit elevation above sea level",
+      "status": "draft",
+      "verified": "2026-10-16",
+      "source": "https://www.nps.gov/places/lassen-peak-scenic-vista.htm",
+      "sources": [
+        "https://www.nps.gov/places/lassen-peak-scenic-vista.htm",
+        "https://www.nps.gov/hale/learn/nature/geology-guide.htm"
+      ],
+      "sets": [
+        "Nationalparks · USA · Landschaften und Geologie"
+      ],
+      "time_dependent": true,
+      "data_year_note": "NPS-Quellenstand laut Einzelfrage; Grenz-, Mess- und Naturwerte vor Freigabe erneut prüfen.",
+      "visual": "national-park-landscape-neutral",
+      "subject": "national-park-landscape-neutral"
+    }
+  ],
+  "estimate": [
+    {
+      "id": "parks-20261016-crater-depth",
+      "semantic_key": "crater-lake-maximum-depth-feet",
+      "cat": "Nationalparks",
+      "subcategory": "USA · Landschaften und Geologie",
+      "source_refs": [
+        "crater_faq"
+      ],
+      "section": "How deep is Crater Lake?",
+      "observation_keys": [
+        "crater-depth"
+      ],
+      "data_year": "NPS page 2024",
+      "rounding": "NPS whole-foot maximum depth.",
+      "notes": "Maximum depth, not mean depth.",
+      "q": "Wie tief ist der Crater Lake laut National Park Service maximal?",
+      "a": 1943,
+      "u": "Fuß",
+      "status": "draft",
+      "verified": "2026-10-16",
+      "source": "https://www.nps.gov/crla/faqs.htm",
+      "sources": [
+        "https://www.nps.gov/crla/faqs.htm"
+      ],
+      "sets": [
+        "Nationalparks · USA · Landschaften und Geologie"
+      ],
+      "time_dependent": true,
+      "data_year_note": "NPS-Quellenstand laut Einzelfrage; Grenz-, Mess- und Naturwerte vor Freigabe erneut prüfen.",
+      "visual": "national-park-landscape-neutral",
+      "subject": "national-park-landscape-neutral"
+    },
+    {
+      "id": "parks-20261016-star-dune",
+      "semantic_key": "star-dune-base-to-summit-feet",
+      "cat": "Nationalparks",
+      "subcategory": "USA · Landschaften und Geologie",
+      "source_refs": [
+        "star_dune"
+      ],
+      "section": "Current height",
+      "observation_keys": [
+        "star-dune-height"
+      ],
+      "data_year": 2025,
+      "rounding": "NPS whole-foot measurement.",
+      "notes": "Base-to-summit height; tied with Hidden Dune and naturally variable.",
+      "q": "Wie hoch misst die Star Dune im Great-Sand-Dunes-Nationalpark laut NPS von der Basis bis zum Gipfel?",
+      "a": 741,
+      "u": "Fuß",
+      "status": "draft",
+      "verified": "2026-10-16",
+      "source": "https://www.nps.gov/places/star-dune.htm",
+      "sources": [
+        "https://www.nps.gov/places/star-dune.htm"
+      ],
+      "sets": [
+        "Nationalparks · USA · Landschaften und Geologie"
+      ],
+      "time_dependent": true,
+      "data_year_note": "NPS-Quellenstand laut Einzelfrage; Grenz-, Mess- und Naturwerte vor Freigabe erneut prüfen.",
+      "visual": "national-park-landscape-neutral",
+      "subject": "national-park-landscape-neutral"
+    },
+    {
+      "id": "parks-20261016-white-sands-area",
+      "semantic_key": "white-sands-full-dunefield-square-miles",
+      "cat": "Nationalparks",
+      "subcategory": "USA · Landschaften und Geologie",
+      "source_refs": [
+        "white_sands"
+      ],
+      "section": "Park overview",
+      "observation_keys": [
+        "white-sands-field-area"
+      ],
+      "data_year": "NPS page 2025",
+      "rounding": "NPS whole square miles.",
+      "notes": "Full gypsum dunefield, not the legally bounded park area.",
+      "q": "Über wie viele Quadratmeilen erstreckt sich das gesamte Gipsdünenfeld von White Sands laut NPS?",
+      "a": 275,
+      "u": "Quadratmeilen",
+      "status": "draft",
+      "verified": "2026-10-16",
+      "source": "https://www.nps.gov/whsa/",
+      "sources": [
+        "https://www.nps.gov/whsa/"
+      ],
+      "sets": [
+        "Nationalparks · USA · Landschaften und Geologie"
+      ],
+      "time_dependent": true,
+      "data_year_note": "NPS-Quellenstand laut Einzelfrage; Grenz-, Mess- und Naturwerte vor Freigabe erneut prüfen.",
+      "visual": "national-park-landscape-neutral",
+      "subject": "national-park-landscape-neutral"
+    },
+    {
+      "id": "parks-20261016-badwater",
+      "semantic_key": "badwater-feet-below-sea-level",
+      "cat": "Nationalparks",
+      "subcategory": "USA · Landschaften und Geologie",
+      "source_refs": [
+        "death_valley_foundation"
+      ],
+      "section": "Fundamental resources and values",
+      "observation_keys": [
+        "badwater-below-sea"
+      ],
+      "data_year": 2017,
+      "rounding": "NPS whole-foot figure; magnitude below sea level requested.",
+      "notes": "Answer is the positive magnitude below sea level, not signed elevation.",
+      "q": "Wie viele Fuß unter dem Meeresspiegel liegt das Badwater Basin im Death-Valley-Nationalpark laut NPS?",
+      "a": 282,
+      "u": "Fuß",
+      "status": "draft",
+      "verified": "2026-10-16",
+      "source": "https://www.nps.gov/deva/getinvolved/upload/DEVA_FD_2017_508.pdf",
+      "sources": [
+        "https://www.nps.gov/deva/getinvolved/upload/DEVA_FD_2017_508.pdf"
+      ],
+      "sets": [
+        "Nationalparks · USA · Landschaften und Geologie"
+      ],
+      "time_dependent": true,
+      "data_year_note": "NPS-Quellenstand laut Einzelfrage; Grenz-, Mess- und Naturwerte vor Freigabe erneut prüfen.",
+      "visual": "national-park-landscape-neutral",
+      "subject": "national-park-landscape-neutral"
+    }
+  ],
+  "facts": [
+    {
+      "id": "parks-20261016-seven-islands",
+      "semantic_key": "dry-tortugas-seven-small-islands",
+      "cat": "Nationalparks",
+      "subcategory": "USA · Landschaften und Geologie",
+      "source_refs": [
+        "dry_tortugas"
+      ],
+      "section": "Park overview",
+      "observation_keys": [
+        "dry-tortugas-seven-islands"
+      ],
+      "data_year": "NPS page 2026",
+      "rounding": "Not rounded.",
+      "notes": "Park unit is mostly open water.",
+      "s": "Der Dry-Tortugas-Nationalpark umfasst sieben kleine Inseln und besteht größtenteils aus offenem Wasser.",
+      "a": true,
+      "e": "So beschreibt der National Park Service den rund 100 Quadratmeilen großen Park.",
+      "difficulty": "easy",
+      "status": "draft",
+      "verified": "2026-10-16",
+      "source": "https://www.nps.gov/drto/",
+      "sources": [
+        "https://www.nps.gov/drto/"
+      ],
+      "sets": [
+        "Nationalparks · USA · Landschaften und Geologie"
+      ],
+      "time_dependent": true,
+      "data_year_note": "NPS-Quellenstand laut Einzelfrage; Grenz-, Mess- und Naturwerte vor Freigabe erneut prüfen.",
+      "visual": "national-park-landscape-neutral",
+      "subject": "national-park-landscape-neutral"
+    },
+    {
+      "id": "parks-20261016-quartz",
+      "semantic_key": "white-sands-not-quartz",
+      "cat": "Nationalparks",
+      "subcategory": "USA · Landschaften und Geologie",
+      "source_refs": [
+        "white_sands",
+        "white_sands_geology"
+      ],
+      "section": "Gypsum dunefield",
+      "observation_keys": [
+        "white-sands-gypsum"
+      ],
+      "data_year": "NPS pages 2024/2025",
+      "rounding": "Not numeric.",
+      "notes": "Mineral composition, not color description.",
+      "s": "Die weißen Dünen im White-Sands-Nationalpark bestehen hauptsächlich aus Quarzsand.",
+      "a": false,
+      "e": "Es handelt sich um das weltweit größte Gipsdünenfeld.",
+      "difficulty": "easy",
+      "status": "draft",
+      "verified": "2026-10-16",
+      "source": "https://www.nps.gov/whsa/",
+      "sources": [
+        "https://www.nps.gov/whsa/",
+        "https://www.nps.gov/whsa/geology.htm"
+      ],
+      "sets": [
+        "Nationalparks · USA · Landschaften und Geologie"
+      ],
+      "time_dependent": true,
+      "data_year_note": "NPS-Quellenstand laut Einzelfrage; Grenz-, Mess- und Naturwerte vor Freigabe erneut prüfen.",
+      "visual": "national-park-landscape-neutral",
+      "subject": "national-park-landscape-neutral"
+    },
+    {
+      "id": "parks-20261016-four-volcano-types",
+      "semantic_key": "lassen-all-four-volcano-types",
+      "cat": "Nationalparks",
+      "subcategory": "USA · Landschaften und Geologie",
+      "source_refs": [
+        "lassen_significance"
+      ],
+      "section": "Volcanic resources",
+      "observation_keys": [
+        "lassen-four-volcano-types"
+      ],
+      "data_year": "NPS page 2024",
+      "rounding": "Not numeric.",
+      "notes": "NPS names shield, composite, cinder cone and plug dome.",
+      "s": "Im Lassen-Volcanic-Nationalpark kommen laut NPS alle vier auf der Erde vorkommenden Vulkantypen vor.",
+      "a": true,
+      "e": "Der NPS nennt Schild-, Schicht-, Schlackenkegel- und Staukuppenvulkane.",
+      "difficulty": "medium",
+      "status": "draft",
+      "verified": "2026-10-16",
+      "source": "https://www.nps.gov/lavo/learn/management/park-significance.htm",
+      "sources": [
+        "https://www.nps.gov/lavo/learn/management/park-significance.htm"
+      ],
+      "sets": [
+        "Nationalparks · USA · Landschaften und Geologie"
+      ],
+      "time_dependent": true,
+      "data_year_note": "NPS-Quellenstand laut Einzelfrage; Grenz-, Mess- und Naturwerte vor Freigabe erneut prüfen.",
+      "visual": "national-park-landscape-neutral",
+      "subject": "national-park-landscape-neutral"
+    },
+    {
+      "id": "parks-20261016-carlsbad-acid",
+      "semantic_key": "carlsbad-not-rainwater-carbonic-only",
+      "cat": "Nationalparks",
+      "subcategory": "USA · Landschaften und Geologie",
+      "source_refs": [
+        "carlsbad"
+      ],
+      "section": "Cave formation",
+      "observation_keys": [
+        "carlsbad-sulfuric-acid"
+      ],
+      "data_year": "NPS page 2026",
+      "rounding": "Not numeric.",
+      "notes": "Tests the unusual acid mechanism emphasized by NPS.",
+      "s": "Die Höhlen im Carlsbad-Caverns-Nationalpark entstanden laut NPS ausschließlich durch kohlensäurehaltiges Regenwasser.",
+      "a": false,
+      "e": "Der NPS hebt Schwefelsäure hervor, die den Kalkstein löste.",
+      "difficulty": "medium",
+      "status": "draft",
+      "verified": "2026-10-16",
+      "source": "https://www.nps.gov/cave/",
+      "sources": [
+        "https://www.nps.gov/cave/"
+      ],
+      "sets": [
+        "Nationalparks · USA · Landschaften und Geologie"
+      ],
+      "time_dependent": true,
+      "data_year_note": "NPS-Quellenstand laut Einzelfrage; Grenz-, Mess- und Naturwerte vor Freigabe erneut prüfen.",
+      "visual": "national-park-landscape-neutral",
+      "subject": "national-park-landscape-neutral"
+    },
+    {
+      "id": "parks-20261016-two-volcanoes",
+      "semantic_key": "lake-clark-two-active-volcanoes",
+      "cat": "Nationalparks",
+      "subcategory": "USA · Landschaften und Geologie",
+      "source_refs": [
+        "lake_clark_geo"
+      ],
+      "section": "Geodiversity overview",
+      "observation_keys": [
+        "lake-clark-two-active-volcanoes"
+      ],
+      "data_year": "NPS page 2024",
+      "rounding": "Not numeric beyond count stated by source.",
+      "notes": "The atlas describes the park-and-preserve unit.",
+      "s": "Der Lake-Clark-Nationalpark und das Schutzgebiet umfassen laut NPS zwei aktive Vulkane.",
+      "a": true,
+      "e": "Der Geodiversity Atlas nennt ausdrücklich zwei aktive Vulkane.",
+      "difficulty": "hard",
+      "status": "draft",
+      "verified": "2026-10-16",
+      "source": "https://www.nps.gov/articles/nps-geodiversity-atlas-lake-clark-national-park-alaska.htm",
+      "sources": [
+        "https://www.nps.gov/articles/nps-geodiversity-atlas-lake-clark-national-park-alaska.htm"
+      ],
+      "sets": [
+        "Nationalparks · USA · Landschaften und Geologie"
+      ],
+      "time_dependent": true,
+      "data_year_note": "NPS-Quellenstand laut Einzelfrage; Grenz-, Mess- und Naturwerte vor Freigabe erneut prüfen.",
+      "visual": "national-park-landscape-neutral",
+      "subject": "national-park-landscape-neutral"
+    },
+    {
+      "id": "parks-20261016-river-inflow",
+      "semantic_key": "crater-lake-no-river-stream-inflow",
+      "cat": "Nationalparks",
+      "subcategory": "USA · Landschaften und Geologie",
+      "source_refs": [
+        "crater_faq"
+      ],
+      "section": "Where does the water come from?",
+      "observation_keys": [
+        "crater-no-river-inflow"
+      ],
+      "data_year": "NPS page 2024",
+      "rounding": "Not numeric.",
+      "notes": "Water balance includes precipitation, evaporation and seepage.",
+      "s": "Mehrere Flüsse und Bäche speisen den Crater Lake dauerhaft mit Wasser.",
+      "a": false,
+      "e": "Laut NPS stammt das Wasser aus Regen und Schnee; es münden keine Flüsse oder Bäche ein.",
+      "difficulty": "hard",
+      "status": "draft",
+      "verified": "2026-10-16",
+      "source": "https://www.nps.gov/crla/faqs.htm",
+      "sources": [
+        "https://www.nps.gov/crla/faqs.htm"
+      ],
+      "sets": [
+        "Nationalparks · USA · Landschaften und Geologie"
+      ],
+      "time_dependent": true,
+      "data_year_note": "NPS-Quellenstand laut Einzelfrage; Grenz-, Mess- und Naturwerte vor Freigabe erneut prüfen.",
+      "visual": "national-park-landscape-neutral",
+      "subject": "national-park-landscape-neutral"
+    }
+  ],
+  "jeopardy": [
+    {
+      "id": "parks-20261016-wizard-island",
+      "semantic_key": "wizard-island-crater-lake",
+      "cat": "Nationalparks",
+      "subcategory": "USA · Landschaften und Geologie",
+      "source_refs": [
+        "wizard_island"
+      ],
+      "section": "Post-caldera volcanism",
+      "observation_keys": [
+        "wizard-island-location"
+      ],
+      "data_year": "NPS current page",
+      "rounding": "Not numeric.",
+      "notes": "Visible cinder cone in the lake.",
+      "q": "In welchem Nationalpark liegt die Vulkaninsel Wizard Island?",
+      "a": "Crater Lake National Park|Crater-Lake-Nationalpark|Crater Lake",
+      "difficulty": 1,
+      "status": "draft",
+      "verified": "2026-10-16",
+      "source": "https://www.nps.gov/crla/learn/nature/wizardisland.htm",
+      "sources": [
+        "https://www.nps.gov/crla/learn/nature/wizardisland.htm"
+      ],
+      "sets": [
+        "Nationalparks · USA · Landschaften und Geologie"
+      ],
+      "time_dependent": true,
+      "data_year_note": "NPS-Quellenstand laut Einzelfrage; Grenz-, Mess- und Naturwerte vor Freigabe erneut prüfen.",
+      "visual": null
+    },
+    {
+      "id": "parks-20261016-fort-jefferson",
+      "semantic_key": "fort-jefferson-dry-tortugas",
+      "cat": "Nationalparks",
+      "subcategory": "USA · Landschaften und Geologie",
+      "source_refs": [
+        "fort_jefferson"
+      ],
+      "section": "Protected cultural resources",
+      "observation_keys": [
+        "fort-jefferson-location"
+      ],
+      "data_year": "NPS current page",
+      "rounding": "Not numeric.",
+      "notes": "Fort on Garden Key.",
+      "q": "Welcher Nationalpark schützt Fort Jefferson auf Garden Key?",
+      "a": "Dry Tortugas National Park|Dry-Tortugas-Nationalpark|Dry Tortugas",
+      "difficulty": 1,
+      "status": "draft",
+      "verified": "2026-10-16",
+      "source": "https://www.nps.gov/drto/learn/historyculture/index.htm",
+      "sources": [
+        "https://www.nps.gov/drto/learn/historyculture/index.htm"
+      ],
+      "sets": [
+        "Nationalparks · USA · Landschaften und Geologie"
+      ],
+      "time_dependent": true,
+      "data_year_note": "NPS-Quellenstand laut Einzelfrage; Grenz-, Mess- und Naturwerte vor Freigabe erneut prüfen.",
+      "visual": null
+    },
+    {
+      "id": "parks-20261016-big-room",
+      "semantic_key": "big-room-carlsbad-caverns",
+      "cat": "Nationalparks",
+      "subcategory": "USA · Landschaften und Geologie",
+      "source_refs": [
+        "big_room"
+      ],
+      "section": "Self-guided Big Room route",
+      "observation_keys": [
+        "big-room-location"
+      ],
+      "data_year": "NPS page 2025",
+      "rounding": "Not numeric.",
+      "notes": "Largest single cave chamber by volume in North America per NPS.",
+      "q": "In welchem Nationalpark befindet sich die als „Big Room“ bekannte Höhlenkammer?",
+      "a": "Carlsbad Caverns National Park|Carlsbad-Caverns-Nationalpark|Carlsbad Caverns",
+      "difficulty": 2,
+      "status": "draft",
+      "verified": "2026-10-16",
+      "source": "https://www.nps.gov/cave/planyourvisit/selfguided_tours.htm",
+      "sources": [
+        "https://www.nps.gov/cave/planyourvisit/selfguided_tours.htm"
+      ],
+      "sets": [
+        "Nationalparks · USA · Landschaften und Geologie"
+      ],
+      "time_dependent": true,
+      "data_year_note": "NPS-Quellenstand laut Einzelfrage; Grenz-, Mess- und Naturwerte vor Freigabe erneut prüfen.",
+      "visual": null
+    },
+    {
+      "id": "parks-20261016-brooks-camp",
+      "semantic_key": "brooks-camp-katmai",
+      "cat": "Nationalparks",
+      "subcategory": "USA · Landschaften und Geologie",
+      "source_refs": [
+        "brooks_camp"
+      ],
+      "section": "Brooks Camp overview",
+      "observation_keys": [
+        "brooks-camp-location"
+      ],
+      "data_year": "NPS current page",
+      "rounding": "Not numeric.",
+      "notes": "Seasonal bear viewing at Brooks River.",
+      "q": "Zu welchem Nationalpark und Schutzgebiet gehört das für Braunbären bekannte Brooks Camp?",
+      "a": "Katmai National Park and Preserve|Katmai-Nationalpark|Katmai",
+      "difficulty": 2,
+      "status": "draft",
+      "verified": "2026-10-16",
+      "source": "https://www.nps.gov/katm/planyourvisit/brooks-camp.htm",
+      "sources": [
+        "https://www.nps.gov/katm/planyourvisit/brooks-camp.htm"
+      ],
+      "sets": [
+        "Nationalparks · USA · Landschaften und Geologie"
+      ],
+      "time_dependent": true,
+      "data_year_note": "NPS-Quellenstand laut Einzelfrage; Grenz-, Mess- und Naturwerte vor Freigabe erneut prüfen.",
+      "visual": null
+    },
+    {
+      "id": "parks-20261016-bumpass-hell",
+      "semantic_key": "bumpass-hell-lassen-volcanic",
+      "cat": "Nationalparks",
+      "subcategory": "USA · Landschaften und Geologie",
+      "source_refs": [
+        "bumpass_hell"
+      ],
+      "section": "Park overview",
+      "observation_keys": [
+        "bumpass-hell-location"
+      ],
+      "data_year": "NPS current page",
+      "rounding": "Not numeric.",
+      "notes": "Largest hydrothermal area in the park.",
+      "q": "In welchem Nationalpark liegt das Hydrothermalgebiet Bumpass Hell?",
+      "a": "Lassen Volcanic National Park|Lassen-Volcanic-Nationalpark|Lassen Volcanic",
+      "difficulty": 3,
+      "status": "draft",
+      "verified": "2026-10-16",
+      "source": "https://www.nps.gov/lavo/",
+      "sources": [
+        "https://www.nps.gov/lavo/"
+      ],
+      "sets": [
+        "Nationalparks · USA · Landschaften und Geologie"
+      ],
+      "time_dependent": true,
+      "data_year_note": "NPS-Quellenstand laut Einzelfrage; Grenz-, Mess- und Naturwerte vor Freigabe erneut prüfen.",
+      "visual": null
+    },
+    {
+      "id": "parks-20261016-no-road",
+      "semantic_key": "lake-clark-no-road-system",
+      "cat": "Nationalparks",
+      "subcategory": "USA · Landschaften und Geologie",
+      "source_refs": [
+        "lake_clark_directions"
+      ],
+      "section": "Directions",
+      "observation_keys": [
+        "lake-clark-no-roads"
+      ],
+      "data_year": "NPS page 2026",
+      "rounding": "Not numeric.",
+      "notes": "NPS says travel is primarily by small plane.",
+      "q": "Welcher Nationalpark und welches Schutzgebiet Alaskas liegt nicht am Straßennetz und wird laut NPS hauptsächlich per Kleinflugzeug erreicht?",
+      "a": "Lake Clark National Park and Preserve|Lake-Clark-Nationalpark|Lake Clark",
+      "difficulty": 3,
+      "status": "draft",
+      "verified": "2026-10-16",
+      "source": "https://www.nps.gov/lacl/planyourvisit/directions.htm",
+      "sources": [
+        "https://www.nps.gov/lacl/planyourvisit/directions.htm"
+      ],
+      "sets": [
+        "Nationalparks · USA · Landschaften und Geologie"
+      ],
+      "time_dependent": true,
+      "data_year_note": "NPS-Quellenstand laut Einzelfrage; Grenz-, Mess- und Naturwerte vor Freigabe erneut prüfen.",
+      "visual": null
+    },
+    {
+      "id": "parks-20261016-puuulaula",
+      "semantic_key": "puuulaula-haleakala",
+      "cat": "Nationalparks",
+      "subcategory": "USA · Landschaften und Geologie",
+      "source_refs": [
+        "haleakala_summit"
+      ],
+      "section": "Summit Observation Deck",
+      "observation_keys": [
+        "puuulaula-location"
+      ],
+      "data_year": "NPS page 2021",
+      "rounding": "Not numeric.",
+      "notes": "Highest point on Maui.",
+      "q": "Zu welchem Nationalpark gehört der Aussichtspunkt Puʻuʻulaʻula am höchsten Punkt Mauis?",
+      "a": "Haleakalā National Park|Haleakala National Park|Haleakalā-Nationalpark|Haleakala-Nationalpark",
+      "difficulty": 4,
+      "status": "draft",
+      "verified": "2026-10-16",
+      "source": "https://www.nps.gov/places/puuulaula.htm",
+      "sources": [
+        "https://www.nps.gov/places/puuulaula.htm"
+      ],
+      "sets": [
+        "Nationalparks · USA · Landschaften und Geologie"
+      ],
+      "time_dependent": true,
+      "data_year_note": "NPS-Quellenstand laut Einzelfrage; Grenz-, Mess- und Naturwerte vor Freigabe erneut prüfen.",
+      "visual": null
+    },
+    {
+      "id": "parks-20261016-tularosa",
+      "semantic_key": "tularosa-basin-white-sands",
+      "cat": "Nationalparks",
+      "subcategory": "USA · Landschaften und Geologie",
+      "source_refs": [
+        "white_sands_geology"
+      ],
+      "section": "Dunefield formation",
+      "observation_keys": [
+        "tularosa-gypsum-location"
+      ],
+      "data_year": "NPS page 2024",
+      "rounding": "Not numeric.",
+      "notes": "Asked for the park preserving the gypsum dunefield.",
+      "q": "Welcher Nationalpark bewahrt das Gipsdünenfeld im Tularosa Basin?",
+      "a": "White Sands National Park|White-Sands-Nationalpark|White Sands",
+      "difficulty": 4,
+      "status": "draft",
+      "verified": "2026-10-16",
+      "source": "https://www.nps.gov/whsa/geology.htm",
+      "sources": [
+        "https://www.nps.gov/whsa/geology.htm"
+      ],
+      "sets": [
+        "Nationalparks · USA · Landschaften und Geologie"
+      ],
+      "time_dependent": true,
+      "data_year_note": "NPS-Quellenstand laut Einzelfrage; Grenz-, Mess- und Naturwerte vor Freigabe erneut prüfen.",
+      "visual": null
+    }
+  ]
+}

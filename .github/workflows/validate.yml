@@ -18,3 +18,8 @@ jobs:
       - name: Static game regression checks
         run: |
           node scripts/regression-check.mjs
+      - name: Nationalparks draft content checks
+        run: |
+          python3 scripts/build-nationalparks-draft-20261016.py --check
+          node scripts/check-nationalparks-draft-20261016.mjs
+          npm run pwa:build
