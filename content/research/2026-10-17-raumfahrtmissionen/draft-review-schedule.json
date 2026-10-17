@@ -1,0 +1,225 @@
+{
+  "policy": "Aktive Missionspläne und aktuelle Rekorde: 90 Tage; abgeschlossene historische Missionsdaten: 365 Tage. Keine automatische Freigabe.",
+  "records": [
+    {
+      "id": "missions-20261017-launch-2021",
+      "game": "moreless",
+      "source": "https://science.nasa.gov/mission/dart/",
+      "verified": "2026-10-17",
+      "data_year": 2021,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-17",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "missions-20261017-launch-2018",
+      "game": "moreless",
+      "source": "https://science.nasa.gov/mission/tess/",
+      "verified": "2026-10-17",
+      "data_year": 2018,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-17",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "missions-20261017-bennu-mass",
+      "game": "estimate",
+      "source": "https://science.nasa.gov/mission/osiris-rex/",
+      "verified": "2026-10-17",
+      "data_year": 2024,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-17",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "missions-20261017-lucy-targets",
+      "game": "estimate",
+      "source": "https://science.nasa.gov/mission/lucy/",
+      "verified": "2026-10-17",
+      "data_year": "NASA mission plan checked 2026",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-15",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "missions-20261017-parker-distance",
+      "game": "estimate",
+      "source": "https://science.nasa.gov/mission/parker-solar-probe/",
+      "verified": "2026-10-17",
+      "data_year": "NASA mission page checked 2026",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-15",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "missions-20261017-insight-arm",
+      "game": "estimate",
+      "source": "https://science.nasa.gov/mission/insight/",
+      "verified": "2026-10-17",
+      "data_year": "2018 spacecraft specification",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-17",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "missions-20261017-dart-target",
+      "game": "facts",
+      "source": "https://science.nasa.gov/mission/dart/",
+      "verified": "2026-10-17",
+      "data_year": 2022,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-17",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "missions-20261017-insight-rover",
+      "game": "facts",
+      "source": "https://science.nasa.gov/mission/insight/",
+      "verified": "2026-10-17",
+      "data_year": "2018-2022 mission record",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-17",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "missions-20261017-psyche-metal",
+      "game": "facts",
+      "source": "https://science.nasa.gov/mission/psyche/",
+      "verified": "2026-10-17",
+      "data_year": "mission page current 2026",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-15",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "missions-20261017-lucy-near-jupiter",
+      "game": "facts",
+      "source": "https://science.nasa.gov/mission/lucy/",
+      "verified": "2026-10-17",
+      "data_year": "mission page current 2026",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-15",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "missions-20261017-osiris-return",
+      "game": "facts",
+      "source": "https://science.nasa.gov/mission/osiris-rex/",
+      "verified": "2026-10-17",
+      "data_year": 2023,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-17",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "missions-20261017-deep-impact-mass",
+      "game": "facts",
+      "source": "https://science.nasa.gov/mission/deep-impact-epoxi/",
+      "verified": "2026-10-17",
+      "data_year": 2005,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-17",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "missions-20261017-bennu",
+      "game": "jeopardy",
+      "source": "https://science.nasa.gov/mission/osiris-rex/",
+      "verified": "2026-10-17",
+      "data_year": "2016-2023 mission record",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-17",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "missions-20261017-dimorphos",
+      "game": "jeopardy",
+      "source": "https://science.nasa.gov/mission/dart/",
+      "verified": "2026-10-17",
+      "data_year": 2022,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-17",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "missions-20261017-trojans",
+      "game": "jeopardy",
+      "source": "https://science.nasa.gov/mission/lucy/",
+      "verified": "2026-10-17",
+      "data_year": "mission plan current 2026",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-15",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "missions-20261017-psyche",
+      "game": "jeopardy",
+      "source": "https://science.nasa.gov/mission/psyche/",
+      "verified": "2026-10-17",
+      "data_year": "mission page current 2026",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-15",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "missions-20261017-elysium",
+      "game": "jeopardy",
+      "source": "https://science.nasa.gov/mission/insight/",
+      "verified": "2026-10-17",
+      "data_year": 2018,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-17",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "missions-20261017-tempel",
+      "game": "jeopardy",
+      "source": "https://science.nasa.gov/mission/deep-impact-epoxi/",
+      "verified": "2026-10-17",
+      "data_year": 2005,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-17",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "missions-20261017-magellan",
+      "game": "jeopardy",
+      "source": "https://www.jpl.nasa.gov/missions/magellan/",
+      "verified": "2026-10-17",
+      "data_year": "1990-1994 mission record",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-17",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "missions-20261017-eugene-parker",
+      "game": "jeopardy",
+      "source": "https://science.nasa.gov/mission/parker-solar-probe/",
+      "verified": "2026-10-17",
+      "data_year": "2018 naming record",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-17",
+      "review_status": "draft-review-required"
+    }
+  ]
+}
