@@ -1,0 +1,30 @@
+{
+  "checked": "2026-10-17",
+  "target": {
+    "category": "Raumfahrtmissionen",
+    "main_before": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 22,
+      "total": 22
+    },
+    "open_drafts_before": {
+      "total": 0,
+      "note": "19 zugängliche offene PRs / 980 ausstehende Fragen geprüft; keine der 22 neuen Beobachtungen gefunden."
+    },
+    "after_including_this_draft": {
+      "moreless": 2,
+      "estimate": 4,
+      "facts": 6,
+      "jeopardy": 30,
+      "total": 42
+    }
+  },
+  "run_target": {
+    "existing_category_labels": 35,
+    "completed_category_labels": 1,
+    "missing_questions_against_20_per_category_run_target": 680,
+    "note": "Dieser Entwurf erfüllt 20 nur für Raumfahrtmissionen."
+  }
+}
