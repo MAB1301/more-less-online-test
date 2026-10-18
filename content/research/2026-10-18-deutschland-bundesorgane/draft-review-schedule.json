@@ -1,0 +1,225 @@
+{
+  "policy": "Aktuelle Organ- und Mitgliederzahlen: 90 Tage; gesetzlich oder historisch gebundene Werte: 365 Tage. Keine automatische Freigabe.",
+  "records": [
+    {
+      "id": "de-org-20261018-wk-by-bw",
+      "game": "moreless",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/2025/wahlkreiseinteilung.html",
+      "verified": "2026-10-18",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-18",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-org-20261018-wk-berlin-sh",
+      "game": "moreless",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/2025/wahlkreiseinteilung.html",
+      "verified": "2026-10-18",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-18",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-org-20261018-bundestag-seats",
+      "game": "estimate",
+      "source": "https://www.bundestag.de/leichte_sprache/wer_arbeitet_index/abgeordnete/abgeordnete-inhalt-961956",
+      "verified": "2026-10-18",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-16",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-org-20261018-constituencies",
+      "game": "estimate",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/2025/wahlkreiseinteilung.html",
+      "verified": "2026-10-18",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-18",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-org-20261018-bundesrat-votes",
+      "game": "estimate",
+      "source": "https://www.bundesrat.de/DE/bundesrat/bundesrat-node.html",
+      "verified": "2026-10-18",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-16",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-org-20261018-average-population",
+      "game": "estimate",
+      "source": "https://www.bundeswahlleiterin.de/service/glossar/w/wahlkreise.html",
+      "verified": "2026-10-18",
+      "data_year": 2023,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-18",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-org-20261018-conscience",
+      "game": "facts",
+      "source": "https://www.gesetze-im-internet.de/gg/BJNR000010949.html",
+      "verified": "2026-10-18",
+      "data_year": "Grundgesetz, Stand 2025",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-18",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-org-20261018-direct-president",
+      "game": "facts",
+      "source": "https://www.gesetze-im-internet.de/gg/BJNR000010949.html",
+      "verified": "2026-10-18",
+      "data_year": "Grundgesetz, Stand 2025",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-18",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-org-20261018-uniform-votes",
+      "game": "facts",
+      "source": "https://www.gesetze-im-internet.de/gg/BJNR000010949.html",
+      "verified": "2026-10-18",
+      "data_year": "Grundgesetz, Stand 2025",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-18",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-org-20261018-public-session",
+      "game": "facts",
+      "source": "https://www.gesetze-im-internet.de/gg/BJNR000010949.html",
+      "verified": "2026-10-18",
+      "data_year": "Grundgesetz, Stand 2025",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-18",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-org-20261018-defence-inquiry",
+      "game": "facts",
+      "source": "https://www.gesetze-im-internet.de/gg/BJNR000010949.html",
+      "verified": "2026-10-18",
+      "data_year": "Grundgesetz, Stand 2025",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-18",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-org-20261018-president-membership",
+      "game": "facts",
+      "source": "https://www.gesetze-im-internet.de/gg/BJNR000010949.html",
+      "verified": "2026-10-18",
+      "data_year": "Grundgesetz, Stand 2025",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-18",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-org-20261018-federal-convention",
+      "game": "jeopardy",
+      "source": "https://www.bundestag.de/parlament/aufgaben/bundesversammlung",
+      "verified": "2026-10-18",
+      "data_year": 2026,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-18",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-org-20261018-international-representation",
+      "game": "jeopardy",
+      "source": "https://www.gesetze-im-internet.de/gg/BJNR000010949.html",
+      "verified": "2026-10-18",
+      "data_year": "Grundgesetz, Stand 2025",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-18",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-org-20261018-substitute-president",
+      "game": "jeopardy",
+      "source": "https://www.gesetze-im-internet.de/gg/BJNR000010949.html",
+      "verified": "2026-10-18",
+      "data_year": "Grundgesetz, Stand 2025",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-18",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-org-20261018-karlsruhe",
+      "game": "jeopardy",
+      "source": "https://www.bundesverfassungsgericht.de/DE/DasBundesverfassungsgericht/AufgabenOrganisation/aufgaben-Organisation_node.html",
+      "verified": "2026-10-18",
+      "data_year": 2026,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-18",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-org-20261018-inquiry-threshold",
+      "game": "jeopardy",
+      "source": "https://www.gesetze-im-internet.de/gg/BJNR000010949.html",
+      "verified": "2026-10-18",
+      "data_year": "Grundgesetz, Stand 2025",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-18",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-org-20261018-constructive-no-confidence",
+      "game": "jeopardy",
+      "source": "https://www.gesetze-im-internet.de/gg/BJNR000010949.html",
+      "verified": "2026-10-18",
+      "data_year": "Grundgesetz, Stand 2025",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-18",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-org-20261018-constitutional-judges",
+      "game": "jeopardy",
+      "source": "https://www.bundesverfassungsgericht.de/DE/DasBundesverfassungsgericht/AufgabenOrganisation/aufgaben-Organisation_node.html",
+      "verified": "2026-10-18",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-16",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-org-20261018-defence-committee",
+      "game": "jeopardy",
+      "source": "https://www.gesetze-im-internet.de/gg/BJNR000010949.html",
+      "verified": "2026-10-18",
+      "data_year": "Grundgesetz, Stand 2025",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-18",
+      "review_status": "draft-review-required"
+    }
+  ]
+}
