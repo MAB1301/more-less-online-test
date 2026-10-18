@@ -1,0 +1,8 @@
+{
+  "checked": "2026-10-18",
+  "main_unique_keys": 2236,
+  "draft_unique_keys": 20,
+  "exact_or_reversed_conflicts": [],
+  "semantic_review": "Vorhandene Deutschland-Fragen zu Ländern, Hauptstädten, frühem Bundestag und Berlin ausgeschlossen. 22 getrennte Beobachtungen; beide Vergleiche verwenden exakt dieselbe amtliche Kennzahl und dieselbe Bundestagswahl. Berlin und Schleswig-Holstein liegen nur einen Wahlkreis auseinander.",
+  "limits": "Normalisierung plus Beobachtungsschlüssel und gezielte Main-/PR-/Daily-Suche."
+}

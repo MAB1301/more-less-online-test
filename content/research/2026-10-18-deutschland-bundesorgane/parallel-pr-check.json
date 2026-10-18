@@ -1,0 +1,10 @@
+{
+  "checked":"2026-10-18",
+  "base_commit":"dced74bb1385014445e186969a09ccd92c20edb5",
+  "open_pr_count":20,
+  "pending_questions_considered":1000,
+  "subject_hits":0,
+  "method":"Alle 20 bekannten und weiterhin zugänglichen offenen PRs wurden über ihre vollständigen Dateilisten geprüft. Die fachlich benachbarten Inhaltsentwürfe #134, #144 und #148 wurden zusätzlich in ihren Input-Dateien nach Bundestag, Bundesrat, Bundespräsident, Bundesversammlung, Wahlkreis, Karlsruhe, Misstrauensvotum und den verwendeten Zahlen durchsucht; kein Konflikt mit den 22 neuen Beobachtungen.",
+  "pull_requests":[57,109,122,126,127,128,129,130,131,132,134,138,144,145,146,147,148,149,150,151],
+  "connector_note":"Die direkte paginierte PR-Dateiabfrage bestätigte die Zugänglichkeit aller 20 bekannten offenen Entwürfe."
+}

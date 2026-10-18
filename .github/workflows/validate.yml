@@ -18,3 +18,6 @@ jobs:
       - name: Static game regression checks
         run: |
           node scripts/regression-check.mjs
+          python3 scripts/build-deutschland-bundesorgane-draft-20261018.py --check
+          node scripts/inventory-deutschland-bundesorgane-draft-20261018.mjs --check
+          node scripts/check-deutschland-bundesorgane-draft-20261018.mjs
