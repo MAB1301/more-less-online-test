@@ -1,0 +1,10 @@
+{
+  "checked":"2026-10-19",
+  "base_commit":"dced74bb1385014445e186969a09ccd92c20edb5",
+  "open_pr_count":21,
+  "pending_questions_considered":1020,
+  "subject_hits":0,
+  "method":"All 21 known and accessible open pull requests were checked through their changed-file lists. Chemistry-adjacent draft #130 and broad-category draft #134 were additionally searched for every selected element and all 22 observations; #130 covers other rare elements and no new observation here.",
+  "pull_requests":[57,109,122,126,127,128,129,130,131,132,134,138,144,145,146,147,148,149,150,151,152],
+  "connector_note":"The direct per-PR file query confirmed access to all 21 known open content drafts."
+}

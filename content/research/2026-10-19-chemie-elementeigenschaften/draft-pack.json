@@ -1,0 +1,718 @@
+{
+  "status": "review-only",
+  "verified": "2026-10-19",
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "images": {
+    "chemistry-properties-neutral": {
+      "card": "visuals/chemistry-properties-neutral-card.svg",
+      "detail": "visuals/chemistry-properties-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstract atom, laboratory glassware and crystal without element names, values or solution clues; Jeopardy has no image key."
+    },
+    "Kobalt": {
+      "card": "visuals/chemistry-properties-neutral-card.svg",
+      "detail": "visuals/chemistry-properties-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstract atom, laboratory glassware and crystal without element names, values or solution clues; Jeopardy has no image key."
+    },
+    "Nickel": {
+      "card": "visuals/chemistry-properties-neutral-card.svg",
+      "detail": "visuals/chemistry-properties-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstract atom, laboratory glassware and crystal without element names, values or solution clues; Jeopardy has no image key."
+    },
+    "Molybdän": {
+      "card": "visuals/chemistry-properties-neutral-card.svg",
+      "detail": "visuals/chemistry-properties-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstract atom, laboratory glassware and crystal without element names, values or solution clues; Jeopardy has no image key."
+    },
+    "Silber": {
+      "card": "visuals/chemistry-properties-neutral-card.svg",
+      "detail": "visuals/chemistry-properties-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstract atom, laboratory glassware and crystal without element names, values or solution clues; Jeopardy has no image key."
+    }
+  },
+  "moreless": [
+    {
+      "id": "chem-prop-20261019-density-co-ni",
+      "semantic_key": "density-20c-cobalt-vs-nickel",
+      "cat": "Chemie",
+      "subcategory": "Elementeigenschaften · Dichte, Phasen & Herkunft",
+      "source_refs": [
+        "cobalt",
+        "nickel"
+      ],
+      "section": "Physical properties",
+      "observation_keys": [
+        "density-cobalt",
+        "density-nickel"
+      ],
+      "data_year": "RSC dataset, checked 2026",
+      "rounding": "Published values to two decimals; no further rounding.",
+      "notes": "Same metric, unit and room-temperature reference; difference 0.04 g/cm³.",
+      "time_dependent": false,
+      "l": "Kobalt",
+      "r": "Nickel",
+      "lv": 8.86,
+      "rv": 8.9,
+      "u": "g/cm³ · Dichte nahe Raumtemperatur",
+      "metric": "Dichte nahe Raumtemperatur",
+      "status": "draft",
+      "verified": "2026-10-19",
+      "source": "https://periodic-table.rsc.org/element/27/cobalt",
+      "sources": [
+        "https://periodic-table.rsc.org/element/27/cobalt",
+        "https://periodic-table.rsc.org/element/28/nickel"
+      ],
+      "sets": [
+        "Chemie · Elementeigenschaften"
+      ],
+      "data_year_note": "Stable element-property data; verify again before publication if the source dataset changes.",
+      "visual": "chemistry-properties-neutral",
+      "subject": "chemistry-properties-neutral"
+    },
+    {
+      "id": "chem-prop-20261019-density-mo-ag",
+      "semantic_key": "density-20c-molybdenum-vs-silver",
+      "cat": "Chemie",
+      "subcategory": "Elementeigenschaften · Dichte, Phasen & Herkunft",
+      "source_refs": [
+        "molybdenum",
+        "silver"
+      ],
+      "section": "Physical properties",
+      "observation_keys": [
+        "density-molybdenum",
+        "density-silver"
+      ],
+      "data_year": "RSC dataset, checked 2026",
+      "rounding": "Published values to one decimal; no further rounding.",
+      "notes": "Same metric, unit and room-temperature reference; difference 0.3 g/cm³.",
+      "time_dependent": false,
+      "l": "Molybdän",
+      "r": "Silber",
+      "lv": 10.2,
+      "rv": 10.5,
+      "u": "g/cm³ · Dichte nahe Raumtemperatur",
+      "metric": "Dichte nahe Raumtemperatur",
+      "status": "draft",
+      "verified": "2026-10-19",
+      "source": "https://periodic-table.rsc.org/element/42/molybdenum",
+      "sources": [
+        "https://periodic-table.rsc.org/element/42/molybdenum",
+        "https://periodic-table.rsc.org/element/47/silver"
+      ],
+      "sets": [
+        "Chemie · Elementeigenschaften"
+      ],
+      "data_year_note": "Stable element-property data; verify again before publication if the source dataset changes.",
+      "visual": "chemistry-properties-neutral",
+      "subject": "chemistry-properties-neutral"
+    }
+  ],
+  "estimate": [
+    {
+      "id": "chem-prop-20261019-gallium-melting",
+      "semantic_key": "gallium-melting-point-celsius",
+      "cat": "Chemie",
+      "subcategory": "Elementeigenschaften · Dichte, Phasen & Herkunft",
+      "source_refs": [
+        "gallium"
+      ],
+      "section": "Melting point",
+      "observation_keys": [
+        "melting-gallium"
+      ],
+      "data_year": "RSC dataset, checked 2026",
+      "rounding": "RSC value 29.7646 °C retained.",
+      "notes": "Temperature in degrees Celsius.",
+      "time_dependent": false,
+      "q": "Bei welcher Temperatur schmilzt Gallium laut RSC-Periodensystem?",
+      "a": 29.7646,
+      "u": "°C",
+      "status": "draft",
+      "verified": "2026-10-19",
+      "source": "https://periodic-table.rsc.org/element/31/gallium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/31/gallium"
+      ],
+      "sets": [
+        "Chemie · Elementeigenschaften"
+      ],
+      "data_year_note": "Stable element-property data; verify again before publication if the source dataset changes.",
+      "visual": "chemistry-properties-neutral",
+      "subject": "chemistry-properties-neutral"
+    },
+    {
+      "id": "chem-prop-20261019-bromine-boiling",
+      "semantic_key": "bromine-boiling-point-celsius",
+      "cat": "Chemie",
+      "subcategory": "Elementeigenschaften · Dichte, Phasen & Herkunft",
+      "source_refs": [
+        "bromine"
+      ],
+      "section": "Boiling point",
+      "observation_keys": [
+        "boiling-bromine"
+      ],
+      "data_year": "RSC dataset, checked 2026",
+      "rounding": "RSC value 58.8 °C retained.",
+      "notes": "Temperature in degrees Celsius.",
+      "time_dependent": false,
+      "q": "Bei welcher Temperatur siedet Brom laut RSC-Periodensystem?",
+      "a": 58.8,
+      "u": "°C",
+      "status": "draft",
+      "verified": "2026-10-19",
+      "source": "https://periodic-table.rsc.org/element/35/bromine",
+      "sources": [
+        "https://periodic-table.rsc.org/element/35/bromine"
+      ],
+      "sets": [
+        "Chemie · Elementeigenschaften"
+      ],
+      "data_year_note": "Stable element-property data; verify again before publication if the source dataset changes.",
+      "visual": "chemistry-properties-neutral",
+      "subject": "chemistry-properties-neutral"
+    },
+    {
+      "id": "chem-prop-20261019-germanium-melting",
+      "semantic_key": "germanium-melting-point-celsius",
+      "cat": "Chemie",
+      "subcategory": "Elementeigenschaften · Dichte, Phasen & Herkunft",
+      "source_refs": [
+        "germanium"
+      ],
+      "section": "Melting point",
+      "observation_keys": [
+        "melting-germanium"
+      ],
+      "data_year": "RSC dataset, checked 2026",
+      "rounding": "RSC value 938.25 °C retained.",
+      "notes": "Temperature in degrees Celsius.",
+      "time_dependent": false,
+      "q": "Bei welcher Temperatur schmilzt Germanium laut RSC-Periodensystem?",
+      "a": 938.25,
+      "u": "°C",
+      "status": "draft",
+      "verified": "2026-10-19",
+      "source": "https://periodic-table.rsc.org/element/32/germanium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/32/germanium"
+      ],
+      "sets": [
+        "Chemie · Elementeigenschaften"
+      ],
+      "data_year_note": "Stable element-property data; verify again before publication if the source dataset changes.",
+      "visual": "chemistry-properties-neutral",
+      "subject": "chemistry-properties-neutral"
+    },
+    {
+      "id": "chem-prop-20261019-helium-boiling",
+      "semantic_key": "helium-boiling-point-celsius",
+      "cat": "Chemie",
+      "subcategory": "Elementeigenschaften · Dichte, Phasen & Herkunft",
+      "source_refs": [
+        "helium"
+      ],
+      "section": "Boiling point",
+      "observation_keys": [
+        "boiling-helium"
+      ],
+      "data_year": "RSC dataset, checked 2026",
+      "rounding": "RSC value −268.928 °C retained.",
+      "notes": "Negative Celsius temperature; the game accepts signed estimates.",
+      "time_dependent": false,
+      "q": "Bei welcher Temperatur siedet Helium laut RSC-Periodensystem?",
+      "a": -268.928,
+      "u": "°C",
+      "status": "draft",
+      "verified": "2026-10-19",
+      "source": "https://periodic-table.rsc.org/element/2/helium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/2/helium"
+      ],
+      "sets": [
+        "Chemie · Elementeigenschaften"
+      ],
+      "data_year_note": "Stable element-property data; verify again before publication if the source dataset changes.",
+      "visual": "chemistry-properties-neutral",
+      "subject": "chemistry-properties-neutral"
+    }
+  ],
+  "facts": [
+    {
+      "id": "chem-prop-20261019-bromine-liquid",
+      "semantic_key": "bromine-liquid-at-20c",
+      "cat": "Chemie",
+      "subcategory": "Elementeigenschaften · Dichte, Phasen & Herkunft",
+      "source_refs": [
+        "bromine"
+      ],
+      "section": "State at 20 °C",
+      "observation_keys": [
+        "fact-bromine-liquid"
+      ],
+      "data_year": "RSC dataset, checked 2026",
+      "rounding": "Not numeric.",
+      "notes": "Reference temperature 20 °C.",
+      "time_dependent": false,
+      "s": "Brom ist bei 20 °C flüssig.",
+      "a": true,
+      "e": "Die RSC-Faktentabelle führt Brom bei 20 °C als flüssig.",
+      "difficulty": "easy",
+      "status": "draft",
+      "verified": "2026-10-19",
+      "source": "https://periodic-table.rsc.org/element/35/bromine",
+      "sources": [
+        "https://periodic-table.rsc.org/element/35/bromine"
+      ],
+      "sets": [
+        "Chemie · Elementeigenschaften"
+      ],
+      "data_year_note": "Stable element-property data; verify again before publication if the source dataset changes.",
+      "visual": "chemistry-properties-neutral",
+      "subject": "chemistry-properties-neutral"
+    },
+    {
+      "id": "chem-prop-20261019-nickel-gas",
+      "semantic_key": "nickel-not-gas-at-20c",
+      "cat": "Chemie",
+      "subcategory": "Elementeigenschaften · Dichte, Phasen & Herkunft",
+      "source_refs": [
+        "nickel"
+      ],
+      "section": "State at 20 °C",
+      "observation_keys": [
+        "fact-nickel-gas"
+      ],
+      "data_year": "RSC dataset, checked 2026",
+      "rounding": "Not numeric.",
+      "notes": "Reference temperature 20 °C.",
+      "time_dependent": false,
+      "s": "Nickel ist bei 20 °C gasförmig.",
+      "a": false,
+      "e": "Nickel ist bei 20 °C fest.",
+      "difficulty": "easy",
+      "status": "draft",
+      "verified": "2026-10-19",
+      "source": "https://periodic-table.rsc.org/element/28/nickel",
+      "sources": [
+        "https://periodic-table.rsc.org/element/28/nickel"
+      ],
+      "sets": [
+        "Chemie · Elementeigenschaften"
+      ],
+      "data_year_note": "Stable element-property data; verify again before publication if the source dataset changes.",
+      "visual": "chemistry-properties-neutral",
+      "subject": "chemistry-properties-neutral"
+    },
+    {
+      "id": "chem-prop-20261019-germanium-pblock",
+      "semantic_key": "germanium-p-block-group-14",
+      "cat": "Chemie",
+      "subcategory": "Elementeigenschaften · Dichte, Phasen & Herkunft",
+      "source_refs": [
+        "germanium",
+        "iupac"
+      ],
+      "section": "Position in periodic table",
+      "observation_keys": [
+        "fact-germanium-pblock"
+      ],
+      "data_year": "IUPAC table 2022 / RSC dataset checked 2026",
+      "rounding": "Not numeric.",
+      "notes": "Uses IUPAC group numbering.",
+      "time_dependent": false,
+      "s": "Germanium gehört zur Gruppe 14 und zum p-Block des Periodensystems.",
+      "a": true,
+      "e": "Die RSC-Faktentabelle ordnet Germanium der Gruppe 14 und dem p-Block zu.",
+      "difficulty": "medium",
+      "status": "draft",
+      "verified": "2026-10-19",
+      "source": "https://periodic-table.rsc.org/element/32/germanium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/32/germanium",
+        "https://iupac.org/what-we-do/periodic-table-of-elements/"
+      ],
+      "sets": [
+        "Chemie · Elementeigenschaften"
+      ],
+      "data_year_note": "Stable element-property data; verify again before publication if the source dataset changes.",
+      "visual": "chemistry-properties-neutral",
+      "subject": "chemistry-properties-neutral"
+    },
+    {
+      "id": "chem-prop-20261019-helium-group17",
+      "semantic_key": "helium-not-group-17",
+      "cat": "Chemie",
+      "subcategory": "Elementeigenschaften · Dichte, Phasen & Herkunft",
+      "source_refs": [
+        "helium",
+        "iupac"
+      ],
+      "section": "Position in periodic table",
+      "observation_keys": [
+        "fact-helium-group17"
+      ],
+      "data_year": "IUPAC table 2022 / RSC dataset checked 2026",
+      "rounding": "Not numeric.",
+      "notes": "Uses IUPAC group numbering.",
+      "time_dependent": false,
+      "s": "Helium steht in Gruppe 17 des Periodensystems.",
+      "a": false,
+      "e": "Helium steht in Gruppe 18; in Gruppe 17 stehen die Halogene.",
+      "difficulty": "medium",
+      "status": "draft",
+      "verified": "2026-10-19",
+      "source": "https://periodic-table.rsc.org/element/2/helium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/2/helium",
+        "https://iupac.org/what-we-do/periodic-table-of-elements/"
+      ],
+      "sets": [
+        "Chemie · Elementeigenschaften"
+      ],
+      "data_year_note": "Stable element-property data; verify again before publication if the source dataset changes.",
+      "visual": "chemistry-properties-neutral",
+      "subject": "chemistry-properties-neutral"
+    },
+    {
+      "id": "chem-prop-20261019-molybdenum-group",
+      "semantic_key": "molybdenum-group-6-period-5",
+      "cat": "Chemie",
+      "subcategory": "Elementeigenschaften · Dichte, Phasen & Herkunft",
+      "source_refs": [
+        "molybdenum",
+        "iupac"
+      ],
+      "section": "Position in periodic table",
+      "observation_keys": [
+        "fact-molybdenum-group-period"
+      ],
+      "data_year": "IUPAC table 2022 / RSC dataset checked 2026",
+      "rounding": "Not numeric.",
+      "notes": "Uses IUPAC group numbering.",
+      "time_dependent": false,
+      "s": "Molybdän steht im Periodensystem in Gruppe 6 und Periode 5.",
+      "a": true,
+      "e": "Die RSC-Faktentabelle nennt Gruppe 6 und Periode 5.",
+      "difficulty": "hard",
+      "status": "draft",
+      "verified": "2026-10-19",
+      "source": "https://periodic-table.rsc.org/element/42/molybdenum",
+      "sources": [
+        "https://periodic-table.rsc.org/element/42/molybdenum",
+        "https://iupac.org/what-we-do/periodic-table-of-elements/"
+      ],
+      "sets": [
+        "Chemie · Elementeigenschaften"
+      ],
+      "data_year_note": "Stable element-property data; verify again before publication if the source dataset changes.",
+      "visual": "chemistry-properties-neutral",
+      "subject": "chemistry-properties-neutral"
+    },
+    {
+      "id": "chem-prop-20261019-silver-boiling",
+      "semantic_key": "silver-boiling-point-not-higher-than-copper",
+      "cat": "Chemie",
+      "subcategory": "Elementeigenschaften · Dichte, Phasen & Herkunft",
+      "source_refs": [
+        "silver",
+        "copper"
+      ],
+      "section": "Boiling point",
+      "observation_keys": [
+        "fact-silver-boiling-higher-copper"
+      ],
+      "data_year": "RSC dataset, checked 2026",
+      "rounding": "Published whole-degree values 2162 °C and 2560 °C.",
+      "notes": "Compares the same property and unit.",
+      "time_dependent": false,
+      "s": "Silber hat einen höheren Siedepunkt als Kupfer.",
+      "a": false,
+      "e": "RSC nennt 2162 °C für Silber und 2560 °C für Kupfer.",
+      "difficulty": "hard",
+      "status": "draft",
+      "verified": "2026-10-19",
+      "source": "https://periodic-table.rsc.org/element/47/silver",
+      "sources": [
+        "https://periodic-table.rsc.org/element/47/silver",
+        "https://periodic-table.rsc.org/element/29/copper"
+      ],
+      "sets": [
+        "Chemie · Elementeigenschaften"
+      ],
+      "data_year_note": "Stable element-property data; verify again before publication if the source dataset changes.",
+      "visual": "chemistry-properties-neutral",
+      "subject": "chemistry-properties-neutral"
+    }
+  ],
+  "jeopardy": [
+    {
+      "id": "chem-prop-20261019-helios",
+      "semantic_key": "element-name-from-greek-helios",
+      "cat": "Chemie",
+      "subcategory": "Elementeigenschaften · Dichte, Phasen & Herkunft",
+      "source_refs": [
+        "helium"
+      ],
+      "section": "Origin of the name",
+      "observation_keys": [
+        "jeop-helios"
+      ],
+      "data_year": "RSC dataset, checked 2026",
+      "rounding": "Not numeric.",
+      "notes": "Asks for the element, not its symbol.",
+      "time_dependent": false,
+      "q": "Welches Element ist nach dem griechischen Wort ‚helios‘ für Sonne benannt?",
+      "a": "Helium",
+      "difficulty": 1,
+      "status": "draft",
+      "verified": "2026-10-19",
+      "source": "https://periodic-table.rsc.org/element/2/helium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/2/helium"
+      ],
+      "sets": [
+        "Chemie · Elementeigenschaften"
+      ],
+      "data_year_note": "Stable element-property data; verify again before publication if the source dataset changes.",
+      "visual": null
+    },
+    {
+      "id": "chem-prop-20261019-winkler",
+      "semantic_key": "discoverer-germanium-1886",
+      "cat": "Chemie",
+      "subcategory": "Elementeigenschaften · Dichte, Phasen & Herkunft",
+      "source_refs": [
+        "germanium"
+      ],
+      "section": "Discovery",
+      "observation_keys": [
+        "jeop-winkler"
+      ],
+      "data_year": 1886,
+      "rounding": "Not numeric.",
+      "notes": "RSC credits the 1886 discovery.",
+      "time_dependent": false,
+      "q": "Wer entdeckte 1886 das Element Germanium?",
+      "a": "Clemens Alexander Winkler|Clemens Winkler|Winkler",
+      "difficulty": 1,
+      "status": "draft",
+      "verified": "2026-10-19",
+      "source": "https://periodic-table.rsc.org/element/32/germanium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/32/germanium"
+      ],
+      "sets": [
+        "Chemie · Elementeigenschaften"
+      ],
+      "data_year_note": "Stable element-property data; verify again before publication if the source dataset changes.",
+      "visual": null
+    },
+    {
+      "id": "chem-prop-20261019-boisbaudran",
+      "semantic_key": "discoverer-gallium-1875",
+      "cat": "Chemie",
+      "subcategory": "Elementeigenschaften · Dichte, Phasen & Herkunft",
+      "source_refs": [
+        "gallium"
+      ],
+      "section": "Discovery",
+      "observation_keys": [
+        "jeop-boisbaudran"
+      ],
+      "data_year": 1875,
+      "rounding": "Not numeric.",
+      "notes": "RSC credits the 1875 discovery.",
+      "time_dependent": false,
+      "q": "Wer entdeckte 1875 das Element Gallium?",
+      "a": "Paul-Émile Lecoq de Boisbaudran|Paul Emile Lecoq de Boisbaudran|Lecoq de Boisbaudran|Boisbaudran",
+      "difficulty": 2,
+      "status": "draft",
+      "verified": "2026-10-19",
+      "source": "https://periodic-table.rsc.org/element/31/gallium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/31/gallium"
+      ],
+      "sets": [
+        "Chemie · Elementeigenschaften"
+      ],
+      "data_year_note": "Stable element-property data; verify again before publication if the source dataset changes.",
+      "visual": null
+    },
+    {
+      "id": "chem-prop-20261019-kobold",
+      "semantic_key": "element-name-from-kobold",
+      "cat": "Chemie",
+      "subcategory": "Elementeigenschaften · Dichte, Phasen & Herkunft",
+      "source_refs": [
+        "cobalt"
+      ],
+      "section": "Origin of the name",
+      "observation_keys": [
+        "jeop-kobold"
+      ],
+      "data_year": "RSC dataset, checked 2026",
+      "rounding": "Not numeric.",
+      "notes": "Accepts English and German spelling.",
+      "time_dependent": false,
+      "q": "Welcher Elementname leitet sich vom deutschen Wort ‚Kobold‘ ab?",
+      "a": "Cobalt|Kobalt",
+      "difficulty": 2,
+      "status": "draft",
+      "verified": "2026-10-19",
+      "source": "https://periodic-table.rsc.org/element/27/cobalt",
+      "sources": [
+        "https://periodic-table.rsc.org/element/27/cobalt"
+      ],
+      "sets": [
+        "Chemie · Elementeigenschaften"
+      ],
+      "data_year_note": "Stable element-property data; verify again before publication if the source dataset changes.",
+      "visual": null
+    },
+    {
+      "id": "chem-prop-20261019-hydrogenation",
+      "semantic_key": "nickel-catalyst-hydrogenating-oils",
+      "cat": "Chemie",
+      "subcategory": "Elementeigenschaften · Dichte, Phasen & Herkunft",
+      "source_refs": [
+        "nickel"
+      ],
+      "section": "Uses",
+      "observation_keys": [
+        "jeop-hydrogenation"
+      ],
+      "data_year": "RSC dataset, checked 2026",
+      "rounding": "Not numeric.",
+      "notes": "Finely divided metal catalyst.",
+      "time_dependent": false,
+      "q": "Welches Metall wird fein verteilt als Katalysator zur Hydrierung von Pflanzenölen eingesetzt?",
+      "a": "Nickel",
+      "difficulty": 3,
+      "status": "draft",
+      "verified": "2026-10-19",
+      "source": "https://periodic-table.rsc.org/element/28/nickel",
+      "sources": [
+        "https://periodic-table.rsc.org/element/28/nickel"
+      ],
+      "sets": [
+        "Chemie · Elementeigenschaften"
+      ],
+      "data_year_note": "Stable element-property data; verify again before publication if the source dataset changes.",
+      "visual": null
+    },
+    {
+      "id": "chem-prop-20261019-nitrogenase",
+      "semantic_key": "molybdenum-in-nitrogenase",
+      "cat": "Chemie",
+      "subcategory": "Elementeigenschaften · Dichte, Phasen & Herkunft",
+      "source_refs": [
+        "molybdenum"
+      ],
+      "section": "Biological role",
+      "observation_keys": [
+        "jeop-nitrogenase"
+      ],
+      "data_year": "RSC dataset, checked 2026",
+      "rounding": "Not numeric.",
+      "notes": "The RSC page identifies molybdenum in nitrogenase.",
+      "time_dependent": false,
+      "q": "Welches Metall ist Bestandteil der Nitrogenase, die Luftstickstoff in Ammoniak überführen hilft?",
+      "a": "Molybdenum|Molybdän",
+      "difficulty": 3,
+      "status": "draft",
+      "verified": "2026-10-19",
+      "source": "https://periodic-table.rsc.org/element/42/molybdenum",
+      "sources": [
+        "https://periodic-table.rsc.org/element/42/molybdenum"
+      ],
+      "sets": [
+        "Chemie · Elementeigenschaften"
+      ],
+      "data_year_note": "Stable element-property data; verify again before publication if the source dataset changes.",
+      "visual": null
+    },
+    {
+      "id": "chem-prop-20261019-cyprus",
+      "semantic_key": "copper-name-from-cyprus",
+      "cat": "Chemie",
+      "subcategory": "Elementeigenschaften · Dichte, Phasen & Herkunft",
+      "source_refs": [
+        "copper"
+      ],
+      "section": "Origin of the name",
+      "observation_keys": [
+        "jeop-cyprus"
+      ],
+      "data_year": "RSC dataset, checked 2026",
+      "rounding": "Not numeric.",
+      "notes": "From Latin cuprum, associated with Cyprus.",
+      "time_dependent": false,
+      "q": "Welcher Elementname führt über das lateinische ‚cuprum‘ zur Insel Zypern zurück?",
+      "a": "Copper|Kupfer",
+      "difficulty": 4,
+      "status": "draft",
+      "verified": "2026-10-19",
+      "source": "https://periodic-table.rsc.org/element/29/copper",
+      "sources": [
+        "https://periodic-table.rsc.org/element/29/copper"
+      ],
+      "sets": [
+        "Chemie · Elementeigenschaften"
+      ],
+      "data_year_note": "Stable element-property data; verify again before publication if the source dataset changes.",
+      "visual": null
+    },
+    {
+      "id": "chem-prop-20261019-pallas",
+      "semantic_key": "palladium-named-after-pallas",
+      "cat": "Chemie",
+      "subcategory": "Elementeigenschaften · Dichte, Phasen & Herkunft",
+      "source_refs": [
+        "palladium"
+      ],
+      "section": "Origin of the name",
+      "observation_keys": [
+        "jeop-pallas"
+      ],
+      "data_year": "RSC dataset, checked 2026",
+      "rounding": "Not numeric.",
+      "notes": "Pallas refers to the asteroid, not the mythological name directly.",
+      "time_dependent": false,
+      "q": "Welches Element wurde nach dem Asteroiden Pallas benannt?",
+      "a": "Palladium",
+      "difficulty": 4,
+      "status": "draft",
+      "verified": "2026-10-19",
+      "source": "https://periodic-table.rsc.org/element/46/palladium",
+      "sources": [
+        "https://periodic-table.rsc.org/element/46/palladium"
+      ],
+      "sets": [
+        "Chemie · Elementeigenschaften"
+      ],
+      "data_year_note": "Stable element-property data; verify again before publication if the source dataset changes.",
+      "visual": null
+    }
+  ]
+}

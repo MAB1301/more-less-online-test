@@ -1,0 +1,225 @@
+{
+  "policy": "Stable element data: 365 days. No automatic publication.",
+  "records": [
+    {
+      "id": "chem-prop-20261019-density-co-ni",
+      "game": "moreless",
+      "source": "https://periodic-table.rsc.org/element/27/cobalt",
+      "verified": "2026-10-19",
+      "data_year": "RSC dataset, checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-19",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "chem-prop-20261019-density-mo-ag",
+      "game": "moreless",
+      "source": "https://periodic-table.rsc.org/element/42/molybdenum",
+      "verified": "2026-10-19",
+      "data_year": "RSC dataset, checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-19",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "chem-prop-20261019-gallium-melting",
+      "game": "estimate",
+      "source": "https://periodic-table.rsc.org/element/31/gallium",
+      "verified": "2026-10-19",
+      "data_year": "RSC dataset, checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-19",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "chem-prop-20261019-bromine-boiling",
+      "game": "estimate",
+      "source": "https://periodic-table.rsc.org/element/35/bromine",
+      "verified": "2026-10-19",
+      "data_year": "RSC dataset, checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-19",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "chem-prop-20261019-germanium-melting",
+      "game": "estimate",
+      "source": "https://periodic-table.rsc.org/element/32/germanium",
+      "verified": "2026-10-19",
+      "data_year": "RSC dataset, checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-19",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "chem-prop-20261019-helium-boiling",
+      "game": "estimate",
+      "source": "https://periodic-table.rsc.org/element/2/helium",
+      "verified": "2026-10-19",
+      "data_year": "RSC dataset, checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-19",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "chem-prop-20261019-bromine-liquid",
+      "game": "facts",
+      "source": "https://periodic-table.rsc.org/element/35/bromine",
+      "verified": "2026-10-19",
+      "data_year": "RSC dataset, checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-19",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "chem-prop-20261019-nickel-gas",
+      "game": "facts",
+      "source": "https://periodic-table.rsc.org/element/28/nickel",
+      "verified": "2026-10-19",
+      "data_year": "RSC dataset, checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-19",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "chem-prop-20261019-germanium-pblock",
+      "game": "facts",
+      "source": "https://periodic-table.rsc.org/element/32/germanium",
+      "verified": "2026-10-19",
+      "data_year": "IUPAC table 2022 / RSC dataset checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-19",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "chem-prop-20261019-helium-group17",
+      "game": "facts",
+      "source": "https://periodic-table.rsc.org/element/2/helium",
+      "verified": "2026-10-19",
+      "data_year": "IUPAC table 2022 / RSC dataset checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-19",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "chem-prop-20261019-molybdenum-group",
+      "game": "facts",
+      "source": "https://periodic-table.rsc.org/element/42/molybdenum",
+      "verified": "2026-10-19",
+      "data_year": "IUPAC table 2022 / RSC dataset checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-19",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "chem-prop-20261019-silver-boiling",
+      "game": "facts",
+      "source": "https://periodic-table.rsc.org/element/47/silver",
+      "verified": "2026-10-19",
+      "data_year": "RSC dataset, checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-19",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "chem-prop-20261019-helios",
+      "game": "jeopardy",
+      "source": "https://periodic-table.rsc.org/element/2/helium",
+      "verified": "2026-10-19",
+      "data_year": "RSC dataset, checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-19",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "chem-prop-20261019-winkler",
+      "game": "jeopardy",
+      "source": "https://periodic-table.rsc.org/element/32/germanium",
+      "verified": "2026-10-19",
+      "data_year": 1886,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-19",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "chem-prop-20261019-boisbaudran",
+      "game": "jeopardy",
+      "source": "https://periodic-table.rsc.org/element/31/gallium",
+      "verified": "2026-10-19",
+      "data_year": 1875,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-19",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "chem-prop-20261019-kobold",
+      "game": "jeopardy",
+      "source": "https://periodic-table.rsc.org/element/27/cobalt",
+      "verified": "2026-10-19",
+      "data_year": "RSC dataset, checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-19",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "chem-prop-20261019-hydrogenation",
+      "game": "jeopardy",
+      "source": "https://periodic-table.rsc.org/element/28/nickel",
+      "verified": "2026-10-19",
+      "data_year": "RSC dataset, checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-19",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "chem-prop-20261019-nitrogenase",
+      "game": "jeopardy",
+      "source": "https://periodic-table.rsc.org/element/42/molybdenum",
+      "verified": "2026-10-19",
+      "data_year": "RSC dataset, checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-19",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "chem-prop-20261019-cyprus",
+      "game": "jeopardy",
+      "source": "https://periodic-table.rsc.org/element/29/copper",
+      "verified": "2026-10-19",
+      "data_year": "RSC dataset, checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-19",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "chem-prop-20261019-pallas",
+      "game": "jeopardy",
+      "source": "https://periodic-table.rsc.org/element/46/palladium",
+      "verified": "2026-10-19",
+      "data_year": "RSC dataset, checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-19",
+      "review_status": "draft-review-required"
+    }
+  ]
+}
