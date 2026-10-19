@@ -1,0 +1,8 @@
+{
+  "checked": "2026-10-19",
+  "main_unique_keys": 2236,
+  "draft_unique_keys": 20,
+  "exact_or_reversed_conflicts": [],
+  "semantic_review": "Existing Chemistry questions about symbols, proton counts and three relative atomic masses were excluded. The 22 new observations add density, phase changes, physical state, groups, discovery, name origins and applications. Both comparisons use the same room-temperature density metric and differ by under 3%.",
+  "limits": "Normalization plus observation keys and targeted Main/PR/Daily searches."
+}

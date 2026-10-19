@@ -1,0 +1,16 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+import {execFileSync} from 'node:child_process';
+const dir='content/research/2026-10-19-chemie-elementeigenschaften',read=n=>JSON.parse(fs.readFileSync(dir+'/'+n,'utf8'));
+execFileSync('python3',['scripts/build-chemie-elementeigenschaften-draft-20261019.py','--check']);
+execFileSync('node',['scripts/inventory-chemie-elementeigenschaften-draft-20261019.mjs','--check']);
+const pack=read('draft-pack.json'),audit=read('duplicate-audit.json'),daily=read('daily-catalogue-check.json'),prs=read('parallel-pr-check.json'),summary=read('category-summary.json'),validation=read('validation.json'),sources=read('sources.json');
+assert.equal(audit.exact_or_reversed_conflicts.length,0);assert.equal(daily.matches,0);assert.equal(daily.rows_total,7187);assert.equal(prs.open_pr_count,21);assert.equal(prs.pending_questions_considered,1020);assert.equal(prs.subject_hits,0);
+assert.deepEqual(validation.counts,{moreless:2,estimate:4,facts:6,jeopardy:8});assert.equal(validation.unique_observation_keys,22);assert.equal(summary.target.main_before.total,32);assert.equal(summary.target.after_including_this_draft.total,52);
+for(const x of Object.values(sources)){assert.equal(x.checked,'2026-10-19');assert.match(x.url,/^https:\/\/(periodic-table\.rsc\.org|iupac\.org)\//)}
+for(const q of pack.moreless){assert.notEqual(q.lv,q.rv);assert(Math.max(q.lv,q.rv)/Math.min(q.lv,q.rv)<1.04);assert.match(q.metric,/dichte/i)}
+for(const level of ['easy','medium','hard'])assert.deepEqual(pack.facts.filter(q=>q.difficulty===level).map(q=>q.a).sort(),[false,true]);
+const html=fs.readFileSync('index.html','utf8'),context=vm.createContext({window:{GAME_CONTENT_PACK:pack},VISUAL_IMG:{},VISUAL_DETAIL:{},GENERATED_SUBJECTS:new Set()});vm.runInContext('const SOLO_Q=[],ESTIMATE_Q=[],FACT_Q=[],JEOP_CATS=[];',context);let s=html.indexOf('(function mergeReviewedContent(){');vm.runInContext(html.slice(s,html.indexOf('})();',s)+5),context);assert.deepEqual(Array.from(vm.runInContext('[SOLO_Q.length,ESTIMATE_Q.length,FACT_Q.length,JEOP_CATS.flatMap(x=>x[1]).length]',context)),[2,4,6,8]);
+for(const [format,w] of [['card',720],['detail',960]]){const svg=fs.readFileSync(`${dir}/visuals/chemistry-properties-neutral-${format}.svg`,'utf8'),visible=[...svg.matchAll(/<text[^>]*>(.*?)<\/text>/g)].map(x=>x[1]).join(' ');assert(svg.includes(`width="${w}" height="540" viewBox="0 0 ${w} 540"`));assert(svg.includes('x="40" y="40"'));assert(!/<image|<script|<foreignObject/.test(svg));assert(!/\b(8\.86|8\.90|10\.2|10\.5|29\.7646|58\.8|938\.25|268\.928)\b/.test(visible))}
+console.log('PASS: 20 unique authoritative chemistry questions, close density comparisons, balanced facts, game import and neutral SVGs.');
