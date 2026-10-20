@@ -1,0 +1,138 @@
+{
+  "starry": {
+    "url": "https://www.moma.org/collection/works/79802",
+    "authority": "official-museum",
+    "publisher": "Museum of Modern Art",
+    "checked": "2026-10-20",
+    "data_year": "1889 / checked 2026",
+    "scope": "Dimensions and place of The Starry Night."
+  },
+  "rhone": {
+    "url": "https://www.musee-orsay.fr/en/artworks/la-nuit-etoilee-78696",
+    "authority": "official-museum",
+    "publisher": "Musée d’Orsay",
+    "checked": "2026-10-20",
+    "data_year": "1888 / checked 2026",
+    "scope": "Dimensions of Starry Night Over the Rhône."
+  },
+  "arnolfini": {
+    "url": "https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait",
+    "authority": "official-museum",
+    "publisher": "National Gallery, London",
+    "checked": "2026-10-20",
+    "data_year": "1434 / checked 2026",
+    "scope": "Dimensions and mirror detail."
+  },
+  "nighthawks": {
+    "url": "https://www.artic.edu/artworks/111628/nighthawks",
+    "authority": "official-museum",
+    "publisher": "Art Institute of Chicago",
+    "checked": "2026-10-20",
+    "data_year": "1942 / checked 2026",
+    "scope": "Dimensions and subject."
+  },
+  "girl": {
+    "url": "https://www.mauritshuis.nl/en/our-collection/artworks/670-girl-with-a-pearl-earring",
+    "authority": "official-museum",
+    "publisher": "Mauritshuis",
+    "checked": "2026-10-20",
+    "data_year": "c. 1665 / checked 2026",
+    "scope": "Dimensions and tronie classification."
+  },
+  "nightwatch": {
+    "url": "https://www.rijksmuseum.nl/en/collection/object/The-Night-Watch-Militia-Company-of-District-II-under-the-Command-of-Captain-Frans-Banninck-Cocq--3137deb45cd7765f9a76084a16c99544",
+    "authority": "official-museum",
+    "publisher": "Rijksmuseum",
+    "checked": "2026-10-20",
+    "data_year": "1642 / checked 2026",
+    "scope": "Dimensions of The Night Watch."
+  },
+  "persistence": {
+    "url": "https://www.moma.org/collection/works/79018",
+    "authority": "official-museum",
+    "publisher": "Museum of Modern Art",
+    "checked": "2026-10-20",
+    "data_year": "1931 / checked 2026",
+    "scope": "Dimensions of The Persistence of Memory."
+  },
+  "sunflowers": {
+    "url": "https://www.nationalgallery.org.uk/paintings/vincent-van-gogh-sunflowers",
+    "authority": "official-museum",
+    "publisher": "National Gallery, London",
+    "checked": "2026-10-20",
+    "data_year": "1888 / checked 2026",
+    "scope": "Artwork description and dimensions."
+  },
+  "wave": {
+    "url": "https://www.metmuseum.org/art/collection/search/45434",
+    "authority": "official-museum",
+    "publisher": "Metropolitan Museum of Art",
+    "checked": "2026-10-20",
+    "data_year": "c. 1830–32 / checked 2026",
+    "scope": "Dimensions, medium and series."
+  },
+  "american": {
+    "url": "https://www.artic.edu/artworks/6565/american-gothic",
+    "authority": "official-museum",
+    "publisher": "Art Institute of Chicago",
+    "checked": "2026-10-20",
+    "data_year": "1930 / checked 2026",
+    "scope": "Relationship of the depicted figures."
+  },
+  "meninas": {
+    "url": "https://www.museodelprado.es/en/the-collection/art-work/las-meninas/9fdc7800-9ade-48b0-ab8b-edee94ea877f",
+    "authority": "official-museum",
+    "publisher": "Museo Nacional del Prado",
+    "checked": "2026-10-20",
+    "data_year": "1656 / checked 2026",
+    "scope": "Identity of the central infanta."
+  },
+  "kiss": {
+    "url": "https://www.belvedere.at/en/stories/why-did-gustav-klimt-use-gold",
+    "authority": "official-museum",
+    "publisher": "Belvedere Museum Vienna",
+    "checked": "2026-10-20",
+    "data_year": "1908–09 / checked 2026",
+    "scope": "Gold leaf in The Kiss."
+  },
+  "garden": {
+    "url": "https://www.museodelprado.es/en/the-collection/art-work/the-garden-of-earthly-delights-triptych/02388242-6d6a-4e9e-a992-e1311eab3609",
+    "authority": "official-museum",
+    "publisher": "Museo Nacional del Prado",
+    "checked": "2026-10-20",
+    "data_year": "1490–1500 / checked 2026",
+    "scope": "Triptych format."
+  },
+  "guernica": {
+    "url": "https://www.museoreinasofia.es/en/collections/artwork/guernica-0/",
+    "authority": "official-museum",
+    "publisher": "Museo Reina Sofía",
+    "checked": "2026-10-20",
+    "data_year": "1937 / checked 2026",
+    "scope": "Spanish Pavilion commission."
+  },
+  "thinker": {
+    "url": "https://www.musee-rodin.fr/en/musee/collections/oeuvres/thinker",
+    "authority": "official-museum",
+    "publisher": "Musée Rodin",
+    "checked": "2026-10-20",
+    "data_year": "1880 concept / checked 2026",
+    "scope": "Original title The Poet."
+  },
+  "venus": {
+    "url": "https://www.louvre.fr/en/explore/the-palace/ideal-greek-beauty",
+    "authority": "official-museum",
+    "publisher": "Musée du Louvre",
+    "checked": "2026-10-20",
+    "data_year": "discovered 1820 / checked 2026",
+    "scope": "Discovery on Melos."
+  },
+  "liberty": {
+    "url": "https://www.louvre.fr/en/explore/visitor-trails/the-louvre-s-masterpieces/romanticism-topicality-sensuality",
+    "authority": "official-museum",
+    "publisher": "Musée du Louvre",
+    "checked": "2026-10-20",
+    "data_year": "1830 / checked 2026",
+    "scope": "July Revolution context."
+  }
+}

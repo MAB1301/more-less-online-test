@@ -1,0 +1,710 @@
+{
+  "status": "review-only",
+  "verified": "2026-10-20",
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "images": {
+    "museum-art-neutral": {
+      "card": "visuals/museum-art-neutral-card.svg",
+      "detail": "visuals/museum-art-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstrakte Galerie mit leeren Rahmen und Sockel; keine konkreten Werke, Namen, Maße oder Lösungen."
+    },
+    "Die Sternennacht": {
+      "card": "visuals/museum-art-neutral-card.svg",
+      "detail": "visuals/museum-art-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstrakte Galerie mit leeren Rahmen und Sockel; keine konkreten Werke, Namen, Maße oder Lösungen."
+    },
+    "Sternennacht über der Rhône": {
+      "card": "visuals/museum-art-neutral-card.svg",
+      "detail": "visuals/museum-art-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstrakte Galerie mit leeren Rahmen und Sockel; keine konkreten Werke, Namen, Maße oder Lösungen."
+    },
+    "Arnolfini-Porträt": {
+      "card": "visuals/museum-art-neutral-card.svg",
+      "detail": "visuals/museum-art-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstrakte Galerie mit leeren Rahmen und Sockel; keine konkreten Werke, Namen, Maße oder Lösungen."
+    },
+    "Nighthawks": {
+      "card": "visuals/museum-art-neutral-card.svg",
+      "detail": "visuals/museum-art-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstrakte Galerie mit leeren Rahmen und Sockel; keine konkreten Werke, Namen, Maße oder Lösungen."
+    }
+  },
+  "moreless": [
+    {
+      "cat": "Kultur",
+      "subcategory": "Museumskunst · Werke, Maße & Details",
+      "time_dependent": false,
+      "id": "culture-art-20261020-width-starry",
+      "semantic_key": "width-starry-night-vs-rhone",
+      "source_refs": [
+        "starry",
+        "rhone"
+      ],
+      "section": "Dimensions",
+      "observation_keys": [
+        "width-starry",
+        "width-rhone"
+      ],
+      "data_year": "1889 / 1888",
+      "rounding": "Published catalogue widths in cm; no conversion.",
+      "notes": "Same unframed artwork width and unit; difference 0.1 cm.",
+      "l": "Die Sternennacht",
+      "r": "Sternennacht über der Rhône",
+      "lv": 92.1,
+      "rv": 92,
+      "u": "cm · Bildbreite laut Museumskatalog",
+      "metric": "Bildbreite des ungerahmten Werks",
+      "status": "draft",
+      "verified": "2026-10-20",
+      "source": "https://www.moma.org/collection/works/79802",
+      "sources": [
+        "https://www.moma.org/collection/works/79802",
+        "https://www.musee-orsay.fr/en/artworks/la-nuit-etoilee-78696"
+      ],
+      "sets": [
+        "Kultur · Museumskunst"
+      ],
+      "data_year_note": "Historische Museumsobjektdaten; bei Katalogrevision erneut prüfen.",
+      "visual": "museum-art-neutral",
+      "subject": "museum-art-neutral"
+    },
+    {
+      "cat": "Kultur",
+      "subcategory": "Museumskunst · Werke, Maße & Details",
+      "time_dependent": false,
+      "id": "culture-art-20261020-height-arnolfini-nighthawks",
+      "semantic_key": "height-arnolfini-vs-nighthawks",
+      "source_refs": [
+        "arnolfini",
+        "nighthawks"
+      ],
+      "section": "Dimensions",
+      "observation_keys": [
+        "height-arnolfini",
+        "height-nighthawks"
+      ],
+      "data_year": "1434 / 1942",
+      "rounding": "Published catalogue heights in cm; no conversion.",
+      "notes": "Same unframed artwork height and unit; difference 1.9 cm.",
+      "l": "Arnolfini-Porträt",
+      "r": "Nighthawks",
+      "lv": 82.2,
+      "rv": 84.1,
+      "u": "cm · Bildhöhe laut Museumskatalog",
+      "metric": "Bildhöhe des ungerahmten Werks",
+      "status": "draft",
+      "verified": "2026-10-20",
+      "source": "https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait",
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait",
+        "https://www.artic.edu/artworks/111628/nighthawks"
+      ],
+      "sets": [
+        "Kultur · Museumskunst"
+      ],
+      "data_year_note": "Historische Museumsobjektdaten; bei Katalogrevision erneut prüfen.",
+      "visual": "museum-art-neutral",
+      "subject": "museum-art-neutral"
+    }
+  ],
+  "estimate": [
+    {
+      "cat": "Kultur",
+      "subcategory": "Museumskunst · Werke, Maße & Details",
+      "time_dependent": false,
+      "id": "culture-art-20261020-girl-height",
+      "semantic_key": "girl-height-cm",
+      "source_refs": [
+        "girl"
+      ],
+      "section": "Dimensions",
+      "observation_keys": [
+        "girl-height"
+      ],
+      "data_year": "c. 1665",
+      "rounding": "Published metric centimetre value retained.",
+      "notes": "Unframed height.",
+      "q": "Wie hoch ist Vermeers „Mädchen mit dem Perlenohrring“ laut Mauritshuis-Katalog?",
+      "a": 44.5,
+      "u": "cm",
+      "status": "draft",
+      "verified": "2026-10-20",
+      "source": "https://www.mauritshuis.nl/en/our-collection/artworks/670-girl-with-a-pearl-earring",
+      "sources": [
+        "https://www.mauritshuis.nl/en/our-collection/artworks/670-girl-with-a-pearl-earring"
+      ],
+      "sets": [
+        "Kultur · Museumskunst"
+      ],
+      "data_year_note": "Historische Museumsobjektdaten; bei Katalogrevision erneut prüfen.",
+      "visual": "museum-art-neutral",
+      "subject": "museum-art-neutral"
+    },
+    {
+      "cat": "Kultur",
+      "subcategory": "Museumskunst · Werke, Maße & Details",
+      "time_dependent": false,
+      "id": "culture-art-20261020-nightwatch-width",
+      "semantic_key": "nightwatch-width-cm",
+      "source_refs": [
+        "nightwatch"
+      ],
+      "section": "Dimensions",
+      "observation_keys": [
+        "nightwatch-width"
+      ],
+      "data_year": 1642,
+      "rounding": "Published metric centimetre value retained.",
+      "notes": "Current catalogue width, not reconstructed pre-crop width.",
+      "q": "Wie breit ist Rembrandts „Nachtwache“ laut Rijksmuseum-Katalog?",
+      "a": 453.5,
+      "u": "cm",
+      "status": "draft",
+      "verified": "2026-10-20",
+      "source": "https://www.rijksmuseum.nl/en/collection/object/The-Night-Watch-Militia-Company-of-District-II-under-the-Command-of-Captain-Frans-Banninck-Cocq--3137deb45cd7765f9a76084a16c99544",
+      "sources": [
+        "https://www.rijksmuseum.nl/en/collection/object/The-Night-Watch-Militia-Company-of-District-II-under-the-Command-of-Captain-Frans-Banninck-Cocq--3137deb45cd7765f9a76084a16c99544"
+      ],
+      "sets": [
+        "Kultur · Museumskunst"
+      ],
+      "data_year_note": "Historische Museumsobjektdaten; bei Katalogrevision erneut prüfen.",
+      "visual": "museum-art-neutral",
+      "subject": "museum-art-neutral"
+    },
+    {
+      "cat": "Kultur",
+      "subcategory": "Museumskunst · Werke, Maße & Details",
+      "time_dependent": false,
+      "id": "culture-art-20261020-persistence-width",
+      "semantic_key": "persistence-width-cm",
+      "source_refs": [
+        "persistence"
+      ],
+      "section": "Dimensions",
+      "observation_keys": [
+        "persistence-width"
+      ],
+      "data_year": 1931,
+      "rounding": "Published metric centimetre value retained.",
+      "notes": "Unframed width.",
+      "q": "Wie breit ist Dalís „Die Beständigkeit der Erinnerung“ laut MoMA-Katalog?",
+      "a": 33,
+      "u": "cm",
+      "status": "draft",
+      "verified": "2026-10-20",
+      "source": "https://www.moma.org/collection/works/79018",
+      "sources": [
+        "https://www.moma.org/collection/works/79018"
+      ],
+      "sets": [
+        "Kultur · Museumskunst"
+      ],
+      "data_year_note": "Historische Museumsobjektdaten; bei Katalogrevision erneut prüfen.",
+      "visual": "museum-art-neutral",
+      "subject": "museum-art-neutral"
+    },
+    {
+      "cat": "Kultur",
+      "subcategory": "Museumskunst · Werke, Maße & Details",
+      "time_dependent": false,
+      "id": "culture-art-20261020-wave-width",
+      "semantic_key": "wave-width-cm",
+      "source_refs": [
+        "wave"
+      ],
+      "section": "Dimensions",
+      "observation_keys": [
+        "wave-width"
+      ],
+      "data_year": "c. 1830–32",
+      "rounding": "Published metric centimetre value retained.",
+      "notes": "Bound to Met object JP1847; other impressions differ slightly.",
+      "q": "Wie breit ist der Met-Abzug JP1847 von Hokusais „Großer Welle“?",
+      "a": 37.9,
+      "u": "cm",
+      "status": "draft",
+      "verified": "2026-10-20",
+      "source": "https://www.metmuseum.org/art/collection/search/45434",
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/45434"
+      ],
+      "sets": [
+        "Kultur · Museumskunst"
+      ],
+      "data_year_note": "Historische Museumsobjektdaten; bei Katalogrevision erneut prüfen.",
+      "visual": "museum-art-neutral",
+      "subject": "museum-art-neutral"
+    }
+  ],
+  "facts": [
+    {
+      "cat": "Kultur",
+      "subcategory": "Museumskunst · Werke, Maße & Details",
+      "time_dependent": false,
+      "id": "culture-art-20261020-girl-tronie",
+      "semantic_key": "girl-tronie",
+      "source_refs": [
+        "girl"
+      ],
+      "section": "Artwork record",
+      "observation_keys": [
+        "fact-girl-tronie"
+      ],
+      "data_year": "museum interpretation checked 2026",
+      "rounding": "Nicht numerisch.",
+      "notes": "Bound to cited museum record.",
+      "s": "„Das Mädchen mit dem Perlenohrring“ ist eine Tronie – eine Studie einer erfundenen Figur – und kein Porträt einer identifizierten Person.",
+      "a": true,
+      "e": "Das Mauritshuis ordnet das Werk als Tronie ein.",
+      "difficulty": "easy",
+      "status": "draft",
+      "verified": "2026-10-20",
+      "source": "https://www.mauritshuis.nl/en/our-collection/artworks/670-girl-with-a-pearl-earring",
+      "sources": [
+        "https://www.mauritshuis.nl/en/our-collection/artworks/670-girl-with-a-pearl-earring"
+      ],
+      "sets": [
+        "Kultur · Museumskunst"
+      ],
+      "data_year_note": "Historische Museumsobjektdaten; bei Katalogrevision erneut prüfen.",
+      "visual": "museum-art-neutral",
+      "subject": "museum-art-neutral"
+    },
+    {
+      "cat": "Kultur",
+      "subcategory": "Museumskunst · Werke, Maße & Details",
+      "time_dependent": false,
+      "id": "culture-art-20261020-nighthawks-day",
+      "semantic_key": "nighthawks-day",
+      "source_refs": [
+        "nighthawks"
+      ],
+      "section": "Artwork record",
+      "observation_keys": [
+        "fact-nighthawks-day"
+      ],
+      "data_year": 1942,
+      "rounding": "Nicht numerisch.",
+      "notes": "Bound to cited museum record.",
+      "s": "Edward Hoppers „Nighthawks“ zeigt eine Außenszene bei hellem Tageslicht.",
+      "a": false,
+      "e": "Zu sehen ist das Innere eines nachts geöffneten Diners.",
+      "difficulty": "easy",
+      "status": "draft",
+      "verified": "2026-10-20",
+      "source": "https://www.artic.edu/artworks/111628/nighthawks",
+      "sources": [
+        "https://www.artic.edu/artworks/111628/nighthawks"
+      ],
+      "sets": [
+        "Kultur · Museumskunst"
+      ],
+      "data_year_note": "Historische Museumsobjektdaten; bei Katalogrevision erneut prüfen.",
+      "visual": "museum-art-neutral",
+      "subject": "museum-art-neutral"
+    },
+    {
+      "cat": "Kultur",
+      "subcategory": "Museumskunst · Werke, Maße & Details",
+      "time_dependent": false,
+      "id": "culture-art-20261020-sunflowers-fifteen",
+      "semantic_key": "sunflowers-fifteen",
+      "source_refs": [
+        "sunflowers"
+      ],
+      "section": "Artwork record",
+      "observation_keys": [
+        "fact-sunflowers-fifteen"
+      ],
+      "data_year": 1888,
+      "rounding": "Nicht numerisch.",
+      "notes": "Bound to cited museum record.",
+      "s": "Van Goghs Londoner „Sonnenblumen“-Gemälde zeigt laut National Gallery eine Vase mit 15 Sonnenblumen.",
+      "a": true,
+      "e": "Die offizielle Bildbeschreibung nennt 15 Sonnenblumen.",
+      "difficulty": "medium",
+      "status": "draft",
+      "verified": "2026-10-20",
+      "source": "https://www.nationalgallery.org.uk/paintings/vincent-van-gogh-sunflowers",
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/vincent-van-gogh-sunflowers"
+      ],
+      "sets": [
+        "Kultur · Museumskunst"
+      ],
+      "data_year_note": "Historische Museumsobjektdaten; bei Katalogrevision erneut prüfen.",
+      "visual": "museum-art-neutral",
+      "subject": "museum-art-neutral"
+    },
+    {
+      "cat": "Kultur",
+      "subcategory": "Museumskunst · Werke, Maße & Details",
+      "time_dependent": false,
+      "id": "culture-art-20261020-starry-paris",
+      "semantic_key": "starry-paris",
+      "source_refs": [
+        "starry"
+      ],
+      "section": "Artwork record",
+      "observation_keys": [
+        "fact-starry-paris"
+      ],
+      "data_year": 1889,
+      "rounding": "Nicht numerisch.",
+      "notes": "Bound to cited museum record.",
+      "s": "Van Gogh malte „Die Sternennacht“ 1889 in Paris.",
+      "a": false,
+      "e": "Das MoMA verortet das Werk im Juni 1889 in Saint-Rémy.",
+      "difficulty": "medium",
+      "status": "draft",
+      "verified": "2026-10-20",
+      "source": "https://www.moma.org/collection/works/79802",
+      "sources": [
+        "https://www.moma.org/collection/works/79802"
+      ],
+      "sets": [
+        "Kultur · Museumskunst"
+      ],
+      "data_year_note": "Historische Museumsobjektdaten; bei Katalogrevision erneut prüfen.",
+      "visual": "museum-art-neutral",
+      "subject": "museum-art-neutral"
+    },
+    {
+      "cat": "Kultur",
+      "subcategory": "Museumskunst · Werke, Maße & Details",
+      "time_dependent": false,
+      "id": "culture-art-20261020-arnolfini-mirror",
+      "semantic_key": "arnolfini-mirror",
+      "source_refs": [
+        "arnolfini"
+      ],
+      "section": "Artwork record",
+      "observation_keys": [
+        "fact-arnolfini-mirror"
+      ],
+      "data_year": 1434,
+      "rounding": "Nicht numerisch.",
+      "notes": "Bound to cited museum record.",
+      "s": "Der konvexe Spiegel im Arnolfini-Porträt reflektiert zusätzlich zwei Männer, die den Raum betreten.",
+      "a": true,
+      "e": "Die National Gallery beschreibt zwei Männer im Spiegelbild hinter dem Paar.",
+      "difficulty": "hard",
+      "status": "draft",
+      "verified": "2026-10-20",
+      "source": "https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait",
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait"
+      ],
+      "sets": [
+        "Kultur · Museumskunst"
+      ],
+      "data_year_note": "Historische Museumsobjektdaten; bei Katalogrevision erneut prüfen.",
+      "visual": "museum-art-neutral",
+      "subject": "museum-art-neutral"
+    },
+    {
+      "cat": "Kultur",
+      "subcategory": "Museumskunst · Werke, Maße & Details",
+      "time_dependent": false,
+      "id": "culture-art-20261020-wave-oil",
+      "semantic_key": "wave-oil",
+      "source_refs": [
+        "wave"
+      ],
+      "section": "Artwork record",
+      "observation_keys": [
+        "fact-wave-oil"
+      ],
+      "data_year": "c. 1830–32",
+      "rounding": "Nicht numerisch.",
+      "notes": "Bound to cited museum record.",
+      "s": "Hokusais „Große Welle“ im Met ist ein Ölgemälde auf Leinwand.",
+      "a": false,
+      "e": "Es handelt sich um einen Holzschnitt mit Tinte und Farbe auf Papier.",
+      "difficulty": "hard",
+      "status": "draft",
+      "verified": "2026-10-20",
+      "source": "https://www.metmuseum.org/art/collection/search/45434",
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/45434"
+      ],
+      "sets": [
+        "Kultur · Museumskunst"
+      ],
+      "data_year_note": "Historische Museumsobjektdaten; bei Katalogrevision erneut prüfen.",
+      "visual": "museum-art-neutral",
+      "subject": "museum-art-neutral"
+    }
+  ],
+  "jeopardy": [
+    {
+      "cat": "Kultur",
+      "subcategory": "Museumskunst · Werke, Maße & Details",
+      "time_dependent": false,
+      "id": "culture-art-20261020-american-gothic",
+      "semantic_key": "american-gothic",
+      "source_refs": [
+        "american"
+      ],
+      "section": "Museum interpretation",
+      "observation_keys": [
+        "jeop-american-gothic"
+      ],
+      "data_year": 1930,
+      "rounding": "Nicht numerisch.",
+      "notes": "Bound to cited museum record.",
+      "q": "In welchem Verhältnis stehen die dargestellten Figuren in Grant Woods „American Gothic“ laut Werkbeschreibung?",
+      "a": "Farmer und Tochter|Vater und Tochter|ein Farmer und seine Tochter",
+      "difficulty": 1,
+      "status": "draft",
+      "verified": "2026-10-20",
+      "source": "https://www.artic.edu/artworks/6565/american-gothic",
+      "sources": [
+        "https://www.artic.edu/artworks/6565/american-gothic"
+      ],
+      "sets": [
+        "Kultur · Museumskunst"
+      ],
+      "data_year_note": "Historische Museumsobjektdaten; bei Katalogrevision erneut prüfen.",
+      "visual": null
+    },
+    {
+      "cat": "Kultur",
+      "subcategory": "Museumskunst · Werke, Maße & Details",
+      "time_dependent": false,
+      "id": "culture-art-20261020-meninas",
+      "semantic_key": "meninas",
+      "source_refs": [
+        "meninas"
+      ],
+      "section": "Museum interpretation",
+      "observation_keys": [
+        "jeop-meninas"
+      ],
+      "data_year": 1656,
+      "rounding": "Nicht numerisch.",
+      "notes": "Bound to cited museum record.",
+      "q": "Welche Infantin steht im Zentrum von Velázquez’ „Las Meninas“?",
+      "a": "Margarita|Infantin Margarita|Margarita Teresa|Margareta Theresa",
+      "difficulty": 1,
+      "status": "draft",
+      "verified": "2026-10-20",
+      "source": "https://www.museodelprado.es/en/the-collection/art-work/las-meninas/9fdc7800-9ade-48b0-ab8b-edee94ea877f",
+      "sources": [
+        "https://www.museodelprado.es/en/the-collection/art-work/las-meninas/9fdc7800-9ade-48b0-ab8b-edee94ea877f"
+      ],
+      "sets": [
+        "Kultur · Museumskunst"
+      ],
+      "data_year_note": "Historische Museumsobjektdaten; bei Katalogrevision erneut prüfen.",
+      "visual": null
+    },
+    {
+      "cat": "Kultur",
+      "subcategory": "Museumskunst · Werke, Maße & Details",
+      "time_dependent": false,
+      "id": "culture-art-20261020-kiss-gold",
+      "semantic_key": "kiss-gold",
+      "source_refs": [
+        "kiss"
+      ],
+      "section": "Museum interpretation",
+      "observation_keys": [
+        "jeop-kiss-gold"
+      ],
+      "data_year": "1908–09",
+      "rounding": "Nicht numerisch.",
+      "notes": "Bound to cited museum record.",
+      "q": "Welches Metall setzte Gustav Klimt in „Der Kuss“ als Blattmetall ein?",
+      "a": "Gold|Blattgold|Gold leaf",
+      "difficulty": 2,
+      "status": "draft",
+      "verified": "2026-10-20",
+      "source": "https://www.belvedere.at/en/stories/why-did-gustav-klimt-use-gold",
+      "sources": [
+        "https://www.belvedere.at/en/stories/why-did-gustav-klimt-use-gold"
+      ],
+      "sets": [
+        "Kultur · Museumskunst"
+      ],
+      "data_year_note": "Historische Museumsobjektdaten; bei Katalogrevision erneut prüfen.",
+      "visual": null
+    },
+    {
+      "cat": "Kultur",
+      "subcategory": "Museumskunst · Werke, Maße & Details",
+      "time_dependent": false,
+      "id": "culture-art-20261020-garden-format",
+      "semantic_key": "garden-format",
+      "source_refs": [
+        "garden"
+      ],
+      "section": "Museum interpretation",
+      "observation_keys": [
+        "jeop-garden-format"
+      ],
+      "data_year": "1490–1500",
+      "rounding": "Nicht numerisch.",
+      "notes": "Bound to cited museum record.",
+      "q": "Wie heißt das dreiteilige Bildformat von Boschs „Garten der Lüste“?",
+      "a": "Triptychon|Triptych|dreiteiliger Altar|Flügelaltar",
+      "difficulty": 2,
+      "status": "draft",
+      "verified": "2026-10-20",
+      "source": "https://www.museodelprado.es/en/the-collection/art-work/the-garden-of-earthly-delights-triptych/02388242-6d6a-4e9e-a992-e1311eab3609",
+      "sources": [
+        "https://www.museodelprado.es/en/the-collection/art-work/the-garden-of-earthly-delights-triptych/02388242-6d6a-4e9e-a992-e1311eab3609"
+      ],
+      "sets": [
+        "Kultur · Museumskunst"
+      ],
+      "data_year_note": "Historische Museumsobjektdaten; bei Katalogrevision erneut prüfen.",
+      "visual": null
+    },
+    {
+      "cat": "Kultur",
+      "subcategory": "Museumskunst · Werke, Maße & Details",
+      "time_dependent": false,
+      "id": "culture-art-20261020-guernica-pavilion",
+      "semantic_key": "guernica-pavilion",
+      "source_refs": [
+        "guernica"
+      ],
+      "section": "Museum interpretation",
+      "observation_keys": [
+        "jeop-guernica-pavilion"
+      ],
+      "data_year": 1937,
+      "rounding": "Nicht numerisch.",
+      "notes": "Bound to cited museum record.",
+      "q": "Für welchen Pavillon der Pariser Weltausstellung 1937 entstand Picassos „Guernica“?",
+      "a": "Spanischer Pavillon|Pavillon Spaniens|Spanish Pavilion",
+      "difficulty": 3,
+      "status": "draft",
+      "verified": "2026-10-20",
+      "source": "https://www.museoreinasofia.es/en/collections/artwork/guernica-0/",
+      "sources": [
+        "https://www.museoreinasofia.es/en/collections/artwork/guernica-0/"
+      ],
+      "sets": [
+        "Kultur · Museumskunst"
+      ],
+      "data_year_note": "Historische Museumsobjektdaten; bei Katalogrevision erneut prüfen.",
+      "visual": null
+    },
+    {
+      "cat": "Kultur",
+      "subcategory": "Museumskunst · Werke, Maße & Details",
+      "time_dependent": false,
+      "id": "culture-art-20261020-thinker-poet",
+      "semantic_key": "thinker-poet",
+      "source_refs": [
+        "thinker"
+      ],
+      "section": "Museum interpretation",
+      "observation_keys": [
+        "jeop-thinker-poet"
+      ],
+      "data_year": 1880,
+      "rounding": "Nicht numerisch.",
+      "notes": "Bound to cited museum record.",
+      "q": "Unter welchem Titel wurde Rodins „Der Denker“ 1880 ursprünglich für das „Höllentor“ konzipiert?",
+      "a": "Der Dichter|The Poet|Le Poète|Dichter",
+      "difficulty": 3,
+      "status": "draft",
+      "verified": "2026-10-20",
+      "source": "https://www.musee-rodin.fr/en/musee/collections/oeuvres/thinker",
+      "sources": [
+        "https://www.musee-rodin.fr/en/musee/collections/oeuvres/thinker"
+      ],
+      "sets": [
+        "Kultur · Museumskunst"
+      ],
+      "data_year_note": "Historische Museumsobjektdaten; bei Katalogrevision erneut prüfen.",
+      "visual": null
+    },
+    {
+      "cat": "Kultur",
+      "subcategory": "Museumskunst · Werke, Maße & Details",
+      "time_dependent": false,
+      "id": "culture-art-20261020-venus-island",
+      "semantic_key": "venus-island",
+      "source_refs": [
+        "venus"
+      ],
+      "section": "Museum interpretation",
+      "observation_keys": [
+        "jeop-venus-island"
+      ],
+      "data_year": 1820,
+      "rounding": "Nicht numerisch.",
+      "notes": "Bound to cited museum record.",
+      "q": "Auf welcher griechischen Insel wurde die Venus von Milo 1820 gefunden?",
+      "a": "Melos|Milos|Milo",
+      "difficulty": 4,
+      "status": "draft",
+      "verified": "2026-10-20",
+      "source": "https://www.louvre.fr/en/explore/the-palace/ideal-greek-beauty",
+      "sources": [
+        "https://www.louvre.fr/en/explore/the-palace/ideal-greek-beauty"
+      ],
+      "sets": [
+        "Kultur · Museumskunst"
+      ],
+      "data_year_note": "Historische Museumsobjektdaten; bei Katalogrevision erneut prüfen.",
+      "visual": null
+    },
+    {
+      "cat": "Kultur",
+      "subcategory": "Museumskunst · Werke, Maße & Details",
+      "time_dependent": false,
+      "id": "culture-art-20261020-liberty-revolution",
+      "semantic_key": "liberty-revolution",
+      "source_refs": [
+        "liberty"
+      ],
+      "section": "Museum interpretation",
+      "observation_keys": [
+        "jeop-liberty-revolution"
+      ],
+      "data_year": 1830,
+      "rounding": "Nicht numerisch.",
+      "notes": "Bound to cited museum record.",
+      "q": "Welchen Pariser Aufstand von 1830 zeigt Delacroix’ „Die Freiheit führt das Volk“?",
+      "a": "Julirevolution|Juli-Revolution|Revolution von 1830|Julitage 1830",
+      "difficulty": 4,
+      "status": "draft",
+      "verified": "2026-10-20",
+      "source": "https://www.louvre.fr/en/explore/visitor-trails/the-louvre-s-masterpieces/romanticism-topicality-sensuality",
+      "sources": [
+        "https://www.louvre.fr/en/explore/visitor-trails/the-louvre-s-masterpieces/romanticism-topicality-sensuality"
+      ],
+      "sets": [
+        "Kultur · Museumskunst"
+      ],
+      "data_year_note": "Historische Museumsobjektdaten; bei Katalogrevision erneut prüfen.",
+      "visual": null
+    }
+  ]
+}

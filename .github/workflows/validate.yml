@@ -18,3 +18,5 @@ jobs:
       - name: Static game regression checks
         run: |
           node scripts/regression-check.mjs
+          python3 scripts/build-kultur-museumskunst-draft-20261020.py --check
+          node scripts/check-kultur-museumskunst-draft-20261020.mjs
