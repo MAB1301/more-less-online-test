@@ -1,0 +1,6 @@
+{
+  "checked": "2026-10-20",
+  "exact_or_reversed_conflicts": [],
+  "semantic_review": "Bereits vorhandene Künstlerfragen zu Mona Lisa, Sternennacht, Denker, Guernica und Sonnenblumen wurden ausgeschlossen. Neu sind Maße, Material, Bilddetails und Entstehungskontext. Vergleichsabstände höchstens 2,32%.",
+  "limits": "Main, 22 offene PRs und Daily-Suche; manueller SVG-Render-Sichttest noch offen."
+}

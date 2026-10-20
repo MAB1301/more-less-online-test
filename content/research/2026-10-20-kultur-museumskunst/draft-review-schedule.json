@@ -1,0 +1,225 @@
+{
+  "policy": "Historische Museumsobjektdaten: 365 Tage; keine automatische Veröffentlichung.",
+  "records": [
+    {
+      "id": "culture-art-20261020-width-starry",
+      "game": "moreless",
+      "source": "https://www.moma.org/collection/works/79802",
+      "verified": "2026-10-20",
+      "data_year": "1889 / 1888",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "culture-art-20261020-height-arnolfini-nighthawks",
+      "game": "moreless",
+      "source": "https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait",
+      "verified": "2026-10-20",
+      "data_year": "1434 / 1942",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "culture-art-20261020-girl-height",
+      "game": "estimate",
+      "source": "https://www.mauritshuis.nl/en/our-collection/artworks/670-girl-with-a-pearl-earring",
+      "verified": "2026-10-20",
+      "data_year": "c. 1665",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "culture-art-20261020-nightwatch-width",
+      "game": "estimate",
+      "source": "https://www.rijksmuseum.nl/en/collection/object/The-Night-Watch-Militia-Company-of-District-II-under-the-Command-of-Captain-Frans-Banninck-Cocq--3137deb45cd7765f9a76084a16c99544",
+      "verified": "2026-10-20",
+      "data_year": 1642,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "culture-art-20261020-persistence-width",
+      "game": "estimate",
+      "source": "https://www.moma.org/collection/works/79018",
+      "verified": "2026-10-20",
+      "data_year": 1931,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "culture-art-20261020-wave-width",
+      "game": "estimate",
+      "source": "https://www.metmuseum.org/art/collection/search/45434",
+      "verified": "2026-10-20",
+      "data_year": "c. 1830–32",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "culture-art-20261020-girl-tronie",
+      "game": "facts",
+      "source": "https://www.mauritshuis.nl/en/our-collection/artworks/670-girl-with-a-pearl-earring",
+      "verified": "2026-10-20",
+      "data_year": "museum interpretation checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "culture-art-20261020-nighthawks-day",
+      "game": "facts",
+      "source": "https://www.artic.edu/artworks/111628/nighthawks",
+      "verified": "2026-10-20",
+      "data_year": 1942,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "culture-art-20261020-sunflowers-fifteen",
+      "game": "facts",
+      "source": "https://www.nationalgallery.org.uk/paintings/vincent-van-gogh-sunflowers",
+      "verified": "2026-10-20",
+      "data_year": 1888,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "culture-art-20261020-starry-paris",
+      "game": "facts",
+      "source": "https://www.moma.org/collection/works/79802",
+      "verified": "2026-10-20",
+      "data_year": 1889,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "culture-art-20261020-arnolfini-mirror",
+      "game": "facts",
+      "source": "https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait",
+      "verified": "2026-10-20",
+      "data_year": 1434,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "culture-art-20261020-wave-oil",
+      "game": "facts",
+      "source": "https://www.metmuseum.org/art/collection/search/45434",
+      "verified": "2026-10-20",
+      "data_year": "c. 1830–32",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "culture-art-20261020-american-gothic",
+      "game": "jeopardy",
+      "source": "https://www.artic.edu/artworks/6565/american-gothic",
+      "verified": "2026-10-20",
+      "data_year": 1930,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "culture-art-20261020-meninas",
+      "game": "jeopardy",
+      "source": "https://www.museodelprado.es/en/the-collection/art-work/las-meninas/9fdc7800-9ade-48b0-ab8b-edee94ea877f",
+      "verified": "2026-10-20",
+      "data_year": 1656,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "culture-art-20261020-kiss-gold",
+      "game": "jeopardy",
+      "source": "https://www.belvedere.at/en/stories/why-did-gustav-klimt-use-gold",
+      "verified": "2026-10-20",
+      "data_year": "1908–09",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "culture-art-20261020-garden-format",
+      "game": "jeopardy",
+      "source": "https://www.museodelprado.es/en/the-collection/art-work/the-garden-of-earthly-delights-triptych/02388242-6d6a-4e9e-a992-e1311eab3609",
+      "verified": "2026-10-20",
+      "data_year": "1490–1500",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "culture-art-20261020-guernica-pavilion",
+      "game": "jeopardy",
+      "source": "https://www.museoreinasofia.es/en/collections/artwork/guernica-0/",
+      "verified": "2026-10-20",
+      "data_year": 1937,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "culture-art-20261020-thinker-poet",
+      "game": "jeopardy",
+      "source": "https://www.musee-rodin.fr/en/musee/collections/oeuvres/thinker",
+      "verified": "2026-10-20",
+      "data_year": 1880,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "culture-art-20261020-venus-island",
+      "game": "jeopardy",
+      "source": "https://www.louvre.fr/en/explore/the-palace/ideal-greek-beauty",
+      "verified": "2026-10-20",
+      "data_year": 1820,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "culture-art-20261020-liberty-revolution",
+      "game": "jeopardy",
+      "source": "https://www.louvre.fr/en/explore/visitor-trails/the-louvre-s-masterpieces/romanticism-topicality-sensuality",
+      "verified": "2026-10-20",
+      "data_year": 1830,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-20",
+      "review_status": "draft-review-required"
+    }
+  ]
+}

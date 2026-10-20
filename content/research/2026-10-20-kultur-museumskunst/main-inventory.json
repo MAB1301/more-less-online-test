@@ -1,0 +1,241 @@
+{
+  "checked": "2026-10-20",
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "definition": "Distinct normalized prompts / unordered More-Less pairs with unit; semantic identity reviewed separately.",
+  "games": {
+    "moreless": {
+      "raw": 890,
+      "unique": 889,
+      "categories": {
+        "Länder": {
+          "count": 23
+        },
+        "Städte": {
+          "count": 14
+        },
+        "Natur": {
+          "count": 65
+        },
+        "Sport": {
+          "count": 25
+        },
+        "Bauwerke": {
+          "count": 14
+        },
+        "Tierwelt": {
+          "count": 14
+        },
+        "Weltraum": {
+          "count": 218
+        },
+        "Wissenschaft": {
+          "count": 284
+        },
+        "Allgemeinwissen": {
+          "count": 12
+        },
+        "Raumfahrt": {
+          "count": 75
+        },
+        "Weltkultur": {
+          "count": 47
+        },
+        "Rekorde & Extreme": {
+          "count": 13
+        },
+        "Autos": {
+          "count": 26
+        },
+        "Fußballer": {
+          "count": 59
+        }
+      }
+    },
+    "estimate": {
+      "raw": 351,
+      "unique": 351,
+      "categories": {
+        "Bauwerke": {
+          "count": 18
+        },
+        "Weltraum": {
+          "count": 81
+        },
+        "Sport": {
+          "count": 17
+        },
+        "Natur": {
+          "count": 21
+        },
+        "Allgemeinwissen": {
+          "count": 20
+        },
+        "Länder": {
+          "count": 22
+        },
+        "Wissenschaft": {
+          "count": 34
+        },
+        "Rekorde & Extreme": {
+          "count": 14
+        },
+        "Raumfahrt": {
+          "count": 21
+        },
+        "Weltkultur": {
+          "count": 19
+        },
+        "Autos": {
+          "count": 25
+        },
+        "Fußballer": {
+          "count": 38
+        },
+        "Städte": {
+          "count": 12
+        },
+        "Tierwelt": {
+          "count": 9
+        }
+      }
+    },
+    "facts": {
+      "raw": 246,
+      "unique": 246,
+      "categories": {
+        "Tierwelt": {
+          "count": 21
+        },
+        "Bauwerke": {
+          "count": 15
+        },
+        "Weltraum": {
+          "count": 41
+        },
+        "Arbeitswelt": {
+          "count": 4
+        },
+        "Geschichte": {
+          "count": 1
+        },
+        "Wissenschaft": {
+          "count": 20
+        },
+        "Sport": {
+          "count": 12
+        },
+        "Natur": {
+          "count": 12
+        },
+        "Allgemeinwissen": {
+          "count": 8
+        },
+        "Weltkultur": {
+          "count": 12
+        },
+        "Raumfahrt": {
+          "count": 12
+        },
+        "Autos": {
+          "count": 16
+        },
+        "Fußballer": {
+          "count": 52
+        },
+        "Städte": {
+          "count": 8
+        },
+        "Länder": {
+          "count": 6
+        },
+        "Rekorde & Extreme": {
+          "count": 6
+        }
+      }
+    },
+    "jeopardy": {
+      "raw": 751,
+      "unique": 750,
+      "categories": {
+        "Geografie": {
+          "count": 30
+        },
+        "Wissenschaft": {
+          "count": 28
+        },
+        "Geschichte": {
+          "count": 30
+        },
+        "Sport": {
+          "count": 25
+        },
+        "Kultur": {
+          "count": 26
+        },
+        "Mix": {
+          "count": 28
+        },
+        "Weltraum": {
+          "count": 26
+        },
+        "Science-Fiction": {
+          "count": 25
+        },
+        "Star Wars": {
+          "count": 26
+        },
+        "Fußball": {
+          "count": 42
+        },
+        "Champions League": {
+          "count": 27
+        },
+        "Deutschland": {
+          "count": 26
+        },
+        "Chemie": {
+          "count": 32
+        },
+        "Planetenkunde": {
+          "count": 23
+        },
+        "Nationalparks": {
+          "count": 22
+        },
+        "Raumfahrtmissionen": {
+          "count": 22
+        },
+        "Sportregeln": {
+          "count": 20
+        },
+        "Autotechnik": {
+          "count": 26
+        },
+        "Transfers": {
+          "count": 48
+        },
+        "Vereinsstationen": {
+          "count": 18
+        },
+        "FIFA-Ratings": {
+          "count": 57
+        },
+        "Allgemeinwissen": {
+          "count": 21
+        },
+        "Planetenphysik": {
+          "count": 54
+        },
+        "Weltkultur": {
+          "count": 19
+        },
+        "Rekorde & Extreme": {
+          "count": 14
+        },
+        "Videospiele": {
+          "count": 35
+        }
+      }
+    }
+  }
+}

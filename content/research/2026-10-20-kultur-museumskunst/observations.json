@@ -1,0 +1,98 @@
+{
+  "width-starry": {
+    "value": 92.1,
+    "unit": "cm",
+    "source_ref": "starry"
+  },
+  "width-rhone": {
+    "value": 92,
+    "unit": "cm",
+    "source_ref": "rhone"
+  },
+  "height-arnolfini": {
+    "value": 82.2,
+    "unit": "cm",
+    "source_ref": "arnolfini"
+  },
+  "height-nighthawks": {
+    "value": 84.1,
+    "unit": "cm",
+    "source_ref": "nighthawks"
+  },
+  "girl-height": {
+    "value": 44.5,
+    "unit": "cm",
+    "source_ref": "girl"
+  },
+  "nightwatch-width": {
+    "value": 453.5,
+    "unit": "cm",
+    "source_ref": "nightwatch"
+  },
+  "persistence-width": {
+    "value": 33,
+    "unit": "cm",
+    "source_ref": "persistence"
+  },
+  "wave-width": {
+    "value": 37.9,
+    "unit": "cm",
+    "source_ref": "wave"
+  },
+  "fact-girl-tronie": {
+    "value": true,
+    "source_ref": "girl"
+  },
+  "fact-nighthawks-day": {
+    "value": false,
+    "source_ref": "nighthawks"
+  },
+  "fact-sunflowers-fifteen": {
+    "value": true,
+    "source_ref": "sunflowers"
+  },
+  "fact-starry-paris": {
+    "value": false,
+    "source_ref": "starry"
+  },
+  "fact-arnolfini-mirror": {
+    "value": true,
+    "source_ref": "arnolfini"
+  },
+  "fact-wave-oil": {
+    "value": false,
+    "source_ref": "wave"
+  },
+  "jeop-american-gothic": {
+    "value": "Farmer und Tochter",
+    "source_ref": "american"
+  },
+  "jeop-meninas": {
+    "value": "Margarita",
+    "source_ref": "meninas"
+  },
+  "jeop-kiss-gold": {
+    "value": "Gold",
+    "source_ref": "kiss"
+  },
+  "jeop-garden-format": {
+    "value": "Triptychon",
+    "source_ref": "garden"
+  },
+  "jeop-guernica-pavilion": {
+    "value": "Spanischer Pavillon",
+    "source_ref": "guernica"
+  },
+  "jeop-thinker-poet": {
+    "value": "Der Dichter",
+    "source_ref": "thinker"
+  },
+  "jeop-venus-island": {
+    "value": "Melos",
+    "source_ref": "venus"
+  },
+  "jeop-liberty-revolution": {
+    "value": "Julirevolution",
+    "source_ref": "liberty"
+  }
+}
