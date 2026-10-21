@@ -1,0 +1,225 @@
+{
+  "policy": "Historische Daten: 365 Tage; aktuell benannte Besucherebenen: 90 Tage; keine automatische Veröffentlichung.",
+  "records": [
+    {
+      "id": "buildings-20261021-floors",
+      "game": "moreless",
+      "source": "https://www.petronastwintowers.com.my/the-towers/the-stories/",
+      "verified": "2026-10-21",
+      "data_year": "completed buildings; operator records checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-21",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "buildings-20261021-observation-floor",
+      "game": "moreless",
+      "source": "https://swfc-shanghai.com/space_leasing_ob.php?l=en",
+      "verified": "2026-10-21",
+      "data_year": "current operator descriptions checked 2026",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-19",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "buildings-20261021-atomium-spheres",
+      "game": "estimate",
+      "source": "https://atomium.be/the_atomium_in_figures",
+      "verified": "2026-10-21",
+      "data_year": 1958,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-21",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "buildings-20261021-sagrada-towers",
+      "game": "estimate",
+      "source": "https://sagradafamilia.org/documents/20142/1000561/Booklet_04.pdf/5eb8514a-7bd2-77d0-15dc-9c9c0315cf23",
+      "verified": "2026-10-21",
+      "data_year": "Gaudí design programme",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-21",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "buildings-20261021-taj-1648",
+      "game": "estimate",
+      "source": "https://whc.unesco.org/en/list/252/",
+      "verified": "2026-10-21",
+      "data_year": "1632–1648",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-21",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "buildings-20261021-fallingwater-1938",
+      "game": "estimate",
+      "source": "https://fallingwater.org/what-is-fallingwater/",
+      "verified": "2026-10-21",
+      "data_year": "1936–1938",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-21",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "buildings-20261021-atomium-iron",
+      "game": "facts",
+      "source": "https://atomium.be/the_atomium_in_figures",
+      "verified": "2026-10-21",
+      "data_year": 1958,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-21",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "buildings-20261021-taj-purpose",
+      "game": "facts",
+      "source": "https://whc.unesco.org/en/list/252/",
+      "verified": "2026-10-21",
+      "data_year": "17th century",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-21",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "buildings-20261021-willis-rename",
+      "game": "facts",
+      "source": "https://www.willistower.com/about",
+      "verified": "2026-10-21",
+      "data_year": 2009,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-21",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "buildings-20261021-fallingwater-site",
+      "game": "facts",
+      "source": "https://fallingwater.org/what-is-fallingwater/",
+      "verified": "2026-10-21",
+      "data_year": "designed 1935",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-21",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "buildings-20261021-sagrada-geometry",
+      "game": "facts",
+      "source": "https://sagradafamilia.org/documents/20142/1000561/Booklet_10.pdf/d5c2d0df-43ce-b6d2-0b51-103d5718820e",
+      "verified": "2026-10-21",
+      "data_year": "official design description",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-21",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "buildings-20261021-sydney-tiles",
+      "game": "facts",
+      "source": "https://www.sydneyoperahouse.com/our-story/the-spherical-solution",
+      "verified": "2026-10-21",
+      "data_year": "Utzon design principles",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-21",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "buildings-20261021-sydney-architect",
+      "game": "jeopardy",
+      "source": "https://stories.sydneyoperahouse.com/the-people-who-ve-shaped-the-sydney-opera-house/index.html",
+      "verified": "2026-10-21",
+      "data_year": "design competition era",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-21",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "buildings-20261021-liberty-sculptor",
+      "game": "jeopardy",
+      "source": "https://www.nps.gov/stli/learn/historyculture/places_creating_statue.htm",
+      "verified": "2026-10-21",
+      "data_year": "construction began 1876",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-21",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "buildings-20261021-fallingwater-family",
+      "game": "jeopardy",
+      "source": "https://fallingwater.org/what-is-fallingwater/",
+      "verified": "2026-10-21",
+      "data_year": "designed 1935",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-21",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "buildings-20261021-guggenheim-architect",
+      "game": "jeopardy",
+      "source": "https://www.guggenheim.org/about-us/architecture/frank-lloyd-wright-and-the-guggenheim",
+      "verified": "2026-10-21",
+      "data_year": "opened 1959",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-21",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "buildings-20261021-louvre-architect",
+      "game": "jeopardy",
+      "source": "https://presse.louvre.fr/the-pyramid-project/",
+      "verified": "2026-10-21",
+      "data_year": "inaugurated 1989",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-21",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "buildings-20261021-swfc-architect",
+      "game": "jeopardy",
+      "source": "https://swfc-shanghai.com/about_intro.php?l=en",
+      "verified": "2026-10-21",
+      "data_year": "completed 2008",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-21",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "buildings-20261021-sagrada-dedication",
+      "game": "jeopardy",
+      "source": "https://sagradafamilia.org/documents/20142/1000561/Booklet_04.pdf/5eb8514a-7bd2-77d0-15dc-9c9c0315cf23",
+      "verified": "2026-10-21",
+      "data_year": "Gaudí design programme",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-21",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "buildings-20261021-taj-river",
+      "game": "jeopardy",
+      "source": "https://whc.unesco.org/en/list/252/",
+      "verified": "2026-10-21",
+      "data_year": "UNESCO property description",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-21",
+      "review_status": "draft-review-required"
+    }
+  ]
+}

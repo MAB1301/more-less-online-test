@@ -1,0 +1,9 @@
+{
+  "checked":"2026-10-21",
+  "target":{"category":"Bauwerke","main_before":{"moreless":14,"estimate":18,"facts":15,"jeopardy":0,"total":47},"open_drafts_unique":{"moreless":27,"estimate":6,"facts":8,"jeopardy":9,"total":50},"before_including_open_drafts":{"moreless":41,"estimate":24,"facts":23,"jeopardy":9,"total":97},"this_draft":{"moreless":2,"estimate":4,"facts":6,"jeopardy":8,"total":20},"after_including_open_drafts":{"moreless":43,"estimate":28,"facts":29,"jeopardy":17,"total":117}},
+  "all_selectable_category_labels":35,
+  "categories_completed_this_run":1,
+  "other_category_labels_without_this_run_additions":34,
+  "formal_missing_questions_against_20_per_category_run_target":680,
+  "notes":"Open-draft counts are 50 unique Bauwerke question identities across PRs #122, #127, #134 and #144; no duplicates among those 50 under unordered-pair/prompt canonicalization. The recurring work continues even above 100."
+}

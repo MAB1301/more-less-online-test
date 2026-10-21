@@ -1,0 +1,13 @@
+{
+  "checked":"2026-10-21",
+  "counts":{"moreless":2,"estimate":4,"facts":6,"jeopardy":8},
+  "unique_observation_keys":22,
+  "source_checks":true,
+  "duplicate_checks":true,
+  "image_structure_checks":true,
+  "rendered_visual_qa":true,
+  "game_merge_regression":true,
+  "full_regression":true,
+  "offline_build":true,
+  "notes":"Both SVGs rendered with Sharp and visually inspected at native 720×540 and 960×540 resolution; labels, border and silhouettes remain inside the 40 px safe area. Local builder check, package checker, PWA build and full npm test passed on 2026-10-21."
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Abstrakte Architektur bei Nacht</title><desc id="desc">Antwortneutrale Silhouetten verschiedener Bauformen ohne reale Wahrzeichen, Namen oder Zahlen.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071128"/><stop offset=".5" stop-color="#172556"/><stop offset="1" stop-color="#37155f"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#12d8cd" stop-opacity=".25"/><stop offset="1" stop-color="#a45bff" stop-opacity=".6"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <ellipse cx="760" cy="110" rx="176" ry="134" fill="#945dff" opacity=".12"/><ellipse cx="186" cy="402" rx="190" ry="116" fill="#14dcd1" opacity=".09"/>
+  <g opacity=".14" stroke="#b9c7ff"><path d="M40 120H920M40 200H920M40 280H920M40 360H920M160 40V500M320 40V500M480 40V500M640 40V500M800 40V500"/></g>
+  <rect x="40" y="40" width="880" height="460" rx="30" fill="none" stroke="#cdb7ff" stroke-opacity=".34" stroke-width="2"/>
+  <path d="M116 438V286l82-46 82 46v152z" fill="#101b43" stroke="#55eee0" stroke-width="3"/>
+  <path d="M310 438V180l70-70 70 70v258z" fill="url(#glass)" stroke="#a786ff" stroke-width="4"/>
+  <path d="M482 438V238l70-84 70 84v200z" fill="#111d48" stroke="#f1a7ff" stroke-width="3"/>
+  <path d="M654 438V202h92v236z" fill="url(#glass)" stroke="#56e6ff" stroke-width="3"/>
+  <path d="M774 438V274l42-58 42 58v164z" fill="#111c43" stroke="#e0b0ff" stroke-width="3"/>
+  <g stroke="#e9ffff" stroke-opacity=".48" stroke-width="3"><path d="M344 212h72M344 256h72M344 300h72M344 344h72"/><path d="M506 282h92M506 328h92M506 374h92"/><path d="M680 244h40M680 292h40M680 340h40"/></g>
+  <path d="M88 438H872" stroke="#71f6e9" stroke-width="5" filter="url(#glow)"/>
+  <text x="480" y="478" fill="#f6f3ff" font-family="system-ui,sans-serif" font-size="25" font-weight="800" text-anchor="middle" letter-spacing="6">ARCHITEKTUR</text>
+</svg>
