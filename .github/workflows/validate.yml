@@ -18,3 +18,7 @@ jobs:
       - name: Static game regression checks
         run: |
           node scripts/regression-check.mjs
+      - name: Bauwerke architecture draft checks
+        run: |
+          python3 scripts/build-bauwerke-architektur-draft-20261021.py --check
+          node scripts/check-bauwerke-architektur-draft-20261021.mjs

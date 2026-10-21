@@ -1,0 +1,6 @@
+{
+  "checked":"2026-10-21","main_commit":"dced74bb1385014445e186969a09ccd92c20edb5","main_question_identities":1936,"open_question_identities_considered":1060,"this_draft":20,
+  "exact_prompt_conflicts":[],"reversed_moreless_conflicts":[],"same_observation_conflicts":[],"near_semantic_conflicts":[],
+  "excluded_existing_metrics":["architectural skyscraper height","bridge main span","UNESCO inscription year","observation-platform height in metres","Eiffel/Empire State/Burj construction and opening years"],
+  "method":"Normalized prompt matching; unordered More/Less pair plus normalized metric/unit; landmark+observation semantic review against Main, relevant open PRs and Daily payloads."
+}

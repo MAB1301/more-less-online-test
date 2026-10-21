@@ -1,0 +1,6 @@
+{
+  "checked":"2026-10-21","open_pr_count":23,"open_pr_numbers":[154,153,152,151,150,149,148,147,146,145,144,138,134,132,131,130,129,128,127,126,122,109,57],"pending_questions_considered":1060,
+  "bauwerke_relevant_prs":[122,127,134,144],"bauwerke_pending_raw":50,"bauwerke_pending_unique":50,"bauwerke_pending_by_game":{"moreless":27,"estimate":6,"facts":8,"jeopardy":9},
+  "semantic_review":"No exact prompt, reversed pair, or same observation/answer conflict with this package. Existing skyscraper-height, bridge, UNESCO-inscription-year and observation-platform-height questions were intentionally excluded.",
+  "non_content_prs_reviewed":true
+}

@@ -1,0 +1,89 @@
+{
+  "checked": "2026-10-21",
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "category": "Bauwerke",
+  "subcategory": "Architektur · Geschosse, Entwurf & Wahrzeichen",
+  "set": "Bauwerke · Architekturwissen",
+  "questions": [
+    {
+      "game":"moreless","id":"buildings-20261021-floors","semantic_key":"above-ground-floor-count-petronas-swfc","source_refs":["petronas","swfc"],"observation_keys":["petronas-floors","swfc-floors"],"data_year":"completed buildings; operator records checked 2026","rounding":"Published integer floor/storey counts; no conversion.","notes":"Same metric: above-ground storeys/floors of completed skyscrapers. Basements excluded.",
+      "l":"PETRONAS Twin Towers","r":"Shanghai World Financial Center","lv":88,"rv":101,"u":"oberirdische Geschosse · Betreiberangabe","metric":"Zahl der oberirdischen Geschosse"
+    },
+    {
+      "game":"moreless","id":"buildings-20261021-observation-floor","semantic_key":"named-observation-level-floor-swfc-willis","source_refs":["swfc_sky","willis_skydeck"],"observation_keys":["swfc-sky-floor","willis-sky-floor"],"data_year":"current operator descriptions checked 2026","rounding":"Published integer floor numbers; no height conversion.","notes":"Same metric: highest named public observation/visitor level by floor number, not metres above ground.",
+      "l":"SWFC Sky Arena","r":"Willis Tower Skydeck / The Ledge","lv":100,"rv":103,"u":"Etage · höchste benannte Aussichtsebene","metric":"Etage der höchsten benannten Aussichtsebene"
+    },
+    {
+      "game":"estimate","id":"buildings-20261021-atomium-spheres","semantic_key":"atomium-sphere-count","source_refs":["atomium"],"observation_keys":["atomium-spheres"],"data_year":1958,"rounding":"Published integer count.","notes":"Counts the nine connected spheres of the Atomium.",
+      "q":"Aus wie vielen Kugeln besteht das Atomium laut offizieller Übersicht?","a":9,"u":"Kugeln"
+    },
+    {
+      "game":"estimate","id":"buildings-20261021-sagrada-towers","semantic_key":"sagrada-planned-tower-count","source_refs":["sagrada"],"observation_keys":["sagrada-towers"],"data_year":"Gaudí design programme","rounding":"Published integer design count.","notes":"Planned complete programme, not the number open or finished on the check date.",
+      "q":"Wie viele Türme umfasst Gaudís vollständiges Entwurfsprogramm für die Sagrada Família?","a":18,"u":"Türme"
+    },
+    {
+      "game":"estimate","id":"buildings-20261021-taj-1648","semantic_key":"taj-main-mausoleum-completion-year","source_refs":["taj"],"observation_keys":["taj-mausoleum-complete"],"data_year":"1632–1648","rounding":"Calendar year published by UNESCO.","notes":"Main mausoleum only; ancillary buildings and outer works continued until 1653.",
+      "q":"In welchem Jahr wurde das Hauptmausoleum des Taj Mahal laut UNESCO fertiggestellt?","a":1648,"u":"Jahr"
+    },
+    {
+      "game":"estimate","id":"buildings-20261021-fallingwater-1938","semantic_key":"fallingwater-main-house-completion-year","source_refs":["fallingwater"],"observation_keys":["fallingwater-main-complete"],"data_year":"1936–1938","rounding":"Calendar year from the official construction range.","notes":"Main house only; the guest house followed in 1939.",
+      "q":"In welchem Jahr wurde das Haupthaus von Fallingwater fertiggestellt?","a":1938,"u":"Jahr"
+    },
+    {
+      "game":"facts","id":"buildings-20261021-atomium-iron","semantic_key":"atomium-iron-crystal-symbolism","source_refs":["atomium"],"observation_keys":["atomium-iron-cell"],"data_year":1958,"rounding":"Nicht numerisch.","notes":"Official operator interpretation.","difficulty":"easy",
+      "s":"Die neun Kugeln des Atomiums entsprechen den Atomen einer Elementarzelle eines Eisenkristalls.","a":true,"e":"Die offizielle Übersicht erklärt genau diese Symbolik der neun Kugeln."
+    },
+    {
+      "game":"facts","id":"buildings-20261021-taj-purpose","semantic_key":"taj-purpose-wife-not-sister","source_refs":["taj"],"observation_keys":["taj-wife"],"data_year":"17th century","rounding":"Nicht numerisch.","notes":"Tests the commemorated person, not the UNESCO inscription year.","difficulty":"easy",
+      "s":"Shah Jahan ließ den Taj Mahal zum Gedenken an seine Schwester errichten.","a":false,"e":"UNESCO nennt seine Ehefrau Mumtaz Mahal als die Person, deren Andenken das Mausoleum gewidmet ist."
+    },
+    {
+      "game":"facts","id":"buildings-20261021-willis-rename","semantic_key":"sears-renamed-willis-2009","source_refs":["willis"],"observation_keys":["willis-rename"],"data_year":2009,"rounding":"Nicht numerisch.","notes":"Historical name change, not a statement about ownership today.","difficulty":"medium",
+      "s":"Der frühere Sears Tower wurde 2009 in Willis Tower umbenannt.","a":true,"e":"Die offizielle Gebäudegeschichte datiert die Umbenennung auf 2009."
+    },
+    {
+      "game":"facts","id":"buildings-20261021-fallingwater-site","semantic_key":"fallingwater-above-waterfall-not-urban-lot","source_refs":["fallingwater"],"observation_keys":["fallingwater-site"],"data_year":"designed 1935","rounding":"Nicht numerisch.","notes":"Setting and design relationship.","difficulty":"medium",
+      "s":"Fallingwater wurde für ein flaches städtisches Grundstück ohne natürlichen Wasserlauf entworfen.","a":false,"e":"Das Haus steht in der Berglandschaft Pennsylvanias über dem Wasserfall am Bear Run."
+    },
+    {
+      "game":"facts","id":"buildings-20261021-sagrada-geometry","semantic_key":"jesus-tower-twelve-intersecting-paraboloids","source_refs":["sagrada_geometry"],"observation_keys":["sagrada-paraboloids"],"data_year":"official design description","rounding":"Published geometric count retained.","notes":"Geometry of the planned/constructed central tower, not its completion date.","difficulty":"hard",
+      "s":"Die Form des Jesus-Christus-Turms der Sagrada Família basiert laut offizieller Baubeschreibung auf zwölf sich schneidenden Paraboloiden.","a":true,"e":"Das offizielle Architekturheft beschreibt den Turm als Ergebnis von zwölf sich schneidenden Paraboloiden."
+    },
+    {
+      "game":"facts","id":"buildings-20261021-sydney-tiles","semantic_key":"sydney-tiles-reflect-sky-not-avoid-reflection","source_refs":["sydney"],"observation_keys":["sydney-tiles"],"data_year":"Utzon design principles","rounding":"Nicht numerisch.","notes":"Intent of the tile finish in the harbour setting.","difficulty":"hard",
+      "s":"Die Dachfliesen des Opernhauses Sydney sollten das wechselnde Himmelslicht möglichst nicht spiegeln.","a":false,"e":"Utzon erklärte, die helle Skulptur solle das wechselnde Licht des Himmels einfangen und spiegeln."
+    },
+    {
+      "game":"jeopardy","id":"buildings-20261021-sydney-architect","semantic_key":"sydney-opera-house-architect","source_refs":["sydney_people"],"observation_keys":["sydney-architect"],"data_year":"design competition era","rounding":"Nicht numerisch.","notes":"Architect attribution.","difficulty":1,
+      "q":"Welcher dänische Architekt entwarf das Opernhaus Sydney?","a":"Jørn Utzon|Jorn Utzon|Utzon"
+    },
+    {
+      "game":"jeopardy","id":"buildings-20261021-liberty-sculptor","semantic_key":"statue-liberty-sculptor","source_refs":["liberty"],"observation_keys":["liberty-sculptor"],"data_year":"construction began 1876","rounding":"Nicht numerisch.","notes":"Sculptor role; do not accept Eiffel alone, whose role was structural engineering.","difficulty":2,
+      "q":"Welcher französische Bildhauer entwarf die Freiheitsstatue?","a":"Auguste Bartholdi|Frédéric Auguste Bartholdi|Frederic Auguste Bartholdi|Bartholdi"
+    },
+    {
+      "game":"jeopardy","id":"buildings-20261021-fallingwater-family","semantic_key":"fallingwater-client-family","source_refs":["fallingwater"],"observation_keys":["fallingwater-family"],"data_year":"designed 1935","rounding":"Nicht numerisch.","notes":"Commissioning family, not architect.","difficulty":2,
+      "q":"Für welche Pittsburgher Familie wurde Fallingwater als Wochenendhaus entworfen?","a":"Kaufmann|Familie Kaufmann|Kaufmann family"
+    },
+    {
+      "game":"jeopardy","id":"buildings-20261021-guggenheim-architect","semantic_key":"guggenheim-new-york-architect","source_refs":["guggenheim"],"observation_keys":["guggenheim-architect"],"data_year":"opened 1959","rounding":"Nicht numerisch.","notes":"New York museum building.","difficulty":3,
+      "q":"Welcher Architekt entwarf das 1959 eröffnete Solomon R. Guggenheim Museum in New York?","a":"Frank Lloyd Wright|Wright"
+    },
+    {
+      "game":"jeopardy","id":"buildings-20261021-louvre-architect","semantic_key":"louvre-pyramid-architect","source_refs":["louvre"],"observation_keys":["louvre-architect"],"data_year":"inaugurated 1989","rounding":"Nicht numerisch.","notes":"Architect of the glass pyramid.","difficulty":3,
+      "q":"Welcher Architekt entwarf die 1989 eingeweihte Glaspyramide des Louvre?","a":"I. M. Pei|I.M. Pei|Ieoh Ming Pei|Pei"
+    },
+    {
+      "game":"jeopardy","id":"buildings-20261021-swfc-architect","semantic_key":"swfc-design-architect","source_refs":["swfc"],"observation_keys":["swfc-architect"],"data_year":"completed 2008","rounding":"Nicht numerisch.","notes":"Design architect named by the official project overview.","difficulty":4,
+      "q":"Welches New Yorker Architekturbüro wird als Design Architect des Shanghai World Financial Center genannt?","a":"Kohn Pedersen Fox Associates|KPF|Kohn Pedersen Fox"
+    },
+    {
+      "game":"jeopardy","id":"buildings-20261021-sagrada-dedication","semantic_key":"sagrada-tallest-central-tower-dedication","source_refs":["sagrada"],"observation_keys":["sagrada-dedication"],"data_year":"Gaudí design programme","rounding":"Nicht numerisch.","notes":"Dedication of the tallest central tower, not completion status.","difficulty":4,
+      "q":"Wem ist der höchste zentrale Turm der Sagrada Família gewidmet?","a":"Jesus Christus|Jesus Christ|Christus|Jesus"
+    },
+    {
+      "game":"jeopardy","id":"buildings-20261021-taj-river","semantic_key":"taj-mahal-river-bank","source_refs":["taj"],"observation_keys":["taj-river"],"data_year":"UNESCO property description","rounding":"Nicht numerisch.","notes":"River named in the official property description.","difficulty":5,
+      "q":"An welchem Flussufer liegt der Taj Mahal laut UNESCO-Beschreibung?","a":"Yamuna|Jamuna|Yamuna-Fluss"
+    }
+  ]
+}

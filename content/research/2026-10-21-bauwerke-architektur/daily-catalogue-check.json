@@ -1,0 +1,5 @@
+{
+  "checked":"2026-10-21","project":"rnwsbgzdrttqtivrwnxo","account":"Marc","table":"ml_private.daily_catalogue","mode":"read-only","rows_total":7187,"broad_name_matches":105,"observation_conflicts":0,
+  "scope":["above-ground floor counts","named observation-level floor numbers","Atomium sphere count and symbolism","Sagrada tower count and geometry","Taj mausoleum completion and river","Fallingwater completion, site and client","Willis renaming","Sydney tile intent and architect","Statue of Liberty sculptor","Guggenheim architect","Louvre Pyramid architect","SWFC design architect"],
+  "notes":"Broad matches are expected because some landmarks already occur with different metrics. All 22 proposed observation identities were checked separately and returned zero conflicts. No database write was performed."
+}
