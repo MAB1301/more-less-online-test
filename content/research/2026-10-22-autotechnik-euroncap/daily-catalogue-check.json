@@ -1,0 +1,26 @@
+{
+  "checked": "2026-10-22",
+  "project": "rnwsbgzdrttqtivrwnxo",
+  "account": "Marc",
+  "table": "ml_private.daily_catalogue",
+  "mode": "read-only",
+  "rows_total": 7187,
+  "broad_matches": 0,
+  "observation_conflicts": 0,
+  "scope": [
+    "Euro NCAP",
+    "2025 pillar percentages",
+    "Leapmotor B10",
+    "Volvo EX90",
+    "Tesla Model Y",
+    "Nissan Qashqai",
+    "Volkswagen Caddy",
+    "CUPRA Formentor",
+    "Global Vehicle Target",
+    "Attention Assist",
+    "ISOFIX",
+    "eCall",
+    "Emergency Lane Keeping"
+  ],
+  "notes": "The catalogue was queried read-only with model names and technical terms. No broad hit and no conflict with the 22 proposed observations was returned."
+}
