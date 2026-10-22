@@ -1,0 +1,89 @@
+{
+  "checked": "2026-10-22",
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "category": "Autotechnik",
+  "subcategory": "Fahrzeugsicherheit · Euro NCAP 2025",
+  "set": "Autotechnik · Crashschutz & Assistenz",
+  "questions": [
+    {
+      "game":"moreless","id":"autotech-20261022-adult-b10-ex90","semantic_key":"euroncap-2025-adult-percent-b10-ex90","source_refs":["euroncap_2025_batch"],"observation_keys":["leapmotor-b10-adult-2025","volvo-ex90-adult-2025"],"data_year":2025,"rounding":"Published integer percentages; no recalculation.","notes":"Same publication batch, protocol year, pillar, scale and unit.",
+      "l":"Leapmotor B10","r":"Volvo EX90","lv":93,"rv":92,"u":"% · Euro NCAP 2025 Erwachsenenschutz","metric":"Euro-NCAP-2025-Wertung Erwachsenenschutz"
+    },
+    {
+      "game":"moreless","id":"autotech-20261022-assist-modely-ex90","semantic_key":"euroncap-2025-safety-assist-percent-modely-ex90","source_refs":["euroncap_2025_batch"],"observation_keys":["tesla-model-y-assist-2025","volvo-ex90-assist-2025"],"data_year":2025,"rounding":"Published integer percentages; no recalculation.","notes":"Same publication batch, protocol year, pillar, scale and unit.",
+      "l":"Tesla Model Y","r":"Volvo EX90","lv":92,"rv":86,"u":"% · Euro NCAP 2025 Safety Assist","metric":"Euro-NCAP-2025-Wertung Safety Assist"
+    },
+    {
+      "game":"estimate","id":"autotech-20261022-qashqai-vru","semantic_key":"euroncap-2025-qashqai-vru-percent","source_refs":["euroncap_2025_batch"],"observation_keys":["nissan-qashqai-vru-2025"],"data_year":2025,"rounding":"Published integer percentage.","notes":"Vulnerable Road User pillar in the 2025 batch.",
+      "q":"Wie viel Prozent erreichte der Nissan Qashqai 2025 bei Euro NCAP im Schutz vulnerabler Verkehrsteilnehmer?","a":65,"u":"%"
+    },
+    {
+      "game":"estimate","id":"autotech-20261022-caddy-child","semantic_key":"euroncap-2025-caddy-child-percent","source_refs":["euroncap_2025_batch"],"observation_keys":["vw-caddy-child-2025"],"data_year":2025,"rounding":"Published integer percentage.","notes":"Child Occupant Protection pillar in the 2025 batch.",
+      "q":"Wie viel Prozent erreichte der Volkswagen Caddy 2025 bei Euro NCAP im Kinderschutz?","a":80,"u":"%"
+    },
+    {
+      "game":"estimate","id":"autotech-20261022-bmw-assist","semantic_key":"euroncap-2025-bmw-2gc-assist-percent","source_refs":["euroncap_2025_batch"],"observation_keys":["bmw-2gc-assist-2025"],"data_year":2025,"rounding":"Published integer percentage.","notes":"Safety Assist pillar in the 2025 batch.",
+      "q":"Wie viel Prozent erreichte das BMW 2er Gran Coupé 2025 bei Euro NCAP im Bereich Safety Assist?","a":80,"u":"%"
+    },
+    {
+      "game":"estimate","id":"autotech-20261022-formentor-adult","semantic_key":"euroncap-2025-formentor-adult-percent","source_refs":["euroncap_2025_batch"],"observation_keys":["cupra-formentor-adult-2025"],"data_year":2025,"rounding":"Published integer percentage.","notes":"Adult Occupant Protection pillar in the 2025 batch.",
+      "q":"Wie viel Prozent erreichte der CUPRA Formentor 2025 bei Euro NCAP im Erwachsenenschutz?","a":91,"u":"%"
+    },
+    {
+      "game":"facts","id":"autotech-20261022-lowest-pillar","semantic_key":"euroncap-through-2025-lowest-pillar-limits-stars","source_refs":["euroncap_stars"],"observation_keys":["lowest-pillar-limits-stars-2025"],"data_year":"through 2025","rounding":"Nicht numerisch.","notes":"Applies to the four-pillar method through 2025; not the revised 2026 scheme.","difficulty":"easy",
+      "s":"Bis einschließlich 2025 konnte bei Euro NCAP der schwächste Bewertungsbereich die Gesamt-Sternezahl begrenzen.","a":true,"e":"Euro NCAP erklärt, dass die Gesamtwertung bis 2025 durch die schwächste Säule begrenzt wurde."
+    },
+    {
+      "game":"facts","id":"autotech-20261022-rating-validity","semantic_key":"euroncap-rating-not-valid-indefinitely","source_refs":["euroncap_stars"],"observation_keys":["rating-valid-indefinitely"],"data_year":"current policy checked 2026","rounding":"Published upper validity period retained.","notes":"Ratings may also be reviewed after a facelift or significant update.","difficulty":"easy",
+      "s":"Eine Euro-NCAP-Sicherheitswertung bleibt unabhängig von späteren Protokolländerungen unbegrenzt gültig.","a":false,"e":"Euro NCAP nennt eine Gültigkeit von bis zu sechs Jahren; Standards und Protokolle entwickeln sich weiter."
+    },
+    {
+      "game":"facts","id":"autotech-20261022-gvt","semantic_key":"global-vehicle-target-inflatable-replica","source_refs":["euroncap_glossary"],"observation_keys":["gvt-inflatable-replica"],"data_year":"current glossary checked 2026","rounding":"Nicht numerisch.","notes":"Definition only; no protocol threshold inferred.","difficulty":"medium",
+      "s":"Der Global Vehicle Target ist bei Euro NCAP ein aufblasbares Auto-Replikat für AEB-Tests.","a":true,"e":"Das Euro-NCAP-Glossar beschreibt den GVT als aufblasbares Fahrzeug-Replikat."
+    },
+    {
+      "game":"facts","id":"autotech-20261022-ecall-data","semantic_key":"ecall-transmits-voice-and-minimum-data","source_refs":["eu_ecall"],"observation_keys":["ecall-voice-only"],"data_year":"EU requirements current 2026","rounding":"Nicht numerisch.","notes":"112-based eCall only; third-party services excluded.","difficulty":"medium",
+      "s":"Beim 112-eCall wird ausschließlich eine Sprachverbindung aufgebaut; Fahrzeug- und Positionsdaten werden nie übermittelt.","a":false,"e":"Neben der Sprachverbindung wird ein Mindestsatz an Daten wie Position, Unfallzeitpunkt und Fahrtrichtung übertragen."
+    },
+    {
+      "game":"facts","id":"autotech-20261022-esc","semantic_key":"esc-brakes-wheels-or-reduces-power","source_refs":["euroncap_glossary"],"observation_keys":["esc-individual-wheel-braking"],"data_year":"current glossary checked 2026","rounding":"Nicht numerisch.","notes":"Consumer-facing functional definition.","difficulty":"hard",
+      "s":"ESC kann beim erkannten Kontrollverlust einzelne Räder abbremsen oder die Motorleistung reduzieren.","a":true,"e":"Genau diese beiden Eingriffe nennt Euro NCAP für die elektronische Stabilitätskontrolle."
+    },
+    {
+      "game":"facts","id":"autotech-20261022-isofix-isize","semantic_key":"not-every-isofix-seat-meets-isize","source_refs":["euroncap_glossary"],"observation_keys":["every-isofix-is-isize"],"data_year":"current glossary checked 2026","rounding":"Nicht numerisch.","notes":"Distinguishes the attachment system from the later child-seat standard.","difficulty":"hard",
+      "s":"Jeder Kindersitz mit ISOFIX-Befestigung erfüllt automatisch auch den i-Size-Standard.","a":false,"e":"Alle i-Size-Sitze nutzen ISOFIX, aber nicht jeder gewöhnliche ISOFIX-Sitz erfüllt i-Size."
+    },
+    {
+      "game":"jeopardy","id":"autotech-20261022-attention-assist","semantic_key":"attention-assist-definition","source_refs":["euroncap_glossary"],"observation_keys":["attention-assist-term"],"data_year":"current glossary checked 2026","rounding":"Nicht numerisch.","notes":"English Euro NCAP term; German descriptive answer accepted.","difficulty":1,
+      "q":"Wie nennt Euro NCAP ein System, das Fahrverhalten auf Müdigkeitsanzeichen beobachtet und an eine Pause erinnert?","a":"Attention Assist|Aufmerksamkeitsassistent|Müdigkeitswarner|Muedigkeitswarner"
+    },
+    {
+      "game":"jeopardy","id":"autotech-20261022-load-limiter","semantic_key":"belt-load-limiter-definition","source_refs":["euroncap_glossary"],"observation_keys":["belt-load-limiter-term"],"data_year":"current glossary checked 2026","rounding":"Nicht numerisch.","notes":"Seatbelt component, not the pretensioner.","difficulty":2,
+      "q":"Welches Gurtbauteil lässt den Sicherheitsgurt ab einer bestimmten Kraft etwas nach, um die Brustbelastung zu verringern?","a":"Gurtkraftbegrenzer|Belt load limiter|Kraftbegrenzer"
+    },
+    {
+      "game":"jeopardy","id":"autotech-20261022-pretensioner","semantic_key":"belt-pretensioner-definition","source_refs":["euroncap_glossary"],"observation_keys":["belt-pretensioner-term"],"data_year":"current glossary checked 2026","rounding":"Nicht numerisch.","notes":"Seatbelt component, not the load limiter.","difficulty":2,
+      "q":"Welches Gurtbauteil strafft den Sicherheitsgurt unmittelbar zu Beginn eines Unfalls?","a":"Gurtstraffer|Belt pretensioner|Gurtvorspanner"
+    },
+    {
+      "game":"jeopardy","id":"autotech-20261022-cpd","semantic_key":"child-presence-detection-definition","source_refs":["euroncap_glossary"],"observation_keys":["cpd-term"],"data_year":"current glossary checked 2026","rounding":"Nicht numerisch.","notes":"System term, not a claim that every implementation opens doors or starts cooling.","difficulty":3,
+      "q":"Wie heißt das System, das erkennen und warnen kann, wenn ein Kind im Fahrzeug zurückbleibt?","a":"Child Presence Detection|CPD|Kinderanwesenheitserkennung"
+    },
+    {
+      "game":"jeopardy","id":"autotech-20261022-cut-out","semantic_key":"cut-out-scenario-definition","source_refs":["euroncap_glossary"],"observation_keys":["cut-out-scenario-term"],"data_year":"current glossary checked 2026","rounding":"Nicht numerisch.","notes":"Driver-assistance test scenario definition.","difficulty":3,
+      "q":"Wie heißt das Assistenztest-Szenario, bei dem das vorausfahrende Auto plötzlich ausweicht und ein stehendes Fahrzeug freigibt?","a":"Cut-out-Szenario|Cut-out scenario|Cut-out"
+    },
+    {
+      "game":"jeopardy","id":"autotech-20261022-elk","semantic_key":"emergency-lane-keeping-definition","source_refs":["euroncap_glossary"],"observation_keys":["elk-term"],"data_year":"current glossary checked 2026","rounding":"Nicht numerisch.","notes":"Critical intervention distinguished from ordinary LKA.","difficulty":4,
+      "q":"Welche Lane-Support-Funktion greift in kritischen Situationen aggressiver ein als gewöhnlicher Lane Keep Assist?","a":"Emergency Lane Keeping|ELK|Notfall-Spurhalteassistent"
+    },
+    {
+      "game":"jeopardy","id":"autotech-20261022-kerb-weight","semantic_key":"kerb-weight-definition","source_refs":["euroncap_glossary"],"observation_keys":["kerb-weight-term"],"data_year":"current glossary checked 2026","rounding":"Nicht numerisch.","notes":"Includes standard equipment and required operating fluids but no passengers.","difficulty":4,
+      "q":"Wie heißt die Fahrzeugmasse ohne Passagiere, aber mit Standardausstattung und nötigen Betriebsflüssigkeiten?","a":"Leergewicht|Kerb weight|Leermasse"
+    },
+    {
+      "game":"jeopardy","id":"autotech-20261022-dual-rating","semantic_key":"euroncap-dual-rating-definition","source_refs":["euroncap_glossary"],"observation_keys":["dual-rating-term"],"data_year":"introduced 2016; glossary checked 2026","rounding":"Nicht numerisch.","notes":"Base rating plus optional standalone safety-pack rating.","difficulty":5,
+      "q":"Wie nennt Euro NCAP die parallele Basis- und Safety-Pack-Wertung eines Fahrzeugmodells?","a":"Dual rating|Doppelbewertung|Dual-Rating"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "euroncap_2025_batch": {
+    "name": "Euro NCAP announces test results for 23 new cars",
+    "url": "https://news.euroncap.com/safercars/euro-ncap-announces-test-results-for-23-new-cars/s/c4c236e3-3a8b-4079-8d5f-93c2a02a4ddd",
+    "authority": "official-independent-testing-body",
+    "checked": "2026-10-22",
+    "data_year": "2025; release 2025-11-19",
+    "limits": "All compared percentages come from the same published 2025 batch and the same four-pillar rating scheme. Scores from other test years are not mixed."
+  },
+  "euroncap_stars": {
+    "name": "Euro NCAP – The stars explained",
+    "url": "https://www.euroncap.com/how-to-read-the-stars/",
+    "authority": "official-independent-testing-body",
+    "checked": "2026-10-22",
+    "data_year": "methodology through 2025; page checked 2026",
+    "limits": "Methodology statements explicitly refer to the assessment areas used up to 2025; Euro NCAP introduced a revised scheme in 2026."
+  },
+  "euroncap_glossary": {
+    "name": "Euro NCAP – Glossary",
+    "url": "https://www.euroncap.com/glossary/",
+    "authority": "official-independent-testing-body",
+    "checked": "2026-10-22",
+    "data_year": "current glossary checked 2026",
+    "limits": "Definitions are consumer-facing summaries. Protocol details and thresholds are intentionally not inferred from them."
+  },
+  "eu_ecall": {
+    "name": "Your Europe – eCall 112",
+    "url": "https://europa.eu/youreurope/citizens/travel/security-and-emergencies/emergency-assistance-vehicles-ecall/index_de.htm",
+    "authority": "government-primary",
+    "checked": "2026-10-22",
+    "data_year": "EU requirements current on check date 2026",
+    "limits": "The question uses only the described voice and minimum-data connection; third-party eCall services are excluded."
+  }
+}

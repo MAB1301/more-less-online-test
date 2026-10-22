@@ -1,0 +1,46 @@
+{
+  "checked": "2026-10-22",
+  "target": {
+    "category": "Autotechnik",
+    "main_before": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 26,
+      "total": 26
+    },
+    "open_drafts_unique": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 0,
+      "total": 0
+    },
+    "before_including_open_drafts": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 26,
+      "total": 26
+    },
+    "this_draft": {
+      "moreless": 2,
+      "estimate": 4,
+      "facts": 6,
+      "jeopardy": 8,
+      "total": 20
+    },
+    "after_including_open_drafts": {
+      "moreless": 2,
+      "estimate": 4,
+      "facts": 6,
+      "jeopardy": 34,
+      "total": 46
+    }
+  },
+  "all_selectable_category_labels": 34,
+  "categories_completed_this_run": 1,
+  "other_category_labels_without_this_run_additions": 33,
+  "formal_missing_questions_against_20_per_category_run_target": 660,
+  "notes": "No open PR adds an exact Autotechnik category identity. The recurring work continues after a category reaches 100."
+}

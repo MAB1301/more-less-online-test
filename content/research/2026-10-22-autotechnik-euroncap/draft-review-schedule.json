@@ -1,0 +1,225 @@
+{
+  "policy": "Euro-NCAP-2025-Ergebnisse und veränderliche Regeln: 90 Tage; technische Begriffe: 365 Tage; keine automatische Veröffentlichung.",
+  "records": [
+    {
+      "id": "autotech-20261022-adult-b10-ex90",
+      "game": "moreless",
+      "source": "https://news.euroncap.com/safercars/euro-ncap-announces-test-results-for-23-new-cars/s/c4c236e3-3a8b-4079-8d5f-93c2a02a4ddd",
+      "verified": "2026-10-22",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "autotech-20261022-assist-modely-ex90",
+      "game": "moreless",
+      "source": "https://news.euroncap.com/safercars/euro-ncap-announces-test-results-for-23-new-cars/s/c4c236e3-3a8b-4079-8d5f-93c2a02a4ddd",
+      "verified": "2026-10-22",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "autotech-20261022-qashqai-vru",
+      "game": "estimate",
+      "source": "https://news.euroncap.com/safercars/euro-ncap-announces-test-results-for-23-new-cars/s/c4c236e3-3a8b-4079-8d5f-93c2a02a4ddd",
+      "verified": "2026-10-22",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "autotech-20261022-caddy-child",
+      "game": "estimate",
+      "source": "https://news.euroncap.com/safercars/euro-ncap-announces-test-results-for-23-new-cars/s/c4c236e3-3a8b-4079-8d5f-93c2a02a4ddd",
+      "verified": "2026-10-22",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "autotech-20261022-bmw-assist",
+      "game": "estimate",
+      "source": "https://news.euroncap.com/safercars/euro-ncap-announces-test-results-for-23-new-cars/s/c4c236e3-3a8b-4079-8d5f-93c2a02a4ddd",
+      "verified": "2026-10-22",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "autotech-20261022-formentor-adult",
+      "game": "estimate",
+      "source": "https://news.euroncap.com/safercars/euro-ncap-announces-test-results-for-23-new-cars/s/c4c236e3-3a8b-4079-8d5f-93c2a02a4ddd",
+      "verified": "2026-10-22",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "autotech-20261022-lowest-pillar",
+      "game": "facts",
+      "source": "https://www.euroncap.com/how-to-read-the-stars/",
+      "verified": "2026-10-22",
+      "data_year": "through 2025",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "autotech-20261022-rating-validity",
+      "game": "facts",
+      "source": "https://www.euroncap.com/how-to-read-the-stars/",
+      "verified": "2026-10-22",
+      "data_year": "current policy checked 2026",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "autotech-20261022-gvt",
+      "game": "facts",
+      "source": "https://www.euroncap.com/glossary/",
+      "verified": "2026-10-22",
+      "data_year": "current glossary checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-22",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "autotech-20261022-ecall-data",
+      "game": "facts",
+      "source": "https://europa.eu/youreurope/citizens/travel/security-and-emergencies/emergency-assistance-vehicles-ecall/index_de.htm",
+      "verified": "2026-10-22",
+      "data_year": "EU requirements current 2026",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-20",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "autotech-20261022-esc",
+      "game": "facts",
+      "source": "https://www.euroncap.com/glossary/",
+      "verified": "2026-10-22",
+      "data_year": "current glossary checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-22",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "autotech-20261022-isofix-isize",
+      "game": "facts",
+      "source": "https://www.euroncap.com/glossary/",
+      "verified": "2026-10-22",
+      "data_year": "current glossary checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-22",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "autotech-20261022-attention-assist",
+      "game": "jeopardy",
+      "source": "https://www.euroncap.com/glossary/",
+      "verified": "2026-10-22",
+      "data_year": "current glossary checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-22",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "autotech-20261022-load-limiter",
+      "game": "jeopardy",
+      "source": "https://www.euroncap.com/glossary/",
+      "verified": "2026-10-22",
+      "data_year": "current glossary checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-22",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "autotech-20261022-pretensioner",
+      "game": "jeopardy",
+      "source": "https://www.euroncap.com/glossary/",
+      "verified": "2026-10-22",
+      "data_year": "current glossary checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-22",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "autotech-20261022-cpd",
+      "game": "jeopardy",
+      "source": "https://www.euroncap.com/glossary/",
+      "verified": "2026-10-22",
+      "data_year": "current glossary checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-22",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "autotech-20261022-cut-out",
+      "game": "jeopardy",
+      "source": "https://www.euroncap.com/glossary/",
+      "verified": "2026-10-22",
+      "data_year": "current glossary checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-22",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "autotech-20261022-elk",
+      "game": "jeopardy",
+      "source": "https://www.euroncap.com/glossary/",
+      "verified": "2026-10-22",
+      "data_year": "current glossary checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-22",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "autotech-20261022-kerb-weight",
+      "game": "jeopardy",
+      "source": "https://www.euroncap.com/glossary/",
+      "verified": "2026-10-22",
+      "data_year": "current glossary checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-22",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "autotech-20261022-dual-rating",
+      "game": "jeopardy",
+      "source": "https://www.euroncap.com/glossary/",
+      "verified": "2026-10-22",
+      "data_year": "introduced 2016; glossary checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-22",
+      "review_status": "draft-review-required"
+    }
+  ]
+}

@@ -18,3 +18,7 @@ jobs:
       - name: Static game regression checks
         run: |
           node scripts/regression-check.mjs
+      - name: Autotechnik Euro NCAP draft checks
+        run: |
+          python3 scripts/build-autotechnik-euroncap-draft-20261022.py --check
+          node scripts/check-autotechnik-euroncap-draft-20261022.mjs
