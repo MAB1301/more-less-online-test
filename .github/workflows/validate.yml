@@ -18,3 +18,5 @@ jobs:
       - name: Static game regression checks
         run: |
           node scripts/regression-check.mjs
+          python3 scripts/build-star-wars-films-draft-20261023.py --check
+          node scripts/check-star-wars-films-draft-20261023.mjs
