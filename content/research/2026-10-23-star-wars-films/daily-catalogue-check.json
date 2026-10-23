@@ -1,0 +1,25 @@
+{
+  "checked": "2026-10-23",
+  "project": "rnwsbgzdrttqtivrwnxo",
+  "account": "Marc",
+  "table": "ml_private.daily_catalogue",
+  "mode": "read-only",
+  "rows_total": 7187,
+  "broad_matches": 0,
+  "observation_conflicts": 0,
+  "scope": [
+    "Star Wars",
+    "Skywalker",
+    "Rogue One",
+    "Solo",
+    "A New Hope",
+    "Empire Strikes Back",
+    "Return of the Jedi",
+    "Force Awakens",
+    "Last Jedi",
+    "Phantom Menace",
+    "Attack of the Clones",
+    "Revenge of the Sith"
+  ],
+  "notes": "The catalogue was queried read-only with franchise and film-title terms. No broad hit and no conflict with the 22 proposed observations was returned."
+}

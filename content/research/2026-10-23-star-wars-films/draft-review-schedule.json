@@ -1,0 +1,225 @@
+{
+  "policy": "Stabile Filmcredits, Erscheinungsjahre und gebundene Plattformanzeige: 365 Tage; keine automatische Veröffentlichung.",
+  "records": [
+    {
+      "id": "starwars-20261023-runtime-iv-v",
+      "game": "moreless",
+      "source": "https://www.disneyplus.com/browse/entity-9a280e53-fcc0-4e17-a02c-b1f40913eb0b",
+      "verified": "2026-10-23",
+      "data_year": "1977/1980 releases; pages checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "starwars-20261023-runtime-rogue-vi",
+      "game": "moreless",
+      "source": "https://www.disneyplus.com/browse/entity-5ec74210-f970-42b7-a39f-8653c0a9eab8",
+      "verified": "2026-10-23",
+      "data_year": "1983/2016 releases; pages checked 2026",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "starwars-20261023-phantom-runtime",
+      "game": "estimate",
+      "source": "https://www.disneyplus.com/browse/entity-e0a9fee4-2959-4077-ad8c-8fab4fd6e4d1",
+      "verified": "2026-10-23",
+      "data_year": 1999,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "starwars-20261023-attack-runtime",
+      "game": "estimate",
+      "source": "https://www.disneyplus.com/en-de/browse/entity-39cbdf17-1bbe-4de2-b4a4-8e342875c2c6",
+      "verified": "2026-10-23",
+      "data_year": 2002,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "starwars-20261023-revenge-runtime",
+      "game": "estimate",
+      "source": "https://www.disneyplus.com/browse/entity-eb1e2c5f-69bf-4240-a61f-7ffc4e0311b3",
+      "verified": "2026-10-23",
+      "data_year": 2005,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "starwars-20261023-last-jedi-runtime",
+      "game": "estimate",
+      "source": "https://www.disneyplus.com/browse/entity-4c622e6e-6237-44e7-9aaf-db94de0edc3b",
+      "verified": "2026-10-23",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "starwars-20261023-force-year",
+      "game": "facts",
+      "source": "https://www.disneyplus.com/en-de/browse/entity-438ec2e9-a05c-4b01-84f4-18960b363868",
+      "verified": "2026-10-23",
+      "data_year": 2015,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "starwars-20261023-last-year-false",
+      "game": "facts",
+      "source": "https://www.disneyplus.com/browse/entity-4c622e6e-6237-44e7-9aaf-db94de0edc3b",
+      "verified": "2026-10-23",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "starwars-20261023-rogue-plans",
+      "game": "facts",
+      "source": "https://www.disneyplus.com/browse/entity-5ec74210-f970-42b7-a39f-8653c0a9eab8",
+      "verified": "2026-10-23",
+      "data_year": 2016,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "starwars-20261023-solo-meeting-false",
+      "game": "facts",
+      "source": "https://www.disneyplus.com/browse/entity-791bc772-d930-40c9-83ec-5ef85923573e",
+      "verified": "2026-10-23",
+      "data_year": 2018,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "starwars-20261023-attack-clone-army",
+      "game": "facts",
+      "source": "https://www.disneyplus.com/en-de/browse/entity-39cbdf17-1bbe-4de2-b4a4-8e342875c2c6",
+      "verified": "2026-10-23",
+      "data_year": 2002,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "starwars-20261023-revenge-ally-false",
+      "game": "facts",
+      "source": "https://www.disneyplus.com/browse/entity-eb1e2c5f-69bf-4240-a61f-7ffc4e0311b3",
+      "verified": "2026-10-23",
+      "data_year": 2005,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "starwars-20261023-director-iv",
+      "game": "jeopardy",
+      "source": "https://www.disneyplus.com/browse/entity-9a280e53-fcc0-4e17-a02c-b1f40913eb0b",
+      "verified": "2026-10-23",
+      "data_year": 1977,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "starwars-20261023-director-v",
+      "game": "jeopardy",
+      "source": "https://www.disneyplus.com/browse/entity-0f5c5223-f4f6-46ef-ba8a-69cb0e17d8d3",
+      "verified": "2026-10-23",
+      "data_year": 1980,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "starwars-20261023-director-vi",
+      "game": "jeopardy",
+      "source": "https://www.disneyplus.com/browse/entity-4b6e7cda-daa5-4f2d-9b61-35bbe562c69c",
+      "verified": "2026-10-23",
+      "data_year": 1983,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "starwars-20261023-director-vii",
+      "game": "jeopardy",
+      "source": "https://www.disneyplus.com/en-de/browse/entity-438ec2e9-a05c-4b01-84f4-18960b363868",
+      "verified": "2026-10-23",
+      "data_year": 2015,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "starwars-20261023-director-viii",
+      "game": "jeopardy",
+      "source": "https://www.disneyplus.com/browse/entity-4c622e6e-6237-44e7-9aaf-db94de0edc3b",
+      "verified": "2026-10-23",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "starwars-20261023-director-rogue",
+      "game": "jeopardy",
+      "source": "https://www.disneyplus.com/browse/entity-5ec74210-f970-42b7-a39f-8653c0a9eab8",
+      "verified": "2026-10-23",
+      "data_year": 2016,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "starwars-20261023-director-solo",
+      "game": "jeopardy",
+      "source": "https://www.disneyplus.com/browse/entity-791bc772-d930-40c9-83ec-5ef85923573e",
+      "verified": "2026-10-23",
+      "data_year": 2018,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "starwars-20261023-director-ix",
+      "game": "jeopardy",
+      "source": "https://www.disneyplus.com/en-ie/browse/entity-3183e62a-47d7-4df0-9e10-6315a56a3bb7",
+      "verified": "2026-10-23",
+      "data_year": 2019,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-23",
+      "review_status": "draft-review-required"
+    }
+  ]
+}

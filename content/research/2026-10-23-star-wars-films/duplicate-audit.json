@@ -1,0 +1,24 @@
+{
+  "checked": "2026-10-23",
+  "main_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "main_question_identities": 1938,
+  "open_question_identities_considered": 1100,
+  "this_draft": 20,
+  "exact_prompt_conflicts": [],
+  "reversed_moreless_conflicts": [],
+  "same_observation_conflicts": [],
+  "near_semantic_conflicts": [],
+  "excluded_existing_topics": [
+    "R2-D2",
+    "C-3PO",
+    "Chewbacca species",
+    "Kyber crystals",
+    "Dagobah",
+    "Darth Vader identity",
+    "Hoth",
+    "Yoda rank",
+    "Cloud City",
+    "Endor shield generator"
+  ],
+  "method": "Normalized prompt matching; unordered More/Less pair plus metric/unit; film+field observation review against Main, all open PRs and Daily payloads."
+}
