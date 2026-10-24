@@ -1,0 +1,46 @@
+{
+  "checked": "2026-10-24",
+  "target": {
+    "category": "Science-Fiction",
+    "main_before": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 15,
+      "total": 15
+    },
+    "open_drafts_unique": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 0,
+      "total": 0
+    },
+    "before_including_open_drafts": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 15,
+      "total": 15
+    },
+    "this_draft": {
+      "moreless": 2,
+      "estimate": 4,
+      "facts": 6,
+      "jeopardy": 8,
+      "total": 20
+    },
+    "after_including_open_drafts": {
+      "moreless": 2,
+      "estimate": 4,
+      "facts": 6,
+      "jeopardy": 23,
+      "total": 35
+    }
+  },
+  "all_selectable_category_labels": 34,
+  "categories_completed_this_run": 1,
+  "other_category_labels_without_this_run_additions": 33,
+  "formal_missing_questions_against_20_per_category_run_target": 660,
+  "notes": "No open PR adds an exact Science-Fiction category identity. Existing Doctor Who and basic Original Series questions were excluded."
+}

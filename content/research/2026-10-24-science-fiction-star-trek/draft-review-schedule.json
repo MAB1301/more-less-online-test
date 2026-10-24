@@ -1,0 +1,225 @@
+{
+  "policy": "Stabile Filmjahre, Handlungsangaben und gebundene Plattformanzeigen: 365 Tage; keine automatische Veröffentlichung.",
+  "records": [
+    {
+      "id": "scifi-20261024-runtime-wrath-nemesis",
+      "game": "moreless",
+      "source": "https://www.paramountplus.com/movies/video/1DooAass83NPqUjSxIWGPKeELkwa2CXp/",
+      "verified": "2026-10-24",
+      "data_year": "1982/2002 releases",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "scifi-20261024-runtime-voyage-generations",
+      "game": "moreless",
+      "source": "https://www.paramountplus.com/movies/video/2y1Ft4fKkFM9anBA_MxIn0wSmQ54_Q21/",
+      "verified": "2026-10-24",
+      "data_year": "1986/1994 releases",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "scifi-20261024-motion-runtime",
+      "game": "estimate",
+      "source": "https://www.paramountplus.com/movies/video/7MI9dv6oQQCo733jnwnv4bT6WjSY_mBr/",
+      "verified": "2026-10-24",
+      "data_year": 1979,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "scifi-20261024-search-runtime",
+      "game": "estimate",
+      "source": "https://www.paramountplus.com/movies/video/zucLKcn6HykN8ksrBh0eBcu8hjWSTnjE/",
+      "verified": "2026-10-24",
+      "data_year": 1984,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "scifi-20261024-final-runtime",
+      "game": "estimate",
+      "source": "https://www.paramountplus.com/movies/video/u4LO96RFNGzcNzPgtHPzMd4UIcjHA29N/",
+      "verified": "2026-10-24",
+      "data_year": 1989,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "scifi-20261024-first-contact-runtime",
+      "game": "estimate",
+      "source": "https://www.paramountplus.com/movies/video/iTGmLzm3gQN57pAqWamGAFpjatqCYgs_/",
+      "verified": "2026-10-24",
+      "data_year": 1996,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "scifi-20261024-undiscovered-year",
+      "game": "facts",
+      "source": "https://www.paramountplus.com/movies/video/AtBd4BsgKlfG7fSmV_f4DK370okC98sR/",
+      "verified": "2026-10-24",
+      "data_year": 1991,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "scifi-20261024-search-year-false",
+      "game": "facts",
+      "source": "https://www.paramountplus.com/movies/video/zucLKcn6HykN8ksrBh0eBcu8hjWSTnjE/",
+      "verified": "2026-10-24",
+      "data_year": 1984,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "scifi-20261024-motion-restoration",
+      "game": "facts",
+      "source": "https://www.paramountplus.com/movies/video/7MI9dv6oQQCo733jnwnv4bT6WjSY_mBr/",
+      "verified": "2026-10-24",
+      "data_year": "Director's Edition",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "scifi-20261024-final-runtime-false",
+      "game": "facts",
+      "source": "https://www.paramountplus.com/movies/video/u4LO96RFNGzcNzPgtHPzMd4UIcjHA29N/",
+      "verified": "2026-10-24",
+      "data_year": 1989,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "scifi-20261024-wrath-khan",
+      "game": "facts",
+      "source": "https://www.paramountplus.com/movies/video/1DooAass83NPqUjSxIWGPKeELkwa2CXp/",
+      "verified": "2026-10-24",
+      "data_year": 1982,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "scifi-20261024-insurrection-year-false",
+      "game": "facts",
+      "source": "https://www.paramountplus.com/movies/video/z4QF94bldMkQpyafpHziL4xOiWoOwJvk/",
+      "verified": "2026-10-24",
+      "data_year": 1998,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "scifi-20261024-film-nexus",
+      "game": "jeopardy",
+      "source": "https://www.paramountplus.com/movies/video/qktISmdbebHu7qB2qtzhg3fNsrL16PXi/",
+      "verified": "2026-10-24",
+      "data_year": 1994,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "scifi-20261024-film-borg",
+      "game": "jeopardy",
+      "source": "https://www.paramountplus.com/movies/video/iTGmLzm3gQN57pAqWamGAFpjatqCYgs_/",
+      "verified": "2026-10-24",
+      "data_year": 1996,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "scifi-20261024-film-picard-link",
+      "game": "jeopardy",
+      "source": "https://www.paramountplus.com/movies/video/dIV3Megz6HcabSKkdmmdXpNy4l7dOpwk/",
+      "verified": "2026-10-24",
+      "data_year": 2002,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "scifi-20261024-film-maiden-voyage",
+      "game": "jeopardy",
+      "source": "https://www.paramountplus.com/movies/video/aotpJ4rkRqtrqIITSdgM5SnOOzQhg9k9/",
+      "verified": "2026-10-24",
+      "data_year": 2009,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "scifi-20261024-film-khan-war",
+      "game": "jeopardy",
+      "source": "https://www.paramountplus.com/movies/video/f9_5tSlLxQrgUdfrJekgeJdNnJLZBpuD/",
+      "verified": "2026-10-24",
+      "data_year": 2013,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "scifi-20261024-film-krall",
+      "game": "jeopardy",
+      "source": "https://www.paramountplus.com/movies/video/PP_Z07j49bpd8gFCkl1RlPoniqf1UTAb/",
+      "verified": "2026-10-24",
+      "data_year": 2016,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "scifi-20261024-film-san-francisco",
+      "game": "jeopardy",
+      "source": "https://www.paramountplus.com/movies/video/2y1Ft4fKkFM9anBA_MxIn0wSmQ54_Q21/",
+      "verified": "2026-10-24",
+      "data_year": 1986,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "scifi-20261024-film-sarek",
+      "game": "jeopardy",
+      "source": "https://www.paramountplus.com/movies/video/zucLKcn6HykN8ksrBh0eBcu8hjWSTnjE/",
+      "verified": "2026-10-24",
+      "data_year": 1984,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-24",
+      "review_status": "draft-review-required"
+    }
+  ]
+}

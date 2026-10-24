@@ -1,0 +1,27 @@
+{
+  "checked": "2026-10-24",
+  "project": "rnwsbgzdrttqtivrwnxo",
+  "account": "Marc",
+  "table": "ml_private.daily_catalogue",
+  "mode": "read-only",
+  "rows_total": 7187,
+  "broad_matches": 0,
+  "observation_conflicts": 0,
+  "scope": [
+    "Star Trek",
+    "Wrath of Khan",
+    "Search for Spock",
+    "Voyage Home",
+    "Final Frontier",
+    "Undiscovered Country",
+    "Generations",
+    "First Contact",
+    "Insurrection",
+    "Nemesis",
+    "Into Darkness",
+    "Beyond",
+    "Nexus",
+    "Krall"
+  ],
+  "notes": "Read-only title and plot-term query returned no broad hit and no conflict with the 22 proposed observations."
+}

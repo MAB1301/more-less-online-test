@@ -1,0 +1,25 @@
+{
+  "checked": "2026-10-24",
+  "main_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "main_question_identities": 1938,
+  "open_question_identities_considered": 1120,
+  "this_draft": 20,
+  "exact_prompt_conflicts": [],
+  "reversed_moreless_conflicts": [],
+  "same_observation_conflicts": [],
+  "near_semantic_conflicts": [],
+  "excluded_existing_topics": [
+    "Gallifrey",
+    "Time Lord hearts",
+    "regeneration",
+    "TARDIS",
+    "Daleks",
+    "Sarek identity",
+    "Kirk",
+    "Spock heritage",
+    "McCoy role",
+    "NCC-1701",
+    "Vulcan salute"
+  ],
+  "method": "Normalized prompt matching; unordered More/Less pair plus metric/unit; film+field observation review against Main, all open PRs and Daily payloads."
+}
