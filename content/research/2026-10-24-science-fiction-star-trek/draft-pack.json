@@ -1,0 +1,678 @@
+{
+  "status": "review-only",
+  "verified": "2026-10-24",
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "images": {
+    "deep-space-neutral": {
+      "card": "visuals/deep-space-neutral-card.svg",
+      "detail": "visuals/deep-space-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstrakte Tiefenraum-Szene mit neutralem Forschungsschiff und Portal, ohne Figuren, Titel, Namen, Zahlen oder Lösungen."
+    },
+    "Star Trek II: The Wrath of Khan": {
+      "card": "visuals/deep-space-neutral-card.svg",
+      "detail": "visuals/deep-space-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstrakte Tiefenraum-Szene mit neutralem Forschungsschiff und Portal, ohne Figuren, Titel, Namen, Zahlen oder Lösungen."
+    },
+    "Star Trek: Nemesis": {
+      "card": "visuals/deep-space-neutral-card.svg",
+      "detail": "visuals/deep-space-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstrakte Tiefenraum-Szene mit neutralem Forschungsschiff und Portal, ohne Figuren, Titel, Namen, Zahlen oder Lösungen."
+    },
+    "Star Trek IV: The Voyage Home": {
+      "card": "visuals/deep-space-neutral-card.svg",
+      "detail": "visuals/deep-space-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstrakte Tiefenraum-Szene mit neutralem Forschungsschiff und Portal, ohne Figuren, Titel, Namen, Zahlen oder Lösungen."
+    },
+    "Star Trek: Generations": {
+      "card": "visuals/deep-space-neutral-card.svg",
+      "detail": "visuals/deep-space-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstrakte Tiefenraum-Szene mit neutralem Forschungsschiff und Portal, ohne Figuren, Titel, Namen, Zahlen oder Lösungen."
+    }
+  },
+  "moreless": [
+    {
+      "id": "scifi-20261024-runtime-wrath-nemesis",
+      "semantic_key": "paramount-runtime-wrath-nemesis",
+      "source_refs": [
+        "wrath",
+        "nemesis"
+      ],
+      "observation_keys": [
+        "wrath-runtime",
+        "nemesis-runtime"
+      ],
+      "data_year": "1982/2002 releases",
+      "rounding": "Hour/minute display converted exactly to whole minutes.",
+      "notes": "Same Paramount+ field and unit.",
+      "l": "Star Trek II: The Wrath of Khan",
+      "r": "Star Trek: Nemesis",
+      "lv": 113,
+      "rv": 116,
+      "u": "Minuten · Paramount+-Anzeige",
+      "metric": "Angezeigte Filmlaufzeit auf Paramount+",
+      "cat": "Science-Fiction",
+      "subcategory": "Star-Trek-Filme · Laufzeit & Handlung",
+      "status": "draft",
+      "verified": "2026-10-24",
+      "source": "https://www.paramountplus.com/movies/video/1DooAass83NPqUjSxIWGPKeELkwa2CXp/",
+      "sources": [
+        "https://www.paramountplus.com/movies/video/1DooAass83NPqUjSxIWGPKeELkwa2CXp/",
+        "https://www.paramountplus.com/movies/video/dIV3Megz6HcabSKkdmmdXpNy4l7dOpwk/"
+      ],
+      "sets": [
+        "Science-Fiction · Star Trek im Kino"
+      ],
+      "data_year_note": "Filmjahr laut Paramount+; Laufzeit exakt an die zitierte Paramount+-Anzeige gebunden. Jährliche Prüfung.",
+      "visual": "deep-space-neutral",
+      "subject": "deep-space-neutral"
+    },
+    {
+      "id": "scifi-20261024-runtime-voyage-generations",
+      "semantic_key": "paramount-runtime-voyage-generations",
+      "source_refs": [
+        "voyage",
+        "generations"
+      ],
+      "observation_keys": [
+        "voyage-runtime",
+        "generations-runtime"
+      ],
+      "data_year": "1986/1994 releases",
+      "rounding": "Hour/minute display converted exactly to whole minutes.",
+      "notes": "Same Paramount+ field and unit.",
+      "l": "Star Trek IV: The Voyage Home",
+      "r": "Star Trek: Generations",
+      "lv": 118,
+      "rv": 117,
+      "u": "Minuten · Paramount+-Anzeige",
+      "metric": "Angezeigte Filmlaufzeit auf Paramount+",
+      "cat": "Science-Fiction",
+      "subcategory": "Star-Trek-Filme · Laufzeit & Handlung",
+      "status": "draft",
+      "verified": "2026-10-24",
+      "source": "https://www.paramountplus.com/movies/video/2y1Ft4fKkFM9anBA_MxIn0wSmQ54_Q21/",
+      "sources": [
+        "https://www.paramountplus.com/movies/video/2y1Ft4fKkFM9anBA_MxIn0wSmQ54_Q21/",
+        "https://www.paramountplus.com/movies/video/qktISmdbebHu7qB2qtzhg3fNsrL16PXi/"
+      ],
+      "sets": [
+        "Science-Fiction · Star Trek im Kino"
+      ],
+      "data_year_note": "Filmjahr laut Paramount+; Laufzeit exakt an die zitierte Paramount+-Anzeige gebunden. Jährliche Prüfung.",
+      "visual": "deep-space-neutral",
+      "subject": "deep-space-neutral"
+    }
+  ],
+  "estimate": [
+    {
+      "id": "scifi-20261024-motion-runtime",
+      "semantic_key": "paramount-motion-directors-edition-runtime",
+      "source_refs": [
+        "motion"
+      ],
+      "observation_keys": [
+        "motion-runtime"
+      ],
+      "data_year": 1979,
+      "rounding": "2H 16M converted to 136 whole minutes.",
+      "notes": "Director's Edition, not the theatrical cut.",
+      "q": "Wie viele Minuten Laufzeit zeigt Paramount+ für Star Trek: The Motion Picture – The Director’s Edition an?",
+      "a": 136,
+      "u": "Minuten",
+      "cat": "Science-Fiction",
+      "subcategory": "Star-Trek-Filme · Laufzeit & Handlung",
+      "status": "draft",
+      "verified": "2026-10-24",
+      "source": "https://www.paramountplus.com/movies/video/7MI9dv6oQQCo733jnwnv4bT6WjSY_mBr/",
+      "sources": [
+        "https://www.paramountplus.com/movies/video/7MI9dv6oQQCo733jnwnv4bT6WjSY_mBr/"
+      ],
+      "sets": [
+        "Science-Fiction · Star Trek im Kino"
+      ],
+      "data_year_note": "Filmjahr laut Paramount+; Laufzeit exakt an die zitierte Paramount+-Anzeige gebunden. Jährliche Prüfung.",
+      "visual": "deep-space-neutral",
+      "subject": "deep-space-neutral"
+    },
+    {
+      "id": "scifi-20261024-search-runtime",
+      "semantic_key": "paramount-search-spock-runtime",
+      "source_refs": [
+        "search"
+      ],
+      "observation_keys": [
+        "search-runtime"
+      ],
+      "data_year": 1984,
+      "rounding": "1H 45M converted to 105 whole minutes.",
+      "notes": "Exact displayed duration.",
+      "q": "Wie viele Minuten Laufzeit zeigt Paramount+ für Star Trek III: The Search for Spock an?",
+      "a": 105,
+      "u": "Minuten",
+      "cat": "Science-Fiction",
+      "subcategory": "Star-Trek-Filme · Laufzeit & Handlung",
+      "status": "draft",
+      "verified": "2026-10-24",
+      "source": "https://www.paramountplus.com/movies/video/zucLKcn6HykN8ksrBh0eBcu8hjWSTnjE/",
+      "sources": [
+        "https://www.paramountplus.com/movies/video/zucLKcn6HykN8ksrBh0eBcu8hjWSTnjE/"
+      ],
+      "sets": [
+        "Science-Fiction · Star Trek im Kino"
+      ],
+      "data_year_note": "Filmjahr laut Paramount+; Laufzeit exakt an die zitierte Paramount+-Anzeige gebunden. Jährliche Prüfung.",
+      "visual": "deep-space-neutral",
+      "subject": "deep-space-neutral"
+    },
+    {
+      "id": "scifi-20261024-final-runtime",
+      "semantic_key": "paramount-final-frontier-runtime-estimate",
+      "source_refs": [
+        "final"
+      ],
+      "observation_keys": [
+        "final-runtime"
+      ],
+      "data_year": 1989,
+      "rounding": "1H 46M converted to 106 whole minutes.",
+      "notes": "Exact displayed duration.",
+      "q": "Wie viele Minuten Laufzeit zeigt Paramount+ für Star Trek V: The Final Frontier an?",
+      "a": 106,
+      "u": "Minuten",
+      "cat": "Science-Fiction",
+      "subcategory": "Star-Trek-Filme · Laufzeit & Handlung",
+      "status": "draft",
+      "verified": "2026-10-24",
+      "source": "https://www.paramountplus.com/movies/video/u4LO96RFNGzcNzPgtHPzMd4UIcjHA29N/",
+      "sources": [
+        "https://www.paramountplus.com/movies/video/u4LO96RFNGzcNzPgtHPzMd4UIcjHA29N/"
+      ],
+      "sets": [
+        "Science-Fiction · Star Trek im Kino"
+      ],
+      "data_year_note": "Filmjahr laut Paramount+; Laufzeit exakt an die zitierte Paramount+-Anzeige gebunden. Jährliche Prüfung.",
+      "visual": "deep-space-neutral",
+      "subject": "deep-space-neutral"
+    },
+    {
+      "id": "scifi-20261024-first-contact-runtime",
+      "semantic_key": "paramount-first-contact-runtime",
+      "source_refs": [
+        "first_contact"
+      ],
+      "observation_keys": [
+        "first-contact-runtime"
+      ],
+      "data_year": 1996,
+      "rounding": "1H 50M converted to 110 whole minutes.",
+      "notes": "Exact displayed duration.",
+      "q": "Wie viele Minuten Laufzeit zeigt Paramount+ für Star Trek: First Contact an?",
+      "a": 110,
+      "u": "Minuten",
+      "cat": "Science-Fiction",
+      "subcategory": "Star-Trek-Filme · Laufzeit & Handlung",
+      "status": "draft",
+      "verified": "2026-10-24",
+      "source": "https://www.paramountplus.com/movies/video/iTGmLzm3gQN57pAqWamGAFpjatqCYgs_/",
+      "sources": [
+        "https://www.paramountplus.com/movies/video/iTGmLzm3gQN57pAqWamGAFpjatqCYgs_/"
+      ],
+      "sets": [
+        "Science-Fiction · Star Trek im Kino"
+      ],
+      "data_year_note": "Filmjahr laut Paramount+; Laufzeit exakt an die zitierte Paramount+-Anzeige gebunden. Jährliche Prüfung.",
+      "visual": "deep-space-neutral",
+      "subject": "deep-space-neutral"
+    }
+  ],
+  "facts": [
+    {
+      "id": "scifi-20261024-undiscovered-year",
+      "semantic_key": "undiscovered-country-release-1991",
+      "source_refs": [
+        "undiscovered"
+      ],
+      "observation_keys": [
+        "undiscovered-release"
+      ],
+      "data_year": 1991,
+      "rounding": "Published year.",
+      "notes": "Official platform field.",
+      "difficulty": "easy",
+      "s": "Paramount+ führt Star Trek VI: The Undiscovered Country mit dem Erscheinungsjahr 1991.",
+      "a": true,
+      "e": "Auf der Paramount+-Seite steht 1991.",
+      "cat": "Science-Fiction",
+      "subcategory": "Star-Trek-Filme · Laufzeit & Handlung",
+      "status": "draft",
+      "verified": "2026-10-24",
+      "source": "https://www.paramountplus.com/movies/video/AtBd4BsgKlfG7fSmV_f4DK370okC98sR/",
+      "sources": [
+        "https://www.paramountplus.com/movies/video/AtBd4BsgKlfG7fSmV_f4DK370okC98sR/"
+      ],
+      "sets": [
+        "Science-Fiction · Star Trek im Kino"
+      ],
+      "data_year_note": "Filmjahr laut Paramount+; Laufzeit exakt an die zitierte Paramount+-Anzeige gebunden. Jährliche Prüfung.",
+      "visual": "deep-space-neutral",
+      "subject": "deep-space-neutral"
+    },
+    {
+      "id": "scifi-20261024-search-year-false",
+      "semantic_key": "search-spock-not-1986",
+      "source_refs": [
+        "search"
+      ],
+      "observation_keys": [
+        "search-release"
+      ],
+      "data_year": 1984,
+      "rounding": "Published year.",
+      "notes": "False statement contrasts official 1984 field.",
+      "difficulty": "easy",
+      "s": "Paramount+ führt Star Trek III: The Search for Spock mit dem Erscheinungsjahr 1986.",
+      "a": false,
+      "e": "Die Plattform nennt 1984.",
+      "cat": "Science-Fiction",
+      "subcategory": "Star-Trek-Filme · Laufzeit & Handlung",
+      "status": "draft",
+      "verified": "2026-10-24",
+      "source": "https://www.paramountplus.com/movies/video/zucLKcn6HykN8ksrBh0eBcu8hjWSTnjE/",
+      "sources": [
+        "https://www.paramountplus.com/movies/video/zucLKcn6HykN8ksrBh0eBcu8hjWSTnjE/"
+      ],
+      "sets": [
+        "Science-Fiction · Star Trek im Kino"
+      ],
+      "data_year_note": "Filmjahr laut Paramount+; Laufzeit exakt an die zitierte Paramount+-Anzeige gebunden. Jährliche Prüfung.",
+      "visual": "deep-space-neutral",
+      "subject": "deep-space-neutral"
+    },
+    {
+      "id": "scifi-20261024-motion-restoration",
+      "semantic_key": "motion-directors-edition-restored-effects-sound",
+      "source_refs": [
+        "motion"
+      ],
+      "observation_keys": [
+        "motion-restoration"
+      ],
+      "data_year": "Director's Edition",
+      "rounding": "Non-numeric edition fact.",
+      "notes": "Official description only.",
+      "difficulty": "medium",
+      "s": "Die Paramount+-Beschreibung der Director’s Edition nennt verbesserte visuelle Effekte und eine neue Tonmischung unter Aufsicht von Robert Wise.",
+      "a": true,
+      "e": "Beide Restaurierungsmerkmale und Robert Wise werden dort ausdrücklich genannt.",
+      "cat": "Science-Fiction",
+      "subcategory": "Star-Trek-Filme · Laufzeit & Handlung",
+      "status": "draft",
+      "verified": "2026-10-24",
+      "source": "https://www.paramountplus.com/movies/video/7MI9dv6oQQCo733jnwnv4bT6WjSY_mBr/",
+      "sources": [
+        "https://www.paramountplus.com/movies/video/7MI9dv6oQQCo733jnwnv4bT6WjSY_mBr/"
+      ],
+      "sets": [
+        "Science-Fiction · Star Trek im Kino"
+      ],
+      "data_year_note": "Filmjahr laut Paramount+; Laufzeit exakt an die zitierte Paramount+-Anzeige gebunden. Jährliche Prüfung.",
+      "visual": "deep-space-neutral",
+      "subject": "deep-space-neutral"
+    },
+    {
+      "id": "scifi-20261024-final-runtime-false",
+      "semantic_key": "final-frontier-not-146-minutes",
+      "source_refs": [
+        "final"
+      ],
+      "observation_keys": [
+        "final-runtime-fact"
+      ],
+      "data_year": 1989,
+      "rounding": "1H 46M converted to 106 whole minutes.",
+      "notes": "False statement is 40 minutes above display.",
+      "difficulty": "medium",
+      "s": "Paramount+ zeigt für Star Trek V: The Final Frontier eine Laufzeit von 146 Minuten an.",
+      "a": false,
+      "e": "Angezeigt werden 1 Stunde 46 Minuten, also 106 Minuten.",
+      "cat": "Science-Fiction",
+      "subcategory": "Star-Trek-Filme · Laufzeit & Handlung",
+      "status": "draft",
+      "verified": "2026-10-24",
+      "source": "https://www.paramountplus.com/movies/video/u4LO96RFNGzcNzPgtHPzMd4UIcjHA29N/",
+      "sources": [
+        "https://www.paramountplus.com/movies/video/u4LO96RFNGzcNzPgtHPzMd4UIcjHA29N/"
+      ],
+      "sets": [
+        "Science-Fiction · Star Trek im Kino"
+      ],
+      "data_year_note": "Filmjahr laut Paramount+; Laufzeit exakt an die zitierte Paramount+-Anzeige gebunden. Jährliche Prüfung.",
+      "visual": "deep-space-neutral",
+      "subject": "deep-space-neutral"
+    },
+    {
+      "id": "scifi-20261024-wrath-khan",
+      "semantic_key": "wrath-khan-is-back",
+      "source_refs": [
+        "wrath"
+      ],
+      "observation_keys": [
+        "wrath-khan-return"
+      ],
+      "data_year": 1982,
+      "rounding": "Plot fact.",
+      "notes": "Official synopsis only.",
+      "difficulty": "hard",
+      "s": "Die Paramount+-Beschreibung von The Wrath of Khan sagt, dass Khan zurück ist.",
+      "a": true,
+      "e": "Der Beschreibungstext formuliert ausdrücklich, dass Khan zurück ist.",
+      "cat": "Science-Fiction",
+      "subcategory": "Star-Trek-Filme · Laufzeit & Handlung",
+      "status": "draft",
+      "verified": "2026-10-24",
+      "source": "https://www.paramountplus.com/movies/video/1DooAass83NPqUjSxIWGPKeELkwa2CXp/",
+      "sources": [
+        "https://www.paramountplus.com/movies/video/1DooAass83NPqUjSxIWGPKeELkwa2CXp/"
+      ],
+      "sets": [
+        "Science-Fiction · Star Trek im Kino"
+      ],
+      "data_year_note": "Filmjahr laut Paramount+; Laufzeit exakt an die zitierte Paramount+-Anzeige gebunden. Jährliche Prüfung.",
+      "visual": "deep-space-neutral",
+      "subject": "deep-space-neutral"
+    },
+    {
+      "id": "scifi-20261024-insurrection-year-false",
+      "semantic_key": "insurrection-not-2008",
+      "source_refs": [
+        "insurrection"
+      ],
+      "observation_keys": [
+        "insurrection-release"
+      ],
+      "data_year": 1998,
+      "rounding": "Published year.",
+      "notes": "False statement contrasts official 1998 field.",
+      "difficulty": "hard",
+      "s": "Paramount+ führt Star Trek: Insurrection mit dem Erscheinungsjahr 2008.",
+      "a": false,
+      "e": "Die Plattform nennt 1998.",
+      "cat": "Science-Fiction",
+      "subcategory": "Star-Trek-Filme · Laufzeit & Handlung",
+      "status": "draft",
+      "verified": "2026-10-24",
+      "source": "https://www.paramountplus.com/movies/video/z4QF94bldMkQpyafpHziL4xOiWoOwJvk/",
+      "sources": [
+        "https://www.paramountplus.com/movies/video/z4QF94bldMkQpyafpHziL4xOiWoOwJvk/"
+      ],
+      "sets": [
+        "Science-Fiction · Star Trek im Kino"
+      ],
+      "data_year_note": "Filmjahr laut Paramount+; Laufzeit exakt an die zitierte Paramount+-Anzeige gebunden. Jährliche Prüfung.",
+      "visual": "deep-space-neutral",
+      "subject": "deep-space-neutral"
+    }
+  ],
+  "jeopardy": [
+    {
+      "id": "scifi-20261024-film-nexus",
+      "semantic_key": "film-identity-nexus-generations",
+      "source_refs": [
+        "generations"
+      ],
+      "observation_keys": [
+        "generations-nexus"
+      ],
+      "data_year": 1994,
+      "rounding": "Official synopsis clue.",
+      "notes": "Answer is film title, not a character.",
+      "difficulty": 1,
+      "q": "Welcher Star-Trek-Film verbindet Picards Zukunft laut Paramount+ mit dem Nexus und einem legendären Captain aus der Vergangenheit?",
+      "a": "Star Trek: Generations|Generations",
+      "cat": "Science-Fiction",
+      "subcategory": "Star-Trek-Filme · Laufzeit & Handlung",
+      "status": "draft",
+      "verified": "2026-10-24",
+      "source": "https://www.paramountplus.com/movies/video/qktISmdbebHu7qB2qtzhg3fNsrL16PXi/",
+      "sources": [
+        "https://www.paramountplus.com/movies/video/qktISmdbebHu7qB2qtzhg3fNsrL16PXi/"
+      ],
+      "sets": [
+        "Science-Fiction · Star Trek im Kino"
+      ],
+      "data_year_note": "Filmjahr laut Paramount+; Laufzeit exakt an die zitierte Paramount+-Anzeige gebunden. Jährliche Prüfung.",
+      "visual": "deep-space-neutral",
+      "subject": "deep-space-neutral"
+    },
+    {
+      "id": "scifi-20261024-film-borg",
+      "semantic_key": "film-identity-borg-sphere-first-contact",
+      "source_refs": [
+        "first_contact"
+      ],
+      "observation_keys": [
+        "first-contact-borg-sphere"
+      ],
+      "data_year": 1996,
+      "rounding": "Official synopsis clue.",
+      "notes": "Answer is film title.",
+      "difficulty": 2,
+      "q": "In welchem Star-Trek-Film folgt Picards Crew einer Borg-Sphäre zurück ins 21. Jahrhundert?",
+      "a": "Star Trek: First Contact|First Contact",
+      "cat": "Science-Fiction",
+      "subcategory": "Star-Trek-Filme · Laufzeit & Handlung",
+      "status": "draft",
+      "verified": "2026-10-24",
+      "source": "https://www.paramountplus.com/movies/video/iTGmLzm3gQN57pAqWamGAFpjatqCYgs_/",
+      "sources": [
+        "https://www.paramountplus.com/movies/video/iTGmLzm3gQN57pAqWamGAFpjatqCYgs_/"
+      ],
+      "sets": [
+        "Science-Fiction · Star Trek im Kino"
+      ],
+      "data_year_note": "Filmjahr laut Paramount+; Laufzeit exakt an die zitierte Paramount+-Anzeige gebunden. Jährliche Prüfung.",
+      "visual": "deep-space-neutral",
+      "subject": "deep-space-neutral"
+    },
+    {
+      "id": "scifi-20261024-film-picard-link",
+      "semantic_key": "film-identity-picard-adversary-nemesis",
+      "source_refs": [
+        "nemesis"
+      ],
+      "observation_keys": [
+        "nemesis-picard-link"
+      ],
+      "data_year": 2002,
+      "rounding": "Official synopsis clue.",
+      "notes": "Answer is film title.",
+      "difficulty": 2,
+      "q": "Welcher Star-Trek-Film beschreibt einen neuen Gegner mit einer schockierenden Verbindung zu Picard?",
+      "a": "Star Trek: Nemesis|Nemesis",
+      "cat": "Science-Fiction",
+      "subcategory": "Star-Trek-Filme · Laufzeit & Handlung",
+      "status": "draft",
+      "verified": "2026-10-24",
+      "source": "https://www.paramountplus.com/movies/video/dIV3Megz6HcabSKkdmmdXpNy4l7dOpwk/",
+      "sources": [
+        "https://www.paramountplus.com/movies/video/dIV3Megz6HcabSKkdmmdXpNy4l7dOpwk/"
+      ],
+      "sets": [
+        "Science-Fiction · Star Trek im Kino"
+      ],
+      "data_year_note": "Filmjahr laut Paramount+; Laufzeit exakt an die zitierte Paramount+-Anzeige gebunden. Jährliche Prüfung.",
+      "visual": "deep-space-neutral",
+      "subject": "deep-space-neutral"
+    },
+    {
+      "id": "scifi-20261024-film-maiden-voyage",
+      "semantic_key": "film-identity-young-crew-maiden-voyage-2009",
+      "source_refs": [
+        "star_trek_2009"
+      ],
+      "observation_keys": [
+        "star-trek-maiden-voyage"
+      ],
+      "data_year": 2009,
+      "rounding": "Official synopsis clue.",
+      "notes": "Answer year distinguishes it from the franchise title.",
+      "difficulty": 3,
+      "q": "Welcher Star-Trek-Film von 2009 erzählt laut Paramount+ von der Jungfernfahrt einer jungen Enterprise-Crew?",
+      "a": "Star Trek (2009)|Star Trek 2009|Star Trek",
+      "cat": "Science-Fiction",
+      "subcategory": "Star-Trek-Filme · Laufzeit & Handlung",
+      "status": "draft",
+      "verified": "2026-10-24",
+      "source": "https://www.paramountplus.com/movies/video/aotpJ4rkRqtrqIITSdgM5SnOOzQhg9k9/",
+      "sources": [
+        "https://www.paramountplus.com/movies/video/aotpJ4rkRqtrqIITSdgM5SnOOzQhg9k9/"
+      ],
+      "sets": [
+        "Science-Fiction · Star Trek im Kino"
+      ],
+      "data_year_note": "Filmjahr laut Paramount+; Laufzeit exakt an die zitierte Paramount+-Anzeige gebunden. Jährliche Prüfung.",
+      "visual": "deep-space-neutral",
+      "subject": "deep-space-neutral"
+    },
+    {
+      "id": "scifi-20261024-film-khan-war",
+      "semantic_key": "film-identity-khan-war-into-darkness",
+      "source_refs": [
+        "into_darkness"
+      ],
+      "observation_keys": [
+        "into-darkness-khan"
+      ],
+      "data_year": 2013,
+      "rounding": "Official synopsis clue.",
+      "notes": "Answer is film title.",
+      "difficulty": 3,
+      "q": "In welchem Film erklärt Khan laut Paramount+ der Föderation einen Ein-Mann-Krieg?",
+      "a": "Star Trek Into Darkness|Into Darkness",
+      "cat": "Science-Fiction",
+      "subcategory": "Star-Trek-Filme · Laufzeit & Handlung",
+      "status": "draft",
+      "verified": "2026-10-24",
+      "source": "https://www.paramountplus.com/movies/video/f9_5tSlLxQrgUdfrJekgeJdNnJLZBpuD/",
+      "sources": [
+        "https://www.paramountplus.com/movies/video/f9_5tSlLxQrgUdfrJekgeJdNnJLZBpuD/"
+      ],
+      "sets": [
+        "Science-Fiction · Star Trek im Kino"
+      ],
+      "data_year_note": "Filmjahr laut Paramount+; Laufzeit exakt an die zitierte Paramount+-Anzeige gebunden. Jährliche Prüfung.",
+      "visual": "deep-space-neutral",
+      "subject": "deep-space-neutral"
+    },
+    {
+      "id": "scifi-20261024-film-krall",
+      "semantic_key": "film-identity-krall-beyond",
+      "source_refs": [
+        "beyond"
+      ],
+      "observation_keys": [
+        "beyond-krall"
+      ],
+      "data_year": 2016,
+      "rounding": "Official synopsis clue.",
+      "notes": "Answer is film title.",
+      "difficulty": 4,
+      "q": "In welchem Star-Trek-Film wird die Enterprise während einer Rettungsmission von Krall angegriffen?",
+      "a": "Star Trek Beyond|Beyond",
+      "cat": "Science-Fiction",
+      "subcategory": "Star-Trek-Filme · Laufzeit & Handlung",
+      "status": "draft",
+      "verified": "2026-10-24",
+      "source": "https://www.paramountplus.com/movies/video/PP_Z07j49bpd8gFCkl1RlPoniqf1UTAb/",
+      "sources": [
+        "https://www.paramountplus.com/movies/video/PP_Z07j49bpd8gFCkl1RlPoniqf1UTAb/"
+      ],
+      "sets": [
+        "Science-Fiction · Star Trek im Kino"
+      ],
+      "data_year_note": "Filmjahr laut Paramount+; Laufzeit exakt an die zitierte Paramount+-Anzeige gebunden. Jährliche Prüfung.",
+      "visual": "deep-space-neutral",
+      "subject": "deep-space-neutral"
+    },
+    {
+      "id": "scifi-20261024-film-san-francisco",
+      "semantic_key": "film-identity-1986-san-francisco-voyage-home",
+      "source_refs": [
+        "voyage"
+      ],
+      "observation_keys": [
+        "voyage-1986-sf"
+      ],
+      "data_year": 1986,
+      "rounding": "Official synopsis clue.",
+      "notes": "Answer is film title.",
+      "difficulty": 4,
+      "q": "In welchem Star-Trek-Film reist Kirks Crew in das San Francisco des Jahres 1986?",
+      "a": "Star Trek IV: The Voyage Home|The Voyage Home|Star Trek IV",
+      "cat": "Science-Fiction",
+      "subcategory": "Star-Trek-Filme · Laufzeit & Handlung",
+      "status": "draft",
+      "verified": "2026-10-24",
+      "source": "https://www.paramountplus.com/movies/video/2y1Ft4fKkFM9anBA_MxIn0wSmQ54_Q21/",
+      "sources": [
+        "https://www.paramountplus.com/movies/video/2y1Ft4fKkFM9anBA_MxIn0wSmQ54_Q21/"
+      ],
+      "sets": [
+        "Science-Fiction · Star Trek im Kino"
+      ],
+      "data_year_note": "Filmjahr laut Paramount+; Laufzeit exakt an die zitierte Paramount+-Anzeige gebunden. Jährliche Prüfung.",
+      "visual": "deep-space-neutral",
+      "subject": "deep-space-neutral"
+    },
+    {
+      "id": "scifi-20261024-film-sarek",
+      "semantic_key": "film-identity-sarek-visit-search-spock",
+      "source_refs": [
+        "search"
+      ],
+      "observation_keys": [
+        "search-sarek"
+      ],
+      "data_year": 1984,
+      "rounding": "Official synopsis clue.",
+      "notes": "Answer is film title.",
+      "difficulty": 5,
+      "q": "In welchem Star-Trek-Film führt ein überraschender Besuch von Sarek nach Spocks Tod zu einer neuen Enthüllung?",
+      "a": "Star Trek III: The Search for Spock|The Search for Spock|Star Trek III",
+      "cat": "Science-Fiction",
+      "subcategory": "Star-Trek-Filme · Laufzeit & Handlung",
+      "status": "draft",
+      "verified": "2026-10-24",
+      "source": "https://www.paramountplus.com/movies/video/zucLKcn6HykN8ksrBh0eBcu8hjWSTnjE/",
+      "sources": [
+        "https://www.paramountplus.com/movies/video/zucLKcn6HykN8ksrBh0eBcu8hjWSTnjE/"
+      ],
+      "sets": [
+        "Science-Fiction · Star Trek im Kino"
+      ],
+      "data_year_note": "Filmjahr laut Paramount+; Laufzeit exakt an die zitierte Paramount+-Anzeige gebunden. Jährliche Prüfung.",
+      "visual": "deep-space-neutral",
+      "subject": "deep-space-neutral"
+    }
+  ]
+}
