@@ -1,0 +1,225 @@
+{
+  "policy": "Premier-League-Rekorde und datierte Ranglisten: 90 Tage; keine automatische Veröffentlichung.",
+  "records": [
+    {
+      "id": "football-20261025-apps-milner-barry",
+      "game": "moreless",
+      "source": "https://www.premierleague.com/en/news/4581338/premier-league-top-ten-all-time-appearances-leaders",
+      "verified": "2026-10-25",
+      "data_year": "2026-02-21",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "football-20261025-apps-james-speed",
+      "game": "moreless",
+      "source": "https://www.premierleague.com/en/news/4581338/premier-league-top-ten-all-time-appearances-leaders",
+      "verified": "2026-10-25",
+      "data_year": "2026-02-21",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "football-20261025-fastest-hattrick",
+      "game": "estimate",
+      "source": "https://www.premierleague.com/en/stats/records",
+      "verified": "2026-10-25",
+      "data_year": "2015 record, checked 2026-10-25",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "football-20261025-fastest-goal",
+      "game": "estimate",
+      "source": "https://www.premierleague.com/en/stats/records",
+      "verified": "2026-10-25",
+      "data_year": "2019 record, checked 2026-10-25",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "football-20261025-hattricks",
+      "game": "estimate",
+      "source": "https://www.premierleague.com/en/stats/records",
+      "verified": "2026-10-25",
+      "data_year": "career through 2020/21",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "football-20261025-free-kicks",
+      "game": "estimate",
+      "source": "https://www.premierleague.com/en/stats/records",
+      "verified": "2026-10-25",
+      "data_year": "career through 2002/03",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "football-20261025-first-hattrick",
+      "game": "facts",
+      "source": "https://www.premierleague.com/en/stats/records",
+      "verified": "2026-10-25",
+      "data_year": 1992,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "football-20261025-5000-false",
+      "game": "facts",
+      "source": "https://www.premierleague.com/en/news/662064/records-players",
+      "verified": "2026-10-25",
+      "data_year": 1996,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "football-20261025-one-half",
+      "game": "facts",
+      "source": "https://www.premierleague.com/en/stats/records",
+      "verified": "2026-10-25",
+      "data_year": 2009,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "football-20261025-own-goals-false",
+      "game": "facts",
+      "source": "https://www.premierleague.com/en/news/662064/records-players",
+      "verified": "2026-10-25",
+      "data_year": "career through 2014/15",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "football-20261025-goalkeeper-goal",
+      "game": "facts",
+      "source": "https://www.premierleague.com/en/news/662064/records-players",
+      "verified": "2026-10-25",
+      "data_year": 2001,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "football-20261025-yellow-cards-false",
+      "game": "facts",
+      "source": "https://www.premierleague.com/en/news/662064/records-players",
+      "verified": "2026-10-25",
+      "data_year": "record checked 2026-10-25",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "football-20261025-first-goal-scorer",
+      "game": "jeopardy",
+      "source": "https://www.premierleague.com/en/news/58731",
+      "verified": "2026-10-25",
+      "data_year": 1992,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "football-20261025-clean-sheets",
+      "game": "jeopardy",
+      "source": "https://www.premierleague.com/en/news/662064/records-players",
+      "verified": "2026-10-25",
+      "data_year": "career through 2018/19",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "football-20261025-penalty-saves",
+      "game": "jeopardy",
+      "source": "https://www.premierleague.com/en/news/662064/records-players",
+      "verified": "2026-10-25",
+      "data_year": "career through 2009/10",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "football-20261025-sub-goals",
+      "game": "jeopardy",
+      "source": "https://www.premierleague.com/en/news/662064/records-players",
+      "verified": "2026-10-25",
+      "data_year": "career through 2018/19",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "football-20261025-subbed-off",
+      "game": "jeopardy",
+      "source": "https://www.premierleague.com/en/news/662064/records-players",
+      "verified": "2026-10-25",
+      "data_year": "career through 2022/23",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "football-20261025-10000-goal",
+      "game": "jeopardy",
+      "source": "https://www.premierleague.com/en/news/662064/records-players",
+      "verified": "2026-10-25",
+      "data_year": 2001,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "football-20261025-15000-goal",
+      "game": "jeopardy",
+      "source": "https://www.premierleague.com/en/news/662064/records-players",
+      "verified": "2026-10-25",
+      "data_year": 2006,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-23",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "football-20261025-20000-goal",
+      "game": "jeopardy",
+      "source": "https://www.premierleague.com/en/news/662064/records-players",
+      "verified": "2026-10-25",
+      "data_year": 2011,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-23",
+      "review_status": "draft-review-required"
+    }
+  ]
+}

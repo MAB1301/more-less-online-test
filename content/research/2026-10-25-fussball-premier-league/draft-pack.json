@@ -1,0 +1,654 @@
+{
+  "status": "review-only",
+  "verified": "2026-10-25",
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "images": {
+    "stadium-neutral": {
+      "card": "visuals/stadium-neutral-card.svg",
+      "detail": "visuals/stadium-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstraktes Flutlichtstadion mit Ball-Silhouette, ohne Spieler, Vereine, Rekordwerte, Namen oder Lösungen."
+    },
+    "James Milner": {
+      "card": "visuals/stadium-neutral-card.svg",
+      "detail": "visuals/stadium-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstraktes Flutlichtstadion mit Ball-Silhouette, ohne Spieler, Vereine, Rekordwerte, Namen oder Lösungen."
+    },
+    "Gareth Barry": {
+      "card": "visuals/stadium-neutral-card.svg",
+      "detail": "visuals/stadium-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstraktes Flutlichtstadion mit Ball-Silhouette, ohne Spieler, Vereine, Rekordwerte, Namen oder Lösungen."
+    },
+    "David James": {
+      "card": "visuals/stadium-neutral-card.svg",
+      "detail": "visuals/stadium-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstraktes Flutlichtstadion mit Ball-Silhouette, ohne Spieler, Vereine, Rekordwerte, Namen oder Lösungen."
+    },
+    "Gary Speed": {
+      "card": "visuals/stadium-neutral-card.svg",
+      "detail": "visuals/stadium-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstraktes Flutlichtstadion mit Ball-Silhouette, ohne Spieler, Vereine, Rekordwerte, Namen oder Lösungen."
+    }
+  },
+  "moreless": [
+    {
+      "id": "football-20261025-apps-milner-barry",
+      "source_refs": [
+        "appearances"
+      ],
+      "observation_keys": [
+        "milner-apps",
+        "barry-apps"
+      ],
+      "data_year": "2026-02-21",
+      "rounding": "Official whole-appearance count; no rounding.",
+      "notes": "Same competition, field and article date; 1 appearance apart.",
+      "l": "James Milner",
+      "r": "Gareth Barry",
+      "lv": 654,
+      "rv": 653,
+      "u": "Einsätze · Premier League (Stand 21.02.2026)",
+      "metric": "Premier-League-Einsätze laut derselben offiziellen Rangliste",
+      "cat": "Fußball",
+      "subcategory": "Premier-League-Rekorde & Meilensteine",
+      "status": "draft",
+      "verified": "2026-10-25",
+      "source": "https://www.premierleague.com/en/news/4581338/premier-league-top-ten-all-time-appearances-leaders",
+      "sources": [
+        "https://www.premierleague.com/en/news/4581338/premier-league-top-ten-all-time-appearances-leaders"
+      ],
+      "sets": [
+        "Fußball · Premier-League-Rekorde"
+      ],
+      "data_year_note": "Offizieller Premier-League-Datenstand laut Frage; Rekordseiten nach 90 Tagen erneut prüfen.",
+      "visual": "stadium-neutral",
+      "subject": "stadium-neutral"
+    },
+    {
+      "id": "football-20261025-apps-james-speed",
+      "source_refs": [
+        "appearances"
+      ],
+      "observation_keys": [
+        "james-apps",
+        "speed-apps"
+      ],
+      "data_year": "2026-02-21",
+      "rounding": "Official whole-appearance count; no rounding.",
+      "notes": "Same competition, field and article date; about 6.9% apart.",
+      "l": "David James",
+      "r": "Gary Speed",
+      "lv": 572,
+      "rv": 535,
+      "u": "Einsätze · Premier League (Stand 21.02.2026)",
+      "metric": "Premier-League-Einsätze laut derselben offiziellen Rangliste",
+      "cat": "Fußball",
+      "subcategory": "Premier-League-Rekorde & Meilensteine",
+      "status": "draft",
+      "verified": "2026-10-25",
+      "source": "https://www.premierleague.com/en/news/4581338/premier-league-top-ten-all-time-appearances-leaders",
+      "sources": [
+        "https://www.premierleague.com/en/news/4581338/premier-league-top-ten-all-time-appearances-leaders"
+      ],
+      "sets": [
+        "Fußball · Premier-League-Rekorde"
+      ],
+      "data_year_note": "Offizieller Premier-League-Datenstand laut Frage; Rekordseiten nach 90 Tagen erneut prüfen.",
+      "visual": "stadium-neutral",
+      "subject": "stadium-neutral"
+    }
+  ],
+  "estimate": [
+    {
+      "id": "football-20261025-fastest-hattrick",
+      "source_refs": [
+        "records"
+      ],
+      "observation_keys": [
+        "mane-hattrick-seconds"
+      ],
+      "data_year": "2015 record, checked 2026-10-25",
+      "rounding": "2:56 converted exactly to 176 seconds.",
+      "notes": "Premier League record table.",
+      "q": "In wie vielen Sekunden erzielte Sadio Mané laut Premier-League-Rekordliste den schnellsten Hattrick?",
+      "a": 176,
+      "u": "Sekunden",
+      "cat": "Fußball",
+      "subcategory": "Premier-League-Rekorde & Meilensteine",
+      "status": "draft",
+      "verified": "2026-10-25",
+      "source": "https://www.premierleague.com/en/stats/records",
+      "sources": [
+        "https://www.premierleague.com/en/stats/records"
+      ],
+      "sets": [
+        "Fußball · Premier-League-Rekorde"
+      ],
+      "data_year_note": "Offizieller Premier-League-Datenstand laut Frage; Rekordseiten nach 90 Tagen erneut prüfen.",
+      "visual": "stadium-neutral",
+      "subject": "stadium-neutral"
+    },
+    {
+      "id": "football-20261025-fastest-goal",
+      "source_refs": [
+        "records"
+      ],
+      "observation_keys": [
+        "long-goal-seconds"
+      ],
+      "data_year": "2019 record, checked 2026-10-25",
+      "rounding": "Official value to two decimal places.",
+      "notes": "Premier League record table.",
+      "q": "Nach wie vielen Sekunden fiel Shane Longs schnellstes Premier-League-Tor laut Rekordliste?",
+      "a": 7.69,
+      "u": "Sekunden",
+      "cat": "Fußball",
+      "subcategory": "Premier-League-Rekorde & Meilensteine",
+      "status": "draft",
+      "verified": "2026-10-25",
+      "source": "https://www.premierleague.com/en/stats/records",
+      "sources": [
+        "https://www.premierleague.com/en/stats/records"
+      ],
+      "sets": [
+        "Fußball · Premier-League-Rekorde"
+      ],
+      "data_year_note": "Offizieller Premier-League-Datenstand laut Frage; Rekordseiten nach 90 Tagen erneut prüfen.",
+      "visual": "stadium-neutral",
+      "subject": "stadium-neutral"
+    },
+    {
+      "id": "football-20261025-hattricks",
+      "source_refs": [
+        "records"
+      ],
+      "observation_keys": [
+        "aguero-hattricks"
+      ],
+      "data_year": "career through 2020/21",
+      "rounding": "Whole-record count.",
+      "notes": "All-time Premier League hat-tricks.",
+      "q": "Wie viele Premier-League-Hattricks erzielte Sergio Agüero laut offizieller Rekordliste?",
+      "a": 12,
+      "u": "Hattricks",
+      "cat": "Fußball",
+      "subcategory": "Premier-League-Rekorde & Meilensteine",
+      "status": "draft",
+      "verified": "2026-10-25",
+      "source": "https://www.premierleague.com/en/stats/records",
+      "sources": [
+        "https://www.premierleague.com/en/stats/records"
+      ],
+      "sets": [
+        "Fußball · Premier-League-Rekorde"
+      ],
+      "data_year_note": "Offizieller Premier-League-Datenstand laut Frage; Rekordseiten nach 90 Tagen erneut prüfen.",
+      "visual": "stadium-neutral",
+      "subject": "stadium-neutral"
+    },
+    {
+      "id": "football-20261025-free-kicks",
+      "source_refs": [
+        "records"
+      ],
+      "observation_keys": [
+        "beckham-freekicks"
+      ],
+      "data_year": "career through 2002/03",
+      "rounding": "Whole-record count.",
+      "notes": "Premier League free-kick goals only.",
+      "q": "Wie viele direkte Freistoßtore erzielte David Beckham laut Premier-League-Rekordliste?",
+      "a": 18,
+      "u": "Tore",
+      "cat": "Fußball",
+      "subcategory": "Premier-League-Rekorde & Meilensteine",
+      "status": "draft",
+      "verified": "2026-10-25",
+      "source": "https://www.premierleague.com/en/stats/records",
+      "sources": [
+        "https://www.premierleague.com/en/stats/records"
+      ],
+      "sets": [
+        "Fußball · Premier-League-Rekorde"
+      ],
+      "data_year_note": "Offizieller Premier-League-Datenstand laut Frage; Rekordseiten nach 90 Tagen erneut prüfen.",
+      "visual": "stadium-neutral",
+      "subject": "stadium-neutral"
+    }
+  ],
+  "facts": [
+    {
+      "id": "football-20261025-first-hattrick",
+      "source_refs": [
+        "records"
+      ],
+      "observation_keys": [
+        "cantona-first-hattrick"
+      ],
+      "data_year": 1992,
+      "rounding": "Historical identity and date.",
+      "notes": "Official record table.",
+      "difficulty": "easy",
+      "s": "Eric Cantona erzielte am 25. August 1992 den ersten Hattrick der Premier-League-Geschichte.",
+      "a": true,
+      "e": "Die offizielle Rekordliste führt Cantona an diesem Datum als ersten Hattrick-Schützen.",
+      "cat": "Fußball",
+      "subcategory": "Premier-League-Rekorde & Meilensteine",
+      "status": "draft",
+      "verified": "2026-10-25",
+      "source": "https://www.premierleague.com/en/stats/records",
+      "sources": [
+        "https://www.premierleague.com/en/stats/records"
+      ],
+      "sets": [
+        "Fußball · Premier-League-Rekorde"
+      ],
+      "data_year_note": "Offizieller Premier-League-Datenstand laut Frage; Rekordseiten nach 90 Tagen erneut prüfen.",
+      "visual": "stadium-neutral",
+      "subject": "stadium-neutral"
+    },
+    {
+      "id": "football-20261025-5000-false",
+      "source_refs": [
+        "player_records"
+      ],
+      "observation_keys": [
+        "sutton-5000"
+      ],
+      "data_year": 1996,
+      "rounding": "Historical milestone identity.",
+      "notes": "False statement contrasts the official scorer.",
+      "difficulty": "easy",
+      "s": "Les Ferdinand erzielte das 5.000. Tor der Premier-League-Geschichte.",
+      "a": false,
+      "e": "Das 5.000. Tor erzielte Chris Sutton; Ferdinand erzielte später das 10.000.",
+      "cat": "Fußball",
+      "subcategory": "Premier-League-Rekorde & Meilensteine",
+      "status": "draft",
+      "verified": "2026-10-25",
+      "source": "https://www.premierleague.com/en/news/662064/records-players",
+      "sources": [
+        "https://www.premierleague.com/en/news/662064/records-players"
+      ],
+      "sets": [
+        "Fußball · Premier-League-Rekorde"
+      ],
+      "data_year_note": "Offizieller Premier-League-Datenstand laut Frage; Rekordseiten nach 90 Tagen erneut prüfen.",
+      "visual": "stadium-neutral",
+      "subject": "stadium-neutral"
+    },
+    {
+      "id": "football-20261025-one-half",
+      "source_refs": [
+        "records"
+      ],
+      "observation_keys": [
+        "defoe-one-half"
+      ],
+      "data_year": 2009,
+      "rounding": "Whole-goal record.",
+      "notes": "One half of one league match.",
+      "difficulty": "medium",
+      "s": "Jermain Defoe hält mit fünf Toren den Premier-League-Rekord für die meisten Treffer in einer Halbzeit.",
+      "a": true,
+      "e": "Die offizielle Rekordliste nennt fünf Treffer gegen Wigan am 22. November 2009.",
+      "cat": "Fußball",
+      "subcategory": "Premier-League-Rekorde & Meilensteine",
+      "status": "draft",
+      "verified": "2026-10-25",
+      "source": "https://www.premierleague.com/en/stats/records",
+      "sources": [
+        "https://www.premierleague.com/en/stats/records"
+      ],
+      "sets": [
+        "Fußball · Premier-League-Rekorde"
+      ],
+      "data_year_note": "Offizieller Premier-League-Datenstand laut Frage; Rekordseiten nach 90 Tagen erneut prüfen.",
+      "visual": "stadium-neutral",
+      "subject": "stadium-neutral"
+    },
+    {
+      "id": "football-20261025-own-goals-false",
+      "source_refs": [
+        "player_records"
+      ],
+      "observation_keys": [
+        "dunne-own-goals"
+      ],
+      "data_year": "career through 2014/15",
+      "rounding": "Whole-record count.",
+      "notes": "False statement is one above official total.",
+      "difficulty": "medium",
+      "s": "Richard Dunne hält den Premier-League-Rekord mit elf Eigentoren.",
+      "a": false,
+      "e": "Die offizielle Rekordliste nennt zehn Eigentore.",
+      "cat": "Fußball",
+      "subcategory": "Premier-League-Rekorde & Meilensteine",
+      "status": "draft",
+      "verified": "2026-10-25",
+      "source": "https://www.premierleague.com/en/news/662064/records-players",
+      "sources": [
+        "https://www.premierleague.com/en/news/662064/records-players"
+      ],
+      "sets": [
+        "Fußball · Premier-League-Rekorde"
+      ],
+      "data_year_note": "Offizieller Premier-League-Datenstand laut Frage; Rekordseiten nach 90 Tagen erneut prüfen.",
+      "visual": "stadium-neutral",
+      "subject": "stadium-neutral"
+    },
+    {
+      "id": "football-20261025-goalkeeper-goal",
+      "source_refs": [
+        "player_records"
+      ],
+      "observation_keys": [
+        "schmeichel-goal"
+      ],
+      "data_year": 2001,
+      "rounding": "Historical event count.",
+      "notes": "Premier League goal only.",
+      "difficulty": "hard",
+      "s": "Peter Schmeichel erzielte als Torhüter ein Premier-League-Tor.",
+      "a": true,
+      "e": "Die Rekordliste führt sein Tor für Aston Villa gegen Everton vom 20. Oktober 2001.",
+      "cat": "Fußball",
+      "subcategory": "Premier-League-Rekorde & Meilensteine",
+      "status": "draft",
+      "verified": "2026-10-25",
+      "source": "https://www.premierleague.com/en/news/662064/records-players",
+      "sources": [
+        "https://www.premierleague.com/en/news/662064/records-players"
+      ],
+      "sets": [
+        "Fußball · Premier-League-Rekorde"
+      ],
+      "data_year_note": "Offizieller Premier-League-Datenstand laut Frage; Rekordseiten nach 90 Tagen erneut prüfen.",
+      "visual": "stadium-neutral",
+      "subject": "stadium-neutral"
+    },
+    {
+      "id": "football-20261025-yellow-cards-false",
+      "source_refs": [
+        "player_records"
+      ],
+      "observation_keys": [
+        "season-yellow-cards"
+      ],
+      "data_year": "record checked 2026-10-25",
+      "rounding": "Whole-record count; record shared by several players.",
+      "notes": "False statement is one above official tied record.",
+      "difficulty": "hard",
+      "s": "Der Premier-League-Rekord für Gelbe Karten eines Spielers in einer Saison liegt bei 15.",
+      "a": false,
+      "e": "Die offizielle Rekordliste nennt 14; mehrere Spieler teilen diesen Wert.",
+      "cat": "Fußball",
+      "subcategory": "Premier-League-Rekorde & Meilensteine",
+      "status": "draft",
+      "verified": "2026-10-25",
+      "source": "https://www.premierleague.com/en/news/662064/records-players",
+      "sources": [
+        "https://www.premierleague.com/en/news/662064/records-players"
+      ],
+      "sets": [
+        "Fußball · Premier-League-Rekorde"
+      ],
+      "data_year_note": "Offizieller Premier-League-Datenstand laut Frage; Rekordseiten nach 90 Tagen erneut prüfen.",
+      "visual": "stadium-neutral",
+      "subject": "stadium-neutral"
+    }
+  ],
+  "jeopardy": [
+    {
+      "id": "football-20261025-first-goal-scorer",
+      "source_refs": [
+        "season_1992"
+      ],
+      "observation_keys": [
+        "deane-first-goal"
+      ],
+      "data_year": 1992,
+      "rounding": "Historical identity.",
+      "notes": "No player image used.",
+      "difficulty": 1,
+      "q": "Wer erzielte nach fünf Minuten das erste Tor der Premier-League-Geschichte?",
+      "a": "Brian Deane",
+      "cat": "Fußball",
+      "subcategory": "Premier-League-Rekorde & Meilensteine",
+      "status": "draft",
+      "verified": "2026-10-25",
+      "source": "https://www.premierleague.com/en/news/58731",
+      "sources": [
+        "https://www.premierleague.com/en/news/58731"
+      ],
+      "sets": [
+        "Fußball · Premier-League-Rekorde"
+      ],
+      "data_year_note": "Offizieller Premier-League-Datenstand laut Frage; Rekordseiten nach 90 Tagen erneut prüfen.",
+      "visual": "stadium-neutral",
+      "subject": "stadium-neutral"
+    },
+    {
+      "id": "football-20261025-clean-sheets",
+      "source_refs": [
+        "player_records"
+      ],
+      "observation_keys": [
+        "cech-clean-sheets"
+      ],
+      "data_year": "career through 2018/19",
+      "rounding": "Whole career total.",
+      "notes": "Premier League only.",
+      "difficulty": 2,
+      "q": "Welcher Torhüter hält laut offizieller Rekordliste mit 202 Spielen ohne Gegentor den Premier-League-Rekord?",
+      "a": "Petr Cech|Petr Čech|Čech|Cech",
+      "cat": "Fußball",
+      "subcategory": "Premier-League-Rekorde & Meilensteine",
+      "status": "draft",
+      "verified": "2026-10-25",
+      "source": "https://www.premierleague.com/en/news/662064/records-players",
+      "sources": [
+        "https://www.premierleague.com/en/news/662064/records-players"
+      ],
+      "sets": [
+        "Fußball · Premier-League-Rekorde"
+      ],
+      "data_year_note": "Offizieller Premier-League-Datenstand laut Frage; Rekordseiten nach 90 Tagen erneut prüfen.",
+      "visual": "stadium-neutral",
+      "subject": "stadium-neutral"
+    },
+    {
+      "id": "football-20261025-penalty-saves",
+      "source_refs": [
+        "player_records"
+      ],
+      "observation_keys": [
+        "james-penalty-saves"
+      ],
+      "data_year": "career through 2009/10",
+      "rounding": "Whole career total.",
+      "notes": "Premier League only.",
+      "difficulty": 2,
+      "q": "Welcher Torhüter hält mit 13 gehaltenen Strafstößen den Premier-League-Rekord?",
+      "a": "David James",
+      "cat": "Fußball",
+      "subcategory": "Premier-League-Rekorde & Meilensteine",
+      "status": "draft",
+      "verified": "2026-10-25",
+      "source": "https://www.premierleague.com/en/news/662064/records-players",
+      "sources": [
+        "https://www.premierleague.com/en/news/662064/records-players"
+      ],
+      "sets": [
+        "Fußball · Premier-League-Rekorde"
+      ],
+      "data_year_note": "Offizieller Premier-League-Datenstand laut Frage; Rekordseiten nach 90 Tagen erneut prüfen.",
+      "visual": "stadium-neutral",
+      "subject": "stadium-neutral"
+    },
+    {
+      "id": "football-20261025-sub-goals",
+      "source_refs": [
+        "player_records"
+      ],
+      "observation_keys": [
+        "defoe-sub-goals"
+      ],
+      "data_year": "career through 2018/19",
+      "rounding": "Whole career total.",
+      "notes": "Goals scored as a substitute.",
+      "difficulty": 3,
+      "q": "Welcher Spieler hält mit 24 Treffern als Einwechselspieler den Premier-League-Rekord?",
+      "a": "Jermain Defoe|Defoe",
+      "cat": "Fußball",
+      "subcategory": "Premier-League-Rekorde & Meilensteine",
+      "status": "draft",
+      "verified": "2026-10-25",
+      "source": "https://www.premierleague.com/en/news/662064/records-players",
+      "sources": [
+        "https://www.premierleague.com/en/news/662064/records-players"
+      ],
+      "sets": [
+        "Fußball · Premier-League-Rekorde"
+      ],
+      "data_year_note": "Offizieller Premier-League-Datenstand laut Frage; Rekordseiten nach 90 Tagen erneut prüfen.",
+      "visual": "stadium-neutral",
+      "subject": "stadium-neutral"
+    },
+    {
+      "id": "football-20261025-subbed-off",
+      "source_refs": [
+        "player_records"
+      ],
+      "observation_keys": [
+        "walcott-subbed-off"
+      ],
+      "data_year": "career through 2022/23",
+      "rounding": "Whole career total.",
+      "notes": "Number of substitutions off.",
+      "difficulty": 3,
+      "q": "Welcher Spieler wurde laut Rekordliste 168-mal ausgewechselt und damit am häufigsten in der Premier League?",
+      "a": "Theo Walcott|Walcott",
+      "cat": "Fußball",
+      "subcategory": "Premier-League-Rekorde & Meilensteine",
+      "status": "draft",
+      "verified": "2026-10-25",
+      "source": "https://www.premierleague.com/en/news/662064/records-players",
+      "sources": [
+        "https://www.premierleague.com/en/news/662064/records-players"
+      ],
+      "sets": [
+        "Fußball · Premier-League-Rekorde"
+      ],
+      "data_year_note": "Offizieller Premier-League-Datenstand laut Frage; Rekordseiten nach 90 Tagen erneut prüfen.",
+      "visual": "stadium-neutral",
+      "subject": "stadium-neutral"
+    },
+    {
+      "id": "football-20261025-10000-goal",
+      "source_refs": [
+        "player_records"
+      ],
+      "observation_keys": [
+        "ferdinand-10000"
+      ],
+      "data_year": 2001,
+      "rounding": "Historical milestone identity.",
+      "notes": "Milestone goal, not career total.",
+      "difficulty": 4,
+      "q": "Wer erzielte am 15. Dezember 2001 das 10.000. Tor der Premier-League-Geschichte?",
+      "a": "Les Ferdinand|Ferdinand",
+      "cat": "Fußball",
+      "subcategory": "Premier-League-Rekorde & Meilensteine",
+      "status": "draft",
+      "verified": "2026-10-25",
+      "source": "https://www.premierleague.com/en/news/662064/records-players",
+      "sources": [
+        "https://www.premierleague.com/en/news/662064/records-players"
+      ],
+      "sets": [
+        "Fußball · Premier-League-Rekorde"
+      ],
+      "data_year_note": "Offizieller Premier-League-Datenstand laut Frage; Rekordseiten nach 90 Tagen erneut prüfen.",
+      "visual": "stadium-neutral",
+      "subject": "stadium-neutral"
+    },
+    {
+      "id": "football-20261025-15000-goal",
+      "source_refs": [
+        "player_records"
+      ],
+      "observation_keys": [
+        "volz-15000"
+      ],
+      "data_year": 2006,
+      "rounding": "Historical milestone identity.",
+      "notes": "Milestone goal, not career total.",
+      "difficulty": 4,
+      "q": "Wer erzielte am 30. Dezember 2006 das 15.000. Tor der Premier-League-Geschichte?",
+      "a": "Moritz Volz|Volz",
+      "cat": "Fußball",
+      "subcategory": "Premier-League-Rekorde & Meilensteine",
+      "status": "draft",
+      "verified": "2026-10-25",
+      "source": "https://www.premierleague.com/en/news/662064/records-players",
+      "sources": [
+        "https://www.premierleague.com/en/news/662064/records-players"
+      ],
+      "sets": [
+        "Fußball · Premier-League-Rekorde"
+      ],
+      "data_year_note": "Offizieller Premier-League-Datenstand laut Frage; Rekordseiten nach 90 Tagen erneut prüfen.",
+      "visual": "stadium-neutral",
+      "subject": "stadium-neutral"
+    },
+    {
+      "id": "football-20261025-20000-goal",
+      "source_refs": [
+        "player_records"
+      ],
+      "observation_keys": [
+        "albrighton-20000"
+      ],
+      "data_year": 2011,
+      "rounding": "Historical milestone identity.",
+      "notes": "Milestone goal, not career total.",
+      "difficulty": 5,
+      "q": "Wer erzielte am 21. Dezember 2011 das 20.000. Tor der Premier-League-Geschichte?",
+      "a": "Marc Albrighton|Albrighton",
+      "cat": "Fußball",
+      "subcategory": "Premier-League-Rekorde & Meilensteine",
+      "status": "draft",
+      "verified": "2026-10-25",
+      "source": "https://www.premierleague.com/en/news/662064/records-players",
+      "sources": [
+        "https://www.premierleague.com/en/news/662064/records-players"
+      ],
+      "sets": [
+        "Fußball · Premier-League-Rekorde"
+      ],
+      "data_year_note": "Offizieller Premier-League-Datenstand laut Frage; Rekordseiten nach 90 Tagen erneut prüfen.",
+      "visual": "stadium-neutral",
+      "subject": "stadium-neutral"
+    }
+  ]
+}
