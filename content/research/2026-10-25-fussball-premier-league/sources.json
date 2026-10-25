@@ -1,0 +1,6 @@
+{
+  "appearances": {"url":"https://www.premierleague.com/en/news/4581338/premier-league-top-ten-all-time-appearances-leaders","title":"Premier League top 10 all-time appearance leaders","authority":"official-competition","checked":"2026-10-25","published":"2026-02-21","data_year":"2026-02-21","limits":"All-time Premier League appearances as displayed in the dated official article."},
+  "records": {"url":"https://www.premierleague.com/en/stats/records","title":"Premier League club, manager and player records","authority":"official-competition","checked":"2026-10-25","data_year":"live page checked 2026-10-25","limits":"Official record table; values are bound to the check date and must be reviewed after later matches."},
+  "player_records": {"url":"https://www.premierleague.com/en/news/662064/records-players","title":"Records: Players","authority":"official-competition","checked":"2026-10-25","updated":"2026-05-17","data_year":"through 2025/26 update","limits":"Official player-record article, including milestone goals, goalkeepers, substitutions and discipline."},
+  "season_1992": {"url":"https://www.premierleague.com/en/news/58731","title":"1992/93 Season Review: Man Utd win first PL title","authority":"official-competition","checked":"2026-10-25","data_year":"1992/93","limits":"Historical inaugural-season review."}
+}

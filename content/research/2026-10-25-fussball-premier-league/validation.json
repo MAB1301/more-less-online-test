@@ -1,0 +1,18 @@
+{
+  "checked": "2026-10-25",
+  "counts": {
+    "moreless": 2,
+    "estimate": 4,
+    "facts": 6,
+    "jeopardy": 8
+  },
+  "unique_observation_keys": 22,
+  "source_checks": true,
+  "duplicate_checks": true,
+  "image_structure_checks": true,
+  "rendered_visual_qa": true,
+  "game_merge_regression": true,
+  "full_regression": true,
+  "offline_build": true,
+  "notes": "Both SVGs rendered at native size and checked for safe margins, crop and answer leakage. Builder, checker, offline PWA build and full npm test passed on 2026-10-25."
+}

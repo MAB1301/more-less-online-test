@@ -1,0 +1,35 @@
+{
+  "checked": "2026-10-25",
+  "project": "rnwsbgzdrttqtivrwnxo",
+  "account": "Marc",
+  "table": "ml_private.daily_catalogue",
+  "mode": "read-only",
+  "rows_total": 7187,
+  "broad_matches": 76,
+  "candidate_name_matches": 0,
+  "observation_conflicts": 0,
+  "excluded_after_conflict_check": [
+    "Alan Shearer: 260 Premier-League goals",
+    "Wayne Rooney: 208 Premier-League goals",
+    "Frank Lampard vs Thierry Henry: Premier-League goals"
+  ],
+  "scope": [
+    "James Milner",
+    "Gareth Barry",
+    "David James",
+    "Gary Speed",
+    "Sadio Mane",
+    "Shane Long",
+    "Sergio Aguero",
+    "David Beckham",
+    "Eric Cantona",
+    "Jermain Defoe",
+    "Chris Sutton",
+    "Richard Dunne",
+    "Peter Schmeichel",
+    "Theo Walcott",
+    "Brian Deane",
+    "Petr Cech"
+  ],
+  "notes": "Initial broad query exposed 76 football/Premier-League rows and three planned conflicts, which were removed. A second read-only candidate-name query returned zero rows for every retained subject; manual observation review found zero retained conflicts."
+}

@@ -1,0 +1,47 @@
+{
+  "checked": "2026-10-25",
+  "open_pr_count": 27,
+  "open_pr_numbers": [
+    158,
+    157,
+    156,
+    155,
+    154,
+    153,
+    152,
+    151,
+    150,
+    149,
+    148,
+    147,
+    146,
+    145,
+    144,
+    138,
+    134,
+    132,
+    131,
+    130,
+    129,
+    128,
+    127,
+    126,
+    122,
+    109,
+    57
+  ],
+  "pending_questions_considered": 1140,
+  "football_relevant_prs": [
+    126
+  ],
+  "football_pending_raw": 191,
+  "football_pending_unique": 191,
+  "football_pending_by_game": {
+    "moreless": 89,
+    "estimate": 52,
+    "facts": 46,
+    "jeopardy": 4
+  },
+  "semantic_review": "PR #126 and all other open PRs reviewed. Existing Premier-League career totals/pairs and football-legends prompts were excluded; no exact, reversed-pair, same-observation or near-semantic conflict remains.",
+  "non_content_prs_reviewed": true
+}

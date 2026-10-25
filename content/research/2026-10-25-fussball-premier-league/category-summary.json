@@ -1,0 +1,46 @@
+{
+  "checked": "2026-10-25",
+  "target": {
+    "category": "Fußball",
+    "main_before": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 17,
+      "total": 17
+    },
+    "open_drafts_unique": {
+      "moreless": 89,
+      "estimate": 52,
+      "facts": 46,
+      "jeopardy": 4,
+      "total": 191
+    },
+    "before_including_open_drafts": {
+      "moreless": 89,
+      "estimate": 52,
+      "facts": 46,
+      "jeopardy": 21,
+      "total": 208
+    },
+    "this_draft": {
+      "moreless": 2,
+      "estimate": 4,
+      "facts": 6,
+      "jeopardy": 8,
+      "total": 20
+    },
+    "after_including_open_drafts": {
+      "moreless": 91,
+      "estimate": 56,
+      "facts": 52,
+      "jeopardy": 29,
+      "total": 228
+    }
+  },
+  "all_selectable_category_labels": 34,
+  "categories_completed_this_run": 1,
+  "other_category_labels_without_this_run_additions": 33,
+  "formal_missing_questions_against_20_per_category_run_target": 660,
+  "notes": "PR #126 contains 191 Fußball rows absent from Main (89/52/46/4). Its Premier-League career observations and matching Daily values were excluded. The new pack uses 22 separate observations."
+}

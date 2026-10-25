@@ -18,3 +18,5 @@ jobs:
       - name: Static game regression checks
         run: |
           node scripts/regression-check.mjs
+          python3 scripts/build-football-premier-league-draft-20261025.py --check
+          node scripts/check-football-premier-league-draft-20261025.mjs
