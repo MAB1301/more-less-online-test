@@ -11,9 +11,9 @@
   "duplicate_checks": true,
   "image_structure_checks": true,
   "rendered_visual_qa": false,
-  "game_merge_regression": false,
-  "full_regression": false,
-  "offline_build": false,
-  "ci_status": "pending",
-  "notes": "Execution environment was unavailable during preparation. Native rendering, full regression and offline build are required in GitHub Actions before reporting completion."
+  "game_merge_regression": true,
+  "full_regression": true,
+  "offline_build": true,
+  "ci_status": "success",
+  "notes": "Deterministic builder, package checker, game merge, complete regression and offline web-app build passed in GitHub Actions on 2026-10-26. Raster visual inspection remains open because no local execution environment was available; SVG structure, dimensions, safe margin and answer neutrality passed."
 }
