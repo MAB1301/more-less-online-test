@@ -1,0 +1,79 @@
+{
+  "michigan-area": {
+    "value": 57800,
+    "unit": "km²"
+  },
+  "huron-area": {
+    "value": 59600,
+    "unit": "km²"
+  },
+  "michigan-max-depth": {
+    "value": 282,
+    "unit": "m"
+  },
+  "ontario-max-depth": {
+    "value": 244,
+    "unit": "m"
+  },
+  "challenger-depth": {
+    "value": 10935,
+    "unit": "m"
+  },
+  "ocean-average-depth": {
+    "value": 3682,
+    "unit": "m"
+  },
+  "sahara-area": {
+    "value": 9200000,
+    "unit": "km²"
+  },
+  "baikal-length": {
+    "value": 640,
+    "unit": "km"
+  },
+  "great-lakes-share": {
+    "value": "about 21% of global surface fresh water"
+  },
+  "huron-shoreline": {
+    "value": "longest Great Lakes shoreline"
+  },
+  "dead-sea-outlet": {
+    "value": "evaporation only"
+  },
+  "challenger-location": {
+    "value": "western Pacific"
+  },
+  "baikal-age": {
+    "value": 25,
+    "unit": "million years"
+  },
+  "sahara-rank": {
+    "value": "largest hot desert; third overall"
+  },
+  "superior-largest-area": {
+    "value": "Lake Superior"
+  },
+  "ontario-smallest-area": {
+    "value": "Lake Ontario"
+  },
+  "erie-shallowest-average": {
+    "value": 19,
+    "unit": "m"
+  },
+  "superior-retention": {
+    "value": 191,
+    "unit": "years"
+  },
+  "baikal-deepest": {
+    "value": "Lake Baikal"
+  },
+  "baikal-largest-volume": {
+    "value": "Lake Baikal"
+  },
+  "mariana-contains-challenger": {
+    "value": "Mariana Trench"
+  },
+  "dead-sea-inflow": {
+    "value": "Jordan River"
+  }
+}

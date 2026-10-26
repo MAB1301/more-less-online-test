@@ -1,0 +1,19 @@
+{
+  "checked": "2026-10-26",
+  "counts": {
+    "moreless": 2,
+    "estimate": 4,
+    "facts": 6,
+    "jeopardy": 8
+  },
+  "unique_observation_keys": 22,
+  "source_checks": true,
+  "duplicate_checks": true,
+  "image_structure_checks": true,
+  "rendered_visual_qa": false,
+  "game_merge_regression": false,
+  "full_regression": false,
+  "offline_build": false,
+  "ci_status": "pending",
+  "notes": "Execution environment was unavailable during preparation. Native rendering, full regression and offline build are required in GitHub Actions before reporting completion."
+}

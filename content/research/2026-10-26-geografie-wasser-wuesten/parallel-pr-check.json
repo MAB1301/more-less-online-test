@@ -1,0 +1,52 @@
+{
+  "checked": "2026-10-26",
+  "open_pr_count": 28,
+  "open_pr_numbers": [
+    159,
+    158,
+    157,
+    156,
+    155,
+    154,
+    153,
+    152,
+    151,
+    150,
+    149,
+    148,
+    147,
+    146,
+    145,
+    144,
+    138,
+    134,
+    132,
+    131,
+    130,
+    129,
+    128,
+    127,
+    126,
+    122,
+    109,
+    57
+  ],
+  "approved_js_prs_reviewed": [
+    128,
+    126
+  ],
+  "pending_questions_considered": 1160,
+  "geografie_relevant_prs": [
+    128
+  ],
+  "geografie_pending_raw": 5,
+  "geografie_pending_unique": 5,
+  "geografie_pending_by_game": {
+    "moreless": 0,
+    "estimate": 0,
+    "facts": 0,
+    "jeopardy": 5
+  },
+  "semantic_review": "All open PR filenames reviewed; exact approved.js unions from #128 and #126 compared to Main. No retained prompt, pair, observation or answer conflict.",
+  "non_content_prs_reviewed": true
+}

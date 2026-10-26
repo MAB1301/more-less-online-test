@@ -1,0 +1,343 @@
+{
+  "checked": "2026-10-26",
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "category": "Geografie",
+  "subcategory": "Gewässer, Wüsten & Tiefsee",
+  "set": "Geografie · Wasser, Wüsten & Tiefsee",
+  "questions": [
+    {
+      "game": "moreless",
+      "id": "geo-20261026-area-michigan-huron",
+      "source_refs": [
+        "great_lakes_physical"
+      ],
+      "observation_keys": [
+        "michigan-area",
+        "huron-area"
+      ],
+      "data_year": "EPA table updated 2026-08-28",
+      "rounding": "EPA whole-square-kilometre display values.",
+      "notes": "Same EPA water-area field, unit and table date; 3.1% apart.",
+      "l": "Lake Michigan",
+      "r": "Lake Huron",
+      "lv": 57800,
+      "rv": 59600,
+      "u": "km² Wasserfläche · EPA-Tabelle",
+      "metric": "Wasserfläche der Großen Seen laut derselben EPA-Tabelle"
+    },
+    {
+      "game": "moreless",
+      "id": "geo-20261026-depth-michigan-ontario",
+      "source_refs": [
+        "great_lakes_physical"
+      ],
+      "observation_keys": [
+        "michigan-max-depth",
+        "ontario-max-depth"
+      ],
+      "data_year": "EPA table updated 2026-08-28",
+      "rounding": "EPA whole-metre display values at low water.",
+      "notes": "Same maximum-depth field, unit and table date; 15.6% apart.",
+      "l": "Lake Michigan",
+      "r": "Lake Ontario",
+      "lv": 282,
+      "rv": 244,
+      "u": "m Maximaltiefe · bei Niedrigwasser",
+      "metric": "Maximaltiefe bei Niedrigwasser laut derselben EPA-Tabelle"
+    },
+    {
+      "game": "estimate",
+      "id": "geo-20261026-challenger-depth",
+      "source_refs": [
+        "noaa_depth"
+      ],
+      "observation_keys": [
+        "challenger-depth"
+      ],
+      "data_year": "2021 measurement, NOAA page updated 2026-09-23",
+      "rounding": "NOAA approximate whole metres; underlying uncertainty not implied away.",
+      "notes": "Depth below mean sea level.",
+      "q": "Wie tief ist das Challenger Deep laut NOAA ungefähr?",
+      "a": 10935,
+      "u": "Meter"
+    },
+    {
+      "game": "estimate",
+      "id": "geo-20261026-ocean-average",
+      "source_refs": [
+        "noaa_depth"
+      ],
+      "observation_keys": [
+        "ocean-average-depth"
+      ],
+      "data_year": "NOAA page updated 2026-09-23",
+      "rounding": "NOAA approximate whole metres.",
+      "notes": "Global ocean average.",
+      "q": "Wie tief ist der Weltozean laut NOAA im Durchschnitt ungefähr?",
+      "a": 3682,
+      "u": "Meter"
+    },
+    {
+      "game": "estimate",
+      "id": "geo-20261026-sahara-area",
+      "source_refs": [
+        "sahara"
+      ],
+      "observation_keys": [
+        "sahara-area"
+      ],
+      "data_year": 2017,
+      "rounding": "NASA whole 100,000 km² display value.",
+      "notes": "Area of the Sahara, not all deserts.",
+      "q": "Wie groß ist die Sahara laut NASA ungefähr?",
+      "a": 9200000,
+      "u": "km²"
+    },
+    {
+      "game": "estimate",
+      "id": "geo-20261026-baikal-length",
+      "source_refs": [
+        "baikal"
+      ],
+      "observation_keys": [
+        "baikal-length"
+      ],
+      "data_year": 2024,
+      "rounding": "NASA rounded whole kilometres.",
+      "notes": "Approximate lake length.",
+      "q": "Wie lang ist der Baikalsee laut NASA ungefähr?",
+      "a": 640,
+      "u": "Kilometer"
+    },
+    {
+      "game": "facts",
+      "id": "geo-20261026-gl-freshwater",
+      "source_refs": [
+        "great_lakes_facts"
+      ],
+      "observation_keys": [
+        "great-lakes-share"
+      ],
+      "data_year": "page updated 2026-09-02",
+      "rounding": "EPA explicitly says about 21%.",
+      "notes": "Surface fresh water, not all freshwater.",
+      "difficulty": "easy",
+      "s": "Die Großen Seen enthalten laut EPA ungefähr 21 Prozent des weltweiten Oberflächen-Süßwassers.",
+      "a": true,
+      "e": "Die EPA nennt ungefähr 21 Prozent der weltweiten Versorgung mit Oberflächen-Süßwasser."
+    },
+    {
+      "game": "facts",
+      "id": "geo-20261026-huron-shoreline-false",
+      "source_refs": [
+        "great_lakes_physical"
+      ],
+      "observation_keys": [
+        "huron-shoreline"
+      ],
+      "data_year": "EPA page updated 2026-08-28",
+      "rounding": "Identity fact from the EPA page.",
+      "notes": "False statement reverses the ranking.",
+      "difficulty": "easy",
+      "s": "Lake Huron hat die kürzeste Uferlinie der Großen Seen.",
+      "a": false,
+      "e": "Die EPA bezeichnet Hurons Uferlinie als die längste der Großen Seen."
+    },
+    {
+      "game": "facts",
+      "id": "geo-20261026-dead-sea-outlet",
+      "source_refs": [
+        "dead_sea"
+      ],
+      "observation_keys": [
+        "dead-sea-outlet"
+      ],
+      "data_year": 2005,
+      "rounding": "Physical-process fact.",
+      "notes": "Outlet means loss path from the closed basin.",
+      "difficulty": "medium",
+      "s": "Der einzige Abflussweg des Wassers aus dem Toten Meer ist laut NASA die Verdunstung.",
+      "a": true,
+      "e": "Die NASA-Seite nennt Verdunstung als einzigen Auslass des Wassers."
+    },
+    {
+      "game": "facts",
+      "id": "geo-20261026-challenger-atlantic-false",
+      "source_refs": [
+        "noaa_depth"
+      ],
+      "observation_keys": [
+        "challenger-location"
+      ],
+      "data_year": "NOAA page updated 2026-09-23",
+      "rounding": "Ocean-basin identity.",
+      "notes": "False statement contrasts western Pacific.",
+      "difficulty": "medium",
+      "s": "Das Challenger Deep liegt im Atlantischen Ozean.",
+      "a": false,
+      "e": "NOAA verortet es im westlichen Pazifik, am Südende des Marianengrabens."
+    },
+    {
+      "game": "facts",
+      "id": "geo-20261026-baikal-age",
+      "source_refs": [
+        "baikal"
+      ],
+      "observation_keys": [
+        "baikal-age"
+      ],
+      "data_year": 2024,
+      "rounding": "NASA says about 25 million years, attributed to UNESCO.",
+      "notes": "Approximate geological age.",
+      "difficulty": "hard",
+      "s": "Der Baikalsee entstand laut der von NASA zitierten UNESCO-Angabe vor ungefähr 25 Millionen Jahren.",
+      "a": true,
+      "e": "NASA nennt unter Verweis auf UNESCO ein Alter von etwa 25 Millionen Jahren."
+    },
+    {
+      "game": "facts",
+      "id": "geo-20261026-sahara-rank-false",
+      "source_refs": [
+        "sahara"
+      ],
+      "observation_keys": [
+        "sahara-rank"
+      ],
+      "data_year": 2017,
+      "rounding": "Desert classification fact.",
+      "notes": "Distinguishes hot deserts from all deserts.",
+      "difficulty": "hard",
+      "s": "Die Sahara ist flächenmäßig die größte Wüste der Erde, auch wenn Polarwüsten mitgezählt werden.",
+      "a": false,
+      "e": "Sie ist die größte heiße Wüste, insgesamt aber nach Antarktis und Arktis die drittgrößte."
+    },
+    {
+      "game": "jeopardy",
+      "id": "geo-20261026-largest-great-lake",
+      "source_refs": [
+        "great_lakes_physical"
+      ],
+      "observation_keys": [
+        "superior-largest-area"
+      ],
+      "data_year": "EPA table updated 2026-08-28",
+      "rounding": "Ranking by EPA water area.",
+      "notes": "No map labels in the visual.",
+      "difficulty": 1,
+      "q": "Welcher Große See besitzt laut EPA mit 82.100 km² die größte Wasserfläche?",
+      "a": "Lake Superior|Oberer See|Superiorsee"
+    },
+    {
+      "game": "jeopardy",
+      "id": "geo-20261026-smallest-great-lake",
+      "source_refs": [
+        "great_lakes_physical"
+      ],
+      "observation_keys": [
+        "ontario-smallest-area"
+      ],
+      "data_year": "EPA table updated 2026-08-28",
+      "rounding": "Ranking by EPA water area.",
+      "notes": "Great Lakes only.",
+      "difficulty": 1,
+      "q": "Welcher Große See besitzt laut EPA mit 18.960 km² die kleinste Wasserfläche?",
+      "a": "Lake Ontario|Ontariosee|Ontario"
+    },
+    {
+      "game": "jeopardy",
+      "id": "geo-20261026-shallowest-average",
+      "source_refs": [
+        "great_lakes_physical"
+      ],
+      "observation_keys": [
+        "erie-shallowest-average"
+      ],
+      "data_year": "EPA table updated 2026-08-28",
+      "rounding": "EPA whole metres at low water.",
+      "notes": "Average depth, not maximum.",
+      "difficulty": 2,
+      "q": "Welcher Große See ist mit durchschnittlich 19 Metern laut EPA der flachste?",
+      "a": "Lake Erie|Eriesee|Erie"
+    },
+    {
+      "game": "jeopardy",
+      "id": "geo-20261026-retention",
+      "source_refs": [
+        "great_lakes_physical"
+      ],
+      "observation_keys": [
+        "superior-retention"
+      ],
+      "data_year": "EPA table updated 2026-08-28",
+      "rounding": "EPA whole-year retention estimate.",
+      "notes": "Retention time, not age.",
+      "difficulty": 3,
+      "q": "Welcher Große See hat laut EPA mit 191 Jahren die längste Wasser-Aufenthaltszeit?",
+      "a": "Lake Superior|Oberer See|Superiorsee"
+    },
+    {
+      "game": "jeopardy",
+      "id": "geo-20261026-deepest-lake",
+      "source_refs": [
+        "baikal"
+      ],
+      "observation_keys": [
+        "baikal-deepest"
+      ],
+      "data_year": 2024,
+      "rounding": "World-record identity; NASA depth is rounded.",
+      "notes": "Freshwater lake.",
+      "difficulty": 3,
+      "q": "Welchen See bezeichnet NASA als tiefsten See der Erde?",
+      "a": "Baikalsee|Lake Baikal|Baikal"
+    },
+    {
+      "game": "jeopardy",
+      "id": "geo-20261026-largest-fresh-volume",
+      "source_refs": [
+        "baikal"
+      ],
+      "observation_keys": [
+        "baikal-largest-volume"
+      ],
+      "data_year": 2024,
+      "rounding": "World-record identity by freshwater volume.",
+      "notes": "Not surface area.",
+      "difficulty": 4,
+      "q": "Welcher See ist laut NASA der größte Süßwassersee der Erde nach Volumen?",
+      "a": "Baikalsee|Lake Baikal|Baikal"
+    },
+    {
+      "game": "jeopardy",
+      "id": "geo-20261026-mariana-feature",
+      "source_refs": [
+        "noaa_depth"
+      ],
+      "observation_keys": [
+        "mariana-contains-challenger"
+      ],
+      "data_year": "NOAA page updated 2026-09-23",
+      "rounding": "Geographic containment relation.",
+      "notes": "Answer is trench, not deep.",
+      "difficulty": 4,
+      "q": "In welchem Tiefseegraben liegt das Challenger Deep?",
+      "a": "Marianengraben|Mariana Trench|Marianen-Graben"
+    },
+    {
+      "game": "jeopardy",
+      "id": "geo-20261026-dead-sea-inflow",
+      "source_refs": [
+        "dead_sea"
+      ],
+      "observation_keys": [
+        "dead-sea-inflow"
+      ],
+      "data_year": 2005,
+      "rounding": "Named-river relation.",
+      "notes": "NASA says rivers, most notably Jordan River, drain into basin.",
+      "difficulty": 5,
+      "q": "Welcher Fluss speist das Tote Meer besonders deutlich laut NASA?",
+      "a": "Jordan|Jordan River|Jordanfluss"
+    }
+  ]
+}

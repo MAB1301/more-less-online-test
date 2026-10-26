@@ -1,0 +1,16 @@
+{
+  "checked": "2026-10-26",
+  "main_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "main_question_identities": 1938,
+  "open_question_identities_considered": 1160,
+  "this_draft": 20,
+  "exact_prompt_conflicts": [],
+  "reversed_moreless_conflicts": [],
+  "same_observation_conflicts": [],
+  "near_semantic_conflicts": [],
+  "excluded_existing_topics": [
+    "existing country/river trivia",
+    "five pending Geografie Jeopardy rows from PR #128"
+  ],
+  "method": "Normalized prompt matching; unordered More/Less pair plus metric/source date; observation review against Main, all open PRs and Daily payloads."
+}

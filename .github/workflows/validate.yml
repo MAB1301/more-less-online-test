@@ -17,4 +17,4 @@ jobs:
           node-version: '22'
       - name: Static game regression checks
         run: |
-          node scripts/regression-check.mjs
+          node scripts/regression-check.mjs\n          python3 scripts/build-geografie-wasser-wuesten-draft-20261026.py --check\n          node scripts/check-geografie-wasser-wuesten-draft-20261026.mjs
