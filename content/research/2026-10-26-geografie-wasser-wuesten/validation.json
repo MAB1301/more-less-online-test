@@ -1,0 +1,19 @@
+{
+  "checked": "2026-10-26",
+  "counts": {
+    "moreless": 2,
+    "estimate": 4,
+    "facts": 6,
+    "jeopardy": 8
+  },
+  "unique_observation_keys": 22,
+  "source_checks": true,
+  "duplicate_checks": true,
+  "image_structure_checks": true,
+  "rendered_visual_qa": false,
+  "game_merge_regression": true,
+  "full_regression": true,
+  "offline_build": true,
+  "ci_status": "success",
+  "notes": "Deterministic builder, package checker, game merge, complete regression and offline web-app build passed in GitHub Actions on 2026-10-26. Raster visual inspection remains open because no local execution environment was available; SVG structure, dimensions, safe margin and answer neutrality passed."
+}

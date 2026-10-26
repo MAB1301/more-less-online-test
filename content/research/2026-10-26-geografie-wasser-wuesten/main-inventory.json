@@ -1,0 +1,245 @@
+{
+  "checked": "2026-10-26",
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "selectable_category_labels": 34,
+  "categories": {
+    "Allgemeinwissen": {
+      "moreless": 7,
+      "estimate": 11,
+      "facts": 8,
+      "jeopardy": 21,
+      "total": 47
+    },
+    "Autos": {
+      "moreless": 26,
+      "estimate": 25,
+      "facts": 16,
+      "jeopardy": 0,
+      "total": 67
+    },
+    "Autotechnik": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 26,
+      "total": 26
+    },
+    "Bauwerke": {
+      "moreless": 9,
+      "estimate": 12,
+      "facts": 6,
+      "jeopardy": 0,
+      "total": 27
+    },
+    "Champions League": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 17,
+      "total": 17
+    },
+    "Chemie": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 32,
+      "total": 32
+    },
+    "Deutschland": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 16,
+      "total": 16
+    },
+    "FIFA-Ratings": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 57,
+      "total": 57
+    },
+    "Fußball": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 17,
+      "total": 17
+    },
+    "Fußballer": {
+      "moreless": 59,
+      "estimate": 38,
+      "facts": 52,
+      "jeopardy": 0,
+      "total": 149
+    },
+    "Geografie": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 20,
+      "total": 20
+    },
+    "Geschichte": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 20,
+      "total": 20
+    },
+    "Kultur": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 17,
+      "total": 17
+    },
+    "Länder": {
+      "moreless": 9,
+      "estimate": 12,
+      "facts": 6,
+      "jeopardy": 0,
+      "total": 27
+    },
+    "Mix": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 18,
+      "total": 18
+    },
+    "Nationalparks": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 22,
+      "total": 22
+    },
+    "Natur": {
+      "moreless": 60,
+      "estimate": 20,
+      "facts": 12,
+      "jeopardy": 0,
+      "total": 92
+    },
+    "Planetenkunde": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 23,
+      "total": 23
+    },
+    "Planetenphysik": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 54,
+      "total": 54
+    },
+    "Raumfahrt": {
+      "moreless": 70,
+      "estimate": 20,
+      "facts": 12,
+      "jeopardy": 0,
+      "total": 102
+    },
+    "Raumfahrtmissionen": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 22,
+      "total": 22
+    },
+    "Rekorde & Extreme": {
+      "moreless": 9,
+      "estimate": 12,
+      "facts": 6,
+      "jeopardy": 14,
+      "total": 41
+    },
+    "Science-Fiction": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 15,
+      "total": 15
+    },
+    "Sport": {
+      "moreless": 20,
+      "estimate": 15,
+      "facts": 12,
+      "jeopardy": 15,
+      "total": 62
+    },
+    "Sportregeln": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 20,
+      "total": 20
+    },
+    "Star Wars": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 15,
+      "total": 15
+    },
+    "Städte": {
+      "moreless": 9,
+      "estimate": 12,
+      "facts": 8,
+      "jeopardy": 0,
+      "total": 29
+    },
+    "Tierwelt": {
+      "moreless": 9,
+      "estimate": 9,
+      "facts": 6,
+      "jeopardy": 0,
+      "total": 24
+    },
+    "Transfers": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 48,
+      "total": 48
+    },
+    "Vereinsstationen": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 18,
+      "total": 18
+    },
+    "Videospiele": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 35,
+      "total": 35
+    },
+    "Weltkultur": {
+      "moreless": 42,
+      "estimate": 17,
+      "facts": 12,
+      "jeopardy": 19,
+      "total": 90
+    },
+    "Weltraum": {
+      "moreless": 209,
+      "estimate": 70,
+      "facts": 28,
+      "jeopardy": 15,
+      "total": 322
+    },
+    "Wissenschaft": {
+      "moreless": 279,
+      "estimate": 30,
+      "facts": 20,
+      "jeopardy": 18,
+      "total": 347
+    }
+  }
+}

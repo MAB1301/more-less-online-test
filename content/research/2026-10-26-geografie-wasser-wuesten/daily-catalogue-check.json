@@ -1,0 +1,23 @@
+{
+  "checked": "2026-10-26",
+  "project": "rnwsbgzdrttqtivrwnxo",
+  "account": "Marc",
+  "table": "ml_private.daily_catalogue",
+  "mode": "read-only",
+  "rows_total": 7187,
+  "broad_matches": 0,
+  "observation_conflicts": 0,
+  "scope": [
+    "Lake Michigan",
+    "Lake Huron",
+    "Lake Superior",
+    "Lake Erie",
+    "Lake Ontario",
+    "Challenger Deep",
+    "Mariana Trench",
+    "Lake Baikal",
+    "Dead Sea",
+    "Sahara"
+  ],
+  "notes": "Read-only multilingual subject query returned zero broad matches and zero retained observation conflicts."
+}

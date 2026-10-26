@@ -1,0 +1,46 @@
+{
+  "checked": "2026-10-26",
+  "target": {
+    "category": "Geografie",
+    "main_before": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 20,
+      "total": 20
+    },
+    "open_drafts_unique": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 5,
+      "total": 5
+    },
+    "before_including_open_drafts": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 25,
+      "total": 25
+    },
+    "this_draft": {
+      "moreless": 2,
+      "estimate": 4,
+      "facts": 6,
+      "jeopardy": 8,
+      "total": 20
+    },
+    "after_including_open_drafts": {
+      "moreless": 2,
+      "estimate": 4,
+      "facts": 6,
+      "jeopardy": 33,
+      "total": 45
+    }
+  },
+  "all_selectable_category_labels": 34,
+  "categories_completed_this_run": 1,
+  "other_category_labels_without_this_run_additions": 33,
+  "formal_missing_questions_against_20_per_category_run_target": 660,
+  "notes": "Five pending Geografie Jeopardy rows come from PR #128. The new draft uses separate Great Lakes, Baikal, Dead Sea, Sahara and deep-ocean observations."
+}

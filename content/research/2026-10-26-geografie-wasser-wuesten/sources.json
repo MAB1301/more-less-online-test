@@ -1,0 +1,56 @@
+{
+  "great_lakes_physical": {
+    "url": "https://www.epa.gov/greatlakes/physical-features-great-lakes",
+    "title": "Physical Features of the Great Lakes",
+    "authority": "official-agency",
+    "checked": "2026-10-26",
+    "updated": "2026-08-28",
+    "data_year": "EPA table updated 2026-08-28",
+    "limits": "Low-water physical table; square-kilometre and metre values reproduced at EPA precision."
+  },
+  "great_lakes_facts": {
+    "url": "https://www.epa.gov/greatlakes/great-lakes-facts-and-figures",
+    "title": "Great Lakes Facts and Figures",
+    "authority": "official-agency",
+    "checked": "2026-10-26",
+    "updated": "2026-09-02",
+    "data_year": "page updated 2026-09-02",
+    "limits": "Surface-freshwater share is explicitly approximate."
+  },
+  "noaa_depth": {
+    "url": "https://oceanservice.noaa.gov/facts/oceandepth.html",
+    "title": "How deep is the ocean?",
+    "authority": "official-agency",
+    "checked": "2026-10-26",
+    "updated": "2026-09-23",
+    "data_year": "NOAA page updated 2026-09-23; Challenger Deep study value 2021",
+    "limits": "Challenger Deep approximately 10,935 m; average ocean depth approximately 3,682 m."
+  },
+  "baikal": {
+    "url": "https://science.nasa.gov/earth/earth-observatory/lake-baikal-at-night-153110/",
+    "title": "Lake Baikal at Night",
+    "authority": "official-agency",
+    "checked": "2026-10-26",
+    "published": "2024-12-24",
+    "data_year": "2024 NASA article; geological age about 25 million years",
+    "limits": "Length and depth are rounded NASA display values; age attributed by NASA to UNESCO."
+  },
+  "dead_sea": {
+    "url": "https://science.nasa.gov/earth/earth-observatory/dead-sea-6136/",
+    "title": "Dead Sea",
+    "authority": "official-agency",
+    "checked": "2026-10-26",
+    "published": "2005-12-25",
+    "data_year": "2005 article; physical geography",
+    "limits": "Elevation is rounded to nearly 400 m below sea level; only outlet stated as evaporation."
+  },
+  "sahara": {
+    "url": "https://www.nasa.gov/image-article/fires-dust-across-western-central-africa/",
+    "title": "Fires and Dust Across Western and Central Africa",
+    "authority": "official-agency",
+    "checked": "2026-10-26",
+    "published": "2017-02-08",
+    "data_year": "2017 NASA article; stable area classification",
+    "limits": "Area 9,200,000 km²; largest hot desert, third largest desert after Antarctica and Arctic."
+  }
+}

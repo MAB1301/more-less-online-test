@@ -1,0 +1,225 @@
+{
+  "policy": "Aktualisierte Behördenseiten und gerundete Naturmesswerte: 90 Tage; keine automatische Veröffentlichung.",
+  "records": [
+    {
+      "id": "geo-20261026-area-michigan-huron",
+      "game": "moreless",
+      "source": "https://www.epa.gov/greatlakes/physical-features-great-lakes",
+      "verified": "2026-10-26",
+      "data_year": "EPA table updated 2026-08-28",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "geo-20261026-depth-michigan-ontario",
+      "game": "moreless",
+      "source": "https://www.epa.gov/greatlakes/physical-features-great-lakes",
+      "verified": "2026-10-26",
+      "data_year": "EPA table updated 2026-08-28",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "geo-20261026-challenger-depth",
+      "game": "estimate",
+      "source": "https://oceanservice.noaa.gov/facts/oceandepth.html",
+      "verified": "2026-10-26",
+      "data_year": "2021 measurement, NOAA page updated 2026-09-23",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "geo-20261026-ocean-average",
+      "game": "estimate",
+      "source": "https://oceanservice.noaa.gov/facts/oceandepth.html",
+      "verified": "2026-10-26",
+      "data_year": "NOAA page updated 2026-09-23",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "geo-20261026-sahara-area",
+      "game": "estimate",
+      "source": "https://www.nasa.gov/image-article/fires-dust-across-western-central-africa/",
+      "verified": "2026-10-26",
+      "data_year": 2017,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "geo-20261026-baikal-length",
+      "game": "estimate",
+      "source": "https://science.nasa.gov/earth/earth-observatory/lake-baikal-at-night-153110/",
+      "verified": "2026-10-26",
+      "data_year": 2024,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "geo-20261026-gl-freshwater",
+      "game": "facts",
+      "source": "https://www.epa.gov/greatlakes/great-lakes-facts-and-figures",
+      "verified": "2026-10-26",
+      "data_year": "page updated 2026-09-02",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "geo-20261026-huron-shoreline-false",
+      "game": "facts",
+      "source": "https://www.epa.gov/greatlakes/physical-features-great-lakes",
+      "verified": "2026-10-26",
+      "data_year": "EPA page updated 2026-08-28",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "geo-20261026-dead-sea-outlet",
+      "game": "facts",
+      "source": "https://science.nasa.gov/earth/earth-observatory/dead-sea-6136/",
+      "verified": "2026-10-26",
+      "data_year": 2005,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "geo-20261026-challenger-atlantic-false",
+      "game": "facts",
+      "source": "https://oceanservice.noaa.gov/facts/oceandepth.html",
+      "verified": "2026-10-26",
+      "data_year": "NOAA page updated 2026-09-23",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "geo-20261026-baikal-age",
+      "game": "facts",
+      "source": "https://science.nasa.gov/earth/earth-observatory/lake-baikal-at-night-153110/",
+      "verified": "2026-10-26",
+      "data_year": 2024,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "geo-20261026-sahara-rank-false",
+      "game": "facts",
+      "source": "https://www.nasa.gov/image-article/fires-dust-across-western-central-africa/",
+      "verified": "2026-10-26",
+      "data_year": 2017,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "geo-20261026-largest-great-lake",
+      "game": "jeopardy",
+      "source": "https://www.epa.gov/greatlakes/physical-features-great-lakes",
+      "verified": "2026-10-26",
+      "data_year": "EPA table updated 2026-08-28",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "geo-20261026-smallest-great-lake",
+      "game": "jeopardy",
+      "source": "https://www.epa.gov/greatlakes/physical-features-great-lakes",
+      "verified": "2026-10-26",
+      "data_year": "EPA table updated 2026-08-28",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "geo-20261026-shallowest-average",
+      "game": "jeopardy",
+      "source": "https://www.epa.gov/greatlakes/physical-features-great-lakes",
+      "verified": "2026-10-26",
+      "data_year": "EPA table updated 2026-08-28",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "geo-20261026-retention",
+      "game": "jeopardy",
+      "source": "https://www.epa.gov/greatlakes/physical-features-great-lakes",
+      "verified": "2026-10-26",
+      "data_year": "EPA table updated 2026-08-28",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "geo-20261026-deepest-lake",
+      "game": "jeopardy",
+      "source": "https://science.nasa.gov/earth/earth-observatory/lake-baikal-at-night-153110/",
+      "verified": "2026-10-26",
+      "data_year": 2024,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "geo-20261026-largest-fresh-volume",
+      "game": "jeopardy",
+      "source": "https://science.nasa.gov/earth/earth-observatory/lake-baikal-at-night-153110/",
+      "verified": "2026-10-26",
+      "data_year": 2024,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "geo-20261026-mariana-feature",
+      "game": "jeopardy",
+      "source": "https://oceanservice.noaa.gov/facts/oceandepth.html",
+      "verified": "2026-10-26",
+      "data_year": "NOAA page updated 2026-09-23",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-24",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "geo-20261026-dead-sea-inflow",
+      "game": "jeopardy",
+      "source": "https://science.nasa.gov/earth/earth-observatory/dead-sea-6136/",
+      "verified": "2026-10-26",
+      "data_year": 2005,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-24",
+      "review_status": "draft-review-required"
+    }
+  ]
+}
