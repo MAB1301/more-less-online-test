@@ -1,0 +1,30 @@
+{
+  "checked": "2026-10-27",
+  "target": {
+    "category": "Mix",
+    "main_before": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 28,
+      "total": 28
+    },
+    "open_drafts_before": {
+      "total": 0,
+      "note": "29 open PRs / 1,180 pending questions checked; no Mix addition or selected observation found."
+    },
+    "after_including_this_draft": {
+      "moreless": 2,
+      "estimate": 4,
+      "facts": 6,
+      "jeopardy": 36,
+      "total": 48
+    }
+  },
+  "run_target": {
+    "existing_category_labels": 35,
+    "completed_category_labels": 1,
+    "missing_questions_against_20_per_category_run_target": 680,
+    "note": "This reviewed draft completes 20 only for Mix."
+  }
+}

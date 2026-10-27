@@ -1,0 +1,22 @@
+{
+  "checked": "2026-10-27",
+  "questions": 20,
+  "counts": {
+    "moreless": 2,
+    "estimate": 4,
+    "facts": 6,
+    "jeopardy": 8
+  },
+  "unique_observation_keys": 22,
+  "balanced_fact_levels": true,
+  "official_sources": 7,
+  "svg_variants": 2,
+  "rendered_visual_qa": true,
+  "image_corrections": [
+    "Both original SVGs use a 40 px safe frame; the detail composition is centred independently so no motif or stroke is clipped at 16:9."
+  ],
+  "main_review_records": 941,
+  "due_records": [],
+  "review_only": true,
+  "database_writes": 0
+}
