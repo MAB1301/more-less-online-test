@@ -1,0 +1,8 @@
+{
+  "checked": "2026-10-27",
+  "main_unique_keys": 2236,
+  "draft_unique_keys": 20,
+  "exact_or_reversed_conflicts": [],
+  "semantic_review": "All 22 observations were checked against Main, 29 open PRs and the 7,187-row Daily catalogue. Existing speed-of-light content was excluded. Both comparisons use the same edition, metric and unit and differ by under 5.3%.",
+  "limits": "Normalization plus manual observation-level review."
+}
