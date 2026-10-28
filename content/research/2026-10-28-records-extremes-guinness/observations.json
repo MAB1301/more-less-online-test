@@ -1,0 +1,13 @@
+{
+  "canakkale-span":{"value":2023,"unit":"m","source_ref":"longest_span"},"akashi-span":{"value":1991,"unit":"m","source_ref":"akashi"},
+  "reggie-height":{"value":100.7,"unit":"cm","source_ref":"dog_male"},"minnie-height":{"value":97.5,"unit":"cm","source_ref":"dog_female"},
+  "highest-bridge-height":{"value":626.01,"unit":"m","source_ref":"highest_bridge"},"longest-bridge-length":{"value":164,"unit":"km","source_ref":"longest_bridge"},
+  "glass-bridge-length":{"value":526.14,"unit":"m","source_ref":"glass_bridge"},"khone-width":{"value":10783,"unit":"m","source_ref":"widest_waterfall"},
+  "danyang-country":{"value":"China","source_ref":"longest_bridge"},"pearl-breed":{"value":"Chihuahua","source_ref":"dog_shortest"},
+  "lou-ears":{"value":"34 cm each","source_ref":"dog_ears"},"angel-single-drop":{"value":807,"unit":"m","source_ref":"angel_falls"},
+  "highest-bridge-build":{"value":"2022–2025","source_ref":"highest_bridge"},"danyang-use":{"value":"high-speed railway","source_ref":"longest_bridge"},
+  "jeop-danyang":{"value":"Danyang–Kunshan Grand Bridge","source_ref":"longest_bridge"},"jeop-canakkale":{"value":"1915 Çanakkale Bridge","source_ref":"longest_span"},
+  "jeop-highest-country":{"value":"China","source_ref":"highest_bridge"},"jeop-reggie":{"value":"Reggie","source_ref":"dog_male"},
+  "jeop-minnie":{"value":"Minnie","source_ref":"dog_female"},"jeop-pearl":{"value":"Pearl","source_ref":"dog_shortest"},
+  "jeop-lou":{"value":"Lou","source_ref":"dog_ears"},"jeop-tugela":{"value":"Tugela Falls","source_ref":"tugela"}
+}

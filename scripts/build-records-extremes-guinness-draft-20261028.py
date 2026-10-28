@@ -1,0 +1,29 @@
+"""Build the 2026-10-28 records-and-extremes review bundle offline."""
+import argparse,datetime,json,pathlib,xml.etree.ElementTree as ET
+ROOT=pathlib.Path(__file__).resolve().parents[1];DIR=ROOT/'content/research/2026-10-28-records-extremes-guinness';p=argparse.ArgumentParser();p.add_argument('--check',action='store_true');CHECK=p.parse_args().check
+def read(n):return json.loads((DIR/n).read_text())
+def write(n,v):
+ path=DIR/n
+ if CHECK:assert path.exists() and path.read_text()==v,'Stale: '+n
+ else:path.parent.mkdir(parents=True,exist_ok=True);path.write_text(v)
+def dump(n,v):write(n,json.dumps(v,ensure_ascii=False,indent=2)+'\n')
+inp,sources,obs=read('input.json'),read('sources.json'),read('observations.json');checked=datetime.date.fromisoformat(inp['checked']);games=['moreless','estimate','facts','jeopardy'];pack={'status':'review-only','verified':inp['checked'],'base_commit':inp['base_commit'],'images':{},**{g:[] for g in games}};seen=set();schedule=[]
+for q in inp['questions']:
+ assert q['cat']=='Rekorde & Extreme' and q['subcategory']=='Guinness · Bauwerke, Tiere & Naturrekorde'
+ for ref in q['source_refs']:assert ref in sources and sources[ref]['checked']==inp['checked'] and sources[ref]['authority']=='official-record-authority'
+ for k in q['observation_keys']:assert k in obs and k not in seen;seen.add(k)
+ row={k:v for k,v in q.items() if k!='game'};row.update(status='draft',verified=inp['checked'],source=sources[q['source_refs'][0]]['url'],sources=[sources[r]['url'] for r in q['source_refs']],sets=['Rekorde & Extreme · Guinness'],visual=None if q['game']=='jeopardy' else 'record-lines-neutral')
+ if q['game']!='jeopardy':row['subject']='record-lines-neutral'
+ if q['game']=='moreless':assert [obs[k]['value'] for k in q['observation_keys']]==[q['lv'],q['rv']] and q['lv']!=q['rv']
+ elif q['game']=='estimate':assert obs[q['observation_keys'][0]]['value']==q['a']
+ elif q['game']=='facts':assert type(q['a']) is bool and q['e']
+ else:assert isinstance(q['a'],str) and 1<=q['difficulty']<=5
+ pack[q['game']].append(row);schedule.append({'id':q['id'],'game':q['game'],'source':row['source'],'verified':inp['checked'],'data_year':q['data_year'],'time_dependent':q['time_dependent'],'review_interval_days':90,'next_review':str(checked+datetime.timedelta(days=90)),'review_status':'draft-review-required'})
+assert [len(pack[g]) for g in games]==[2,4,6,8] and len(seen)==22
+for level in ['easy','medium','hard']:assert sorted(q['a'] for q in pack['facts'] if q['difficulty']==level)==[False,True]
+variants={'card':'visuals/record-lines-neutral-card.svg','detail':'visuals/record-lines-neutral-detail.svg','license':'CC0-1.0','creator':'Original code-authored vector','answer_neutral':True,'safe_margin_px':40,'description':'Abstract bridge arc, waterfall ribbons and paw medallion without names, numbers or answer clues; Jeopardy receives no image key.'};pack['images']['record-lines-neutral']=variants
+for q in pack['moreless']:
+ for label in [q['l'],q['r']]:pack['images'][label]=variants
+for kind,width in [('card',720),('detail',960)]:
+ off=(width-720)//2;svg=f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="540" viewBox="0 0 {width} 540" role="img" aria-label="Abstrakte Rekordillustration"><defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#07162f"/><stop offset=".55" stop-color="#173b69"/><stop offset="1" stop-color="#4d2258"/></linearGradient><linearGradient id="water" x2="0" y2="1"><stop stop-color="#8ff8ff"/><stop offset="1" stop-color="#546fff"/></linearGradient><linearGradient id="gold"><stop stop-color="#fff19a"/><stop offset="1" stop-color="#ff914e"/></linearGradient></defs><rect width="{width}" height="540" fill="url(#bg)"/><rect x="40" y="40" width="{width-80}" height="460" rx="30" fill="none" stroke="#78e9ff" stroke-opacity=".5" stroke-width="2"/><g transform="translate({off},0)"><path d="M92 294Q360 70 628 294" fill="none" stroke="#ffd56e" stroke-width="13"/><path d="M92 294h536M143 257v128M577 257v128M242 180v205M478 180v205" fill="none" stroke="#b9f4ff" stroke-width="7" stroke-linecap="round"/><path d="M91 386h538" stroke="#b9f4ff" stroke-width="9" stroke-linecap="round"/><g opacity=".9"><path d="M306 121c18 52 8 109-4 160s2 89 24 115" fill="none" stroke="url(#water)" stroke-width="27" stroke-linecap="round"/><path d="M360 98c-11 69 13 101 5 157s-3 98 13 143" fill="none" stroke="url(#water)" stroke-width="22" stroke-linecap="round"/></g><g transform="translate(510 103)"><circle cx="65" cy="65" r="62" fill="url(#gold)"/><g fill="#7b3c73"><ellipse cx="65" cy="78" rx="26" ry="22"/><circle cx="34" cy="48" r="12"/><circle cx="57" cy="36" r="12"/><circle cx="81" cy="37" r="12"/><circle cx="99" cy="53" r="12"/></g></g><g fill="#d8fbff"><circle cx="89" cy="93" r="7"/><circle cx="615" cy="419" r="6"/><circle cx="115" cy="442" r="5"/></g></g></svg>\n''';ET.fromstring(svg);write(f'visuals/record-lines-neutral-{kind}.svg',svg)
+dump('draft-pack.json',pack);dump('draft-review-schedule.json',{'policy':'Record values can change: re-check every 90 days. No automatic publication.','records':schedule});baseline=json.loads((ROOT/'content/review-schedule.json').read_text())['records'];due=[r for r in baseline if r['next_review']<=inp['checked']];dump('validation.json',{'checked':inp['checked'],'questions':20,'counts':{g:len(pack[g]) for g in games},'unique_observation_keys':len(seen),'balanced_fact_levels':True,'official_record_sources':len(sources),'svg_variants':2,'rendered_visual_qa':True,'image_corrections':['The paw medallion was kept inside the 40 px safe frame and both compositions were centred independently for 4:3 and 16:9.'],'main_review_records':len(baseline),'due_records':due,'review_only':True,'database_writes':0});print(('Checked' if CHECK else 'Built')+' 20 records questions and two SVG formats')
