@@ -1,0 +1,8 @@
+{
+  "checked": "2026-10-28",
+  "main_unique_keys": 2236,
+  "draft_unique_keys": 20,
+  "exact_or_reversed_conflicts": [],
+  "semantic_review": "All 22 observations were checked against Main, 30 open PRs and 7,187 Daily rows. Existing Baikal, Sahara, Antarctica and Caspian values were excluded. Bridge spans differ by 1.61%; dog withers heights use the same record method and differ by 3.28%.",
+  "limits": "Normalization plus observation-level review; mutable Guinness titles require 90-day re-check."
+}

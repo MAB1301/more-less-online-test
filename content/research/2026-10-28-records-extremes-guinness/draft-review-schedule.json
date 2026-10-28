@@ -1,0 +1,225 @@
+{
+  "policy": "Record values can change: re-check every 90 days. No automatic publication.",
+  "records": [
+    {
+      "id": "records-20261028-bridge-spans",
+      "game": "moreless",
+      "source": "https://www.guinnessworldrecords.com/world-records/420795-longest-bridge-span",
+      "verified": "2026-10-28",
+      "data_year": "2022 record / 1998 bridge specification",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-26",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "records-20261028-dog-heights",
+      "game": "moreless",
+      "source": "https://www.guinnessworldrecords.com/world-records/209661-tallest-dog-living--male",
+      "verified": "2026-10-28",
+      "data_year": "Both verified 2025",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-26",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "records-20261028-highest-bridge",
+      "game": "estimate",
+      "source": "https://www.guinnessworldrecords.com/world-records/highest-bridge-deck",
+      "verified": "2026-10-28",
+      "data_year": "Record achieved 2026",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-26",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "records-20261028-longest-bridge",
+      "game": "estimate",
+      "source": "https://www.guinnessworldrecords.com/world-records/longest-bridge",
+      "verified": "2026-10-28",
+      "data_year": "Opened 2011; record page checked 2026",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-26",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "records-20261028-glass-bridge",
+      "game": "estimate",
+      "source": "https://www.guinnessworldrecords.com/world-records/523265-longest-glass-bottomed-bridge",
+      "verified": "2026-10-28",
+      "data_year": "Record achieved 2020",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-26",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "records-20261028-khone-width",
+      "game": "estimate",
+      "source": "https://www.guinnessworldrecords.com/world-records/66591-widest-waterfall",
+      "verified": "2026-10-28",
+      "data_year": "Record page checked 2026",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-26",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "records-20261028-danyang-country",
+      "game": "facts",
+      "source": "https://www.guinnessworldrecords.com/world-records/longest-bridge",
+      "verified": "2026-10-28",
+      "data_year": "Record page checked 2026",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-26",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "records-20261028-pearl-breed",
+      "game": "facts",
+      "source": "https://www.guinnessworldrecords.com/world-records/smallest-dog-living-%28height%29",
+      "verified": "2026-10-28",
+      "data_year": "Verified 2022",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-26",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "records-20261028-lou-ears",
+      "game": "facts",
+      "source": "https://www.guinnessworldrecords.com/world-records/longest-ears-on-a-dog-living",
+      "verified": "2026-10-28",
+      "data_year": "Verified 2020",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-26",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "records-20261028-angel-drop",
+      "game": "facts",
+      "source": "https://www.guinnessworldrecords.com/world-records/highest-waterfall",
+      "verified": "2026-10-28",
+      "data_year": "1949 survey cited by current page",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-26",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "records-20261028-highest-build",
+      "game": "facts",
+      "source": "https://www.guinnessworldrecords.com/world-records/highest-bridge-deck",
+      "verified": "2026-10-28",
+      "data_year": "Construction 2022–2025",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-26",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "records-20261028-danyang-use",
+      "game": "facts",
+      "source": "https://www.guinnessworldrecords.com/world-records/longest-bridge",
+      "verified": "2026-10-28",
+      "data_year": "Opened 2011",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-26",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "records-20261028-jeop-danyang",
+      "game": "jeopardy",
+      "source": "https://www.guinnessworldrecords.com/world-records/longest-bridge",
+      "verified": "2026-10-28",
+      "data_year": "Record page checked 2026",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-26",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "records-20261028-jeop-canakkale",
+      "game": "jeopardy",
+      "source": "https://www.guinnessworldrecords.com/world-records/420795-longest-bridge-span",
+      "verified": "2026-10-28",
+      "data_year": "Record achieved 2022",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-26",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "records-20261028-jeop-highest-country",
+      "game": "jeopardy",
+      "source": "https://www.guinnessworldrecords.com/world-records/highest-bridge-deck",
+      "verified": "2026-10-28",
+      "data_year": "Record achieved 2026",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-26",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "records-20261028-jeop-reggie",
+      "game": "jeopardy",
+      "source": "https://www.guinnessworldrecords.com/world-records/209661-tallest-dog-living--male",
+      "verified": "2026-10-28",
+      "data_year": "Verified 2025",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-26",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "records-20261028-jeop-minnie",
+      "game": "jeopardy",
+      "source": "https://www.guinnessworldrecords.com/world-records/210251-tallest-dog-living-%E2%80%93-female",
+      "verified": "2026-10-28",
+      "data_year": "Verified 2025",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-26",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "records-20261028-jeop-pearl",
+      "game": "jeopardy",
+      "source": "https://www.guinnessworldrecords.com/world-records/smallest-dog-living-%28height%29",
+      "verified": "2026-10-28",
+      "data_year": "Verified 2022",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-26",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "records-20261028-jeop-lou",
+      "game": "jeopardy",
+      "source": "https://www.guinnessworldrecords.com/world-records/longest-ears-on-a-dog-living",
+      "verified": "2026-10-28",
+      "data_year": "Verified 2020",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-26",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "records-20261028-jeop-tugela",
+      "game": "jeopardy",
+      "source": "https://www.guinnessworldrecords.com/world-records/382102-tallest-multi-tiered-waterfall",
+      "verified": "2026-10-28",
+      "data_year": "Record page cites 2014",
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-26",
+      "review_status": "draft-review-required"
+    }
+  ]
+}
