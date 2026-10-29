@@ -1,0 +1,225 @@
+{
+  "policy": "Completed historical club careers: 365-day editorial recheck before publication; no automatic publication.",
+  "records": [
+    {
+      "id": "club-paths-20261029-apps-guti-marcelo",
+      "game": "moreless",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/jose-maria-gutierrez?lang=en",
+      "verified": "2026-10-29",
+      "data_year": "completed club careers through 2010/2022",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-29",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "club-paths-20261029-apps-khedira-ozil",
+      "game": "moreless",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/sami-khedira",
+      "verified": "2026-10-29",
+      "data_year": "completed club careers through 2015/2013",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-29",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "club-paths-20261029-apps-xabi",
+      "game": "estimate",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/xabier-alonso-olano",
+      "verified": "2026-10-29",
+      "data_year": "completed club career through 2014",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-29",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "club-paths-20261029-apps-dimaria",
+      "game": "estimate",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/angel-di-maria",
+      "verified": "2026-10-29",
+      "data_year": "completed club career through 2014",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-29",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "club-paths-20261029-apps-bale",
+      "game": "estimate",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/gareth-bale",
+      "verified": "2026-10-29",
+      "data_year": "completed club career through 2022",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-29",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "club-paths-20261029-apps-casemiro",
+      "game": "estimate",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/carlos-henrique-casimiro",
+      "verified": "2026-10-29",
+      "data_year": "completed club career through 2022",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-29",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "club-paths-20261029-mcmanaman-liverpool",
+      "game": "facts",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/steven-mcmanaman",
+      "verified": "2026-10-29",
+      "data_year": 1999,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-29",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "club-paths-20261029-cannavaro-inter",
+      "game": "facts",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/fabio-cannavaro",
+      "verified": "2026-10-29",
+      "data_year": 2006,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-29",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "club-paths-20261029-redondo-tenerife",
+      "game": "facts",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/fernando-carlos-redondo-neri",
+      "verified": "2026-10-29",
+      "data_year": 1994,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-29",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "club-paths-20261029-carvalho-porto",
+      "game": "facts",
+      "source": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/goles-con-historia-carvalho",
+      "verified": "2026-10-29",
+      "data_year": 2010,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-29",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "club-paths-20261029-beckham-united",
+      "game": "facts",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/david-robert-joseph-beckham",
+      "verified": "2026-10-29",
+      "data_year": 2003,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-29",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "club-paths-20261029-figo-milan",
+      "game": "facts",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/luis-filipe-madeira-caeiro",
+      "verified": "2026-10-29",
+      "data_year": 2009,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-29",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "club-paths-20261029-roberto-carlos-inter",
+      "game": "jeopardy",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/roberto-carlos-da-silva",
+      "verified": "2026-10-29",
+      "data_year": 1996,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-29",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "club-paths-20261029-makelele-celta",
+      "game": "jeopardy",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/claude-makelele",
+      "verified": "2026-10-29",
+      "data_year": 2000,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-29",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "club-paths-20261029-seedorf-sampdoria",
+      "game": "jeopardy",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/clarence-seedorf",
+      "verified": "2026-10-29",
+      "data_year": 1996,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-29",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "club-paths-20261029-nistelrooy-united",
+      "game": "jeopardy",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/rutgerus-johannes-martinus-van-nistelrooy/",
+      "verified": "2026-10-29",
+      "data_year": 2006,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-29",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "club-paths-20261029-kaka-milan",
+      "game": "jeopardy",
+      "source": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/goles-con-historia-kaka",
+      "verified": "2026-10-29",
+      "data_year": 2009,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-29",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "club-paths-20261029-owen-liverpool",
+      "game": "jeopardy",
+      "source": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/goles-con-historia-owen",
+      "verified": "2026-10-29",
+      "data_year": 2004,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-29",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "club-paths-20261029-laudrup-barcelona",
+      "game": "jeopardy",
+      "source": "https://www.realmadrid.com/es-ES/el-club/historia/leyendas-futbol/michael-laudrup",
+      "verified": "2026-10-29",
+      "data_year": 1994,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-29",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "club-paths-20261029-robben-chelsea",
+      "game": "jeopardy",
+      "source": "https://www.realmadrid.com/StaticFiles/RealMadrid/pretemporada/preseason_press_kit_0910_en.pdf",
+      "verified": "2026-10-29",
+      "data_year": 2007,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-29",
+      "review_status": "draft-review-required"
+    }
+  ]
+}

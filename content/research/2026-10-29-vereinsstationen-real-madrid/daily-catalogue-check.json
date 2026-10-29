@@ -1,0 +1,13 @@
+{
+  "checked": "2026-10-29",
+  "project_id": "rnwsbgzdrttqtivrwnxo",
+  "account": "Marc",
+  "schema_table": "ml_private.daily_catalogue",
+  "access": "read-only",
+  "rows_total": 7187,
+  "rows_by_game": {"moreless": 4228, "estimate": 1507, "facts": 1452},
+  "terms_checked": ["Guti","Marcelo","Khedira","Özil","Xabi Alonso","Di María","Gareth Bale","Casemiro","McManaman","Redondo","Beckham","Cannavaro","Figo","Ricardo Carvalho","Roberto Carlos","Makelele","Seedorf","Van Nistelrooy","Kaká","Michael Owen","Laudrup","Arjen Robben"],
+  "matches": 0,
+  "database_writes": 0,
+  "note": "Exact payload-text term counts were zero for every retained subject. This is an additional collision screen; semantic Main/PR review remains authoritative."
+}

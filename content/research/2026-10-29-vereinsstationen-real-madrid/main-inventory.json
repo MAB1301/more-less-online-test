@@ -1,0 +1,548 @@
+{
+  "checked": "2026-10-29",
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "definition": "Distinct normalized prompts; More/Less uses unordered subject pairs plus unit and metric. Semantic observation identity is reviewed separately.",
+  "games": {
+    "moreless": {
+      "raw": 817,
+      "unique": 817,
+      "categories": {
+        "Allgemeinwissen": {
+          "count": 7,
+          "subcategories": [
+            "Überblick & neue Perspektiven"
+          ]
+        },
+        "Autos": {
+          "count": 26,
+          "subcategories": [
+            "Abmessungen",
+            "Technik & Abmessungen"
+          ]
+        },
+        "Bauwerke": {
+          "count": 9,
+          "subcategories": [
+            "Überblick & neue Perspektiven"
+          ]
+        },
+        "Fußballer": {
+          "count": 59,
+          "subcategories": [
+            "FC 26",
+            "Geschichte & Jahreszahlen",
+            "Überblick & neue Perspektiven"
+          ]
+        },
+        "Länder": {
+          "count": 9,
+          "subcategories": [
+            "Überblick & neue Perspektiven"
+          ]
+        },
+        "Natur": {
+          "count": 60,
+          "subcategories": [
+            "Geschichte & Jahreszahlen",
+            "Überblick & neue Perspektiven"
+          ]
+        },
+        "Raumfahrt": {
+          "count": 70,
+          "subcategories": [
+            "Werte & Vergleiche",
+            "Überblick & neue Perspektiven"
+          ]
+        },
+        "Rekorde & Extreme": {
+          "count": 9,
+          "subcategories": [
+            "Überblick & neue Perspektiven"
+          ]
+        },
+        "Sport": {
+          "count": 20,
+          "subcategories": [
+            "Überblick & neue Perspektiven"
+          ]
+        },
+        "Städte": {
+          "count": 9,
+          "subcategories": [
+            "Überblick & neue Perspektiven"
+          ]
+        },
+        "Tierwelt": {
+          "count": 9,
+          "subcategories": [
+            "Überblick & neue Perspektiven"
+          ]
+        },
+        "Weltkultur": {
+          "count": 42,
+          "subcategories": [
+            "Flächen & Landschaften",
+            "Überblick & neue Perspektiven"
+          ]
+        },
+        "Weltraum": {
+          "count": 209,
+          "subcategories": [
+            "Bahnen & Rotation",
+            "Technik & Abmessungen",
+            "Werte & Vergleiche",
+            "Überblick & neue Perspektiven"
+          ]
+        },
+        "Wissenschaft": {
+          "count": 279,
+          "subcategories": [
+            "Überblick & neue Perspektiven"
+          ]
+        }
+      }
+    },
+    "estimate": {
+      "raw": 303,
+      "unique": 303,
+      "categories": {
+        "Allgemeinwissen": {
+          "count": 11,
+          "subcategories": [
+            "Brettspiele & Rätsel",
+            "Zahlen & Schätzungen"
+          ]
+        },
+        "Autos": {
+          "count": 25,
+          "subcategories": [
+            "Abmessungen",
+            "Technik & Abmessungen"
+          ]
+        },
+        "Bauwerke": {
+          "count": 12,
+          "subcategories": [
+            "Baugeschichte",
+            "Überblick & neue Perspektiven"
+          ]
+        },
+        "Fußballer": {
+          "count": 38,
+          "subcategories": [
+            "Spielerprofile",
+            "Überblick & neue Perspektiven"
+          ]
+        },
+        "Länder": {
+          "count": 12,
+          "subcategories": [
+            "Zahlen & Schätzungen",
+            "Überblick & neue Perspektiven"
+          ]
+        },
+        "Natur": {
+          "count": 20,
+          "subcategories": [
+            "Besucherzahlen 2025",
+            "Überblick & neue Perspektiven"
+          ]
+        },
+        "Raumfahrt": {
+          "count": 20,
+          "subcategories": [
+            "Sonden & Teleskope",
+            "Zahlen & Schätzungen"
+          ]
+        },
+        "Rekorde & Extreme": {
+          "count": 12,
+          "subcategories": [
+            "Historische Rennen",
+            "Überblick & neue Perspektiven"
+          ]
+        },
+        "Sport": {
+          "count": 15,
+          "subcategories": [
+            "Spielfeldmaße",
+            "Zahlen & Schätzungen"
+          ]
+        },
+        "Städte": {
+          "count": 12,
+          "subcategories": [
+            "Universitäten",
+            "Überblick & neue Perspektiven"
+          ]
+        },
+        "Tierwelt": {
+          "count": 9,
+          "subcategories": [
+            "Überblick & neue Perspektiven"
+          ]
+        },
+        "Weltkultur": {
+          "count": 17,
+          "subcategories": [
+            "UNESCO-Flächen",
+            "Überblick & neue Perspektiven"
+          ]
+        },
+        "Weltraum": {
+          "count": 70,
+          "subcategories": [
+            "Bahnen & Rotation",
+            "Monde",
+            "Physikalische Größen",
+            "Technik & Abmessungen",
+            "Zahlen & Schätzungen"
+          ]
+        },
+        "Wissenschaft": {
+          "count": 30,
+          "subcategories": [
+            "Überblick & neue Perspektiven"
+          ]
+        }
+      }
+    },
+    "facts": {
+      "raw": 208,
+      "unique": 208,
+      "categories": {
+        "Allgemeinwissen": {
+          "count": 8,
+          "subcategories": [
+            "Brettspiele & Rätsel",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Autos": {
+          "count": 16,
+          "subcategories": [
+            "Abmessungen",
+            "Technik & Abmessungen"
+          ]
+        },
+        "Bauwerke": {
+          "count": 6,
+          "subcategories": [
+            "Baugeschichte"
+          ]
+        },
+        "Fußballer": {
+          "count": 52,
+          "subcategories": [
+            "FC 27",
+            "Historische Wechsel",
+            "Spielerprofile",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Länder": {
+          "count": 6,
+          "subcategories": [
+            "Gipfel & Landschaften"
+          ]
+        },
+        "Natur": {
+          "count": 12,
+          "subcategories": [
+            "Besucherzahlen 2025",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Raumfahrt": {
+          "count": 12,
+          "subcategories": [
+            "Sonden & Teleskope",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Rekorde & Extreme": {
+          "count": 6,
+          "subcategories": [
+            "Historische Rennen"
+          ]
+        },
+        "Sport": {
+          "count": 12,
+          "subcategories": [
+            "Spielfeldmaße",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Städte": {
+          "count": 8,
+          "subcategories": [
+            "Universitäten",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Tierwelt": {
+          "count": 6,
+          "subcategories": [
+            "Tiergrößen"
+          ]
+        },
+        "Weltkultur": {
+          "count": 12,
+          "subcategories": [
+            "UNESCO-Flächen",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Weltraum": {
+          "count": 28,
+          "subcategories": [
+            "Bahnen & Rotation",
+            "Monde",
+            "Physikalische Größen",
+            "Technik & Abmessungen",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Wissenschaft": {
+          "count": 20,
+          "subcategories": [
+            "Elemente"
+          ]
+        },
+        "Arbeitswelt": {
+          "count": 4,
+          "subcategories": [
+            "(Inline-Katalog)"
+          ]
+        }
+      }
+    },
+    "jeopardy": {
+      "raw": 614,
+      "unique": 614,
+      "categories": {
+        "Allgemeinwissen": {
+          "count": 21,
+          "subcategories": [
+            "Brettspiele & Rätsel",
+            "Tiergrößen",
+            "Universitäten",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Autotechnik": {
+          "count": 26,
+          "subcategories": [
+            "Abmessungen",
+            "Antrieb & Begriffe",
+            "Technik & Abmessungen",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Champions League": {
+          "count": 17,
+          "subcategories": [
+            "Finalgeschichte",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Chemie": {
+          "count": 32,
+          "subcategories": [
+            "Elemente",
+            "Elementsymbole",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Deutschland": {
+          "count": 16,
+          "subcategories": [
+            "Bundesländer & Nachbarn",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "FIFA-Ratings": {
+          "count": 57,
+          "subcategories": [
+            "FC 24",
+            "FC 25",
+            "FC 26",
+            "FC 27",
+            "FIFA 19",
+            "FIFA 20",
+            "FIFA 21",
+            "FIFA 22",
+            "FIFA 23"
+          ]
+        },
+        "Fußball": {
+          "count": 17,
+          "subcategories": [
+            "Spielerprofile",
+            "Weltmeisterschaften",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Geografie": {
+          "count": 20,
+          "subcategories": [
+            "Flächen & Landschaften",
+            "Gipfel & Landschaften",
+            "Hauptstädte weltweit",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Geschichte": {
+          "count": 20,
+          "subcategories": [
+            "Baugeschichte",
+            "Deutsche Zeitgeschichte",
+            "Geschichte & Jahreszahlen",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Kultur": {
+          "count": 17,
+          "subcategories": [
+            "Museen & Kunst",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Mix": {
+          "count": 18,
+          "subcategories": [
+            "Alltagsmathematik",
+            "Brettspiele & Rätsel",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Nationalparks": {
+          "count": 22,
+          "subcategories": [
+            "Besucherzahlen 2025",
+            "Flächen & Landschaften",
+            "Landschaften & Wahrzeichen",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Planetenkunde": {
+          "count": 23,
+          "subcategories": [
+            "Bahnen & Rotation",
+            "Monde",
+            "Physikalische Größen",
+            "Planetensystem",
+            "Technik & Abmessungen"
+          ]
+        },
+        "Planetenphysik": {
+          "count": 54,
+          "subcategories": [
+            "Physikalische Größen",
+            "Rotation",
+            "Technik & Abmessungen",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Raumfahrtmissionen": {
+          "count": 22,
+          "subcategories": [
+            "Sonden & Teleskope",
+            "Wissen & Hintergründe",
+            "Ziele & Entdeckungen"
+          ]
+        },
+        "Rekorde & Extreme": {
+          "count": 14,
+          "subcategories": [
+            "Historische Leichtathletik",
+            "Historische Rennen",
+            "Physikalische Größen",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Science-Fiction": {
+          "count": 15,
+          "subcategories": [
+            "Star Trek",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Sport": {
+          "count": 15,
+          "subcategories": [
+            "Olympische Disziplinen",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Sportregeln": {
+          "count": 20,
+          "subcategories": [
+            "Spielfeldmaße",
+            "Wertung & Ausrüstung",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Star Wars": {
+          "count": 15,
+          "subcategories": [
+            "Jedi & Planeten",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Transfers": {
+          "count": 48,
+          "subcategories": [
+            "Historische Wechsel"
+          ]
+        },
+        "Vereinsstationen": {
+          "count": 18,
+          "subcategories": [
+            "Historische Wechsel",
+            "Karrierestarts",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Videospiele": {
+          "count": 35,
+          "subcategories": [
+            "Nintendo",
+            "Physikalische Größen",
+            "Pokémon",
+            "Super Mario",
+            "Wissen & Hintergründe",
+            "Zelda"
+          ]
+        },
+        "Weltkultur": {
+          "count": 19,
+          "subcategories": [
+            "Baumeister & Zivilisationen",
+            "Flächen & Landschaften",
+            "UNESCO-Flächen",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Weltraum": {
+          "count": 15,
+          "subcategories": [
+            "Bahnen & Rotation",
+            "Monde",
+            "Physikalische Größen",
+            "Technik & Abmessungen",
+            "Wissen & Hintergründe"
+          ]
+        },
+        "Wissenschaft": {
+          "count": 18,
+          "subcategories": [
+            "Physikalische Größen",
+            "SI-Basiseinheiten",
+            "Wissen & Hintergründe"
+          ]
+        }
+      }
+    }
+  }
+}
