@@ -1,0 +1,156 @@
+{
+  "apps-guti": {
+    "subject": "Guti",
+    "metric": "Real Madrid official appearances",
+    "value": 542,
+    "unit": "matches",
+    "source_ref": "guti"
+  },
+  "apps-marcelo": {
+    "subject": "Marcelo",
+    "metric": "Real Madrid official appearances",
+    "value": 546,
+    "unit": "matches",
+    "source_ref": "marcelo"
+  },
+  "apps-khedira": {
+    "subject": "Sami Khedira",
+    "metric": "Real Madrid official appearances",
+    "value": 161,
+    "unit": "matches",
+    "source_ref": "khedira"
+  },
+  "apps-ozil": {
+    "subject": "Mesut Özil",
+    "metric": "Real Madrid official appearances",
+    "value": 159,
+    "unit": "matches",
+    "source_ref": "ozil"
+  },
+  "apps-xabi": {
+    "subject": "Xabi Alonso",
+    "metric": "Real Madrid competitive appearances",
+    "value": 236,
+    "unit": "matches",
+    "source_ref": "xabi"
+  },
+  "apps-dimaria": {
+    "subject": "Ángel Di María",
+    "metric": "Real Madrid official appearances",
+    "value": 190,
+    "unit": "matches",
+    "source_ref": "dimaria"
+  },
+  "apps-bale": {
+    "subject": "Gareth Bale",
+    "metric": "Real Madrid appearances",
+    "value": 258,
+    "unit": "matches",
+    "source_ref": "bale"
+  },
+  "apps-casemiro": {
+    "subject": "Casemiro",
+    "metric": "Real Madrid appearances",
+    "value": 336,
+    "unit": "matches",
+    "source_ref": "casemiro"
+  },
+  "fact-mcmanaman-liverpool": {
+    "subject": "Steve McManaman",
+    "metric": "preceding club",
+    "value": "Liverpool",
+    "unit": "club",
+    "source_ref": "mcmanaman"
+  },
+  "fact-redondo-tenerife": {
+    "subject": "Fernando Redondo",
+    "metric": "preceding club",
+    "value": "Tenerife",
+    "unit": "club",
+    "source_ref": "redondo"
+  },
+  "fact-beckham-united": {
+    "subject": "David Beckham",
+    "metric": "preceding club",
+    "value": "Manchester United",
+    "unit": "club",
+    "source_ref": "beckham"
+  },
+  "fact-cannavaro-juventus": {
+    "subject": "Fabio Cannavaro",
+    "metric": "preceding club",
+    "value": "Juventus",
+    "unit": "club",
+    "source_ref": "cannavaro"
+  },
+  "fact-figo-inter": {
+    "subject": "Luís Figo",
+    "metric": "final career club",
+    "value": "Inter Milan",
+    "unit": "club",
+    "source_ref": "figo"
+  },
+  "fact-carvalho-chelsea": {
+    "subject": "Ricardo Carvalho",
+    "metric": "preceding club",
+    "value": "Chelsea",
+    "unit": "club",
+    "source_ref": "carvalho"
+  },
+  "jeop-roberto-carlos-inter": {
+    "subject": "Roberto Carlos",
+    "metric": "preceding club",
+    "value": "Inter Milan",
+    "unit": "club",
+    "source_ref": "roberto-carlos"
+  },
+  "jeop-makelele-celta": {
+    "subject": "Claude Makelele",
+    "metric": "preceding club",
+    "value": "Celta Vigo",
+    "unit": "club",
+    "source_ref": "makelele"
+  },
+  "jeop-seedorf-sampdoria": {
+    "subject": "Clarence Seedorf",
+    "metric": "preceding club",
+    "value": "Sampdoria",
+    "unit": "club",
+    "source_ref": "seedorf"
+  },
+  "jeop-nistelrooy-united": {
+    "subject": "Ruud van Nistelrooy",
+    "metric": "preceding club",
+    "value": "Manchester United",
+    "unit": "club",
+    "source_ref": "nistelrooy"
+  },
+  "jeop-kaka-milan": {
+    "subject": "Kaká",
+    "metric": "preceding club",
+    "value": "AC Milan",
+    "unit": "club",
+    "source_ref": "kaka"
+  },
+  "jeop-owen-liverpool": {
+    "subject": "Michael Owen",
+    "metric": "preceding club",
+    "value": "Liverpool",
+    "unit": "club",
+    "source_ref": "owen"
+  },
+  "jeop-laudrup-barcelona": {
+    "subject": "Michael Laudrup",
+    "metric": "preceding club",
+    "value": "Barcelona",
+    "unit": "club",
+    "source_ref": "laudrup"
+  },
+  "jeop-robben-chelsea": {
+    "subject": "Arjen Robben",
+    "metric": "preceding club",
+    "value": "Chelsea",
+    "unit": "club",
+    "source_ref": "robben"
+  }
+}

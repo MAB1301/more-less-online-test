@@ -1,0 +1,9 @@
+{
+  "checked": "2026-10-29",
+  "main_unique_keys": 1938,
+  "draft_unique_keys": 20,
+  "exact_or_reversed_conflicts": [],
+  "semantic_review": "Existing Salah, Suárez, Lewandowski, Ronaldo, Zidane, Pepe, Marcelo and Özil prompts were excluded. The draft uses 22 different players and 22 distinct observations. Transfer facts that already occur in the Transfers category were excluded.",
+  "comparison_review": "Both pairs use the same official Real Madrid match-count definition, unit and completed-club-career frame. Guti/Marcelo differ by 0.74%; Khedira/Özil by 1.26%.",
+  "limits": "Normalized prompt/pair checks plus targeted Main, open-PR and Daily observation searches."
+}

@@ -1,0 +1,200 @@
+{
+  "guti": {
+    "url": "https://www.realmadrid.com/en-US/the-club/history/football-legends/jose-maria-gutierrez?lang=en",
+    "authority": "official-club-record",
+    "data_year": "career through 2010",
+    "section": "Matches played",
+    "rounding": "Official integer count",
+    "limits": "Real Madrid official matches; completed career at the club.",
+    "checked": "2026-10-29"
+  },
+  "marcelo": {
+    "url": "https://www.realmadrid.com/en-US/the-club/history/football-legends/marcelo-vieira",
+    "authority": "official-club-record",
+    "data_year": "career through 2022",
+    "section": "Real Madrid appearances",
+    "rounding": "Official integer count",
+    "limits": "Real Madrid appearances; completed career at the club.",
+    "checked": "2026-10-29"
+  },
+  "khedira": {
+    "url": "https://www.realmadrid.com/en-US/the-club/history/football-legends/sami-khedira",
+    "authority": "official-club-record",
+    "data_year": "career through 2015",
+    "section": "Games played for Real Madrid",
+    "rounding": "Official integer count",
+    "limits": "Real Madrid official games; completed career at the club.",
+    "checked": "2026-10-29"
+  },
+  "ozil": {
+    "url": "https://www.realmadrid.com/en-US/the-club/history/football-legends/mesut-ozil/",
+    "authority": "official-club-record",
+    "data_year": "career through 2013",
+    "section": "Games played for Real Madrid",
+    "rounding": "Official integer count",
+    "limits": "Real Madrid games; completed career at the club.",
+    "checked": "2026-10-29"
+  },
+  "xabi": {
+    "url": "https://www.realmadrid.com/en-US/the-club/history/football-legends/xabier-alonso-olano",
+    "authority": "official-club-record",
+    "data_year": "career through 2014",
+    "section": "Appearances",
+    "rounding": "Official integer count",
+    "limits": "Real Madrid competitive games; completed career at the club.",
+    "checked": "2026-10-29"
+  },
+  "dimaria": {
+    "url": "https://www.realmadrid.com/en-US/the-club/history/football-legends/angel-di-maria",
+    "authority": "official-club-record",
+    "data_year": "career through 2014",
+    "section": "Games played for Real Madrid",
+    "rounding": "Official integer count",
+    "limits": "Real Madrid official games; completed career at the club.",
+    "checked": "2026-10-29"
+  },
+  "bale": {
+    "url": "https://www.realmadrid.com/en-US/the-club/history/football-legends/gareth-bale",
+    "authority": "official-club-record",
+    "data_year": "career through 2022",
+    "section": "Real Madrid appearances",
+    "rounding": "Official integer count",
+    "limits": "Real Madrid appearances; completed career at the club.",
+    "checked": "2026-10-29"
+  },
+  "casemiro": {
+    "url": "https://www.realmadrid.com/en-US/the-club/history/football-legends/carlos-henrique-casimiro",
+    "authority": "official-club-record",
+    "data_year": "career through 2022",
+    "section": "Games played for Real Madrid",
+    "rounding": "Official integer count",
+    "limits": "Real Madrid games; includes his full club spell.",
+    "checked": "2026-10-29"
+  },
+  "mcmanaman": {
+    "url": "https://www.realmadrid.com/en-US/the-club/history/football-legends/steven-mcmanaman",
+    "authority": "official-club-history",
+    "data_year": "transfer 1999",
+    "section": "Career narrative",
+    "rounding": "Not numeric",
+    "limits": "The club page states that he came from Liverpool.",
+    "checked": "2026-10-29"
+  },
+  "redondo": {
+    "url": "https://www.realmadrid.com/en-US/the-club/history/football-legends/fernando-carlos-redondo-neri",
+    "authority": "official-club-history",
+    "data_year": "transfer 1994",
+    "section": "Career narrative",
+    "rounding": "Not numeric",
+    "limits": "The club page identifies Tenerife as his club immediately before Madrid.",
+    "checked": "2026-10-29"
+  },
+  "beckham": {
+    "url": "https://www.realmadrid.com/en-US/the-club/history/football-legends/david-robert-joseph-beckham",
+    "authority": "official-club-history",
+    "data_year": "transfer 2003",
+    "section": "Career narrative",
+    "rounding": "Not numeric",
+    "limits": "The club page identifies Manchester United as his preceding club.",
+    "checked": "2026-10-29"
+  },
+  "cannavaro": {
+    "url": "https://www.realmadrid.com/en-US/the-club/history/football-legends/fabio-cannavaro",
+    "authority": "official-club-history",
+    "data_year": "transfer 2006",
+    "section": "Career narrative",
+    "rounding": "Not numeric",
+    "limits": "The chronology has Inter, then Juventus, then Real Madrid; Juventus is the direct predecessor.",
+    "checked": "2026-10-29"
+  },
+  "figo": {
+    "url": "https://www.realmadrid.com/en-US/the-club/history/football-legends/luis-filipe-madeira-caeiro",
+    "authority": "official-club-history",
+    "data_year": "retirement 2009",
+    "section": "Career narrative",
+    "rounding": "Not numeric",
+    "limits": "The club page states that he finished his career at Inter Milan.",
+    "checked": "2026-10-29"
+  },
+  "carvalho": {
+    "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/goles-con-historia-carvalho",
+    "authority": "official-club-history",
+    "data_year": "transfer 2010",
+    "section": "Historical Goals profile",
+    "rounding": "Not numeric",
+    "limits": "The official article identifies Chelsea as his preceding club.",
+    "checked": "2026-10-29"
+  },
+  "roberto-carlos": {
+    "url": "https://www.realmadrid.com/en-US/the-club/history/football-legends/roberto-carlos-da-silva",
+    "authority": "official-club-history",
+    "data_year": "transfer 1996",
+    "section": "Career narrative",
+    "rounding": "Not numeric",
+    "limits": "The club page states that he transferred from Inter Milan one year after joining it.",
+    "checked": "2026-10-29"
+  },
+  "makelele": {
+    "url": "https://www.realmadrid.com/en-US/the-club/history/football-legends/claude-makelele",
+    "authority": "official-club-history",
+    "data_year": "transfer 2000",
+    "section": "Career narrative",
+    "rounding": "Not numeric",
+    "limits": "The club page names Celta as the preceding club.",
+    "checked": "2026-10-29"
+  },
+  "seedorf": {
+    "url": "https://www.realmadrid.com/en-US/the-club/history/football-legends/clarence-seedorf",
+    "authority": "official-club-history",
+    "data_year": "transfer 1996",
+    "section": "Career narrative",
+    "rounding": "Not numeric",
+    "limits": "The club page states that he joined after a short stint at Sampdoria.",
+    "checked": "2026-10-29"
+  },
+  "nistelrooy": {
+    "url": "https://www.realmadrid.com/en-US/the-club/history/football-legends/rutgerus-johannes-martinus-van-nistelrooy/",
+    "authority": "official-club-history",
+    "data_year": "transfer 2006",
+    "section": "Career narrative",
+    "rounding": "Not numeric",
+    "limits": "The club page names Manchester United as the preceding club.",
+    "checked": "2026-10-29"
+  },
+  "kaka": {
+    "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/goles-con-historia-kaka",
+    "authority": "official-club-history",
+    "data_year": "transfer 2009",
+    "section": "Historical Goals profile",
+    "rounding": "Not numeric",
+    "limits": "The official article names AC Milan as the preceding club.",
+    "checked": "2026-10-29"
+  },
+  "owen": {
+    "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/goles-con-historia-owen",
+    "authority": "official-club-history",
+    "data_year": "transfer 2004",
+    "section": "Historical Goals profile",
+    "rounding": "Not numeric",
+    "limits": "The official article names Liverpool as the preceding club.",
+    "checked": "2026-10-29"
+  },
+  "laudrup": {
+    "url": "https://www.realmadrid.com/es-ES/el-club/historia/leyendas-futbol/michael-laudrup",
+    "authority": "official-club-history",
+    "data_year": "transfer 1994",
+    "section": "Career narrative",
+    "rounding": "Not numeric",
+    "limits": "The club page states that he moved from Barcelona to Real Madrid.",
+    "checked": "2026-10-29"
+  },
+  "robben": {
+    "url": "https://www.realmadrid.com/StaticFiles/RealMadrid/pretemporada/preseason_press_kit_0910_en.pdf",
+    "authority": "official-club-publication",
+    "data_year": "2009/10 press kit; transfer 2007",
+    "section": "Player profile, page 21",
+    "rounding": "Not numeric",
+    "limits": "Archived official press kit states 'Arrived from Chelsea'.",
+    "checked": "2026-10-29"
+  }
+}

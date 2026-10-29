@@ -1,0 +1,670 @@
+{
+  "status": "review-only",
+  "verified": "2026-10-29",
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "images": {
+    "club-paths-neutral": {
+      "card": "visuals/club-paths-neutral-card.svg",
+      "detail": "visuals/club-paths-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstract stadium tunnel, blank shirts and route nodes without names, crests, numbers, values or answer clues; Jeopardy has no image key."
+    },
+    "Guti": {
+      "card": "visuals/club-paths-neutral-card.svg",
+      "detail": "visuals/club-paths-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstract stadium tunnel, blank shirts and route nodes without names, crests, numbers, values or answer clues; Jeopardy has no image key."
+    },
+    "Marcelo": {
+      "card": "visuals/club-paths-neutral-card.svg",
+      "detail": "visuals/club-paths-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstract stadium tunnel, blank shirts and route nodes without names, crests, numbers, values or answer clues; Jeopardy has no image key."
+    },
+    "Sami Khedira": {
+      "card": "visuals/club-paths-neutral-card.svg",
+      "detail": "visuals/club-paths-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstract stadium tunnel, blank shirts and route nodes without names, crests, numbers, values or answer clues; Jeopardy has no image key."
+    },
+    "Mesut Özil": {
+      "card": "visuals/club-paths-neutral-card.svg",
+      "detail": "visuals/club-paths-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Abstract stadium tunnel, blank shirts and route nodes without names, crests, numbers, values or answer clues; Jeopardy has no image key."
+    }
+  },
+  "moreless": [
+    {
+      "id": "club-paths-20261029-apps-guti-marcelo",
+      "semantic_key": "real-madrid-official-appearances-guti-marcelo",
+      "source_refs": [
+        "guti",
+        "marcelo"
+      ],
+      "observation_keys": [
+        "apps-guti",
+        "apps-marcelo"
+      ],
+      "data_year": "completed club careers through 2010/2022",
+      "rounding": "Official integer counts; no rounding.",
+      "notes": "Same club, official-match scope, unit and completed-career frame; 0.74% gap.",
+      "time_dependent": false,
+      "l": "Guti",
+      "r": "Marcelo",
+      "lv": 542,
+      "rv": 546,
+      "u": "Pflichtspiele · Real Madrid",
+      "metric": "Pflichtspiele für Real Madrid (abgeschlossene Vereinszeit)",
+      "cat": "Vereinsstationen",
+      "subcategory": "Real Madrid · Vereinswege & Pflichtspiele",
+      "status": "draft",
+      "verified": "2026-10-29",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/jose-maria-gutierrez?lang=en",
+      "sources": [
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/jose-maria-gutierrez?lang=en",
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/marcelo-vieira"
+      ],
+      "sets": [
+        "Real Madrid · Vereinswege & Pflichtspiele"
+      ],
+      "visual": "club-paths-neutral",
+      "subject": "club-paths-neutral"
+    },
+    {
+      "id": "club-paths-20261029-apps-khedira-ozil",
+      "semantic_key": "real-madrid-official-appearances-khedira-ozil",
+      "source_refs": [
+        "khedira",
+        "ozil"
+      ],
+      "observation_keys": [
+        "apps-khedira",
+        "apps-ozil"
+      ],
+      "data_year": "completed club careers through 2015/2013",
+      "rounding": "Official integer counts; no rounding.",
+      "notes": "Same club, official-match scope, unit and completed-career frame; 1.26% gap.",
+      "time_dependent": false,
+      "l": "Sami Khedira",
+      "r": "Mesut Özil",
+      "lv": 161,
+      "rv": 159,
+      "u": "Pflichtspiele · Real Madrid",
+      "metric": "Pflichtspiele für Real Madrid (abgeschlossene Vereinszeit)",
+      "cat": "Vereinsstationen",
+      "subcategory": "Real Madrid · Vereinswege & Pflichtspiele",
+      "status": "draft",
+      "verified": "2026-10-29",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/sami-khedira",
+      "sources": [
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/sami-khedira",
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/mesut-ozil/"
+      ],
+      "sets": [
+        "Real Madrid · Vereinswege & Pflichtspiele"
+      ],
+      "visual": "club-paths-neutral",
+      "subject": "club-paths-neutral"
+    }
+  ],
+  "estimate": [
+    {
+      "id": "club-paths-20261029-apps-xabi",
+      "semantic_key": "real-madrid-competitive-appearances-xabi-alonso",
+      "source_refs": [
+        "xabi"
+      ],
+      "observation_keys": [
+        "apps-xabi"
+      ],
+      "data_year": "completed club career through 2014",
+      "rounding": "Official integer count; no rounding.",
+      "notes": "Competitive appearances for Real Madrid.",
+      "time_dependent": false,
+      "q": "Wie viele Pflichtspiele bestritt Xabi Alonso laut Real Madrid für den Verein?",
+      "a": 236,
+      "u": "Pflichtspiele",
+      "cat": "Vereinsstationen",
+      "subcategory": "Real Madrid · Vereinswege & Pflichtspiele",
+      "status": "draft",
+      "verified": "2026-10-29",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/xabier-alonso-olano",
+      "sources": [
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/xabier-alonso-olano"
+      ],
+      "sets": [
+        "Real Madrid · Vereinswege & Pflichtspiele"
+      ],
+      "visual": "club-paths-neutral",
+      "subject": "club-paths-neutral"
+    },
+    {
+      "id": "club-paths-20261029-apps-dimaria",
+      "semantic_key": "real-madrid-official-appearances-di-maria",
+      "source_refs": [
+        "dimaria"
+      ],
+      "observation_keys": [
+        "apps-dimaria"
+      ],
+      "data_year": "completed club career through 2014",
+      "rounding": "Official integer count; no rounding.",
+      "notes": "Official games for Real Madrid.",
+      "time_dependent": false,
+      "q": "Wie viele Pflichtspiele bestritt Ángel Di María laut Real Madrid für den Verein?",
+      "a": 190,
+      "u": "Pflichtspiele",
+      "cat": "Vereinsstationen",
+      "subcategory": "Real Madrid · Vereinswege & Pflichtspiele",
+      "status": "draft",
+      "verified": "2026-10-29",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/angel-di-maria",
+      "sources": [
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/angel-di-maria"
+      ],
+      "sets": [
+        "Real Madrid · Vereinswege & Pflichtspiele"
+      ],
+      "visual": "club-paths-neutral",
+      "subject": "club-paths-neutral"
+    },
+    {
+      "id": "club-paths-20261029-apps-bale",
+      "semantic_key": "real-madrid-appearances-gareth-bale",
+      "source_refs": [
+        "bale"
+      ],
+      "observation_keys": [
+        "apps-bale"
+      ],
+      "data_year": "completed club career through 2022",
+      "rounding": "Official integer count; no rounding.",
+      "notes": "Real Madrid appearances on the official legend profile.",
+      "time_dependent": false,
+      "q": "Wie viele Pflichtspiele bestritt Gareth Bale laut Real Madrid für den Verein?",
+      "a": 258,
+      "u": "Pflichtspiele",
+      "cat": "Vereinsstationen",
+      "subcategory": "Real Madrid · Vereinswege & Pflichtspiele",
+      "status": "draft",
+      "verified": "2026-10-29",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/gareth-bale",
+      "sources": [
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/gareth-bale"
+      ],
+      "sets": [
+        "Real Madrid · Vereinswege & Pflichtspiele"
+      ],
+      "visual": "club-paths-neutral",
+      "subject": "club-paths-neutral"
+    },
+    {
+      "id": "club-paths-20261029-apps-casemiro",
+      "semantic_key": "real-madrid-appearances-casemiro",
+      "source_refs": [
+        "casemiro"
+      ],
+      "observation_keys": [
+        "apps-casemiro"
+      ],
+      "data_year": "completed club career through 2022",
+      "rounding": "Official integer count; no rounding.",
+      "notes": "Real Madrid appearances on the official legend profile.",
+      "time_dependent": false,
+      "q": "Wie viele Pflichtspiele bestritt Casemiro laut Real Madrid für den Verein?",
+      "a": 336,
+      "u": "Pflichtspiele",
+      "cat": "Vereinsstationen",
+      "subcategory": "Real Madrid · Vereinswege & Pflichtspiele",
+      "status": "draft",
+      "verified": "2026-10-29",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/carlos-henrique-casimiro",
+      "sources": [
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/carlos-henrique-casimiro"
+      ],
+      "sets": [
+        "Real Madrid · Vereinswege & Pflichtspiele"
+      ],
+      "visual": "club-paths-neutral",
+      "subject": "club-paths-neutral"
+    }
+  ],
+  "facts": [
+    {
+      "id": "club-paths-20261029-mcmanaman-liverpool",
+      "semantic_key": "mcmanaman-arrived-from-liverpool",
+      "source_refs": [
+        "mcmanaman"
+      ],
+      "observation_keys": [
+        "fact-mcmanaman-liverpool"
+      ],
+      "data_year": 1999,
+      "rounding": "Not numeric.",
+      "notes": "Immediate preceding club.",
+      "time_dependent": false,
+      "s": "Steve McManaman kam vom FC Liverpool zu Real Madrid.",
+      "a": true,
+      "e": "Real Madrids Profil beschreibt, dass McManaman aus Liverpool nach Madrid kam.",
+      "difficulty": "easy",
+      "cat": "Vereinsstationen",
+      "subcategory": "Real Madrid · Vereinswege & Pflichtspiele",
+      "status": "draft",
+      "verified": "2026-10-29",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/steven-mcmanaman",
+      "sources": [
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/steven-mcmanaman"
+      ],
+      "sets": [
+        "Real Madrid · Vereinswege & Pflichtspiele"
+      ],
+      "visual": "club-paths-neutral",
+      "subject": "club-paths-neutral"
+    },
+    {
+      "id": "club-paths-20261029-cannavaro-inter",
+      "semantic_key": "cannavaro-did-not-arrive-directly-from-inter",
+      "source_refs": [
+        "cannavaro"
+      ],
+      "observation_keys": [
+        "fact-cannavaro-juventus"
+      ],
+      "data_year": 2006,
+      "rounding": "Not numeric.",
+      "notes": "Immediate preceding club; Inter was earlier in his career.",
+      "time_dependent": false,
+      "s": "Fabio Cannavaro wechselte 2006 direkt von Inter Mailand zu Real Madrid.",
+      "a": false,
+      "e": "Cannavaro spielte nach Inter bei Juventus und wechselte von Juventus zu Real Madrid.",
+      "difficulty": "easy",
+      "cat": "Vereinsstationen",
+      "subcategory": "Real Madrid · Vereinswege & Pflichtspiele",
+      "status": "draft",
+      "verified": "2026-10-29",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/fabio-cannavaro",
+      "sources": [
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/fabio-cannavaro"
+      ],
+      "sets": [
+        "Real Madrid · Vereinswege & Pflichtspiele"
+      ],
+      "visual": "club-paths-neutral",
+      "subject": "club-paths-neutral"
+    },
+    {
+      "id": "club-paths-20261029-redondo-tenerife",
+      "semantic_key": "redondo-arrived-from-tenerife",
+      "source_refs": [
+        "redondo"
+      ],
+      "observation_keys": [
+        "fact-redondo-tenerife"
+      ],
+      "data_year": 1994,
+      "rounding": "Not numeric.",
+      "notes": "Immediate preceding club.",
+      "time_dependent": false,
+      "s": "Fernando Redondo spielte unmittelbar vor Real Madrid für CD Tenerife.",
+      "a": true,
+      "e": "Real Madrids Profil führt seine Station Tenerife direkt vor dem Wechsel 1994 auf.",
+      "difficulty": "medium",
+      "cat": "Vereinsstationen",
+      "subcategory": "Real Madrid · Vereinswege & Pflichtspiele",
+      "status": "draft",
+      "verified": "2026-10-29",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/fernando-carlos-redondo-neri",
+      "sources": [
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/fernando-carlos-redondo-neri"
+      ],
+      "sets": [
+        "Real Madrid · Vereinswege & Pflichtspiele"
+      ],
+      "visual": "club-paths-neutral",
+      "subject": "club-paths-neutral"
+    },
+    {
+      "id": "club-paths-20261029-carvalho-porto",
+      "semantic_key": "carvalho-did-not-arrive-from-porto",
+      "source_refs": [
+        "carvalho"
+      ],
+      "observation_keys": [
+        "fact-carvalho-chelsea"
+      ],
+      "data_year": 2010,
+      "rounding": "Not numeric.",
+      "notes": "Immediate preceding club.",
+      "time_dependent": false,
+      "s": "Ricardo Carvalho kam 2010 direkt vom FC Porto zu Real Madrid.",
+      "a": false,
+      "e": "Der offizielle Rückblick nennt Chelsea als Carvalhos vorherigen Verein.",
+      "difficulty": "medium",
+      "cat": "Vereinsstationen",
+      "subcategory": "Real Madrid · Vereinswege & Pflichtspiele",
+      "status": "draft",
+      "verified": "2026-10-29",
+      "source": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/goles-con-historia-carvalho",
+      "sources": [
+        "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/goles-con-historia-carvalho"
+      ],
+      "sets": [
+        "Real Madrid · Vereinswege & Pflichtspiele"
+      ],
+      "visual": "club-paths-neutral",
+      "subject": "club-paths-neutral"
+    },
+    {
+      "id": "club-paths-20261029-beckham-united",
+      "semantic_key": "beckham-arrived-from-manchester-united",
+      "source_refs": [
+        "beckham"
+      ],
+      "observation_keys": [
+        "fact-beckham-united"
+      ],
+      "data_year": 2003,
+      "rounding": "Not numeric.",
+      "notes": "Immediate preceding club.",
+      "time_dependent": false,
+      "s": "David Beckham wechselte von Manchester United zu Real Madrid.",
+      "a": true,
+      "e": "Real Madrids Profil nennt Manchester United als Beckhams vorherigen Verein.",
+      "difficulty": "hard",
+      "cat": "Vereinsstationen",
+      "subcategory": "Real Madrid · Vereinswege & Pflichtspiele",
+      "status": "draft",
+      "verified": "2026-10-29",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/david-robert-joseph-beckham",
+      "sources": [
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/david-robert-joseph-beckham"
+      ],
+      "sets": [
+        "Real Madrid · Vereinswege & Pflichtspiele"
+      ],
+      "visual": "club-paths-neutral",
+      "subject": "club-paths-neutral"
+    },
+    {
+      "id": "club-paths-20261029-figo-milan",
+      "semantic_key": "figo-did-not-finish-at-ac-milan",
+      "source_refs": [
+        "figo"
+      ],
+      "observation_keys": [
+        "fact-figo-inter"
+      ],
+      "data_year": 2009,
+      "rounding": "Not numeric.",
+      "notes": "Final professional club.",
+      "time_dependent": false,
+      "s": "Luís Figo beendete seine Profikarriere bei der AC Milan.",
+      "a": false,
+      "e": "Laut Real Madrid beendete Figo seine Karriere bei Inter Mailand.",
+      "difficulty": "hard",
+      "cat": "Vereinsstationen",
+      "subcategory": "Real Madrid · Vereinswege & Pflichtspiele",
+      "status": "draft",
+      "verified": "2026-10-29",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/luis-filipe-madeira-caeiro",
+      "sources": [
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/luis-filipe-madeira-caeiro"
+      ],
+      "sets": [
+        "Real Madrid · Vereinswege & Pflichtspiele"
+      ],
+      "visual": "club-paths-neutral",
+      "subject": "club-paths-neutral"
+    }
+  ],
+  "jeopardy": [
+    {
+      "id": "club-paths-20261029-roberto-carlos-inter",
+      "semantic_key": "roberto-carlos-pre-real-inter",
+      "source_refs": [
+        "roberto-carlos"
+      ],
+      "observation_keys": [
+        "jeop-roberto-carlos-inter"
+      ],
+      "data_year": 1996,
+      "rounding": "Not numeric.",
+      "notes": "Immediate preceding club.",
+      "time_dependent": false,
+      "q": "Von welchem italienischen Verein wechselte Roberto Carlos 1996 zu Real Madrid?",
+      "a": "Inter Mailand|Inter|Internazionale",
+      "difficulty": 1,
+      "cat": "Vereinsstationen",
+      "subcategory": "Real Madrid · Vereinswege & Pflichtspiele",
+      "status": "draft",
+      "verified": "2026-10-29",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/roberto-carlos-da-silva",
+      "sources": [
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/roberto-carlos-da-silva"
+      ],
+      "sets": [
+        "Real Madrid · Vereinswege & Pflichtspiele"
+      ],
+      "visual": null
+    },
+    {
+      "id": "club-paths-20261029-makelele-celta",
+      "semantic_key": "makelele-pre-real-celta",
+      "source_refs": [
+        "makelele"
+      ],
+      "observation_keys": [
+        "jeop-makelele-celta"
+      ],
+      "data_year": 2000,
+      "rounding": "Not numeric.",
+      "notes": "Immediate preceding club.",
+      "time_dependent": false,
+      "q": "Von welchem spanischen Verein kam Claude Makelele im Jahr 2000 zu Real Madrid?",
+      "a": "Celta Vigo|Celta de Vigo|Celta",
+      "difficulty": 1,
+      "cat": "Vereinsstationen",
+      "subcategory": "Real Madrid · Vereinswege & Pflichtspiele",
+      "status": "draft",
+      "verified": "2026-10-29",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/claude-makelele",
+      "sources": [
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/claude-makelele"
+      ],
+      "sets": [
+        "Real Madrid · Vereinswege & Pflichtspiele"
+      ],
+      "visual": null
+    },
+    {
+      "id": "club-paths-20261029-seedorf-sampdoria",
+      "semantic_key": "seedorf-pre-real-sampdoria",
+      "source_refs": [
+        "seedorf"
+      ],
+      "observation_keys": [
+        "jeop-seedorf-sampdoria"
+      ],
+      "data_year": 1996,
+      "rounding": "Not numeric.",
+      "notes": "Immediate preceding club.",
+      "time_dependent": false,
+      "q": "Bei welchem italienischen Verein spielte Clarence Seedorf unmittelbar vor Real Madrid?",
+      "a": "Sampdoria|Sampdoria Genua|UC Sampdoria",
+      "difficulty": 2,
+      "cat": "Vereinsstationen",
+      "subcategory": "Real Madrid · Vereinswege & Pflichtspiele",
+      "status": "draft",
+      "verified": "2026-10-29",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/clarence-seedorf",
+      "sources": [
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/clarence-seedorf"
+      ],
+      "sets": [
+        "Real Madrid · Vereinswege & Pflichtspiele"
+      ],
+      "visual": null
+    },
+    {
+      "id": "club-paths-20261029-nistelrooy-united",
+      "semantic_key": "van-nistelrooy-pre-real-manchester-united",
+      "source_refs": [
+        "nistelrooy"
+      ],
+      "observation_keys": [
+        "jeop-nistelrooy-united"
+      ],
+      "data_year": 2006,
+      "rounding": "Not numeric.",
+      "notes": "Immediate preceding club.",
+      "time_dependent": false,
+      "q": "Von welchem englischen Verein wechselte Ruud van Nistelrooy 2006 zu Real Madrid?",
+      "a": "Manchester United|Man United|United",
+      "difficulty": 2,
+      "cat": "Vereinsstationen",
+      "subcategory": "Real Madrid · Vereinswege & Pflichtspiele",
+      "status": "draft",
+      "verified": "2026-10-29",
+      "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/rutgerus-johannes-martinus-van-nistelrooy/",
+      "sources": [
+        "https://www.realmadrid.com/en-US/the-club/history/football-legends/rutgerus-johannes-martinus-van-nistelrooy/"
+      ],
+      "sets": [
+        "Real Madrid · Vereinswege & Pflichtspiele"
+      ],
+      "visual": null
+    },
+    {
+      "id": "club-paths-20261029-kaka-milan",
+      "semantic_key": "kaka-pre-real-ac-milan",
+      "source_refs": [
+        "kaka"
+      ],
+      "observation_keys": [
+        "jeop-kaka-milan"
+      ],
+      "data_year": 2009,
+      "rounding": "Not numeric.",
+      "notes": "Immediate preceding club.",
+      "time_dependent": false,
+      "q": "Bei welchem italienischen Verein spielte Kaká unmittelbar vor seinem Wechsel zu Real Madrid?",
+      "a": "AC Milan|AC Mailand|Milan",
+      "difficulty": 3,
+      "cat": "Vereinsstationen",
+      "subcategory": "Real Madrid · Vereinswege & Pflichtspiele",
+      "status": "draft",
+      "verified": "2026-10-29",
+      "source": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/goles-con-historia-kaka",
+      "sources": [
+        "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/goles-con-historia-kaka"
+      ],
+      "sets": [
+        "Real Madrid · Vereinswege & Pflichtspiele"
+      ],
+      "visual": null
+    },
+    {
+      "id": "club-paths-20261029-owen-liverpool",
+      "semantic_key": "owen-pre-real-liverpool",
+      "source_refs": [
+        "owen"
+      ],
+      "observation_keys": [
+        "jeop-owen-liverpool"
+      ],
+      "data_year": 2004,
+      "rounding": "Not numeric.",
+      "notes": "Immediate preceding club.",
+      "time_dependent": false,
+      "q": "Von welchem englischen Verein kam Michael Owen 2004 zu Real Madrid?",
+      "a": "Liverpool|FC Liverpool|Liverpool FC",
+      "difficulty": 3,
+      "cat": "Vereinsstationen",
+      "subcategory": "Real Madrid · Vereinswege & Pflichtspiele",
+      "status": "draft",
+      "verified": "2026-10-29",
+      "source": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/goles-con-historia-owen",
+      "sources": [
+        "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/goles-con-historia-owen"
+      ],
+      "sets": [
+        "Real Madrid · Vereinswege & Pflichtspiele"
+      ],
+      "visual": null
+    },
+    {
+      "id": "club-paths-20261029-laudrup-barcelona",
+      "semantic_key": "laudrup-pre-real-barcelona",
+      "source_refs": [
+        "laudrup"
+      ],
+      "observation_keys": [
+        "jeop-laudrup-barcelona"
+      ],
+      "data_year": 1994,
+      "rounding": "Not numeric.",
+      "notes": "Immediate preceding club.",
+      "time_dependent": false,
+      "q": "Von welchem spanischen Rivalen wechselte Michael Laudrup 1994 zu Real Madrid?",
+      "a": "FC Barcelona|Barcelona|Barça|Barca",
+      "difficulty": 4,
+      "cat": "Vereinsstationen",
+      "subcategory": "Real Madrid · Vereinswege & Pflichtspiele",
+      "status": "draft",
+      "verified": "2026-10-29",
+      "source": "https://www.realmadrid.com/es-ES/el-club/historia/leyendas-futbol/michael-laudrup",
+      "sources": [
+        "https://www.realmadrid.com/es-ES/el-club/historia/leyendas-futbol/michael-laudrup"
+      ],
+      "sets": [
+        "Real Madrid · Vereinswege & Pflichtspiele"
+      ],
+      "visual": null
+    },
+    {
+      "id": "club-paths-20261029-robben-chelsea",
+      "semantic_key": "robben-pre-real-chelsea",
+      "source_refs": [
+        "robben"
+      ],
+      "observation_keys": [
+        "jeop-robben-chelsea"
+      ],
+      "data_year": 2007,
+      "rounding": "Not numeric.",
+      "notes": "Immediate preceding club; documented in the official 2009/10 press kit.",
+      "time_dependent": false,
+      "q": "Von welchem Londoner Verein kam Arjen Robben zu Real Madrid?",
+      "a": "Chelsea|FC Chelsea|Chelsea FC",
+      "difficulty": 4,
+      "cat": "Vereinsstationen",
+      "subcategory": "Real Madrid · Vereinswege & Pflichtspiele",
+      "status": "draft",
+      "verified": "2026-10-29",
+      "source": "https://www.realmadrid.com/StaticFiles/RealMadrid/pretemporada/preseason_press_kit_0910_en.pdf",
+      "sources": [
+        "https://www.realmadrid.com/StaticFiles/RealMadrid/pretemporada/preseason_press_kit_0910_en.pdf"
+      ],
+      "sets": [
+        "Real Madrid · Vereinswege & Pflichtspiele"
+      ],
+      "visual": null
+    }
+  ]
+}

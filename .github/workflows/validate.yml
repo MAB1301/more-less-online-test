@@ -18,3 +18,6 @@ jobs:
       - name: Static game regression checks
         run: |
           node scripts/regression-check.mjs
+          python3 scripts/build-vereinsstationen-real-madrid-draft-20261029.py --check
+          node scripts/inventory-vereinsstationen-real-madrid-draft-20261029.mjs --check
+          node scripts/check-vereinsstationen-real-madrid-draft-20261029.mjs
