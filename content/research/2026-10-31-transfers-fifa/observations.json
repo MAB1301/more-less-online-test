@@ -3,7 +3,7 @@
   "incoming-england":{"value":769,"unit":"transfers","frame":"FIFA TMS · men professional · incoming · 2025"},
   "spending-germany":{"value":1.28,"unit":"billion USD","frame":"FIFA TMS · men professional · spent · 2025"},
   "spending-italy":{"value":1.20,"unit":"billion USD","frame":"FIFA TMS · men professional · spent · 2025"},
-  "men-total-transfers":{"value":24558,"unit":"transfers"},
+  "confirmed-trials":{"value":2366,"unit":"trials","frame":"FIFA TMS · confirmed trials · men and women · 2025"},
   "clubs-involved":{"value":5283,"unit":"clubs"},
   "sell-on-transfers":{"value":3841,"unit":"transfers"},
   "average-contract-months":{"value":19.5,"unit":"months"},
