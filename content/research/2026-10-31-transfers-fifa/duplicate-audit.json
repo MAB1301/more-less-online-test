@@ -1,0 +1,9 @@
+{
+  "checked": "2026-10-31",
+  "main_unique_keys": 2236,
+  "draft_unique_keys": 20,
+  "exact_or_reversed_conflicts": [],
+  "semantic_review": "Existing Transfers questions focus on named player moves and transfer source/destination. This draft instead uses 22 FIFA TMS market observations for calendar year 2025. Targeted open-PR and Daily searches found no Global Transfer Report 2025, sell-on, 24,558 or equivalent observations.",
+  "comparison_review": "Only identical metrics and frames: Portugal 774 vs England 769 incoming transfers; Germany USD 1.28bn vs Italy USD 1.20bn spending. No gender, event, league or distance mixing.",
+  "limits": "Normalization plus observation keys and targeted Main/PR/Daily searches."
+}

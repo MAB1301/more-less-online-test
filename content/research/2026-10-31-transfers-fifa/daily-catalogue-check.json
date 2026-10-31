@@ -1,0 +1,11 @@
+{
+  "checked": "2026-10-31",
+  "project": "rnwsbgzdrttqtivrwnxo",
+  "table": "ml_private.daily_catalogue",
+  "mode": "read-only",
+  "rows_total": 7187,
+  "rows_by_game": {"moreless": 4228, "estimate": 1507, "facts": 1452},
+  "patterns": ["2,366 / 2366 confirmed trials", "sell-on / Weiterverkauf", "19.5 months / 19,5 Monate", "3,841 / 3841", "1,190 / 1190", "1.28 billion / 1,28 Milliarden"],
+  "matches": 0,
+  "database_writes": 0
+}

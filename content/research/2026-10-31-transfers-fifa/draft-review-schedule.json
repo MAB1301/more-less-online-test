@@ -1,0 +1,225 @@
+{
+  "policy": "Historical FIFA report: annual review; no automatic publication.",
+  "records": [
+    {
+      "id": "transfers-fifa-20261031-incoming-pt-en",
+      "game": "moreless",
+      "source": "https://cdn.fifa.sportsagentinstitute.com/wp-content/uploads/2026/02/26175053/Global-Transfer-Report-2025-1.pdf",
+      "verified": "2026-10-31",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-31",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "transfers-fifa-20261031-spending-de-it",
+      "game": "moreless",
+      "source": "https://cdn.fifa.sportsagentinstitute.com/wp-content/uploads/2026/02/26175053/Global-Transfer-Report-2025-1.pdf",
+      "verified": "2026-10-31",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-31",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "transfers-fifa-20261031-confirmed-trials",
+      "game": "estimate",
+      "source": "https://cdn.fifa.sportsagentinstitute.com/wp-content/uploads/2026/02/26175053/Global-Transfer-Report-2025-1.pdf",
+      "verified": "2026-10-31",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-31",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "transfers-fifa-20261031-clubs-involved",
+      "game": "estimate",
+      "source": "https://cdn.fifa.sportsagentinstitute.com/wp-content/uploads/2026/02/26175053/Global-Transfer-Report-2025-1.pdf",
+      "verified": "2026-10-31",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-31",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "transfers-fifa-20261031-sell-on-count",
+      "game": "estimate",
+      "source": "https://cdn.fifa.sportsagentinstitute.com/wp-content/uploads/2026/02/26175053/Global-Transfer-Report-2025-1.pdf",
+      "verified": "2026-10-31",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-31",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "transfers-fifa-20261031-contract-months",
+      "game": "estimate",
+      "source": "https://cdn.fifa.sportsagentinstitute.com/wp-content/uploads/2026/02/26175053/Global-Transfer-Report-2025-1.pdf",
+      "verified": "2026-10-31",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-31",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "transfers-fifa-20261031-fee-share",
+      "game": "facts",
+      "source": "https://cdn.fifa.sportsagentinstitute.com/wp-content/uploads/2026/02/26175053/Global-Transfer-Report-2025-1.pdf",
+      "verified": "2026-10-31",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-31",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "transfers-fifa-20261031-low-fee-share",
+      "game": "facts",
+      "source": "https://cdn.fifa.sportsagentinstitute.com/wp-content/uploads/2026/02/26175053/Global-Transfer-Report-2025-1.pdf",
+      "verified": "2026-10-31",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-31",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "transfers-fifa-20261031-fixed-fees",
+      "game": "facts",
+      "source": "https://cdn.fifa.sportsagentinstitute.com/wp-content/uploads/2026/02/26175053/Global-Transfer-Report-2025-1.pdf",
+      "verified": "2026-10-31",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-31",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "transfers-fifa-20261031-permanent-majority",
+      "game": "facts",
+      "source": "https://cdn.fifa.sportsagentinstitute.com/wp-content/uploads/2026/02/26175053/Global-Transfer-Report-2025-1.pdf",
+      "verified": "2026-10-31",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-31",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "transfers-fifa-20261031-youth-sell-on",
+      "game": "facts",
+      "source": "https://cdn.fifa.sportsagentinstitute.com/wp-content/uploads/2026/02/26175053/Global-Transfer-Report-2025-1.pdf",
+      "verified": "2026-10-31",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-31",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "transfers-fifa-20261031-high-fee-sell-on",
+      "game": "facts",
+      "source": "https://cdn.fifa.sportsagentinstitute.com/wp-content/uploads/2026/02/26175053/Global-Transfer-Report-2025-1.pdf",
+      "verified": "2026-10-31",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-31",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "transfers-fifa-20261031-top-incoming",
+      "game": "jeopardy",
+      "source": "https://cdn.fifa.sportsagentinstitute.com/wp-content/uploads/2026/02/26175053/Global-Transfer-Report-2025-1.pdf",
+      "verified": "2026-10-31",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-31",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "transfers-fifa-20261031-top-outgoing",
+      "game": "jeopardy",
+      "source": "https://cdn.fifa.sportsagentinstitute.com/wp-content/uploads/2026/02/26175053/Global-Transfer-Report-2025-1.pdf",
+      "verified": "2026-10-31",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-31",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "transfers-fifa-20261031-nationalities",
+      "game": "jeopardy",
+      "source": "https://cdn.fifa.sportsagentinstitute.com/wp-content/uploads/2026/02/26175053/Global-Transfer-Report-2025-1.pdf",
+      "verified": "2026-10-31",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-31",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "transfers-fifa-20261031-age-fee",
+      "game": "jeopardy",
+      "source": "https://cdn.fifa.sportsagentinstitute.com/wp-content/uploads/2026/02/26175053/Global-Transfer-Report-2025-1.pdf",
+      "verified": "2026-10-31",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-31",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "transfers-fifa-20261031-stream-count",
+      "game": "jeopardy",
+      "source": "https://cdn.fifa.sportsagentinstitute.com/wp-content/uploads/2026/02/26175053/Global-Transfer-Report-2025-1.pdf",
+      "verified": "2026-10-31",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-31",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "transfers-fifa-20261031-stream-spend",
+      "game": "jeopardy",
+      "source": "https://cdn.fifa.sportsagentinstitute.com/wp-content/uploads/2026/02/26175053/Global-Transfer-Report-2025-1.pdf",
+      "verified": "2026-10-31",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-31",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "transfers-fifa-20261031-amateur-germany",
+      "game": "jeopardy",
+      "source": "https://inside.fifa.com/transfer-system/media-releases/international-transfers-reach-historic-high-2025",
+      "verified": "2026-10-31",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-31",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "transfers-fifa-20261031-contract-bin",
+      "game": "jeopardy",
+      "source": "https://cdn.fifa.sportsagentinstitute.com/wp-content/uploads/2026/02/26175053/Global-Transfer-Report-2025-1.pdf",
+      "verified": "2026-10-31",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-10-31",
+      "review_status": "draft-review-required"
+    }
+  ]
+}
