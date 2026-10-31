@@ -1,0 +1,38 @@
+{
+  "report": {
+    "title": "FIFA Global Transfer Report 2025",
+    "url": "https://cdn.fifa.sportsagentinstitute.com/wp-content/uploads/2026/02/26175053/Global-Transfer-Report-2025-1.pdf",
+    "authority": "official",
+    "publisher": "FIFA",
+    "checked": "2026-10-31",
+    "published": "2026-01",
+    "data_year": 2025,
+    "scope": "International transfers recorded in FIFA TMS; dedicated sections distinguish men's professional, women's professional and amateur football.",
+    "rounding": "Figures are reproduced at FIFA's published precision. Association aggregates and fee totals are rounded.",
+    "limits": "Historical 2025 report. Fee values are in USD and include fixed, conditional and release fees as declared in TMS."
+  },
+  "release": {
+    "title": "International transfers reach historic high in 2025",
+    "url": "https://inside.fifa.com/transfer-system/media-releases/international-transfers-reach-historic-high-2025",
+    "authority": "official",
+    "publisher": "FIFA",
+    "checked": "2026-10-31",
+    "published": "2026-01-28",
+    "data_year": 2025,
+    "scope": "Official summary of the Global Transfer Report 2025.",
+    "rounding": "Whole-transfer counts and rounded USD totals as published.",
+    "limits": "Summary page; detailed definitions come from the report and methodology page."
+  },
+  "methodology": {
+    "title": "FIFA transfer reports methodology",
+    "url": "https://inside.fifa.com/transfer-system/transfer-reports/methodology",
+    "authority": "official",
+    "publisher": "FIFA",
+    "checked": "2026-10-31",
+    "published": "last updated 2026-02-03",
+    "data_year": 2025,
+    "scope": "Definitions for reporting periods, transfer dates, fees and transfer types.",
+    "rounding": "The website states that displayed numbers are rounded.",
+    "limits": "Website methodology applies to FIFA transfer reports and TMS transaction data."
+  }
+}
