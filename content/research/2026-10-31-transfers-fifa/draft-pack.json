@@ -125,23 +125,23 @@
   ],
   "estimate": [
     {
-      "id": "transfers-fifa-20261031-total-men",
-      "semantic_key": "fifa-2025-men-professional-total-transfers",
+      "id": "transfers-fifa-20261031-confirmed-trials",
+      "semantic_key": "fifa-2025-confirmed-trials",
       "cat": "Transfers",
       "subcategory": "FIFA-Transfermarkt 2025",
       "source_refs": [
         "report"
       ],
       "observation_keys": [
-        "men-total-transfers"
+        "confirmed-trials"
       ],
       "data_year": 2025,
-      "rounding": "Whole transfers as published.",
-      "notes": "International transfers in men's professional 11-a-side football.",
+      "rounding": "Whole trials as published.",
+      "notes": "Confirmed trials in men's and women's football; this subsection explicitly combines both.",
       "time_dependent": false,
-      "q": "Wie viele internationale Transfers im Männer-Profifußball registrierte FIFA 2025?",
-      "a": 24558,
-      "u": "Transfers",
+      "q": "Wie viele bestätigte internationale Probetrainings erfasste FIFA 2025 im Männer- und Frauenfußball zusammen?",
+      "a": 2366,
+      "u": "Probetrainings",
       "status": "draft",
       "verified": "2026-10-31",
       "source": "https://cdn.fifa.sportsagentinstitute.com/wp-content/uploads/2026/02/26175053/Global-Transfer-Report-2025-1.pdf",
