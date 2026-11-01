@@ -18,3 +18,6 @@ jobs:
       - name: Static game regression checks
         run: |
           node scripts/regression-check.mjs
+          python3 scripts/build-planetenphysik-draft-20261101.py --check
+          node scripts/inventory-planetenphysik-draft-20261101.mjs --check
+          node scripts/check-planetenphysik-draft-20261101.mjs

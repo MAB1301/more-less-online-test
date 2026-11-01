@@ -1,0 +1,225 @@
+{
+  "policy": "Stable NASA fact-sheet snapshots: annual review; no automatic publication.",
+  "records": [
+    {
+      "id": "planet-20261101-geo-albedo-uranus-neptune",
+      "game": "moreless",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html",
+      "verified": "2026-11-01",
+      "data_year": 2024,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-01",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "planet-20261101-bond-albedo-earth-mars",
+      "game": "moreless",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+      "verified": "2026-11-01",
+      "data_year": 2024,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-01",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "planet-20261101-mercury-irradiance",
+      "game": "estimate",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html",
+      "verified": "2026-11-01",
+      "data_year": 2024,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-01",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "planet-20261101-earth-core-radius",
+      "game": "estimate",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+      "verified": "2026-11-01",
+      "data_year": 2024,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-01",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "planet-20261101-saturn-flattening",
+      "game": "estimate",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html",
+      "verified": "2026-11-01",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-01",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "planet-20261101-neptune-blackbody",
+      "game": "estimate",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html",
+      "verified": "2026-11-01",
+      "data_year": 2024,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-01",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "planet-20261101-venus-bond-albedo",
+      "game": "facts",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html",
+      "verified": "2026-11-01",
+      "data_year": 2024,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-01",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "planet-20261101-mars-topography",
+      "game": "facts",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+      "verified": "2026-11-01",
+      "data_year": 2024,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-01",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "planet-20261101-jupiter-polar-acceleration",
+      "game": "facts",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html",
+      "verified": "2026-11-01",
+      "data_year": 2024,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-01",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "planet-20261101-uranus-dipole-tilt",
+      "game": "facts",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html",
+      "verified": "2026-11-01",
+      "data_year": 2024,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-01",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "planet-20261101-neptune-molecular-weight",
+      "game": "facts",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html",
+      "verified": "2026-11-01",
+      "data_year": 2024,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-01",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "planet-20261101-saturn-radii",
+      "game": "facts",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html",
+      "verified": "2026-11-01",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-01",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "planet-20261101-mercury-field",
+      "game": "jeopardy",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html",
+      "verified": "2026-11-01",
+      "data_year": 2024,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-01",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "planet-20261101-venus-scaleheight",
+      "game": "jeopardy",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html",
+      "verified": "2026-11-01",
+      "data_year": 2024,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-01",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "planet-20261101-earth-atmosphere",
+      "game": "jeopardy",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+      "verified": "2026-11-01",
+      "data_year": 2024,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-01",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "planet-20261101-mars-inertia",
+      "game": "jeopardy",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+      "verified": "2026-11-01",
+      "data_year": 2024,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-01",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "planet-20261101-jupiter-molecular-weight",
+      "game": "jeopardy",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html",
+      "verified": "2026-11-01",
+      "data_year": 2024,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-01",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "planet-20261101-saturn-j2",
+      "game": "jeopardy",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html",
+      "verified": "2026-11-01",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-01",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "planet-20261101-uranus-blackbody",
+      "game": "jeopardy",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html",
+      "verified": "2026-11-01",
+      "data_year": 2024,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-01",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "planet-20261101-neptune-wind",
+      "game": "jeopardy",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html",
+      "verified": "2026-11-01",
+      "data_year": 2024,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-01",
+      "review_status": "draft-review-required"
+    }
+  ]
+}

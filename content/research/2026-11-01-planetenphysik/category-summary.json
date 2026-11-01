@@ -1,0 +1,34 @@
+{
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "category": "Planetenphysik",
+  "before_main": {
+    "moreless": 0,
+    "estimate": 0,
+    "facts": 0,
+    "jeopardy": 54
+  },
+  "known_open_drafts": {
+    "moreless": 0,
+    "estimate": 0,
+    "facts": 0,
+    "jeopardy": 0
+  },
+  "added": {
+    "moreless": 2,
+    "estimate": 4,
+    "facts": 6,
+    "jeopardy": 8
+  },
+  "after_including_this_draft": {
+    "moreless": 2,
+    "estimate": 4,
+    "facts": 6,
+    "jeopardy": 62
+  },
+  "totals": {
+    "before_main": 54,
+    "known_open_drafts": 0,
+    "added": 20,
+    "after_including_this_draft": 74
+  }
+}
