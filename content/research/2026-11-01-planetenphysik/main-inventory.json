@@ -1,0 +1,7 @@
+{
+  "base_commit":"dced74bb1385014445e186969a09ccd92c20edb5",
+  "category":"Planetenphysik",
+  "games":{"moreless":0,"estimate":0,"facts":0,"jeopardy":54,"total":54},
+  "subcategories":{"Physikalische Größen":28,"Rotation":5,"Technik & Abmessungen":3,"Wissen & Hintergründe":18},
+  "notes":"Main questions use distance, temperature, density, escape velocity, orbital velocity, mass, equatorial gravity and rotation. The new draft uses distinct measurement identities."
+}

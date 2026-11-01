@@ -1,0 +1,13 @@
+{
+  "checked":"2026-11-01",
+  "open_pr_count":33,
+  "open_pr_numbers":[57,109,122,126,127,128,129,130,131,132,134,138,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164],
+  "content_prs_reviewed":31,
+  "adjacent_prs":[
+    {"number":129,"category":"Weltraum","topic":"TRAPPIST-1 b–f","overlap":false,"reason":"Exoplanet catalogue values; no Planetenphysik category or retained observation keys."},
+    {"number":128,"category":"multiple","topic":"176-question small-category pack","overlap":false,"reason":"Patch contains no Planetenphysik/Planetenkunde category records."},
+    {"number":151,"category":"Raumfahrtmissionen","topic":"space missions","overlap":false,"reason":"Mission dates and properties, not planetary physical parameters."}
+  ],
+  "planetenphysik_open_draft_questions_before_this_pr":0,
+  "notes":"All open PR titles/bodies were reviewed; changed content files for the only astronomy-adjacent drafts were inspected."
+}

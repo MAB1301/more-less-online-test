@@ -1,0 +1,20 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+
+const root = new URL('../', import.meta.url);
+const dir = new URL('content/research/2026-11-01-planetenphysik/', root);
+const check = process.argv.includes('--check');
+const context = {window:{}};
+vm.createContext(context);
+vm.runInContext(fs.readFileSync(new URL('content/approved.js', root), 'utf8'), context);
+const pack = JSON.parse(fs.readFileSync(new URL('draft-pack.json', dir)));
+const games = ['moreless','estimate','facts','jeopardy'];
+const before = Object.fromEntries(games.map(g=>[g, context.window.GAME_CONTENT_PACK[g].filter(q=>q.cat==='Planetenphysik').length]));
+const added = Object.fromEntries(games.map(g=>[g, pack[g].length]));
+const after = Object.fromEntries(games.map(g=>[g, before[g]+added[g]]));
+const report = {base_commit:pack.base_commit,category:'Planetenphysik',before_main:before,known_open_drafts:{moreless:0,estimate:0,facts:0,jeopardy:0},added,after_including_this_draft:after,totals:{before_main:Object.values(before).reduce((a,b)=>a+b,0),known_open_drafts:0,added:20,after_including_this_draft:Object.values(after).reduce((a,b)=>a+b,0)}};
+const text = JSON.stringify(report,null,2)+'\n';
+const out = new URL('category-summary.json', dir);
+if (check) assert.equal(fs.readFileSync(out,'utf8'), text, 'Stale category-summary.json'); else fs.writeFileSync(out,text);
+console.log(`${check?'Checked':'Wrote'} Planetenphysik inventory 54 + 20 = 74`);
