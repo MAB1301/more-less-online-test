@@ -1,0 +1,9 @@
+{
+  "overview":{"url":"https://science.nasa.gov/dwarf-planets/","authority":"official","publisher":"NASA Science","checked":"2026-11-02","data_year":2026,"limits":"Current NASA overview of the five IAU-recognized dwarf planets; recognition status can change."},
+  "ceres":{"url":"https://science.nasa.gov/dwarf-planets/ceres/facts/","authority":"official","publisher":"NASA Science","checked":"2026-11-02","data_year":2026,"limits":"Rounded public-facing values; radius, day, orbit and axial tilt are approximate."},
+  "pluto":{"url":"https://science.nasa.gov/dwarf-planets/pluto/facts/","authority":"official","publisher":"NASA Science","checked":"2026-11-02","data_year":2026,"limits":"Rounded public-facing values; moon count and named moons reflect the page snapshot."},
+  "haumea":{"url":"https://science.nasa.gov/dwarf-planets/haumea/","authority":"official","publisher":"NASA Science","checked":"2026-11-02","data_year":2026,"limits":"Rounded public-facing values; discovery credit remains disputed and is excluded."},
+  "makemake":{"url":"https://science.nasa.gov/dwarf-planets/makemake/","authority":"official","publisher":"NASA Science","checked":"2026-11-02","data_year":2026,"limits":"Page updated 2026-10-26; rounded values and one provisional moon."},
+  "eris":{"url":"https://science.nasa.gov/dwarf-planets/eris/","authority":"official","publisher":"NASA Science","checked":"2026-11-02","data_year":2026,"limits":"Rounded public-facing values; conflicting diameter values on other NASA pages are excluded."},
+  "moons":{"url":"https://science.nasa.gov/solar-system/moons/facts/","authority":"official","publisher":"NASA Science","checked":"2026-11-02","data_year":2026,"limits":"Page updated 2026-10-13; moon counts are time-dependent and require 90-day review."}
+}

@@ -18,3 +18,8 @@ jobs:
       - name: Static game regression checks
         run: |
           node scripts/regression-check.mjs
+      - name: Planetenkunde draft reproducibility and content checks
+        run: |
+          python3 scripts/build-planetenkunde-draft-20261102.py --check
+          node scripts/inventory-planetenkunde-draft-20261102.mjs --check
+          node scripts/check-planetenkunde-draft-20261102.mjs
