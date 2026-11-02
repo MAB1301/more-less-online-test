@@ -1,0 +1,27 @@
+{
+  "project": "rnwsbgzdrttqtivrwnxo",
+  "account_label": "Marc",
+  "checked": "2026-11-02",
+  "mode": "read-only",
+  "catalogue_total": 7187,
+  "counts_by_game": {
+    "moreless": 4228,
+    "estimate": 1507,
+    "facts": 1452,
+    "jeopardy": 0
+  },
+  "targeted_terms": [
+    "Ceres",
+    "Pluto",
+    "Haumea",
+    "Makemake",
+    "Dysnomia",
+    "Piazzi",
+    "Dawn",
+    "2005 FY9",
+    "Zwergplanet"
+  ],
+  "targeted_exact_conflicts": 0,
+  "notes": "Broad substring search for Eris returned unrelated words containing 'eris'; manual review found no Eris question. Existing New Horizons material was intentionally excluded from this draft.",
+  "database_writes": 0
+}

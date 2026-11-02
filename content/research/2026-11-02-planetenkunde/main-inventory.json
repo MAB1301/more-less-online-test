@@ -1,0 +1,22 @@
+{
+  "checked": "2026-11-02",
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "target_category": "Planetenkunde",
+  "unique_before_by_game": {
+    "moreless": 0,
+    "estimate": 0,
+    "facts": 0,
+    "jeopardy": 23
+  },
+  "unique_before_total": 23,
+  "selectable_subcategories": [
+    "Bahnen & Rotation",
+    "Monde",
+    "Physikalische Größen",
+    "Planetensystem",
+    "Technik & Abmessungen"
+  ],
+  "review_schedule_records": 941,
+  "due_review_records": 0,
+  "notes": "The generated category-summary.json contains the full current selectable category and subcategory inventory for all four games."
+}

@@ -1,0 +1,225 @@
+{
+  "policy": "Stable facts: annual review; recognition and moon/ring status: 90-day review.",
+  "records": [
+    {
+      "id": "dwarf-20261102-orbit-haumea-makemake",
+      "game": "moreless",
+      "source": "https://science.nasa.gov/dwarf-planets/haumea/",
+      "verified": "2026-11-02",
+      "data_year": 2026,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-02",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "dwarf-20261102-day-makemake-eris",
+      "game": "moreless",
+      "source": "https://science.nasa.gov/dwarf-planets/makemake/",
+      "verified": "2026-11-02",
+      "data_year": 2026,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-02",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "dwarf-20261102-ceres-tilt",
+      "game": "estimate",
+      "source": "https://science.nasa.gov/dwarf-planets/ceres/facts/",
+      "verified": "2026-11-02",
+      "data_year": 2026,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-02",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "dwarf-20261102-pluto-day",
+      "game": "estimate",
+      "source": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+      "verified": "2026-11-02",
+      "data_year": 2026,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-02",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "dwarf-20261102-makemake-light",
+      "game": "estimate",
+      "source": "https://science.nasa.gov/dwarf-planets/makemake/",
+      "verified": "2026-11-02",
+      "data_year": 2026,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-02",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "dwarf-20261102-eris-distance",
+      "game": "estimate",
+      "source": "https://science.nasa.gov/dwarf-planets/eris/",
+      "verified": "2026-11-02",
+      "data_year": 2026,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-02",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "dwarf-20261102-ceres-inner",
+      "game": "facts",
+      "source": "https://science.nasa.gov/dwarf-planets/",
+      "verified": "2026-11-02",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-31",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "dwarf-20261102-pluto-neptune",
+      "game": "facts",
+      "source": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+      "verified": "2026-11-02",
+      "data_year": 2026,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-02",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "dwarf-20261102-haumea-moons",
+      "game": "facts",
+      "source": "https://science.nasa.gov/dwarf-planets/haumea/",
+      "verified": "2026-11-02",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-31",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "dwarf-20261102-makemake-rings",
+      "game": "facts",
+      "source": "https://science.nasa.gov/dwarf-planets/makemake/",
+      "verified": "2026-11-02",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-31",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "dwarf-20261102-cleared-orbit",
+      "game": "facts",
+      "source": "https://science.nasa.gov/dwarf-planets/",
+      "verified": "2026-11-02",
+      "data_year": 2026,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-02",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "dwarf-20261102-eris-year",
+      "game": "facts",
+      "source": "https://science.nasa.gov/dwarf-planets/eris/",
+      "verified": "2026-11-02",
+      "data_year": 2026,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-02",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "dwarf-20261102-ceres-radius",
+      "game": "jeopardy",
+      "source": "https://science.nasa.gov/dwarf-planets/ceres/facts/",
+      "verified": "2026-11-02",
+      "data_year": 2026,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-02",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "dwarf-20261102-pluto-aphelion",
+      "game": "jeopardy",
+      "source": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+      "verified": "2026-11-02",
+      "data_year": 2026,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-02",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "dwarf-20261102-haumea-ring-year",
+      "game": "jeopardy",
+      "source": "https://science.nasa.gov/dwarf-planets/haumea/",
+      "verified": "2026-11-02",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-02",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "dwarf-20261102-makemake-designation",
+      "game": "jeopardy",
+      "source": "https://science.nasa.gov/dwarf-planets/makemake/",
+      "verified": "2026-11-02",
+      "data_year": 2005,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-02",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "dwarf-20261102-eris-moon",
+      "game": "jeopardy",
+      "source": "https://science.nasa.gov/dwarf-planets/eris/",
+      "verified": "2026-11-02",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-31",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "dwarf-20261102-ceres-orbit",
+      "game": "jeopardy",
+      "source": "https://science.nasa.gov/dwarf-planets/ceres/facts/",
+      "verified": "2026-11-02",
+      "data_year": 2026,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-02",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "dwarf-20261102-pluto-moons",
+      "game": "jeopardy",
+      "source": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+      "verified": "2026-11-02",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-31",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "dwarf-20261102-haumea-moon-names",
+      "game": "jeopardy",
+      "source": "https://science.nasa.gov/dwarf-planets/haumea/",
+      "verified": "2026-11-02",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-01-31",
+      "review_status": "draft-review-required"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "checked": "2026-11-02",
+  "base_branch": "Main",
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "open_pull_requests": 34,
+  "open_pr_numbers": [57, 109, 122, 126, 127, 128, 129, 130, 131, 132, 134, 138, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165],
+  "planetenkunde_dedicated_open_drafts": 0,
+  "adjacent_reviews": [
+    {"number": 129, "scope": "TRAPPIST / Weltraum", "overlap": "none"},
+    {"number": 165, "scope": "Planetenphysik", "overlap": "none"}
+  ],
+  "result": "No duplicate, reversed-pair or paraphrase conflict identified for this 20-question draft."
+}

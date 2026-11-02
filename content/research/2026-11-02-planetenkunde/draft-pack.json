@@ -1,0 +1,671 @@
+{
+  "status": "review-only",
+  "verified": "2026-11-02",
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "images": {
+    "dwarf-planets-neutral": {
+      "card": "visuals/dwarf-planets-neutral-card.svg",
+      "detail": "visuals/dwarf-planets-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Five abstract icy bodies on orbital arcs; no names, counts, scales, labels or answer values."
+    },
+    "Haumea": {
+      "card": "visuals/dwarf-planets-neutral-card.svg",
+      "detail": "visuals/dwarf-planets-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Five abstract icy bodies on orbital arcs; no names, counts, scales, labels or answer values."
+    },
+    "Makemake": {
+      "card": "visuals/dwarf-planets-neutral-card.svg",
+      "detail": "visuals/dwarf-planets-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Five abstract icy bodies on orbital arcs; no names, counts, scales, labels or answer values."
+    },
+    "Eris": {
+      "card": "visuals/dwarf-planets-neutral-card.svg",
+      "detail": "visuals/dwarf-planets-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Five abstract icy bodies on orbital arcs; no names, counts, scales, labels or answer values."
+    }
+  },
+  "moreless": [
+    {
+      "id": "dwarf-20261102-orbit-haumea-makemake",
+      "semantic_key": "dwarf-orbit-years-haumea-makemake-nasa-2026",
+      "cat": "Planetenkunde",
+      "subcategory": "Zwergplaneten · Bahnen",
+      "source_refs": [
+        "haumea",
+        "makemake"
+      ],
+      "observation_keys": [
+        "haumea-orbit-years",
+        "makemake-orbit-years"
+      ],
+      "data_year": 2026,
+      "rounding": "Ganze Erdjahre wie von NASA gerundet.",
+      "notes": "Gleiche Kennzahl, Einheit, NASA-Seitenfamilie und Prüfstand; Abstand 7,02 % bezogen auf Haumea.",
+      "time_dependent": false,
+      "l": "Haumea",
+      "r": "Makemake",
+      "lv": 285,
+      "rv": 305,
+      "u": "Erdjahre · Sonnenumlauf",
+      "metric": "Umlaufzeit um die Sonne",
+      "status": "draft",
+      "verified": "2026-11-02",
+      "source": "https://science.nasa.gov/dwarf-planets/haumea/",
+      "sources": [
+        "https://science.nasa.gov/dwarf-planets/haumea/",
+        "https://science.nasa.gov/dwarf-planets/makemake/"
+      ],
+      "sets": [
+        "Planetenkunde · Zwergplaneten"
+      ],
+      "visual": "dwarf-planets-neutral",
+      "subject": "dwarf-planets-neutral"
+    },
+    {
+      "id": "dwarf-20261102-day-makemake-eris",
+      "semantic_key": "dwarf-day-hours-makemake-eris-nasa-2026",
+      "cat": "Planetenkunde",
+      "subcategory": "Zwergplaneten · Rotation",
+      "source_refs": [
+        "makemake",
+        "eris"
+      ],
+      "observation_keys": [
+        "makemake-day-hours",
+        "eris-day-hours"
+      ],
+      "data_year": 2026,
+      "rounding": "Eine Dezimalstelle wie von NASA publiziert.",
+      "notes": "Gleiche Kennzahl, Einheit, NASA-Seitenfamilie und Prüfstand; Abstand 15,11 % bezogen auf Makemake.",
+      "time_dependent": false,
+      "l": "Makemake",
+      "r": "Eris",
+      "lv": 22.5,
+      "rv": 25.9,
+      "u": "Stunden · Rotationsdauer",
+      "metric": "Rotationsdauer",
+      "status": "draft",
+      "verified": "2026-11-02",
+      "source": "https://science.nasa.gov/dwarf-planets/makemake/",
+      "sources": [
+        "https://science.nasa.gov/dwarf-planets/makemake/",
+        "https://science.nasa.gov/dwarf-planets/eris/"
+      ],
+      "sets": [
+        "Planetenkunde · Zwergplaneten"
+      ],
+      "visual": "dwarf-planets-neutral",
+      "subject": "dwarf-planets-neutral"
+    }
+  ],
+  "estimate": [
+    {
+      "id": "dwarf-20261102-ceres-tilt",
+      "semantic_key": "ceres-axis-tilt-four-degrees-nasa-2026",
+      "cat": "Planetenkunde",
+      "subcategory": "Zwergplaneten · Rotation",
+      "source_refs": [
+        "ceres"
+      ],
+      "observation_keys": [
+        "ceres-axis-tilt"
+      ],
+      "data_year": 2026,
+      "rounding": "Ganze Grad wie von NASA gerundet.",
+      "notes": "Neigung der Rotationsachse zur Bahnebene.",
+      "time_dependent": false,
+      "q": "Um wie viele Grad ist Ceres' Rotationsachse laut NASA ungefähr gegen seine Bahnebene geneigt?",
+      "a": 4,
+      "u": "Grad",
+      "status": "draft",
+      "verified": "2026-11-02",
+      "source": "https://science.nasa.gov/dwarf-planets/ceres/facts/",
+      "sources": [
+        "https://science.nasa.gov/dwarf-planets/ceres/facts/"
+      ],
+      "sets": [
+        "Planetenkunde · Zwergplaneten"
+      ],
+      "visual": "dwarf-planets-neutral",
+      "subject": "dwarf-planets-neutral"
+    },
+    {
+      "id": "dwarf-20261102-pluto-day",
+      "semantic_key": "pluto-day-153-hours-nasa-2026",
+      "cat": "Planetenkunde",
+      "subcategory": "Zwergplaneten · Rotation",
+      "source_refs": [
+        "pluto"
+      ],
+      "observation_keys": [
+        "pluto-day-hours"
+      ],
+      "data_year": 2026,
+      "rounding": "Ganze Stunden wie von NASA gerundet.",
+      "notes": "Rotationsdauer, nicht Umlaufzeit um die Sonne.",
+      "time_dependent": false,
+      "q": "Wie viele Stunden dauert ein Tag auf Pluto laut NASA ungefähr?",
+      "a": 153,
+      "u": "Stunden",
+      "status": "draft",
+      "verified": "2026-11-02",
+      "source": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+      "sources": [
+        "https://science.nasa.gov/dwarf-planets/pluto/facts/"
+      ],
+      "sets": [
+        "Planetenkunde · Zwergplaneten"
+      ],
+      "visual": "dwarf-planets-neutral",
+      "subject": "dwarf-planets-neutral"
+    },
+    {
+      "id": "dwarf-20261102-makemake-light",
+      "semantic_key": "makemake-sunlight-travel-380-minutes-nasa-2026",
+      "cat": "Planetenkunde",
+      "subcategory": "Zwergplaneten · Entfernungen",
+      "source_refs": [
+        "makemake"
+      ],
+      "observation_keys": [
+        "makemake-light-minutes"
+      ],
+      "data_year": 2026,
+      "rounding": "NASA nennt 6 Stunden 20 Minuten; exakt in 380 Minuten umgerechnet.",
+      "notes": "Lichtlaufzeit bei der angegebenen mittleren Sonnenentfernung.",
+      "time_dependent": false,
+      "q": "Wie viele Minuten benötigt Sonnenlicht laut NASA ungefähr bis Makemake?",
+      "a": 380,
+      "u": "Minuten",
+      "status": "draft",
+      "verified": "2026-11-02",
+      "source": "https://science.nasa.gov/dwarf-planets/makemake/",
+      "sources": [
+        "https://science.nasa.gov/dwarf-planets/makemake/"
+      ],
+      "sets": [
+        "Planetenkunde · Zwergplaneten"
+      ],
+      "visual": "dwarf-planets-neutral",
+      "subject": "dwarf-planets-neutral"
+    },
+    {
+      "id": "dwarf-20261102-eris-distance",
+      "semantic_key": "eris-average-distance-68-au-nasa-2026",
+      "cat": "Planetenkunde",
+      "subcategory": "Zwergplaneten · Entfernungen",
+      "source_refs": [
+        "eris"
+      ],
+      "observation_keys": [
+        "eris-distance-au"
+      ],
+      "data_year": 2026,
+      "rounding": "Ganze Astronomische Einheiten wie von NASA gerundet.",
+      "notes": "Mittlere Entfernung, keine momentane Distanz.",
+      "time_dependent": false,
+      "q": "Wie viele Astronomische Einheiten ist Eris laut NASA im Mittel von der Sonne entfernt?",
+      "a": 68,
+      "u": "AE",
+      "status": "draft",
+      "verified": "2026-11-02",
+      "source": "https://science.nasa.gov/dwarf-planets/eris/",
+      "sources": [
+        "https://science.nasa.gov/dwarf-planets/eris/"
+      ],
+      "sets": [
+        "Planetenkunde · Zwergplaneten"
+      ],
+      "visual": "dwarf-planets-neutral",
+      "subject": "dwarf-planets-neutral"
+    }
+  ],
+  "facts": [
+    {
+      "id": "dwarf-20261102-ceres-inner",
+      "semantic_key": "ceres-only-inner-solar-system-dwarf-nasa-2026",
+      "cat": "Planetenkunde",
+      "subcategory": "Zwergplaneten · Einordnung",
+      "source_refs": [
+        "overview",
+        "ceres"
+      ],
+      "observation_keys": [
+        "ceres-only-inner-dwarf"
+      ],
+      "data_year": 2026,
+      "rounding": "Qualitative NASA-Aussage.",
+      "notes": "Bezieht sich auf die fünf aktuell von der IAU anerkannten Zwergplaneten.",
+      "time_dependent": true,
+      "s": "Ceres ist laut NASA der einzige anerkannte Zwergplanet im inneren Sonnensystem.",
+      "a": true,
+      "e": "Ceres liegt im Asteroidengürtel zwischen Mars und Jupiter; die anderen vier anerkannten Zwergplaneten liegen weiter außen.",
+      "difficulty": "easy",
+      "status": "draft",
+      "verified": "2026-11-02",
+      "source": "https://science.nasa.gov/dwarf-planets/",
+      "sources": [
+        "https://science.nasa.gov/dwarf-planets/",
+        "https://science.nasa.gov/dwarf-planets/ceres/facts/"
+      ],
+      "sets": [
+        "Planetenkunde · Zwergplaneten"
+      ],
+      "visual": "dwarf-planets-neutral",
+      "subject": "dwarf-planets-neutral"
+    },
+    {
+      "id": "dwarf-20261102-pluto-neptune",
+      "semantic_key": "pluto-closer-sun-than-neptune-1979-1999-nasa-2026",
+      "cat": "Planetenkunde",
+      "subcategory": "Zwergplaneten · Bahnen",
+      "source_refs": [
+        "pluto"
+      ],
+      "observation_keys": [
+        "pluto-closer-than-neptune-1979-1999"
+      ],
+      "data_year": 2026,
+      "rounding": "Historischer Zeitraum wie publiziert.",
+      "notes": "Vergleicht Sonnenabstand während Plutos Perihelphase, nicht mittlere Abstände.",
+      "time_dependent": false,
+      "s": "Pluto war zwischen 1979 und 1999 zu keinem Zeitpunkt näher an der Sonne als Neptun.",
+      "a": false,
+      "e": "NASA erklärt, dass Pluto in diesem Zeitraum tatsächlich näher an der Sonne war als Neptun.",
+      "difficulty": "easy",
+      "status": "draft",
+      "verified": "2026-11-02",
+      "source": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+      "sources": [
+        "https://science.nasa.gov/dwarf-planets/pluto/facts/"
+      ],
+      "sets": [
+        "Planetenkunde · Zwergplaneten"
+      ],
+      "visual": "dwarf-planets-neutral",
+      "subject": "dwarf-planets-neutral"
+    },
+    {
+      "id": "dwarf-20261102-haumea-moons",
+      "semantic_key": "haumea-two-known-moons-nasa-2026",
+      "cat": "Planetenkunde",
+      "subcategory": "Zwergplaneten · Monde & Ringe",
+      "source_refs": [
+        "haumea",
+        "moons"
+      ],
+      "observation_keys": [
+        "haumea-two-moons"
+      ],
+      "data_year": 2026,
+      "rounding": "Aktueller Seitenstand.",
+      "notes": "Anzahl bekannter Monde; 90-Tage-Wiedervorlage.",
+      "time_dependent": true,
+      "s": "Haumea hat laut NASA zwei bekannte Monde.",
+      "a": true,
+      "e": "Die beiden Monde heißen Namaka und Hi'iaka.",
+      "difficulty": "medium",
+      "status": "draft",
+      "verified": "2026-11-02",
+      "source": "https://science.nasa.gov/dwarf-planets/haumea/",
+      "sources": [
+        "https://science.nasa.gov/dwarf-planets/haumea/",
+        "https://science.nasa.gov/solar-system/moons/facts/"
+      ],
+      "sets": [
+        "Planetenkunde · Zwergplaneten"
+      ],
+      "visual": "dwarf-planets-neutral",
+      "subject": "dwarf-planets-neutral"
+    },
+    {
+      "id": "dwarf-20261102-makemake-rings",
+      "semantic_key": "makemake-no-known-rings-nasa-2026",
+      "cat": "Planetenkunde",
+      "subcategory": "Zwergplaneten · Monde & Ringe",
+      "source_refs": [
+        "makemake"
+      ],
+      "observation_keys": [
+        "makemake-no-known-rings"
+      ],
+      "data_year": 2026,
+      "rounding": "Aktueller Seitenstand.",
+      "notes": "Aussage zu bekannten Ringen; 90-Tage-Wiedervorlage.",
+      "time_dependent": true,
+      "s": "Um Makemake ist laut NASA ein Ringsystem bekannt.",
+      "a": false,
+      "e": "NASA nennt ausdrücklich keine bekannten Ringe um Makemake.",
+      "difficulty": "medium",
+      "status": "draft",
+      "verified": "2026-11-02",
+      "source": "https://science.nasa.gov/dwarf-planets/makemake/",
+      "sources": [
+        "https://science.nasa.gov/dwarf-planets/makemake/"
+      ],
+      "sets": [
+        "Planetenkunde · Zwergplaneten"
+      ],
+      "visual": "dwarf-planets-neutral",
+      "subject": "dwarf-planets-neutral"
+    },
+    {
+      "id": "dwarf-20261102-cleared-orbit",
+      "semantic_key": "dwarf-planet-not-cleared-orbit-definition-nasa-iau-2026",
+      "cat": "Planetenkunde",
+      "subcategory": "Zwergplaneten · Einordnung",
+      "source_refs": [
+        "overview"
+      ],
+      "observation_keys": [
+        "dwarf-not-cleared-orbit"
+      ],
+      "data_year": 2026,
+      "rounding": "Qualitative Wiedergabe der IAU-Abgrenzung auf der NASA-Seite.",
+      "notes": "Gilt für Zwergplaneten im Sonnensystem.",
+      "time_dependent": false,
+      "s": "Ein Zwergplanet hat nach der von NASA wiedergegebenen IAU-Abgrenzung seine Umlaufbahn von ähnlich großen Objekten freigeräumt.",
+      "a": false,
+      "e": "Gerade das fehlende Freiräumen der Bahnumgebung unterscheidet Zwergplaneten von Planeten.",
+      "difficulty": "hard",
+      "status": "draft",
+      "verified": "2026-11-02",
+      "source": "https://science.nasa.gov/dwarf-planets/",
+      "sources": [
+        "https://science.nasa.gov/dwarf-planets/"
+      ],
+      "sets": [
+        "Planetenkunde · Zwergplaneten"
+      ],
+      "visual": "dwarf-planets-neutral",
+      "subject": "dwarf-planets-neutral"
+    },
+    {
+      "id": "dwarf-20261102-eris-year",
+      "semantic_key": "eris-orbit-over-500-earth-years-nasa-2026",
+      "cat": "Planetenkunde",
+      "subcategory": "Zwergplaneten · Bahnen",
+      "source_refs": [
+        "eris"
+      ],
+      "observation_keys": [
+        "eris-orbit-over-500-years"
+      ],
+      "data_year": 2026,
+      "rounding": "NASA nennt 557 Erdjahre.",
+      "notes": "Sonnenumlauf, nicht Rotation.",
+      "time_dependent": false,
+      "s": "Eris benötigt laut NASA mehr als 500 Erdjahre für einen Umlauf um die Sonne.",
+      "a": true,
+      "e": "NASA nennt ungefähr 557 Erdjahre.",
+      "difficulty": "hard",
+      "status": "draft",
+      "verified": "2026-11-02",
+      "source": "https://science.nasa.gov/dwarf-planets/eris/",
+      "sources": [
+        "https://science.nasa.gov/dwarf-planets/eris/"
+      ],
+      "sets": [
+        "Planetenkunde · Zwergplaneten"
+      ],
+      "visual": "dwarf-planets-neutral",
+      "subject": "dwarf-planets-neutral"
+    }
+  ],
+  "jeopardy": [
+    {
+      "id": "dwarf-20261102-ceres-radius",
+      "semantic_key": "ceres-radius-476-km-nasa-2026",
+      "cat": "Planetenkunde",
+      "subcategory": "Zwergplaneten · Größen",
+      "source_refs": [
+        "ceres"
+      ],
+      "observation_keys": [
+        "ceres-radius-km"
+      ],
+      "data_year": 2026,
+      "rounding": "Ganze Kilometer wie von NASA gerundet.",
+      "notes": "Mittlerer öffentlicher NASA-Radiuswert.",
+      "time_dependent": false,
+      "q": "Welchen Radius nennt NASA für Ceres ungefähr?",
+      "a": "476 km|476 Kilometer",
+      "difficulty": 2,
+      "status": "draft",
+      "verified": "2026-11-02",
+      "source": "https://science.nasa.gov/dwarf-planets/ceres/facts/",
+      "sources": [
+        "https://science.nasa.gov/dwarf-planets/ceres/facts/"
+      ],
+      "sets": [
+        "Planetenkunde · Zwergplaneten"
+      ],
+      "visual": null
+    },
+    {
+      "id": "dwarf-20261102-pluto-aphelion",
+      "semantic_key": "pluto-aphelion-49-3-au-nasa-2026",
+      "cat": "Planetenkunde",
+      "subcategory": "Zwergplaneten · Entfernungen",
+      "source_refs": [
+        "pluto"
+      ],
+      "observation_keys": [
+        "pluto-aphelion-au"
+      ],
+      "data_year": 2026,
+      "rounding": "Eine Dezimalstelle wie publiziert.",
+      "notes": "Größter Sonnenabstand der beschriebenen elliptischen Bahn.",
+      "time_dependent": false,
+      "q": "Bis zu wie vielen Astronomischen Einheiten kann Pluto laut NASA auf seiner Bahn von der Sonne entfernt sein?",
+      "a": "49,3 AE|49.3 AU|49,3 Astronomische Einheiten",
+      "difficulty": 4,
+      "status": "draft",
+      "verified": "2026-11-02",
+      "source": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+      "sources": [
+        "https://science.nasa.gov/dwarf-planets/pluto/facts/"
+      ],
+      "sets": [
+        "Planetenkunde · Zwergplaneten"
+      ],
+      "visual": null
+    },
+    {
+      "id": "dwarf-20261102-haumea-ring-year",
+      "semantic_key": "haumea-rings-announced-2017-nasa-2026",
+      "cat": "Planetenkunde",
+      "subcategory": "Zwergplaneten · Monde & Ringe",
+      "source_refs": [
+        "haumea"
+      ],
+      "observation_keys": [
+        "haumea-rings-announced"
+      ],
+      "data_year": 2017,
+      "rounding": "Jahr wie publiziert.",
+      "notes": "Historisches Veröffentlichungsjahr.",
+      "time_dependent": false,
+      "q": "In welchem Jahr wurde laut NASA die Entdeckung von Haumeas Ring bekanntgegeben?",
+      "a": "2017",
+      "difficulty": 3,
+      "status": "draft",
+      "verified": "2026-11-02",
+      "source": "https://science.nasa.gov/dwarf-planets/haumea/",
+      "sources": [
+        "https://science.nasa.gov/dwarf-planets/haumea/"
+      ],
+      "sets": [
+        "Planetenkunde · Zwergplaneten"
+      ],
+      "visual": null
+    },
+    {
+      "id": "dwarf-20261102-makemake-designation",
+      "semantic_key": "makemake-provisional-designation-2005-fy9-nasa-2026",
+      "cat": "Planetenkunde",
+      "subcategory": "Zwergplaneten · Entdeckung",
+      "source_refs": [
+        "makemake"
+      ],
+      "observation_keys": [
+        "makemake-provisional-name"
+      ],
+      "data_year": 2005,
+      "rounding": "Katalogbezeichnung exakt übernommen.",
+      "notes": "Vorläufige Bezeichnung vor der Namensbestätigung.",
+      "time_dependent": false,
+      "q": "Welche vorläufige Bezeichnung trug Makemake laut NASA vor seiner Bestätigung?",
+      "a": "2005 FY9",
+      "difficulty": 5,
+      "status": "draft",
+      "verified": "2026-11-02",
+      "source": "https://science.nasa.gov/dwarf-planets/makemake/",
+      "sources": [
+        "https://science.nasa.gov/dwarf-planets/makemake/"
+      ],
+      "sets": [
+        "Planetenkunde · Zwergplaneten"
+      ],
+      "visual": null
+    },
+    {
+      "id": "dwarf-20261102-eris-moon",
+      "semantic_key": "eris-moon-dysnomia-nasa-2026",
+      "cat": "Planetenkunde",
+      "subcategory": "Zwergplaneten · Monde & Ringe",
+      "source_refs": [
+        "eris",
+        "moons"
+      ],
+      "observation_keys": [
+        "eris-moon-name"
+      ],
+      "data_year": 2026,
+      "rounding": "Name exakt übernommen.",
+      "notes": "Aktuell bekannter Eris-Mond.",
+      "time_dependent": true,
+      "q": "Wie heißt der kleine Mond des Zwergplaneten Eris?",
+      "a": "Dysnomia",
+      "difficulty": 2,
+      "status": "draft",
+      "verified": "2026-11-02",
+      "source": "https://science.nasa.gov/dwarf-planets/eris/",
+      "sources": [
+        "https://science.nasa.gov/dwarf-planets/eris/",
+        "https://science.nasa.gov/solar-system/moons/facts/"
+      ],
+      "sets": [
+        "Planetenkunde · Zwergplaneten"
+      ],
+      "visual": null
+    },
+    {
+      "id": "dwarf-20261102-ceres-orbit",
+      "semantic_key": "ceres-orbit-1682-earth-days-nasa-2026",
+      "cat": "Planetenkunde",
+      "subcategory": "Zwergplaneten · Bahnen",
+      "source_refs": [
+        "ceres"
+      ],
+      "observation_keys": [
+        "ceres-orbit-days"
+      ],
+      "data_year": 2026,
+      "rounding": "Ganze Erdtage wie von NASA gerundet.",
+      "notes": "Sonnenumlauf, nicht Eigenrotation.",
+      "time_dependent": false,
+      "q": "Wie viele Erdtage benötigt Ceres laut NASA ungefähr für einen Sonnenumlauf?",
+      "a": "1.682|1682",
+      "difficulty": 3,
+      "status": "draft",
+      "verified": "2026-11-02",
+      "source": "https://science.nasa.gov/dwarf-planets/ceres/facts/",
+      "sources": [
+        "https://science.nasa.gov/dwarf-planets/ceres/facts/"
+      ],
+      "sets": [
+        "Planetenkunde · Zwergplaneten"
+      ],
+      "visual": null
+    },
+    {
+      "id": "dwarf-20261102-pluto-moons",
+      "semantic_key": "pluto-five-known-moons-nasa-2026",
+      "cat": "Planetenkunde",
+      "subcategory": "Zwergplaneten · Monde & Ringe",
+      "source_refs": [
+        "pluto",
+        "moons"
+      ],
+      "observation_keys": [
+        "pluto-moon-count"
+      ],
+      "data_year": 2026,
+      "rounding": "Aktueller Seitenstand.",
+      "notes": "Anzahl bekannter Pluto-Monde; 90-Tage-Wiedervorlage.",
+      "time_dependent": true,
+      "q": "Wie viele bekannte Monde hat Pluto laut NASA mit Stand Oktober 2026?",
+      "a": "5|fünf",
+      "difficulty": 1,
+      "status": "draft",
+      "verified": "2026-11-02",
+      "source": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+      "sources": [
+        "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+        "https://science.nasa.gov/solar-system/moons/facts/"
+      ],
+      "sets": [
+        "Planetenkunde · Zwergplaneten"
+      ],
+      "visual": null
+    },
+    {
+      "id": "dwarf-20261102-haumea-moon-names",
+      "semantic_key": "haumea-moons-namaka-hiiaka-nasa-2026",
+      "cat": "Planetenkunde",
+      "subcategory": "Zwergplaneten · Monde & Ringe",
+      "source_refs": [
+        "haumea",
+        "moons"
+      ],
+      "observation_keys": [
+        "haumea-moon-names"
+      ],
+      "data_year": 2026,
+      "rounding": "Namen wie publiziert.",
+      "notes": "Beide bekannten Monde, Reihenfolge egal.",
+      "time_dependent": true,
+      "q": "Wie heißen Haumeas zwei bekannte Monde?",
+      "a": "Namaka und Hi'iaka|Hi'iaka und Namaka|Namaka und Hiiaka",
+      "difficulty": 4,
+      "status": "draft",
+      "verified": "2026-11-02",
+      "source": "https://science.nasa.gov/dwarf-planets/haumea/",
+      "sources": [
+        "https://science.nasa.gov/dwarf-planets/haumea/",
+        "https://science.nasa.gov/solar-system/moons/facts/"
+      ],
+      "sets": [
+        "Planetenkunde · Zwergplaneten"
+      ],
+      "visual": null
+    }
+  ]
+}
