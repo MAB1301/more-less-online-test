@@ -1,0 +1,11 @@
+{
+  "checked":"2026-11-05",
+  "base_commit":"dced74bb1385014445e186969a09ccd92c20edb5",
+  "target_category":"Weltkultur",
+  "unique_before_by_game":{"moreless":42,"estimate":17,"facts":12,"jeopardy":19},
+  "unique_before_total":90,
+  "selectable_subcategories":["Baumeister & Zivilisationen","Flächen & Landschaften","UNESCO-Flächen","Wissen & Hintergründe","Überblick & neue Perspektiven"],
+  "review_schedule_records":941,
+  "due_review_records":0,
+  "notes":"Generated category-summary.json contains the complete 34-category Main inventory and all selectable subcategories."
+}

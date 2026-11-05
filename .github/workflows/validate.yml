@@ -18,3 +18,8 @@ jobs:
       - name: Static game regression checks
         run: |
           node scripts/regression-check.mjs
+      - name: Weltkultur foodways draft reproducibility and content checks
+        run: |
+          python3 scripts/build-weltkultur-foodways-draft-20261105.py --check
+          node scripts/inventory-weltkultur-foodways-draft-20261105.mjs --check
+          node scripts/check-weltkultur-foodways-draft-20261105.mjs

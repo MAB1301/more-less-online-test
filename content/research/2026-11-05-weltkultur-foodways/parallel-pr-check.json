@@ -1,0 +1,12 @@
+{
+  "checked":"2026-11-05",
+  "base_branch":"Main",
+  "base_commit":"dced74bb1385014445e186969a09ccd92c20edb5",
+  "open_pull_requests":35,
+  "weltkultur_dedicated_open_drafts":0,
+  "adjacent_reviews":[
+    {"number":144,"scope":"Allgemeinwissen/Länder/Städte/Bauwerke/Tierwelt; UNESCO sites only","overlap":"none with intangible foodways"},
+    {"number":161,"scope":"Mix; UNESCO committee and criteria facts","overlap":"none with the eight foodway elements"}
+  ],
+  "result":"No exact, reversed-pair, observation-level or targeted semantic conflict identified in titles, descriptions and documented scopes of all open PRs."
+}
