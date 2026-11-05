@@ -1,0 +1,225 @@
+{
+  "policy": "Current multinational scope: 90-day review; stable historical inscription descriptions: annual review.",
+  "records": [
+    {
+      "id": "foodways-20261105-inscription-beer-pizza",
+      "game": "moreless",
+      "source": "https://ich.unesco.org/en/RL/beer-culture-in-belgium-01062",
+      "verified": "2026-11-05",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-05",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "foodways-20261105-states-med-arabic",
+      "game": "moreless",
+      "source": "https://ich.unesco.org/en/RL/mediterranean-diet-00884",
+      "verified": "2026-11-05",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-02-03",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "foodways-20261105-french-courses",
+      "game": "estimate",
+      "source": "https://ich.unesco.org/en/RL/gastronomic-meal-of-the-french-00437",
+      "verified": "2026-11-05",
+      "data_year": 2010,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-05",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "foodways-20261105-pizza-phases",
+      "game": "estimate",
+      "source": "https://ich.unesco.org/en/RL/art-of-neapolitan-pizzaiolo-00722",
+      "verified": "2026-11-05",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-05",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "foodways-20261105-pizzaiuoli-count",
+      "game": "estimate",
+      "source": "https://ich.unesco.org/en/RL/art-of-neapolitan-pizzaiolo-00722",
+      "verified": "2026-11-05",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-05",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "foodways-20261105-beer-types",
+      "game": "estimate",
+      "source": "https://ich.unesco.org/en/RL/beer-culture-in-belgium-01062",
+      "verified": "2026-11-05",
+      "data_year": 2016,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-05",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "foodways-20261105-washoku-new-year",
+      "game": "facts",
+      "source": "https://ich.unesco.org/en/RL/washoku-traditional-dietary-cultures-of-the-japanese-notably-for-the-celebration-of-the-new-year-00869",
+      "verified": "2026-11-05",
+      "data_year": 2013,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-05",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "foodways-20261105-turkish-water",
+      "game": "facts",
+      "source": "https://ich.unesco.org/en/RL/turkish-coffee-culture-and-tradition-00645",
+      "verified": "2026-11-05",
+      "data_year": 2013,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-05",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "foodways-20261105-kimjang-autumn",
+      "game": "facts",
+      "source": "https://ich.unesco.org/en/RL/kimjang-making-and-sharing-kimchi-in-the-republic-of-korea-00881",
+      "verified": "2026-11-05",
+      "data_year": 2013,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-05",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "foodways-20261105-beer-cooking",
+      "game": "facts",
+      "source": "https://ich.unesco.org/en/RL/beer-culture-in-belgium-01062",
+      "verified": "2026-11-05",
+      "data_year": 2016,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-05",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "foodways-20261105-arabic-cup",
+      "game": "facts",
+      "source": "https://ich.unesco.org/en/RL/arabic-coffee-a-symbol-of-generosity-02111",
+      "verified": "2026-11-05",
+      "data_year": 2024,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-05",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "foodways-20261105-med-crafts",
+      "game": "facts",
+      "source": "https://ich.unesco.org/en/RL/mediterranean-diet-00884",
+      "verified": "2026-11-05",
+      "data_year": 2013,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-05",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "foodways-20261105-french-boundaries",
+      "game": "jeopardy",
+      "source": "https://ich.unesco.org/en/RL/gastronomic-meal-of-the-french-00437",
+      "verified": "2026-11-05",
+      "data_year": 2010,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-05",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "foodways-20261105-washoku-ingredients",
+      "game": "jeopardy",
+      "source": "https://ich.unesco.org/en/RL/washoku-traditional-dietary-cultures-of-the-japanese-notably-for-the-celebration-of-the-new-year-00869",
+      "verified": "2026-11-05",
+      "data_year": 2013,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-05",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "foodways-20261105-pizza-city",
+      "game": "jeopardy",
+      "source": "https://ich.unesco.org/en/RL/art-of-neapolitan-pizzaiolo-00722",
+      "verified": "2026-11-05",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-05",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "foodways-20261105-beer-transmission",
+      "game": "jeopardy",
+      "source": "https://ich.unesco.org/en/RL/beer-culture-in-belgium-01062",
+      "verified": "2026-11-05",
+      "data_year": 2016,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-05",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "foodways-20261105-med-markets",
+      "game": "jeopardy",
+      "source": "https://ich.unesco.org/en/RL/mediterranean-diet-00884",
+      "verified": "2026-11-05",
+      "data_year": 2013,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-05",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "foodways-20261105-arabic-hand",
+      "game": "jeopardy",
+      "source": "https://ich.unesco.org/en/RL/arabic-coffee-a-symbol-of-generosity-02111",
+      "verified": "2026-11-05",
+      "data_year": 2024,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-05",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "foodways-20261105-turkish-fortune",
+      "game": "jeopardy",
+      "source": "https://ich.unesco.org/en/RL/turkish-coffee-culture-and-tradition-00645",
+      "verified": "2026-11-05",
+      "data_year": 2013,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-05",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "foodways-20261105-kimjang-country",
+      "game": "jeopardy",
+      "source": "https://ich.unesco.org/en/RL/kimjang-making-and-sharing-kimchi-in-the-republic-of-korea-00881",
+      "verified": "2026-11-05",
+      "data_year": 2013,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-05",
+      "review_status": "draft-review-required"
+    }
+  ]
+}

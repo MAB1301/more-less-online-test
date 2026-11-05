@@ -1,0 +1,11 @@
+{
+  "project":"rnwsbgzdrttqtivrwnxo",
+  "account_label":"Marc",
+  "checked":"2026-11-05",
+  "mode":"read-only",
+  "catalogue_total":7187,
+  "counts_by_game":{"moreless":4228,"estimate":1507,"facts":1452,"jeopardy":0},
+  "targeted_terms":["gastronomic meal","washoku","pizzaiuolo","beer culture","mediterranean diet","arabic coffee","turkish coffee","kimjang","kimchi"],
+  "matches_by_term":{"gastronomic meal":0,"washoku":0,"pizzaiuolo":0,"beer culture":0,"mediterranean diet":0,"arabic coffee":0,"turkish coffee":0,"kimjang":0,"kimchi":0},
+  "database_writes":0
+}
