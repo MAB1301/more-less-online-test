@@ -18,3 +18,8 @@ jobs:
       - name: Static game regression checks
         run: |
           node scripts/regression-check.mjs
+      - name: Natur cloud-atlas draft reproducibility and content checks
+        run: |
+          python3 scripts/build-natur-wolkenatlas-draft-20261106.py --check
+          node scripts/inventory-natur-wolkenatlas-draft-20261106.mjs --check
+          node scripts/check-natur-wolkenatlas-draft-20261106.mjs
