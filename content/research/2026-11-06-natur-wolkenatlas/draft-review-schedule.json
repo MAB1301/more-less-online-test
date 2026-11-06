@@ -1,0 +1,225 @@
+{
+  "policy": "Stable WMO 2017 classification: annual review; current site operator: 90-day review.",
+  "records": [
+    {
+      "id": "cloud-20261106-species-cirrus-cumulus",
+      "game": "moreless",
+      "source": "https://cloudatlas.wmo.int/en/cloud-classification-summary.html",
+      "verified": "2026-11-06",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "cloud-20261106-varieties-cirrus-stratus",
+      "game": "moreless",
+      "source": "https://cloudatlas.wmo.int/en/cloud-classification-summary.html",
+      "verified": "2026-11-06",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "cloud-20261106-genera",
+      "game": "estimate",
+      "source": "https://cloudatlas.wmo.int/en/definitions-of-clouds.html",
+      "verified": "2026-11-06",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "cloud-20261106-species-total",
+      "game": "estimate",
+      "source": "https://cloudatlas.wmo.int/en/cloud-classification-summary.html",
+      "verified": "2026-11-06",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "cloud-20261106-altocumulus-width",
+      "game": "estimate",
+      "source": "https://cloudatlas.wmo.int/en/altocumulus-ac.html",
+      "verified": "2026-11-06",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "cloud-20261106-cirrus-tropical-upper",
+      "game": "estimate",
+      "source": "https://cloudatlas.wmo.int/en/observation-of-clouds-from-aircraft-descriptions-cirrus.html",
+      "verified": "2026-11-06",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "cloud-20261106-common-language",
+      "game": "facts",
+      "source": "https://cloudatlas.wmo.int/en/home.html",
+      "verified": "2026-11-06",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "cloud-20261106-cumulus-base",
+      "game": "facts",
+      "source": "https://cloudatlas.wmo.int/en/definition-cumulus-cu.html",
+      "verified": "2026-11-06",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "cloud-20261106-cirrus-ice",
+      "game": "facts",
+      "source": "https://cloudatlas.wmo.int/en/observation-of-clouds-from-aircraft-descriptions-cirrus.html",
+      "verified": "2026-11-06",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "cloud-20261106-stratus-halo",
+      "game": "facts",
+      "source": "https://cloudatlas.wmo.int/en/definition-stratus-st.html",
+      "verified": "2026-11-06",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "cloud-20261106-species-exclusive",
+      "game": "facts",
+      "source": "https://cloudatlas.wmo.int/en/clouds-species.html",
+      "verified": "2026-11-06",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "cloud-20261106-nimbostratus-species",
+      "game": "facts",
+      "source": "https://cloudatlas.wmo.int/en/cloud-classification-summary.html",
+      "verified": "2026-11-06",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "cloud-20261106-cirrus-abbr",
+      "game": "jeopardy",
+      "source": "https://cloudatlas.wmo.int/en/cloud-classification-summary.html",
+      "verified": "2026-11-06",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "cloud-20261106-cb-species",
+      "game": "jeopardy",
+      "source": "https://cloudatlas.wmo.int/en/cloud-classification-summary.html",
+      "verified": "2026-11-06",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "cloud-20261106-cumulus-shape",
+      "game": "jeopardy",
+      "source": "https://cloudatlas.wmo.int/en/definition-cumulus-cu.html",
+      "verified": "2026-11-06",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "cloud-20261106-sc-width",
+      "game": "jeopardy",
+      "source": "https://cloudatlas.wmo.int/en/stratocumulus-sc.html",
+      "verified": "2026-11-06",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "cloud-20261106-ac-origin",
+      "game": "jeopardy",
+      "source": "https://cloudatlas.wmo.int/en/altocumulus-ac.html",
+      "verified": "2026-11-06",
+      "data_year": 1855,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "cloud-20261106-sc-origin",
+      "game": "jeopardy",
+      "source": "https://cloudatlas.wmo.int/en/stratocumulus-sc.html",
+      "verified": "2026-11-06",
+      "data_year": 1840,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "cloud-20261106-atlas-number",
+      "game": "jeopardy",
+      "source": "https://cloudatlas.wmo.int/en/home.html",
+      "verified": "2026-11-06",
+      "data_year": 2017,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "cloud-20261106-site-operator",
+      "game": "jeopardy",
+      "source": "https://cloudatlas.wmo.int/en/home.html",
+      "verified": "2026-11-06",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-02-04",
+      "review_status": "draft-review-required"
+    }
+  ]
+}
