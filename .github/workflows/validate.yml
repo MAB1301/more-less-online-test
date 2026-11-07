@@ -18,3 +18,8 @@ jobs:
       - name: Static game regression checks
         run: |
           node scripts/regression-check.mjs
+      - name: Autos EV-tech draft reproducibility and content checks
+        run: |
+          python3 scripts/build-autos-ev-tech-draft-20261107.py --check
+          node scripts/inventory-autos-ev-tech-draft-20261107.mjs --check
+          node scripts/check-autos-ev-tech-draft-20261107.mjs
