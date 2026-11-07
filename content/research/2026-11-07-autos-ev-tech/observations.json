@@ -1,0 +1,13 @@
+{
+  "ioniq5-large-battery":{"value":84,"source_ref":"ioniq5"},"ev3-awd-battery":{"value":81.4,"source_ref":"ev3"},
+  "ioniq5-max-charge":{"value":260,"source_ref":"ioniq5"},"ev6-large-max-charge":{"value":258,"source_ref":"ev6"},
+  "ioniq6-max-range":{"value":680,"source_ref":"ioniq6"},"ev6-max-range":{"value":582,"source_ref":"ev6"},
+  "ev3-awd-torque":{"value":385,"source_ref":"ev3"},"ioniq5-tow":{"value":1600,"source_ref":"ioniq5"},
+  "ioniq5-multicharge":{"value":true,"source_ref":"ioniq5"},"ev6-standard-battery":{"value":63,"source_ref":"ev6"},
+  "ev3-two-motors":{"value":true,"source_ref":"ev3"},"ioniq6-top-speed-all":{"value":185,"source_ref":"ioniq6"},
+  "ev3-22kw-option":{"value":true,"source_ref":"ev3"},"ioniq5-awd-range":{"value":546,"source_ref":"ioniq5"},
+  "ioniq5-charge-time":{"value":18,"source_ref":"ioniq5"},"ioniq6-max-range-config":{"value":"84 kWh RWD mit 18-Zoll-Rädern","source_ref":"ioniq6"},
+  "ev3-delivery-month":{"value":"Juli 2026","source_ref":"ev3"},"ev6-15min-range":{"value":343,"source_ref":"ev6"},
+  "ioniq5-battery-warranty":{"value":"8 Jahre oder 160.000 km","source_ref":"ioniq5"},"ioniq6-battery-options":{"value":"63 und 84 kWh","source_ref":"ioniq6"},
+  "ev3-base-battery":{"value":58.3,"source_ref":"ev3"},"ev6-standard-charge":{"value":195,"source_ref":"ev6"}
+}

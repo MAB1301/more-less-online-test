@@ -1,0 +1,225 @@
+{
+  "policy": "Model-year-specific manufacturer specifications: annual review.",
+  "records": [
+    {
+      "id": "ev-20261107-battery-ioniq5-ev3",
+      "game": "moreless",
+      "source": "https://www.hyundai.news/de/modelle/alternative-antriebe/ioniq-5/pressemappe/der-hyundai-ioniq-5-pressetext.html",
+      "verified": "2026-11-07",
+      "data_year": 2027,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-07",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ev-20261107-charge-ioniq5-ev6",
+      "game": "moreless",
+      "source": "https://www.hyundai.news/de/modelle/alternative-antriebe/ioniq-5/pressemappe/der-hyundai-ioniq-5-pressetext.html",
+      "verified": "2026-11-07",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-07",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ev-20261107-ioniq6-range",
+      "game": "estimate",
+      "source": "https://www.hyundai.news/eu/models/electrified/ioniq-6/press-kit/the-new-hyundai-ioniq-6.html",
+      "verified": "2026-11-07",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-07",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ev-20261107-ev6-range",
+      "game": "estimate",
+      "source": "https://press.kia.com/content/dam/kiapress/DE/Germany/pressemappen/ev6/24_11/Kia_EV6_MJ25_Pressemappe_11-24.pdf",
+      "verified": "2026-11-07",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-07",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ev-20261107-ev3-torque",
+      "game": "estimate",
+      "source": "https://press.kia.com/content/dam/kiapress/DE/Germany/pressemitteilungen/produkt/2026/260426_ev3_mj27/PM_Kia_EV3_jetzt_mit_AWD_und_22-kW-AC-Laden.pdf",
+      "verified": "2026-11-07",
+      "data_year": 2027,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-07",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ev-20261107-ioniq5-tow",
+      "game": "estimate",
+      "source": "https://www.hyundai.news/de/modelle/alternative-antriebe/ioniq-5/pressemappe/der-hyundai-ioniq-5-pressetext.html",
+      "verified": "2026-11-07",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-07",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ev-20261107-ioniq5-multicharge",
+      "game": "facts",
+      "source": "https://www.hyundai.news/de/modelle/alternative-antriebe/ioniq-5/pressemappe/der-hyundai-ioniq-5-pressetext.html",
+      "verified": "2026-11-07",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-07",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ev-20261107-ev6-standard-battery",
+      "game": "facts",
+      "source": "https://press.kia.com/content/dam/kiapress/DE/Germany/pressemappen/ev6/24_11/Kia_EV6_MJ25_Pressemappe_11-24.pdf",
+      "verified": "2026-11-07",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-07",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ev-20261107-ev3-motors",
+      "game": "facts",
+      "source": "https://press.kia.com/content/dam/kiapress/DE/Germany/pressemitteilungen/produkt/2026/260426_ev3_mj27/PM_Kia_EV3_jetzt_mit_AWD_und_22-kW-AC-Laden.pdf",
+      "verified": "2026-11-07",
+      "data_year": 2027,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-07",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ev-20261107-ioniq6-speed",
+      "game": "facts",
+      "source": "https://www.hyundai.news/eu/models/electrified/ioniq-6/press-kit/the-new-hyundai-ioniq-6.html",
+      "verified": "2026-11-07",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-07",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ev-20261107-ev3-ac-option",
+      "game": "facts",
+      "source": "https://press.kia.com/content/dam/kiapress/DE/Germany/pressemitteilungen/produkt/2026/260426_ev3_mj27/PM_Kia_EV3_jetzt_mit_AWD_und_22-kW-AC-Laden.pdf",
+      "verified": "2026-11-07",
+      "data_year": 2027,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-07",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ev-20261107-ioniq5-awd-range",
+      "game": "facts",
+      "source": "https://www.hyundai.news/de/modelle/alternative-antriebe/ioniq-5/pressemappe/der-hyundai-ioniq-5-pressetext.html",
+      "verified": "2026-11-07",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-07",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ev-20261107-ioniq5-charge-time",
+      "game": "jeopardy",
+      "source": "https://www.hyundai.news/de/modelle/alternative-antriebe/ioniq-5/pressemappe/der-hyundai-ioniq-5-pressetext.html",
+      "verified": "2026-11-07",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-07",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ev-20261107-ioniq6-config",
+      "game": "jeopardy",
+      "source": "https://www.hyundai.news/eu/models/electrified/ioniq-6/press-kit/the-new-hyundai-ioniq-6.html",
+      "verified": "2026-11-07",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-07",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ev-20261107-ev3-delivery",
+      "game": "jeopardy",
+      "source": "https://press.kia.com/content/dam/kiapress/DE/Germany/pressemitteilungen/produkt/2026/260426_ev3_mj27/PM_Kia_EV3_jetzt_mit_AWD_und_22-kW-AC-Laden.pdf",
+      "verified": "2026-11-07",
+      "data_year": 2026,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-07",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ev-20261107-ev6-range-15min",
+      "game": "jeopardy",
+      "source": "https://press.kia.com/content/dam/kiapress/DE/Germany/pressemappen/ev6/24_11/Kia_EV6_MJ25_Pressemappe_11-24.pdf",
+      "verified": "2026-11-07",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-07",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ev-20261107-ioniq5-warranty",
+      "game": "jeopardy",
+      "source": "https://www.hyundai.news/de/modelle/alternative-antriebe/ioniq-5/pressemappe/der-hyundai-ioniq-5-pressetext.html",
+      "verified": "2026-11-07",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-07",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ev-20261107-ioniq6-batteries",
+      "game": "jeopardy",
+      "source": "https://www.hyundai.news/eu/models/electrified/ioniq-6/press-kit/the-new-hyundai-ioniq-6.html",
+      "verified": "2026-11-07",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-07",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ev-20261107-ev3-base-battery",
+      "game": "jeopardy",
+      "source": "https://press.kia.com/content/dam/kiapress/DE/Germany/pressemitteilungen/produkt/2026/260426_ev3_mj27/PM_Kia_EV3_jetzt_mit_AWD_und_22-kW-AC-Laden.pdf",
+      "verified": "2026-11-07",
+      "data_year": 2027,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-07",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "ev-20261107-ev6-standard-charge",
+      "game": "jeopardy",
+      "source": "https://press.kia.com/content/dam/kiapress/DE/Germany/pressemappen/ev6/24_11/Kia_EV6_MJ25_Pressemappe_11-24.pdf",
+      "verified": "2026-11-07",
+      "data_year": 2025,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-07",
+      "review_status": "draft-review-required"
+    }
+  ]
+}
