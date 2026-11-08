@@ -1,0 +1,11 @@
+{
+  "project_id":"rnwsbgzdrttqtivrwnxo",
+  "account":"Marc",
+  "checked":"2026-11-08",
+  "mode":"read-only",
+  "catalogue_total":7187,
+  "counts":{"moreless":4228,"estimate":1507,"facts":1452,"jeopardy":0},
+  "term_matches":{"bundesrat":0,"sachsen":0,"rheinland-pfalz":0,"thüringen":0,"schleswig-holstein":0,"bundesländer":0,"bevölkerungsstand":0,"flächennutzung":0,"69 stimmen":0,"nichtdeutsche":0},
+  "database_writes":0,
+  "note":"Initial LEFT JOIN diagnostic used count(*) and was discarded because unmatched terms count as one; final verified query used count(d.id)."
+}

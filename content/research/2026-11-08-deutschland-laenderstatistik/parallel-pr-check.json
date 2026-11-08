@@ -1,0 +1,10 @@
+{
+  "checked":"2026-11-08",
+  "open_pr_count":38,
+  "relevant_open_drafts":[
+    {"pr":128,"questions":16,"scope":"German state capitals","conflict":false},
+    {"pr":152,"questions":20,"scope":"Federal institutions and elections","conflict":false}
+  ],
+  "excluded_topics":["state capitals","Bundesrat and federal institutions","Bundestag constituencies","federal election mechanics"],
+  "retained_scope":"Destatis state population, area, land use, nationality and density statistics with explicit snapshots."
+}

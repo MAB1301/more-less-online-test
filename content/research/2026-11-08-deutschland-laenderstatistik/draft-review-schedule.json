@@ -1,0 +1,225 @@
+{
+  "policy": "Current official state statistics: review every 90 days.",
+  "records": [
+    {
+      "id": "de-20261108-pop-saxony-rp",
+      "game": "moreless",
+      "source": "https://genesis.destatis.de/datenbank/online/statistic/12411/table/12411-0011",
+      "verified": "2026-11-08",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-02-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-20261108-area-thuringia-sh",
+      "game": "moreless",
+      "source": "https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Flaechennutzung/Tabellen/bodenflaeche-laender.html",
+      "verified": "2026-11-08",
+      "data_year": 2024,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-02-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-20261108-germany-pop",
+      "game": "estimate",
+      "source": "https://genesis.destatis.de/datenbank/online/statistic/12411/table/12411-0011",
+      "verified": "2026-11-08",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-02-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-20261108-germany-area",
+      "game": "estimate",
+      "source": "https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Flaechennutzung/Tabellen/bodenflaeche-laender.html",
+      "verified": "2026-11-08",
+      "data_year": 2024,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-02-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-20261108-nrw-pop",
+      "game": "estimate",
+      "source": "https://genesis.destatis.de/datenbank/online/statistic/12411/table/12411-0011",
+      "verified": "2026-11-08",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-02-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-20261108-germany-forest",
+      "game": "estimate",
+      "source": "https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Flaechennutzung/Tabellen/bodenflaeche-laender.html",
+      "verified": "2026-11-08",
+      "data_year": 2024,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-02-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-20261108-bavaria-area",
+      "game": "facts",
+      "source": "https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Flaechennutzung/Tabellen/bodenflaeche-laender.html",
+      "verified": "2026-11-08",
+      "data_year": 2024,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-02-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-20261108-bremen-pop",
+      "game": "facts",
+      "source": "https://genesis.destatis.de/datenbank/online/statistic/12411/table/12411-0011",
+      "verified": "2026-11-08",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-02-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-20261108-berlin-nationality",
+      "game": "facts",
+      "source": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/Tabellen/bevoelkerung-nichtdeutsch-laender-basis-2022.html",
+      "verified": "2026-11-08",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-02-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-20261108-brandenburg-pop",
+      "game": "facts",
+      "source": "https://genesis.destatis.de/datenbank/online/statistic/12411/table/12411-0011",
+      "verified": "2026-11-08",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-02-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-20261108-mvp-landuse",
+      "game": "facts",
+      "source": "https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Flaechennutzung/Tabellen/bodenflaeche-laender.html",
+      "verified": "2026-11-08",
+      "data_year": 2024,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-02-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-20261108-hesse-nationality",
+      "game": "facts",
+      "source": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/Tabellen/bevoelkerung-nichtdeutsch-laender-basis-2022.html",
+      "verified": "2026-11-08",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-02-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-20261108-hesse-pop",
+      "game": "jeopardy",
+      "source": "https://genesis.destatis.de/datenbank/online/statistic/12411/table/12411-0011",
+      "verified": "2026-11-08",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-02-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-20261108-brandenburg-area",
+      "game": "jeopardy",
+      "source": "https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Flaechennutzung/Tabellen/bodenflaeche-laender.html",
+      "verified": "2026-11-08",
+      "data_year": 2024,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-02-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-20261108-hamburg-non-german",
+      "game": "jeopardy",
+      "source": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/Tabellen/bevoelkerung-nichtdeutsch-laender-basis-2022.html",
+      "verified": "2026-11-08",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-02-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-20261108-mvp-water",
+      "game": "jeopardy",
+      "source": "https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Flaechennutzung/Tabellen/bodenflaeche-laender.html",
+      "verified": "2026-11-08",
+      "data_year": 2024,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-02-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-20261108-bavaria-forest",
+      "game": "jeopardy",
+      "source": "https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Flaechennutzung/Tabellen/bodenflaeche-laender.html",
+      "verified": "2026-11-08",
+      "data_year": 2024,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-02-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-20261108-lower-saxony-agriculture",
+      "game": "jeopardy",
+      "source": "https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Flaechennutzung/Tabellen/bodenflaeche-laender.html",
+      "verified": "2026-11-08",
+      "data_year": 2024,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-02-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-20261108-nrw-density",
+      "game": "jeopardy",
+      "source": "https://www.statistikportal.de/de/bevoelkerung/flaeche-und-bevoelkerung",
+      "verified": "2026-11-08",
+      "data_year": 2023,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-02-06",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "de-20261108-saarland-area",
+      "game": "jeopardy",
+      "source": "https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Flaechennutzung/Tabellen/bodenflaeche-laender.html",
+      "verified": "2026-11-08",
+      "data_year": 2024,
+      "time_dependent": true,
+      "review_interval_days": 90,
+      "next_review": "2027-02-06",
+      "review_status": "draft-review-required"
+    }
+  ]
+}
