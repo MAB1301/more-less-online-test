@@ -18,3 +18,8 @@ jobs:
       - name: Static game regression checks
         run: |
           node scripts/regression-check.mjs
+      - name: Deutschland state-statistics draft reproducibility and content checks
+        run: |
+          python3 scripts/build-deutschland-laenderstatistik-draft-20261108.py --check
+          node scripts/inventory-deutschland-laenderstatistik-draft-20261108.mjs --check
+          node scripts/check-deutschland-laenderstatistik-draft-20261108.mjs
