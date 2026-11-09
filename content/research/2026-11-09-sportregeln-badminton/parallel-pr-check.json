@@ -1,0 +1,11 @@
+{
+  "checked":"2026-11-09",
+  "open_pr_count":39,
+  "relevant_open_drafts":[
+    {"pr":146,"questions":20,"scope":"ITTF table-tennis rules and equipment","conflict":false}
+  ],
+  "adjacent_non_category_drafts":[
+    {"pr":145,"scope":"Squash questions in category Sport, not Sportregeln","conflict":false}
+  ],
+  "retained_scope":"BWF badminton court, equipment, scoring, service and facility rules."
+}

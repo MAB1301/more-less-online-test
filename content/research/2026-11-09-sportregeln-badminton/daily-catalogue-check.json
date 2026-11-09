@@ -1,0 +1,10 @@
+{
+  "project_id":"rnwsbgzdrttqtivrwnxo",
+  "account":"Marc",
+  "checked":"2026-11-09",
+  "mode":"read-only",
+  "catalogue_total":7187,
+  "counts":{"moreless":4228,"estimate":1507,"facts":1452,"jeopardy":0},
+  "term_matches":{"bwf":0,"shuttle":0,"16 federn":0,"21 punkte":0,"badminton":0,"federball":0,"netzhöhe":0,"1,15 meter":0,"servicehöhe":0,"schlägerbreite":0},
+  "database_writes":0
+}
