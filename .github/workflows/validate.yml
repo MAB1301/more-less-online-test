@@ -18,3 +18,8 @@ jobs:
       - name: Static game regression checks
         run: |
           node scripts/regression-check.mjs
+      - name: BWF badminton-rules draft reproducibility and content checks
+        run: |
+          python3 scripts/build-sportregeln-badminton-draft-20261109.py --check
+          node scripts/inventory-sportregeln-badminton-draft-20261109.mjs --check
+          node scripts/check-sportregeln-badminton-draft-20261109.mjs

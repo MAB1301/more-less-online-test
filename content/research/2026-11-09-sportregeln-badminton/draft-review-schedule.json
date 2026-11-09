@@ -1,0 +1,225 @@
+{
+  "policy": "Current sport regulations: review every 180 days.",
+  "records": [
+    {
+      "id": "bwf-20261109-net-height",
+      "game": "moreless",
+      "source": "https://system.bwfbadminton.com/documents/folder_1_81/Statutes/CHAPTER-4---RULES-OF-THE-GAME/SECTION%204.1-%20Laws%20of%20Badminton.pdf",
+      "verified": "2026-11-09",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 180,
+      "next_review": "2027-05-08",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "bwf-20261109-racket-width",
+      "game": "moreless",
+      "source": "https://system.bwfbadminton.com/documents/folder_1_81/Statutes/CHAPTER-4---RULES-OF-THE-GAME/SECTION%204.1-%20Laws%20of%20Badminton.pdf",
+      "verified": "2026-11-09",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 180,
+      "next_review": "2027-05-08",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "bwf-20261109-court-diagonal",
+      "game": "estimate",
+      "source": "https://system.bwfbadminton.com/documents/folder_1_81/Statutes/CHAPTER-4---RULES-OF-THE-GAME/SECTION%204.1-%20Laws%20of%20Badminton.pdf",
+      "verified": "2026-11-09",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 180,
+      "next_review": "2027-05-08",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "bwf-20261109-net-depth",
+      "game": "estimate",
+      "source": "https://system.bwfbadminton.com/documents/folder_1_81/Statutes/CHAPTER-4---RULES-OF-THE-GAME/SECTION%204.1-%20Laws%20of%20Badminton.pdf",
+      "verified": "2026-11-09",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 180,
+      "next_review": "2027-05-08",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "bwf-20261109-feathers",
+      "game": "estimate",
+      "source": "https://system.bwfbadminton.com/documents/folder_1_81/Statutes/CHAPTER-4---RULES-OF-THE-GAME/SECTION%204.1-%20Laws%20of%20Badminton.pdf",
+      "verified": "2026-11-09",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 180,
+      "next_review": "2027-05-08",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "bwf-20261109-shuttle-weight",
+      "game": "estimate",
+      "source": "https://system.bwfbadminton.com/documents/folder_1_81/Statutes/CHAPTER-4---RULES-OF-THE-GAME/SECTION%204.1-%20Laws%20of%20Badminton.pdf",
+      "verified": "2026-11-09",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 180,
+      "next_review": "2027-05-08",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "bwf-20261109-game-target",
+      "game": "facts",
+      "source": "https://system.bwfbadminton.com/documents/folder_1_81/Statutes/CHAPTER-4---RULES-OF-THE-GAME/SECTION%204.1-%20Laws%20of%20Badminton.pdf",
+      "verified": "2026-11-09",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 180,
+      "next_review": "2027-05-08",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "bwf-20261109-best-of",
+      "game": "facts",
+      "source": "https://system.bwfbadminton.com/documents/folder_1_81/Statutes/CHAPTER-4---RULES-OF-THE-GAME/SECTION%204.1-%20Laws%20of%20Badminton.pdf",
+      "verified": "2026-11-09",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 180,
+      "next_review": "2027-05-08",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "bwf-20261109-twenty-all",
+      "game": "facts",
+      "source": "https://system.bwfbadminton.com/documents/folder_1_81/Statutes/CHAPTER-4---RULES-OF-THE-GAME/SECTION%204.1-%20Laws%20of%20Badminton.pdf",
+      "verified": "2026-11-09",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 180,
+      "next_review": "2027-05-08",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "bwf-20261109-twenty-nine",
+      "game": "facts",
+      "source": "https://system.bwfbadminton.com/documents/folder_1_81/Statutes/CHAPTER-4---RULES-OF-THE-GAME/SECTION%204.1-%20Laws%20of%20Badminton.pdf",
+      "verified": "2026-11-09",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 180,
+      "next_review": "2027-05-08",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "bwf-20261109-speed-test",
+      "game": "facts",
+      "source": "https://system.bwfbadminton.com/documents/folder_1_81/Statutes/CHAPTER-4---RULES-OF-THE-GAME/SECTION%204.1-%20Laws%20of%20Badminton.pdf",
+      "verified": "2026-11-09",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 180,
+      "next_review": "2027-05-08",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "bwf-20261109-synthetic-variation",
+      "game": "facts",
+      "source": "https://system.bwfbadminton.com/documents/folder_1_81/Statutes/CHAPTER-4---RULES-OF-THE-GAME/SECTION%204.1-%20Laws%20of%20Badminton.pdf",
+      "verified": "2026-11-09",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 180,
+      "next_review": "2027-05-08",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "bwf-20261109-line-width",
+      "game": "jeopardy",
+      "source": "https://system.bwfbadminton.com/documents/folder_1_81/Statutes/CHAPTER-4---RULES-OF-THE-GAME/SECTION%204.1-%20Laws%20of%20Badminton.pdf",
+      "verified": "2026-11-09",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 180,
+      "next_review": "2027-05-08",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "bwf-20261109-mesh",
+      "game": "jeopardy",
+      "source": "https://system.bwfbadminton.com/documents/folder_1_81/Statutes/CHAPTER-4---RULES-OF-THE-GAME/SECTION%204.1-%20Laws%20of%20Badminton.pdf",
+      "verified": "2026-11-09",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 180,
+      "next_review": "2027-05-08",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "bwf-20261109-feather-length",
+      "game": "jeopardy",
+      "source": "https://system.bwfbadminton.com/documents/folder_1_81/Statutes/CHAPTER-4---RULES-OF-THE-GAME/SECTION%204.1-%20Laws%20of%20Badminton.pdf",
+      "verified": "2026-11-09",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 180,
+      "next_review": "2027-05-08",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "bwf-20261109-base-diameter",
+      "game": "jeopardy",
+      "source": "https://system.bwfbadminton.com/documents/folder_1_81/Statutes/CHAPTER-4---RULES-OF-THE-GAME/SECTION%204.1-%20Laws%20of%20Badminton.pdf",
+      "verified": "2026-11-09",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 180,
+      "next_review": "2027-05-08",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "bwf-20261109-racket-length",
+      "game": "jeopardy",
+      "source": "https://system.bwfbadminton.com/documents/folder_1_81/Statutes/CHAPTER-4---RULES-OF-THE-GAME/SECTION%204.1-%20Laws%20of%20Badminton.pdf",
+      "verified": "2026-11-09",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 180,
+      "next_review": "2027-05-08",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "bwf-20261109-string-length",
+      "game": "jeopardy",
+      "source": "https://system.bwfbadminton.com/documents/folder_1_81/Statutes/CHAPTER-4---RULES-OF-THE-GAME/SECTION%204.1-%20Laws%20of%20Badminton.pdf",
+      "verified": "2026-11-09",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 180,
+      "next_review": "2027-05-08",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "bwf-20261109-service-height",
+      "game": "jeopardy",
+      "source": "https://system.bwfbadminton.com/documents/folder_1_81/Statutes/CHAPTER-4---RULES-OF-THE-GAME/SECTION%204.1-%20Laws%20of%20Badminton.pdf",
+      "verified": "2026-11-09",
+      "data_year": 2026,
+      "time_dependent": true,
+      "review_interval_days": 180,
+      "next_review": "2027-05-08",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "bwf-20261109-venue-height",
+      "game": "jeopardy",
+      "source": "https://system.bwfbadminton.com/documents/folder_1_81/Statutes/CHAPTER-5---TECHNICAL-REGULATIONS/Section%205.3.4%20-%20Specs%20for%20Int%27l%20Standard%20Facilities%20-2.pdf",
+      "verified": "2026-11-09",
+      "data_year": 2018,
+      "time_dependent": true,
+      "review_interval_days": 180,
+      "next_review": "2027-05-08",
+      "review_status": "draft-review-required"
+    }
+  ]
+}
