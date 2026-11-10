@@ -1,0 +1,12 @@
+{
+  "project_id":"rnwsbgzdrttqtivrwnxo",
+  "account":"Marc",
+  "checked":"2026-11-10",
+  "mode":"read-only",
+  "catalogue_total":7187,
+  "counts":{"moreless":4228,"estimate":1507,"facts":1452,"jeopardy":0},
+  "target_observation_matches":0,
+  "target_observations_checked":22,
+  "known_excluded_overlap":"Yellowstone 2025 visitor value already exists in Daily category Natur and was excluded.",
+  "database_writes":0
+}

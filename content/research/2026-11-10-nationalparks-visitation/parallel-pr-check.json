@@ -1,0 +1,10 @@
+{
+  "checked":"2026-11-10",
+  "open_pr_count":40,
+  "relevant_open_drafts":[
+    {"pr":150,"questions":20,"scope":"Nationalparks landscapes and geology","conflict":false},
+    {"pr":128,"scope":"Older small-category/founding-year material and Nationalparks imagery","conflict":false}
+  ],
+  "excluded_parallel_topics":["park area","summit elevation","lake depth","dune height","founding year","geologic feature identification"],
+  "retained_scope":"Final NPS calendar-year 2025 recreation visits and 2025-vs-2024 visit change for 22 otherwise unused park observations."
+}

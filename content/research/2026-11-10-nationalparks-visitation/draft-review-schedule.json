@@ -1,0 +1,225 @@
+{
+  "policy": "Finalized annual NPS visitor-use values: review every 365 days for revisions and new editions.",
+  "records": [
+    {
+      "id": "nps-20261110-cuyahoga-joshua",
+      "game": "moreless",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+      "verified": "2026-11-10",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-11-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "nps-20261110-rainier-glacier-bay-change",
+      "game": "moreless",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=3b7d1b85-eeba-4854-a826-76d1ff1ceed8&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FVisitation+By+State+and+By+Park+%282017+-+Last+Calendar+Year%29",
+      "verified": "2026-11-10",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-11-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "nps-20261110-indiana-dunes",
+      "game": "estimate",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+      "verified": "2026-11-10",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-11-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "nps-20261110-hot-springs",
+      "game": "estimate",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+      "verified": "2026-11-10",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-11-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "nps-20261110-gateway-arch",
+      "game": "estimate",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+      "verified": "2026-11-10",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-11-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "nps-20261110-hawaii-volcanoes",
+      "game": "estimate",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+      "verified": "2026-11-10",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-11-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "nps-20261110-shenandoah",
+      "game": "facts",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+      "verified": "2026-11-10",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-11-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "nps-20261110-arches",
+      "game": "facts",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+      "verified": "2026-11-10",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-11-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "nps-20261110-capitol-reef",
+      "game": "facts",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+      "verified": "2026-11-10",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-11-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "nps-20261110-sequoia",
+      "game": "facts",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+      "verified": "2026-11-10",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-11-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "nps-20261110-death-valley",
+      "game": "facts",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+      "verified": "2026-11-10",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-11-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "nps-20261110-bryce-canyon",
+      "game": "facts",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+      "verified": "2026-11-10",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-11-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "nps-20261110-new-river-gorge",
+      "game": "jeopardy",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+      "verified": "2026-11-10",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-11-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "nps-20261110-badlands",
+      "game": "jeopardy",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=738c07e8-7aed-40f5-86b7-1ffb5ccc0d71&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Visitation+by+Park+Type+or+Region+%281979+-+Last+Calendar+Year%29",
+      "verified": "2026-11-10",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-11-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "nps-20261110-big-bend",
+      "game": "jeopardy",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=738c07e8-7aed-40f5-86b7-1ffb5ccc0d71&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Visitation+by+Park+Type+or+Region+%281979+-+Last+Calendar+Year%29",
+      "verified": "2026-11-10",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-11-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "nps-20261110-biscayne",
+      "game": "jeopardy",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=738c07e8-7aed-40f5-86b7-1ffb5ccc0d71&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Visitation+by+Park+Type+or+Region+%281979+-+Last+Calendar+Year%29",
+      "verified": "2026-11-10",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-11-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "nps-20261110-black-canyon",
+      "game": "jeopardy",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=738c07e8-7aed-40f5-86b7-1ffb5ccc0d71&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Visitation+by+Park+Type+or+Region+%281979+-+Last+Calendar+Year%29",
+      "verified": "2026-11-10",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-11-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "nps-20261110-petrified-forest",
+      "game": "jeopardy",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=3b7d1b85-eeba-4854-a826-76d1ff1ceed8&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FVisitation+By+State+and+By+Park+%282017+-+Last+Calendar+Year%29",
+      "verified": "2026-11-10",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-11-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "nps-20261110-saguaro",
+      "game": "jeopardy",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=3b7d1b85-eeba-4854-a826-76d1ff1ceed8&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FVisitation+By+State+and+By+Park+%282017+-+Last+Calendar+Year%29",
+      "verified": "2026-11-10",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-11-10",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "nps-20261110-north-cascades",
+      "game": "jeopardy",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=3b7d1b85-eeba-4854-a826-76d1ff1ceed8&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FVisitation+By+State+and+By+Park+%282017+-+Last+Calendar+Year%29",
+      "verified": "2026-11-10",
+      "data_year": 2025,
+      "time_dependent": true,
+      "review_interval_days": 365,
+      "next_review": "2027-11-10",
+      "review_status": "draft-review-required"
+    }
+  ]
+}

@@ -1,0 +1,706 @@
+{
+  "status": "review-only",
+  "verified": "2026-11-10",
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "images": {
+    "nationalparks-visitation-neutral": {
+      "card": "visuals/nationalparks-visitation-neutral-card.svg",
+      "detail": "visuals/nationalparks-visitation-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Generic park trail, layered mountains and anonymous visitor markers; no park names, maps, ranks, years, counts or answers."
+    },
+    "Cuyahoga-Valley-Nationalpark": {
+      "card": "visuals/nationalparks-visitation-neutral-card.svg",
+      "detail": "visuals/nationalparks-visitation-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Generic park trail, layered mountains and anonymous visitor markers; no park names, maps, ranks, years, counts or answers."
+    },
+    "Joshua-Tree-Nationalpark": {
+      "card": "visuals/nationalparks-visitation-neutral-card.svg",
+      "detail": "visuals/nationalparks-visitation-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Generic park trail, layered mountains and anonymous visitor markers; no park names, maps, ranks, years, counts or answers."
+    },
+    "Mount-Rainier-Nationalpark": {
+      "card": "visuals/nationalparks-visitation-neutral-card.svg",
+      "detail": "visuals/nationalparks-visitation-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Generic park trail, layered mountains and anonymous visitor markers; no park names, maps, ranks, years, counts or answers."
+    },
+    "Glacier-Bay-Nationalpark und Schutzgebiet": {
+      "card": "visuals/nationalparks-visitation-neutral-card.svg",
+      "detail": "visuals/nationalparks-visitation-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Generic park trail, layered mountains and anonymous visitor markers; no park names, maps, ranks, years, counts or answers."
+    }
+  },
+  "moreless": [
+    {
+      "id": "nps-20261110-cuyahoga-joshua",
+      "semantic_key": "nps-2025-visits-cuyahoga-3025325-joshua-tree-2932644",
+      "cat": "Nationalparks",
+      "subcategory": "Besucherstatistik 2025",
+      "source_refs": [
+        "ranking",
+        "overview"
+      ],
+      "observation_keys": [
+        "cuyahoga-visits",
+        "joshua-tree-visits"
+      ],
+      "data_year": 2025,
+      "rounding": "Ganze Freizeitbesuche exakt wie NPS.",
+      "notes": "Gleiche Kennzahl, Einheit, Parkart, Datenquelle und Kalenderjahr; Abstand 3,16 % bezogen auf Joshua Tree.",
+      "time_dependent": true,
+      "l": "Cuyahoga-Valley-Nationalpark",
+      "r": "Joshua-Tree-Nationalpark",
+      "lv": 3025325,
+      "rv": 2932644,
+      "u": "Freizeitbesuche · Kalenderjahr 2025",
+      "metric": "NPS-Freizeitbesuche 2025",
+      "status": "draft",
+      "verified": "2026-11-10",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+      "sources": [
+        "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+        "https://www.nps.gov/subjects/socialscience/visitor-use-statistics-dashboard.htm"
+      ],
+      "sets": [
+        "Nationalparks · NPS-Besucherstatistik 2025"
+      ],
+      "visual": "nationalparks-visitation-neutral",
+      "subject": "nationalparks-visitation-neutral"
+    },
+    {
+      "id": "nps-20261110-rainier-glacier-bay-change",
+      "semantic_key": "nps-2025-change-rainier-0-95-glacier-bay-0-51",
+      "cat": "Nationalparks",
+      "subcategory": "Besuchertrend 2025",
+      "source_refs": [
+        "by_state",
+        "overview"
+      ],
+      "observation_keys": [
+        "mount-rainier-change",
+        "glacier-bay-change"
+      ],
+      "data_year": 2025,
+      "rounding": "Prozentänderung auf zwei Dezimalstellen wie NPS.",
+      "notes": "Gleiche Kennzahl, Einheit, Ausgabe und Bezugszeitraum: Veränderung der Freizeitbesuche 2025 gegenüber 2024; Abstand 0,44 Prozentpunkte.",
+      "time_dependent": true,
+      "l": "Mount-Rainier-Nationalpark",
+      "r": "Glacier-Bay-Nationalpark und Schutzgebiet",
+      "lv": 0.95,
+      "rv": 0.51,
+      "u": "% Veränderung der Freizeitbesuche 2025 ggü. 2024",
+      "metric": "NPS-Besucheränderung 2025",
+      "status": "draft",
+      "verified": "2026-11-10",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=3b7d1b85-eeba-4854-a826-76d1ff1ceed8&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FVisitation+By+State+and+By+Park+%282017+-+Last+Calendar+Year%29",
+      "sources": [
+        "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=3b7d1b85-eeba-4854-a826-76d1ff1ceed8&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FVisitation+By+State+and+By+Park+%282017+-+Last+Calendar+Year%29",
+        "https://www.nps.gov/subjects/socialscience/visitor-use-statistics-dashboard.htm"
+      ],
+      "sets": [
+        "Nationalparks · NPS-Besucherstatistik 2025"
+      ],
+      "visual": "nationalparks-visitation-neutral",
+      "subject": "nationalparks-visitation-neutral"
+    }
+  ],
+  "estimate": [
+    {
+      "id": "nps-20261110-indiana-dunes",
+      "semantic_key": "nps-2025-visits-indiana-dunes-2629497",
+      "cat": "Nationalparks",
+      "subcategory": "Besucherstatistik 2025",
+      "source_refs": [
+        "ranking",
+        "overview"
+      ],
+      "observation_keys": [
+        "indiana-dunes-visits"
+      ],
+      "data_year": 2025,
+      "rounding": "Ganze Freizeitbesuche exakt wie NPS.",
+      "notes": "Besuche, nicht unterschiedliche Personen; festes Kalenderjahr 2025.",
+      "time_dependent": true,
+      "q": "Wie viele Freizeitbesuche registrierte der Indiana-Dunes-Nationalpark 2025 laut NPS?",
+      "a": 2629497,
+      "u": "Besuche",
+      "status": "draft",
+      "verified": "2026-11-10",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+      "sources": [
+        "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+        "https://www.nps.gov/subjects/socialscience/visitor-use-statistics-dashboard.htm"
+      ],
+      "sets": [
+        "Nationalparks · NPS-Besucherstatistik 2025"
+      ],
+      "visual": "nationalparks-visitation-neutral",
+      "subject": "nationalparks-visitation-neutral"
+    },
+    {
+      "id": "nps-20261110-hot-springs",
+      "semantic_key": "nps-2025-visits-hot-springs-2494611",
+      "cat": "Nationalparks",
+      "subcategory": "Besucherstatistik 2025",
+      "source_refs": [
+        "ranking",
+        "overview"
+      ],
+      "observation_keys": [
+        "hot-springs-visits"
+      ],
+      "data_year": 2025,
+      "rounding": "Ganze Freizeitbesuche exakt wie NPS.",
+      "notes": "Besuche, nicht unterschiedliche Personen; festes Kalenderjahr 2025.",
+      "time_dependent": true,
+      "q": "Wie viele Freizeitbesuche registrierte der Hot-Springs-Nationalpark 2025 laut NPS?",
+      "a": 2494611,
+      "u": "Besuche",
+      "status": "draft",
+      "verified": "2026-11-10",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+      "sources": [
+        "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+        "https://www.nps.gov/subjects/socialscience/visitor-use-statistics-dashboard.htm"
+      ],
+      "sets": [
+        "Nationalparks · NPS-Besucherstatistik 2025"
+      ],
+      "visual": "nationalparks-visitation-neutral",
+      "subject": "nationalparks-visitation-neutral"
+    },
+    {
+      "id": "nps-20261110-gateway-arch",
+      "semantic_key": "nps-2025-visits-gateway-arch-2209028",
+      "cat": "Nationalparks",
+      "subcategory": "Besucherstatistik 2025",
+      "source_refs": [
+        "ranking",
+        "overview"
+      ],
+      "observation_keys": [
+        "gateway-arch-visits"
+      ],
+      "data_year": 2025,
+      "rounding": "Ganze Freizeitbesuche exakt wie NPS.",
+      "notes": "Besuche, nicht unterschiedliche Personen; festes Kalenderjahr 2025.",
+      "time_dependent": true,
+      "q": "Wie viele Freizeitbesuche registrierte der Gateway-Arch-Nationalpark 2025 laut NPS?",
+      "a": 2209028,
+      "u": "Besuche",
+      "status": "draft",
+      "verified": "2026-11-10",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+      "sources": [
+        "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+        "https://www.nps.gov/subjects/socialscience/visitor-use-statistics-dashboard.htm"
+      ],
+      "sets": [
+        "Nationalparks · NPS-Besucherstatistik 2025"
+      ],
+      "visual": "nationalparks-visitation-neutral",
+      "subject": "nationalparks-visitation-neutral"
+    },
+    {
+      "id": "nps-20261110-hawaii-volcanoes",
+      "semantic_key": "nps-2025-visits-hawaii-volcanoes-1877854",
+      "cat": "Nationalparks",
+      "subcategory": "Besucherstatistik 2025",
+      "source_refs": [
+        "ranking",
+        "overview"
+      ],
+      "observation_keys": [
+        "hawaii-volcanoes-visits"
+      ],
+      "data_year": 2025,
+      "rounding": "Ganze Freizeitbesuche exakt wie NPS.",
+      "notes": "Besuche, nicht unterschiedliche Personen; festes Kalenderjahr 2025.",
+      "time_dependent": true,
+      "q": "Wie viele Freizeitbesuche registrierte der Hawaiʻi-Volcanoes-Nationalpark 2025 laut NPS?",
+      "a": 1877854,
+      "u": "Besuche",
+      "status": "draft",
+      "verified": "2026-11-10",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+      "sources": [
+        "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+        "https://www.nps.gov/subjects/socialscience/visitor-use-statistics-dashboard.htm"
+      ],
+      "sets": [
+        "Nationalparks · NPS-Besucherstatistik 2025"
+      ],
+      "visual": "nationalparks-visitation-neutral",
+      "subject": "nationalparks-visitation-neutral"
+    }
+  ],
+  "facts": [
+    {
+      "id": "nps-20261110-shenandoah",
+      "semantic_key": "nps-2025-visits-shenandoah-1682152-true",
+      "cat": "Nationalparks",
+      "subcategory": "Besucherstatistik 2025",
+      "source_refs": [
+        "ranking",
+        "overview"
+      ],
+      "observation_keys": [
+        "shenandoah-visits"
+      ],
+      "data_year": 2025,
+      "rounding": "Ganze Freizeitbesuche exakt wie NPS.",
+      "notes": "Fester Kalenderjahresstand.",
+      "time_dependent": true,
+      "s": "Der Shenandoah-Nationalpark registrierte 2025 laut NPS 1.682.152 Freizeitbesuche.",
+      "a": true,
+      "e": "Der offizielle NPS-Bericht nennt 1.682.152 Freizeitbesuche.",
+      "difficulty": "easy",
+      "status": "draft",
+      "verified": "2026-11-10",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+      "sources": [
+        "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+        "https://www.nps.gov/subjects/socialscience/visitor-use-statistics-dashboard.htm"
+      ],
+      "sets": [
+        "Nationalparks · NPS-Besucherstatistik 2025"
+      ],
+      "visual": "nationalparks-visitation-neutral",
+      "subject": "nationalparks-visitation-neutral"
+    },
+    {
+      "id": "nps-20261110-arches",
+      "semantic_key": "nps-2025-visits-arches-not-1611740",
+      "cat": "Nationalparks",
+      "subcategory": "Besucherstatistik 2025",
+      "source_refs": [
+        "ranking",
+        "overview"
+      ],
+      "observation_keys": [
+        "arches-visits"
+      ],
+      "data_year": 2025,
+      "rounding": "Ganze Freizeitbesuche exakt wie NPS.",
+      "notes": "Die Aussage liegt bewusst 100.000 über dem offiziellen Wert.",
+      "time_dependent": true,
+      "s": "Der Arches-Nationalpark registrierte 2025 laut NPS 1.611.740 Freizeitbesuche.",
+      "a": false,
+      "e": "Richtig sind 1.511.740 Freizeitbesuche.",
+      "difficulty": "easy",
+      "status": "draft",
+      "verified": "2026-11-10",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+      "sources": [
+        "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+        "https://www.nps.gov/subjects/socialscience/visitor-use-statistics-dashboard.htm"
+      ],
+      "sets": [
+        "Nationalparks · NPS-Besucherstatistik 2025"
+      ],
+      "visual": "nationalparks-visitation-neutral",
+      "subject": "nationalparks-visitation-neutral"
+    },
+    {
+      "id": "nps-20261110-capitol-reef",
+      "semantic_key": "nps-2025-visits-capitol-reef-1388476-true",
+      "cat": "Nationalparks",
+      "subcategory": "Besucherstatistik 2025",
+      "source_refs": [
+        "ranking",
+        "overview"
+      ],
+      "observation_keys": [
+        "capitol-reef-visits"
+      ],
+      "data_year": 2025,
+      "rounding": "Ganze Freizeitbesuche exakt wie NPS.",
+      "notes": "Fester Kalenderjahresstand.",
+      "time_dependent": true,
+      "s": "Der Capitol-Reef-Nationalpark registrierte 2025 laut NPS 1.388.476 Freizeitbesuche.",
+      "a": true,
+      "e": "Genau diesen Jahreswert weist der NPS-Bericht aus.",
+      "difficulty": "medium",
+      "status": "draft",
+      "verified": "2026-11-10",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+      "sources": [
+        "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+        "https://www.nps.gov/subjects/socialscience/visitor-use-statistics-dashboard.htm"
+      ],
+      "sets": [
+        "Nationalparks · NPS-Besucherstatistik 2025"
+      ],
+      "visual": "nationalparks-visitation-neutral",
+      "subject": "nationalparks-visitation-neutral"
+    },
+    {
+      "id": "nps-20261110-sequoia",
+      "semantic_key": "nps-2025-visits-sequoia-not-1478337",
+      "cat": "Nationalparks",
+      "subcategory": "Besucherstatistik 2025",
+      "source_refs": [
+        "ranking",
+        "overview"
+      ],
+      "observation_keys": [
+        "sequoia-visits"
+      ],
+      "data_year": 2025,
+      "rounding": "Ganze Freizeitbesuche exakt wie NPS.",
+      "notes": "Die Aussage liegt bewusst 100.000 über dem offiziellen Wert.",
+      "time_dependent": true,
+      "s": "Der Sequoia-Nationalpark registrierte 2025 laut NPS 1.478.337 Freizeitbesuche.",
+      "a": false,
+      "e": "Richtig sind 1.378.337 Freizeitbesuche.",
+      "difficulty": "medium",
+      "status": "draft",
+      "verified": "2026-11-10",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+      "sources": [
+        "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+        "https://www.nps.gov/subjects/socialscience/visitor-use-statistics-dashboard.htm"
+      ],
+      "sets": [
+        "Nationalparks · NPS-Besucherstatistik 2025"
+      ],
+      "visual": "nationalparks-visitation-neutral",
+      "subject": "nationalparks-visitation-neutral"
+    },
+    {
+      "id": "nps-20261110-death-valley",
+      "semantic_key": "nps-2025-visits-death-valley-1320134-true",
+      "cat": "Nationalparks",
+      "subcategory": "Besucherstatistik 2025",
+      "source_refs": [
+        "ranking",
+        "overview"
+      ],
+      "observation_keys": [
+        "death-valley-visits"
+      ],
+      "data_year": 2025,
+      "rounding": "Ganze Freizeitbesuche exakt wie NPS.",
+      "notes": "Fester Kalenderjahresstand.",
+      "time_dependent": true,
+      "s": "Der Death-Valley-Nationalpark registrierte 2025 laut NPS 1.320.134 Freizeitbesuche.",
+      "a": true,
+      "e": "Der NPS-Rankingbericht nennt 1.320.134 Freizeitbesuche.",
+      "difficulty": "hard",
+      "status": "draft",
+      "verified": "2026-11-10",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+      "sources": [
+        "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+        "https://www.nps.gov/subjects/socialscience/visitor-use-statistics-dashboard.htm"
+      ],
+      "sets": [
+        "Nationalparks · NPS-Besucherstatistik 2025"
+      ],
+      "visual": "nationalparks-visitation-neutral",
+      "subject": "nationalparks-visitation-neutral"
+    },
+    {
+      "id": "nps-20261110-bryce-canyon",
+      "semantic_key": "nps-2025-visits-bryce-canyon-not-2967367",
+      "cat": "Nationalparks",
+      "subcategory": "Besucherstatistik 2025",
+      "source_refs": [
+        "ranking",
+        "overview"
+      ],
+      "observation_keys": [
+        "bryce-canyon-visits"
+      ],
+      "data_year": 2025,
+      "rounding": "Ganze Freizeitbesuche exakt wie NPS.",
+      "notes": "Die Aussage liegt bewusst eine Million über dem offiziellen Wert.",
+      "time_dependent": true,
+      "s": "Der Bryce-Canyon-Nationalpark registrierte 2025 laut NPS 2.967.367 Freizeitbesuche.",
+      "a": false,
+      "e": "Richtig sind 1.967.367 Freizeitbesuche.",
+      "difficulty": "hard",
+      "status": "draft",
+      "verified": "2026-11-10",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+      "sources": [
+        "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+        "https://www.nps.gov/subjects/socialscience/visitor-use-statistics-dashboard.htm"
+      ],
+      "sets": [
+        "Nationalparks · NPS-Besucherstatistik 2025"
+      ],
+      "visual": "nationalparks-visitation-neutral",
+      "subject": "nationalparks-visitation-neutral"
+    }
+  ],
+  "jeopardy": [
+    {
+      "id": "nps-20261110-new-river-gorge",
+      "semantic_key": "nps-2025-identify-new-river-gorge-1958440",
+      "cat": "Nationalparks",
+      "subcategory": "NPS-Zahlenrätsel 2025",
+      "source_refs": [
+        "ranking",
+        "overview"
+      ],
+      "observation_keys": [
+        "new-river-gorge-visits"
+      ],
+      "data_year": 2025,
+      "rounding": "Ganze Freizeitbesuche exakt wie NPS.",
+      "notes": "West Virginia als eindeutiger geografischer Hinweis; kein Bild verrät den Park.",
+      "time_dependent": true,
+      "q": "Welcher Nationalpark und welches Schutzgebiet in West Virginia registrierte 2025 genau 1.958.440 Freizeitbesuche?",
+      "a": "New River Gorge National Park and Preserve|New-River-Gorge-Nationalpark|New River Gorge",
+      "difficulty": 1,
+      "status": "draft",
+      "verified": "2026-11-10",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+      "sources": [
+        "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+        "https://www.nps.gov/subjects/socialscience/visitor-use-statistics-dashboard.htm"
+      ],
+      "sets": [
+        "Nationalparks · NPS-Besucherstatistik 2025"
+      ],
+      "visual": null
+    },
+    {
+      "id": "nps-20261110-badlands",
+      "semantic_key": "nps-2025-identify-badlands-1139361",
+      "cat": "Nationalparks",
+      "subcategory": "NPS-Zahlenrätsel 2025",
+      "source_refs": [
+        "park_type",
+        "overview"
+      ],
+      "observation_keys": [
+        "badlands-visits"
+      ],
+      "data_year": 2025,
+      "rounding": "Ganze Freizeitbesuche exakt wie NPS.",
+      "notes": "South Dakota als eindeutiger geografischer Hinweis.",
+      "time_dependent": true,
+      "q": "Welcher Nationalpark in South Dakota registrierte 2025 genau 1.139.361 Freizeitbesuche?",
+      "a": "Badlands National Park|Badlands-Nationalpark|Badlands",
+      "difficulty": 2,
+      "status": "draft",
+      "verified": "2026-11-10",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=738c07e8-7aed-40f5-86b7-1ffb5ccc0d71&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Visitation+by+Park+Type+or+Region+%281979+-+Last+Calendar+Year%29",
+      "sources": [
+        "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=738c07e8-7aed-40f5-86b7-1ffb5ccc0d71&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Visitation+by+Park+Type+or+Region+%281979+-+Last+Calendar+Year%29",
+        "https://www.nps.gov/subjects/socialscience/visitor-use-statistics-dashboard.htm"
+      ],
+      "sets": [
+        "Nationalparks · NPS-Besucherstatistik 2025"
+      ],
+      "visual": null
+    },
+    {
+      "id": "nps-20261110-big-bend",
+      "semantic_key": "nps-2025-identify-big-bend-568104",
+      "cat": "Nationalparks",
+      "subcategory": "NPS-Zahlenrätsel 2025",
+      "source_refs": [
+        "park_type",
+        "overview"
+      ],
+      "observation_keys": [
+        "big-bend-visits"
+      ],
+      "data_year": 2025,
+      "rounding": "Ganze Freizeitbesuche exakt wie NPS.",
+      "notes": "Texas als eindeutiger geografischer Hinweis.",
+      "time_dependent": true,
+      "q": "Welcher Nationalpark in Texas registrierte 2025 genau 568.104 Freizeitbesuche?",
+      "a": "Big Bend National Park|Big-Bend-Nationalpark|Big Bend",
+      "difficulty": 2,
+      "status": "draft",
+      "verified": "2026-11-10",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=738c07e8-7aed-40f5-86b7-1ffb5ccc0d71&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Visitation+by+Park+Type+or+Region+%281979+-+Last+Calendar+Year%29",
+      "sources": [
+        "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=738c07e8-7aed-40f5-86b7-1ffb5ccc0d71&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Visitation+by+Park+Type+or+Region+%281979+-+Last+Calendar+Year%29",
+        "https://www.nps.gov/subjects/socialscience/visitor-use-statistics-dashboard.htm"
+      ],
+      "sets": [
+        "Nationalparks · NPS-Besucherstatistik 2025"
+      ],
+      "visual": null
+    },
+    {
+      "id": "nps-20261110-biscayne",
+      "semantic_key": "nps-2025-identify-biscayne-486567",
+      "cat": "Nationalparks",
+      "subcategory": "NPS-Zahlenrätsel 2025",
+      "source_refs": [
+        "park_type",
+        "overview"
+      ],
+      "observation_keys": [
+        "biscayne-visits"
+      ],
+      "data_year": 2025,
+      "rounding": "Ganze Freizeitbesuche exakt wie NPS.",
+      "notes": "Florida als eindeutiger geografischer Hinweis.",
+      "time_dependent": true,
+      "q": "Welcher Nationalpark in Florida registrierte 2025 genau 486.567 Freizeitbesuche?",
+      "a": "Biscayne National Park|Biscayne-Nationalpark|Biscayne",
+      "difficulty": 3,
+      "status": "draft",
+      "verified": "2026-11-10",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=738c07e8-7aed-40f5-86b7-1ffb5ccc0d71&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Visitation+by+Park+Type+or+Region+%281979+-+Last+Calendar+Year%29",
+      "sources": [
+        "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=738c07e8-7aed-40f5-86b7-1ffb5ccc0d71&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Visitation+by+Park+Type+or+Region+%281979+-+Last+Calendar+Year%29",
+        "https://www.nps.gov/subjects/socialscience/visitor-use-statistics-dashboard.htm"
+      ],
+      "sets": [
+        "Nationalparks · NPS-Besucherstatistik 2025"
+      ],
+      "visual": null
+    },
+    {
+      "id": "nps-20261110-black-canyon",
+      "semantic_key": "nps-2025-identify-black-canyon-250086",
+      "cat": "Nationalparks",
+      "subcategory": "NPS-Zahlenrätsel 2025",
+      "source_refs": [
+        "park_type",
+        "overview"
+      ],
+      "observation_keys": [
+        "black-canyon-visits"
+      ],
+      "data_year": 2025,
+      "rounding": "Ganze Freizeitbesuche exakt wie NPS.",
+      "notes": "Colorado und vollständiger Parkname als erwartete Antwort.",
+      "time_dependent": true,
+      "q": "Welcher Nationalpark in Colorado registrierte 2025 genau 250.086 Freizeitbesuche?",
+      "a": "Black Canyon of the Gunnison National Park|Black-Canyon-of-the-Gunnison-Nationalpark|Black Canyon of the Gunnison",
+      "difficulty": 3,
+      "status": "draft",
+      "verified": "2026-11-10",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=738c07e8-7aed-40f5-86b7-1ffb5ccc0d71&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Visitation+by+Park+Type+or+Region+%281979+-+Last+Calendar+Year%29",
+      "sources": [
+        "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=738c07e8-7aed-40f5-86b7-1ffb5ccc0d71&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Visitation+by+Park+Type+or+Region+%281979+-+Last+Calendar+Year%29",
+        "https://www.nps.gov/subjects/socialscience/visitor-use-statistics-dashboard.htm"
+      ],
+      "sets": [
+        "Nationalparks · NPS-Besucherstatistik 2025"
+      ],
+      "visual": null
+    },
+    {
+      "id": "nps-20261110-petrified-forest",
+      "semantic_key": "nps-2025-identify-petrified-forest-315951",
+      "cat": "Nationalparks",
+      "subcategory": "NPS-Zahlenrätsel 2025",
+      "source_refs": [
+        "by_state",
+        "overview"
+      ],
+      "observation_keys": [
+        "petrified-forest-visits"
+      ],
+      "data_year": 2025,
+      "rounding": "Ganze Freizeitbesuche exakt wie NPS.",
+      "notes": "Arizona als eindeutiger geografischer Hinweis.",
+      "time_dependent": true,
+      "q": "Welcher Nationalpark in Arizona registrierte 2025 genau 315.951 Freizeitbesuche?",
+      "a": "Petrified Forest National Park|Petrified-Forest-Nationalpark|Petrified Forest",
+      "difficulty": 4,
+      "status": "draft",
+      "verified": "2026-11-10",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=3b7d1b85-eeba-4854-a826-76d1ff1ceed8&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FVisitation+By+State+and+By+Park+%282017+-+Last+Calendar+Year%29",
+      "sources": [
+        "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=3b7d1b85-eeba-4854-a826-76d1ff1ceed8&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FVisitation+By+State+and+By+Park+%282017+-+Last+Calendar+Year%29",
+        "https://www.nps.gov/subjects/socialscience/visitor-use-statistics-dashboard.htm"
+      ],
+      "sets": [
+        "Nationalparks · NPS-Besucherstatistik 2025"
+      ],
+      "visual": null
+    },
+    {
+      "id": "nps-20261110-saguaro",
+      "semantic_key": "nps-2025-identify-saguaro-847749",
+      "cat": "Nationalparks",
+      "subcategory": "NPS-Zahlenrätsel 2025",
+      "source_refs": [
+        "by_state",
+        "overview"
+      ],
+      "observation_keys": [
+        "saguaro-visits"
+      ],
+      "data_year": 2025,
+      "rounding": "Ganze Freizeitbesuche exakt wie NPS.",
+      "notes": "Arizona als geografischer Hinweis; Wert unterscheidet ihn vom Petrified Forest.",
+      "time_dependent": true,
+      "q": "Welcher Nationalpark in Arizona registrierte 2025 genau 847.749 Freizeitbesuche?",
+      "a": "Saguaro National Park|Saguaro-Nationalpark|Saguaro",
+      "difficulty": 4,
+      "status": "draft",
+      "verified": "2026-11-10",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=3b7d1b85-eeba-4854-a826-76d1ff1ceed8&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FVisitation+By+State+and+By+Park+%282017+-+Last+Calendar+Year%29",
+      "sources": [
+        "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=3b7d1b85-eeba-4854-a826-76d1ff1ceed8&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FVisitation+By+State+and+By+Park+%282017+-+Last+Calendar+Year%29",
+        "https://www.nps.gov/subjects/socialscience/visitor-use-statistics-dashboard.htm"
+      ],
+      "sets": [
+        "Nationalparks · NPS-Besucherstatistik 2025"
+      ],
+      "visual": null
+    },
+    {
+      "id": "nps-20261110-north-cascades",
+      "semantic_key": "nps-2025-identify-north-cascades-46925",
+      "cat": "Nationalparks",
+      "subcategory": "NPS-Zahlenrätsel 2025",
+      "source_refs": [
+        "by_state",
+        "overview"
+      ],
+      "observation_keys": [
+        "north-cascades-visits"
+      ],
+      "data_year": 2025,
+      "rounding": "Ganze Freizeitbesuche exakt wie NPS.",
+      "notes": "Washington als eindeutiger geografischer Hinweis.",
+      "time_dependent": true,
+      "q": "Welcher Nationalpark im Bundesstaat Washington registrierte 2025 genau 46.925 Freizeitbesuche?",
+      "a": "North Cascades National Park|North-Cascades-Nationalpark|North Cascades",
+      "difficulty": 5,
+      "status": "draft",
+      "verified": "2026-11-10",
+      "source": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=3b7d1b85-eeba-4854-a826-76d1ff1ceed8&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FVisitation+By+State+and+By+Park+%282017+-+Last+Calendar+Year%29",
+      "sources": [
+        "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=3b7d1b85-eeba-4854-a826-76d1ff1ceed8&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FVisitation+By+State+and+By+Park+%282017+-+Last+Calendar+Year%29",
+        "https://www.nps.gov/subjects/socialscience/visitor-use-statistics-dashboard.htm"
+      ],
+      "sets": [
+        "Nationalparks · NPS-Besucherstatistik 2025"
+      ],
+      "visual": null
+    }
+  ]
+}
