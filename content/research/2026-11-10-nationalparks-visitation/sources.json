@@ -1,0 +1,52 @@
+{
+  "overview": {
+    "title": "Visitor Use Data – 2025 Visitation At-A-Glance",
+    "publisher": "U.S. National Park Service",
+    "url": "https://www.nps.gov/subjects/socialscience/visitor-use-statistics-dashboard.htm",
+    "checked": "2026-11-10",
+    "data_year": 2025,
+    "authority": "official",
+    "rounding": "NPS overview values are rounded only where the page says million/billion.",
+    "limits": "Explains that annual figures are recreation visits, not unique people, and lists the official IRMA reporting options."
+  },
+  "ranking": {
+    "title": "Annual Park Ranking Report for Recreation Visits in 2025",
+    "publisher": "U.S. National Park Service – IRMA Visitor Use Statistics",
+    "url": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=0221588f-8ff5-46e1-b922-f2a060354bac&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Park+Ranking+Report+%281979+-+Last+Calendar+Year%29",
+    "checked": "2026-11-10",
+    "data_year": 2025,
+    "authority": "official",
+    "rounding": "Whole recreation visits exactly as reported.",
+    "limits": "Calendar-year estimates; visits are counted, not unique visitors. Park-type abbreviations are retained only for source interpretation."
+  },
+  "park_type": {
+    "title": "Annual Visitation by Park Type or Region for 2025",
+    "publisher": "U.S. National Park Service – IRMA Visitor Use Statistics",
+    "url": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=738c07e8-7aed-40f5-86b7-1ffb5ccc0d71&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FAnnual+Visitation+by+Park+Type+or+Region+%281979+-+Last+Calendar+Year%29",
+    "checked": "2026-11-10",
+    "data_year": 2025,
+    "authority": "official",
+    "rounding": "Whole recreation visits exactly as reported.",
+    "limits": "Used to verify lower-ranked national-park values that are outside the ranking excerpt."
+  },
+  "by_state": {
+    "title": "Visitation by State and by Park for Calendar Year 2025",
+    "publisher": "U.S. National Park Service – IRMA Visitor Use Statistics",
+    "url": "https://irma.nps.gov/Stats/MvcReportViewer.aspx?_15=True&_16=True&_18=True&_19=True&_34=False&_35=False&_39=880px&_id=3b7d1b85-eeba-4854-a826-76d1ff1ceed8&_m=Remote&_r=%2FIRMA+Prod%2FSTATS%2FNational+Reports%2FVisitation+By+State+and+By+Park+%282017+-+Last+Calendar+Year%29",
+    "checked": "2026-11-10",
+    "data_year": 2025,
+    "authority": "official",
+    "rounding": "Year-over-year percentage change to two decimals exactly as reported.",
+    "limits": "State allocation can split multi-state park visits; only park-wide percentage change values are used."
+  },
+  "abstract": {
+    "title": "Statistical Abstract: 2025",
+    "publisher": "U.S. National Park Service",
+    "url": "https://irma.nps.gov/DataStore/Reference/Profile/2318258",
+    "checked": "2026-11-10",
+    "data_year": 2025,
+    "authority": "official",
+    "rounding": "Published statistical record; no extra precision added.",
+    "limits": "NPS/SR—2026/439, DOI 10.36967/2318258; documents collection methods and estimates."
+  }
+}

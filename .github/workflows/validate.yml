@@ -18,3 +18,8 @@ jobs:
       - name: Static game regression checks
         run: |
           node scripts/regression-check.mjs
+      - name: NPS visitation draft reproducibility and content checks
+        run: |
+          python3 scripts/build-nationalparks-visitation-draft-20261110.py --check
+          node scripts/inventory-nationalparks-visitation-draft-20261110.mjs --check
+          node scripts/check-nationalparks-visitation-draft-20261110.mjs
