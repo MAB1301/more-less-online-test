@@ -1,0 +1,225 @@
+{
+  "policy": "Historische amtliche Endergebnisse: jährliche Link- und Revisionskontrolle, obwohl die Werte grundsätzlich stabil sind.",
+  "records": [
+    {
+      "id": "btw-20261111-turnout-72-76",
+      "game": "moreless",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1972.html",
+      "verified": "2026-11-11",
+      "data_year": "1972/1976",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "btw-20261111-eligible-65-69",
+      "game": "moreless",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1965.html",
+      "verified": "2026-11-11",
+      "data_year": "1965/1969",
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "btw-20261111-fdp-share-1961",
+      "game": "estimate",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1961.html",
+      "verified": "2026-11-11",
+      "data_year": 1961,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "btw-20261111-npd-votes-1965",
+      "game": "estimate",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1965.html",
+      "verified": "2026-11-11",
+      "data_year": 1965,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "btw-20261111-spd-seats-1969",
+      "game": "estimate",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1969.html",
+      "verified": "2026-11-11",
+      "data_year": 1969,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "btw-20261111-greens-share-1980",
+      "game": "estimate",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1980.html",
+      "verified": "2026-11-11",
+      "data_year": 1980,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "btw-20261111-greens-share-1983",
+      "game": "facts",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1983.html",
+      "verified": "2026-11-11",
+      "data_year": 1983,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "btw-20261111-spd-share-1972",
+      "game": "facts",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1972.html",
+      "verified": "2026-11-11",
+      "data_year": 1972,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "btw-20261111-cdu-share-1976",
+      "game": "facts",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1976.html",
+      "verified": "2026-11-11",
+      "data_year": 1976,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "btw-20261111-fdp-share-1980",
+      "game": "facts",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1980.html",
+      "verified": "2026-11-11",
+      "data_year": 1980,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "btw-20261111-invalid-1961",
+      "game": "facts",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1961.html",
+      "verified": "2026-11-11",
+      "data_year": 1961,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "btw-20261111-fdp-seats-1983",
+      "game": "facts",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1983.html",
+      "verified": "2026-11-11",
+      "data_year": 1983,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "btw-20261111-date-1961",
+      "game": "jeopardy",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1961.html",
+      "verified": "2026-11-11",
+      "data_year": 1961,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "btw-20261111-date-1965",
+      "game": "jeopardy",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1965.html",
+      "verified": "2026-11-11",
+      "data_year": 1965,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "btw-20261111-npd-1969",
+      "game": "jeopardy",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1969.html",
+      "verified": "2026-11-11",
+      "data_year": 1969,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "btw-20261111-fdp-seats-1972",
+      "game": "jeopardy",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1972.html",
+      "verified": "2026-11-11",
+      "data_year": 1972,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "btw-20261111-csu-1976",
+      "game": "jeopardy",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1976.html",
+      "verified": "2026-11-11",
+      "data_year": 1976,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "btw-20261111-valid-1980",
+      "game": "jeopardy",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1980.html",
+      "verified": "2026-11-11",
+      "data_year": 1980,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "btw-20261111-eligible-1983",
+      "game": "jeopardy",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1983.html",
+      "verified": "2026-11-11",
+      "data_year": 1983,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-11",
+      "review_status": "draft-review-required"
+    },
+    {
+      "id": "btw-20261111-seat-tie-1983",
+      "game": "jeopardy",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1983.html",
+      "verified": "2026-11-11",
+      "data_year": 1983,
+      "time_dependent": false,
+      "review_interval_days": 365,
+      "next_review": "2027-11-11",
+      "review_status": "draft-review-required"
+    }
+  ]
+}

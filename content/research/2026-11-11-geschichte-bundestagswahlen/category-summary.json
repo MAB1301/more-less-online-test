@@ -1,0 +1,582 @@
+{
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "inventory_method": "Normalized question text per game; More/Less uses undirected pair plus metric.",
+  "selectable_category_count": 34,
+  "categories": [
+    {
+      "category": "Allgemeinwissen",
+      "unique_by_game": {
+        "moreless": 7,
+        "estimate": 11,
+        "facts": 8,
+        "jeopardy": 21
+      },
+      "total": 47,
+      "selectable_subcategories": [
+        "Brettspiele & Rätsel",
+        "Tiergrößen",
+        "Überblick & neue Perspektiven",
+        "Universitäten",
+        "Wissen & Hintergründe",
+        "Zahlen & Schätzungen"
+      ]
+    },
+    {
+      "category": "Autos",
+      "unique_by_game": {
+        "moreless": 26,
+        "estimate": 25,
+        "facts": 16,
+        "jeopardy": 0
+      },
+      "total": 67,
+      "selectable_subcategories": [
+        "Abmessungen",
+        "Technik & Abmessungen"
+      ]
+    },
+    {
+      "category": "Autotechnik",
+      "unique_by_game": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 26
+      },
+      "total": 26,
+      "selectable_subcategories": [
+        "Abmessungen",
+        "Antrieb & Begriffe",
+        "Technik & Abmessungen",
+        "Wissen & Hintergründe"
+      ]
+    },
+    {
+      "category": "Bauwerke",
+      "unique_by_game": {
+        "moreless": 9,
+        "estimate": 12,
+        "facts": 6,
+        "jeopardy": 0
+      },
+      "total": 27,
+      "selectable_subcategories": [
+        "Baugeschichte",
+        "Überblick & neue Perspektiven"
+      ]
+    },
+    {
+      "category": "Champions League",
+      "unique_by_game": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 17
+      },
+      "total": 17,
+      "selectable_subcategories": [
+        "Finalgeschichte",
+        "Wissen & Hintergründe"
+      ]
+    },
+    {
+      "category": "Chemie",
+      "unique_by_game": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 32
+      },
+      "total": 32,
+      "selectable_subcategories": [
+        "Elemente",
+        "Elementsymbole",
+        "Wissen & Hintergründe"
+      ]
+    },
+    {
+      "category": "Deutschland",
+      "unique_by_game": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 16
+      },
+      "total": 16,
+      "selectable_subcategories": [
+        "Bundesländer & Nachbarn",
+        "Wissen & Hintergründe"
+      ]
+    },
+    {
+      "category": "FIFA-Ratings",
+      "unique_by_game": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 57
+      },
+      "total": 57,
+      "selectable_subcategories": [
+        "FC 24",
+        "FC 25",
+        "FC 26",
+        "FC 27",
+        "FIFA 19",
+        "FIFA 20",
+        "FIFA 21",
+        "FIFA 22",
+        "FIFA 23"
+      ]
+    },
+    {
+      "category": "Fußball",
+      "unique_by_game": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 17
+      },
+      "total": 17,
+      "selectable_subcategories": [
+        "Spielerprofile",
+        "Weltmeisterschaften",
+        "Wissen & Hintergründe"
+      ]
+    },
+    {
+      "category": "Fußballer",
+      "unique_by_game": {
+        "moreless": 59,
+        "estimate": 38,
+        "facts": 52,
+        "jeopardy": 0
+      },
+      "total": 149,
+      "selectable_subcategories": [
+        "FC 26",
+        "FC 27",
+        "Geschichte & Jahreszahlen",
+        "Historische Wechsel",
+        "Spielerprofile",
+        "Überblick & neue Perspektiven",
+        "Wissen & Hintergründe"
+      ]
+    },
+    {
+      "category": "Geografie",
+      "unique_by_game": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 20
+      },
+      "total": 20,
+      "selectable_subcategories": [
+        "Flächen & Landschaften",
+        "Gipfel & Landschaften",
+        "Hauptstädte weltweit",
+        "Wissen & Hintergründe"
+      ]
+    },
+    {
+      "category": "Geschichte",
+      "unique_by_game": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 20
+      },
+      "total": 20,
+      "selectable_subcategories": [
+        "Baugeschichte",
+        "Deutsche Zeitgeschichte",
+        "Geschichte & Jahreszahlen",
+        "Wissen & Hintergründe"
+      ]
+    },
+    {
+      "category": "Kultur",
+      "unique_by_game": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 17
+      },
+      "total": 17,
+      "selectable_subcategories": [
+        "Museen & Kunst",
+        "Wissen & Hintergründe"
+      ]
+    },
+    {
+      "category": "Länder",
+      "unique_by_game": {
+        "moreless": 9,
+        "estimate": 12,
+        "facts": 6,
+        "jeopardy": 0
+      },
+      "total": 27,
+      "selectable_subcategories": [
+        "Gipfel & Landschaften",
+        "Überblick & neue Perspektiven",
+        "Zahlen & Schätzungen"
+      ]
+    },
+    {
+      "category": "Mix",
+      "unique_by_game": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 18
+      },
+      "total": 18,
+      "selectable_subcategories": [
+        "Alltagsmathematik",
+        "Brettspiele & Rätsel",
+        "Wissen & Hintergründe"
+      ]
+    },
+    {
+      "category": "Nationalparks",
+      "unique_by_game": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 22
+      },
+      "total": 22,
+      "selectable_subcategories": [
+        "Besucherzahlen 2025",
+        "Flächen & Landschaften",
+        "Landschaften & Wahrzeichen",
+        "Wissen & Hintergründe"
+      ]
+    },
+    {
+      "category": "Natur",
+      "unique_by_game": {
+        "moreless": 60,
+        "estimate": 20,
+        "facts": 12,
+        "jeopardy": 0
+      },
+      "total": 92,
+      "selectable_subcategories": [
+        "Besucherzahlen 2025",
+        "Geschichte & Jahreszahlen",
+        "Überblick & neue Perspektiven",
+        "Wissen & Hintergründe"
+      ]
+    },
+    {
+      "category": "Planetenkunde",
+      "unique_by_game": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 23
+      },
+      "total": 23,
+      "selectable_subcategories": [
+        "Bahnen & Rotation",
+        "Monde",
+        "Physikalische Größen",
+        "Planetensystem",
+        "Technik & Abmessungen"
+      ]
+    },
+    {
+      "category": "Planetenphysik",
+      "unique_by_game": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 54
+      },
+      "total": 54,
+      "selectable_subcategories": [
+        "Physikalische Größen",
+        "Rotation",
+        "Technik & Abmessungen",
+        "Wissen & Hintergründe"
+      ]
+    },
+    {
+      "category": "Raumfahrt",
+      "unique_by_game": {
+        "moreless": 70,
+        "estimate": 20,
+        "facts": 12,
+        "jeopardy": 0
+      },
+      "total": 102,
+      "selectable_subcategories": [
+        "Sonden & Teleskope",
+        "Überblick & neue Perspektiven",
+        "Werte & Vergleiche",
+        "Wissen & Hintergründe",
+        "Zahlen & Schätzungen"
+      ]
+    },
+    {
+      "category": "Raumfahrtmissionen",
+      "unique_by_game": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 22
+      },
+      "total": 22,
+      "selectable_subcategories": [
+        "Sonden & Teleskope",
+        "Wissen & Hintergründe",
+        "Ziele & Entdeckungen"
+      ]
+    },
+    {
+      "category": "Rekorde & Extreme",
+      "unique_by_game": {
+        "moreless": 9,
+        "estimate": 12,
+        "facts": 6,
+        "jeopardy": 14
+      },
+      "total": 41,
+      "selectable_subcategories": [
+        "Historische Leichtathletik",
+        "Historische Rennen",
+        "Physikalische Größen",
+        "Überblick & neue Perspektiven",
+        "Wissen & Hintergründe"
+      ]
+    },
+    {
+      "category": "Science-Fiction",
+      "unique_by_game": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 15
+      },
+      "total": 15,
+      "selectable_subcategories": [
+        "Star Trek",
+        "Wissen & Hintergründe"
+      ]
+    },
+    {
+      "category": "Sport",
+      "unique_by_game": {
+        "moreless": 20,
+        "estimate": 15,
+        "facts": 12,
+        "jeopardy": 15
+      },
+      "total": 62,
+      "selectable_subcategories": [
+        "Olympische Disziplinen",
+        "Spielfeldmaße",
+        "Überblick & neue Perspektiven",
+        "Wissen & Hintergründe",
+        "Zahlen & Schätzungen"
+      ]
+    },
+    {
+      "category": "Sportregeln",
+      "unique_by_game": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 20
+      },
+      "total": 20,
+      "selectable_subcategories": [
+        "Spielfeldmaße",
+        "Wertung & Ausrüstung",
+        "Wissen & Hintergründe"
+      ]
+    },
+    {
+      "category": "Städte",
+      "unique_by_game": {
+        "moreless": 9,
+        "estimate": 12,
+        "facts": 8,
+        "jeopardy": 0
+      },
+      "total": 29,
+      "selectable_subcategories": [
+        "Überblick & neue Perspektiven",
+        "Universitäten",
+        "Wissen & Hintergründe"
+      ]
+    },
+    {
+      "category": "Star Wars",
+      "unique_by_game": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 15
+      },
+      "total": 15,
+      "selectable_subcategories": [
+        "Jedi & Planeten",
+        "Wissen & Hintergründe"
+      ]
+    },
+    {
+      "category": "Tierwelt",
+      "unique_by_game": {
+        "moreless": 9,
+        "estimate": 9,
+        "facts": 6,
+        "jeopardy": 0
+      },
+      "total": 24,
+      "selectable_subcategories": [
+        "Tiergrößen",
+        "Überblick & neue Perspektiven"
+      ]
+    },
+    {
+      "category": "Transfers",
+      "unique_by_game": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 48
+      },
+      "total": 48,
+      "selectable_subcategories": [
+        "Historische Wechsel"
+      ]
+    },
+    {
+      "category": "Vereinsstationen",
+      "unique_by_game": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 18
+      },
+      "total": 18,
+      "selectable_subcategories": [
+        "Historische Wechsel",
+        "Karrierestarts",
+        "Wissen & Hintergründe"
+      ]
+    },
+    {
+      "category": "Videospiele",
+      "unique_by_game": {
+        "moreless": 0,
+        "estimate": 0,
+        "facts": 0,
+        "jeopardy": 35
+      },
+      "total": 35,
+      "selectable_subcategories": [
+        "Nintendo",
+        "Physikalische Größen",
+        "Pokémon",
+        "Super Mario",
+        "Wissen & Hintergründe",
+        "Zelda"
+      ]
+    },
+    {
+      "category": "Weltkultur",
+      "unique_by_game": {
+        "moreless": 42,
+        "estimate": 17,
+        "facts": 12,
+        "jeopardy": 19
+      },
+      "total": 90,
+      "selectable_subcategories": [
+        "Baumeister & Zivilisationen",
+        "Flächen & Landschaften",
+        "Überblick & neue Perspektiven",
+        "UNESCO-Flächen",
+        "Wissen & Hintergründe"
+      ]
+    },
+    {
+      "category": "Weltraum",
+      "unique_by_game": {
+        "moreless": 209,
+        "estimate": 70,
+        "facts": 28,
+        "jeopardy": 15
+      },
+      "total": 322,
+      "selectable_subcategories": [
+        "Bahnen & Rotation",
+        "Monde",
+        "Physikalische Größen",
+        "Technik & Abmessungen",
+        "Überblick & neue Perspektiven",
+        "Werte & Vergleiche",
+        "Wissen & Hintergründe",
+        "Zahlen & Schätzungen"
+      ]
+    },
+    {
+      "category": "Wissenschaft",
+      "unique_by_game": {
+        "moreless": 279,
+        "estimate": 30,
+        "facts": 20,
+        "jeopardy": 18
+      },
+      "total": 347,
+      "selectable_subcategories": [
+        "Elemente",
+        "Physikalische Größen",
+        "SI-Basiseinheiten",
+        "Überblick & neue Perspektiven",
+        "Wissen & Hintergründe"
+      ]
+    }
+  ],
+  "target": {
+    "category": "Geschichte",
+    "before_main": {
+      "moreless": 0,
+      "estimate": 0,
+      "facts": 0,
+      "jeopardy": 20
+    },
+    "known_open_drafts": {
+      "moreless": 2,
+      "estimate": 4,
+      "facts": 6,
+      "jeopardy": 8
+    },
+    "known_open_draft_notes": [
+      "PR #148: 20 questions on the Federal Republic founding period 1948–1953."
+    ],
+    "added": {
+      "moreless": 2,
+      "estimate": 4,
+      "facts": 6,
+      "jeopardy": 8
+    },
+    "after_including_open_drafts_and_this": {
+      "moreless": 4,
+      "estimate": 8,
+      "facts": 12,
+      "jeopardy": 36
+    },
+    "totals": {
+      "before_main": 20,
+      "known_open_drafts": 20,
+      "added": 20,
+      "after_including_open_drafts_and_this": 60
+    }
+  }
+}

@@ -1,0 +1,710 @@
+{
+  "status": "review-only",
+  "verified": "2026-11-11",
+  "base_commit": "dced74bb1385014445e186969a09ccd92c20edb5",
+  "images": {
+    "geschichte-bundestagswahl-neutral": {
+      "card": "visuals/geschichte-bundestagswahl-neutral-card.svg",
+      "detail": "visuals/geschichte-bundestagswahl-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Generic ballot box and semicircular parliament; no party colors, names, years, percentages, seat counts, maps or answers."
+    },
+    "Bundestagswahl 1972": {
+      "card": "visuals/geschichte-bundestagswahl-neutral-card.svg",
+      "detail": "visuals/geschichte-bundestagswahl-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Generic ballot box and semicircular parliament; no party colors, names, years, percentages, seat counts, maps or answers."
+    },
+    "Bundestagswahl 1976": {
+      "card": "visuals/geschichte-bundestagswahl-neutral-card.svg",
+      "detail": "visuals/geschichte-bundestagswahl-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Generic ballot box and semicircular parliament; no party colors, names, years, percentages, seat counts, maps or answers."
+    },
+    "Bundestagswahl 1965": {
+      "card": "visuals/geschichte-bundestagswahl-neutral-card.svg",
+      "detail": "visuals/geschichte-bundestagswahl-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Generic ballot box and semicircular parliament; no party colors, names, years, percentages, seat counts, maps or answers."
+    },
+    "Bundestagswahl 1969": {
+      "card": "visuals/geschichte-bundestagswahl-neutral-card.svg",
+      "detail": "visuals/geschichte-bundestagswahl-neutral-detail.svg",
+      "license": "CC0-1.0",
+      "creator": "Original code-authored vector",
+      "answer_neutral": true,
+      "safe_margin_px": 40,
+      "description": "Generic ballot box and semicircular parliament; no party colors, names, years, percentages, seat counts, maps or answers."
+    }
+  },
+  "moreless": [
+    {
+      "id": "btw-20261111-turnout-72-76",
+      "semantic_key": "btw-turnout-1972-91.1-1976-90.7",
+      "cat": "Geschichte",
+      "subcategory": "Bundestagswahlen 1961–1983",
+      "source_refs": [
+        "btw1972",
+        "btw1976",
+        "historical_pdf"
+      ],
+      "observation_keys": [
+        "turnout-1972",
+        "turnout-1976"
+      ],
+      "data_year": "1972/1976",
+      "rounding": "Eine Dezimalstelle wie amtlich veröffentlicht.",
+      "notes": "Gleiche Kennzahl, Einheit, Wahlebene und amtliche Definition; Abstand 0,4 Prozentpunkte bzw. 0,44 % bezogen auf 1976.",
+      "time_dependent": false,
+      "l": "Bundestagswahl 1972",
+      "r": "Bundestagswahl 1976",
+      "lv": 91.1,
+      "rv": 90.7,
+      "u": "% Wahlbeteiligung",
+      "metric": "Wahlbeteiligung bei Bundestagswahlen",
+      "status": "draft",
+      "verified": "2026-11-11",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1972.html",
+      "sources": [
+        "https://www.bundeswahlleiterin.de/bundestagswahlen/1972.html",
+        "https://www.bundeswahlleiterin.de/bundestagswahlen/1976.html",
+        "https://www.bundeswahlleiterin.de/dam/jcr/397735e3-0585-46f6-a0b5-2c60c5b83de6/btw_ab49_gesamt.pdf"
+      ],
+      "sets": [
+        "Geschichte · Bundestagswahlen 1961–1983"
+      ],
+      "visual": "geschichte-bundestagswahl-neutral",
+      "subject": "geschichte-bundestagswahl-neutral"
+    },
+    {
+      "id": "btw-20261111-eligible-65-69",
+      "semantic_key": "btw-eligible-1965-38510395-1969-38677235",
+      "cat": "Geschichte",
+      "subcategory": "Bundestagswahlen 1961–1983",
+      "source_refs": [
+        "btw1965",
+        "btw1969",
+        "historical_pdf"
+      ],
+      "observation_keys": [
+        "eligible-1965",
+        "eligible-1969"
+      ],
+      "data_year": "1965/1969",
+      "rounding": "Ganze Personen exakt wie amtlich veröffentlicht.",
+      "notes": "Gleiche Kennzahl, Einheit, Wahlebene und amtliche Definition; Abstand 166.840 bzw. 0,43 % bezogen auf 1965.",
+      "time_dependent": false,
+      "l": "Bundestagswahl 1965",
+      "r": "Bundestagswahl 1969",
+      "lv": 38510395,
+      "rv": 38677235,
+      "u": "Wahlberechtigte",
+      "metric": "Wahlberechtigte bei Bundestagswahlen",
+      "status": "draft",
+      "verified": "2026-11-11",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1965.html",
+      "sources": [
+        "https://www.bundeswahlleiterin.de/bundestagswahlen/1965.html",
+        "https://www.bundeswahlleiterin.de/bundestagswahlen/1969.html",
+        "https://www.bundeswahlleiterin.de/dam/jcr/397735e3-0585-46f6-a0b5-2c60c5b83de6/btw_ab49_gesamt.pdf"
+      ],
+      "sets": [
+        "Geschichte · Bundestagswahlen 1961–1983"
+      ],
+      "visual": "geschichte-bundestagswahl-neutral",
+      "subject": "geschichte-bundestagswahl-neutral"
+    }
+  ],
+  "estimate": [
+    {
+      "id": "btw-20261111-fdp-share-1961",
+      "semantic_key": "btw-1961-fdp-second-share-12.8",
+      "cat": "Geschichte",
+      "subcategory": "Parteiergebnisse 1961–1983",
+      "source_refs": [
+        "btw1961",
+        "historical_pdf"
+      ],
+      "observation_keys": [
+        "fdp-share-1961"
+      ],
+      "data_year": 1961,
+      "rounding": "Eine Dezimalstelle wie amtlich veröffentlicht.",
+      "notes": "Bundesergebnis der gültigen Zweitstimmen.",
+      "time_dependent": false,
+      "q": "Wie hoch war der Zweitstimmenanteil der FDP bei der Bundestagswahl 1961?",
+      "a": 12.8,
+      "u": "%",
+      "status": "draft",
+      "verified": "2026-11-11",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1961.html",
+      "sources": [
+        "https://www.bundeswahlleiterin.de/bundestagswahlen/1961.html",
+        "https://www.bundeswahlleiterin.de/dam/jcr/397735e3-0585-46f6-a0b5-2c60c5b83de6/btw_ab49_gesamt.pdf"
+      ],
+      "sets": [
+        "Geschichte · Bundestagswahlen 1961–1983"
+      ],
+      "visual": "geschichte-bundestagswahl-neutral",
+      "subject": "geschichte-bundestagswahl-neutral"
+    },
+    {
+      "id": "btw-20261111-npd-votes-1965",
+      "semantic_key": "btw-1965-npd-second-votes-664193",
+      "cat": "Geschichte",
+      "subcategory": "Parteiergebnisse 1961–1983",
+      "source_refs": [
+        "btw1965",
+        "historical_pdf"
+      ],
+      "observation_keys": [
+        "npd-votes-1965"
+      ],
+      "data_year": 1965,
+      "rounding": "Ganze Stimmen exakt wie amtlich veröffentlicht.",
+      "notes": "Bundesergebnis, Zweitstimmen.",
+      "time_dependent": false,
+      "q": "Wie viele Zweitstimmen erhielt die NPD bei der Bundestagswahl 1965?",
+      "a": 664193,
+      "u": "Zweitstimmen",
+      "status": "draft",
+      "verified": "2026-11-11",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1965.html",
+      "sources": [
+        "https://www.bundeswahlleiterin.de/bundestagswahlen/1965.html",
+        "https://www.bundeswahlleiterin.de/dam/jcr/397735e3-0585-46f6-a0b5-2c60c5b83de6/btw_ab49_gesamt.pdf"
+      ],
+      "sets": [
+        "Geschichte · Bundestagswahlen 1961–1983"
+      ],
+      "visual": "geschichte-bundestagswahl-neutral",
+      "subject": "geschichte-bundestagswahl-neutral"
+    },
+    {
+      "id": "btw-20261111-spd-seats-1969",
+      "semantic_key": "btw-1969-spd-seats-237",
+      "cat": "Geschichte",
+      "subcategory": "Sitzverteilung 1961–1983",
+      "source_refs": [
+        "btw1969",
+        "historical_pdf"
+      ],
+      "observation_keys": [
+        "spd-seats-1969"
+      ],
+      "data_year": 1969,
+      "rounding": "Ganze Sitze exakt wie amtlich veröffentlicht.",
+      "notes": "Amtliche Sitzangabe einschließlich Berliner Abgeordneter.",
+      "time_dependent": false,
+      "q": "Wie viele Sitze erhielt die SPD nach der Bundestagswahl 1969?",
+      "a": 237,
+      "u": "Sitze",
+      "status": "draft",
+      "verified": "2026-11-11",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1969.html",
+      "sources": [
+        "https://www.bundeswahlleiterin.de/bundestagswahlen/1969.html",
+        "https://www.bundeswahlleiterin.de/dam/jcr/397735e3-0585-46f6-a0b5-2c60c5b83de6/btw_ab49_gesamt.pdf"
+      ],
+      "sets": [
+        "Geschichte · Bundestagswahlen 1961–1983"
+      ],
+      "visual": "geschichte-bundestagswahl-neutral",
+      "subject": "geschichte-bundestagswahl-neutral"
+    },
+    {
+      "id": "btw-20261111-greens-share-1980",
+      "semantic_key": "btw-1980-greens-second-share-1.5",
+      "cat": "Geschichte",
+      "subcategory": "Parteiergebnisse 1961–1983",
+      "source_refs": [
+        "btw1980",
+        "historical_pdf"
+      ],
+      "observation_keys": [
+        "greens-share-1980"
+      ],
+      "data_year": 1980,
+      "rounding": "Eine Dezimalstelle wie amtlich veröffentlicht.",
+      "notes": "Bundesergebnis der gültigen Zweitstimmen.",
+      "time_dependent": false,
+      "q": "Wie hoch war der Zweitstimmenanteil der Grünen bei der Bundestagswahl 1980?",
+      "a": 1.5,
+      "u": "%",
+      "status": "draft",
+      "verified": "2026-11-11",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1980.html",
+      "sources": [
+        "https://www.bundeswahlleiterin.de/bundestagswahlen/1980.html",
+        "https://www.bundeswahlleiterin.de/dam/jcr/397735e3-0585-46f6-a0b5-2c60c5b83de6/btw_ab49_gesamt.pdf"
+      ],
+      "sets": [
+        "Geschichte · Bundestagswahlen 1961–1983"
+      ],
+      "visual": "geschichte-bundestagswahl-neutral",
+      "subject": "geschichte-bundestagswahl-neutral"
+    }
+  ],
+  "facts": [
+    {
+      "id": "btw-20261111-greens-share-1983",
+      "semantic_key": "btw-1983-greens-second-share-5.6-true",
+      "cat": "Geschichte",
+      "subcategory": "Parteiergebnisse 1961–1983",
+      "source_refs": [
+        "btw1983",
+        "historical_pdf"
+      ],
+      "observation_keys": [
+        "greens-share-1983"
+      ],
+      "data_year": 1983,
+      "rounding": "Eine Dezimalstelle wie amtlich veröffentlicht.",
+      "notes": "Bundesergebnis der gültigen Zweitstimmen.",
+      "time_dependent": false,
+      "s": "Die Grünen erreichten bei der Bundestagswahl 1983 bundesweit 5,6 % der Zweitstimmen.",
+      "a": true,
+      "e": "Die amtliche Ergebnistabelle weist 5,6 % aus.",
+      "difficulty": "easy",
+      "status": "draft",
+      "verified": "2026-11-11",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1983.html",
+      "sources": [
+        "https://www.bundeswahlleiterin.de/bundestagswahlen/1983.html",
+        "https://www.bundeswahlleiterin.de/dam/jcr/397735e3-0585-46f6-a0b5-2c60c5b83de6/btw_ab49_gesamt.pdf"
+      ],
+      "sets": [
+        "Geschichte · Bundestagswahlen 1961–1983"
+      ],
+      "visual": "geschichte-bundestagswahl-neutral",
+      "subject": "geschichte-bundestagswahl-neutral"
+    },
+    {
+      "id": "btw-20261111-spd-share-1972",
+      "semantic_key": "btw-1972-spd-second-share-not-48.8",
+      "cat": "Geschichte",
+      "subcategory": "Parteiergebnisse 1961–1983",
+      "source_refs": [
+        "btw1972",
+        "historical_pdf"
+      ],
+      "observation_keys": [
+        "spd-share-1972"
+      ],
+      "data_year": 1972,
+      "rounding": "Eine Dezimalstelle wie amtlich veröffentlicht.",
+      "notes": "Die Falschaussage verwechselt annähernd den Erststimmenanteil mit dem Zweitstimmenanteil.",
+      "time_dependent": false,
+      "s": "Die SPD erreichte bei der Bundestagswahl 1972 bundesweit 48,8 % der Zweitstimmen.",
+      "a": false,
+      "e": "Richtig sind 45,8 % Zweitstimmen; 48,9 % waren ihr Erststimmenanteil.",
+      "difficulty": "easy",
+      "status": "draft",
+      "verified": "2026-11-11",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1972.html",
+      "sources": [
+        "https://www.bundeswahlleiterin.de/bundestagswahlen/1972.html",
+        "https://www.bundeswahlleiterin.de/dam/jcr/397735e3-0585-46f6-a0b5-2c60c5b83de6/btw_ab49_gesamt.pdf"
+      ],
+      "sets": [
+        "Geschichte · Bundestagswahlen 1961–1983"
+      ],
+      "visual": "geschichte-bundestagswahl-neutral",
+      "subject": "geschichte-bundestagswahl-neutral"
+    },
+    {
+      "id": "btw-20261111-cdu-share-1976",
+      "semantic_key": "btw-1976-cdu-second-share-38.0-true",
+      "cat": "Geschichte",
+      "subcategory": "Parteiergebnisse 1961–1983",
+      "source_refs": [
+        "btw1976",
+        "historical_pdf"
+      ],
+      "observation_keys": [
+        "cdu-share-1976"
+      ],
+      "data_year": 1976,
+      "rounding": "Eine Dezimalstelle; amtliche Webtabelle zeigt 38 ohne Nachkommastelle.",
+      "notes": "Bundesergebnis der gültigen Zweitstimmen, CDU ohne CSU.",
+      "time_dependent": false,
+      "s": "Die CDU erreichte bei der Bundestagswahl 1976 bundesweit 38,0 % der Zweitstimmen.",
+      "a": true,
+      "e": "Die amtliche Ergebnistabelle weist für die CDU 38,0 % aus.",
+      "difficulty": "medium",
+      "status": "draft",
+      "verified": "2026-11-11",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1976.html",
+      "sources": [
+        "https://www.bundeswahlleiterin.de/bundestagswahlen/1976.html",
+        "https://www.bundeswahlleiterin.de/dam/jcr/397735e3-0585-46f6-a0b5-2c60c5b83de6/btw_ab49_gesamt.pdf"
+      ],
+      "sets": [
+        "Geschichte · Bundestagswahlen 1961–1983"
+      ],
+      "visual": "geschichte-bundestagswahl-neutral",
+      "subject": "geschichte-bundestagswahl-neutral"
+    },
+    {
+      "id": "btw-20261111-fdp-share-1980",
+      "semantic_key": "btw-1980-fdp-second-share-not-7.6",
+      "cat": "Geschichte",
+      "subcategory": "Parteiergebnisse 1961–1983",
+      "source_refs": [
+        "btw1980",
+        "historical_pdf"
+      ],
+      "observation_keys": [
+        "fdp-share-1980"
+      ],
+      "data_year": 1980,
+      "rounding": "Eine Dezimalstelle wie amtlich veröffentlicht.",
+      "notes": "Bewusst falscher Wert mit deutlichem, aber nicht trivialem Abstand.",
+      "time_dependent": false,
+      "s": "Die FDP erreichte bei der Bundestagswahl 1980 bundesweit 7,6 % der Zweitstimmen.",
+      "a": false,
+      "e": "Richtig sind 10,6 % der Zweitstimmen.",
+      "difficulty": "medium",
+      "status": "draft",
+      "verified": "2026-11-11",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1980.html",
+      "sources": [
+        "https://www.bundeswahlleiterin.de/bundestagswahlen/1980.html",
+        "https://www.bundeswahlleiterin.de/dam/jcr/397735e3-0585-46f6-a0b5-2c60c5b83de6/btw_ab49_gesamt.pdf"
+      ],
+      "sets": [
+        "Geschichte · Bundestagswahlen 1961–1983"
+      ],
+      "visual": "geschichte-bundestagswahl-neutral",
+      "subject": "geschichte-bundestagswahl-neutral"
+    },
+    {
+      "id": "btw-20261111-invalid-1961",
+      "semantic_key": "btw-1961-invalid-second-1298723-true",
+      "cat": "Geschichte",
+      "subcategory": "Wahlstatistik 1961–1983",
+      "source_refs": [
+        "btw1961",
+        "historical_pdf"
+      ],
+      "observation_keys": [
+        "invalid-second-1961"
+      ],
+      "data_year": 1961,
+      "rounding": "Ganze Stimmen exakt wie amtlich veröffentlicht.",
+      "notes": "Ungültige Zweitstimmen, nicht Erststimmen.",
+      "time_dependent": false,
+      "s": "Bei der Bundestagswahl 1961 wurden bundesweit 1.298.723 Zweitstimmen als ungültig gezählt.",
+      "a": true,
+      "e": "Genau diese Zahl nennt das amtliche Bundesergebnis.",
+      "difficulty": "hard",
+      "status": "draft",
+      "verified": "2026-11-11",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1961.html",
+      "sources": [
+        "https://www.bundeswahlleiterin.de/bundestagswahlen/1961.html",
+        "https://www.bundeswahlleiterin.de/dam/jcr/397735e3-0585-46f6-a0b5-2c60c5b83de6/btw_ab49_gesamt.pdf"
+      ],
+      "sets": [
+        "Geschichte · Bundestagswahlen 1961–1983"
+      ],
+      "visual": "geschichte-bundestagswahl-neutral",
+      "subject": "geschichte-bundestagswahl-neutral"
+    },
+    {
+      "id": "btw-20261111-fdp-seats-1983",
+      "semantic_key": "btw-1983-fdp-seats-not-40",
+      "cat": "Geschichte",
+      "subcategory": "Sitzverteilung 1961–1983",
+      "source_refs": [
+        "btw1983",
+        "historical_pdf"
+      ],
+      "observation_keys": [
+        "fdp-seats-1983"
+      ],
+      "data_year": 1983,
+      "rounding": "Ganze Sitze exakt wie amtlich veröffentlicht.",
+      "notes": "Amtliche Sitzangabe einschließlich Berliner Abgeordneter.",
+      "time_dependent": false,
+      "s": "Die FDP erhielt nach der Bundestagswahl 1983 insgesamt 40 Sitze.",
+      "a": false,
+      "e": "Richtig sind 35 Sitze.",
+      "difficulty": "hard",
+      "status": "draft",
+      "verified": "2026-11-11",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1983.html",
+      "sources": [
+        "https://www.bundeswahlleiterin.de/bundestagswahlen/1983.html",
+        "https://www.bundeswahlleiterin.de/dam/jcr/397735e3-0585-46f6-a0b5-2c60c5b83de6/btw_ab49_gesamt.pdf"
+      ],
+      "sets": [
+        "Geschichte · Bundestagswahlen 1961–1983"
+      ],
+      "visual": "geschichte-bundestagswahl-neutral",
+      "subject": "geschichte-bundestagswahl-neutral"
+    }
+  ],
+  "jeopardy": [
+    {
+      "id": "btw-20261111-date-1961",
+      "semantic_key": "btw-1961-election-date-17-september",
+      "cat": "Geschichte",
+      "subcategory": "Wahltermine 1961–1983",
+      "source_refs": [
+        "btw1961",
+        "wahltermine"
+      ],
+      "observation_keys": [
+        "date-1961"
+      ],
+      "data_year": 1961,
+      "rounding": "Kalendertag, keine Rundung.",
+      "notes": "Amtlicher Wahltermin.",
+      "time_dependent": false,
+      "q": "An welchem Datum fand die Bundestagswahl 1961 statt?",
+      "a": "17. September 1961|17.09.1961",
+      "difficulty": 1,
+      "status": "draft",
+      "verified": "2026-11-11",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1961.html",
+      "sources": [
+        "https://www.bundeswahlleiterin.de/bundestagswahlen/1961.html",
+        "https://www.bundeswahlleiterin.de/service/glossar/w/wahltermin.html"
+      ],
+      "sets": [
+        "Geschichte · Bundestagswahlen 1961–1983"
+      ],
+      "visual": null
+    },
+    {
+      "id": "btw-20261111-date-1965",
+      "semantic_key": "btw-1965-election-date-19-september",
+      "cat": "Geschichte",
+      "subcategory": "Wahltermine 1961–1983",
+      "source_refs": [
+        "btw1965",
+        "wahltermine"
+      ],
+      "observation_keys": [
+        "date-1965"
+      ],
+      "data_year": 1965,
+      "rounding": "Kalendertag, keine Rundung.",
+      "notes": "Amtlicher Wahltermin.",
+      "time_dependent": false,
+      "q": "An welchem Datum fand die Bundestagswahl 1965 statt?",
+      "a": "19. September 1965|19.09.1965",
+      "difficulty": 1,
+      "status": "draft",
+      "verified": "2026-11-11",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1965.html",
+      "sources": [
+        "https://www.bundeswahlleiterin.de/bundestagswahlen/1965.html",
+        "https://www.bundeswahlleiterin.de/service/glossar/w/wahltermin.html"
+      ],
+      "sets": [
+        "Geschichte · Bundestagswahlen 1961–1983"
+      ],
+      "visual": null
+    },
+    {
+      "id": "btw-20261111-npd-1969",
+      "semantic_key": "btw-1969-party-4.3-second-npd",
+      "cat": "Geschichte",
+      "subcategory": "Parteiergebnisse 1961–1983",
+      "source_refs": [
+        "btw1969",
+        "historical_pdf"
+      ],
+      "observation_keys": [
+        "npd-share-1969"
+      ],
+      "data_year": 1969,
+      "rounding": "Eine Dezimalstelle wie amtlich veröffentlicht.",
+      "notes": "Bundesergebnis der gültigen Zweitstimmen.",
+      "time_dependent": false,
+      "q": "Welche Partei erhielt bei der Bundestagswahl 1969 bundesweit 4,3 % der Zweitstimmen?",
+      "a": "NPD|Nationaldemokratische Partei Deutschlands",
+      "difficulty": 2,
+      "status": "draft",
+      "verified": "2026-11-11",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1969.html",
+      "sources": [
+        "https://www.bundeswahlleiterin.de/bundestagswahlen/1969.html",
+        "https://www.bundeswahlleiterin.de/dam/jcr/397735e3-0585-46f6-a0b5-2c60c5b83de6/btw_ab49_gesamt.pdf"
+      ],
+      "sets": [
+        "Geschichte · Bundestagswahlen 1961–1983"
+      ],
+      "visual": null
+    },
+    {
+      "id": "btw-20261111-fdp-seats-1972",
+      "semantic_key": "btw-1972-fdp-seats-42",
+      "cat": "Geschichte",
+      "subcategory": "Sitzverteilung 1961–1983",
+      "source_refs": [
+        "btw1972",
+        "historical_pdf"
+      ],
+      "observation_keys": [
+        "fdp-seats-1972"
+      ],
+      "data_year": 1972,
+      "rounding": "Ganze Sitze exakt wie amtlich veröffentlicht.",
+      "notes": "Amtliche Sitzangabe einschließlich Berliner Abgeordneter.",
+      "time_dependent": false,
+      "q": "Wie viele Sitze erhielt die FDP nach der Bundestagswahl 1972?",
+      "a": "42|42 Sitze",
+      "difficulty": 2,
+      "status": "draft",
+      "verified": "2026-11-11",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1972.html",
+      "sources": [
+        "https://www.bundeswahlleiterin.de/bundestagswahlen/1972.html",
+        "https://www.bundeswahlleiterin.de/dam/jcr/397735e3-0585-46f6-a0b5-2c60c5b83de6/btw_ab49_gesamt.pdf"
+      ],
+      "sets": [
+        "Geschichte · Bundestagswahlen 1961–1983"
+      ],
+      "visual": null
+    },
+    {
+      "id": "btw-20261111-csu-1976",
+      "semantic_key": "btw-1976-party-10.6-second-csu",
+      "cat": "Geschichte",
+      "subcategory": "Parteiergebnisse 1961–1983",
+      "source_refs": [
+        "btw1976",
+        "historical_pdf"
+      ],
+      "observation_keys": [
+        "csu-share-1976"
+      ],
+      "data_year": 1976,
+      "rounding": "Eine Dezimalstelle wie amtlich veröffentlicht.",
+      "notes": "Bundesergebnis der gültigen Zweitstimmen.",
+      "time_dependent": false,
+      "q": "Welche Partei erhielt bei der Bundestagswahl 1976 bundesweit 10,6 % der Zweitstimmen?",
+      "a": "CSU|Christlich-Soziale Union",
+      "difficulty": 3,
+      "status": "draft",
+      "verified": "2026-11-11",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1976.html",
+      "sources": [
+        "https://www.bundeswahlleiterin.de/bundestagswahlen/1976.html",
+        "https://www.bundeswahlleiterin.de/dam/jcr/397735e3-0585-46f6-a0b5-2c60c5b83de6/btw_ab49_gesamt.pdf"
+      ],
+      "sets": [
+        "Geschichte · Bundestagswahlen 1961–1983"
+      ],
+      "visual": null
+    },
+    {
+      "id": "btw-20261111-valid-1980",
+      "semantic_key": "btw-1980-valid-second-37938981",
+      "cat": "Geschichte",
+      "subcategory": "Wahlstatistik 1961–1983",
+      "source_refs": [
+        "btw1980",
+        "historical_pdf"
+      ],
+      "observation_keys": [
+        "valid-second-1980"
+      ],
+      "data_year": 1980,
+      "rounding": "Ganze Stimmen exakt wie amtlich veröffentlicht.",
+      "notes": "Die amtliche Summe ist wegen nicht aufklärbarer Unstimmigkeiten bei Stimmenzählgeräten im Wahlkreis 247 um 80 niedriger als Wählende minus ungültige Zweitstimmen.",
+      "time_dependent": false,
+      "q": "Wie viele gültige Zweitstimmen weist das amtliche Bundesergebnis der Bundestagswahl 1980 aus?",
+      "a": "37.938.981|37938981",
+      "difficulty": 4,
+      "status": "draft",
+      "verified": "2026-11-11",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1980.html",
+      "sources": [
+        "https://www.bundeswahlleiterin.de/bundestagswahlen/1980.html",
+        "https://www.bundeswahlleiterin.de/dam/jcr/397735e3-0585-46f6-a0b5-2c60c5b83de6/btw_ab49_gesamt.pdf"
+      ],
+      "sets": [
+        "Geschichte · Bundestagswahlen 1961–1983"
+      ],
+      "visual": null
+    },
+    {
+      "id": "btw-20261111-eligible-1983",
+      "semantic_key": "btw-1983-eligible-44088935",
+      "cat": "Geschichte",
+      "subcategory": "Wahlstatistik 1961–1983",
+      "source_refs": [
+        "btw1983",
+        "historical_pdf"
+      ],
+      "observation_keys": [
+        "eligible-1983"
+      ],
+      "data_year": 1983,
+      "rounding": "Ganze Personen exakt wie amtlich veröffentlicht.",
+      "notes": "Bundesweite Zahl der Wahlberechtigten.",
+      "time_dependent": false,
+      "q": "Wie viele Wahlberechtigte gab es bei der Bundestagswahl 1983?",
+      "a": "44.088.935|44088935",
+      "difficulty": 4,
+      "status": "draft",
+      "verified": "2026-11-11",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1983.html",
+      "sources": [
+        "https://www.bundeswahlleiterin.de/bundestagswahlen/1983.html",
+        "https://www.bundeswahlleiterin.de/dam/jcr/397735e3-0585-46f6-a0b5-2c60c5b83de6/btw_ab49_gesamt.pdf"
+      ],
+      "sets": [
+        "Geschichte · Bundestagswahlen 1961–1983"
+      ],
+      "visual": null
+    },
+    {
+      "id": "btw-20261111-seat-tie-1983",
+      "semantic_key": "btw-1983-parties-each-202-seats-spd-cdu",
+      "cat": "Geschichte",
+      "subcategory": "Sitzverteilung 1961–1983",
+      "source_refs": [
+        "btw1983",
+        "historical_pdf"
+      ],
+      "observation_keys": [
+        "spd-cdu-seats-1983"
+      ],
+      "data_year": 1983,
+      "rounding": "Ganze Sitze exakt wie amtlich veröffentlicht.",
+      "notes": "Amtliche Sitzangabe einschließlich Berliner Abgeordneter; gesucht sind zwei Parteien.",
+      "time_dependent": false,
+      "q": "Welche zwei Parteien erhielten nach der Bundestagswahl 1983 jeweils 202 Sitze?",
+      "a": "SPD und CDU|CDU und SPD|SPD, CDU",
+      "difficulty": 5,
+      "status": "draft",
+      "verified": "2026-11-11",
+      "source": "https://www.bundeswahlleiterin.de/bundestagswahlen/1983.html",
+      "sources": [
+        "https://www.bundeswahlleiterin.de/bundestagswahlen/1983.html",
+        "https://www.bundeswahlleiterin.de/dam/jcr/397735e3-0585-46f6-a0b5-2c60c5b83de6/btw_ab49_gesamt.pdf"
+      ],
+      "sets": [
+        "Geschichte · Bundestagswahlen 1961–1983"
+      ],
+      "visual": null
+    }
+  ]
+}
