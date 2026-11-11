@@ -1,0 +1,10 @@
+{
+  "checked":"2026-11-11",
+  "open_pr_count":41,
+  "relevant_open_drafts":[
+    {"pr":148,"questions":20,"scope":"Geschichte: Gründungsphase der Bundesrepublik 1948–1953","conflict":false}
+  ],
+  "search_result":"Nur PR #148 enthielt die auswählbare Kategorie Geschichte.",
+  "excluded_parallel_topics":["Währungsreform 1948","Parlamentarischer Rat","Bundestagswahl 1949","Bundestagswahl 1953","Adenauer","Bonn"],
+  "retained_scope":"Amtliche Bundestagswahltermine und Bundesergebnisse 1961–1983; 22 einmalig verwendete Beobachtungen."
+}

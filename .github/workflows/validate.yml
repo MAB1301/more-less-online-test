@@ -18,3 +18,8 @@ jobs:
       - name: Static game regression checks
         run: |
           node scripts/regression-check.mjs
+      - name: Bundestagswahl history draft reproducibility and content checks
+        run: |
+          python3 scripts/build-geschichte-bundestagswahlen-draft-20261111.py --check
+          node scripts/inventory-geschichte-bundestagswahlen-draft-20261111.mjs --check
+          node scripts/check-geschichte-bundestagswahlen-draft-20261111.mjs

@@ -1,0 +1,12 @@
+{
+  "project_id":"rnwsbgzdrttqtivrwnxo",
+  "account":"Marc",
+  "checked":"2026-11-11",
+  "mode":"read-only",
+  "catalogue_total":7187,
+  "counts":{"moreless":4228,"estimate":1507,"facts":1452,"jeopardy":0},
+  "target_observation_matches":0,
+  "target_observations_checked":22,
+  "query_scope":"Payload enthält Bundestagswahl und eines der Wahljahre 1961, 1965, 1969, 1972, 1976, 1980 oder 1983.",
+  "database_writes":0
+}
